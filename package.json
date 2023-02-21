@@ -2,12 +2,12 @@
   "name": "casas_cambio_madrid",
   "version": "0.1.0",
   "private": true,
+   "homepage": "https://quickgold.es/casa-cambio-madrid-1",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+  "dev": "node server.js",
+  "build": "next build",
+  "start": "NODE_ENV=production node server.js"
+},
   "dependencies": {
     "@next/font": "13.1.6",
     "eslint": "8.34.0",
