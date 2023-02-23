@@ -1,0 +1,52 @@
+.contenedorMapa{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+
+.bloqueDer{
+    width: 640px;
+    height: 600px;
+    background-color: #f1f1f1;
+}
+.bloqueIzq{
+    width: 36%;
+}
+.bloqueIzq h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    text-align: center;
+    color: #213E58;
+}
+.bloqueIzq p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    color: #213E58;
+    margin-top: 35px;
+}
+.bloqueIzq p span{
+    color: #0692D0;
+}
+.linea {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+}
+.linea:before {
+    content: '';
+    width: 100%;
+    z-index: -1;
+    border-bottom: 7px solid #FBBE00;
+    position: absolute;
+    display: block;
+    height: 5px;
+    transform: translateY(30%);
+}
+.linea:before {
+    left: 2px;
+    top: calc(50% - 1px);
+}

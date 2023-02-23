@@ -1,0 +1,12 @@
+.contendorSectionDos{
+    width: 100%;
+    height: 490px;
+    border-radius: 8px;
+    margin-top: 55px;
+    display: flex;
+    background: url(http://localhost:3000/degradadoMadrid.png) no-repeat;
+    background-blend-mode: multiply;
+    background-position: left;
+    background-size: 50%;
+    background-color: #0692D0;  
+}
