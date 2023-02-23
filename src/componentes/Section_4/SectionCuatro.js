@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+//import Image from "next/image";
 import styles from "./sectionCuatro.module.css";
 
 const SectionCuatro = () => {
@@ -30,7 +30,6 @@ const SectionCuatro = () => {
           className={styles.Image}
           width={480}
           height={390}
-          priority
         />
       </div>
     </section>

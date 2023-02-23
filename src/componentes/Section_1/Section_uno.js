@@ -30,7 +30,6 @@ const Section_uno = () => {
           className={styles.vector}
           width={480}
           height={364}
-          priority
         />
       </div>
     </section>
