@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./header.module.css";
-import Image from "next/image";
+//import Image from "next/image";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -15,7 +15,7 @@ const Header = () => {
       <nav className={styles.contenedorLogo}>
         <figure>
           <a href="/" target="_blank" rel="noopener noreferrer">
-            <Image
+            <img
               src="/logo.png"
               alt="Quickgold Logo"
               className={styles.logo}
@@ -28,7 +28,7 @@ const Header = () => {
         <div className={styles.contenedorRedes}>
           <div className={styles.contenedorIconos}>
             <a className={styles.linkedin} href="/">
-              <Image
+              <img
                 src="/Vector12.png"
                 alt="Quickgold Logo"
                 className={styles.vector}

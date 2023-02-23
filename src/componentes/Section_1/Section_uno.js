@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+//import Image from "next/image";
 import styles from "./section_uno.module.css";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 
@@ -24,7 +24,7 @@ const Section_uno = () => {
         </div>
       </div>
       <div className={styles.bloqueDer}>
-        <Image
+        <img
           src="/madrid.png"
           alt="Quickgold Madrid"
           className={styles.vector}

@@ -24,7 +24,7 @@ const SectionCuatro = () => {
         </p>
       </div>
       <div className={styles.bloqueDer}>
-        <Image
+        <img
           src="/casa-cambio-madrid.png"
           alt="Quickgold Madrid"
           className={styles.Image}
