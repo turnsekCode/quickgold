@@ -1,6 +1,7 @@
 import styles from "./layout.module.css";
 import Header from "../../componentes/Cabecera/Header";
 import Footer from "../Footer/Footer";
+import BotonLamarFijo from "../BotonLlamarFijo/BotonLamarFijo";
 
 export default function Layout({ children }) {
   return (
@@ -9,6 +10,7 @@ export default function Layout({ children }) {
         <Header />
         {children}
         <Footer />
+        <BotonLamarFijo />
       </main>
     </>
   );
