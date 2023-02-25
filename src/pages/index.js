@@ -39,7 +39,7 @@ export async function getStaticProps() {
   );
   const dataIdWp = await response.json();
 
-  const marker = await fetch(`http://localhost:3001/markers.json`);
+  const marker = await fetch(`https://quickgold.es/markers.json`);
   const markers = await marker.json();
 
   // Pass data to the page via props
