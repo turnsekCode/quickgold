@@ -8,11 +8,8 @@ import SectionDos from "@/componentes/Section_2/SectionDos";
 import SectionTres from "@/componentes/Section_3/SectionTres";
 import SectionCuatro from "@/componentes/Section_4/SectionCuatro";
 import Mapa from "@/componentes/Mapa/Mapa";
-import { arrayTienda } from "../Data";
 
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Home({ dataIdWp, markers }) {
+export default function Home({ dataIdWp, markers, api }) {
   return (
     <>
       <Head>
@@ -27,13 +24,14 @@ export default function Home({ dataIdWp, markers }) {
         <SectionDos />
         <SectionTres />
         <SectionCuatro />
-        <Mapa markers={markers} />
+        <Mapa markers={markers} api={api} />
       </div>
     </>
   );
 }
 const idWp = "13848";
 export async function getStaticProps() {
+  const api = process.env.ACCESS_TOKEN;
   const response = await fetch(
     `https://quickgold.es/wp-json/wp/v2/pages/${idWp}`
   );
@@ -43,5 +41,5 @@ export async function getStaticProps() {
   const markers = await marker.json();
 
   // Pass data to the page via props
-  return { props: { dataIdWp, markers }, revalidate: 1 };
+  return { props: { dataIdWp, markers, api }, revalidate: 1 };
 }

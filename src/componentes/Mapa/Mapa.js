@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import BloqueTiendas from "../BloqueTiendas/BloqueTiendas";
 import styles from "./mapa.module.css";
+//import "mapbox-gl/dist/mapbox-gl.css";
 import Map, {
   FullscreenControl,
   GeolocateControl,
@@ -9,7 +10,7 @@ import Map, {
   Popup,
 } from "react-map-gl";
 
-const Mapa = ({ markers }) => {
+const Mapa = ({ markers, api }) => {
   const marcador = markers.arrayMarker;
   const [viewState, setViewState] = useState({
     longitude: -3.6883264,
@@ -19,25 +20,26 @@ const Mapa = ({ markers }) => {
   });
   const mapRef = useRef();
   const resetMap = () => {
+    setShowPopup(false);
     mapRef.current?.flyTo({
       center: [-3.6883264, 40.4535878],
       duration: 2000,
       zoom: 11,
     });
   };
-  /*const toggleTab = (index) => {
-    setShowPopup(index);
-  };*/
+  const [showPopup, setShowPopup] = useState(null);
+  const toggleTab = () => {
+    setShowPopup(true);
+  };
 
-  const [showPopup, setShowPopup] = useState({
+  const [showInfo, setShowInfo] = useState({
     longitude: "",
     latitude: "",
     tienda: "",
-    estado: null,
   });
 
   const onSelectMarker = (marker) => {
-    setShowPopup({
+    setShowInfo({
       longitude: marker.longitude,
       latitude: marker.latitude,
       tienda: marker.tienda,
@@ -48,7 +50,6 @@ const Mapa = ({ markers }) => {
       zoom: 11,
     });
   };
-
   return (
     <section className={styles.contenedorMapa}>
       <div className={styles.contenedorbloqueIzq}>
@@ -69,7 +70,7 @@ const Mapa = ({ markers }) => {
           onMove={(evt) => setViewState(evt.viewState)}
           className="mapa"
           mapStyle="mapbox://styles/mapbox/streets-v9"
-          mapboxAccessToken="pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw"
+          mapboxAccessToken={api}
         >
           <FullscreenControl /> <GeolocateControl /> <NavigationControl />
           <button
@@ -87,20 +88,21 @@ const Mapa = ({ markers }) => {
               latitude={marker.latitude}
               onClick={() => {
                 onSelectMarker(marker);
+                toggleTab();
               }}
             >
-              {showPopup.tienda && (
+              {showPopup ? (
                 <Popup
                   style={{ top: -25 }}
-                  longitude={showPopup.longitude}
+                  longitude={showInfo.longitude}
                   className="popup"
-                  latitude={showPopup.latitude}
+                  latitude={showInfo.latitude}
                   closeOnClick={false}
                   anchor={null}
                   onClose={() => setShowPopup(false)}
                 >
                   <div className="contenedor_popuop">
-                    <p className="nombre_ciudad_popup">{showPopup.tienda}</p>
+                    <p className="nombre_ciudad_popup">{showInfo.tienda}</p>
                     <p className="nombre_ciudad_popup">Contacto:</p>
                     <a
                       href="http://bit.ly/3X3XYRj"
@@ -126,7 +128,7 @@ const Mapa = ({ markers }) => {
                     </a>
                   </div>
                 </Popup>
-              )}
+              ) : null}
               {/*showPopup === "san bernardo" && (
                 <Popup
                   style={{ top: -35 }}

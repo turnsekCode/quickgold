@@ -4,9 +4,16 @@ export default function Document() {
   return (
     <Html lang="en">
       <link
+        rel="stylesheet preload prefetch"
         href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-        rel="stylesheet"
+        as="style"
       ></link>
+      <noscript>
+        <link
+          rel="stylesheet"
+          href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
+        />
+      </noscript>
       <Head />
       <body>
         <Main />
