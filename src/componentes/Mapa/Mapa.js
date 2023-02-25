@@ -63,7 +63,7 @@ const Mapa = ({ markers, api }) => {
     });
   };
   return (
-    <section className={styles.contenedorMapa}>
+    <section id="contenedorMapa" className={styles.contenedorMapa}>
       <div className={styles.contenedorbloqueIzq}>
         <div className={styles.bloqueIzq}>
           <h2>

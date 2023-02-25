@@ -14,6 +14,7 @@ const Footer = () => {
         <figure>
           <a href="/" title="texto" target="_blank" rel="noopener noreferrer">
             <img
+              loading="lazy"
               src="/logo.png"
               alt="Quickgold Logo"
               className={styles.logo}
@@ -115,7 +116,7 @@ const Footer = () => {
               <a title="texto" href="/">
                 <LinkedInIcon />
               </a>
-              <a title="texto" className={styles.twitter} href="">
+              <a title="texto" className={styles.twitter} href="/">
                 <TwitterIcon />
               </a>
               <a title="texto" href="/">

@@ -61,6 +61,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .botones a{
     width: 235px;

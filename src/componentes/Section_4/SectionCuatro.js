@@ -24,7 +24,8 @@ const SectionCuatro = () => {
       </div>
       <div className={styles.bloqueDer}>
         <img
-          src="/casa-cambio-madrid.png"
+          loading="lazy"
+          src="/casa-cambio-madrid.webp"
           alt="Quickgold Madrid"
           className={styles.Image}
           width={480}

@@ -2,6 +2,7 @@ import React from "react";
 //import Image from "next/image";
 import styles from "./section_uno.module.css";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
+import { Link } from "react-scroll";
 
 const Section_uno = () => {
   return (
@@ -16,10 +17,17 @@ const Section_uno = () => {
           dólares por euros o cualquier otra moneda extranjera? Ven a Quickgold.
         </p>
         <div className={styles.botones}>
-          <a href="/" title="texto">
+          <Link
+            to="contenedorMapa"
+            smooth={true}
+            offset={-110}
+            spy={true}
+            duration={500}
+            title="texto"
+          >
             <LocationOnOutlinedIcon />
             encuentra tu tienda
-          </a>
+          </Link>
           <a href="tel:900 373 629" title="texto">
             llamar a 900 373 629
           </a>
@@ -27,7 +35,7 @@ const Section_uno = () => {
       </div>
       <div className={styles.bloqueDer}>
         <img
-          src="/madrid.png"
+          src="/madrid.webp"
           alt="Quickgold Madrid"
           className={styles.vector}
           width={480}
