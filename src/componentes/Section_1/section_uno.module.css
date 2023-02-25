@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin-top: 20px;
+    padding: 0 20px;
 }
 .linea {
     position: relative;
@@ -25,7 +26,6 @@
 }
 .bloqueIzq {
     width: 100%;
-    padding: 0 20px;
 }
 .bloqueIzq h1{
     font-style: normal;
@@ -46,12 +46,15 @@
     margin-top: 40px;
 }
 .bloqueDer img{
-    width: 320px;
-    height: 250px;
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    border-radius: 8px;
 }
 .bloqueDer {
    display: flex;
    justify-content: center;
+    height: 220px;
 }
 .botones{
     margin: 40px 0;

@@ -16,11 +16,13 @@ const Section_uno = () => {
           dólares por euros o cualquier otra moneda extranjera? Ven a Quickgold.
         </p>
         <div className={styles.botones}>
-          <a href="/">
+          <a href="/" title="texto">
             <LocationOnOutlinedIcon />
             encuentra tu tienda
           </a>
-          <a href="tel:900 373 629">llamar a 900 373 629</a>
+          <a href="tel:900 373 629" title="texto">
+            llamar a 900 373 629
+          </a>
         </div>
       </div>
       <div className={styles.bloqueDer}>

@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className={styles.contenedorFooter}>
       <div className={styles.contenedorContenidoFooter}>
         <figure>
-          <a href="/" target="_blank" rel="noopener noreferrer">
+          <a href="/" title="texto" target="_blank" rel="noopener noreferrer">
             <img
               src="/logo.png"
               alt="Quickgold Logo"
@@ -24,88 +24,116 @@ const Footer = () => {
         </figure>
         <div className={styles.contenedorEnlaces}>
           <div className={styles.enlaces}>
-            <h5>servicios</h5>
+            <h4>servicios</h4>
             <ul>
-              <a href="/">
-                <li>Compra de oro</li>
-              </a>
-              <a href="/">
-                <li>Compra de divisas</li>
-              </a>
-              <a href="/">
-                <li>Compra de plata</li>
-              </a>
-              <a href="/">
-                <li>Compra de diamantes</li>
-              </a>
-              <a href="/">
-                <li>Oro de inversión</li>
-              </a>
+              <li>
+                <a title="texto" href="/">
+                  Compra de oro{" "}
+                </a>
+              </li>
+              <li>
+                <a title="texto" href="/">
+                  Compra de divisas
+                </a>
+              </li>
+              <li>
+                <a title="texto" href="/">
+                  Compra de plata{" "}
+                </a>
+              </li>
+              <li>
+                <a title="texto" href="/">
+                  Compra de diamantes{" "}
+                </a>
+              </li>
+              <li>
+                <a title="texto" href="/">
+                  Oro de inversión{" "}
+                </a>
+              </li>
             </ul>
           </div>
           <div className={styles.enlaces}>
-            <h5>acerca de nosotros</h5>
+            <h4>acerca de nosotros</h4>
             <ul>
-              <a href="/">
-                <li>Conoce Quickgold</li>
-              </a>
-              <a href="/">
-                <li>Preguntas frecuentes</li>
-              </a>
-              <a href="/">
-                <li>Localizador de tiendas</li>
-              </a>
-              <a href="/">
-                <li>Mapa del sitio</li>
-              </a>
-              <a href="/">
-                <li>Contacto</li>
-              </a>
-              <a href="/">
-                <li>Blog</li>
-              </a>
+              <li>
+                <a title="texto" href="/">
+                  Conoce Quickgold
+                </a>
+              </li>
+              <li>
+                <a title="texto" href="/">
+                  Preguntas frecuentes
+                </a>
+              </li>
+              <li>
+                <a title="texto" href="/">
+                  Localizador de tiendas{" "}
+                </a>
+              </li>
+              <li>
+                <a title="texto" href="/">
+                  Mapa del sitio{" "}
+                </a>
+              </li>
+              <li>
+                <a title="texto" href="/">
+                  Contacto{" "}
+                </a>
+              </li>
+              <li>
+                <a title="texto" href="/">
+                  Blog{" "}
+                </a>
+              </li>
             </ul>
           </div>
           <div className={styles.enlaces}>
-            <h5>únete a quickgold</h5>
+            <h4>únete a quickgold</h4>
             <ul>
-              <a href="/">
-                <li>Abrir un tienda Quickgold</li>
-              </a>
-              <a href="/">
-                <li>Dossier Franquicia</li>
-              </a>
-              <a href="/">
-                <li>Trabaja con nosotros</li>
-              </a>
+              <li>
+                <a title="texto" href="/">
+                  Abrir un tienda Quickgold
+                </a>
+              </li>
+              <li>
+                <a title="texto" href="/">
+                  Dossier Franquicia{" "}
+                </a>
+              </li>
+              <li>
+                <a title="texto" href="/">
+                  Trabaja con nosotros{" "}
+                </a>
+              </li>
             </ul>
           </div>
           <div className={styles.enlaces}>
             <p>Llama gratis al</p>
             <a href="te:900 373 629">900 373 629</a>
             <div className={styles.iconosRedes}>
-              <a href="">
+              <a title="texto" href="/">
                 <LinkedInIcon />
               </a>
-              <a className={styles.twitter} href="">
+              <a title="texto" className={styles.twitter} href="">
                 <TwitterIcon />
               </a>
-              <a href="">
+              <a title="texto" href="/">
                 <FacebookIcon />
               </a>
-              <a href="">
+              <a title="texto" href="/">
                 <InstagramIcon />
               </a>
             </div>
           </div>
         </div>
         <div className={styles.politicaPrivacidad}>
-          <a href="">
+          <a title="texto" href="/">
             <p>
               <LockIcon /> política de privacidad
             </p>
           </a>
-          <a href="">
+          <a title="texto" href="/">
             <p>
               <CheckCircleIcon />
               política de calidad

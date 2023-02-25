@@ -1,6 +1,6 @@
 .contenedorFooter{
     background: #213E58;
-    height: 435px;
+    height: 455px;
 }
 .contenedorContenidoFooter{
     max-width: 1060px;
@@ -18,7 +18,7 @@
 .enlaces{
     width: 35%;
 }
-.enlaces h5{
+.enlaces h4{
     font-weight: 400;
     font-size: 18px;
     line-height: 18px;

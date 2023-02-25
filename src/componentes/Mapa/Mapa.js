@@ -36,6 +36,12 @@ const Mapa = ({ markers, api }) => {
     longitude: "",
     latitude: "",
     tienda: "",
+    telefono: "",
+    direccion: "",
+    comoLlegar: "",
+    nombreTienda: "",
+    duration: "",
+    zoom: "",
   });
 
   const onSelectMarker = (marker) => {
@@ -43,6 +49,12 @@ const Mapa = ({ markers, api }) => {
       longitude: marker.longitude,
       latitude: marker.latitude,
       tienda: marker.tienda,
+      telefono: marker.telefono,
+      direccion: marker.direccion,
+      comoLlegar: marker.comoLlegar,
+      nombreTienda: marker.nombreTienda,
+      duration: marker.duration,
+      zoom: marker.zoom,
     });
     mapRef.current?.flyTo({
       center: { lng: marker.longitude, lat: marker.latitude },
@@ -102,19 +114,23 @@ const Mapa = ({ markers, api }) => {
                   onClose={() => setShowPopup(false)}
                 >
                   <div className="contenedor_popuop">
-                    <p className="nombre_ciudad_popup">{showInfo.tienda}</p>
+                    <p className="nombre_ciudad_popup">
+                      {showInfo.nombreTienda}
+                    </p>
                     <p className="nombre_ciudad_popup">Contacto:</p>
                     <a
-                      href="http://bit.ly/3X3XYRj"
+                      title="texto"
+                      href={showInfo.comoLlegar}
                       rel="noreferrer"
                       target="_blank"
                       className="direccion_popup"
                     >
-                      direccion
+                      {showInfo.direccion}
                     </a>
                     <br />
                     <a
-                      href="http://bit.ly/3X3XYRj"
+                      title="texto"
+                      href={showInfo.comoLlegar}
                       rel="noreferrer"
                       ƒ
                       className="boton_como_llegar"
@@ -122,49 +138,17 @@ const Mapa = ({ markers, api }) => {
                       Cómo llegar
                     </a>
                     <br></br>
-                    <a href="tel:" className="telefono_popup">
+                    <a
+                      href={`tel:${showInfo.telefono}`}
+                      className="telefono_popup"
+                      title="texto"
+                    >
                       <span>Llamar: </span>
-                      numero telefono
+                      {showInfo.telefono}
                     </a>
                   </div>
                 </Popup>
               ) : null}
-              {/*showPopup === "san bernardo" && (
-                <Popup
-                  style={{ top: -35 }}
-                  longitude={-3.7073656999999685}
-                  latitude={40.4232377}
-                  closeOnClick={false}
-                  anchor={null}
-                  onClose={() => setShowPopup(false)}
-                >
-                  <div className="contenedor_popuop">
-                    <p className="nombre_ciudad_popup">San Bernardo</p>
-                    <p className="nombre_ciudad_popup">Contacto:</p>
-                    <a
-                      href="http://bit.ly/3V13uCi"
-                      rel="noreferrer"
-                      target="_blank"
-                      className="direccion_popup"
-                    >
-                      san bernardo
-                    </a>
-                    <br />
-                    <a
-                      href="http://bit.ly/3V13uCi"
-                      rel="noreferrer"
-                      className="boton_como_llegar"
-                    >
-                      Cómo llegar
-                    </a>
-                    <br></br>
-                    <a href="tel:" className="telefono_popup">
-                      <span>Llamar: </span>
-                      numero sanbernardo
-                    </a>
-                  </div>
-                </Popup>
-              )*/}
             </Marker>
           ))}
         </Map>

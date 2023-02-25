@@ -72,9 +72,10 @@
             transition: 0.3s;
             color: #FFFFFF;
             display: flex;
+            align-items: center;
         }
     
-        .contenedorMenuSticky ul a:hover {
+        .contenedorMenuSticky ul li:hover {
             background: #0A6A94;
             border-radius: 2px;
         }
@@ -107,9 +108,10 @@
             transition: 0.3s;
             color: #FFFFFF;
             display: flex;
+            align-items: center;
         }
     
-        .contenedorMenu ul a:hover {
+        .contenedorMenu ul li:hover {
             background: #0A6A94;
             border-radius: 2px;
         }

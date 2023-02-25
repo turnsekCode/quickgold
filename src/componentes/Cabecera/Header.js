@@ -14,37 +14,37 @@ const Header = () => {
     <header className={styles.header}>
       <nav className={styles.contenedorLogo}>
         <figure>
-          <a href="/" target="_blank" rel="noopener noreferrer">
+          <a href="/" title="texto" target="_blank" rel="noopener noreferrer">
             <img
               src="/logo.png"
               alt="Quickgold Logo"
               className={styles.logo}
-              width={221}
-              height={42}
+              width={163}
+              height={30}
             />
           </a>
         </figure>
         <div className={styles.contenedorRedes}>
           <div className={styles.contenedorIconos}>
-            <a className={styles.linkedin} href="/">
+            <a className={styles.linkedin} href="/" title="texto">
               <img
                 src="/Vector12.png"
                 alt="Quickgold Logo"
                 className={styles.vector}
-                width={221}
-                height={42}
               />
               <LinkedInIcon />
             </a>
-            <a href="/">
+            <a href="/" title="texto">
               <FacebookIcon />
             </a>
-            <a href="/">
+            <a href="/" title="texto">
               <InstagramIcon />
             </a>
           </div>
           <div className={styles.botonLlamar}>
-            <a href="tel:900 373 629">LLAMA GRATIS AL 900 373 629</a>
+            <a href="tel:900 373 629" title="texto">
+              LLAMA GRATIS AL 900 373 629
+            </a>
           </div>
         </div>
       </nav>
@@ -57,23 +57,35 @@ const Header = () => {
         }
       >
         <ul className={styles.contenedorMenu}>
-          <a href="/">
-            <li>Compro Oro</li>
-          </a>
-          <a href="/">
-            <li>Cambio de divisas</li>
-          </a>
-          <a href="/">
-            <li>Empeño de joyas</li>
-          </a>
-          <a href="/">
-            <li>Otros servicios</li>
-            <KeyboardArrowDownIcon />
-          </a>
-          <a href="/">
-            <li>Tiendas</li>
-            <KeyboardArrowDownIcon />
-          </a>
+          <li>
+            <a href="/" title="texto">
+              Compro Oro
+            </a>
+          </li>
+
+          <li>
+            <a href="/" title="texto">
+              Cambio de divisas
+            </a>
+          </li>
+
+          <li>
+            <a href="/" title="texto">
+              Empeño de joyas
+            </a>
+          </li>
+
+          <li>
+            <a href="/" title="texto">
+              Otros servicios <KeyboardArrowDownIcon />
+            </a>
+          </li>
+
+          <li>
+            <a href="/" title="texto">
+              Tiendas <KeyboardArrowDownIcon />
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
