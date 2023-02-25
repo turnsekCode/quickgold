@@ -5,8 +5,8 @@
     margin-top: 60px;
 }
 .bloqueDer{
-    width: 640px;
-    height: 600px;
+    width: 100%;
+    height: 500px;
     background-color: #f1f1f1;
 }
 .bloqueIzq{
@@ -49,6 +49,19 @@
 .linea:before {
     left: 2px;
     top: calc(50% - 1px);
+}
+.reset_map {
+    z-index: 90;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    color: #000;
 }
 @media (min-width: 1191px) {
     .contenedorMapa {
@@ -109,5 +122,18 @@
         .linea:before {
             left: 2px;
             top: calc(50% - 1px);
+        }
+        .reset_map {
+            z-index: 90;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            color: #000;
         }
 }

@@ -9,7 +9,7 @@ import useSticky from "../../utilities/useSticky";
 
 const Header = () => {
   const { sticky, stickyRef } = useSticky();
-  console.log(sticky);
+
   return (
     <header className={styles.header}>
       <nav className={styles.contenedorLogo}>
@@ -33,7 +33,6 @@ const Header = () => {
                 className={styles.vector}
                 width={221}
                 height={42}
-                priority
               />
               <LinkedInIcon />
             </a>

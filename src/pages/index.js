@@ -8,10 +8,11 @@ import SectionDos from "@/componentes/Section_2/SectionDos";
 import SectionTres from "@/componentes/Section_3/SectionTres";
 import SectionCuatro from "@/componentes/Section_4/SectionCuatro";
 import Mapa from "@/componentes/Mapa/Mapa";
+import { arrayTienda } from "../Data";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home({ dataIdWp }) {
+export default function Home({ dataIdWp, markers }) {
   return (
     <>
       <Head>
@@ -26,7 +27,7 @@ export default function Home({ dataIdWp }) {
         <SectionDos />
         <SectionTres />
         <SectionCuatro />
-        <Mapa />
+        <Mapa markers={markers} />
       </div>
     </>
   );
@@ -38,6 +39,9 @@ export async function getStaticProps() {
   );
   const dataIdWp = await response.json();
 
+  const marker = await fetch(`http://localhost:3001/markers.json`);
+  const markers = await marker.json();
+
   // Pass data to the page via props
-  return { props: { dataIdWp }, revalidate: 1 };
+  return { props: { dataIdWp, markers }, revalidate: 1 };
 }
