@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./header.module.css";
 //import Image from "next/image";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import useSticky from "../../utilities/useSticky";
+import useScreenSize from "@/utilities/useScreenSize";
+import MenuOrdenador from "../MenuOrdenador/MenuOrdenador";
+import MenuMobil from "../MenuMobil/MenuMobil";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const Header = () => {
-  const { sticky, stickyRef } = useSticky();
-
+  const [menuAbieto, setMenuAbierto] = useState(false);
+  const { width } = useScreenSize();
   return (
     <header className={styles.header}>
       <nav className={styles.contenedorLogo}>
@@ -24,6 +26,10 @@ const Header = () => {
             />
           </a>
         </figure>
+        <MenuIcon
+          className={styles.menuHamburquesa}
+          onClick={() => setMenuAbierto(true)}
+        />
         <div className={styles.contenedorRedes}>
           <div className={styles.contenedorIconos}>
             <a className={styles.linkedin} href="/" title="texto">
@@ -48,46 +54,11 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      <nav
-        ref={stickyRef}
-        className={
-          sticky
-            ? `${styles.contenedorMenuSticky} ${styles.headersticky}`
-            : `${styles.contenedorMenu}`
-        }
-      >
-        <ul className={styles.contenedorMenu}>
-          <li>
-            <a href="/" title="texto">
-              Compro Oro
-            </a>
-          </li>
-
-          <li>
-            <a href="/" title="texto">
-              Cambio de divisas
-            </a>
-          </li>
-
-          <li>
-            <a href="/" title="texto">
-              Empeño de joyas
-            </a>
-          </li>
-
-          <li>
-            <a href="/" title="texto">
-              Otros servicios <KeyboardArrowDownIcon />
-            </a>
-          </li>
-
-          <li>
-            <a href="/" title="texto">
-              Tiendas <KeyboardArrowDownIcon />
-            </a>
-          </li>
-        </ul>
-      </nav>
+      {width <= 1190 ? (
+        <MenuMobil menuAbieto={menuAbieto} setMenuAbierto={setMenuAbierto} />
+      ) : (
+        <MenuOrdenador />
+      )}
     </header>
   );
 };

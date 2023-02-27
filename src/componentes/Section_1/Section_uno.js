@@ -7,7 +7,6 @@ import useScreenSize from "@/utilities/useScreenSize";
 
 const Section_uno = () => {
   const { width } = useScreenSize();
-  console.log(width);
   return (
     <section className={styles.contenedorSectionUno}>
       <div className={styles.bloqueIzq}>
@@ -27,7 +26,7 @@ const Section_uno = () => {
             spy={true}
             duration={500}
             title="texto"
-            passive={true}
+            passive="true"
           >
             <LocationOnOutlinedIcon />
             encuentra tu tienda
