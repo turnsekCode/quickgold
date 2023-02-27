@@ -24,6 +24,7 @@ const Section_uno = () => {
             spy={true}
             duration={500}
             title="texto"
+            passive={true}
           >
             <LocationOnOutlinedIcon />
             encuentra tu tienda
