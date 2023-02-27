@@ -3,8 +3,11 @@ import React from "react";
 import styles from "./section_uno.module.css";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import { Link } from "react-scroll";
+import useScreenSize from "@/utilities/useScreenSize";
 
 const Section_uno = () => {
+  const { width } = useScreenSize();
+  console.log(width);
   return (
     <section className={styles.contenedorSectionUno}>
       <div className={styles.bloqueIzq}>
@@ -35,13 +38,23 @@ const Section_uno = () => {
         </div>
       </div>
       <div className={styles.bloqueDer}>
-        <img
-          src="/madrid.webp"
-          alt="Quickgold Madrid"
-          className={styles.vector}
-          width={480}
-          height={364}
-        />
+        {width <= 610 ? (
+          <img
+            src="/madrid_mobil.webp"
+            alt="Quickgold Madrid"
+            className={styles.madridMobil}
+            width={290}
+            height={220}
+          />
+        ) : (
+          <img
+            src="/madrid.webp"
+            alt="Quickgold Madrid"
+            className={styles.vector}
+            width={480}
+            height={364}
+          />
+        )}
       </div>
     </section>
   );

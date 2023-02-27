@@ -15,7 +15,7 @@ const Footer = () => {
           <a href="/" title="texto" target="_blank" rel="noopener noreferrer">
             <img
               loading="lazy"
-              src="/logo.png"
+              src="https://quickgold.es/logo.png"
               alt="Quickgold Logo"
               className={styles.logo}
               width={221}

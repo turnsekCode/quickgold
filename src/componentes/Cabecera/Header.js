@@ -16,7 +16,7 @@ const Header = () => {
         <figure>
           <a href="/" title="texto" target="_blank" rel="noopener noreferrer">
             <img
-              src="/logo.png"
+              src="https://quickgold.es/logo.png"
               alt="Quickgold Logo"
               className={styles.logo}
               width={163}
@@ -28,7 +28,7 @@ const Header = () => {
           <div className={styles.contenedorIconos}>
             <a className={styles.linkedin} href="/" title="texto">
               <img
-                src="/Vector12.png"
+                src="https://quickgold.es/Vector12.png"
                 alt="Quickgold Logo"
                 className={styles.vector}
               />
