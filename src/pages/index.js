@@ -10,7 +10,9 @@ import SectionTres from "@/componentes/Section_3/SectionTres";
 import SectionCuatro from "@/componentes/Section_4/SectionCuatro";
 import Mapa from "@/componentes/Mapa/Mapa";
 
-const DynamicMapa = dynamic(() => import("../componentes/Mapa/Mapa.js"));
+const DynamicMapa = dynamic(() =>
+  import(/*componente del mapa script*/ "../componentes/Mapa/Mapa.js")
+);
 
 export default function Home({ dataIdWp, markers }) {
   return (
