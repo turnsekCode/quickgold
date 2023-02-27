@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
+import dynamic from "next/dynamic";
 import styles from "@/styles/Home.module.css";
 import Breadcrumbs from "@/componentes/Breadcrumbs/Breadcrumbs";
 import Section_uno from "@/componentes/Section_1/Section_uno";
@@ -9,8 +10,9 @@ import SectionTres from "@/componentes/Section_3/SectionTres";
 import SectionCuatro from "@/componentes/Section_4/SectionCuatro";
 import Mapa from "@/componentes/Mapa/Mapa";
 
+const DynamicMapa = dynamic(() => import("../componentes/Mapa/Mapa.js"));
+
 export default function Home({ dataIdWp, markers }) {
-  const api = process.env.NEXT_PUBLIC_MAPA;
   return (
     <>
       <Head>
@@ -25,7 +27,8 @@ export default function Home({ dataIdWp, markers }) {
         <SectionDos />
         <SectionTres />
         <SectionCuatro />
-        <Mapa markers={markers} api={api} />
+        <DynamicMapa markers={markers} />
+        {/*<Mapa markers={markers} />*/}
       </div>
     </>
   );

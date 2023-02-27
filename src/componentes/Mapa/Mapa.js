@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import BloqueTiendas from "../BloqueTiendas/BloqueTiendas";
 import styles from "./mapa.module.css";
+import dynamic from "next/dynamic";
 //import "mapbox-gl/dist/mapbox-gl.css";
 import Map, {
   FullscreenControl,
@@ -10,7 +11,11 @@ import Map, {
   Popup,
 } from "react-map-gl";
 
-const Mapa = ({ markers, api }) => {
+const DynamicBloqueTiendas = dynamic(() =>
+  import("../BloqueTiendas/BloqueTiendas")
+);
+
+const Mapa = ({ markers }) => {
   const marcador = markers.arrayMarker;
   const [viewState, setViewState] = useState({
     longitude: -3.6883264,
@@ -73,7 +78,8 @@ const Mapa = ({ markers, api }) => {
             Tiendas Quickgold: <span>6</span>
           </p>
         </div>
-        <BloqueTiendas />
+        <DynamicBloqueTiendas />
+        {/*<BloqueTiendas />*/}
       </div>
       <div className={styles.bloqueDer}>
         <Map
@@ -81,8 +87,8 @@ const Mapa = ({ markers, api }) => {
           {...viewState}
           onMove={(evt) => setViewState(evt.viewState)}
           className="mapa"
-          mapStyle="mapbox://styles/mapbox/streets-v9"
-          mapboxAccessToken={api}
+          mapStyle="mapbox://styles/mapbox/streets-v9?optimize=true"
+          mapboxAccessToken={process.env.NEXT_PUBLIC_MAPA}
         >
           <FullscreenControl /> <GeolocateControl /> <NavigationControl />
           <button
