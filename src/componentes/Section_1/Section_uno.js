@@ -14,9 +14,9 @@ const Section_uno = () => {
           Casas de cambio en <span className={styles.linea}>Madrid</span>
         </h1>
         <p>
-          En nuestra casas de cambio en Barcelona puedes cambiar más de 30
-          monedas extranjeras al momento y sin comisiones. ¿Necesitas cambiar
-          dólares por euros o cualquier otra moneda extranjera? Ven a Quickgold.
+          En nuestra casas de cambio en Madrid puedes cambiar más de 30 monedas
+          extranjeras al momento y sin comisiones. ¿Necesitas cambiar dólares
+          por euros o cualquier otra moneda extranjera? Ven a Quickgold.
         </p>
         <div className={styles.botones}>
           <Link

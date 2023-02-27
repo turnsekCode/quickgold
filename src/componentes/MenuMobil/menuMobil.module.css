@@ -7,12 +7,14 @@
     right: 0;
 }
 .closeBoton{
-    font-size: 43px;
-    color: #FFFFFF;
     display: flex;
     justify-content: flex-end;
     margin: 20px -9px 50px 0;
     cursor: pointer;
+}
+.closeBoton svg{
+    font-size: 43px;
+    color: #FFFFFF;
 }
 .menuMobil{
     position: absolute;
@@ -56,11 +58,9 @@
     cursor: pointer;
     text-transform: uppercase;
 }
-.listasMenu a:hover {
-    text-decoration: underline;
-}
-.servicios:hover {
-    text-decoration: underline;
+.servicios svg{
+    font-size: 36px;
+    margin: 0 -10px 0 6px;
 }
 .subServicios{
     background: #213E58;

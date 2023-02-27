@@ -26,10 +26,9 @@ const Header = () => {
             />
           </a>
         </figure>
-        <MenuIcon
-          className={styles.menuHamburquesa}
-          onClick={() => setMenuAbierto(true)}
-        />
+        <div className={styles.menuHamburquesa}>
+          <MenuIcon onClick={() => setMenuAbierto(true)} />
+        </div>
         <div className={styles.contenedorRedes}>
           <div className={styles.contenedorIconos}>
             <a className={styles.linkedin} href="/" title="texto">
