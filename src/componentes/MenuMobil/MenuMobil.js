@@ -6,7 +6,6 @@ import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import { Tiendas } from "../../utilities/DataTiendas";
 
 const MenuMobil = ({ menuAbieto, setMenuAbierto }) => {
-  console.log(Tiendas);
   const [subMenuAbieto, setSubMenuAbierto] = useState(false);
   const [subMenuTienda, setSubMenuTienda] = useState(false);
   return (

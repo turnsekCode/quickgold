@@ -83,6 +83,7 @@ const Mapa = ({ markers }) => {
       </div>
       <div className={styles.bloqueDer}>
         <Map
+          onStyleLoad
           ref={mapRef}
           {...viewState}
           onMove={(evt) => setViewState(evt.viewState)}

@@ -7,7 +7,7 @@
     z-index: 200;
 }
 .contenedorLogo{
-    height: 80px;
+    height: 70px;
     max-width: 1060px;
     margin: 0 auto;
     display: flex;
@@ -20,6 +20,7 @@
     font-size: 43px;
     display: block;
     cursor: pointer;
+    margin-bottom: 4px;
 }
 .contenedorRedes {
     display: none;
