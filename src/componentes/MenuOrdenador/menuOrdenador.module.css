@@ -126,6 +126,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        line-height: 4px;
     }
     .subMenuTiendas a:hover{
         color: #fbbf04;
