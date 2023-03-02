@@ -5,7 +5,8 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import { Tiendas } from "../../utilities/DataTiendas";
 
-const MenuMobil = ({ menuAbieto, setMenuAbierto }) => {
+const MenuMobil = ({ menuAbieto, setMenuAbierto, menu_list }) => {
+  const datos = menu_list.items;
   const [subMenuAbieto, setSubMenuAbierto] = useState(false);
   const [subMenuTienda, setSubMenuTienda] = useState(false);
   return (
@@ -91,13 +92,14 @@ const MenuMobil = ({ menuAbieto, setMenuAbierto }) => {
                 : `${styles.subServicios} `
             }
           >
-            {Tiendas.map((tienda) => (
+            {datos.map((tienda, index) => (
               <a
                 onClick={() => setMenuAbierto(false)}
-                key={tienda.id}
+                key={index}
                 href={tienda.url}
+                title={tienda.title}
               >
-                {tienda.tienda}
+                {tienda.title}
               </a>
             ))}
           </div>

@@ -9,7 +9,7 @@ import MenuOrdenador from "../MenuOrdenador/MenuOrdenador";
 import MenuMobil from "../MenuMobil/MenuMobil";
 import MenuIcon from "@mui/icons-material/Menu";
 
-const Header = () => {
+const Header = ({ menu_list }) => {
   const [menuAbieto, setMenuAbierto] = useState(false);
   const { width } = useScreenSize();
   return (
@@ -54,9 +54,13 @@ const Header = () => {
         </div>
       </nav>
       {width <= 1190 ? (
-        <MenuMobil menuAbieto={menuAbieto} setMenuAbierto={setMenuAbierto} />
+        <MenuMobil
+          menu_list={menu_list}
+          menuAbieto={menuAbieto}
+          setMenuAbierto={setMenuAbierto}
+        />
       ) : (
-        <MenuOrdenador />
+        <MenuOrdenador menu_list={menu_list} />
       )}
     </header>
   );

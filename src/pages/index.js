@@ -9,12 +9,13 @@ import SectionDos from "@/componentes/Section_2/SectionDos";
 import SectionTres from "@/componentes/Section_3/SectionTres";
 import SectionCuatro from "@/componentes/Section_4/SectionCuatro";
 import Mapa from "@/componentes/Mapa/Mapa";
+import Layout from "@/componentes/Layout/Layout";
 
 const DynamicMapa = dynamic(() =>
   import(/*componente del mapa script*/ "../componentes/Mapa/Mapa.js")
 );
 
-export default function Home({ dataIdWp, markers }) {
+export default function Home({ dataIdWp, markers, menu_list }) {
   return (
     <>
       <Head>
@@ -26,15 +27,17 @@ export default function Home({ dataIdWp, markers }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <div className={styles.main}>
-        <Breadcrumbs />
-        <Section_uno />
-        <SectionDos />
-        <SectionTres />
-        <SectionCuatro />
-        <DynamicMapa markers={markers} />
-        {/*<Mapa markers={markers} />*/}
-      </div>
+      <Layout menu_list={menu_list}>
+        <div className={styles.main}>
+          <Breadcrumbs />
+          <Section_uno />
+          <SectionDos />
+          <SectionTres />
+          <SectionCuatro />
+          <DynamicMapa markers={markers} />
+          {/*<Mapa markers={markers} />*/}
+        </div>
+      </Layout>
     </>
   );
 }
@@ -48,11 +51,11 @@ export async function getStaticProps() {
   const marker = await fetch(`https://quickgold.es/markers.json`);
   const markers = await marker.json();
 
-  /*const acf = await fetch(
-    `https://quickgold.es/wp-json/acf/v3/pages?per_page=24`
+  const menu = await fetch(
+    `https://admin.quickgold.es/wp-json/menus/v1/menus/2`
   );
-  const acfs = await acf.json();*/
+  const menu_list = await menu.json();
 
   // Pass data to the page via props
-  return { props: { dataIdWp, markers }, revalidate: 1 };
+  return { props: { dataIdWp, markers, menu_list }, revalidate: 1 };
 }

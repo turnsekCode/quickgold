@@ -15,8 +15,6 @@ const Comprar = () => {
         setLoading(true);
       });
   }, []);
-  console.log(data.result?.Tarifas?.Divisas_Compra[28].Productos[0].Precio);
-  console.log(loading);
   const precioDolar =
     data.result?.Tarifas?.Divisas_Compra[28].Productos[0].Precio;
   return (
