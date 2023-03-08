@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Comprar from "../ConversorDivisa/Comprar";
 import styles from "./section_2.module.css";
+import Vender from "../ConversorDivisa/Vender";
 
-const SectionDos = () => {
+const SectionDos = ({ datos }) => {
+  const [switched, setSwitched] = useState(null);
   return (
     <section className={styles.contendorSectionDos}>
       <div className={styles.contendorBloques}>
@@ -15,13 +17,33 @@ const SectionDos = () => {
             <p>Descubre el valor de la moneda que te interesa.</p>
           </div>
           <div className={styles.contenedorBotones}>
-            <button className={`${styles.botonComprar} ${styles.botonActivo}`}>
-              COMPRAR DIVISA
+            <button
+              onClick={() => {
+                setSwitched(false);
+              }}
+              className={
+                switched
+                  ? `${styles.botonComprar}`
+                  : `${styles.botonComprar} ${styles.botonActivo}`
+              }
+            >
+              QUIERO EUROS
             </button>
-            <button className={styles.botonVender}>VENDER DIVISA</button>
+            <button
+              className={
+                switched
+                  ? `${styles.botonVender} ${styles.botonActivo}`
+                  : ` ${styles.botonVender}`
+              }
+              onClick={() => {
+                setSwitched(true);
+              }}
+            >
+              TENGO EUROS
+            </button>
           </div>
         </div>
-        <Comprar />
+        {switched ? <Vender datos={datos} /> : <Comprar datos={datos} />}
       </div>
     </section>
   );

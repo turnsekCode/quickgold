@@ -63,6 +63,33 @@
     cursor: pointer;
     color: #000;
 }
+.contenedorTiendas {
+    padding: 0 20px;
+    overflow-x: hidden;
+    height: 380px;
+    margin-top: 20px;
+}
+
+.tienda {
+    margin: 0px 0px 15px;
+    cursor: pointer;
+}
+
+.tienda h5 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #213E58;
+}
+
+.tienda p {
+    font-weight: 500;
+    margin: 0 0 0 20px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+    color: #213E58;
+}
 @media (min-width: 1191px) {
     .contenedorMapa {
             display: flex;
@@ -135,5 +162,31 @@
             box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
             cursor: pointer;
             color: #000;
+        }
+        .contenedorTiendas {
+            padding: 0 20px;
+            overflow-x: hidden;
+            height: 488px;
+        }
+
+        .tienda {
+            margin: 30px 0;
+            cursor: pointer;
+        }
+
+        .tienda h5 {
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 20px;
+            color: #213E58;
+        }
+
+        .tienda p {
+            font-weight: 500;
+            margin: 0 0 0 20px;
+            font-size: 14px;
+            text-align: left;
+            line-height: 20px;
+            color: #213E58;
         }
 }

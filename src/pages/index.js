@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter } from "@next/font/google";
 import dynamic from "next/dynamic";
 import styles from "@/styles/Home.module.css";
 import Breadcrumbs from "@/componentes/Breadcrumbs/Breadcrumbs";
@@ -15,7 +14,7 @@ const DynamicMapa = dynamic(() =>
   import(/*componente del mapa script*/ "../componentes/Mapa/Mapa.js")
 );
 
-export default function Home({ dataIdWp, markers, menu_list }) {
+export default function Home({ dataIdWp, markers, menu_list, datos }) {
   return (
     <>
       <Head>
@@ -31,7 +30,7 @@ export default function Home({ dataIdWp, markers, menu_list }) {
         <div className={styles.main}>
           <Breadcrumbs />
           <Section_uno />
-          <SectionDos />
+          <SectionDos datos={datos} />
           <SectionTres />
           <SectionCuatro />
           <DynamicMapa markers={markers} />
@@ -56,6 +55,11 @@ export async function getStaticProps() {
   );
   const menu_list = await menu.json();
 
+  const data = await fetch(
+    `https://quickgold.es/archivos-cache/Fixingmadrid.txt`
+  );
+  const datos = await data.json();
+
   // Pass data to the page via props
-  return { props: { dataIdWp, markers, menu_list }, revalidate: 1 };
+  return { props: { dataIdWp, markers, menu_list, datos }, revalidate: 1 };
 }

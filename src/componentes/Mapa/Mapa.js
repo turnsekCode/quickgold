@@ -1,8 +1,7 @@
 import React, { useState, useRef } from "react";
-import BloqueTiendas from "../BloqueTiendas/BloqueTiendas";
+//import BloqueTiendas from "../BloqueTiendas/BloqueTiendas";
 import styles from "./mapa.module.css";
-import dynamic from "next/dynamic";
-//import "mapbox-gl/dist/mapbox-gl.css";
+//import dynamic from "next/dynamic";
 import Map, {
   FullscreenControl,
   GeolocateControl,
@@ -11,10 +10,9 @@ import Map, {
   Popup,
 } from "react-map-gl";
 
-const DynamicBloqueTiendas = dynamic(() =>
+/*const DynamicBloqueTiendas = dynamic(() =>
   import("../BloqueTiendas/BloqueTiendas")
-);
-
+);*/
 const Mapa = ({ markers }) => {
   const marcador = markers.arrayMarker;
   const [viewState, setViewState] = useState({
@@ -78,7 +76,24 @@ const Mapa = ({ markers }) => {
             Tiendas Quickgold: <span>6</span>
           </p>
         </div>
-        <DynamicBloqueTiendas />
+        <div className={styles.contenedorTiendas}>
+          {marcador.map((marker) => (
+            <div
+              className={styles.tienda}
+              onClick={() => {
+                toggleTab();
+                onSelectMarker(marker);
+              }}
+            >
+              <h3>{marker.nombreTienda}</h3>
+              <p>{marker.direccion}</p>
+              <a title="texto" href={`tel:${marker.telefono}`}>
+                <p>Telefono: {marker.telefono}</p>
+              </a>
+              <a href={marker.direccion}>Cómo llegar</a>
+            </div>
+          ))}
+        </div>
         {/*<BloqueTiendas />*/}
       </div>
       <div className={styles.bloqueDer}>

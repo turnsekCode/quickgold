@@ -2,7 +2,7 @@
     background: rgba(0, 0, 0, 0.5);
     width: 0;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
 }
@@ -17,7 +17,7 @@
     color: #FFFFFF;
 }
 .menuMobil{
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     width: 300px;
@@ -70,8 +70,8 @@
     transition: 1s;
     position: relative;
     height: 0px;
-    overflow: hidden;
     transition: height .3s ease;
+    overflow-x: scroll;
 }
 .subServicios a{
     padding-right: 30px;
@@ -82,7 +82,8 @@
     text-transform: uppercase;
 }
 .subMenuActivo{
-    height: 150px;
+    height: 100px;
+    overflow-x: hidden;
 }
 .menuActive{
     right: -300px;
