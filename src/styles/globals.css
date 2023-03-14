@@ -28,6 +28,8 @@ a {
 ul {
   list-style: none;
 }
-
+.mapboxgl-popup-close-button {
+  font-size: 25px;
+}
 
 

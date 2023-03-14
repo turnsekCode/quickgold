@@ -37,7 +37,7 @@ const BloqueTiendas = ({ markers, setShowPopup, setShowInfo }) => {
         >
           <h3>{marker.nombreTienda}</h3>
           <p>{marker.direccion}</p>
-          <a title="texto" href={`tel:${marker.telefono}`}>
+          <a title={marker.nombreTienda} href={`tel:${marker.telefono}`}>
             <p>Telefono: {marker.telefono}</p>
           </a>
           <a href={marker.direccion}>Cómo llegar</a>

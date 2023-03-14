@@ -16,7 +16,12 @@ const Header = ({ menu_list }) => {
     <header className={styles.header}>
       <nav className={styles.contenedorLogo}>
         <figure>
-          <a href="/" title="texto" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://quickgold.es/"
+            title="Logo Quickgold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src="https://quickgold.es/logo.png"
               alt="Quickgold Logo"
@@ -31,7 +36,12 @@ const Header = ({ menu_list }) => {
         </div>
         <div className={styles.contenedorRedes}>
           <div className={styles.contenedorIconos}>
-            <a className={styles.linkedin} href="/" title="texto">
+            <a
+              target="_blank"
+              className={styles.linkedin}
+              href="https://www.linkedin.com/company/quickgold"
+              title="Linkedin"
+            >
               <img
                 src="https://quickgold.es/Vector12.png"
                 alt="Quickgold Logo"
@@ -39,15 +49,23 @@ const Header = ({ menu_list }) => {
               />
               <LinkedInIcon />
             </a>
-            <a href="/" title="texto">
+            <a
+              href="https://www.facebook.com/quickgold.es/"
+              title="Facebook"
+              target="_blank"
+            >
               <FacebookIcon />
             </a>
-            <a href="/" title="texto">
+            <a
+              href="https://www.instagram.com/quickgold.es/"
+              title="Instagram"
+              target="_blank"
+            >
               <InstagramIcon />
             </a>
           </div>
           <div className={styles.botonLlamar}>
-            <a href="tel:900 373 629" title="texto">
+            <a href="tel:900 373 629" title="Teléfono">
               LLAMA GRATIS AL 900 373 629
             </a>
           </div>

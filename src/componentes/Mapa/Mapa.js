@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 //import BloqueTiendas from "../BloqueTiendas/BloqueTiendas";
 import styles from "./mapa.module.css";
 //import dynamic from "next/dynamic";
+import { Link } from "react-scroll";
 import Map, {
   FullscreenControl,
   GeolocateControl,
@@ -36,6 +37,7 @@ const Mapa = ({ markers }) => {
   };
 
   const [showInfo, setShowInfo] = useState({
+    id: "",
     longitude: "",
     latitude: "",
     tienda: "",
@@ -46,9 +48,10 @@ const Mapa = ({ markers }) => {
     duration: "",
     zoom: "",
   });
-
+  const [activeId, setActiveId] = useState("");
   const onSelectMarker = (marker) => {
     setShowInfo({
+      id: marker.id,
       longitude: marker.longitude,
       latitude: marker.latitude,
       tienda: marker.tienda,
@@ -64,45 +67,73 @@ const Mapa = ({ markers }) => {
       duration: 1500,
       zoom: 11,
     });
+    setActiveId(marker.id);
   };
+  const numeroDeTiendas = markers.arrayMarker[markers.arrayMarker.length - 1];
   return (
-    <section id="contenedorMapa" className={styles.contenedorMapa}>
+    <section className={styles.contenedorMapa}>
       <div className={styles.contenedorbloqueIzq}>
         <div className={styles.bloqueIzq}>
           <h2>
             Casas de cambio en <span className={styles.linea}>Madrid</span>
           </h2>
           <p>
-            Tiendas Quickgold: <span>6</span>
+            Tiendas Quickgold: <span>{numeroDeTiendas.id}</span>
           </p>
         </div>
         <div className={styles.contenedorTiendas}>
           {marcador.map((marker) => (
             <div
-              className={styles.tienda}
               onClick={() => {
                 toggleTab();
                 onSelectMarker(marker);
               }}
+              key={marker.id}
+              className={
+                activeId === marker.id && showPopup
+                  ? `${styles.contenedorInfoTiendaMapa} ${styles.contenedorInfoTiendaMapaActivo}`
+                  : ` ${styles.contenedorInfoTiendaMapa}`
+              }
             >
-              <h3>{marker.nombreTienda}</h3>
-              <p>{marker.direccion}</p>
-              <a title="texto" href={`tel:${marker.telefono}`}>
+              <Link
+                onClick={() => {
+                  toggleTab();
+                  onSelectMarker(marker);
+                }}
+                to="contenedorMapa"
+                smooth={true}
+                offset={-110}
+                spy={true}
+                duration={500}
+              >
+                <h3>{marker.nombreTienda}</h3>
+              </Link>
+              <div className={styles.tienda}>
+                <p>{marker.direccion}</p>
                 <p>Telefono: {marker.telefono}</p>
-              </a>
-              <a href={marker.direccion}>Cómo llegar</a>
+                <Link
+                  to="contenedorMapa"
+                  smooth={true}
+                  offset={-110}
+                  spy={true}
+                  duration={500}
+                  className={styles.boton_como_llegar}
+                >
+                  Ver Más
+                </Link>
+              </div>
             </div>
           ))}
         </div>
         {/*<BloqueTiendas />*/}
       </div>
-      <div className={styles.bloqueDer}>
+      <div className={styles.bloqueDer} id="contenedorMapa">
         <Map
           onStyleLoad
           ref={mapRef}
           {...viewState}
           onMove={(evt) => setViewState(evt.viewState)}
-          className="mapa"
+          className={styles.mapa}
           mapStyle="mapbox://styles/mapbox/streets-v9?optimize=true"
           mapboxAccessToken={process.env.NEXT_PUBLIC_MAPA}
         >
@@ -127,7 +158,7 @@ const Mapa = ({ markers }) => {
             >
               {showPopup ? (
                 <Popup
-                  style={{ top: -25 }}
+                  style={{ top: -25, maxWidth: 255 }}
                   longitude={showInfo.longitude}
                   className="popup"
                   latitude={showInfo.latitude}
@@ -135,35 +166,35 @@ const Mapa = ({ markers }) => {
                   anchor={null}
                   onClose={() => setShowPopup(false)}
                 >
-                  <div className="contenedor_popuop">
-                    <p className="nombre_ciudad_popup">
+                  <div className={styles.contenedor_popuop}>
+                    <p className={styles.nombre_ciudad_popup}>
                       {showInfo.nombreTienda}
                     </p>
-                    <p className="nombre_ciudad_popup">Contacto:</p>
+                    <p className={styles.nombre_ciudad_popup}>Contacto:</p>
                     <a
-                      title="texto"
+                      title="Dirección"
                       href={showInfo.comoLlegar}
                       rel="noreferrer"
                       target="_blank"
-                      className="direccion_popup"
+                      className={styles.direccion_popup}
                     >
                       {showInfo.direccion}
                     </a>
                     <br />
                     <a
-                      title="texto"
+                      title="Cómo llegar"
                       href={showInfo.comoLlegar}
                       rel="noreferrer"
                       ƒ
-                      className="boton_como_llegar"
+                      className={styles.boton_como_llegar}
                     >
                       Cómo llegar
                     </a>
                     <br></br>
                     <a
                       href={`tel:${showInfo.telefono}`}
-                      className="telefono_popup"
-                      title="texto"
+                      className={styles.telefono_popup}
+                      title="Teléfono"
                     >
                       <span>Llamar: </span>
                       {showInfo.telefono}

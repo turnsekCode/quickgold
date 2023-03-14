@@ -122,7 +122,7 @@
     cursor: pointer;
 }
 .select{
-    width: 80px;
+    width: 100%;
     height: 27px;
     background: #F5F5F5;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
@@ -134,6 +134,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    font-size: 14px;
 }
 .select_monedas{
     position: absolute;
@@ -154,15 +155,15 @@
     background-color: #E83C82;
     color: #fff;
 }
-  .contenedor_list:hover .moneda {
-      background-color: #E83C82;
-      color: #fff;
-  }
+.contenedor_list:hover .moneda {
+    background-color: #E83C82;
+    color: #fff;
+}
 
-  .contenedor_list:hover .nombre {
-      background-color: #E83C82;
-      color: #fff;
-  }
+.contenedor_list:hover .nombre {
+    background-color: #E83C82;
+    color: #fff;
+}
 .select_activo{
     display: block;
 }
@@ -381,7 +382,7 @@
     }
 
     .select {
-        width: 80px;
+        width: 100%;
         height: 27px;
         background: #F5F5F5;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
@@ -393,6 +394,7 @@
         align-items: center;
         justify-content: center;
         position: relative;
+        font-size: 14px;
     }
 
     .select_monedas {

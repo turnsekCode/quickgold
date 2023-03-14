@@ -17,43 +17,63 @@ const MenuOrdenador = ({ menu_list }) => {
     >
       <ul className={styles.contenedorMenu}>
         <li>
-          <a href="/" title="texto">
+          <a href="https://quickgold.es/compro-oro/" title="Ir a compro oro">
             Compro Oro
           </a>
         </li>
 
         <li>
-          <a href="/" title="texto">
+          <a
+            href="https://quickgold.es/cambio-divisas/"
+            title="Ir a cambio divisas"
+          >
             Cambio de divisas
           </a>
         </li>
 
         <li>
-          <a href="/" title="texto">
+          <a
+            href="https://quickgold.es/empeno-de-joyas/"
+            title="Ir a empeño de joyas"
+          >
             Empeño de joyas
           </a>
         </li>
 
         <li className={styles.contenedorSubMenuServicios}>
-          <a title="Otros servicios" href="/">
+          <div className={styles.servicios}>
             Otros servicios <KeyboardArrowDownIcon />
-          </a>
+          </div>
           <div className={styles.subMenuServicios}>
-            <a href="/">INVERTIR EN ORO</a>
-            <a title="JOYERÍA DE OCASIÓN" href="/">
+            <a
+              title="Ir a invertir en oro"
+              href="https://quickgold.es/invertir-en-oro/"
+            >
+              INVERTIR EN ORO
+            </a>
+            <a
+              title="Ir a joyería de ocasión"
+              href="https://quickgold.es/joyeria-de-ocasion/"
+            >
               JOYERÍA DE OCASIÓN
             </a>
-            <a title="COMPRA DE PLATA" href="/">
+            <a
+              title="Ir a compra de plata"
+              href="https://quickgold.es/compro-plata/"
+            >
               COMPRA DE PLATA
             </a>
-            <a title="COMPRA DE DIAMANTES" href="/">
+            <a
+              title="Ir a compra de diamantes"
+              href="https://quickgold.es/vender-diamantes/"
+            >
               COMPRA DE DIAMANTES
             </a>
           </div>
         </li>
 
         <li className={styles.contenedorSubMenuTiendas}>
-          <a href="/" title="texto">
+          <a href="https://quickgold.es/tiendas/" title="texto">
             Tiendas <KeyboardArrowDownIcon />
           </a>
           <div className={styles.subMenuTiendas}>

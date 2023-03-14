@@ -7,8 +7,8 @@ const SectionTres = () => {
       <div className={styles.contenedorContenidoUno}>
         <div className={styles.bloqueIzq}>
           <h2>
-            ¿Necesitas una oficina de cambio en{" "}
-            <span className={styles.linea}>Madrid?</span>
+            ¿Necesitas una oficina de cambio en
+            <span className={styles.linea}> Madrid?</span>
           </h2>
           <p>
             <span>

@@ -69,9 +69,11 @@
     height: 380px;
     margin-top: 20px;
 }
-
+.contenedorTiendas h3 {
+    cursor: pointer;
+}
 .tienda {
-    margin: 0px 0px 15px;
+    margin: 5px 0px 10px;
     cursor: pointer;
 }
 
@@ -89,6 +91,69 @@
     text-align: left;
     line-height: 20px;
     color: #213E58;
+}
+
+.mapboxgl-popup-close-button {
+    font-size: 25px;
+}
+
+.nombre_ciudad_popup {
+    font-weight: 800;
+    font-size: 13px;
+    color: #003071;
+}
+
+.direccion_popup {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+    color: #003071;
+    outline: none;
+}
+
+.contenedor_popuop p {
+    margin: 0;
+
+}
+
+.telefono_popup {
+    color: #B32234;
+    text-decoration: none;
+}
+
+.telefono_popup span {
+    color: #003071;
+    font-weight: 600;
+}
+
+.boton_como_llegar {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 10px;
+    padding: 2px 8px;
+    line-height: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #B32234;
+    border: 2px solid #003071;
+    border-radius: 8px;
+}
+.contenedorInfoTiendaMapa{
+    padding: 4px 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+.contenedorInfoTiendaMapa:hover {
+        background: #f1f1f1;
+    padding: 4px 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+.contenedorInfoTiendaMapaActivo {
+    background: #f1f1f1;
+    padding: 4px 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
 }
 @media (min-width: 1191px) {
     .contenedorMapa {
@@ -166,11 +231,11 @@
         .contenedorTiendas {
             padding: 0 20px;
             overflow-x: hidden;
-            height: 488px;
+            height: 470px;
         }
 
         .tienda {
-            margin: 30px 0;
+            margin: 5px 0px 10px;
             cursor: pointer;
         }
 
@@ -188,5 +253,47 @@
             text-align: left;
             line-height: 20px;
             color: #213E58;
+        }
+
+        .nombre_ciudad_popup {
+            font-weight: 800;
+            font-size: 13px;
+            color: #003071;
+        }
+
+        .direccion_popup {
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 12px;
+            color: #003071;
+            outline: none;
+        }
+
+        .contenedor_popuop p {
+            margin: 0;
+
+        }
+
+        .telefono_popup {
+            color: #B32234;
+            text-decoration: none;
+        }
+
+        .telefono_popup span {
+            color: #003071;
+            font-weight: 600;
+        }
+
+        .boton_como_llegar {
+            font-style: normal;
+            font-weight: 900;
+            font-size: 10px;
+            padding: 2px 8px;
+            line-height: 20px;
+            text-decoration: none;
+            text-align: center;
+            color: #B32234;
+            border: 2px solid #003071;
+            border-radius: 8px;
         }
 }

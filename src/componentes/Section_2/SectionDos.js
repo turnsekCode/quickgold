@@ -3,7 +3,7 @@ import Comprar from "../ConversorDivisa/Comprar";
 import styles from "./section_2.module.css";
 import Vender from "../ConversorDivisa/Vender";
 
-const SectionDos = ({ datos }) => {
+const SectionDos = ({ dataReverseVenta, dataReverse }) => {
   const [switched, setSwitched] = useState(null);
   return (
     <section className={styles.contendorSectionDos}>
@@ -43,7 +43,11 @@ const SectionDos = ({ datos }) => {
             </button>
           </div>
         </div>
-        {switched ? <Vender datos={datos} /> : <Comprar datos={datos} />}
+        {switched ? (
+          <Vender dataReverseVenta={dataReverseVenta} />
+        ) : (
+          <Comprar dataReverse={dataReverse} />
+        )}
       </div>
     </section>
   );

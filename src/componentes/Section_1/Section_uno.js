@@ -31,7 +31,7 @@ const Section_uno = () => {
             <LocationOnOutlinedIcon />
             encuentra tu tienda
           </Link>
-          <a href="tel:900 373 629" title="texto">
+          <a href="tel:900 373 629" title="Teléfono">
             llamar a 900 373 629
           </a>
         </div>

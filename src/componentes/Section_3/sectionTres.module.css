@@ -16,6 +16,7 @@
 .linea {
     position: relative;
     display: inline-block;
+    margin-left: 10px;
 }
 .linea:before{
     content: '';
