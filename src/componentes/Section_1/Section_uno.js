@@ -14,7 +14,7 @@ const Section_uno = () => {
           Casas de cambio en <span className={styles.linea}>Madrid</span>
         </h1>
         <p>
-          En nuestra casas de cambio en Madrid puedes cambiar más de 30 monedas
+          En nuestras casas de cambio en Madrid puedes cambiar más de 30 monedas
           extranjeras al momento y sin comisiones. ¿Necesitas cambiar dólares
           por euros o cualquier otra moneda extranjera? Ven a Quickgold.
         </p>
@@ -26,13 +26,13 @@ const Section_uno = () => {
             spy={true}
             duration={500}
             title="texto"
-            passive="true"
+            passive={true}
           >
             <LocationOnOutlinedIcon />
             encuentra tu tienda
           </Link>
           <a href="tel:900 373 629" title="Teléfono">
-            llamar a 900 373 629
+            llama gratis al 900 373 629
           </a>
         </div>
       </div>
@@ -40,7 +40,7 @@ const Section_uno = () => {
         {width <= 610 ? (
           <img
             src="/madrid_mobil.webp"
-            alt="Quickgold Madrid"
+            alt="Casas de cambio Madrid"
             className={styles.madridMobil}
             width={290}
             height={220}
@@ -48,7 +48,7 @@ const Section_uno = () => {
         ) : (
           <img
             src="/madrid.webp"
-            alt="Quickgold Madrid"
+            alt="Casas de cambio Madrid"
             className={styles.vector}
             width={480}
             height={364}
