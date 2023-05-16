@@ -60,6 +60,10 @@ export default function Home({
           name="description"
           content="Casas de cambio en Madrid. Cambia dólares a euros en nuestras oficinas de cambio quickgold. Cambio de moneda extranjera al momento y sin comisiones. "
         />
+        <meta
+          name="TTBUdVkwdzVOOVRpSWV3Nk03anRNMj10"
+          value="934244db009f8690634f7f94258d34e2"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
