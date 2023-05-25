@@ -11,7 +11,7 @@ const Section_uno = () => {
     <section className={styles.contenedorSectionUno}>
       <div className={styles.bloqueIzq}>
         <h1>
-          Casas de cambio <span className={styles.linea}>Madrid</span>
+          Casas de cambio en <span className={styles.linea}>Madrid</span>
         </h1>
         <p>
           En nuestras casas de cambio en Madrid puedes cambiar más de 30 monedas
