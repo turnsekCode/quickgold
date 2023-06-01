@@ -17,18 +17,21 @@ import Map, {
 const Mapa = ({ markers }) => {
   const marcador = markers.arrayMarker;
   const [viewState, setViewState] = useState({
-    longitude: -3.6883264,
-    latitude: 40.4535878,
-    zoom: 11,
+    longitude: markers?.markerInicial[0].longitude,
+    latitude: markers?.markerInicial[0].latitude,
+    zoom: markers?.markerInicial[0].zoom,
     cooperativeGestures: true,
   });
   const mapRef = useRef();
   const resetMap = () => {
     setShowPopup(false);
     mapRef.current?.flyTo({
-      center: [-3.6883264, 40.4535878],
+      center: [
+        markers.markerInicial[0].longitude,
+        markers.markerInicial[0].latitude,
+      ],
       duration: 2000,
-      zoom: 11,
+      zoom: markers?.markerInicial[0].zoom,
     });
   };
   const [showPopup, setShowPopup] = useState(null);
@@ -100,7 +103,7 @@ const Mapa = ({ markers }) => {
                   toggleTab();
                   onSelectMarker(marker);
                 }}
-                to="contenedorMapa"
+                to="contenedorMapa2"
                 smooth={true}
                 offset={-110}
                 spy={true}
@@ -112,7 +115,11 @@ const Mapa = ({ markers }) => {
                 <p>{marker.direccion}</p>
                 <p>Teléfono: {marker.telefono}</p>
                 <Link
-                  to="contenedorMapa"
+                  onClick={() => {
+                    toggleTab();
+                    onSelectMarker(marker);
+                  }}
+                  to="contenedorMapa2"
                   smooth={true}
                   offset={-110}
                   spy={true}
@@ -127,7 +134,7 @@ const Mapa = ({ markers }) => {
         </div>
         {/*<BloqueTiendas />*/}
       </div>
-      <div className={styles.bloqueDer} id="contenedorMapa">
+      <div className={styles.bloqueDer} id="contenedorMapa2">
         <Map
           onStyleLoad
           ref={mapRef}
@@ -185,7 +192,6 @@ const Mapa = ({ markers }) => {
                       title="Cómo llegar"
                       href={showInfo.comoLlegar}
                       rel="noreferrer"
-                      ƒ
                       className={styles.boton_como_llegar}
                     >
                       Cómo llegar
