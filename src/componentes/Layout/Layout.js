@@ -7,15 +7,14 @@ import FooterMobil from "../FooterMovil/FooterMobil";
 
 export default function Layout({ children, menu_list }) {
   const { width } = useScreenSize();
+
   return (
-    <>
-      <main className={styles.contenedor}>
-        <Header menu_list={menu_list} />
-        {children}
-        <FooterMobil />
-        <Footer />
-        <BotonLamarFijo />
-      </main>
-    </>
+    <main className={styles.contenedor} menu_list={menu_list}>
+      <Header menu_list={menu_list} />
+      {children}
+      <FooterMobil />
+      <Footer />
+      <BotonLamarFijo />
+    </main>
   );
 }

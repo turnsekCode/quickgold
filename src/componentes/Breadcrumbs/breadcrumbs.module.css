@@ -11,31 +11,11 @@
         display: flex;
         align-items: center;
     }
-
-    .contenedorBreadcrumbs svg {
-        font-size: 20px;
-        margin-top: 2px;
-    }
-
-    .sectionBreadcrumbs {
-        display: flex;
-        align-items: center;
-        font-size: 14px;
-        line-height: 11px;
-        color: #213E58;
-    }
+.sectionBreadcrumbs{
+        padding-top: 136px;
+        max-width: 1060px;
+        margin: 0 auto;
 }
-@media (min-width: 1191px) {
-    .contenedorBreadcrumbs {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 11px;
-        color: #0692D0;
-        display: flex;
-        align-items: center;
-    }
-
     .contenedorBreadcrumbs svg {
         font-size: 20px;
         margin-top: 2px;
@@ -47,5 +27,6 @@
         font-size: 14px;
         line-height: 11px;
         color: #213E58;
+      
     }
 }

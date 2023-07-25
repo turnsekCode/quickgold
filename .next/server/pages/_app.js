@@ -20,11 +20,11 @@ __webpack_require__.d(__webpack_exports__, {
 var jsx_runtime_ = __webpack_require__(997);
 // EXTERNAL MODULE: ./src/styles/globals.css
 var globals = __webpack_require__(108);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
 ;// CONCATENATED MODULE: external "react-gtm-module"
 const external_react_gtm_module_namespaceObject = require("react-gtm-module");
 var external_react_gtm_module_default = /*#__PURE__*/__webpack_require__.n(external_react_gtm_module_namespaceObject);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(6689);
 ;// CONCATENATED MODULE: ./src/pages/_app.js
 
 

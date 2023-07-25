@@ -45,41 +45,6 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3460:
-/***/ ((module) => {
-
-// Exports
-module.exports = {
-	"bloqueDivHabituales": "estilosConversor_bloqueDivHabituales__HxMaH",
-	"bloqueTituloSuperior": "estilosConversor_bloqueTituloSuperior__5Zm4u",
-	"tituloDivisaHabitual": "estilosConversor_tituloDivisaHabitual__BF_Hz",
-	"divisasHabituales": "estilosConversor_divisasHabituales__i8QdB",
-	"bloqueDer": "estilosConversor_bloqueDer__1vasI",
-	"bloqueDerInput": "estilosConversor_bloqueDerInput__QVcSI",
-	"contenedorInput": "estilosConversor_contenedorInput__fapK0",
-	"dolar": "estilosConversor_dolar__LDMdD",
-	"libra": "estilosConversor_libra__XdRPp",
-	"imgMoneda": "estilosConversor_imgMoneda__zP0CD",
-	"nombreMoneda": "estilosConversor_nombreMoneda__G5sy2",
-	"contenedorInputSuperior": "estilosConversor_contenedorInputSuperior__rUPKa",
-	"contenedorInputInferior": "estilosConversor_contenedorInputInferior__bb84y",
-	"bloqueIzqInput": "estilosConversor_bloqueIzqInput__InxHR",
-	"select": "estilosConversor_select__qtRpq",
-	"select_monedas": "estilosConversor_select_monedas__z_APQ",
-	"contenedor_list": "estilosConversor_contenedor_list__ZmsWq",
-	"moneda": "estilosConversor_moneda__X78ch",
-	"nombre": "estilosConversor_nombre__2qR4i",
-	"select_activo": "estilosConversor_select_activo__wy5D2",
-	"bandera": "estilosConversor_bandera__V42nK",
-	"botonSwith": "estilosConversor_botonSwith__KjdlS",
-	"monedaInferior": "estilosConversor_monedaInferior__PKm3n",
-	"botonLlamarTienda": "estilosConversor_botonLlamarTienda__OYSNc",
-	"inputInferior": "estilosConversor_inputInferior__cmQCu"
-};
-
-
-/***/ }),
-
 /***/ 5319:
 /***/ ((module) => {
 
@@ -188,51 +153,124 @@ module.exports = {
 
 /***/ }),
 
-/***/ 9586:
+/***/ 7261:
 /***/ ((module) => {
 
 // Exports
 module.exports = {
-	"contendorSectionDos": "section_2_contendorSectionDos__bgAdu",
-	"contendorBloques": "section_2_contendorBloques__t6Qdu",
-	"bloqueIzq": "section_2_bloqueIzq__r_rOI",
-	"bloqueDer": "section_2_bloqueDer__fC_NZ",
-	"contenedorInfo": "section_2_contenedorInfo__adMl_",
-	"contenedorBotones": "section_2_contenedorBotones__DtrVd",
-	"botonComprar": "section_2_botonComprar__vC7_i",
-	"botonVender": "section_2_botonVender__grQc1",
-	"botonActivo": "section_2_botonActivo__iHabU"
+	"contenedorSectionDos": "sectionDos_contenedorSectionDos__BSfzG",
+	"bloqueInferior": "sectionDos_bloqueInferior__J_TfL",
+	"bloqueSuperior": "sectionDos_bloqueSuperior__OOVc3",
+	"imagenventaja1": "sectionDos_imagenventaja1__RctkE",
+	"contenedorVentajas": "sectionDos_contenedorVentajas__lrzhI",
+	"linea": "sectionDos_linea__frl8m"
 };
 
 
 /***/ }),
 
-/***/ 6945:
+/***/ 1746:
 /***/ ((module) => {
 
 // Exports
 module.exports = {
-	"contenedorContenidoUno": "sectionTres_contenedorContenidoUno__RIl07",
-	"contenedorSectionTres": "sectionTres_contenedorSectionTres__LrKPH",
-	"linea": "sectionTres_linea__x2snh",
-	"bloqueDer": "sectionTres_bloqueDer__L7ztu",
-	"bloqueIzq": "sectionTres_bloqueIzq__qlNuI",
-	"contenedorInfoTres": "sectionTres_contenedorInfoTres__KEi43",
-	"cards": "sectionTres_cards__HdeRf"
+	"bloqueDivHabituales": "estilosConversor_bloqueDivHabituales__ODTZj",
+	"bloqueTituloSuperior": "estilosConversor_bloqueTituloSuperior__KsBI9",
+	"tituloDivisaHabitual": "estilosConversor_tituloDivisaHabitual__rQNEO",
+	"divisasHabituales": "estilosConversor_divisasHabituales___QRSA",
+	"bloqueDer": "estilosConversor_bloqueDer__UsE19",
+	"bloqueDerInput": "estilosConversor_bloqueDerInput__RiHRW",
+	"contenedorInput": "estilosConversor_contenedorInput__dlRkD",
+	"dolar": "estilosConversor_dolar__kJm5B",
+	"libra": "estilosConversor_libra__tR9Ln",
+	"imgMoneda": "estilosConversor_imgMoneda__VZizZ",
+	"nombreMoneda": "estilosConversor_nombreMoneda__EoUxn",
+	"contenedorInputSuperior": "estilosConversor_contenedorInputSuperior__2eDPp",
+	"contenedorInputInferior": "estilosConversor_contenedorInputInferior__cVj5i",
+	"bloqueIzqInput": "estilosConversor_bloqueIzqInput__XCS_v",
+	"select": "estilosConversor_select__ZV4iU",
+	"select_monedas": "estilosConversor_select_monedas__tNdq6",
+	"contenedor_list": "estilosConversor_contenedor_list__O2Lti",
+	"moneda": "estilosConversor_moneda__gRGRf",
+	"nombre": "estilosConversor_nombre__Mbx19",
+	"select_activo": "estilosConversor_select_activo__fU3pb",
+	"bandera": "estilosConversor_bandera__MnsiZ",
+	"botonSwith": "estilosConversor_botonSwith__9nw1w",
+	"monedaInferior": "estilosConversor_monedaInferior__SaVTf",
+	"selectCiudad": "estilosConversor_selectCiudad__swMuw",
+	"botonLlamarTienda": "estilosConversor_botonLlamarTienda__aXL2E",
+	"selectCiudad_mobil": "estilosConversor_selectCiudad_mobil__XgY95",
+	"select_ciudad_mobil": "estilosConversor_select_ciudad_mobil__ekuzG",
+	"select_ciudadOptionUno": "estilosConversor_select_ciudadOptionUno__looNI",
+	"contenedorOptions": "estilosConversor_contenedorOptions__05QH5",
+	"contenedorOptionsActivo": "estilosConversor_contenedorOptionsActivo__kThlR",
+	"listaCiudad": "estilosConversor_listaCiudad__bcXNM",
+	"textoEntreInputs": "estilosConversor_textoEntreInputs__428Nr",
+	"select_ciudad": "estilosConversor_select_ciudad__bCfaH",
+	"inputInferior": "estilosConversor_inputInferior__j5E0O"
 };
 
 
 /***/ }),
 
-/***/ 1406:
+/***/ 1699:
 /***/ ((module) => {
 
 // Exports
 module.exports = {
-	"contenedorSectionCuatro": "sectionCuatro_contenedorSectionCuatro__p3g_S",
-	"bloqueIzq": "sectionCuatro_bloqueIzq__dY_2o",
-	"bloqueDer": "sectionCuatro_bloqueDer___Kb4N",
-	"linea": "sectionCuatro_linea__3PQG0"
+	"contenedorSectionCuatro": "sectionCuatro_contenedorSectionCuatro__M2a4p",
+	"contenedorSectionCuatroMargen": "sectionCuatro_contenedorSectionCuatroMargen__epGQp",
+	"bloqueIzq": "sectionCuatro_bloqueIzq__urYm9",
+	"bloqueDer": "sectionCuatro_bloqueDer__blaD7",
+	"linea": "sectionCuatro_linea__koTbC"
+};
+
+
+/***/ }),
+
+/***/ 9111:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"contenedorSectionCinco": "sectionDos_contenedorSectionCinco__RLlU8",
+	"sectionCincoContenido": "sectionDos_sectionCincoContenido__JIaK7",
+	"contenedorSectionCincoMargen": "sectionDos_contenedorSectionCincoMargen__pmFlx",
+	"linea": "sectionDos_linea__r_Xwh",
+	"contenidoCard": "sectionDos_contenidoCard__08UGQ",
+	"parrafoVenderDiamantes": "sectionDos_parrafoVenderDiamantes__zPTmj"
+};
+
+
+/***/ }),
+
+/***/ 8869:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"contenedorSectionSeis": "sectionSeis_contenedorSectionSeis__p_SsQ",
+	"contenedorSectionSeisMargen": "sectionSeis_contenedorSectionSeisMargen__Avz3j",
+	"BannerSelectorCiudad": "sectionSeis_BannerSelectorCiudad__dfEPE",
+	"tituloMobil": "sectionSeis_tituloMobil__NSP3u",
+	"SelectCiudades": "sectionSeis_SelectCiudades__7UIfI",
+	"contenedorTexto": "sectionSeis_contenedorTexto__4eRjZ",
+	"contenedorTiposDivisas": "sectionSeis_contenedorTiposDivisas__F8Udt",
+	"contenedorTiposDivisasCard1": "sectionSeis_contenedorTiposDivisasCard1__DRNdQ"
+};
+
+
+/***/ }),
+
+/***/ 8410:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"contenedorSelector": "SelectorCiudades_contenedorSelector__3WJdv",
+	"contenedorSelectorUl": "SelectorCiudades_contenedorSelectorUl__LJDct",
+	"contenedorSelectorUlActivo": "SelectorCiudades_contenedorSelectorUlActivo__beYh_",
+	"contenedorSelectorListado": "SelectorCiudades_contenedorSelectorListado__jd_aw"
 };
 
 
@@ -243,25 +281,33 @@ module.exports = {
 
 // Exports
 module.exports = {
-	"main": "Home_main__EtNt2",
 	"contenedorMapaVisible": "Home_contenedorMapaVisible__piXgh"
 };
 
 
 /***/ }),
 
-/***/ 8271:
+/***/ 7431:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ Breadcrumbs_Breadcrumbs)
+  "default": () => (/* binding */ Home),
+  "getStaticProps": () => (/* binding */ getStaticProps)
 });
 
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
+;// CONCATENATED MODULE: external "next/head"
+const head_namespaceObject = require("next/head");
+var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
+// EXTERNAL MODULE: ./src/styles/Home.module.css
+var Home_module = __webpack_require__(8874);
+var Home_module_default = /*#__PURE__*/__webpack_require__.n(Home_module);
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
 // EXTERNAL MODULE: ./src/componentes/Breadcrumbs/breadcrumbs.module.css
@@ -285,41 +331,914 @@ const Breadcrumbs = ()=>{
                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
                         href: "https://quickgold.es/",
                         title: "Ir a Quickgold",
-                        children: "Home"
+                        children: "Quickgold"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowRight_default()), {})
                 ]
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                href: "https://quickgold.es/casa-cambio-madrid/",
+                href: "https://quickgold.es/dolar-euro/",
                 title: "Ir a casa cambio madrid",
-                children: "Casa Cambio Madrid"
+                children: "Cambio dolares - euros"
             })
         ]
     });
 };
 /* harmony default export */ const Breadcrumbs_Breadcrumbs = (Breadcrumbs);
 
+// EXTERNAL MODULE: ./src/componentes/Section_1/section_uno.module.css
+var section_uno_module = __webpack_require__(8501);
+var section_uno_module_default = /*#__PURE__*/__webpack_require__.n(section_uno_module);
+;// CONCATENATED MODULE: external "@mui/icons-material/LocationOnOutlined"
+const LocationOnOutlined_namespaceObject = require("@mui/icons-material/LocationOnOutlined");
+;// CONCATENATED MODULE: external "react-scroll"
+const external_react_scroll_namespaceObject = require("react-scroll");
+;// CONCATENATED MODULE: ./src/utilities/useScreenSize.js
 
-/***/ }),
+if (false) { var height1, width1; }
+const useScreenSize = ()=>{
+    const [width, setWidth] = (0,external_react_.useState)(width1);
+    const [height, setHeight] = (0,external_react_.useState)(height1);
+    if (false) {}
+    return {
+        width,
+        height
+    };
+};
+/* harmony default export */ const utilities_useScreenSize = (useScreenSize);
 
-/***/ 185:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+;// CONCATENATED MODULE: ./src/componentes/Section_1/Section_uno.js
 
-"use strict";
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ Layout)
-});
+//import Image from "next/image";
 
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
+
+
+
+const Section_uno = ()=>{
+    const { width  } = utilities_useScreenSize();
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
+        className: (section_uno_module_default()).contenedorSectionUno,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (section_uno_module_default()).bloqueIzq,
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                        children: "Cambio de d\xf3lares a euros"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        children: "Si necesitas cambiar d\xf3lares por euros en Espa\xf1a, Quickgold es tu mejor opci\xf3n: ofrecemos un servicio totalmente especializado en d\xf3lares, realizamos mejoras por cantidad y ofrecemos el mejor precio de tu ciudad."
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                            children: "Consulta el precio del d\xf3lar actualizado."
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (section_uno_module_default()).botones,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "tel:900 373 629",
+                            title: "Tel\xe9fono",
+                            children: "llama gratis al 900 373 629"
+                        })
+                    })
+                ]
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: (section_uno_module_default()).bloqueDer,
+                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                    src: "/imagenDolarEuro.png",
+                    alt: "Cambio dolar - euro",
+                    className: (section_uno_module_default()).madridMobil,
+                    width: 290,
+                    height: 220
+                })
+            })
+        ]
+    });
+};
+/* harmony default export */ const Section_1_Section_uno = (Section_uno);
+
+// EXTERNAL MODULE: ./src/componentes/Section_3/sectionCuatro.module.css
+var sectionCuatro_module = __webpack_require__(1699);
+var sectionCuatro_module_default = /*#__PURE__*/__webpack_require__.n(sectionCuatro_module);
+// EXTERNAL MODULE: ./src/componentes/Section_3/ConversorDivisa/estilosConversor.module.css
+var estilosConversor_module = __webpack_require__(1746);
+var estilosConversor_module_default = /*#__PURE__*/__webpack_require__.n(estilosConversor_module);
+;// CONCATENATED MODULE: external "@mui/icons-material/KeyboardArrowDown"
+const KeyboardArrowDown_namespaceObject = require("@mui/icons-material/KeyboardArrowDown");
+var KeyboardArrowDown_default = /*#__PURE__*/__webpack_require__.n(KeyboardArrowDown_namespaceObject);
+;// CONCATENATED MODULE: external "@mui/icons-material/PowerInput"
+const PowerInput_namespaceObject = require("@mui/icons-material/PowerInput");
+var PowerInput_default = /*#__PURE__*/__webpack_require__.n(PowerInput_namespaceObject);
+;// CONCATENATED MODULE: external "@mui/icons-material/ImportExport"
+const ImportExport_namespaceObject = require("@mui/icons-material/ImportExport");
+var ImportExport_default = /*#__PURE__*/__webpack_require__.n(ImportExport_namespaceObject);
+;// CONCATENATED MODULE: ./src/componentes/Section_3/ConversorDivisa/Comprar.js
+
+
+
+
+
+
+const Comprar_Comprar = ({ ListadoCiudades  })=>{
+    const [ciudad, setCiudad] = (0,external_react_.useState)("");
+    const [ciudadOpen, setCiudadOpen] = (0,external_react_.useState)(null);
+    const [selectDivisa, setSelectDivisa] = (0,external_react_.useState)(true);
+    const datosCiudad = ListadoCiudades.arrayMarker;
+    const [data, setData] = (0,external_react_.useState)([]);
+    //const datos = data;
+    //console.log(datos.splice(0, 1, "USD"));
+    (0,external_react_.useEffect)(()=>{
+        fetch(`https://quickgold.es/archivos-cache/Fixing${ciudad}.txt`, {
+            cache: "no-cache"
+        }).then((response)=>response.json()).then((response)=>{
+            setData(response?.result?.Tarifas?.Divisas_Compra.reverse());
+        });
+    }, [
+        ciudad
+    ]);
+    //const [InputDivisa, setInputDivisa] = useState(<PowerInputIcon />);
+    const [valorMoneda, setValorMoneda] = (0,external_react_.useState)("");
+    const [DataAcronimo, setAcronimo] = (0,external_react_.useState)("");
+    const [DataNombre, setDataNombre] = (0,external_react_.useState)("");
+    const [valorInput, setValorInput] = (0,external_react_.useState)("");
+    const [switched, setSwitched] = (0,external_react_.useState)(null);
+    const [opened, setOpened] = (0,external_react_.useState)(true);
+    const [select, setSelect] = (0,external_react_.useState)(null);
+    const precioDividido = valorMoneda / 1000;
+    const precioDividido2 = 1 / precioDividido;
+    const valorFinal = valorInput * precioDividido;
+    const valorFinal2 = valorInput / precioDividido;
+    const captureCodigo = (e)=>{
+        setAcronimo(e.target.dataset.acronimo);
+        setValorMoneda(e.target.dataset.precio);
+    };
+    const MonedaSeleccionada = ()=>{
+        setSelectDivisa(false);
+    };
+    const captureHabitual = (e)=>{
+        setCiudadOpen(false);
+    };
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: (estilosConversor_module_default()).bloqueDer,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (estilosConversor_module_default()).bloqueTituloSuperior,
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                        children: "CAMBIO DE D\xd3LAR A EURO"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        children: "Ciudad donde quieres cambiar"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (estilosConversor_module_default()).selectCiudad,
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: (estilosConversor_module_default()).select_ciudad,
+                            children: [
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                    onClick: (event)=>{
+                                        setSelect(false);
+                                        setCiudadOpen(!ciudadOpen);
+                                    },
+                                    className: (estilosConversor_module_default()).select_ciudadOptionUno,
+                                    children: [
+                                        " ",
+                                        opened ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+                                            children: [
+                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                    children: "Seleccione ciudad"
+                                                }),
+                                                /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowDown_default()), {})
+                                            ]
+                                        }) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+                                            children: [
+                                                DataNombre,
+                                                " ",
+                                                /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowDown_default()), {})
+                                            ]
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                    className: ciudadOpen ? `${(estilosConversor_module_default()).contenedorOptions} ${(estilosConversor_module_default()).contenedorOptionsActivo}` : `${(estilosConversor_module_default()).contenedorOptions}`,
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("ul", {
+                                        children: datosCiudad.map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                className: (estilosConversor_module_default()).listaCiudad,
+                                                onClick: (e)=>{
+                                                    captureHabitual(e);
+                                                    //setAcronimo(e.target.dataset.acronimo);
+                                                    //setValorMoneda(e.target.dataset.precio);
+                                                    setCiudad(e.target.dataset.minusculas);
+                                                    setDataNombre(e.target.dataset.nombre);
+                                                    setSelectDivisa(true);
+                                                    setOpened(false);
+                                                },
+                                                "data-minusculas": ciudad.nombreMinusculas,
+                                                "data-nombre": ciudad.nombre,
+                                                children: ciudad.nombre
+                                            }, i))
+                                    })
+                                })
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (estilosConversor_module_default()).selectCiudad_mobil,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("select", {
+                            className: (estilosConversor_module_default()).select_ciudad_mobil,
+                            onChange: (e)=>{
+                                setCiudad(e.target.value);
+                                setSelectDivisa(true);
+                                setOpened(false);
+                            },
+                            children: datosCiudad.map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("option", {
+                                    value: ciudad.nombreMinusculas,
+                                    children: ciudad.nombre
+                                }, i))
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        className: (estilosConversor_module_default()).textoEntreInputs,
+                        children: "Selecciona la divisa D\xd3LAR para saber su precio"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (estilosConversor_module_default()).contenedorInputSuperior,
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (estilosConversor_module_default()).bloqueIzqInput,
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: (estilosConversor_module_default()).select,
+                            onClick: ()=>{
+                                setSelect(!select);
+                            },
+                            children: [
+                                selectDivisa ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+                                    children: [
+                                        "Seleccione Divisa",
+                                        /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowDown_default()), {})
+                                    ]
+                                }) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+                                    children: [
+                                        DataAcronimo,
+                                        " ",
+                                        /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowDown_default()), {})
+                                    ]
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                    className: select ? `${(estilosConversor_module_default()).select_monedas} ${(estilosConversor_module_default()).select_activo}` : `${(estilosConversor_module_default()).select_monedas}`,
+                                    children: data?.filter((currency)=>currency.Name !== "HRK" && currency.Name !== "DKK" && currency.Name !== "RUB" && currency.Name !== "NOK" && currency.Name !== "SEK").map((data, i)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                            className: (estilosConversor_module_default()).contenedor_list,
+                                            "data-acronimo": data?.Productos[0].Acronimo,
+                                            "data-precio": data?.Productos[0].Precio,
+                                            onClick: (e)=>{
+                                                captureCodigo(e);
+                                                MonedaSeleccionada();
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                    className: (estilosConversor_module_default()).bandera,
+                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                        src: `/${data?.Productos[0].Acronimo}.png`,
+                                                        "data-acronimo": data?.Productos[0].Acronimo,
+                                                        "data-precio": data?.Productos[0].Precio,
+                                                        alt: data?.Productos[0].Acronimo
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                    className: (estilosConversor_module_default()).moneda,
+                                                    children: [
+                                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                            "data-acronimo": data?.Productos[0].Acronimo,
+                                                            "data-precio": data?.Productos[0].Precio,
+                                                            children: data?.Productos[0].Acronimo
+                                                        }),
+                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                            className: (estilosConversor_module_default()).nombre,
+                                                            "data-acronimo": data?.Productos[0].Acronimo,
+                                                            "data-precio": data?.Productos[0].Precio,
+                                                            children: data?.Productos[0].Nombre
+                                                        })
+                                                    ]
+                                                })
+                                            ]
+                                        }, i))
+                                })
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (estilosConversor_module_default()).bloqueDerInput,
+                        children: [
+                            selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx((PowerInput_default()), {}) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: (estilosConversor_module_default()).contenedorInput,
+                                children: [
+                                    switched ? /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                        style: {
+                                            border: "none"
+                                        },
+                                        type: "text",
+                                        pattern: "[0-9]*",
+                                        placeholder: "0.00",
+                                        inputMode: "numeric",
+                                        readOnly: true,
+                                        value: valorFinal2.toFixed(2)
+                                    }) : /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                        type: "text",
+                                        pattern: "[0-9]*",
+                                        placeholder: "0.00",
+                                        inputMode: "numeric",
+                                        className: (estilosConversor_module_default()).inputInferior,
+                                        onChange: (event)=>setValorInput(event.target.value)
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                        children: DataAcronimo
+                                    })
+                                ]
+                            }),
+                            selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx("p", {}) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "1",
+                                    DataAcronimo,
+                                    " = ",
+                                    precioDividido.toFixed(4),
+                                    "EUR"
+                                ]
+                            })
+                        ]
+                    })
+                ]
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: (estilosConversor_module_default()).botonSwith,
+                children: /*#__PURE__*/ jsx_runtime_.jsx((ImportExport_default()), {
+                    onClick: (e)=>{
+                        setSwitched(!switched);
+                    }
+                })
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (estilosConversor_module_default()).contenedorInputInferior,
+                children: [
+                    selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx("span", {}) : /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (estilosConversor_module_default()).monedaInferior,
+                        children: "EUR"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (estilosConversor_module_default()).bloqueDerInput,
+                        children: [
+                            selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx((PowerInput_default()), {}) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: (estilosConversor_module_default()).contenedorInput,
+                                children: [
+                                    switched ? /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                        type: "text",
+                                        pattern: "[0-9]*",
+                                        placeholder: "Cantidad",
+                                        inputMode: "numeric",
+                                        className: (estilosConversor_module_default()).inputInferior,
+                                        onChange: (event)=>setValorInput(event.target.value)
+                                    }) : /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                        type: "text",
+                                        pattern: "[0-9]*",
+                                        placeholder: "Cantidad",
+                                        inputMode: "numeric",
+                                        value: valorFinal.toFixed(2),
+                                        readOnly: true,
+                                        style: {
+                                            border: "none"
+                                        }
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                        children: "EUR"
+                                    })
+                                ]
+                            }),
+                            selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx("p", {}) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "1EUR = ",
+                                    precioDividido2.toFixed(4),
+                                    DataAcronimo
+                                ]
+                            })
+                        ]
+                    })
+                ]
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                className: (estilosConversor_module_default()).botonLlamarTienda,
+                href: "tel:900 373 629",
+                children: "LLAMAR A TIENDA"
+            })
+        ]
+    });
+};
+/* harmony default export */ const ConversorDivisa_Comprar = (Comprar_Comprar);
+
+;// CONCATENATED MODULE: ./src/componentes/Section_3/ConversorDivisa/Vender.js
+
+
+
+
+
+
+//import { useFetchData } from "../../utilities/DataTiendas";
+const Vender_Comprar = ()=>{
+    const nombreCiudad = "madrid";
+    const [data, setData] = useState([]);
+    const [loading, setLoading] = useState(null);
+    useEffect(()=>{
+        fetch(`https://quickgold.es/archivos-cache/Fixing${nombreCiudad}.txt`, {
+            cache: "no-cache"
+        }).then((response)=>response.json()).then((response)=>{
+            setData(response?.result?.Tarifas?.Divisas_Venta.reverse());
+            setLoading(true);
+        });
+    }, []);
+    //const { data, loading } = useFetchData();
+    //const dataCompras = datos?.result?.Tarifas?.Divisas_Compra;
+    //const dataReverse = dataCompras?.reverse();
+    const precioLibra = data[0]?.Productos[0].Precio / 1000;
+    const precioDolar = data[1]?.Productos[0].Precio / 1000;
+    const [valorMoneda, setValorMoneda] = useState("0");
+    const [DataAcronimo, setAcronimo] = useState("");
+    //const [DataNombre, setDataNombre] = useState("");
+    const [valorInput, setValorInput] = useState("");
+    const [selectDivisa, setSelectDivisa] = useState(true);
+    const [switched, setSwitched] = useState(null);
+    const [select, setSelect] = useState(null);
+    const precioDividido = valorMoneda / 1000;
+    const precioDividido2 = 1 / precioDividido;
+    const valorFinal = valorInput * precioDividido;
+    const valorFinal2 = valorInput / precioDividido;
+    const captureCodigo = (e)=>{
+        setAcronimo(e.target.dataset.acronimo);
+        //setDataNombre(e.target.dataset.nombre);
+        setValorMoneda(e.target.dataset.precio);
+    };
+    const MonedaSeleccionada = ()=>{
+        setSelectDivisa(false);
+    };
+    const captureHabitual = (e)=>{
+        setAcronimo(e.target.dataset.acronimo);
+        setValorMoneda(e.target.dataset.precio);
+        setSelectDivisa(false);
+    }; /*
+  const seleccion = () => {
+    setSelectOpen(true);
+  };*/ 
+    return /*#__PURE__*/ _jsxs("div", {
+        className: styles.bloqueDer,
+        children: [
+            /*#__PURE__*/ _jsxs("div", {
+                className: styles.bloqueDivHabituales,
+                children: [
+                    /*#__PURE__*/ _jsxs("div", {
+                        className: styles.bloqueTituloSuperior,
+                        children: [
+                            /*#__PURE__*/ _jsxs("h3", {
+                                children: [
+                                    "Conversor ",
+                                    /*#__PURE__*/ _jsx("span", {}),
+                                    " de divisa"
+                                ]
+                            }),
+                            /*#__PURE__*/ _jsx("p", {
+                                className: styles.tituloDivisaHabitual,
+                                children: "Divisas m\xe1s habituales:"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ _jsxs("div", {
+                        className: styles.divisasHabituales,
+                        children: [
+                            /*#__PURE__*/ _jsxs("div", {
+                                className: styles.dolar,
+                                onClick: (e)=>{
+                                    captureHabitual(e);
+                                    setSelect(false);
+                                },
+                                "data-acronimo": data[1]?.Productos[0]?.Acronimo,
+                                "data-precio": data[1]?.Productos[0]?.Precio,
+                                children: [
+                                    /*#__PURE__*/ _jsxs("div", {
+                                        className: styles.imgMoneda,
+                                        onClick: (e)=>{
+                                            captureHabitual(e);
+                                            setSelect(false);
+                                        },
+                                        "data-acronimo": data[1]?.Productos[0]?.Acronimo,
+                                        "data-precio": data[1]?.Productos[0]?.Precio,
+                                        children: [
+                                            /*#__PURE__*/ _jsx("img", {
+                                                src: "/banderaUSA.png",
+                                                onClick: (e)=>{
+                                                    captureHabitual(e);
+                                                    setSelect(false);
+                                                },
+                                                "data-acronimo": data[1]?.Productos[0]?.Acronimo,
+                                                "data-precio": data[1]?.Productos[0]?.Precio,
+                                                alt: data[1]?.Productos[0]?.Acronimo
+                                            }),
+                                            /*#__PURE__*/ _jsx("span", {
+                                                onClick: (e)=>{
+                                                    captureHabitual(e);
+                                                    setSelect(false);
+                                                },
+                                                "data-acronimo": data[1]?.Productos[0]?.Acronimo,
+                                                "data-precio": data[1]?.Productos[0]?.Precio,
+                                                children: "USD"
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ _jsxs("div", {
+                                        className: styles.nombreMoneda,
+                                        children: [
+                                            /*#__PURE__*/ _jsx("p", {
+                                                onClick: (e)=>{
+                                                    captureHabitual(e);
+                                                    setSelect(false);
+                                                },
+                                                "data-acronimo": data[1]?.Productos[0]?.Acronimo,
+                                                "data-precio": data[1]?.Productos[0]?.Precio,
+                                                children: "D\xf3lar USA"
+                                            }),
+                                            /*#__PURE__*/ _jsx("p", {
+                                                onClick: (e)=>{
+                                                    captureHabitual(e);
+                                                    setSelect(false);
+                                                },
+                                                "data-acronimo": data[1]?.Productos[0]?.Acronimo,
+                                                "data-precio": data[1]?.Productos[0]?.Precio,
+                                                children: /*#__PURE__*/ _jsxs("span", {
+                                                    onClick: (e)=>{
+                                                        captureHabitual(e);
+                                                        setSelect(false);
+                                                    },
+                                                    "data-acronimo": data[1]?.Productos[0]?.Acronimo,
+                                                    "data-precio": data[1]?.Productos[0]?.Precio,
+                                                    children: [
+                                                        loading ? precioDolar.toFixed(4) : "Cargando...",
+                                                        "€"
+                                                    ]
+                                                })
+                                            })
+                                        ]
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ _jsxs("div", {
+                                className: styles.libra,
+                                onClick: (e)=>{
+                                    captureHabitual(e);
+                                    setSelect(false);
+                                },
+                                "data-acronimo": data[0]?.Productos[0]?.Acronimo,
+                                "data-precio": data[0]?.Productos[0]?.Precio,
+                                children: [
+                                    /*#__PURE__*/ _jsxs("div", {
+                                        className: styles.imgMoneda,
+                                        onClick: (e)=>{
+                                            captureHabitual(e);
+                                            setSelect(false);
+                                        },
+                                        "data-acronimo": data[0]?.Productos[0]?.Acronimo,
+                                        "data-precio": data[0]?.Productos[0]?.Precio,
+                                        children: [
+                                            /*#__PURE__*/ _jsx("img", {
+                                                src: "/banderaGBP.png",
+                                                onClick: (e)=>{
+                                                    captureHabitual(e);
+                                                    setSelect(false);
+                                                },
+                                                "data-acronimo": data[0]?.Productos[0]?.Acronimo,
+                                                "data-precio": data[0]?.Productos[0]?.Precio,
+                                                alt: data[0]?.Productos[0]?.Acronimo
+                                            }),
+                                            /*#__PURE__*/ _jsx("span", {
+                                                onClick: (e)=>{
+                                                    captureHabitual(e);
+                                                    setSelect(false);
+                                                },
+                                                "data-acronimo": data[0]?.Productos[0]?.Acronimo,
+                                                "data-precio": data[0]?.Productos[0]?.Precio,
+                                                children: "GBP"
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ _jsxs("div", {
+                                        className: styles.nombreMoneda,
+                                        children: [
+                                            /*#__PURE__*/ _jsx("p", {
+                                                onClick: (e)=>{
+                                                    captureHabitual(e);
+                                                    setSelect(false);
+                                                },
+                                                "data-acronimo": data[0]?.Productos[0]?.Acronimo,
+                                                "data-precio": data[0]?.Productos[0]?.Precio,
+                                                children: "Libra Esterlina"
+                                            }),
+                                            /*#__PURE__*/ _jsx("p", {
+                                                onClick: (e)=>{
+                                                    captureHabitual(e);
+                                                    setSelect(false);
+                                                },
+                                                "data-acronimo": data[0]?.Productos[0]?.Acronimo,
+                                                "data-precio": data[0]?.Productos[0]?.Precio,
+                                                children: /*#__PURE__*/ _jsxs("span", {
+                                                    onClick: (e)=>{
+                                                        captureHabitual(e);
+                                                        setSelect(false);
+                                                    },
+                                                    "data-acronimo": data[0]?.Productos[0]?.Acronimo,
+                                                    "data-precio": data[0]?.Productos[0]?.Precio,
+                                                    children: [
+                                                        loading ? precioLibra.toFixed(4) : "Cargando...",
+                                                        "€"
+                                                    ]
+                                                })
+                                            })
+                                        ]
+                                    })
+                                ]
+                            })
+                        ]
+                    })
+                ]
+            }),
+            /*#__PURE__*/ _jsxs("div", {
+                className: styles.contenedorInputSuperior,
+                children: [
+                    /*#__PURE__*/ _jsx("div", {
+                        className: styles.bloqueIzqInput,
+                        children: /*#__PURE__*/ _jsxs("div", {
+                            className: styles.select,
+                            onClick: ()=>{
+                                setSelect(!select);
+                            },
+                            children: [
+                                selectDivisa ? /*#__PURE__*/ _jsxs(_Fragment, {
+                                    children: [
+                                        /*#__PURE__*/ _jsx("p", {
+                                            children: "Seleccione Divisa"
+                                        }),
+                                        /*#__PURE__*/ _jsx(KeyboardArrowDownIcon, {})
+                                    ]
+                                }) : /*#__PURE__*/ _jsxs(_Fragment, {
+                                    children: [
+                                        DataAcronimo,
+                                        " ",
+                                        /*#__PURE__*/ _jsx(KeyboardArrowDownIcon, {})
+                                    ]
+                                }),
+                                /*#__PURE__*/ _jsx("div", {
+                                    className: select ? `${styles.select_monedas} ${styles.select_activo}` : `${styles.select_monedas}`,
+                                    children: data?.filter((currency)=>currency.Name !== "HRK").map((data, i)=>/*#__PURE__*/ _jsxs("div", {
+                                            className: styles.contenedor_list,
+                                            "data-acronimo": data?.Productos[0].Acronimo,
+                                            "data-precio": data?.Productos[0].Precio,
+                                            onClick: (e)=>{
+                                                captureCodigo(e);
+                                                MonedaSeleccionada();
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsx("div", {
+                                                    className: styles.bandera,
+                                                    children: /*#__PURE__*/ _jsx("img", {
+                                                        src: `/${data?.Productos[0].Acronimo}.png`,
+                                                        "data-acronimo": data?.Productos[0].Acronimo,
+                                                        "data-precio": data?.Productos[0].Precio,
+                                                        alt: data?.Productos[0].Acronimo
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ _jsxs("div", {
+                                                    className: styles.moneda,
+                                                    children: [
+                                                        /*#__PURE__*/ _jsx("p", {
+                                                            "data-acronimo": data?.Productos[0].Acronimo,
+                                                            "data-precio": data?.Productos[0].Precio,
+                                                            children: data?.Productos[0].Acronimo
+                                                        }),
+                                                        /*#__PURE__*/ _jsx("span", {
+                                                            className: styles.nombre,
+                                                            "data-acronimo": data?.Productos[0].Acronimo,
+                                                            "data-precio": data?.Productos[0].Precio,
+                                                            children: data?.Productos[0].Nombre
+                                                        })
+                                                    ]
+                                                })
+                                            ]
+                                        }, i))
+                                })
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ _jsxs("div", {
+                        className: styles.bloqueDerInput,
+                        children: [
+                            selectDivisa ? /*#__PURE__*/ _jsx(PowerInputIcon, {}) : /*#__PURE__*/ _jsxs("div", {
+                                className: styles.contenedorInput,
+                                children: [
+                                    switched ? /*#__PURE__*/ _jsx("input", {
+                                        style: {
+                                            border: "none"
+                                        },
+                                        type: "text",
+                                        pattern: "[0-9]*",
+                                        placeholder: "0.00",
+                                        inputMode: "numeric",
+                                        readOnly: true,
+                                        //id="input-izquierdo"
+                                        //ref={refInput1}
+                                        //onChange={calcularCambio}
+                                        value: valorFinal2.toFixed(2)
+                                    }) : /*#__PURE__*/ _jsx("input", {
+                                        type: "text",
+                                        pattern: "[0-9]*",
+                                        placeholder: "0.00",
+                                        inputMode: "numeric",
+                                        className: styles.inputInferior,
+                                        //readOnly
+                                        //id="input-izquierdo"
+                                        //ref={refInput1}
+                                        //onChange={calcularCambio}
+                                        //value={valorFinal.toFixed(2)}
+                                        onChange: (event)=>setValorInput(event.target.value)
+                                    }),
+                                    /*#__PURE__*/ _jsx("span", {
+                                        children: DataAcronimo
+                                    })
+                                ]
+                            }),
+                            selectDivisa ? /*#__PURE__*/ _jsx("p", {}) : /*#__PURE__*/ _jsxs("p", {
+                                children: [
+                                    "1",
+                                    DataAcronimo,
+                                    " = ",
+                                    precioDividido.toFixed(4),
+                                    "EUR"
+                                ]
+                            })
+                        ]
+                    })
+                ]
+            }),
+            /*#__PURE__*/ _jsx("div", {
+                className: styles.botonSwith,
+                children: /*#__PURE__*/ _jsx(ImportExportIcon, {
+                    onClick: (e)=>{
+                        setSwitched(!switched);
+                    }
+                })
+            }),
+            /*#__PURE__*/ _jsxs("div", {
+                className: styles.contenedorInputInferior,
+                children: [
+                    selectDivisa ? /*#__PURE__*/ _jsx("span", {
+                        children: DataAcronimo
+                    }) : /*#__PURE__*/ _jsx("div", {
+                        className: styles.monedaInferior,
+                        children: "EUR"
+                    }),
+                    /*#__PURE__*/ _jsxs("div", {
+                        className: styles.bloqueDerInput,
+                        children: [
+                            selectDivisa ? /*#__PURE__*/ _jsx(PowerInputIcon, {}) : /*#__PURE__*/ _jsxs("div", {
+                                className: styles.contenedorInput,
+                                children: [
+                                    switched ? /*#__PURE__*/ _jsx("input", {
+                                        type: "text",
+                                        pattern: "[0-9]*",
+                                        placeholder: "Cantidad",
+                                        inputMode: "numeric",
+                                        className: styles.inputInferior,
+                                        //id="input-derecho"
+                                        //ref={refInput2}
+                                        //onChange={calcularCambio}
+                                        //value={valorFinal.toFixed(2)}
+                                        onChange: (event)=>setValorInput(event.target.value)
+                                    }) : /*#__PURE__*/ _jsx("input", {
+                                        type: "text",
+                                        pattern: "[0-9]*",
+                                        placeholder: "Cantidad",
+                                        inputMode: "numeric",
+                                        //id="input-derecho"
+                                        //ref={refInput2}
+                                        //onChange={calcularCambio}
+                                        value: valorFinal.toFixed(2),
+                                        readOnly: true,
+                                        style: {
+                                            border: "none"
+                                        }
+                                    }),
+                                    /*#__PURE__*/ _jsx("span", {
+                                        children: "EUR"
+                                    })
+                                ]
+                            }),
+                            selectDivisa ? /*#__PURE__*/ _jsx("p", {}) : /*#__PURE__*/ _jsxs("p", {
+                                children: [
+                                    "1EUR = ",
+                                    precioDividido2.toFixed(4),
+                                    DataAcronimo
+                                ]
+                            })
+                        ]
+                    })
+                ]
+            }),
+            /*#__PURE__*/ _jsx("a", {
+                className: styles.botonLlamarTienda,
+                href: "tel:900 373 629",
+                children: "LLAMAR A TIENDA"
+            })
+        ]
+    });
+};
+/* harmony default export */ const Vender = ((/* unused pure expression or super */ null && (Vender_Comprar)));
+
+;// CONCATENATED MODULE: ./src/componentes/Section_4/SectionCuatro.js
+
+
+
+
+
+const SectionDos = ({ ListadoCiudades  })=>{
+    const [switched, setSwitched] = useState(null);
+    return /*#__PURE__*/ _jsx("section", {
+        className: styles.contendorSectionDos,
+        children: /*#__PURE__*/ _jsxs("div", {
+            id: "bloqueCalculadora",
+            className: styles.contendorBloques,
+            children: [
+                /*#__PURE__*/ _jsx("p", {
+                    className: styles.tituloCalculadora,
+                    children: "\xbfCu\xe1l es el tipo de cambio d\xf3lar-euro?"
+                }),
+                /*#__PURE__*/ _jsx("p", {
+                    className: styles.textoCalculadora,
+                    children: "Selecciona la ciudad donde vas a cambiar tus d\xf3lares y podr\xe1s conocer al instante cu\xe1l es el tiempo de cambio, siempre actualizado"
+                }),
+                /*#__PURE__*/ _jsx(Comprar, {
+                    ListadoCiudades: ListadoCiudades
+                })
+            ]
+        })
+    });
+};
+/* harmony default export */ const SectionCuatro = ((/* unused pure expression or super */ null && (SectionDos)));
+
+;// CONCATENATED MODULE: ./src/componentes/Section_3/SectionTres.js
+
+
+//import Image from "next/image";
+
+
+
+const SectionTres_SectionCuatro = ({ ListadoCiudades , setCiudadOpen , ciudadOpen  })=>{
+    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
+        className: (sectionCuatro_module_default()).contenedorSectionCuatro,
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            className: (sectionCuatro_module_default()).contenedorSectionCuatroMargen,
+            children: [
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: (sectionCuatro_module_default()).bloqueIzq,
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                            children: "Precio del d\xf3lar hoy"
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                            children: [
+                                "El precio del d\xf3lar hoy en Espa\xf1a es un tema de inter\xe9s para muchas personas que est\xe1n planeando viajar a Estados Unidos o que tienen transacciones internacionales. El valor del d\xf3lar en relaci\xf3n al euro puede fluctuar diariamente debido a diversos factores econ\xf3micos y pol\xedticos. En nuestra web puedes consultar la tasa de cambio actualizada siempre.",
+                                /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                " En Quickgold te ofrecemos m\xe1s de 50 oficinas de cambio de d\xf3lares a euros por toda Espa\xf1a. Nuestras tiendas se encuentran en las mejores ubicaciones de cada ciudad y te ofrecemos un horario amplio de lunes a s\xe1bado (en determinadas tiendas podr\xe1s encontrar horario de apertura tambi\xe9n los domingos).",
+                                /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                " Si quieres cambiar d\xf3lares a euros en Espa\xf1a, el precio puede variar, pero acudir a Quickgold es una excelente opci\xf3n para cambiar d\xf3lares a euros. Comprueba nuestro listado de tiendas y elige la m\xe1s cercana a tu ubicaci\xf3n. En nuestras casas de cambio de d\xf3lares ofrecemos tasas de cambio competitivas, transparencia y un servicio personalizado. Confiar en expertos en cambio de divisas te proporcionar\xe1 una experiencia segura y satisfactoria."
+                            ]
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: (sectionCuatro_module_default()).bloqueDer,
+                    children: /*#__PURE__*/ jsx_runtime_.jsx(ConversorDivisa_Comprar, {
+                        ListadoCiudades: ListadoCiudades,
+                        setCiudadOpen: setCiudadOpen,
+                        ciudadOpen: ciudadOpen
+                    })
+                })
+            ]
+        })
+    });
+};
+/* harmony default export */ const SectionTres = (SectionTres_SectionCuatro);
+
 // EXTERNAL MODULE: ./src/componentes/Layout/layout.module.css
 var layout_module = __webpack_require__(6088);
 var layout_module_default = /*#__PURE__*/__webpack_require__.n(layout_module);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
 // EXTERNAL MODULE: ./src/componentes/Cabecera/header.module.css
 var header_module = __webpack_require__(7459);
 var header_module_default = /*#__PURE__*/__webpack_require__.n(header_module);
@@ -332,11 +1251,6 @@ var Facebook_default = /*#__PURE__*/__webpack_require__.n(Facebook_namespaceObje
 ;// CONCATENATED MODULE: external "@mui/icons-material/Instagram"
 const Instagram_namespaceObject = require("@mui/icons-material/Instagram");
 var Instagram_default = /*#__PURE__*/__webpack_require__.n(Instagram_namespaceObject);
-// EXTERNAL MODULE: ./src/utilities/useScreenSize.js
-var useScreenSize = __webpack_require__(771);
-// EXTERNAL MODULE: external "@mui/icons-material/KeyboardArrowDown"
-var KeyboardArrowDown_ = __webpack_require__(4845);
-var KeyboardArrowDown_default = /*#__PURE__*/__webpack_require__.n(KeyboardArrowDown_);
 ;// CONCATENATED MODULE: ./src/utilities/useSticky.js
 
 const useSticky = ()=>{
@@ -656,7 +1570,7 @@ var Menu_default = /*#__PURE__*/__webpack_require__.n(Menu_namespaceObject);
 
 const Header = ({ menu_list  })=>{
     const [menuAbieto, setMenuAbierto] = (0,external_react_.useState)(false);
-    const { width  } = (0,useScreenSize/* default */.Z)();
+    const { width  } = utilities_useScreenSize();
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("header", {
         className: (header_module_default()).header,
         children: [
@@ -1296,1270 +2210,334 @@ const FooterMobil = ()=>{
 
 
 function Layout({ children , menu_list  }) {
-    const { width  } = (0,useScreenSize/* default */.Z)();
-    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
-            className: (layout_module_default()).contenedor,
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx(Cabecera_Header, {
-                    menu_list: menu_list
-                }),
-                children,
-                /*#__PURE__*/ jsx_runtime_.jsx(FooterMovil_FooterMobil, {}),
-                /*#__PURE__*/ jsx_runtime_.jsx(Footer_Footer, {}),
-                /*#__PURE__*/ jsx_runtime_.jsx(BotonLlamarFijo_BotonLamarFijo, {})
-            ]
-        })
+    const { width  } = utilities_useScreenSize();
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
+        className: (layout_module_default()).contenedor,
+        menu_list: menu_list,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx(Cabecera_Header, {
+                menu_list: menu_list
+            }),
+            children,
+            /*#__PURE__*/ jsx_runtime_.jsx(FooterMovil_FooterMobil, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Footer_Footer, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(BotonLlamarFijo_BotonLamarFijo, {})
+        ]
     });
 }
 
-
-/***/ }),
-
-/***/ 7159:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ Section_1_Section_uno)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
-// EXTERNAL MODULE: ./src/componentes/Section_1/section_uno.module.css
-var section_uno_module = __webpack_require__(8501);
-var section_uno_module_default = /*#__PURE__*/__webpack_require__.n(section_uno_module);
-;// CONCATENATED MODULE: external "@mui/icons-material/LocationOnOutlined"
-const LocationOnOutlined_namespaceObject = require("@mui/icons-material/LocationOnOutlined");
-var LocationOnOutlined_default = /*#__PURE__*/__webpack_require__.n(LocationOnOutlined_namespaceObject);
-// EXTERNAL MODULE: external "react-scroll"
-var external_react_scroll_ = __webpack_require__(3094);
-// EXTERNAL MODULE: ./src/utilities/useScreenSize.js
-var useScreenSize = __webpack_require__(771);
-;// CONCATENATED MODULE: ./src/componentes/Section_1/Section_uno.js
-
-
-//import Image from "next/image";
+// EXTERNAL MODULE: ./src/componentes/Section_2/sectionDos.module.css
+var sectionDos_module = __webpack_require__(7261);
+var sectionDos_module_default = /*#__PURE__*/__webpack_require__.n(sectionDos_module);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(5675);
+var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
+;// CONCATENATED MODULE: ./src/componentes/Section_2/Section_dos.js
 
 
 
 
-const Section_uno = ()=>{
-    const { width  } = (0,useScreenSize/* default */.Z)();
+const Section_dos = ({ ciudad  })=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
-        className: (section_uno_module_default()).contenedorSectionUno,
+        className: (sectionDos_module_default()).contenedorSectionDos,
         children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (section_uno_module_default()).bloqueIzq,
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h1", {
-                        children: [
-                            "Casas de cambio en ",
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                className: (section_uno_module_default()).linea,
-                                children: "Madrid"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        children: "En nuestras casas de cambio en Madrid puedes cambiar m\xe1s de 30 monedas extranjeras al momento y sin comisiones. \xbfNecesitas cambiar d\xf3lares por euros o cualquier otra moneda extranjera? Ven a Quickgold."
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (section_uno_module_default()).botones,
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_scroll_.Link, {
-                                to: "contenedorMapa",
-                                smooth: true,
-                                offset: -110,
-                                spy: true,
-                                duration: 500,
-                                title: "texto",
-                                passive: true,
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((LocationOnOutlined_default()), {}),
-                                    "encuentra tu tienda"
-                                ]
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                href: "tel:900 373 629",
-                                title: "Tel\xe9fono",
-                                children: "llama gratis al 900 373 629"
-                            })
-                        ]
-                    })
-                ]
-            }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: (section_uno_module_default()).bloqueDer,
-                children: width <= 610 ? /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                    src: "/divisa-mobil.webp",
-                    alt: "Casas de cambio Madrid",
-                    className: (section_uno_module_default()).madridMobil,
-                    width: 290,
-                    height: 220
-                }) : /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                    src: "/divisa.webp",
-                    alt: "Casas de cambio Madrid",
-                    className: (section_uno_module_default()).vector,
-                    width: 480,
-                    height: 364
-                })
-            })
-        ]
-    });
-};
-/* harmony default export */ const Section_1_Section_uno = (Section_uno);
-
-
-/***/ }),
-
-/***/ 225:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ Section_2_SectionDos)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
-// EXTERNAL MODULE: ./src/componentes/ConversorDivisa/estilosConversor.module.css
-var estilosConversor_module = __webpack_require__(3460);
-var estilosConversor_module_default = /*#__PURE__*/__webpack_require__.n(estilosConversor_module);
-// EXTERNAL MODULE: external "@mui/icons-material/KeyboardArrowDown"
-var KeyboardArrowDown_ = __webpack_require__(4845);
-var KeyboardArrowDown_default = /*#__PURE__*/__webpack_require__.n(KeyboardArrowDown_);
-;// CONCATENATED MODULE: external "@mui/icons-material/PowerInput"
-const PowerInput_namespaceObject = require("@mui/icons-material/PowerInput");
-var PowerInput_default = /*#__PURE__*/__webpack_require__.n(PowerInput_namespaceObject);
-;// CONCATENATED MODULE: external "@mui/icons-material/ImportExport"
-const ImportExport_namespaceObject = require("@mui/icons-material/ImportExport");
-var ImportExport_default = /*#__PURE__*/__webpack_require__.n(ImportExport_namespaceObject);
-;// CONCATENATED MODULE: ./src/componentes/ConversorDivisa/Comprar.js
-
-
-
-
-
-
-//import { useFetchData } from "../../utilities/DataTiendas";
-const Comprar = ()=>{
-    const nombreCiudad = "madrid";
-    const [data, setData] = (0,external_react_.useState)([]);
-    const [loading, setLoading] = (0,external_react_.useState)(null);
-    (0,external_react_.useEffect)(()=>{
-        fetch(`https://quickgold.es/archivos-cache/Fixing${nombreCiudad}.txt`, {
-            cache: "no-cache"
-        }).then((response)=>response.json()).then((response)=>{
-            setData(response?.result?.Tarifas?.Divisas_Compra.reverse());
-            setLoading(true);
-        });
-    }, []);
-    //const { data, loading } = useFetchData();
-    //const dataCompras = datos?.result?.Tarifas?.Divisas_Compra;
-    //const dataReverse = dataCompras?.reverse();
-    const precioLibra = data[0]?.Productos[0].Precio / 1000;
-    const precioDolar = data[1]?.Productos[0].Precio / 1000;
-    const [valorMoneda, setValorMoneda] = (0,external_react_.useState)("0");
-    const [DataAcronimo, setAcronimo] = (0,external_react_.useState)("");
-    //const [DataNombre, setDataNombre] = useState("");
-    const [valorInput, setValorInput] = (0,external_react_.useState)("");
-    const [selectDivisa, setSelectDivisa] = (0,external_react_.useState)(true);
-    const [switched, setSwitched] = (0,external_react_.useState)(null);
-    const [select, setSelect] = (0,external_react_.useState)(null);
-    const precioDividido = valorMoneda / 1000;
-    const precioDividido2 = 1 / precioDividido;
-    const valorFinal = valorInput * precioDividido;
-    const valorFinal2 = valorInput / precioDividido;
-    const captureCodigo = (e)=>{
-        setAcronimo(e.target.dataset.acronimo);
-        //setDataNombre(e.target.dataset.nombre);
-        setValorMoneda(e.target.dataset.precio);
-    };
-    const MonedaSeleccionada = ()=>{
-        setSelectDivisa(false);
-    };
-    const captureHabitual = (e)=>{
-        setAcronimo(e.target.dataset.acronimo);
-        setValorMoneda(e.target.dataset.precio);
-        setSelectDivisa(false);
-    }; /*
-  const seleccion = () => {
-    setSelectOpen(true);
-  };*/ 
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: (estilosConversor_module_default()).bloqueDer,
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (estilosConversor_module_default()).bloqueDivHabituales,
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (estilosConversor_module_default()).bloqueTituloSuperior,
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h3", {
-                                children: [
-                                    "Conversor ",
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                                    " de divisa"
-                                ]
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                className: (estilosConversor_module_default()).tituloDivisaHabitual,
-                                children: "Divisas m\xe1s habituales:"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (estilosConversor_module_default()).divisasHabituales,
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: (estilosConversor_module_default()).dolar,
-                                onClick: (e)=>{
-                                    captureHabitual(e);
-                                    setSelect(false);
-                                },
-                                "data-acronimo": data[1]?.Productos[0]?.Acronimo,
-                                "data-precio": data[1]?.Productos[0]?.Precio,
-                                children: [
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: (estilosConversor_module_default()).imgMoneda,
-                                        onClick: (e)=>{
-                                            captureHabitual(e);
-                                            setSelect(false);
-                                        },
-                                        "data-acronimo": data[1]?.Productos[0]?.Acronimo,
-                                        "data-precio": data[1]?.Productos[0]?.Precio,
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "/banderaUSA.png",
-                                                onClick: (e)=>{
-                                                    captureHabitual(e);
-                                                    setSelect(false);
-                                                },
-                                                "data-acronimo": data[1]?.Productos[0]?.Acronimo,
-                                                "data-precio": data[1]?.Productos[0]?.Precio,
-                                                alt: data[1]?.Productos[0]?.Acronimo
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                onClick: (e)=>{
-                                                    captureHabitual(e);
-                                                    setSelect(false);
-                                                },
-                                                "data-acronimo": data[1]?.Productos[0]?.Acronimo,
-                                                "data-precio": data[1]?.Productos[0]?.Precio,
-                                                children: "USD"
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: (estilosConversor_module_default()).nombreMoneda,
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                onClick: (e)=>{
-                                                    captureHabitual(e);
-                                                    setSelect(false);
-                                                },
-                                                "data-acronimo": data[1]?.Productos[0]?.Acronimo,
-                                                "data-precio": data[1]?.Productos[0]?.Precio,
-                                                children: "D\xf3lar USA"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                onClick: (e)=>{
-                                                    captureHabitual(e);
-                                                    setSelect(false);
-                                                },
-                                                "data-acronimo": data[1]?.Productos[0]?.Acronimo,
-                                                "data-precio": data[1]?.Productos[0]?.Precio,
-                                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
-                                                    onClick: (e)=>{
-                                                        captureHabitual(e);
-                                                        setSelect(false);
-                                                    },
-                                                    "data-acronimo": data[1]?.Productos[0]?.Acronimo,
-                                                    "data-precio": data[1]?.Productos[0]?.Precio,
-                                                    children: [
-                                                        loading ? precioDolar.toFixed(4) : "Cargando...",
-                                                        "€"
-                                                    ]
-                                                })
-                                            })
-                                        ]
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: (estilosConversor_module_default()).libra,
-                                onClick: (e)=>{
-                                    captureHabitual(e);
-                                    setSelect(false);
-                                },
-                                "data-acronimo": data[0]?.Productos[0]?.Acronimo,
-                                "data-precio": data[0]?.Productos[0]?.Precio,
-                                children: [
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: (estilosConversor_module_default()).imgMoneda,
-                                        onClick: (e)=>{
-                                            captureHabitual(e);
-                                            setSelect(false);
-                                        },
-                                        "data-acronimo": data[0]?.Productos[0]?.Acronimo,
-                                        "data-precio": data[0]?.Productos[0]?.Precio,
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "/banderaGBP.png",
-                                                onClick: (e)=>{
-                                                    captureHabitual(e);
-                                                    setSelect(false);
-                                                },
-                                                "data-acronimo": data[0]?.Productos[0]?.Acronimo,
-                                                "data-precio": data[0]?.Productos[0]?.Precio,
-                                                alt: data[0]?.Productos[0]?.Acronimo
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                onClick: (e)=>{
-                                                    captureHabitual(e);
-                                                    setSelect(false);
-                                                },
-                                                "data-acronimo": data[0]?.Productos[0]?.Acronimo,
-                                                "data-precio": data[0]?.Productos[0]?.Precio,
-                                                children: "GBP"
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: (estilosConversor_module_default()).nombreMoneda,
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                onClick: (e)=>{
-                                                    captureHabitual(e);
-                                                    setSelect(false);
-                                                },
-                                                "data-acronimo": data[0]?.Productos[0]?.Acronimo,
-                                                "data-precio": data[0]?.Productos[0]?.Precio,
-                                                children: "Libra Esterlina"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                onClick: (e)=>{
-                                                    captureHabitual(e);
-                                                    setSelect(false);
-                                                },
-                                                "data-acronimo": data[0]?.Productos[0]?.Acronimo,
-                                                "data-precio": data[0]?.Productos[0]?.Precio,
-                                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
-                                                    onClick: (e)=>{
-                                                        captureHabitual(e);
-                                                        setSelect(false);
-                                                    },
-                                                    "data-acronimo": data[0]?.Productos[0]?.Acronimo,
-                                                    "data-precio": data[0]?.Productos[0]?.Precio,
-                                                    children: [
-                                                        loading ? precioLibra.toFixed(4) : "Cargando...",
-                                                        "€"
-                                                    ]
-                                                })
-                                            })
-                                        ]
-                                    })
-                                ]
-                            })
-                        ]
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (estilosConversor_module_default()).contenedorInputSuperior,
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: (estilosConversor_module_default()).bloqueIzqInput,
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: (estilosConversor_module_default()).select,
-                            onClick: ()=>{
-                                setSelect(!select);
-                            },
-                            children: [
-                                selectDivisa ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                            children: "Seleccione Divisa"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowDown_default()), {})
-                                    ]
-                                }) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-                                    children: [
-                                        DataAcronimo,
-                                        " ",
-                                        /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowDown_default()), {})
-                                    ]
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: select ? `${(estilosConversor_module_default()).select_monedas} ${(estilosConversor_module_default()).select_activo}` : `${(estilosConversor_module_default()).select_monedas}`,
-                                    children: data?.filter((currency)=>currency.Name !== "HRK" && currency.Name !== "DKK" && currency.Name !== "RUB" && currency.Name !== "NOK").map((data, i)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: (estilosConversor_module_default()).contenedor_list,
-                                            "data-acronimo": data?.Productos[0].Acronimo,
-                                            "data-precio": data?.Productos[0].Precio,
-                                            onClick: (e)=>{
-                                                captureCodigo(e);
-                                                MonedaSeleccionada();
-                                            },
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                    className: (estilosConversor_module_default()).bandera,
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                        src: `/${data?.Productos[0].Acronimo}.png`,
-                                                        "data-acronimo": data?.Productos[0].Acronimo,
-                                                        "data-precio": data?.Productos[0].Precio,
-                                                        alt: data?.Productos[0].Acronimo
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                    className: (estilosConversor_module_default()).moneda,
-                                                    children: [
-                                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                            "data-acronimo": data?.Productos[0].Acronimo,
-                                                            "data-precio": data?.Productos[0].Precio,
-                                                            children: data?.Productos[0].Acronimo
-                                                        }),
-                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                            className: (estilosConversor_module_default()).nombre,
-                                                            "data-acronimo": data?.Productos[0].Acronimo,
-                                                            "data-precio": data?.Productos[0].Precio,
-                                                            children: data?.Productos[0].Nombre
-                                                        })
-                                                    ]
-                                                })
-                                            ]
-                                        }, i))
-                                })
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (estilosConversor_module_default()).bloqueDerInput,
-                        children: [
-                            selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx((PowerInput_default()), {}) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: (estilosConversor_module_default()).contenedorInput,
-                                children: [
-                                    switched ? /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                        style: {
-                                            border: "none"
-                                        },
-                                        type: "text",
-                                        pattern: "[0-9]*",
-                                        placeholder: "0.00",
-                                        inputMode: "numeric",
-                                        readOnly: true,
-                                        //id="input-izquierdo"
-                                        //ref={refInput1}
-                                        //onChange={calcularCambio}
-                                        value: valorFinal2.toFixed(2)
-                                    }) : /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                        type: "text",
-                                        pattern: "[0-9]*",
-                                        placeholder: "0.00",
-                                        inputMode: "numeric",
-                                        className: (estilosConversor_module_default()).inputInferior,
-                                        //readOnly
-                                        //id="input-izquierdo"
-                                        //ref={refInput1}
-                                        //onChange={calcularCambio}
-                                        //value={valorFinal.toFixed(2)}
-                                        onChange: (event)=>setValorInput(event.target.value)
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: DataAcronimo
-                                    })
-                                ]
-                            }),
-                            selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx("p", {}) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                children: [
-                                    "1",
-                                    DataAcronimo,
-                                    " = ",
-                                    precioDividido.toFixed(4),
-                                    "EUR"
-                                ]
-                            })
-                        ]
-                    })
-                ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: (estilosConversor_module_default()).botonSwith,
-                children: /*#__PURE__*/ jsx_runtime_.jsx((ImportExport_default()), {
-                    onClick: (e)=>{
-                        setSwitched(!switched);
-                    }
-                })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (estilosConversor_module_default()).contenedorInputInferior,
-                children: [
-                    selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                        children: DataAcronimo
-                    }) : /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: (estilosConversor_module_default()).monedaInferior,
-                        children: "EUR"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (estilosConversor_module_default()).bloqueDerInput,
-                        children: [
-                            selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx((PowerInput_default()), {}) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: (estilosConversor_module_default()).contenedorInput,
-                                children: [
-                                    switched ? /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                        type: "text",
-                                        pattern: "[0-9]*",
-                                        placeholder: "Cantidad",
-                                        inputMode: "numeric",
-                                        className: (estilosConversor_module_default()).inputInferior,
-                                        //id="input-derecho"
-                                        //ref={refInput2}
-                                        //onChange={calcularCambio}
-                                        //value={valorFinal.toFixed(2)}
-                                        onChange: (event)=>setValorInput(event.target.value)
-                                    }) : /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                        type: "text",
-                                        pattern: "[0-9]*",
-                                        placeholder: "Cantidad",
-                                        inputMode: "numeric",
-                                        //id="input-derecho"
-                                        //ref={refInput2}
-                                        //onChange={calcularCambio}
-                                        value: valorFinal.toFixed(2),
-                                        readOnly: true,
-                                        style: {
-                                            border: "none"
-                                        }
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: "EUR"
-                                    })
-                                ]
-                            }),
-                            selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx("p", {}) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                children: [
-                                    "1EUR = ",
-                                    precioDividido2.toFixed(4),
-                                    DataAcronimo
-                                ]
-                            })
-                        ]
-                    })
-                ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                className: (estilosConversor_module_default()).botonLlamarTienda,
-                href: "tel:900 373 629",
-                children: "LLAMAR A TIENDA"
-            })
-        ]
-    });
-};
-/* harmony default export */ const ConversorDivisa_Comprar = (Comprar);
-
-// EXTERNAL MODULE: ./src/componentes/Section_2/section_2.module.css
-var section_2_module = __webpack_require__(9586);
-var section_2_module_default = /*#__PURE__*/__webpack_require__.n(section_2_module);
-;// CONCATENATED MODULE: ./src/componentes/ConversorDivisa/Vender.js
-
-
-
-
-
-
-//import { useFetchData } from "../../utilities/DataTiendas";
-const Vender_Comprar = ()=>{
-    const nombreCiudad = "madrid";
-    const [data, setData] = (0,external_react_.useState)([]);
-    const [loading, setLoading] = (0,external_react_.useState)(null);
-    (0,external_react_.useEffect)(()=>{
-        fetch(`https://quickgold.es/archivos-cache/Fixing${nombreCiudad}.txt`, {
-            cache: "no-cache"
-        }).then((response)=>response.json()).then((response)=>{
-            setData(response?.result?.Tarifas?.Divisas_Venta.reverse());
-            setLoading(true);
-        });
-    }, []);
-    //const { data, loading } = useFetchData();
-    //const dataCompras = datos?.result?.Tarifas?.Divisas_Compra;
-    //const dataReverse = dataCompras?.reverse();
-    const precioLibra = data[0]?.Productos[0].Precio / 1000;
-    const precioDolar = data[1]?.Productos[0].Precio / 1000;
-    const [valorMoneda, setValorMoneda] = (0,external_react_.useState)("0");
-    const [DataAcronimo, setAcronimo] = (0,external_react_.useState)("");
-    //const [DataNombre, setDataNombre] = useState("");
-    const [valorInput, setValorInput] = (0,external_react_.useState)("");
-    const [selectDivisa, setSelectDivisa] = (0,external_react_.useState)(true);
-    const [switched, setSwitched] = (0,external_react_.useState)(null);
-    const [select, setSelect] = (0,external_react_.useState)(null);
-    const precioDividido = valorMoneda / 1000;
-    const precioDividido2 = 1 / precioDividido;
-    const valorFinal = valorInput * precioDividido;
-    const valorFinal2 = valorInput / precioDividido;
-    const captureCodigo = (e)=>{
-        setAcronimo(e.target.dataset.acronimo);
-        //setDataNombre(e.target.dataset.nombre);
-        setValorMoneda(e.target.dataset.precio);
-    };
-    const MonedaSeleccionada = ()=>{
-        setSelectDivisa(false);
-    };
-    const captureHabitual = (e)=>{
-        setAcronimo(e.target.dataset.acronimo);
-        setValorMoneda(e.target.dataset.precio);
-        setSelectDivisa(false);
-    }; /*
-  const seleccion = () => {
-    setSelectOpen(true);
-  };*/ 
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: (estilosConversor_module_default()).bloqueDer,
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (estilosConversor_module_default()).bloqueDivHabituales,
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (estilosConversor_module_default()).bloqueTituloSuperior,
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h3", {
-                                children: [
-                                    "Conversor ",
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                                    " de divisa"
-                                ]
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                className: (estilosConversor_module_default()).tituloDivisaHabitual,
-                                children: "Divisas m\xe1s habituales:"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (estilosConversor_module_default()).divisasHabituales,
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: (estilosConversor_module_default()).dolar,
-                                onClick: (e)=>{
-                                    captureHabitual(e);
-                                    setSelect(false);
-                                },
-                                "data-acronimo": data[1]?.Productos[0]?.Acronimo,
-                                "data-precio": data[1]?.Productos[0]?.Precio,
-                                children: [
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: (estilosConversor_module_default()).imgMoneda,
-                                        onClick: (e)=>{
-                                            captureHabitual(e);
-                                            setSelect(false);
-                                        },
-                                        "data-acronimo": data[1]?.Productos[0]?.Acronimo,
-                                        "data-precio": data[1]?.Productos[0]?.Precio,
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "/banderaUSA.png",
-                                                onClick: (e)=>{
-                                                    captureHabitual(e);
-                                                    setSelect(false);
-                                                },
-                                                "data-acronimo": data[1]?.Productos[0]?.Acronimo,
-                                                "data-precio": data[1]?.Productos[0]?.Precio,
-                                                alt: data[1]?.Productos[0]?.Acronimo
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                onClick: (e)=>{
-                                                    captureHabitual(e);
-                                                    setSelect(false);
-                                                },
-                                                "data-acronimo": data[1]?.Productos[0]?.Acronimo,
-                                                "data-precio": data[1]?.Productos[0]?.Precio,
-                                                children: "USD"
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: (estilosConversor_module_default()).nombreMoneda,
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                onClick: (e)=>{
-                                                    captureHabitual(e);
-                                                    setSelect(false);
-                                                },
-                                                "data-acronimo": data[1]?.Productos[0]?.Acronimo,
-                                                "data-precio": data[1]?.Productos[0]?.Precio,
-                                                children: "D\xf3lar USA"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                onClick: (e)=>{
-                                                    captureHabitual(e);
-                                                    setSelect(false);
-                                                },
-                                                "data-acronimo": data[1]?.Productos[0]?.Acronimo,
-                                                "data-precio": data[1]?.Productos[0]?.Precio,
-                                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
-                                                    onClick: (e)=>{
-                                                        captureHabitual(e);
-                                                        setSelect(false);
-                                                    },
-                                                    "data-acronimo": data[1]?.Productos[0]?.Acronimo,
-                                                    "data-precio": data[1]?.Productos[0]?.Precio,
-                                                    children: [
-                                                        loading ? precioDolar.toFixed(4) : "Cargando...",
-                                                        "€"
-                                                    ]
-                                                })
-                                            })
-                                        ]
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: (estilosConversor_module_default()).libra,
-                                onClick: (e)=>{
-                                    captureHabitual(e);
-                                    setSelect(false);
-                                },
-                                "data-acronimo": data[0]?.Productos[0]?.Acronimo,
-                                "data-precio": data[0]?.Productos[0]?.Precio,
-                                children: [
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: (estilosConversor_module_default()).imgMoneda,
-                                        onClick: (e)=>{
-                                            captureHabitual(e);
-                                            setSelect(false);
-                                        },
-                                        "data-acronimo": data[0]?.Productos[0]?.Acronimo,
-                                        "data-precio": data[0]?.Productos[0]?.Precio,
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                src: "/banderaGBP.png",
-                                                onClick: (e)=>{
-                                                    captureHabitual(e);
-                                                    setSelect(false);
-                                                },
-                                                "data-acronimo": data[0]?.Productos[0]?.Acronimo,
-                                                "data-precio": data[0]?.Productos[0]?.Precio,
-                                                alt: data[0]?.Productos[0]?.Acronimo
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                onClick: (e)=>{
-                                                    captureHabitual(e);
-                                                    setSelect(false);
-                                                },
-                                                "data-acronimo": data[0]?.Productos[0]?.Acronimo,
-                                                "data-precio": data[0]?.Productos[0]?.Precio,
-                                                children: "GBP"
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: (estilosConversor_module_default()).nombreMoneda,
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                onClick: (e)=>{
-                                                    captureHabitual(e);
-                                                    setSelect(false);
-                                                },
-                                                "data-acronimo": data[0]?.Productos[0]?.Acronimo,
-                                                "data-precio": data[0]?.Productos[0]?.Precio,
-                                                children: "Libra Esterlina"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                onClick: (e)=>{
-                                                    captureHabitual(e);
-                                                    setSelect(false);
-                                                },
-                                                "data-acronimo": data[0]?.Productos[0]?.Acronimo,
-                                                "data-precio": data[0]?.Productos[0]?.Precio,
-                                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
-                                                    onClick: (e)=>{
-                                                        captureHabitual(e);
-                                                        setSelect(false);
-                                                    },
-                                                    "data-acronimo": data[0]?.Productos[0]?.Acronimo,
-                                                    "data-precio": data[0]?.Productos[0]?.Precio,
-                                                    children: [
-                                                        loading ? precioLibra.toFixed(4) : "Cargando...",
-                                                        "€"
-                                                    ]
-                                                })
-                                            })
-                                        ]
-                                    })
-                                ]
-                            })
-                        ]
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (estilosConversor_module_default()).contenedorInputSuperior,
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: (estilosConversor_module_default()).bloqueIzqInput,
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: (estilosConversor_module_default()).select,
-                            onClick: ()=>{
-                                setSelect(!select);
-                            },
-                            children: [
-                                selectDivisa ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                            children: "Seleccione Divisa"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowDown_default()), {})
-                                    ]
-                                }) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-                                    children: [
-                                        DataAcronimo,
-                                        " ",
-                                        /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowDown_default()), {})
-                                    ]
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: select ? `${(estilosConversor_module_default()).select_monedas} ${(estilosConversor_module_default()).select_activo}` : `${(estilosConversor_module_default()).select_monedas}`,
-                                    children: data?.filter((currency)=>currency.Name !== "HRK").map((data, i)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: (estilosConversor_module_default()).contenedor_list,
-                                            "data-acronimo": data?.Productos[0].Acronimo,
-                                            "data-precio": data?.Productos[0].Precio,
-                                            onClick: (e)=>{
-                                                captureCodigo(e);
-                                                MonedaSeleccionada();
-                                            },
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                    className: (estilosConversor_module_default()).bandera,
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                        src: `/${data?.Productos[0].Acronimo}.png`,
-                                                        "data-acronimo": data?.Productos[0].Acronimo,
-                                                        "data-precio": data?.Productos[0].Precio,
-                                                        alt: data?.Productos[0].Acronimo
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                    className: (estilosConversor_module_default()).moneda,
-                                                    children: [
-                                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                            "data-acronimo": data?.Productos[0].Acronimo,
-                                                            "data-precio": data?.Productos[0].Precio,
-                                                            children: data?.Productos[0].Acronimo
-                                                        }),
-                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                            className: (estilosConversor_module_default()).nombre,
-                                                            "data-acronimo": data?.Productos[0].Acronimo,
-                                                            "data-precio": data?.Productos[0].Precio,
-                                                            children: data?.Productos[0].Nombre
-                                                        })
-                                                    ]
-                                                })
-                                            ]
-                                        }, i))
-                                })
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (estilosConversor_module_default()).bloqueDerInput,
-                        children: [
-                            selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx((PowerInput_default()), {}) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: (estilosConversor_module_default()).contenedorInput,
-                                children: [
-                                    switched ? /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                        style: {
-                                            border: "none"
-                                        },
-                                        type: "text",
-                                        pattern: "[0-9]*",
-                                        placeholder: "0.00",
-                                        inputMode: "numeric",
-                                        readOnly: true,
-                                        //id="input-izquierdo"
-                                        //ref={refInput1}
-                                        //onChange={calcularCambio}
-                                        value: valorFinal2.toFixed(2)
-                                    }) : /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                        type: "text",
-                                        pattern: "[0-9]*",
-                                        placeholder: "0.00",
-                                        inputMode: "numeric",
-                                        className: (estilosConversor_module_default()).inputInferior,
-                                        //readOnly
-                                        //id="input-izquierdo"
-                                        //ref={refInput1}
-                                        //onChange={calcularCambio}
-                                        //value={valorFinal.toFixed(2)}
-                                        onChange: (event)=>setValorInput(event.target.value)
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: DataAcronimo
-                                    })
-                                ]
-                            }),
-                            selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx("p", {}) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                children: [
-                                    "1",
-                                    DataAcronimo,
-                                    " = ",
-                                    precioDividido.toFixed(4),
-                                    "EUR"
-                                ]
-                            })
-                        ]
-                    })
-                ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: (estilosConversor_module_default()).botonSwith,
-                children: /*#__PURE__*/ jsx_runtime_.jsx((ImportExport_default()), {
-                    onClick: (e)=>{
-                        setSwitched(!switched);
-                    }
-                })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (estilosConversor_module_default()).contenedorInputInferior,
-                children: [
-                    selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                        children: DataAcronimo
-                    }) : /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: (estilosConversor_module_default()).monedaInferior,
-                        children: "EUR"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (estilosConversor_module_default()).bloqueDerInput,
-                        children: [
-                            selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx((PowerInput_default()), {}) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: (estilosConversor_module_default()).contenedorInput,
-                                children: [
-                                    switched ? /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                        type: "text",
-                                        pattern: "[0-9]*",
-                                        placeholder: "Cantidad",
-                                        inputMode: "numeric",
-                                        className: (estilosConversor_module_default()).inputInferior,
-                                        //id="input-derecho"
-                                        //ref={refInput2}
-                                        //onChange={calcularCambio}
-                                        //value={valorFinal.toFixed(2)}
-                                        onChange: (event)=>setValorInput(event.target.value)
-                                    }) : /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                        type: "text",
-                                        pattern: "[0-9]*",
-                                        placeholder: "Cantidad",
-                                        inputMode: "numeric",
-                                        //id="input-derecho"
-                                        //ref={refInput2}
-                                        //onChange={calcularCambio}
-                                        value: valorFinal.toFixed(2),
-                                        readOnly: true,
-                                        style: {
-                                            border: "none"
-                                        }
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: "EUR"
-                                    })
-                                ]
-                            }),
-                            selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx("p", {}) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                children: [
-                                    "1EUR = ",
-                                    precioDividido2.toFixed(4),
-                                    DataAcronimo
-                                ]
-                            })
-                        ]
-                    })
-                ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                className: (estilosConversor_module_default()).botonLlamarTienda,
-                href: "tel:900 373 629",
-                children: "LLAMAR A TIENDA"
-            })
-        ]
-    });
-};
-/* harmony default export */ const Vender = (Vender_Comprar);
-
-;// CONCATENATED MODULE: ./src/componentes/Section_2/SectionDos.js
-
-
-
-
-
-const SectionDos = ()=>{
-    const [switched, setSwitched] = (0,external_react_.useState)(null);
-    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
-        className: (section_2_module_default()).contendorSectionDos,
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: (section_2_module_default()).contendorBloques,
-            children: [
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: (section_2_module_default()).bloqueIzq,
+                className: (sectionDos_module_default()).bloqueSuperior,
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
                     children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("figure", {
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                src: "/imagen_calc.png",
-                                alt: "Logo Divisa"
-                            })
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: (section_2_module_default()).contenedorInfo,
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                                    children: "Cambio de Divisas Madrid"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                    children: [
-                                        "Conoce el tipo de cambio en nuestras",
-                                        /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                        " casas de cambio de moneda en Madrid."
-                                    ]
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: (section_2_module_default()).contenedorBotones,
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                    onClick: ()=>{
-                                        setSwitched(false);
-                                    },
-                                    className: switched ? `${(section_2_module_default()).botonComprar}` : `${(section_2_module_default()).botonComprar} ${(section_2_module_default()).botonActivo}`,
-                                    children: "QUIERO EUROS"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                    className: switched ? `${(section_2_module_default()).botonVender} ${(section_2_module_default()).botonActivo}` : ` ${(section_2_module_default()).botonVender}`,
-                                    onClick: ()=>{
-                                        setSwitched(true);
-                                    },
-                                    children: "TENGO EUROS"
-                                })
-                            ]
+                        "Ventajas de cambiar d\xf3lares en",
+                        " ",
+                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                            className: (sectionDos_module_default()).linea,
+                            children: "quickgold"
                         })
                     ]
+                })
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (sectionDos_module_default()).bloqueInferior,
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionDos_module_default()).contenedorVentajas,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (sectionDos_module_default()).imagenventaja1,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: "/imagenVentaja1.png",
+                                    alt: "Mejor servicio y precio",
+                                    width: 38,
+                                    height: 38
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "Servicio 100% personalizado"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionDos_module_default()).contenedorVentajas,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (sectionDos_module_default()).imagenventaja1,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: "/imagenVentaja2.png",
+                                    alt: "Mejor servicio y precio",
+                                    width: 37,
+                                    height: 37
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "Precio del d\xf3lar siempre actualizado"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionDos_module_default()).contenedorVentajas,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (sectionDos_module_default()).imagenventaja1,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: "/imagenVentaja3.png",
+                                    alt: "Mejor servicio y precio",
+                                    width: 23,
+                                    height: 36
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "M\xe1s de 50 casas de cambio"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionDos_module_default()).contenedorVentajas,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (sectionDos_module_default()).imagenventaja1,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: "/imagenVentaja4.png",
+                                    alt: "Mejor servicio y precio",
+                                    width: 40,
+                                    height: 36
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "Mejor tipo de cambio de tu ciudad"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionDos_module_default()).contenedorVentajas,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (sectionDos_module_default()).imagenventaja1,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: "/imagenVentaja5.png",
+                                    alt: "Mejor servicio y precio",
+                                    width: 38,
+                                    height: 38
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "Euros en efectivo al instante"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionDos_module_default()).contenedorVentajas,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (sectionDos_module_default()).imagenventaja1,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: "/imagenVentaja6.png",
+                                    alt: "Mejor servicio y precio",
+                                    width: 37,
+                                    height: 30
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "Sin comisiones"
+                            })
+                        ]
+                    })
+                ]
+            })
+        ]
+    });
+};
+/* harmony default export */ const Section_2_Section_dos = (Section_dos);
+
+// EXTERNAL MODULE: ./src/componentes/Section_5/sectionDos.module.css
+var Section_5_sectionDos_module = __webpack_require__(9111);
+var Section_5_sectionDos_module_default = /*#__PURE__*/__webpack_require__.n(Section_5_sectionDos_module);
+;// CONCATENATED MODULE: ./src/componentes/Section_5/Section_cinco.js
+
+
+
+const Section_cinco = ({ ciudad  })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
+        className: (Section_5_sectionDos_module_default()).contenedorSectionCinco,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: (Section_5_sectionDos_module_default()).contenedorSectionCincoMargen,
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
+                    children: [
+                        "C\xf3mo vender d\xf3lares en ",
+                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                            className: (Section_5_sectionDos_module_default()).linea,
+                            children: "quickgold"
+                        })
+                    ]
+                })
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (Section_5_sectionDos_module_default()).sectionCincoContenido,
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (Section_5_sectionDos_module_default()).contenidoCard,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "#1"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "Visita en tienda"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "Acude a nuestra casa de cambio de d\xf3lares m\xe1s cercana e ind\xedcanos la cantidad de d\xf3lares que quieres cambiar a euros. Recuerda que realizamos mejoras en el tipo de cambio seg\xfan la cantidad a cambiar as\xed que siempre te vamos a ofrecer nuestro mejor precio y la mejor tasa de cambio de tu ciudad."
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (Section_5_sectionDos_module_default()).contenidoCard,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "#2"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "Acuerdo en precio"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "Seg\xfan el tipo de cambio del d\xf3lar en ese momento, fijaremos el mejor precio del d\xf3lar hoy y comprobaremos tus d\xf3lares antes de realiza la transacci\xf3n."
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (Section_5_sectionDos_module_default()).contenidoCard,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "#3"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "Firma comprobante"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "Te haremos firmar un comprobante en el que se indica la cantidad de d\xf3lares que nos has tra\xeddo y la cantidad de euros que recibes, un documento sencillo y r\xe1pido de gestionar."
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (Section_5_sectionDos_module_default()).contenidoCard,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "#4"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "Pago inmediato"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "Una vez tenemos los d\xf3lares y el comprobante de la operaci\xf3n, nuestro equipo te dar\xe1 un sobre con los euros en efectivo que se acordaron para el pago."
+                            })
+                        ]
+                    })
+                ]
+            })
+        ]
+    });
+};
+/* harmony default export */ const Section_5_Section_cinco = (Section_cinco);
+
+// EXTERNAL MODULE: ./src/componentes/Section_6/sectionSeis.module.css
+var sectionSeis_module = __webpack_require__(8869);
+var sectionSeis_module_default = /*#__PURE__*/__webpack_require__.n(sectionSeis_module);
+// EXTERNAL MODULE: ./src/componentes/SelectorCiudadesServicio/SelectorCiudades.module.css
+var SelectorCiudades_module = __webpack_require__(8410);
+var SelectorCiudades_module_default = /*#__PURE__*/__webpack_require__.n(SelectorCiudades_module);
+;// CONCATENATED MODULE: ./src/componentes/SelectorCiudadesServicio/SelectorCiudadesServicio.js
+
+
+
+
+const SelectorCiudadesServicio = ({ listadoCiudadesServicios  })=>{
+    const listadoCiudades = listadoCiudadesServicios.arrayMarker;
+    const [selectOpen, setSelectOpen] = (0,external_react_.useState)(null);
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: (SelectorCiudades_module_default()).contenedorSelector,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                onClick: ()=>{
+                    setSelectOpen(!selectOpen);
+                },
+                children: [
+                    "Selecciona tienda ",
+                    /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowDown_default()), {})
+                ]
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("ul", {
+                className: selectOpen ? `${(SelectorCiudades_module_default()).contenedorSelectorUl} ${(SelectorCiudades_module_default()).contenedorSelectorUlActivo}` : `${(SelectorCiudades_module_default()).contenedorSelectorUl}`,
+                children: listadoCiudades.map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        onClick: ()=>{
+                            setSelectOpen(false);
+                        },
+                        href: ciudad.url,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                            className: (SelectorCiudades_module_default()).contenedorSelectorListado,
+                            children: ciudad.ciudad
+                        })
+                    }, i))
+            })
+        ]
+    });
+};
+/* harmony default export */ const SelectorCiudadesServicio_SelectorCiudadesServicio = (SelectorCiudadesServicio);
+
+;// CONCATENATED MODULE: ./src/componentes/Section_6/Section_seis.js
+
+
+
+
+const Section_seis = ({ listadoCiudadesServicios  })=>{
+    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
+        className: (sectionSeis_module_default()).contenedorSectionSeis,
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            className: (sectionSeis_module_default()).contenedorSectionSeisMargen,
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx("h5", {
+                    className: (sectionSeis_module_default()).tituloMobil,
+                    children: "Nuestras tiendas compro oro"
                 }),
-                switched ? /*#__PURE__*/ jsx_runtime_.jsx(Vender, {}) : /*#__PURE__*/ jsx_runtime_.jsx(ConversorDivisa_Comprar, {})
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: (sectionSeis_module_default()).BannerSelectorCiudad,
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("h5", {
+                            children: "Nuestras casas de cambio"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            className: (sectionSeis_module_default()).SelectCiudades,
+                            children: /*#__PURE__*/ jsx_runtime_.jsx(SelectorCiudadesServicio_SelectorCiudadesServicio, {
+                                listadoCiudadesServicios: listadoCiudadesServicios
+                            })
+                        })
+                    ]
+                })
             ]
         })
     });
 };
-/* harmony default export */ const Section_2_SectionDos = (SectionDos);
+/* harmony default export */ const Section_6_Section_seis = (Section_seis);
 
-
-/***/ }),
-
-/***/ 311:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6945);
-/* harmony import */ var _sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-const SectionTres = ()=>{
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-        className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorSectionTres),
-        children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorContenidoUno),
-                children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().bloqueIzq),
-                        children: [
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h2", {
-                                children: [
-                                    "\xbfNecesitas una oficina de cambio en",
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                        className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().linea),
-                                        children: " Madrid?"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                        children: "En Quickgold tenemos actualmente 11 casas de cambio en la capital de Espa\xf1a para que puedas cambiar moneda extrajera f\xe1cil y r\xe1pido."
-                                    }),
-                                    "Tenemos m\xe1s de 30 divisas disponibles para ofrecerte el mejor servicio."
-                                ]
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().bloqueDer),
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                children: "\xbfC\xf3mo cambiar divisa?"
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                children: "Acude a tu casa de cambio quickgold m\xe1s cercana, ind\xedcanos la moneda extranjera que quieres cambiar y recibe el dinero en efectivo al instante."
-                            })
-                        ]
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h1", {
-                children: [
-                    "Cambiar divisa en ",
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                        className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().linea),
-                        children: "Madrid"
-                    }),
-                    " es muy f\xe1cil"
-                ]
-            }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorInfoTres),
-                children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().cards),
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                children: "#1"
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                children: "Ind\xedcanos la divisa que quieres cambiar"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().cards),
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                children: "#2"
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                children: "Acordamos precio. \xa1Hacemos mejoras por cantidad!"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().cards),
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                children: "#3"
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                children: "Recibe el dinero en efectivo al instante"
-                            })
-                        ]
-                    })
-                ]
-            })
-        ]
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SectionTres);
-
-
-/***/ }),
-
-/***/ 3120:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _sectionCuatro_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1406);
-/* harmony import */ var _sectionCuatro_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sectionCuatro_module_css__WEBPACK_IMPORTED_MODULE_2__);
-
-
-//import Image from "next/image";
-
-const SectionCuatro = ()=>{
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-        className: (_sectionCuatro_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorSectionCuatro),
-        children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: (_sectionCuatro_module_css__WEBPACK_IMPORTED_MODULE_2___default().bloqueIzq),
-                children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h2", {
-                        children: [
-                            "Cambia moneda extranjera en ",
-                            "",
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                className: (_sectionCuatro_module_css__WEBPACK_IMPORTED_MODULE_2___default().linea),
-                                children: "Madrid"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                        children: "En nuestro money exchange en Madrid puedes cambiar d\xf3lares a euros en tan solo unos minutos. Recuerda llevar el dinero que necesitas cambiar y, al instante, recibir\xe1s la moneda extranjera que necesites en efectivo. Adem\xe1s, ofrecemos mejoras en la tasa de cambio por cantidad, por lo tanto siempre estamos dispuesto a escuchar tus necesidades para ofrecerte el mejor tipo de cambio de la ciudad de Madrid. Olv\xeddate de cambiar divisa en el aeropuerto o en el banco, en quickgold ofrecemos las mejores condiciones y ponemos a tu disposici\xf3n diferentes casas de cambio para estar siempre cerca de ti."
-                    })
-                ]
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: (_sectionCuatro_module_css__WEBPACK_IMPORTED_MODULE_2___default().bloqueDer),
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                    loading: "lazy",
-                    src: "/casa-cambio-madrid.webp",
-                    alt: "Cambiar D\xf3lares a Euros Madrid",
-                    className: (_sectionCuatro_module_css__WEBPACK_IMPORTED_MODULE_2___default().Image),
-                    width: 480,
-                    height: 390
-                })
-            })
-        ]
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SectionCuatro);
-
-
-/***/ }),
-
-/***/ 8287:
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Home),
-/* harmony export */   "getStaticProps": () => (/* binding */ getStaticProps)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(968);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5152);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(8874);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _componentes_Breadcrumbs_Breadcrumbs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8271);
-/* harmony import */ var _componentes_Section_1_Section_uno__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(7159);
-/* harmony import */ var _componentes_Section_2_SectionDos__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(225);
-/* harmony import */ var _componentes_Section_3_SectionTres__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(311);
-/* harmony import */ var _componentes_Section_4_SectionCuatro__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(3120);
-/* harmony import */ var _componentes_Layout_Layout__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(185);
-/* harmony import */ var react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(4009);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__]);
-react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-
-
-//import Image from "next/image";
+;// CONCATENATED MODULE: external "@bradgarropy/next-seo"
+const next_seo_namespaceObject = require("@bradgarropy/next-seo");
+var next_seo_default = /*#__PURE__*/__webpack_require__.n(next_seo_namespaceObject);
+;// CONCATENATED MODULE: ./src/pages/index.js
 
 
 
@@ -2567,21 +2545,15 @@ react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__ = (__webpack_async_depe
 
 
 
-//import Mapa from "@/componentes/Mapa/Mapa";
 
 
-const DynamicMapa = next_dynamic__WEBPACK_IMPORTED_MODULE_2___default()(()=>__webpack_require__.e(/* import() */ 442).then(__webpack_require__.bind(__webpack_require__, 9442)), {
-    loadableGenerated: {
-        modules: [
-            "index.js -> " + "../componentes/Mapa/Mapa.js"
-        ]
-    }
-});
+
+
 const schema = {
     "@context": "http://www.schema.org",
     "@type": "Organization",
     name: "Quickgold",
-    url: "https://quickgold.es/casa-cambio-madrid/",
+    url: "https://quickgold.es/cambio-dolares-euros/",
     sameAs: [
         "https://instagram.com/quickgold.es",
         "https://twitter.com/quickgoldqg",
@@ -2589,11 +2561,9 @@ const schema = {
     ],
     logo: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
     image: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
-    description: "Casas de cambio en Madrid. Cambia d\xf3lares a euros en nuestras oficinas de cambio quickgold. Cambio de moneda extranjera al momento y sin comisiones",
+    description: "Cambia d\xf3lares por euros en nuestras oficinas de cambio de divisas Quickgold. Precio del d\xf3lar siempre actualizado y el mejor tipo de cambio de tu ciudad.",
     address: {
         "@type": "PostalAddress",
-        addressLocality: "Madrid",
-        addressRegion: "Madrid",
         addressCountry: "Espa\xf1a"
     },
     contactPoint: {
@@ -2602,56 +2572,60 @@ const schema = {
         contactType: "info@quickgold.es"
     }
 };
-function Home({ markers , menu_list  }) {
-    const { ref: myRef , inView , entry  } = (0,react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__.useInView)();
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+function Home({ menu_list , ListadoCiudades , listadoCiudadesServicios  }) {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {
+            /*#__PURE__*/ jsx_runtime_.jsx((next_seo_default()), {
+                title: "Cambiar d\xf3lares a euros | Precio del d\xf3lar hoy en Quickgold",
+                description: "Cambia d\xf3lares por euros en nuestras oficinas de cambio de divisas Quickgold. Precio del d\xf3lar siempre actualizado y el mejor tipo de cambio de tu ciudad.",
+                icon: "../../../../assets/favicon.png",
+                facebook: {
+                    image: "/facebook.png",
+                    url: "https://www.facebook.com/quickgold.es/",
+                    type: "article"
+                },
+                twitter: {
+                    image: "/twitter.png",
+                    site: "@quickgoldQG",
+                    card: "summary_large_image"
+                }
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("script", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("script", {
                         type: "application/ld+json",
                         dangerouslySetInnerHTML: {
                             __html: JSON.stringify(schema)
                         }
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("title", {
-                        children: "Casas de Cambio en Madrid | Cambio de Divisas Madrid"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
-                        name: "description",
-                        content: "Casas de cambio en Madrid. Cambia d\xf3lares a euros en nuestras oficinas de cambio quickgold. Cambio de moneda extranjera al momento y sin comisiones. "
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                         name: "TTBUdVkwdzVOOVRpSWV3Nk03anRNMj10",
                         value: "934244db009f8690634f7f94258d34e2"
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                         name: "viewport",
                         content: "width=device-width, initial-scale=1"
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
                         rel: "icon",
                         href: "/favicon.png"
                     })
                 ]
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_Layout_Layout__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
+            /*#__PURE__*/ jsx_runtime_.jsx(Layout, {
                 menu_list: menu_list,
-                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_10___default().main),
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: (Home_module_default()).main,
                     children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_Breadcrumbs_Breadcrumbs__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {}),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_Section_1_Section_uno__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {}),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_Section_2_SectionDos__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {}),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_Section_3_SectionTres__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {}),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_Section_4_SectionCuatro__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {}),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            id: "contenedorMapa",
-                            className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_10___default().contenedorMapaVisible),
-                            ref: myRef,
-                            children: inView ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(DynamicMapa, {
-                                markers: markers
-                            }) : null
+                        /*#__PURE__*/ jsx_runtime_.jsx(Breadcrumbs_Breadcrumbs, {}),
+                        /*#__PURE__*/ jsx_runtime_.jsx(Section_1_Section_uno, {}),
+                        /*#__PURE__*/ jsx_runtime_.jsx(SectionTres, {
+                            ListadoCiudades: ListadoCiudades
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx(Section_2_Section_dos, {}),
+                        /*#__PURE__*/ jsx_runtime_.jsx(Section_5_Section_cinco, {}),
+                        /*#__PURE__*/ jsx_runtime_.jsx(Section_6_Section_seis, {
+                            listadoCiudadesServicios: listadoCiudadesServicios
                         })
                     ]
                 })
@@ -2659,77 +2633,100 @@ function Home({ markers , menu_list  }) {
         ]
     });
 }
-const idTienda = "madrid";
 //const idWp = "13848";
 async function getStaticProps() {
     /*const response = await fetch(
     `https://quickgold.es/wp-json/wp/v2/pages/${idWp}`
   );
-  const dataIdWp = await response.json();*/ const marker = await fetch(`https://quickgold.es/markers${idTienda}.json`);
-    const markers = await marker.json();
+  const dataIdWp = await response.json();*/ const Listado = await fetch(`https://quickgold.es/listadoCiudades.json`);
+    const ListadoCiudades = await Listado.json();
+    const listadoServicio = await fetch(`https://quickgold.es/listadoCiudadesServicio.json`);
+    const listadoCiudadesServicios = await listadoServicio.json();
     const menu = await fetch(`https://admin.quickgold.es/wp-json/menus/v1/menus/2`);
     const menu_list = await menu.json();
     // Pass data to the page via props
     return {
         props: {
-            markers,
-            menu_list
+            menu_list,
+            ListadoCiudades,
+            listadoCiudadesServicios
         },
         revalidate: 1
     };
 }
 
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ 771:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-if (false) { var height1, width1; }
-const useScreenSize = ()=>{
-    const [width, setWidth] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(width1);
-    const [height, setHeight] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(height1);
-    if (false) {}
-    return {
-        width,
-        height
-    };
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (useScreenSize);
-
-
-/***/ }),
-
-/***/ 4845:
+/***/ 3918:
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("@mui/icons-material/KeyboardArrowDown");
+module.exports = require("next/dist/shared/lib/amp-context.js");
 
 /***/ }),
 
-/***/ 5832:
+/***/ 5732:
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/shared/lib/loadable.js");
+module.exports = require("next/dist/shared/lib/amp-mode.js");
 
 /***/ }),
 
-/***/ 968:
+/***/ 2796:
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/head");
+module.exports = require("next/dist/shared/lib/head-manager-context.js");
+
+/***/ }),
+
+/***/ 4486:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-blur-svg.js");
+
+/***/ }),
+
+/***/ 744:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-config-context.js");
+
+/***/ }),
+
+/***/ 5843:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-config.js");
+
+/***/ }),
+
+/***/ 9552:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-loader");
+
+/***/ }),
+
+/***/ 2470:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/side-effect.js");
+
+/***/ }),
+
+/***/ 618:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
 
@@ -2741,35 +2738,11 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ 5372:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("react-map-gl");
-
-/***/ }),
-
-/***/ 3094:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("react-scroll");
-
-/***/ }),
-
 /***/ 997:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("react/jsx-runtime");
-
-/***/ }),
-
-/***/ 4009:
-/***/ ((module) => {
-
-"use strict";
-module.exports = import("react-intersection-observer");;
 
 /***/ })
 
@@ -2780,7 +2753,7 @@ module.exports = import("react-intersection-observer");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [735,152], () => (__webpack_exec__(8287)));
+var __webpack_exports__ = __webpack_require__.X(0, [210,121,675], () => (__webpack_exec__(7431)));
 module.exports = __webpack_exports__;
 
 })();

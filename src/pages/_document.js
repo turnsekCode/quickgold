@@ -4,7 +4,7 @@ import Script from "next/script";
 export default function Document() {
   return (
     <Html lang="es">
-      <script
+      {/*<script
         defer
         id="Cookiebot"
         src="https://consent.cookiebot.com/uc.js"
@@ -19,8 +19,8 @@ export default function Document() {
         src="https://consent.cookiebot.com/66a968ad-70de-4703-81be-84844ed28395/cd.js"
         type="text/javascript"
         // property="lazyOnload"
-      ></script>
-      <link
+  ></script>*/}
+      {/*  <link
         rel="stylesheet preload prefetch"
         href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
         as="style"
@@ -30,7 +30,7 @@ export default function Document() {
           rel="stylesheet"
           href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
         />
-      </noscript>
+</noscript>*/}
       <Head />
       <body>
         <Script id="livechat" strategy="afterInteractive">

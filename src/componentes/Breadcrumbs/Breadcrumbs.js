@@ -7,15 +7,15 @@ const Breadcrumbs = () => {
     <div className={styles.sectionBreadcrumbs}>
       <div className={styles.contenedorBreadcrumbs}>
         <a href="https://quickgold.es/" title="Ir a Quickgold">
-          Home
+          Quickgold
         </a>
         <KeyboardArrowRightIcon />
       </div>
       <a
-        href="https://quickgold.es/casa-cambio-madrid/"
+        href="https://quickgold.es/dolar-euro/"
         title="Ir a casa cambio madrid"
       >
-        Casa Cambio Madrid
+        Cambio dolares - euros
       </a>
     </div>
   );

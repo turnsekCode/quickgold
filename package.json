@@ -1,8 +1,8 @@
 {
-  "name": "casa-cambio-madrid",
+  "name": "cambio-dolares-euros",
   "version": "0.1.0",
   "private": true,
-  "home": "quickgold.es/casa-cambio-madrid",
+  "home": "quickgold.es/cambio-dolares-euros",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
@@ -10,6 +10,7 @@
     "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
+    "@bradgarropy/next-seo": "^1.2.0",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^5.11.9",

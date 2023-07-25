@@ -1,7 +1,6 @@
 .bloqueDivHabituales {
     width: 300px;
     height: 200px;
-    background: linear-gradient(180deg, #1864A8 0%, rgba(24, 100, 168, 0) 100%);
     border-radius: 8px;
     padding: 10px;
     margin-bottom: 30px;
@@ -11,12 +10,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin: 20px 0;
+    width: 100%;
 }
 .bloqueTituloSuperior h3 {
     font-weight: 100;
     font-size: 20px;
-    line-height: 19px;
+    line-height: 25px;
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 10px;
@@ -38,6 +38,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+    height: auto;
+    background: #0F2D45;
+    padding: 30px;
+    border-radius: 8px;
 }
 .bloqueDerInput {
     font-weight: 700;
@@ -95,7 +100,7 @@
 }
 
 .contenedorInputSuperior {
-    width: 280px;
+    width: 100%;
     height: 50px;
     background: #FFFFFF;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
@@ -105,7 +110,7 @@
     justify-content: space-between;
 }
 .contenedorInputInferior {
-    width: 280px;
+    width: 100%;
     height: 50px;
     background: #FFFFFF;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
@@ -250,18 +255,162 @@
     display: flex;
     align-items: center;
 }
-.botonLlamarTienda{
-   display: none;
-}
 
-@media (min-width: 1191px) {
+  .select {
+      width: 100%;
+      height: 27px;
+      background: #F5F5F5;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
+      border-radius: 2px;
+      padding: 5px;
+      line-height: 17px;
+      color: #E83C82;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      font-size: 16px;
+  }
+
+  .selectCiudad {
+     display: none;
+  }
+.botonLlamarTienda {
+    background: #E83C82;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    align-items: center;
+    text-align: center;
+    padding: 13px 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    width: 225px;
+    margin-top: 30px;
+    display: block;
+}
+  .selectCiudad_mobil{
+    width: 100%;
+    height: 50px;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    padding: 5px;
+    line-height: 17px;
+    color: #E83C82;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    font-size: 16px;
+    padding: 20px;
+  }
+  .select_ciudad_mobil{
+    border-radius: 2px;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.24);
+    padding: 5px;
+    width: 100%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    line-height: 20px;
+    border: none;
+    color: #E83C82;
+    outline: none;
+    position: relative;
+  }
+  .select_ciudadOptionUno {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+  }
+
+  .contenedorOptions {
+      position: absolute;
+      width: 98%;
+      height: 220px;
+      background: #F5F5F5;
+      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.24);
+      z-index: 20;
+      top: 37px;
+      padding: 10px;
+      display: none;
+      overflow-y: auto;
+      left: 3px;
+  }
+
+  .contenedorOptions::-webkit-scrollbar {
+      -webkit-appearance: none;
+  }
+
+  .contenedorOptions::-webkit-scrollbar:vertical {
+      width: 10px;
+  }
+
+  .contenedorOptions::-webkit-scrollbar-button:increment,
+  .contenedorOptions::-webkit-scrollbar-button {
+      display: none;
+  }
+
+  .contenedorOptions::-webkit-scrollbar:horizontal {
+      background: #213E58;
+      border-radius: 20px;
+  }
+
+  .contenedorOptions::-webkit-scrollbar-thumb {
+      border-radius: 4px;
+      background: #213E58;
+  }
+
+  .contenedorOptionsActivo {
+      display: block;
+  }
+
+  .listaCiudad {
+      border-radius: 2px;
+      background: rgba(217, 217, 217, 0.2);
+      color: #213E58;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px;
+      padding: 8px 0;
+      margin-bottom: 10px;
+      cursor: pointer;
+  }
+.bloqueTituloSuperior p:nth-child(2) {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.bloqueDer img {
+    width: 100%;
+}
+.textoEntreInputs{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+@media (min-width: 610px) {
     .bloqueDivHabituales {
-        width: 300px;
+        width: 100%;
         height: 200px;
-        background: linear-gradient(180deg, #1864A8 0%, rgba(24, 100, 168, 0) 100%);
         border-radius: 8px;
         padding: 10px;
-        margin-bottom: 30px;
+        margin-bottom: 140px;
     }
 
     .bloqueTituloSuperior {
@@ -269,13 +418,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 10px;
+        margin: 20px;
+        width: 100%;
     }
 
     .bloqueTituloSuperior h3 {
-        font-weight: 100;
-        font-size: 20px;
-        line-height: 19px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 25px;
         text-align: center;
         color: #FFFFFF;
         margin-bottom: 10px;
@@ -292,20 +442,25 @@
 
     .divisasHabituales {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .bloqueDer {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         flex-direction: column;
+        width: 420px;
+        height: auto;
+        background: #0F2D45;
+        padding: 30px;
+        border-radius: 8px;
     }
 
     .dolar,
     .libra {
-        width: 120px;
-        height: 100px;
+        width: 195px;
+        height: 162px;
         background: #0692D0;
         border-radius: 8px 8px 0px 0px;
         margin-top: 20px;
@@ -316,7 +471,7 @@
     .imgMoneda {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 10px;
         margin-bottom: 8px;
     }
@@ -329,8 +484,8 @@
     }
 
     .imgMoneda img {
-        width: 40px;
-        height: 30px;
+        width: 65px;
+        height: 48px;
         border-radius: 4px;
     }
 
@@ -340,7 +495,7 @@
 
     .nombreMoneda p {
         font-weight: 400;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 20px;
         color: #FFFFFF;
     }
@@ -353,7 +508,7 @@
     }
 
     .contenedorInputSuperior {
-        width: 280px;
+        width: 100%;
         height: 50px;
         background: #FFFFFF;
         box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
@@ -364,7 +519,7 @@
     }
 
     .contenedorInputInferior {
-        width: 280px;
+        width: 100%;
         height: 50px;
         background: #FFFFFF;
         box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
@@ -379,6 +534,7 @@
         justify-content: center;
         align-items: center;
         cursor: pointer;
+        width: 50%;
     }
 
     .select {
@@ -392,11 +548,110 @@
         color: #E83C82;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         position: relative;
+        font-size: 16px;
+    }
+    .selectCiudad{
+        width: 100%;
+        height: 50px;
+        background: #F5F5F5;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
+        border-radius: 2px;
+        padding: 5px;
+        line-height: 17px;
+        color: #E83C82;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        font-size: 16px;
+        padding: 20px;
+    }
+    .select_ciudad{
+        border-radius: 2px;
+        background: #F5F5F5;
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.24);
+        padding: 5px;
+        width: 100%;
         font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        line-height: 20px;
+        border: none;
+        color: #E83C82;
+        outline: none;
+        position: relative;
+    }
+    .selectCiudad_mobil {
+    display: none;
+    }
+    .select_ciudadOptionUno{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .contenedorOptions{
+        position: absolute;
+        width: 98%;
+        height: 260px;
+        background: #F5F5F5;
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.24);
+        z-index: 20;
+        top: 37px;
+        padding: 10px;
+        display: none;
+        overflow-y: auto;
+    }
+    .contenedorOptions::-webkit-scrollbar {
+        -webkit-appearance: none;
     }
 
+    .contenedorOptions::-webkit-scrollbar:vertical {
+        width: 5px;
+    }
+
+    .contenedorOptions::-webkit-scrollbar-button:increment,
+    .contenedorOptions::-webkit-scrollbar-button {
+        display: none;
+    }
+
+    .contenedorOptions::-webkit-scrollbar:horizontal {
+        background: #213E58;
+        border-radius: 20px;
+    }
+
+    .contenedorOptions::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background: #213E58;
+    }
+    .contenedorOptionsActivo{
+        display: block;
+    }
+    .listaCiudad{
+        border-radius: 2px;
+        background: rgba(217, 217, 217, 0.2);
+        color: #213E58;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        padding: 8px 0;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .bloqueTituloSuperior p:nth-child(2){
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #FFF;
+        text-align: center;
+        margin-bottom: 10px;
+    }
     .select_monedas {
         position: absolute;
         top: 30px;
@@ -523,13 +778,16 @@
         border-radius: 2px;
         align-items: center;
         text-align: center;
-        padding: 13px 59px;
+        padding: 13px 20px;
         font-weight: 700;
         font-size: 14px;
         line-height: 14px;
         color: #FFFFFF;
-        width: 280px;
+        width: 225px;
         margin-top: 30px;
         display: block;
+    }
+    .bloqueDer img {
+        width: 100%;
     }
 }

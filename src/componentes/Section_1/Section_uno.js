@@ -10,50 +10,42 @@ const Section_uno = () => {
   return (
     <section className={styles.contenedorSectionUno}>
       <div className={styles.bloqueIzq}>
-        <h1>
-          Casas de cambio en <span className={styles.linea}>Madrid</span>
-        </h1>
+        <h1>Cambio de dólares a euros</h1>
         <p>
-          En nuestras casas de cambio en Madrid puedes cambiar más de 30 monedas
-          extranjeras al momento y sin comisiones. ¿Necesitas cambiar dólares
-          por euros o cualquier otra moneda extranjera? Ven a Quickgold.
+          Si necesitas cambiar dólares por euros en España, Quickgold es tu
+          mejor opción: ofrecemos un servicio totalmente especializado en
+          dólares, realizamos mejoras por cantidad y ofrecemos el mejor precio
+          de tu ciudad.
+        </p>
+        <p>
+          <strong>Consulta el precio del dólar actualizado.</strong>
         </p>
         <div className={styles.botones}>
-          <Link
-            to="contenedorMapa"
+          {/*<Link
+            to="bloqueCalculadora"
             smooth={true}
             offset={-110}
             spy={true}
             duration={500}
             title="texto"
-            passive={true}
+            passive="true"
           >
             <LocationOnOutlinedIcon />
-            encuentra tu tienda
-          </Link>
+            conoce el precio del dólar
+  </Link>*/}
           <a href="tel:900 373 629" title="Teléfono">
             llama gratis al 900 373 629
           </a>
         </div>
       </div>
       <div className={styles.bloqueDer}>
-        {width <= 610 ? (
-          <img
-            src="/divisa-mobil.webp"
-            alt="Casas de cambio Madrid"
-            className={styles.madridMobil}
-            width={290}
-            height={220}
-          />
-        ) : (
-          <img
-            src="/divisa.webp"
-            alt="Casas de cambio Madrid"
-            className={styles.vector}
-            width={480}
-            height={364}
-          />
-        )}
+        <img
+          src="/imagenDolarEuro.png"
+          alt="Cambio dolar - euro"
+          className={styles.madridMobil}
+          width={290}
+          height={220}
+        />
       </div>
     </section>
   );

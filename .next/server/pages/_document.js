@@ -24,31 +24,6 @@ function Document() {
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(next_document__WEBPACK_IMPORTED_MODULE_1__.Html, {
         lang: "es",
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("script", {
-                defer: true,
-                id: "Cookiebot",
-                src: "https://consent.cookiebot.com/uc.js",
-                "data-cbid": "66a968ad-70de-4703-81be-84844ed28395",
-                "data-blockingmode": "auto",
-                type: "text/javascript"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("script", {
-                defer: true,
-                id: "CookieDeclaration",
-                src: "https://consent.cookiebot.com/66a968ad-70de-4703-81be-84844ed28395/cd.js",
-                type: "text/javascript"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                rel: "stylesheet preload prefetch",
-                href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css",
-                as: "style"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("noscript", {
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                    rel: "stylesheet",
-                    href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-                })
-            }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_document__WEBPACK_IMPORTED_MODULE_1__.Head, {}),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("body", {
                 children: [
@@ -163,7 +138,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [735,598,803], () => (__webpack_exec__(8216)));
+var __webpack_exports__ = __webpack_require__.X(0, [210,803], () => (__webpack_exec__(8216)));
 module.exports = __webpack_exports__;
 
 })();

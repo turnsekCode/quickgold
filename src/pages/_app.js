@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
-import { useEffect } from "react";
 import TagManager from "react-gtm-module";
+import React, { useEffect } from "react";
 
 export default function App({ Component, pageProps }) {
   const gtmId = process.env.NEXT_PUBLIC_GTM || "";
