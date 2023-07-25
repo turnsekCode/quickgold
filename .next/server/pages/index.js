@@ -2231,7 +2231,6 @@ var sectionDos_module = __webpack_require__(7261);
 var sectionDos_module_default = /*#__PURE__*/__webpack_require__.n(sectionDos_module);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(5675);
-var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 ;// CONCATENATED MODULE: ./src/componentes/Section_2/Section_dos.js
 
 
@@ -2262,11 +2261,9 @@ const Section_dos = ({ ciudad  })=>{
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                     src: "/imagenVentaja1.png",
-                                    alt: "Mejor servicio y precio",
-                                    width: 38,
-                                    height: 38
+                                    alt: "Mejor servicio y precio"
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -2279,11 +2276,9 @@ const Section_dos = ({ ciudad  })=>{
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                     src: "/imagenVentaja2.png",
-                                    alt: "Mejor servicio y precio",
-                                    width: 37,
-                                    height: 37
+                                    alt: "Mejor servicio y precio"
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -2296,11 +2291,9 @@ const Section_dos = ({ ciudad  })=>{
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                     src: "/imagenVentaja3.png",
-                                    alt: "Mejor servicio y precio",
-                                    width: 23,
-                                    height: 36
+                                    alt: "Mejor servicio y precio"
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -2313,11 +2306,9 @@ const Section_dos = ({ ciudad  })=>{
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                     src: "/imagenVentaja4.png",
-                                    alt: "Mejor servicio y precio",
-                                    width: 40,
-                                    height: 36
+                                    alt: "Mejor servicio y precio"
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -2330,11 +2321,9 @@ const Section_dos = ({ ciudad  })=>{
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                     src: "/imagenVentaja5.png",
-                                    alt: "Mejor servicio y precio",
-                                    width: 38,
-                                    height: 38
+                                    alt: "Mejor servicio y precio"
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -2347,11 +2336,9 @@ const Section_dos = ({ ciudad  })=>{
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                     src: "/imagenVentaja6.png",
-                                    alt: "Mejor servicio y precio",
-                                    width: 37,
-                                    height: 30
+                                    alt: "Mejor servicio y precio"
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {

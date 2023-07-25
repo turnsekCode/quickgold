@@ -14,72 +14,42 @@ const Section_dos = ({ ciudad }) => {
       <div className={styles.bloqueInferior}>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
-            <Image
-              src="/imagenVentaja1.png"
-              alt="Mejor servicio y precio"
-              width={38}
-              height={38}
-            />
+            <img src="/imagenVentaja1.png" alt="Mejor servicio y precio" />
           </div>
 
           <p>Servicio 100% personalizado</p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
-            <Image
-              src="/imagenVentaja2.png"
-              alt="Mejor servicio y precio"
-              width={37}
-              height={37}
-            />
+            <img src="/imagenVentaja2.png" alt="Mejor servicio y precio" />
           </div>
 
           <p>Precio del dólar siempre actualizado</p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
-            <Image
-              src="/imagenVentaja3.png"
-              alt="Mejor servicio y precio"
-              width={23}
-              height={36}
-            />
+            <img src="/imagenVentaja3.png" alt="Mejor servicio y precio" />
           </div>
 
           <p>Más de 50 casas de cambio</p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
-            <Image
-              src="/imagenVentaja4.png"
-              alt="Mejor servicio y precio"
-              width={40}
-              height={36}
-            />
+            <img src="/imagenVentaja4.png" alt="Mejor servicio y precio" />
           </div>
 
           <p>Mejor tipo de cambio de tu ciudad</p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
-            <Image
-              src="/imagenVentaja5.png"
-              alt="Mejor servicio y precio"
-              width={38}
-              height={38}
-            />
+            <img src="/imagenVentaja5.png" alt="Mejor servicio y precio" />
           </div>
 
           <p>Euros en efectivo al instante</p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
-            <Image
-              src="/imagenVentaja6.png"
-              alt="Mejor servicio y precio"
-              width={37}
-              height={30}
-            />
+            <img src="/imagenVentaja6.png" alt="Mejor servicio y precio" />
           </div>
 
           <p>Sin comisiones</p>
