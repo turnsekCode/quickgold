@@ -10,7 +10,7 @@
     display: none;
 }
 
-@media (min-width: 1191px) {
+@media (min-width: 610px) {
     .headersticky {
         position: fixed;
         top: 0;
@@ -47,8 +47,8 @@
     .contenedorMenuSticky ul li {
         color: #FFFFFF;
         text-transform: uppercase;
-        font-weight: 600;
-        font-size: 14px;
+        font-weight: 700;
+        font-size: 15px;
         line-height: 13px;
         font-style: normal;
         display: flex;
@@ -83,8 +83,8 @@
     .contenedorMenu ul li {
         color: #FFFFFF;
         text-transform: uppercase;
-        font-weight: 600;
-        font-size: 14px;
+        font-weight: 700;
+        font-size: 15px;
         line-height: 13px;
         font-style: normal;
         display: flex;
@@ -96,8 +96,9 @@
     .subMenuTiendas{
         position: absolute;
         top: 50px;
-        left: -611px;
+        left: -150px;
         background: #0F2D45;
+        opacity: 1;
         height: 0;
         overflow-x: hidden;
         transition: 0.08s;
@@ -124,12 +125,12 @@
         font-weight: 700;
         font-size: 14px;
         border-radius: 2px;
-        width: 230px;
+        width: 250px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        line-height: 4px;
+        line-height: 10px;
     }
     .subMenuTiendas a:hover{
         color: #fbbf04;
@@ -155,6 +156,7 @@
         top: 50px;
         left: -30px;
         background: #0F2D45;
+        opacity: 1;
         height: 0;
         overflow: hidden;
         transition: 0.1s;
@@ -177,7 +179,7 @@
     }
     .contenedorMenu .contenedorSubMenuServicios:hover .subMenuServicios {
         display: block;
-        height: 170px;
+        height: 280px;
     }
 
 }

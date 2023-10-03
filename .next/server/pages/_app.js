@@ -4,7 +4,7 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 7823:
+/***/ 823:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -24,7 +24,7 @@ var globals = __webpack_require__(108);
 const external_react_gtm_module_namespaceObject = require("react-gtm-module");
 var external_react_gtm_module_default = /*#__PURE__*/__webpack_require__.n(external_react_gtm_module_namespaceObject);
 // EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
+var external_react_ = __webpack_require__(689);
 ;// CONCATENATED MODULE: ./src/pages/_app.js
 
 
@@ -53,7 +53,7 @@ function App({ Component , pageProps  }) {
 
 /***/ }),
 
-/***/ 6689:
+/***/ 689:
 /***/ ((module) => {
 
 "use strict";
@@ -76,7 +76,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(7823));
+var __webpack_exports__ = (__webpack_exec__(823));
 module.exports = __webpack_exports__;
 
 })();

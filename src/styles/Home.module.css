@@ -1,10 +1,15 @@
-
+.main {
+  margin: 0 auto;
+  max-width: 1010px;
+}
 .contenedorMapaVisible {
-  height: 1012px;
+  height: 1010px;
 }
 
 @media (min-width: 610px) {
-
+.main {
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 1191px) {
