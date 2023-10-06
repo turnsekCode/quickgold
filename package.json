@@ -1,8 +1,8 @@
 {
-  "name": "cambio-dolares-euros",
+  "name": "tiendas",
   "version": "0.1.0",
   "private": true,
-  "home": "quickgold.es/cambio-dolares-euros",
+  "home": "quickgold.es/tiendas",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
@@ -15,18 +15,18 @@
     "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^5.11.9",
     "@mui/material": "^5.11.10",
-    "framer-motion": "^10.13.2",
     "@next/bundle-analyzer": "^13.2.1",
     "@next/font": "13.1.6",
     "cross-env": "^7.0.3",
-    "react-gtm-module": "^2.0.11",
+    "framer-motion": "^10.13.2",
     "mapbox-gl": "^2.11.0",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-gtm-module": "^2.0.11",
+    "react-intersection-observer": "^9.4.3",
     "react-map-gl": "^7.0.19",
     "react-scroll": "^1.8.9",
-    "react-scroll-to-top": "^3.0.0",
-    "react-intersection-observer": "^9.4.3"
+    "react-scroll-to-top": "^3.0.0"
   }
 }

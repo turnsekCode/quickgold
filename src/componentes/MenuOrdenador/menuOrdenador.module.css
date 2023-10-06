@@ -96,13 +96,13 @@
     .subMenuTiendas{
         position: absolute;
         top: 50px;
-        left: -150px;
+        left: -12px;
         background: #0F2D45;
         opacity: 1;
         height: 0;
         overflow-x: hidden;
         transition: 0.08s;
-        width: 945%;
+        width: 900px;
         padding: 0;
         column-count: 5;
         box-shadow: 0px 4px 8px rgb(0 0 0 / 30%);
@@ -123,11 +123,10 @@
     .subMenuTiendas a{
         color: #fff;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 12px;
         border-radius: 2px;
-        width: 250px;
+        width: 225px;
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
         line-height: 10px;
@@ -137,10 +136,10 @@
     }
     .contenedorMenu .contenedorSubMenuTiendas:hover  .subMenuTiendas {
         display: block;
-        height: 250px;
-        padding: 25px 20px 0px 0px;
+        height: 330px;
+        padding: 15px 20px 0 0;
         column-count: 5;
-        width: 945%;
+        width: 915px;
     }
     .contenedorSubMenuServicios {
         position: relative;

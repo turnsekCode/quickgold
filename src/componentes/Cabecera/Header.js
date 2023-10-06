@@ -36,7 +36,10 @@ const Header = ({ menu_list, sticky, stickyRef }) => {
         <div className={styles.menuHamburquesa}>
           {["right"].map((anchor) => (
             <React.Fragment key={anchor}>
-              <Button onClick={toggleDrawer(anchor, true)}>
+              <Button
+                aria-label="Menu Hamburguesa"
+                onClick={toggleDrawer(anchor, true)}
+              >
                 <MenuIcon />
               </Button>
               <SwipeableDrawer

@@ -1,0 +1,35 @@
+  .contenedorBreadcrumbs {
+      display: none;
+  }
+  .breadcrumbsRaiz{
+    display: none;
+  }
+
+@media (min-width: 610px) {
+    .contenedorBreadcrumbs {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 11px;
+        color: #0692D0;
+        display: flex;
+        align-items: center;
+    }
+
+    .contenedorBreadcrumbs svg {
+        font-size: 20px;
+        margin-top: 2px;
+    }
+
+    .sectionBreadcrumbs {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        line-height: 11px;
+        color: #213E58;
+        padding-top: 135px;
+    }
+    .breadcrumbsRaiz {
+        display: block;
+    }
+}

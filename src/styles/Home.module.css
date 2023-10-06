@@ -1,22 +1,40 @@
 .main {
+  padding-top: 60px;
   margin: 0 auto;
   max-width: 1010px;
 }
 .contenedorMapaVisible {
-  height: 1010px;
+  height: 1000px;
+}
+.contenedorSeccionUnoDos {
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
+.contenedorMapaVisibleCasaCambio {
+  height: 1012px;
+}
 @media (min-width: 610px) {
-.main {
-    margin: 0 auto;
-  }
+    .main {
+        padding-top: 0px;
+        margin: 0 auto;
+      }
+     .contenedorMapaVisible {
+       height: 900px;
+     }
+    .contenedorMapaVisibleCasaCambio {
+      height: 600px;
+    }
+    .contenedorSeccionUnoDos {
+      display: flex;
+      margin-top: 30px;
+      justify-content: space-between;
+      flex-direction: row;
+    }
 }
 
-@media (min-width: 1191px) {
-  .contenedorMapaVisible {
-    height: 600px;
-  }
-}
 
 
 

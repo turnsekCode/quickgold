@@ -1,10 +1,10 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Breadcrumbs from "@/componentes/Breadcrumbs/Breadcrumbs";
-import Section_uno from "@/componentes/Section_1/Section_uno";
+import Section_uno from "@/componentes/ComponentePaginaTienda/Section_1/Section_uno";
 import Layout from "@/componentes/Layout/Layout";
 import SEO from "@bradgarropy/next-seo";
-import Section_dos from "@/componentes/Section_2/Section_dos";
+import Section_dos from "@/componentes/ComponentePaginaTienda/Section_2/Section_dos";
 
 const schema = {
   "@context": "http://www.schema.org",

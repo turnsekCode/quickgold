@@ -112,24 +112,36 @@ export default function MapaRoquetasDeMar({ roquetasdemar }) {
                 )}
                 <h3>{marker.nombreTienda}</h3>
               </Link>
-              <div className={styles.tienda}>
-                <p>{marker.direccion}</p>
-                <p>Teléfono: {marker.telefono}</p>
-                <Link
-                  onClick={() => {
-                    toggleTab();
-                    onSelectMarker(marker);
-                  }}
-                  to="contenedorMapa2"
-                  smooth={true}
-                  offset={-110}
-                  spy={true}
-                  duration={500}
-                  className={styles.boton_como_llegar}
-                >
-                  Ver Más
-                </Link>
-              </div>
+              <Link
+                onClick={() => {
+                  toggleTab();
+                  onSelectMarker(marker);
+                }}
+                to="contenedorMapa2"
+                smooth={true}
+                offset={-110}
+                spy={true}
+                duration={500}
+              >
+                <div className={styles.tienda}>
+                  <p>{marker.direccion}</p>
+                  <p>Teléfono: {marker.telefono}</p>
+                  {/*<Link
+                    onClick={() => {
+                      toggleTab();
+                      onSelectMarker(marker);
+                    }}
+                    to="contenedorMapa2"
+                    smooth={true}
+                    offset={-110}
+                    spy={true}
+                    duration={500}
+                    className={styles.boton_como_llegar}
+                  >
+                    Ver Más
+                  </Link>*/}
+                </div>
+              </Link>
             </div>
           ))}
         </div>

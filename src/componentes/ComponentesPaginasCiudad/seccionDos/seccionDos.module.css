@@ -1,0 +1,17 @@
+.contenedorSeccionDos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 610px) {
+    .contenedorSeccionDos {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 480px;
+        margin-bottom: 40px;
+        }
+}

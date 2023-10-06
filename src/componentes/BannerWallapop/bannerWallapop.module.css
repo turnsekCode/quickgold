@@ -1,0 +1,10 @@
+.contenedorBannerWallapop{
+    width: 100%;
+    height: auto;
+}
+.contenedorBannerWallapop a{
+    display: flex;
+}
+.bannerWallapopDesktop{
+    width: 100%;
+}

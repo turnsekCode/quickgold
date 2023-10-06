@@ -29,7 +29,7 @@ const Footer = () => {
         </figure>
         <div className={styles.contenedorEnlaces}>
           <div className={styles.enlaces}>
-            <h4>servicios</h4>
+            <h3>servicios</h3>
             <ul>
               <li>
                 <a
@@ -74,7 +74,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className={styles.enlaces}>
-            <h4>acerca de nosotros</h4>
+            <h3>acerca de nosotros</h3>
             <ul>
               <li>
                 <a
@@ -121,7 +121,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className={styles.enlaces}>
-            <h4>únete a quickgold</h4>
+            <h3>únete a quickgold</h3>
             <ul>
               <li>
                 <a
