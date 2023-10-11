@@ -92,13 +92,13 @@ const MapaCiudades = ({ markers, ciudad }) => {
               offset={-110}
               spy={true}
               duration={500}
+              key={marker.id}
             >
               <div
                 onClick={() => {
                   toggleTab();
                   onSelectMarker(marker);
                 }}
-                key={marker.id}
                 className={
                   activeId === marker.id && showPopup
                     ? `${styles.contenedorInfoTiendaMapa} ${styles.contenedorInfoTiendaMapaActivo}`

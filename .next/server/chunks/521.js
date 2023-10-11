@@ -261,8 +261,8 @@ const MapaCiudades = ({ markers , ciudad  })=>{
                                             ]
                                         })
                                     ]
-                                }, marker.id)
-                            }))
+                                })
+                            }, marker.id))
                     })
                 ]
             }),

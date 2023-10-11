@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/BHQyh0CnhgX760nUj5efC/_buildManifest.js",
-    "static/BHQyh0CnhgX760nUj5efC/_ssgManifest.js"
+    "static/6m7lg_NcrTZJ8gLl6X8EI/_buildManifest.js",
+    "static/6m7lg_NcrTZJ8gLl6X8EI/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -45,7 +45,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-alcala-de-henares-d7695bebdab2aa46.js"
+      "static/chunks/pages/compro-oro-alcala-de-henares-fe97df89ac4c59d9.js"
     ],
     "/compro-oro-alcala-de-henares/plaza-de-espana-2-local-a8": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -72,7 +72,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-alcobendas-8083e46595d80bf5.js"
+      "static/chunks/pages/compro-oro-alcobendas-0fcc726f0d108f6d.js"
     ],
     "/compro-oro-alcobendas/calle-de-manuel-serrano-frutos-2": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -99,7 +99,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-alcorcon-8f21cabee06a6b7d.js"
+      "static/chunks/pages/compro-oro-alcorcon-4a5cbf5afa9b418a.js"
     ],
     "/compro-oro-alcorcon/calle-mayor-74": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -126,7 +126,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-alicante-49a6775a398dcc14.js"
+      "static/chunks/pages/compro-oro-alicante-4801086e6578600f.js"
     ],
     "/compro-oro-alicante/av-alfonso-el-sabio-2": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -166,7 +166,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-almeria-da5792c07a1dab8a.js"
+      "static/chunks/pages/compro-oro-almeria-5892c5a881e91324.js"
     ],
     "/compro-oro-almeria/av-de-pablo-iglesias-18": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -193,7 +193,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-barcelona-c9b44fb3a5015ecf.js"
+      "static/chunks/pages/compro-oro-barcelona-b0699815c9deaa38.js"
     ],
     "/compro-oro-barcelona/avinguda-diagonal-335": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -272,7 +272,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-benidorm-a219d0e7071d5bbb.js"
+      "static/chunks/pages/compro-oro-benidorm-b3286e72749c8348.js"
     ],
     "/compro-oro-benidorm/calle-valencia-4-local-3b": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -299,7 +299,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-bilbao-0b8d7302efff8496.js"
+      "static/chunks/pages/compro-oro-bilbao-8a54e92b3605c2a8.js"
     ],
     "/compro-oro-bilbao/ercilla-kalea-36": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -326,7 +326,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-cadiz-f22f8d3f86970fec.js"
+      "static/chunks/pages/compro-oro-cadiz-e4df1c37ebdb8332.js"
     ],
     "/compro-oro-cadiz/av-andalucia-94": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -353,7 +353,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-cartagena-71f10f9834da8472.js"
+      "static/chunks/pages/compro-oro-cartagena-364d4a770a9c64c3.js"
     ],
     "/compro-oro-cartagena/plaza-juan-xxiii-76": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -380,7 +380,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-castellon-21c1221e965eb949.js"
+      "static/chunks/pages/compro-oro-castellon-65b1fac46d88427c.js"
     ],
     "/compro-oro-castellon/carrer-de-bayer-10": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -407,7 +407,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-cordoba-203ae44ca4041627.js"
+      "static/chunks/pages/compro-oro-cordoba-34ea128512274b36.js"
     ],
     "/compro-oro-cordoba/calle-jose-cruz-conde-32": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -434,7 +434,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-elche-2b59a13acecc40dc.js"
+      "static/chunks/pages/compro-oro-elche-3cff7a7bf9b9cd93.js"
     ],
     "/compro-oro-elche/carrer-corredora-36": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -461,7 +461,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-getafe-9bed06215b96dc04.js"
+      "static/chunks/pages/compro-oro-getafe-caee1ecff926f0f8.js"
     ],
     "/compro-oro-getafe/calle-madrid-3": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -488,7 +488,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-gijon-841c768a7070b0fb.js"
+      "static/chunks/pages/compro-oro-gijon-6992c228f09ec388.js"
     ],
     "/compro-oro-gijon/palacio-valdes-9-bajo-derecha": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -515,7 +515,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-granada-394b6ccd14f6573c.js"
+      "static/chunks/pages/compro-oro-granada-aac3d290d3d019fe.js"
     ],
     "/compro-oro-granada/calle-puentezuelas-6": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -542,7 +542,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-jerez-4f57fbb6d6d4d474.js"
+      "static/chunks/pages/compro-oro-jerez-53cc7e0033355f0b.js"
     ],
     "/compro-oro-jerez/calle-porvera-12": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -569,7 +569,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-la-coruna-1e5775c7a990956c.js"
+      "static/chunks/pages/compro-oro-la-coruna-925f431a65d5f937.js"
     ],
     "/compro-oro-la-coruna/rua-medico-rodriguez-18-20": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -596,7 +596,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-leon-2b62595dd54ff737.js"
+      "static/chunks/pages/compro-oro-leon-a441bb5ce41f4dad.js"
     ],
     "/compro-oro-leon/calle-juan-lorenzo-segura-8-bajo": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -623,7 +623,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-logrono-6f8d7a7adde681b6.js"
+      "static/chunks/pages/compro-oro-logrono-c1ee974197b4ddea.js"
     ],
     "/compro-oro-logrono/gran-via-juan-carlos-50-local-1": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -650,7 +650,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-madrid-77f22b8df8e2cd4b.js"
+      "static/chunks/pages/compro-oro-madrid-06ef506b0a5f37a2.js"
     ],
     "/compro-oro-madrid/avenida-de-la-albufera-125": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -807,7 +807,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-malaga-5aff1a37b765fe72.js"
+      "static/chunks/pages/compro-oro-malaga-37db28e1b7f2797a.js"
     ],
     "/compro-oro-malaga/av-de-la-aurora-18": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -860,7 +860,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-marbella-372da182a807833e.js"
+      "static/chunks/pages/compro-oro-marbella-781b675b4dc5dc82.js"
     ],
     "/compro-oro-marbella/avenida-ricardo-soriano-7": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -887,7 +887,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-murcia-4b833bce70e3f5d2.js"
+      "static/chunks/pages/compro-oro-murcia-3784da652251c18f.js"
     ],
     "/compro-oro-murcia/alameda-de-colon-6": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -927,7 +927,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-oviedo-6fb95b988fbb759f.js"
+      "static/chunks/pages/compro-oro-oviedo-117271b66c60a357.js"
     ],
     "/compro-oro-oviedo/calle-la-lila-1": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -954,7 +954,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-palma-0059102afb1289e6.js"
+      "static/chunks/pages/compro-oro-palma-dbf630aab689ed4f.js"
     ],
     "/compro-oro-palma/carrer-d-antoni-marques-17": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -994,7 +994,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-reus-6e30b78f2abaa91b.js"
+      "static/chunks/pages/compro-oro-reus-276bd1fbb1e1a72c.js"
     ],
     "/compro-oro-reus/passeig-de-prim-18": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -1021,7 +1021,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-roquetas-de-mar-a047f4a71d698a3f.js"
+      "static/chunks/pages/compro-oro-roquetas-de-mar-af0c510e8495a284.js"
     ],
     "/compro-oro-roquetas-de-mar/carr-de-alicun-22": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -1048,7 +1048,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-santa-cruz-de-tenerife-eb112ccd8d08fcb8.js"
+      "static/chunks/pages/compro-oro-santa-cruz-de-tenerife-034cf08cf900a7d3.js"
     ],
     "/compro-oro-santa-cruz-de-tenerife/rambla-de-pulido-9": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -1075,7 +1075,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-santander-e2805a5853bd146e.js"
+      "static/chunks/pages/compro-oro-santander-8bb3966c292b8249.js"
     ],
     "/compro-oro-santander/calle-camino-alonso-vega-2": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -1102,7 +1102,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-santiago-de-compostela-6e0617efc8150e51.js"
+      "static/chunks/pages/compro-oro-santiago-de-compostela-4a7ffb5024c05620.js"
     ],
     "/compro-oro-santiago-de-compostela/rua-das-orfas-14": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -1129,7 +1129,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-sevilla-7f6396561bea8f06.js"
+      "static/chunks/pages/compro-oro-sevilla-89c9bb1ace4f6a50.js"
     ],
     "/compro-oro-sevilla/avenida-de-andalucia-18": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -1169,7 +1169,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-tarragona-93ddef7021139589.js"
+      "static/chunks/pages/compro-oro-tarragona-3f3aec0fb7187787.js"
     ],
     "/compro-oro-tarragona/plaza-ponent-7": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -1196,7 +1196,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-valencia-562d80cb9bd0fe94.js"
+      "static/chunks/pages/compro-oro-valencia-329c6f6899ffcfa4.js"
     ],
     "/compro-oro-valencia/av-burjassot-116": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -1275,7 +1275,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-valladolid-861731e53f545ed9.js"
+      "static/chunks/pages/compro-oro-valladolid-f37b7da22b394b65.js"
     ],
     "/compro-oro-valladolid/calle-de-las-angustias-5": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -1302,7 +1302,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-vigo-81bbd039dbe91cdc.js"
+      "static/chunks/pages/compro-oro-vigo-7fae0bba84979623.js"
     ],
     "/compro-oro-vigo/rua-de-urzaiz-80": [
       "static/chunks/webpack-596a213701f5b0d2.js",
@@ -1329,7 +1329,7 @@
       "static/css/8b575dcc4c31506a.css",
       "static/chunks/3945-7b6e41a7d85e5093.js",
       "static/css/ee62c64551a7a50b.css",
-      "static/chunks/pages/compro-oro-zaragoza-79337d054c881bf9.js"
+      "static/chunks/pages/compro-oro-zaragoza-629f13203ce2f4eb.js"
     ],
     "/compro-oro-zaragoza/calle-san-jorge-19": [
       "static/chunks/webpack-596a213701f5b0d2.js",
