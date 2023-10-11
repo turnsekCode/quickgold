@@ -84,14 +84,14 @@ const Footer = () => {
                   Conoce Quickgold
                 </a>
               </li>
-              <li>
+              {/*<li>
                 <a
                   title="Ir a preguntas frecuentes"
                   href="https://quickgold.es/preguntas-frecuentes"
                 >
                   Preguntas frecuentes
                 </a>
-              </li>
+  </li>*/}
               <li>
                 <a
                   title="Ir a localizador tiendas"

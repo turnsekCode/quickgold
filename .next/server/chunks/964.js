@@ -681,13 +681,6 @@ const Footer = ()=>{
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                             children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                title: "Ir a preguntas frecuentes",
-                                                href: "https://quickgold.es/preguntas-frecuentes",
-                                                children: "Preguntas frecuentes"
-                                            })
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                                 title: "Ir a localizador tiendas",
                                                 href: "https://quickgold.es/tiendas",
                                                 children: "Localizador de tiendas"
@@ -999,13 +992,6 @@ const FooterMobil = ()=>{
                                             href: "https://quickgold.es/expansion",
                                             title: "Ir a conoce quickgold",
                                             children: "Conoce Quickgold"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "https://quickgold.es/preguntas-frecuentes",
-                                            title: "Ir a preguntas frecuentes",
-                                            children: "Preguntas frecuentes"
                                         })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("li", {
