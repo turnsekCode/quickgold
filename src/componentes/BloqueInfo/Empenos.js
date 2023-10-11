@@ -18,6 +18,8 @@ export default function Empenos({ ciudad }) {
   }, []);
   const precio18k = data?.result?.Tarifas?.Oro[2].Productos[0].Precio / 1000;
   const paraMasOro = ciudad?.acf?.para_mas_de_oro;
+  const masDeOro = ciudad?.acf?.precio_mas_de_oro;
+  const precioMas18k = (precio18k + parseFloat(masDeOro)).toFixed(2);
   const primerMes = ciudad?.acf?.primer_mes;
   const tasacion = ciudad?.acf?.tasacion;
   const intereStandar = ciudad?.acf?.interes_standard;
@@ -88,8 +90,7 @@ export default function Empenos({ ciudad }) {
                   {primerMes}% interés <span>primer mes</span>
                 </h3>
                 <p className={styles.preciosDelOro}>
-                  Precio del oro: {precio18k.toFixed(2)} €/g 18k más de{" "}
-                  {paraMasOro}
+                  Precio del oro: {precioMas18k} €/g 18k más de {paraMasOro}
                   g.
                 </p>
                 <div className={styles.contenedorTresBloques}>

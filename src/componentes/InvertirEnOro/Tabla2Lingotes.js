@@ -16,7 +16,7 @@ import styles from "./Lingotes.module.css";
 const Tabla2Lingotes = ({ ciudad }) => {
   const nombreCiudad = ciudad?.acf?.ciudad_oro;
   const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(null);
+  //const [loading, setLoading] = useState(null);
   useEffect(() => {
     fetch(
       `https://panel.quickgold.es/archivos-cache/Fixing${nombreCiudad}.txt`,
@@ -27,7 +27,7 @@ const Tabla2Lingotes = ({ ciudad }) => {
       .then((response) => response.json())
       .then((response) => {
         setData(response);
-        setLoading(true);
+        //setLoading(true);
       });
   }, []);
 

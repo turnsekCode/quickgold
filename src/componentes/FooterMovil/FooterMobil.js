@@ -13,7 +13,12 @@ const FooterMobil = () => {
   return (
     <footer className={styles.footer}>
       <figure>
-        <a href="https://quickgold.es/" title="texto" rel="noopener noreferrer">
+        <a
+          href="https://quickgold.es/"
+          style={{ marginBottom: "14px" }}
+          title="texto"
+          rel="noopener noreferrer"
+        >
           <img
             loading="lazy"
             src="https://quickgold.es/logo.png"

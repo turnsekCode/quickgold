@@ -572,7 +572,7 @@ const CalculadoraOro = ({ ciudad  })=>{
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                         className: (conversor_module_default()).precioFinal,
                         children: [
-                            valorInput > parseFloat(paraMasOro) ? (valorInput * valorSelectSuma).toLocaleString("es", {
+                            valorInput >= parseFloat(paraMasOro) ? (valorInput * valorSelectSuma).toLocaleString("es", {
                                 style: "currency",
                                 currency: "EUR"
                             }) : (valorInput * valorSelectNormal).toLocaleString("es", {
@@ -679,7 +679,7 @@ function NuevoConversor2({ ciudad , setSelectDivisa , selectDivisa  }) {
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: select ? `${(estilosConversor_module_default()).select_monedas} ${(estilosConversor_module_default()).select_activo}` : `${(estilosConversor_module_default()).select_monedas}`,
-                                children: currencyOptions.filter((currency)=>currency.Name !== "HRK" && currency.Name !== "DKK" && currency.Name !== "RUB" && currency.Name !== "NOK" && currency.Name !== "SEK").map((data, i)=>select ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                children: currencyOptions?.filter((currency)=>currency.Name !== "HRK" && currency.Name !== "DKK" && currency.Name !== "RUB" && currency.Name !== "NOK" && currency.Name !== "SEK").map((data, i)=>select ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                         className: (estilosConversor_module_default()).contenedor_list,
                                         "data-acronimo": data?.Productos[0].Acronimo,
                                         "data-nombre": data?.Productos[0].Nombre,
@@ -1297,7 +1297,7 @@ const ConversorDivisa = ({ ciudad  })=>{
                                         setSelectDivisa(true);
                                     },
                                     className: switched ? `${(estilosConversor_module_default()).botonComprar}` : `${(estilosConversor_module_default()).botonComprar} ${(estilosConversor_module_default()).botonActivo}`,
-                                    children: "Comprar divisa"
+                                    children: "Vender divisa"
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("button", {
                                     className: switched ? `${(estilosConversor_module_default()).botonVender} ${(estilosConversor_module_default()).botonActivo}` : ` ${(estilosConversor_module_default()).botonVender}`,
@@ -1305,7 +1305,7 @@ const ConversorDivisa = ({ ciudad  })=>{
                                         setSwitched(true);
                                         setSelectDivisa(true);
                                     },
-                                    children: "Vender divisa"
+                                    children: "Comprar divisa"
                                 })
                             ]
                         }) : null
@@ -1657,13 +1657,13 @@ var Lingotes_module_default = /*#__PURE__*/__webpack_require__.n(Lingotes_module
 const Tabla2Lingotes = ({ ciudad  })=>{
     const nombreCiudad = ciudad?.acf?.ciudad_oro;
     const [data, setData] = (0,external_react_.useState)([]);
-    const [loading, setLoading] = (0,external_react_.useState)(null);
+    //const [loading, setLoading] = useState(null);
     (0,external_react_.useEffect)(()=>{
         fetch(`https://panel.quickgold.es/archivos-cache/Fixing${nombreCiudad}.txt`, {
             cache: "no-cache"
         }).then((response)=>response.json()).then((response)=>{
             setData(response);
-            setLoading(true);
+        //setLoading(true);
         });
     }, []);
     const precio2_5 = (data?.result?.Tarifas?.Lingotes[4].Productos[0].Precio / 1000).toLocaleString("es", {
@@ -1852,6 +1852,8 @@ function Empenos({ ciudad  }) {
     }, []);
     const precio18k = data?.result?.Tarifas?.Oro[2].Productos[0].Precio / 1000;
     const paraMasOro = ciudad?.acf?.para_mas_de_oro;
+    const masDeOro = ciudad?.acf?.precio_mas_de_oro;
+    const precioMas18k = (precio18k + parseFloat(masDeOro)).toFixed(2);
     const primerMes = ciudad?.acf?.primer_mes;
     const tasacion = ciudad?.acf?.tasacion;
     const intereStandar = ciudad?.acf?.interes_standard;
@@ -1955,9 +1957,8 @@ function Empenos({ ciudad  }) {
                                     className: (BloqueInfo_conversor_module_default()).preciosDelOro,
                                     children: [
                                         "Precio del oro: ",
-                                        precio18k.toFixed(2),
-                                        " €/g 18k m\xe1s de",
-                                        " ",
+                                        precioMas18k,
+                                        " €/g 18k m\xe1s de ",
                                         paraMasOro,
                                         "g."
                                     ]
@@ -2508,20 +2509,17 @@ const BotonesLlamar = ({ ciudad  })=>{
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _breadcrumbs_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(762);
-/* harmony import */ var _breadcrumbs_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_breadcrumbs_module_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1664);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-
+/* harmony import */ var _breadcrumbs_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(762);
+/* harmony import */ var _breadcrumbs_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_breadcrumbs_module_css__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
 const Breadcrumbs = ({ raiz , tiendas , nombreCiudad , nombreTienda , ubicacionActual , urlNombreCiudad , urlNombreTienda , iconoRaiz , iconoTiendas , iconoUbiccionActual  })=>{
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: (_breadcrumbs_module_css__WEBPACK_IMPORTED_MODULE_3___default().sectionBreadcrumbs),
+        className: (_breadcrumbs_module_css__WEBPACK_IMPORTED_MODULE_2___default().sectionBreadcrumbs),
         children: [
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: (_breadcrumbs_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorBreadcrumbs),
+                className: (_breadcrumbs_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorBreadcrumbs),
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                         href: "https://quickgold.es",
@@ -2550,7 +2548,7 @@ const Breadcrumbs = ({ raiz , tiendas , nombreCiudad , nombreTienda , ubicacionA
                 ]
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                className: (_breadcrumbs_module_css__WEBPACK_IMPORTED_MODULE_3___default().breadcrumbsRaiz),
+                className: (_breadcrumbs_module_css__WEBPACK_IMPORTED_MODULE_2___default().breadcrumbsRaiz),
                 href: urlNombreCiudad,
                 title: `Ir a ${ubicacionActual}`,
                 children: ubicacionActual

@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./seccionUno.module.css";
 //import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
-import Image from "next/image";
+//import Image from "next/image";
 //import FsLightbox from "fslightbox-react";
 
 const SeccionUno = ({ ciudad, tiendaGoogle }) => {
-  const [toggler, setToggler] = useState(false);
+  //const [toggler, setToggler] = useState(false);
   const tienda = tiendaGoogle?.result?.rating;
   if (tienda.estrellas > 4.7) {
     var img_valoracion = 69;
@@ -27,12 +27,11 @@ const SeccionUno = ({ ciudad, tiendaGoogle }) => {
     var img_valoracion = 13;
   }
   return (
-    <>
-      <div className={styles.contenedorSeccionUno}>
-        <div className={styles.bloqueDer}>
-          <h1>{tiendaGoogle?.result?.name}</h1>
-        </div>
-        {/* <FsLightbox
+    <article className={styles.contenedorSeccionUno}>
+      <section className={styles.bloqueDer}>
+        <h1>{ciudad?.acf?.titulo_del_h1}</h1>
+      </section>
+      {/* <FsLightbox
         toggler={toggler}
         sources={[
           ciudad?.acf?.foto_1,
@@ -40,44 +39,43 @@ const SeccionUno = ({ ciudad, tiendaGoogle }) => {
           ciudad?.acf?.foto_3,
         ]}
       />*/}
-        <div className={styles.bloqueIzq}>
-          <div className={styles.bloqueResenas}>
-            <div className={styles.contenedorLogoGoogle}>
-              <img src="/GOOGLE.png" width={29} height={30} alt="Logo google" />
-              <div className={styles.contenedorValoraciones}>
-                <div className={styles.contenedorResenas}>
-                  <span className={styles.img_stars}>
-                    <span
-                      style={{ width: img_valoracion }}
-                      className={styles.imgValoracion}
-                    ></span>
+      <section className={styles.bloqueIzq}>
+        <div className={styles.bloqueResenas}>
+          <div className={styles.contenedorLogoGoogle}>
+            <img src="/GOOGLE.png" width={29} height={30} alt="Logo google" />
+            <div className={styles.contenedorValoraciones}>
+              <div className={styles.contenedorResenas}>
+                <span className={styles.img_stars}>
+                  <span
+                    style={{ width: img_valoracion }}
+                    className={styles.imgValoracion}
+                  ></span>
+                </span>
+                <span className={styles.valoracionResenas}>
+                  {tiendaGoogle?.result?.rating}
+                </span>
+                <div className={styles.numero_reviews}>
+                  <span>
+                    <a href={ciudad?.acf?.enlace_resenas} target="_blank">
+                      Ver reseñas
+                    </a>
                   </span>
-                  <span className={styles.valoracionResenas}>
-                    {tiendaGoogle?.result?.rating}
-                  </span>
-                  <div className={styles.numero_reviews}>
-                    <span>
-                      <a href={ciudad?.acf?.enlace_resenas} target="_blank">
-                        Ver reseñas
-                      </a>
-                    </span>
-                  </div>
-                </div>
-                <div className={styles.resenasGoogle}>
-                  {tiendaGoogle?.result?.user_ratings_total}{" "}
-                  <span>opiniones en Google</span>
                 </div>
               </div>
-            </div>
-            <div className={styles.verResenas}>
-              <a href={ciudad?.acf?.escribir_resenas_landings} target="_blank">
-                Déjanos tu opinion
-              </a>
+              <div className={styles.resenasGoogle}>
+                {tiendaGoogle?.result?.user_ratings_total}{" "}
+                <span>opiniones en Google</span>
+              </div>
             </div>
           </div>
+          <div className={styles.verResenas}>
+            <a href={ciudad?.acf?.escribir_resenas_landings} target="_blank">
+              Déjanos tu opinion
+            </a>
+          </div>
         </div>
-      </div>
-    </>
+      </section>
+    </article>
   );
 };
 

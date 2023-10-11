@@ -4,9 +4,9 @@ import styles from "./seccionDos.module.css";
 
 const SeccionDos = ({ ciudad }) => {
   return (
-    <div className={styles.contenedorSeccionDos}>
+    <article className={styles.contenedorSeccionDos}>
       <AccordionServicios ciudad={ciudad} />
-    </div>
+    </article>
   );
 };
 

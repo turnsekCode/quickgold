@@ -5,15 +5,15 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import ResenasGoogle from "@/componentes/ResenasGoogle/ResenasGoogle";
 
 const SeccionTres = ({ tiendaGoogle, ciudad }) => {
-  const diaSemana = tiendaGoogle.result.opening_hours.weekday_text[0];
-  const diaSabado = tiendaGoogle.result.opening_hours.weekday_text[5];
-  const diaDomingo = tiendaGoogle.result.opening_hours.weekday_text[6];
-  const diaSemanaReemplazo = diaSemana.replace("lunes:", "");
-  const diaSabadoReemplazo = diaSabado.replace("sábado:", "");
-  const diaDomingoReemplazo = diaDomingo.replace("domingo:", "");
+  const diaSemana = tiendaGoogle?.result.opening_hours?.weekday_text[0];
+  const diaSabado = tiendaGoogle?.result.opening_hours?.weekday_text[5];
+  const diaDomingo = tiendaGoogle?.result.opening_hours?.weekday_text[6];
+  const diaSemanaReemplazo = diaSemana?.replace("lunes:", "");
+  const diaSabadoReemplazo = diaSabado?.replace("sábado:", "");
+  const diaDomingoReemplazo = diaDomingo?.replace("domingo:", "");
   return (
-    <div className={styles.contenedorSeccionTres}>
-      <div className={styles.contenedorInfoTienda}>
+    <article className={styles.contenedorSeccionTres}>
+      <section className={styles.contenedorInfoTienda}>
         <div className={styles.bloqueIzqInfoTienda}>
           <p className={styles.bloqueIzqTitulo}>Contacto</p>
           <p className={styles.bloqueIzqDireccion}>
@@ -52,6 +52,7 @@ const SeccionTres = ({ tiendaGoogle, ciudad }) => {
         </div>
         <div className={styles.bloqueDerInfoTienda}>
           <p className={styles.bloqueDerTitulo}>Horario</p>
+          <p className={styles.bloqueDerHorarioHabitual}>Horario Habitual</p>
           <p className={styles.bloqueDerdias}>Lunes a Viernes:</p>
           <p className={styles.bloqueDerHorario}>{diaSemanaReemplazo}</p>
           <p className={styles.bloqueDerSabado}>Sábado:</p>
@@ -61,8 +62,8 @@ const SeccionTres = ({ tiendaGoogle, ciudad }) => {
             {diaDomingoReemplazo}
           </p>
         </div>
-      </div>
-      <div className={styles.contenedorMapa}>
+      </section>
+      <section className={styles.contenedorMapa}>
         <iframe
           title="Mapa Tienda"
           src={ciudad?.acf?.mapa_landing}
@@ -70,11 +71,11 @@ const SeccionTres = ({ tiendaGoogle, ciudad }) => {
           height="100%"
           loading="lazy"
         ></iframe>
-      </div>
-      <div className={styles.contenedorResenasGoogle}>
+      </section>
+      <section className={styles.contenedorResenasGoogle}>
         <ResenasGoogle tiendaGoogle={tiendaGoogle} ciudad={ciudad} />
-      </div>
-    </div>
+      </section>
+    </article>
   );
 };
 

@@ -8,8 +8,8 @@
 
 .bloqueDer h1{
     font-weight: 900;
-    font-size: 27px;
-    line-height: 33px;
+    font-size: 22px;
+    line-height: 25px;
     color: #213E58;
     text-align: center;
     padding-top: 20px;
@@ -43,7 +43,7 @@
         }
     
         .bloqueDer h1 {
-            font-size: 47px;
+            font-size: 35px;
             line-height: 45px;
             color: #213E58;
             text-align: left;

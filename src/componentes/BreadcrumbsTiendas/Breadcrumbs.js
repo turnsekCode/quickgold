@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./breadcrumbs.module.css";
-import Link from "next/link";
 
 const Breadcrumbs = ({
   raiz,

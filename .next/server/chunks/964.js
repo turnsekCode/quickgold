@@ -311,7 +311,9 @@ const MenuMobil = ({ menuAbieto , menu_list  })=>{
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: (menuMobil_module_default()).servicios,
-                                onClick: ()=>setSubMenuTienda(!subMenuTienda),
+                                onClick: ()=>{
+                                    setSubMenuTienda(!subMenuTienda), setSubMenuAbierto(false);
+                                },
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                         className: (menuMobil_module_default()).serviciosTiendas,
@@ -331,7 +333,9 @@ const MenuMobil = ({ menuAbieto , menu_list  })=>{
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: (menuMobil_module_default()).servicios,
-                                onClick: ()=>setSubMenuAbierto(!subMenuAbieto),
+                                onClick: ()=>{
+                                    setSubMenuAbierto(!subMenuAbieto), setSubMenuTienda(false);
+                                },
                                 children: [
                                     "servicios",
                                     subMenuAbieto ? /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowUp_default()), {}) : /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowDown_default()), {})
@@ -839,6 +843,9 @@ const FooterMobil = ()=>{
             /*#__PURE__*/ jsx_runtime_.jsx("figure", {
                 children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                     href: "https://quickgold.es/",
+                    style: {
+                        marginBottom: "14px"
+                    },
                     title: "texto",
                     rel: "noopener noreferrer",
                     children: /*#__PURE__*/ jsx_runtime_.jsx("img", {

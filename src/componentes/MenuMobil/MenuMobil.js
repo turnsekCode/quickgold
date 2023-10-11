@@ -23,7 +23,9 @@ const MenuMobil = ({ menuAbieto, menu_list }) => {
             </a>
             <div
               className={styles.servicios}
-              onClick={() => setSubMenuTienda(!subMenuTienda)}
+              onClick={() => {
+                setSubMenuTienda(!subMenuTienda), setSubMenuAbierto(false);
+              }}
             >
               <a
                 className={styles.serviciosTiendas}
@@ -52,7 +54,9 @@ const MenuMobil = ({ menuAbieto, menu_list }) => {
             </div>
             <div
               className={styles.servicios}
-              onClick={() => setSubMenuAbierto(!subMenuAbieto)}
+              onClick={() => {
+                setSubMenuAbierto(!subMenuAbieto), setSubMenuTienda(false);
+              }}
             >
               servicios
               {subMenuAbieto ? (

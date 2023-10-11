@@ -77,6 +77,7 @@ export default function PuertaDelAngel({
       bestRating: 5,
     },
     priceRange: "$",
+    image: `/${ciudad?.acf?.tienda}.jpg`,
     telephone: tiendaGoogle?.result?.formatted_phone_number,
     address: {
       "@type": "PostalAddress",
@@ -92,12 +93,12 @@ export default function PuertaDelAngel({
         description={ciudad?.acf?.descripcion_del_meta}
         icon="/favicon.png"
         facebook={{
-          image: "/facebook.png",
+          image: `/${ciudad?.acf?.tienda}.jpg`,
           url: "https://www.facebook.com/quickgold.es/",
           type: "article",
         }}
         twitter={{
-          image: "/twitter.png",
+          image: `/${ciudad?.acf?.tienda}.jpg`,
           site: "@quickgoldQG",
           card: "summary_large_image",
         }}

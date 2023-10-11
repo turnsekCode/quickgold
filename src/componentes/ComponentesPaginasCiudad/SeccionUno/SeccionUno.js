@@ -10,8 +10,8 @@ const SeccionUno = ({ ciudad }) => {
     <article className={styles.contenedorSeccionUno}>
       <div className={styles.bloqueDer}>
         <h1>
-          Tiendas quickgold en{" "}
-          <span className={styles.linea}>{ciudad?.acf?.ciudad_landing}</span>
+          {ciudad?.acf?.titulo_del_h1}
+          {/*<span className={styles.linea}>{ciudad?.acf?.ciudad_landing}</span>*/}
         </h1>
       </div>
       {/*<FsLightbox

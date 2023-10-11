@@ -72,7 +72,7 @@ function NuevoConversor2({ ciudad, setSelectDivisa, selectDivisa }) {
             }
           >
             {currencyOptions
-              .filter(
+              ?.filter(
                 (currency) =>
                   currency.Name !== "HRK" &&
                   currency.Name !== "DKK" &&

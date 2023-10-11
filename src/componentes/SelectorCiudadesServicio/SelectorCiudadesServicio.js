@@ -3,7 +3,7 @@ import styles from "./SelectorCiudades.module.css";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 const SelectorCiudadesServicio = ({ listadoCiudadesServicios }) => {
-  const listadoCiudades = listadoCiudadesServicios.arrayMarker;
+  const listadoCiudades = listadoCiudadesServicios?.arrayMarker;
   const [selectOpen, setSelectOpen] = useState(null);
 
   return (
@@ -22,7 +22,7 @@ const SelectorCiudadesServicio = ({ listadoCiudadesServicios }) => {
             : `${styles.contenedorSelectorUl}`
         }
       >
-        {listadoCiudades.map((ciudad, i) => (
+        {listadoCiudades?.map((ciudad, i) => (
           <a
             onClick={() => {
               setSelectOpen(false);

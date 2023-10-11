@@ -82,34 +82,34 @@ const MapaCiudades = ({ markers, ciudad }) => {
         </div>
         <div className={styles.contenedorTiendas}>
           {marcador.map((marker) => (
-            <div
+            <Link2
               onClick={() => {
                 toggleTab();
                 onSelectMarker(marker);
               }}
-              key={marker.id}
-              className={
-                activeId === marker.id && showPopup
-                  ? `${styles.contenedorInfoTiendaMapa} ${styles.contenedorInfoTiendaMapaActivo}`
-                  : ` ${styles.contenedorInfoTiendaMapa}`
-              }
+              to="contenedorMapa2"
+              smooth={true}
+              offset={-110}
+              spy={true}
+              duration={500}
             >
-              <Link2
+              <div
                 onClick={() => {
                   toggleTab();
                   onSelectMarker(marker);
                 }}
-                to="contenedorMapa2"
-                smooth={true}
-                offset={-110}
-                spy={true}
-                duration={500}
+                key={marker.id}
+                className={
+                  activeId === marker.id && showPopup
+                    ? `${styles.contenedorInfoTiendaMapa} ${styles.contenedorInfoTiendaMapaActivo}`
+                    : ` ${styles.contenedorInfoTiendaMapa}`
+                }
               >
                 <h3>{marker?.nombreTienda}</h3>
                 <div className={styles.tienda}>
                   <p>{marker?.direccion}</p>
                   <p>{marker?.telefono}</p>
-                  <Link2
+                  {/* <Link2
                     onClick={() => {
                       toggleTab();
                       onSelectMarker(marker);
@@ -122,10 +122,10 @@ const MapaCiudades = ({ markers, ciudad }) => {
                     className={styles.boton_como_llegar}
                   >
                     Ver Más
-                  </Link2>
+                  </Link2>*/}
                 </div>
-              </Link2>
-            </div>
+              </div>
+            </Link2>
           ))}
         </div>
         {/*<BloqueTiendas />*/}

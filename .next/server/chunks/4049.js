@@ -13,6 +13,7 @@ module.exports = {
 	"bloqueDerInfoTienda": "seccionTres_bloqueDerInfoTienda__8g_tv",
 	"bloqueIzqTitulo": "seccionTres_bloqueIzqTitulo__vhLRG",
 	"bloqueDerTitulo": "seccionTres_bloqueDerTitulo__pxDXE",
+	"bloqueDerHorarioHabitual": "seccionTres_bloqueDerHorarioHabitual__Ll7wV",
 	"bloqueIzqDireccion": "seccionTres_bloqueIzqDireccion__ioFMQ",
 	"bloqueIzqTel": "seccionTres_bloqueIzqTel__k2pe2",
 	"iconosTelefono": "seccionTres_iconosTelefono__LZAjh",
@@ -159,7 +160,8 @@ const ResenasGoogle = ({ tiendaGoogle , ciudad  })=>{
                                     alt: "Imagen rese\xf1a google",
                                     className: (resenasGoogle_module_default()).imagenGoogle,
                                     width: 30,
-                                    height: 30
+                                    height: 30,
+                                    loading: "lazy"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                     className: (resenasGoogle_module_default()).imagenResena,
@@ -224,16 +226,16 @@ const ResenasGoogle = ({ tiendaGoogle , ciudad  })=>{
 
 
 const SeccionTres = ({ tiendaGoogle , ciudad  })=>{
-    const diaSemana = tiendaGoogle.result.opening_hours.weekday_text[0];
-    const diaSabado = tiendaGoogle.result.opening_hours.weekday_text[5];
-    const diaDomingo = tiendaGoogle.result.opening_hours.weekday_text[6];
-    const diaSemanaReemplazo = diaSemana.replace("lunes:", "");
-    const diaSabadoReemplazo = diaSabado.replace("s\xe1bado:", "");
-    const diaDomingoReemplazo = diaDomingo.replace("domingo:", "");
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+    const diaSemana = tiendaGoogle?.result.opening_hours?.weekday_text[0];
+    const diaSabado = tiendaGoogle?.result.opening_hours?.weekday_text[5];
+    const diaDomingo = tiendaGoogle?.result.opening_hours?.weekday_text[6];
+    const diaSemanaReemplazo = diaSemana?.replace("lunes:", "");
+    const diaSabadoReemplazo = diaSabado?.replace("s\xe1bado:", "");
+    const diaDomingoReemplazo = diaDomingo?.replace("domingo:", "");
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("article", {
         className: (seccionTres_module_default()).contenedorSeccionTres,
         children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
                 className: (seccionTres_module_default()).contenedorInfoTienda,
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -293,6 +295,10 @@ const SeccionTres = ({ tiendaGoogle , ciudad  })=>{
                                 children: "Horario"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: (seccionTres_module_default()).bloqueDerHorarioHabitual,
+                                children: "Horario Habitual"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 className: (seccionTres_module_default()).bloqueDerdias,
                                 children: "Lunes a Viernes:"
                             }),
@@ -320,7 +326,7 @@ const SeccionTres = ({ tiendaGoogle , ciudad  })=>{
                     })
                 ]
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            /*#__PURE__*/ jsx_runtime_.jsx("section", {
                 className: (seccionTres_module_default()).contenedorMapa,
                 children: /*#__PURE__*/ jsx_runtime_.jsx("iframe", {
                     title: "Mapa Tienda",
@@ -330,7 +336,7 @@ const SeccionTres = ({ tiendaGoogle , ciudad  })=>{
                     loading: "lazy"
                 })
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            /*#__PURE__*/ jsx_runtime_.jsx("section", {
                 className: (seccionTres_module_default()).contenedorResenasGoogle,
                 children: /*#__PURE__*/ jsx_runtime_.jsx(ResenasGoogle_ResenasGoogle, {
                     tiendaGoogle: tiendaGoogle,
@@ -356,18 +362,16 @@ const SeccionTres = ({ tiendaGoogle , ciudad  })=>{
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2217);
-/* harmony import */ var _seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5675);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2217);
+/* harmony import */ var _seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
 //import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
-
+//import Image from "next/image";
 //import FsLightbox from "fslightbox-react";
 const SeccionUno = ({ ciudad , tiendaGoogle  })=>{
-    const [toggler, setToggler] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
+    //const [toggler, setToggler] = useState(false);
     const tienda = tiendaGoogle?.result?.rating;
     if (tienda.estrellas > 4.7) {
         var img_valoracion = 69;
@@ -388,88 +392,86 @@ const SeccionUno = ({ ciudad , tiendaGoogle  })=>{
     } else if (tienda.estrellas < 1.4 && tienda.estrellas < 0.7) {
         var img_valoracion = 13;
     }
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorSeccionUno),
-            children: [
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3___default().bloqueDer),
-                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                        children: tiendaGoogle?.result?.name
-                    })
-                }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3___default().bloqueIzq),
-                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3___default().bloqueResenas),
-                        children: [
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorLogoGoogle),
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                        src: "/GOOGLE.png",
-                                        width: 29,
-                                        height: 30,
-                                        alt: "Logo google"
-                                    }),
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                        className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorValoraciones),
-                                        children: [
-                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorResenas),
-                                                children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                        className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3___default().img_stars),
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                            style: {
-                                                                width: img_valoracion
-                                                            },
-                                                            className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3___default().imgValoracion)
-                                                        })
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                        className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3___default().valoracionResenas),
-                                                        children: tiendaGoogle?.result?.rating
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                        className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3___default().numero_reviews),
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                                href: ciudad?.acf?.enlace_resenas,
-                                                                target: "_blank",
-                                                                children: "Ver rese\xf1as"
-                                                            })
-                                                        })
-                                                    })
-                                                ]
-                                            }),
-                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3___default().resenasGoogle),
-                                                children: [
-                                                    tiendaGoogle?.result?.user_ratings_total,
-                                                    " ",
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                        children: "opiniones en Google"
-                                                    })
-                                                ]
-                                            })
-                                        ]
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3___default().verResenas),
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                    href: ciudad?.acf?.escribir_resenas_landings,
-                                    target: "_blank",
-                                    children: "D\xe9janos tu opinion"
-                                })
-                            })
-                        ]
-                    })
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("article", {
+        className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorSeccionUno),
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
+                className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().bloqueDer),
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+                    children: ciudad?.acf?.titulo_del_h1
                 })
-            ]
-        })
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
+                className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().bloqueIzq),
+                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                    className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().bloqueResenas),
+                    children: [
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorLogoGoogle),
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                    src: "/GOOGLE.png",
+                                    width: 29,
+                                    height: 30,
+                                    alt: "Logo google"
+                                }),
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorValoraciones),
+                                    children: [
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                            className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorResenas),
+                                            children: [
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                    className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().img_stars),
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                        style: {
+                                                            width: img_valoracion
+                                                        },
+                                                        className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().imgValoracion)
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                    className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().valoracionResenas),
+                                                    children: tiendaGoogle?.result?.rating
+                                                }),
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                    className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().numero_reviews),
+                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                            href: ciudad?.acf?.enlace_resenas,
+                                                            target: "_blank",
+                                                            children: "Ver rese\xf1as"
+                                                        })
+                                                    })
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                            className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().resenasGoogle),
+                                            children: [
+                                                tiendaGoogle?.result?.user_ratings_total,
+                                                " ",
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                    children: "opiniones en Google"
+                                                })
+                                            ]
+                                        })
+                                    ]
+                                })
+                            ]
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().verResenas),
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                href: ciudad?.acf?.escribir_resenas_landings,
+                                target: "_blank",
+                                children: "D\xe9janos tu opinion"
+                            })
+                        })
+                    ]
+                })
+            })
+        ]
     });
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SeccionUno);
@@ -496,7 +498,7 @@ const SeccionUno = ({ ciudad , tiendaGoogle  })=>{
 
 
 const SeccionDos = ({ ciudad  })=>{
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("article", {
         className: (_seccionDos_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorSeccionDos),
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_AccordionServicios_AccordionServicios__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
             ciudad: ciudad

@@ -29,8 +29,13 @@
     font-size: 24px;
     line-height: 30px;
     color: #213E58;
-    margin-bottom: 10px;
     font-family: 'Gotham Black';
+}
+.bloqueDerHorarioHabitual{
+    font-size: 14px;
+    font-style: italic;
+    color: #0692D0;
+    margin-bottom: 10px;
 }
 .bloqueIzqDireccion{
     font-weight: 400;
@@ -174,10 +179,14 @@
             font-size: 24px;
             line-height: 30px;
             color: #213E58;
-            margin-bottom: 10px;
             font-family: 'Gotham Bold';
         }
-    
+        .bloqueDerHorarioHabitual {
+            font-size: 14px;
+            font-style: italic;
+            color: #0692D0;
+            margin-bottom: 10px;
+        }
         .bloqueIzqDireccion {
             font-weight: 400;
             font-size: 14px;

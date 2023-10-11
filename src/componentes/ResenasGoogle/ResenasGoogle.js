@@ -42,6 +42,7 @@ const ResenasGoogle = ({ tiendaGoogle, ciudad }) => {
                 className={styles.imagenGoogle}
                 width={30}
                 height={30}
+                loading="lazy"
               />
               <div className={styles.imagenResena}>
                 <p className={styles.nombreUsuario}>{resena.author_name}</p>

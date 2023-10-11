@@ -38,7 +38,7 @@ const ConversorDivisa = ({ ciudad }) => {
                       : `${styles.botonComprar} ${styles.botonActivo}`
                   }
                 >
-                  Comprar divisa
+                  Vender divisa
                 </button>
                 <button
                   className={
@@ -51,7 +51,7 @@ const ConversorDivisa = ({ ciudad }) => {
                     setSelectDivisa(true);
                   }}
                 >
-                  Vender divisa
+                  Comprar divisa
                 </button>
               </>
             ) : null}

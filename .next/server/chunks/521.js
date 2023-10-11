@@ -77,15 +77,8 @@ const SeccionUno = ({ ciudad  })=>{
         className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorSeccionUno),
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
             className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().bloqueDer),
-            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h1", {
-                children: [
-                    "Tiendas quickgold en",
-                    " ",
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                        className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().linea),
-                        children: ciudad?.acf?.ciudad_landing
-                    })
-                ]
+            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+                children: ciudad?.acf?.titulo_del_h1
             })
         })
     });
@@ -236,22 +229,22 @@ const MapaCiudades = ({ markers , ciudad  })=>{
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                         className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().contenedorTiendas),
-                        children: marcador.map((marker)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        children: marcador.map((marker)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_scroll__WEBPACK_IMPORTED_MODULE_2__.Link, {
                                 onClick: ()=>{
                                     toggleTab();
                                     onSelectMarker(marker);
                                 },
-                                className: activeId === marker.id && showPopup ? `${(_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().contenedorInfoTiendaMapa)} ${(_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().contenedorInfoTiendaMapaActivo)}` : ` ${(_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().contenedorInfoTiendaMapa)}`,
-                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_scroll__WEBPACK_IMPORTED_MODULE_2__.Link, {
+                                to: "contenedorMapa2",
+                                smooth: true,
+                                offset: -110,
+                                spy: true,
+                                duration: 500,
+                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                     onClick: ()=>{
                                         toggleTab();
                                         onSelectMarker(marker);
                                     },
-                                    to: "contenedorMapa2",
-                                    smooth: true,
-                                    offset: -110,
-                                    spy: true,
-                                    duration: 500,
+                                    className: activeId === marker.id && showPopup ? `${(_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().contenedorInfoTiendaMapa)} ${(_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().contenedorInfoTiendaMapaActivo)}` : ` ${(_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().contenedorInfoTiendaMapa)}`,
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                             children: marker?.nombreTienda
@@ -264,25 +257,12 @@ const MapaCiudades = ({ markers , ciudad  })=>{
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                     children: marker?.telefono
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_scroll__WEBPACK_IMPORTED_MODULE_2__.Link, {
-                                                    onClick: ()=>{
-                                                        toggleTab();
-                                                        onSelectMarker(marker);
-                                                    },
-                                                    to: "contenedorMapa2",
-                                                    smooth: true,
-                                                    offset: -110,
-                                                    spy: true,
-                                                    duration: 500,
-                                                    className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().boton_como_llegar),
-                                                    children: "Ver M\xe1s"
                                                 })
                                             ]
                                         })
                                     ]
-                                })
-                            }, marker.id))
+                                }, marker.id)
+                            }))
                     })
                 ]
             }),
