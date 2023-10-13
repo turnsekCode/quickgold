@@ -48,11 +48,12 @@
         color: #FFFFFF;
         text-transform: uppercase;
         font-weight: 700;
-        font-size: 15px;
+        font-size: 14px;
         line-height: 13px;
         font-style: normal;
         display: flex;
         align-items: center;
+        font-family: 'Gotham Bold';
     }
 
     .contenedorMenu {
@@ -84,11 +85,12 @@
         color: #FFFFFF;
         text-transform: uppercase;
         font-weight: 700;
-        font-size: 15px;
+        font-size: 14px;
         line-height: 13px;
         font-style: normal;
         display: flex;
         align-items: center;
+        font-family: 'Gotham Bold';
     }
     .contenedorSubMenuTiendas{
         position: relative;
@@ -123,13 +125,14 @@
     .subMenuTiendas a{
         color: #fff;
         font-weight: 700;
-        font-size: 12px;
+        font-size: 14px;
         border-radius: 2px;
-        width: 225px;
+        width: 250px;
         display: flex;
         align-items: center;
         justify-content: center;
         line-height: 10px;
+        font-family: 'Gotham Bold';
     }
     .subMenuTiendas a:hover{
         color: #fbbf04;
@@ -172,6 +175,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        font-family: 'Gotham Bold';
     }
     .subMenuServicios a:hover {
         color: #fbbf04;

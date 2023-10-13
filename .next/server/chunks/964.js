@@ -264,13 +264,6 @@ const MenuOrdenador = ({ menu_list , sticky , stickyRef  })=>{
                         title: "Ir a expansion",
                         children: "SOBRE QUICKGOLD"
                     })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                        href: "https://quickgold.es/contacto",
-                        title: "Ir a contacto",
-                        children: "CONTACTO"
-                    })
                 })
             ]
         })
@@ -376,12 +369,6 @@ const MenuMobil = ({ menuAbieto , menu_list  })=>{
                                         children: "COMPRA DE DIAMANTES"
                                     })
                                 ]
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                className: (menuMobil_module_default()).contacto,
-                                href: "https://quickgold.es/contacto",
-                                title: "Ir a contacto",
-                                children: "CONTACTO"
                             })
                         ]
                     }),
@@ -692,13 +679,6 @@ const Footer = ()=>{
                                                 href: "https://quickgold.es/tiendas",
                                                 children: "Mapa del sitio"
                                             })
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                title: "Ir a contacto",
-                                                href: "https://quickgold.es/contacto",
-                                                children: "Contacto"
-                                            })
                                         })
                                     ]
                                 })
@@ -1006,13 +986,6 @@ const FooterMobil = ()=>{
                                             href: "https://quickgold.es",
                                             title: "Ir a mapa del sitio",
                                             children: "Mapa del sitio"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "https://quickgold.es/contacto",
-                                            title: "Ir a contacto",
-                                            children: "Contacto"
                                         })
                                     })
                                 ]

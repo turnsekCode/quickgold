@@ -100,13 +100,13 @@ const MenuMobil = ({ menuAbieto, menu_list }) => {
               </a>
             </div>
 
-            <a
+            {/*<a
               className={styles.contacto}
               href="https://quickgold.es/contacto"
               title="Ir a contacto"
             >
               CONTACTO
-            </a>
+            </a>*/}
           </div>
           <div className={styles.menuInferiorMobil}>
             <ul>
