@@ -33,13 +33,7 @@ const Breadcrumbs = ({
         </a>
         {iconoTiendas}
       </div>
-      <a
-        className={styles.breadcrumbsRaiz}
-        href={urlNombreCiudad}
-        title={`Ir a ${ubicacionActual}`}
-      >
-        {ubicacionActual}
-      </a>
+      {ubicacionActual}
     </div>
   );
 };

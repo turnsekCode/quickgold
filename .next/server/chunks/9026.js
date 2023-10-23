@@ -2547,12 +2547,7 @@ const Breadcrumbs = ({ raiz , tiendas , nombreCiudad , nombreTienda , ubicacionA
                     iconoTiendas
                 ]
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                className: (_breadcrumbs_module_css__WEBPACK_IMPORTED_MODULE_2___default().breadcrumbsRaiz),
-                href: urlNombreCiudad,
-                title: `Ir a ${ubicacionActual}`,
-                children: ubicacionActual
-            })
+            ubicacionActual
         ]
     });
 };

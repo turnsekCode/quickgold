@@ -119,11 +119,7 @@ const Breadcrumbs = ()=>{
                     /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowRight_default()), {})
                 ]
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                href: "https://quickgold.es/tiendas",
-                title: "Ir a Tiendas",
-                children: "Tiendas"
-            })
+            "Tiendas"
         ]
     });
 };

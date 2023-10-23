@@ -11,9 +11,7 @@ const Breadcrumbs = () => {
         </a>
         <KeyboardArrowRightIcon />
       </div>
-      <a href="https://quickgold.es/tiendas" title="Ir a Tiendas">
-        Tiendas
-      </a>
+      Tiendas
     </div>
   );
 };
