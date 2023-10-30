@@ -538,7 +538,7 @@ module.exports = require("next/dist/shared/lib/router/utils/format-url.js");
 
 /***/ }),
 
-/***/ 4211:
+/***/ 9565:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/router/utils/get-asset-path-from-route.js");
@@ -706,7 +706,7 @@ module.exports = import("react-intersection-observer");;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,8626,521], () => (__webpack_exec__(6791)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,8626,7404,7319], () => (__webpack_exec__(6791)));
 module.exports = __webpack_exports__;
 
 })();

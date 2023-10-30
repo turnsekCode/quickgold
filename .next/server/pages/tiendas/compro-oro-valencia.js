@@ -18,8 +18,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(968);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(8874);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(8874);
+/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15__);
 /* harmony import */ var _componentes_BreadcrumbsTiendas_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(942);
 /* harmony import */ var _bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4579);
 /* harmony import */ var _bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_3__);
@@ -34,8 +34,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _componentes_BannerGeneral_BannerPromoGeneral__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(7967);
 /* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(547);
 /* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _componentes_MapaCiudades_MapaCiudades_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(7319);
-/* harmony import */ var _componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(2810);
+/* harmony import */ var _componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(2810);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__]);
 react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -53,7 +52,7 @@ react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__ = (__webpack_async_depe
 
 
 
-
+//import Mapa from "@/componentes/MapaCiudades/MapaCiudades.js";
 
 function Valencia({ markers , menu_list , ciudad , general  }) {
     const { ref: myRef , inView , entry  } = (0,react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__.useInView)();
@@ -194,7 +193,7 @@ function Valencia({ markers , menu_list , ciudad , general  }) {
                         ]
                     }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16___default().main),
+                        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15___default().main),
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BreadcrumbsTiendas_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
                                 raiz: "Quickgold",
@@ -208,30 +207,20 @@ function Valencia({ markers , menu_list , ciudad , general  }) {
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasCiudad_SeccionUno_SeccionUno__WEBPACK_IMPORTED_MODULE_10__/* ["default"] */ .Z, {
                                 ciudad: ciudad
                             }),
-                            ciudad?.acf?.activar_banner_en_tiendas_y_ciudad && general?.acf?.activar_promo_general ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_15__/* ["default"] */ .Z, {
+                            ciudad?.acf?.activar_banner_en_tiendas_y_ciudad && general?.acf?.activar_promo_general ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_14__/* ["default"] */ .Z, {
                                 ciudad: ciudad
                             }) : null,
                             ciudad?.acf?.activar_banner_en_tiendas_y_ciudad == false && general?.acf?.activar_promo_general ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerGeneral_BannerPromoGeneral__WEBPACK_IMPORTED_MODULE_12__/* ["default"] */ .Z, {
                                 general: general
                             }) : null,
-                            general?.acf?.activar_promo_general == false && ciudad?.acf?.activar_banner_en_tiendas_y_ciudad ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_15__/* ["default"] */ .Z, {
+                            general?.acf?.activar_promo_general == false && ciudad?.acf?.activar_banner_en_tiendas_y_ciudad ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_14__/* ["default"] */ .Z, {
                                 ciudad: ciudad
                             }) : null,
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16___default().contenedorSeccionUnoDos),
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasCiudad_seccionDos_SeccionDos__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {
-                                        ciudad: ciudad
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("article", {
-                                        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16___default().contenedorMapaVisible),
-                                        ref: myRef,
-                                        children: inView ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_MapaCiudades_MapaCiudades_js__WEBPACK_IMPORTED_MODULE_14__/* ["default"] */ .Z, {
-                                            markers: markers,
-                                            ciudad: ciudad
-                                        }) : null
-                                    })
-                                ]
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15___default().contenedorSeccionUnoDos),
+                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasCiudad_seccionDos_SeccionDos__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {
+                                    ciudad: ciudad
+                                })
                             })
                         ]
                     }),
@@ -298,13 +287,6 @@ module.exports = require("@bradgarropy/next-seo");
 /***/ ((module) => {
 
 module.exports = require("@mui/icons-material/ArrowDropDown");
-
-/***/ }),
-
-/***/ 2081:
-/***/ ((module) => {
-
-module.exports = require("@mui/icons-material/Call");
 
 /***/ }),
 
@@ -441,24 +423,10 @@ module.exports = require("next/dist/shared/lib/amp-mode.js");
 
 /***/ }),
 
-/***/ 3280:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/app-router-context.js");
-
-/***/ }),
-
 /***/ 2796:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/head-manager-context.js");
-
-/***/ }),
-
-/***/ 4014:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/i18n/normalize-locale-path.js");
 
 /***/ }),
 
@@ -490,157 +458,10 @@ module.exports = require("next/dist/shared/lib/image-loader");
 
 /***/ }),
 
-/***/ 8524:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/is-plain-object.js");
-
-/***/ }),
-
-/***/ 8020:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/mitt.js");
-
-/***/ }),
-
-/***/ 4406:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/page-path/denormalize-page-path.js");
-
-/***/ }),
-
-/***/ 4964:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router-context.js");
-
-/***/ }),
-
-/***/ 1751:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix.js");
-
-/***/ }),
-
-/***/ 6220:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/compare-states.js");
-
-/***/ }),
-
-/***/ 299:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/format-next-pathname-info.js");
-
-/***/ }),
-
-/***/ 3938:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/format-url.js");
-
-/***/ }),
-
-/***/ 4211:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/get-asset-path-from-route.js");
-
-/***/ }),
-
-/***/ 5789:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/get-next-pathname-info.js");
-
-/***/ }),
-
-/***/ 1897:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/is-bot.js");
-
-/***/ }),
-
-/***/ 1428:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/is-dynamic.js");
-
-/***/ }),
-
-/***/ 8854:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/parse-path.js");
-
-/***/ }),
-
-/***/ 1292:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/parse-relative-url.js");
-
-/***/ }),
-
-/***/ 4567:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/path-has-prefix.js");
-
-/***/ }),
-
-/***/ 979:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/querystring.js");
-
-/***/ }),
-
-/***/ 3297:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slash.js");
-
-/***/ }),
-
-/***/ 6052:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/resolve-rewrites.js");
-
-/***/ }),
-
-/***/ 4226:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/route-matcher.js");
-
-/***/ }),
-
-/***/ 5052:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/route-regex.js");
-
-/***/ }),
-
 /***/ 2470:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/side-effect.js");
-
-/***/ }),
-
-/***/ 9232:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/utils.js");
 
 /***/ }),
 
@@ -662,27 +483,6 @@ module.exports = require("next/head");
 /***/ ((module) => {
 
 module.exports = require("react");
-
-/***/ }),
-
-/***/ 6405:
-/***/ ((module) => {
-
-module.exports = require("react-dom");
-
-/***/ }),
-
-/***/ 5372:
-/***/ ((module) => {
-
-module.exports = require("react-map-gl");
-
-/***/ }),
-
-/***/ 3094:
-/***/ ((module) => {
-
-module.exports = require("react-scroll");
 
 /***/ }),
 
@@ -714,7 +514,7 @@ module.exports = import("react-intersection-observer");;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,8626,521], () => (__webpack_exec__(9267)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,8626,7404], () => (__webpack_exec__(9267)));
 module.exports = __webpack_exports__;
 
 })();

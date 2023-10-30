@@ -12,7 +12,7 @@ import SeccionUno from "@/componentes/ComponentesPaginasCiudad/SeccionUno/Seccio
 import SeccionDos from "@/componentes/ComponentesPaginasCiudad/seccionDos/SeccionDos";
 import BannerPromoGeneral from "@/componentes/BannerGeneral/BannerPromoGeneral";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
-import Mapa from "@/componentes/MapaCiudades/MapaCiudades.js";
+//import Mapa from "@/componentes/MapaCiudades/MapaCiudades.js";
 import BannerPromoTiendas from "@/componentes/BannerPromoTiendas/BannerPromoTiendas.js";
 
 export default function Valencia({ markers, menu_list, ciudad, general }) {
@@ -146,9 +146,9 @@ export default function Valencia({ markers, menu_list, ciudad, general }) {
           ) : null}
           <div className={styles.contenedorSeccionUnoDos}>
             <SeccionDos ciudad={ciudad} />
-            <article className={styles.contenedorMapaVisible} ref={myRef}>
+            {/* <article className={styles.contenedorMapaVisible} ref={myRef}>
               {inView ? <Mapa markers={markers} ciudad={ciudad} /> : null}
-            </article>
+          </article>*/}
             {/*<Mapa markers={markers} />*/}
           </div>
         </div>
