@@ -1,0 +1,95 @@
+.contenedorSectionSeis{
+    width: 90%;
+    height: auto;
+    background: linear-gradient(180deg, #036F9A 0%, #0692D0 107.1%);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.contenedorSectionSeis p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.contenedorSectionSeisBotones{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+.contenedorSectionSeisBotones a{
+    width: 279px;
+    height: 74px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.14);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    color: #213E58;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 610px) {
+.contenedorSectionSeis {
+        width: 100%;
+        height: 552px;
+        background: #036F9A;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0;
+        margin-bottom: 0;
+    }
+
+    .contenedorSectionSeis p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0 230px;
+        margin-bottom: 30px;
+    }
+
+    .contenedorSectionSeisBotones {
+        display: flex;
+        margin-top: 40px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        row-gap: 55px;
+    }
+
+    .contenedorSectionSeisBotones a {
+        width: 230.55px;
+        height: 61.15px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.14);
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 19px;
+        text-align: center;
+        color: #213E58;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

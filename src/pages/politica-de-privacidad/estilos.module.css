@@ -1,0 +1,44 @@
+.main {
+    margin: 0 auto;
+    max-width: 1060px;
+    padding-bottom: 40px;
+    padding: 70px 20px;
+}
+.titulo{
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.main p{
+    text-align: justify;
+}
+.Listado li{
+    list-style:inside;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+@media (min-width: 610px) {
+.main {
+        padding-top: 140px;
+        margin: 0 auto;
+        max-width: 1060px;
+        padding-bottom: 40px;
+    }
+
+    .titulo {
+        text-align: center;
+        margin: 10px 0 20px 0;
+    }
+
+    .main p {
+        text-align: justify;
+    }
+
+    .Listado li {
+        list-style: inside;
+        font-size: 14px;
+        text-align: justify;
+    }
+}

@@ -1,0 +1,17 @@
+.tituloPreguntas{
+    color: #0F2D45;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding: 30px 20px 5px 20px;
+}
+.contenedorSectionDosMobiContenidoUltimo{
+    margin-bottom: 30px;
+}
+
+@media (min-width: 610px) {
+    .contenedorSectionDosMobil{
+        display: none;
+    }
+}

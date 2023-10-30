@@ -1,0 +1,18 @@
+.ImagenBanner{
+    display: none;
+}
+.ImagenBannerMobil{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+@media (min-width: 610px) {
+    .ImagenBanner {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .ImagenBannerMobil{
+        display: none;
+    }
+}

@@ -1,0 +1,85 @@
+.contenedorSectionSeis{
+    background: #036F9A;
+}
+.contenedorSectionSeisMargen{
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.contenedorTexto h5{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin: 0 auto 20px 0;
+    text-align: center;
+    width: 100%;
+    padding: 0 25px;
+    font-family: 'Gotham Bold';
+}
+.contenedorTiposDivisas{
+    padding: 0 20px;
+}
+.contenedorTiposDivisasCard1{
+    width: 100%;
+    height: auto;
+    background: transparent;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+}
+.contenedorTiposDivisasCard1Texto{
+    padding: 20px 0;
+    color: #fff;
+    font-weight: 100;
+    text-align: justify;
+}
+.contenedorAccordionDiamantes{
+    background: linear-gradient(180deg, rgba(15, 45, 69, 0.8) 0%, rgba(15, 45, 69, 0) 107.1%);
+    border-radius: 8px;
+    padding: 25px 10px;
+    width: 100%;
+}
+
+@media (min-width: 610px) {
+.contenedorSectionSeis {
+        background: #036F9A;
+    }
+    .contenedorSectionSeisMargen {
+        max-width: 1060px;
+        margin: 0 auto;
+        padding: 60px 0;
+    }
+
+    .contenedorTexto h5 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin: 30px 0;
+        text-align: left;
+        width: 100%;
+        padding: 0;
+    }
+    .contenedorTiposDivisas {
+        padding: 0;
+    }
+    .contenedorTiposDivisasCard1 {
+        width: 100%;
+        height: auto;
+        background: rgba(0, 45, 70, 0.2);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+    }
+    .contenedorTiposDivisasCard1Texto {
+        padding: 40px;
+        color: #fff;
+        font-weight: 100;
+        text-align: justify;
+    }
+}

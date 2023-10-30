@@ -1,7 +1,7 @@
   .contenedorBreadcrumbs {
       display: none;
   }
-  .breadcrumbsRaiz{
+  .breadcrumbsRaiz, .sectionBreadcrumbs{
     display: none;
   }
 

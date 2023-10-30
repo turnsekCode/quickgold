@@ -1,0 +1,110 @@
+.contenedorSectionTres{
+    background-image: url(/assets/img/imagenBackgroundSectionTres.png);
+    height: 414px;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0;
+    margin-bottom: -10px;
+}
+.contenedorSectionTresMargen{
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: c;
+}
+.contenedorSectionTresMargen h3{
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 50px;
+}
+.contenedorSectionTresMargen p {
+    color: #FFF;
+    text-align: justify;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+.contenedorSectionTresMargen a {
+    border-radius: 8px;
+    background: #0692D0;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.14);
+    width: 288px;
+    height: 50px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 610px) {
+    .contenedorSectionTres {
+            background-image: url(/assets/img/imagenBackgroundSectionTres.png);
+            height: 346px;
+            background-size: cover;
+            background-position: center;
+            padding: 30px 0;
+            margin-bottom: 0;
+        }
+    
+        .contenedorSectionTresMargen {
+            max-width: 1060px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: c;
+        }
+    
+        .contenedorSectionTresMargen h3 {
+            color: #FFF;
+            text-align: center;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding: 0 375px;
+        }
+    
+        .contenedorSectionTresMargen p {
+            color: #FFF;
+            text-align: justify;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 100;
+            line-height: 20px;
+            padding: 0 300px;
+            margin: 20px 0;
+        }
+    
+        .contenedorSectionTresMargen a {
+            border-radius: 8px;
+            background: #0692D0;
+            box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.14);
+            width: 288px;
+            height: 50px;
+            color: #FFF;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+}

@@ -1,0 +1,124 @@
+.contenedorSectionTres{
+    max-width: 1060px;
+    margin: 15px auto;
+}
+.bloqueInferior{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.bloqueInferiorCard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bloqueSuperior h3{
+    color: #0F2D45;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+    padding: 0 100px;
+}
+.bloqueSuperior p {
+    color: #0F2D45;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.bloqueInferiorTexto{
+    padding: 20px 0;
+}
+.bloqueInferiorTexto p:nth-child(1) {
+    color: #0F2D45;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.bloqueInferiorTexto p{
+    color: #0F2D45;
+    text-align: justify;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0 30px;
+}
+
+@media (min-width: 610px) {
+    .contenedorSectionTres {
+        max-width: 1060px;
+        margin: 0 auto;
+    }
+
+    .bloqueInferior {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .bloqueInferiorCard {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bloqueSuperior h3 {
+        color: #0F2D45;
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .bloqueSuperior p {
+        color: #0F2D45;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
+
+    .bloqueInferiorTexto {
+        padding: 20px 0;
+    }
+
+    .bloqueInferiorTexto p:nth-child(1) {
+        color: #0F2D45;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+
+    .bloqueInferiorTexto p {
+        color: #0F2D45;
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        padding: 0 30px;
+    }
+}

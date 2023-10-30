@@ -1,0 +1,61 @@
+.bloqueIzq{
+    width: 43%!important;
+    height: 660px;
+}
+.botonTabs{
+    align-items: flex-start!important;
+    padding: 0!important;
+    color: #0F2D45;
+    font-size: 20px!important;
+    line-height: 20px!important;
+    font-weight: 700!important;
+    text-transform: none!important;
+    font-family: -apple-system, Gothan, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif!important;
+}
+.bloqueIzqTexto{
+    color: #0F2D45;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.contenidoTabs{
+    width: 57%!important;
+}
+.box {
+    display: none;
+}
+@media (min-width: 610px) {
+    .bloqueIzq {
+            width: 43% !important;
+            height: 660px;
+        }
+    
+        .botonTabs {
+            align-items: flex-start !important;
+            padding: 0 !important;
+            color: #0F2D45;
+            font-size: 20px !important;
+            line-height: 20px !important;
+            font-weight: 700 !important;
+            text-transform: none !important;
+            font-family: -apple-system, Gothan, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+                Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+        }
+    
+        .bloqueIzqTexto {
+            color: #0F2D45;
+            font-size: 30px;
+            line-height: 20px;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+    
+        .contenidoTabs {
+            width: 80% !important;
+        }
+        .box {
+            display: flex;
+        }
+}

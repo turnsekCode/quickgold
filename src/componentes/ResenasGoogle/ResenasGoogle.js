@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./resenasGoogle.module.css";
+import Image from "next/image";
 
 const ResenasGoogle = ({ tiendaGoogle, ciudad }) => {
   return (
@@ -36,13 +37,12 @@ const ResenasGoogle = ({ tiendaGoogle, ciudad }) => {
                 height={70}
                 loading="lazy"
               />
-              <img
-                src="/GOOGLE.png"
+              <Image
+                src="/assets/img/GOOGLE.png"
                 alt="Imagen reseña google"
                 className={styles.imagenGoogle}
                 width={30}
                 height={30}
-                loading="lazy"
               />
               <div className={styles.imagenResena}>
                 <p className={styles.nombreUsuario}>{resena.author_name}</p>

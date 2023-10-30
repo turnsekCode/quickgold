@@ -31,6 +31,8 @@ export default function Document() {
           href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
         />
 </noscript>*/}
+      <link rel="icon" href="/favicon.png" />
+      <meta name="robots" content="noindex, nofollow" />
       <Head />
       <body>
         <Main />

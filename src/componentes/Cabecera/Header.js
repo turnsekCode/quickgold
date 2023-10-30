@@ -9,6 +9,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import Button from "@mui/material/Button";
 import CloseIcon from "@mui/icons-material/Close";
+import Image from "next/image";
 
 const Header = ({ menu_list, sticky, stickyRef }) => {
   const [state, setState] = React.useState({ right: false });
@@ -19,13 +20,9 @@ const Header = ({ menu_list, sticky, stickyRef }) => {
     <header className={styles.header} id="to_top">
       <nav className={styles.contenedorLogo}>
         <figure>
-          <a
-            href="https://quickgold.es"
-            title="Logo Quickgold"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="/logo.png"
+          <a href="/" title="Logo Quickgold" rel="noopener noreferrer">
+            <Image
+              src="/assets/img/logo.png"
               alt="Quickgold Logo"
               className={styles.logo}
               width={163}
@@ -67,8 +64,8 @@ const Header = ({ menu_list, sticky, stickyRef }) => {
               href="https://www.linkedin.com/company/quickgold"
               title="Linkedin"
             >
-              <img
-                src="/Vector12.png"
+              <Image
+                src="/assets/img/Vector12.png"
                 alt="Quickgold Logo"
                 className={styles.vector}
                 width={12}
@@ -92,8 +89,8 @@ const Header = ({ menu_list, sticky, stickyRef }) => {
             </a>
           </div>
           <div className={styles.botonLlamar}>
-            <a href="tel:900 373 629" title="Teléfono">
-              LLAMA GRATIS AL 900 373 629
+            <a href="tel:900373629" title="Teléfono">
+              LLAMA GRATIS
             </a>
           </div>
         </div>

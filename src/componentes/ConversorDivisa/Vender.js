@@ -109,7 +109,7 @@ function NuevoConversor2({ ciudad, setSelectDivisa, selectDivisa }) {
                         }}
                         width={35}
                         height={23}
-                        src={`/${data?.Productos[0].Acronimo}.png`}
+                        src={`/assets/img/${data?.Productos[0].Acronimo}.png`}
                         data-acronimo={data?.Productos[0].Acronimo}
                         data-nombre={data?.Productos[0].Nombre}
                         data-precio={(data?.Productos[0].Precio / 1000).toFixed(

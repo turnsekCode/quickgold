@@ -18,7 +18,7 @@ const MenuMobil = ({ menuAbieto, menu_list }) => {
       <div className={styles.menuMobil}>
         <div className={styles.contenedorListasMenu}>
           <div className={styles.listasMenu}>
-            <a href="https://quickgold.es" title="Ir a quickgold">
+            <a href="/" title="Ir a quickgold">
               INICIO
             </a>
             <div
@@ -27,10 +27,7 @@ const MenuMobil = ({ menuAbieto, menu_list }) => {
                 setSubMenuTienda(!subMenuTienda), setSubMenuAbierto(false);
               }}
             >
-              <a
-                className={styles.serviciosTiendas}
-                href="https://quickgold.es/tiendas"
-              >
+              <a className={styles.serviciosTiendas} href="/tiendas">
                 Tiendas
               </a>
               {subMenuTienda ? (
@@ -72,32 +69,20 @@ const MenuMobil = ({ menuAbieto, menu_list }) => {
                   : `${styles.subServicios} `
               }
             >
-              <a href="https://quickgold.es/compro-oro" title="Ir a compro oro">
+              <a href="/compro-oro" title="Ir a compro oro">
                 COMPRO ORO
               </a>
-              <a
-                href="https://quickgold.es/cambio-divisas"
-                title="Ir a cambio de divisa"
-              >
+              <a href="/cambio-divisas" title="Ir a cambio de divisa">
                 CAMBIO DE DIVISAS
               </a>
-              <a
-                href="https://quickgold.es/empeno-de-joyas"
-                title="Ir a empeño de joyas"
-              >
+              <a href="s/empeno-de-joyas" title="Ir a empeño de joyas">
                 EMPEÑO DE JOYAS
               </a>
-              <a href="https://quickgold.es/compro-plata">COMPRA DE PLATA</a>
-              <a href="https://quickgold.es/joyeria-de-ocasion">
-                JOYERÍA OCASIÓN
-              </a>
-              <a href="https://quickgold.es/invertir-en-oro">
-                ORO DE INVERSIÓN
-              </a>
+              <a href="/compro-plata">COMPRA DE PLATA</a>
+              <a href="/joyeria-de-ocasion">JOYERÍA OCASIÓN</a>
+              <a href="/invertir-en-oro">ORO DE INVERSIÓN</a>
 
-              <a href="https://quickgold.es/vender-diamantes">
-                COMPRA DE DIAMANTES
-              </a>
+              <a href="/vender-diamantes">COMPRA DE DIAMANTES</a>
             </div>
 
             {/*<a
@@ -111,26 +96,17 @@ const MenuMobil = ({ menuAbieto, menu_list }) => {
           <div className={styles.menuInferiorMobil}>
             <ul>
               <li>
-                <a
-                  href="https://quickgold.es/expansion"
-                  title="ABRIR TIENDA QUICKGOLD"
-                >
+                <a href="/expansion" title="ABRIR TIENDA QUICKGOLD">
                   ABRIR TIENDA QUICKGOLD
                 </a>
               </li>
               <li>
-                <a
-                  href="https://quickgold.es/trabaja-con-nosotros"
-                  title="TRABAJA CON NOSOTROS"
-                >
+                <a href="/trabaja-con-nosotros" title="TRABAJA CON NOSOTROS">
                   TRABAJA CON NOSOTROS
                 </a>
               </li>
               <li>
-                <a
-                  href="https://quickgold.es/preguntas-frecuentes"
-                  title="PREGUNTA FRECUENTES"
-                >
+                <a href="/preguntas-frecuentes" title="PREGUNTA FRECUENTES">
                   PREGUNTA FRECUENTES
                 </a>
               </li>

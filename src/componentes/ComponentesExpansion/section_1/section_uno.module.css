@@ -1,0 +1,132 @@
+.contenedorSectionUnoMargen{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.contenedorSectionUno{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -2;
+    position: relative;
+    box-shadow: none;
+}
+.contenedorSectionUnoMargen h1{
+    color: #0F2D45;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family: 'Gotham Black';
+}
+.contenedorSectionUnoMargen p {
+    color: #0F2D45;
+    text-align: justify;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.linea {
+    position: relative;
+    display: inline-block;
+}
+
+.linea:before {
+    content: '';
+    width: 100%;
+    z-index: -1;
+    border-bottom: 7px solid #FBBE00;
+    position: absolute;
+    display: block;
+    height: 5px;
+    transform: translateY(50%);
+}
+
+.linea:before {
+    left: 2px;
+    top: calc(50% - 1px);
+}
+.polygonoExpansion{
+   display: none;
+}
+
+@media (min-width: 610px) {
+.contenedorSectionUnoMargen {
+        max-width: 1060px;
+        margin: 0 auto;
+    }
+
+    .contenedorSectionUno {
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(/assets/img/imagenManosExpansion.png);
+        background-position: center;
+        background-size: cover;
+        z-index: -2;
+        position: relative;
+        box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .contenedorSectionUnoMargen h1 {
+        color: #FFF;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 20px;
+        padding-right: 455px;
+        padding-left: 0;
+        text-align: left;
+        padding-top: 50px;
+        font-family: 'Gotham Black';
+    }
+
+    .contenedorSectionUnoMargen p {
+        color: #FFF;
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        padding-right: 530px;
+        padding-left: 0;
+    }
+
+    .linea {
+        position: relative;
+        display: inline-block;
+    }
+
+    .linea:before {
+        content: '';
+        width: 100%;
+        z-index: -1;
+        border-bottom: 7px solid #FBBE00;
+        position: absolute;
+        display: block;
+        height: 5px;
+        transform: translateY(150%);
+    }
+
+    .linea:before {
+        left: 2px;
+        top: calc(50% - 1px);
+    }
+
+    .polygonoExpansion {
+        position: absolute;
+        bottom: -180px;
+        display: block;
+        width: auto;
+        height: auto;
+    }
+}

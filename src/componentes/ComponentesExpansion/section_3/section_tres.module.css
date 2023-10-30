@@ -1,0 +1,30 @@
+.contenedorSectionTres{
+    max-width: 1060px;
+    margin: 0 auto 70px;
+}
+.contenedorSectionTresMargen {
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+}
+.mapaExpansion{
+    width: auto;
+    height: auto;
+}
+
+@media (min-width: 610px) {
+.contenedorSectionTres {
+        max-width: 1060px;
+        margin: 0 auto 90px;
+    }
+
+    .contenedorSectionTresMargen {
+        width: 100%;
+        height: auto;
+        border-radius: 14px;
+    }
+    .mapaExpansion {
+        width: auto;
+        height: auto;
+    }
+}

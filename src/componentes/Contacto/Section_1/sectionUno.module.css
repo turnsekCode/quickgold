@@ -1,0 +1,123 @@
+.contenedorBloqueSuperior{
+    padding: 40px 20px 0 20px;
+}
+.contenedorBloqueSuperior h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #0F2D45;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Gotham Black';
+}
+.contenedorBloqueSuperior p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #0F2D45;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.contenedorBloqueIntermedio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 0;
+}
+.cuadroIzq, .cuadroDer{
+    border-radius: 8px;
+    background: #FFF;
+    border: 1px solid #0F2D45;
+    width: 100%;
+    height: 162px;
+    padding: 20px 30px;
+    margin-bottom: 60px;
+}
+.cuadroIzq p:nth-child(1), .cuadroDer p:nth-child(1) {
+    color: #0F2D45;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+    font-family: 'Gotham Bold';
+}
+.cuadroIzq p:nth-child(2), .cuadroDer p:nth-child(2){
+    color: #0F2D45;
+    text-align: justify;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  
+}
+.cuadroIzq p a, .cuadroDer p a {
+    color: #E83C82;
+}
+@media (min-width: 610px) {
+.contenedorBloqueSuperior {
+        padding: 30px 230px;
+    }
+
+    .contenedorBloqueSuperior h1 {
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 25px;
+        color: #0F2D45;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .contenedorBloqueSuperior p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        color: #0F2D45;
+        text-align: center;
+    }
+
+    .contenedorBloqueIntermedio {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+        gap: 20px;
+    }
+
+    .cuadroIzq,
+    .cuadroDer {
+        border-radius: 8px;
+        background: #FFF;
+        border: 1px solid #0F2D45;
+        width: 510px;
+        height: 162px;
+        padding: 20px 30px;
+        margin-bottom: 60px;
+    }
+
+    .cuadroIzq p,
+    .cuadroDer p {
+        color: #0F2D45;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+
+    .cuadroIzq p:nth-child(2),
+    .cuadroDer p:nth-child(2) {
+        color: #0F2D45;
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .cuadroIzq p a,
+    .cuadroDer p a {
+        color: #E83C82;
+    }
+}
