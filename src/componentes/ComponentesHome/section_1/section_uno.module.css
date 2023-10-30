@@ -5,6 +5,7 @@
 .contenedorSectionUno{
     height: 70vh;
     display: flex;
+    margin-top: 0;
     align-items: flex-start;
     justify-content: center;
     background-image: url(/assets/img/imagenBackgroundHome.png);
@@ -44,8 +45,9 @@
         }
     
         .contenedorSectionUno {
-            height: 78vh;
+            height: 80vh;
             display: flex;
+            margin-top: 130px;
             align-items: center;
             justify-content: center;
             background-image: url(/assets/img/imagenBackgroundHome.png);

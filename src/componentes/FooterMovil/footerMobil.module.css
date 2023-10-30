@@ -86,7 +86,7 @@
     margin-top: 15px;
 }
 
-@media (min-width: 1191px) {
+@media (min-width: 610px) {
     .footer {
         display: none;
     }

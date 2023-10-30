@@ -556,7 +556,7 @@ exports.isAssetError = isAssetError;
 exports.getClientBuildManifest = getClientBuildManifest;
 exports.createRouteLoader = createRouteLoader;
 var _interop_require_default = (__webpack_require__(2648)/* ["default"] */ .Z);
-var _getAssetPathFromRoute = _interop_require_default(__webpack_require__(9565));
+var _getAssetPathFromRoute = _interop_require_default(__webpack_require__(4211));
 var _trustedTypes = __webpack_require__(5407);
 var _requestIdleCallback = __webpack_require__(4686);
 // 3.8s was arbitrarily chosen as it's what https://web.dev/interactive
