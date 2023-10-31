@@ -1044,7 +1044,7 @@ const Section_ocho = ()=>{
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "m": () => (/* binding */ sendContactForm)
 /* harmony export */ });
-const sendContactForm = async (data)=>fetch("https://web.quickgold.es/api/contact", {
+const sendContactForm = async (data)=>fetch("https://quickgold.es/api/contact", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {

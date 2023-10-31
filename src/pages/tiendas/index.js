@@ -190,7 +190,9 @@ const idValladolid = "valladolid";
 const idVigo = "vigo";
 const idZaragoza = "zaragoza";
 export async function getStaticProps() {
-  const Listado = await fetch(`https://quickgold.es/listadoCiudades.json`);
+  const Listado = await fetch(
+    `https://panel.quickgold.es/listadoCiudades.json`
+  );
   const ListadoCiudades = await Listado.json();
   const menu = await fetch(
     `https://panel.quickgold.es/wp-json/menus/v1/menus/2219`
@@ -198,115 +200,145 @@ export async function getStaticProps() {
   const menu_list = await menu.json();
   //datos de las tiendas en mapas
   const alcaladehenares_ = await fetch(
-    `https://quickgold.es/markers${idAlcladehenares}.json`
+    `https://panel.quickgold.es/markers${idAlcladehenares}.json`
   );
   const alcaladehenares = await alcaladehenares_.json();
   const alcobendas_ = await fetch(
-    `https://quickgold.es/markers${idAlcobendas}.json`
+    `https://panel.quickgold.es/markers${idAlcobendas}.json`
   );
   const alcobendas = await alcobendas_.json();
   const alcorcon_ = await fetch(
-    `https://quickgold.es/markers${idAlcorcon}.json`
+    `https://panel.quickgold.es/markers${idAlcorcon}.json`
   );
   const alcorcon = await alcorcon_.json();
   const alicante_ = await fetch(
-    `https://quickgold.es/markers${idAlicante}.json`
+    `https://panel.quickgold.es/markers${idAlicante}.json`
   );
   const alicante = await alicante_.json();
-  const almeria_ = await fetch(`https://quickgold.es/markers${idAlmeria}.json`);
+  const almeria_ = await fetch(
+    `https://panel.quickgold.es/markers${idAlmeria}.json`
+  );
   const almeria = await almeria_.json();
   const barcelona_ = await fetch(
-    `https://quickgold.es/markers${idBarcelona}.json`
+    `https://panel.quickgold.es/markers${idBarcelona}.json`
   );
   const barcelona = await barcelona_.json();
   const benidorm_ = await fetch(
-    `https://quickgold.es/markers${idBenidorm}.json`
+    `https://panel.quickgold.es/markers${idBenidorm}.json`
   );
   const benidorm = await benidorm_.json();
-  const bilbao_ = await fetch(`https://quickgold.es/markers${idBilbao}.json`);
+  const bilbao_ = await fetch(
+    `https://panel.quickgold.es/markers${idBilbao}.json`
+  );
   const bilbao = await bilbao_.json();
-  const cadiz_ = await fetch(`https://quickgold.es/markers${idCadiz}.json`);
+  const cadiz_ = await fetch(
+    `https://panel.quickgold.es/markers${idCadiz}.json`
+  );
   const cadiz = await cadiz_.json();
   const cartagena_ = await fetch(
-    `https://quickgold.es/markers${idCartagena}.json`
+    `https://panel.quickgold.es/markers${idCartagena}.json`
   );
   const cartagena = await cartagena_.json();
   const castellon_ = await fetch(
-    `https://quickgold.es/markers${idCastellon}.json`
+    `https://panel.quickgold.es/markers${idCastellon}.json`
   );
   const castellon = await castellon_.json();
-  const cordoba_ = await fetch(`https://quickgold.es/markers${idCordoba}.json`);
+  const cordoba_ = await fetch(
+    `https://panel.quickgold.es/markers${idCordoba}.json`
+  );
   const cordoba = await cordoba_.json();
-  const elche_ = await fetch(`https://quickgold.es/markers${idElche}.json`);
+  const elche_ = await fetch(
+    `https://panel.quickgold.es/markers${idElche}.json`
+  );
   const elche = await elche_.json();
-  const getafe_ = await fetch(`https://quickgold.es/markers${idGetafe}.json`);
+  const getafe_ = await fetch(
+    `https://panel.quickgold.es/markers${idGetafe}.json`
+  );
   const getafe = await getafe_.json();
-  const gijon_ = await fetch(`https://quickgold.es/markers${idGijon}.json`);
+  const gijon_ = await fetch(
+    `https://panel.quickgold.es/markers${idGijon}.json`
+  );
   const gijon = await gijon_.json();
-  const granada_ = await fetch(`https://quickgold.es/markers${idGranada}.json`);
+  const granada_ = await fetch(
+    `https://panel.quickgold.es/markers${idGranada}.json`
+  );
   const granada = await granada_.json();
   const lacoruna_ = await fetch(
-    `https://quickgold.es/markers${idLaCoruna}.json`
+    `https://panel.quickgold.es/markers${idLaCoruna}.json`
   );
   const lacoruna = await lacoruna_.json();
-  const leon_ = await fetch(`https://quickgold.es/markers${idLeon}.json`);
+  const leon_ = await fetch(`https://panel.quickgold.es/markers${idLeon}.json`);
   const leon = await leon_.json();
-  const logrono_ = await fetch(`https://quickgold.es/markers${idLogrono}.json`);
+  const logrono_ = await fetch(
+    `https://panel.quickgold.es/markers${idLogrono}.json`
+  );
   const logrono = await logrono_.json();
-  const madrid_ = await fetch(`https://quickgold.es/markers${idMadrid}.json`);
+  const madrid_ = await fetch(
+    `https://panel.quickgold.es/markers${idMadrid}.json`
+  );
   const madrid = await madrid_.json();
-  const malaga_ = await fetch(`https://quickgold.es/markers${idMalaga}.json`);
+  const malaga_ = await fetch(
+    `https://panel.quickgold.es/markers${idMalaga}.json`
+  );
   const malaga = await malaga_.json();
   const marbella_ = await fetch(
-    `https://quickgold.es/markers${idMarbella}.json`
+    `https://panel.quickgold.es/markers${idMarbella}.json`
   );
   const marbella = await marbella_.json();
-  const murcia_ = await fetch(`https://quickgold.es/markers${idMurcia}.json`);
+  const murcia_ = await fetch(
+    `https://panel.quickgold.es/markers${idMurcia}.json`
+  );
   const murcia = await murcia_.json();
-  const oviedo_ = await fetch(`https://quickgold.es/markers${idOviedo}.json`);
+  const oviedo_ = await fetch(
+    `https://panel.quickgold.es/markers${idOviedo}.json`
+  );
   const oviedo = await oviedo_.json();
-  const palma_ = await fetch(`https://quickgold.es/markers${idPalma}.json`);
+  const palma_ = await fetch(
+    `https://panel.quickgold.es/markers${idPalma}.json`
+  );
   const palma = await palma_.json();
   const roquetasdemar_ = await fetch(
-    `https://quickgold.es/markers${idRoquetasDeMar}.json`
+    `https://panel.quickgold.es/markers${idRoquetasDeMar}.json`
   );
   const roquetasdemar = await roquetasdemar_.json();
-  const reus_ = await fetch(`https://quickgold.es/markers${idReus}.json`);
+  const reus_ = await fetch(`https://panel.quickgold.es/markers${idReus}.json`);
   const reus = await reus_.json();
   const santacruz_ = await fetch(
-    `https://quickgold.es/markers${idSantaCruz}.json`
+    `https://panel.quickgold.es/markers${idSantaCruz}.json`
   );
   const santacruzdetenerife = await santacruz_.json();
   const santander_ = await fetch(
-    `https://quickgold.es/markers${idSantander}.json`
+    `https://panel.quickgold.es/markers${idSantander}.json`
   );
   const santander = await santander_.json();
   const santiago_ = await fetch(
-    `https://quickgold.es/markers${idSantiago}.json`
+    `https://panel.quickgold.es/markers${idSantiago}.json`
   );
   const santiagodecompostela = await santiago_.json();
-  const sevilla_ = await fetch(`https://quickgold.es/markers${idSevilla}.json`);
+  const sevilla_ = await fetch(
+    `https://panel.quickgold.es/markers${idSevilla}.json`
+  );
   const sevilla = await sevilla_.json();
   const tarragona_ = await fetch(
-    `https://quickgold.es/markers${idTarragona}.json`
+    `https://panel.quickgold.es/markers${idTarragona}.json`
   );
   const tarragona = await tarragona_.json();
   const tenerife_ = await fetch(
-    `https://quickgold.es/markers${idTenerife}.json`
+    `https://panel.quickgold.es/markers${idTenerife}.json`
   );
   const tenerife = await tenerife_.json();
   const valencia_ = await fetch(
-    `https://quickgold.es/markers${idValencia}.json`
+    `https://panel.quickgold.es/markers${idValencia}.json`
   );
   const valencia = await valencia_.json();
   const valladolid_ = await fetch(
-    `https://quickgold.es/markers${idValladolid}.json`
+    `https://panel.quickgold.es/markers${idValladolid}.json`
   );
   const valladolid = await valladolid_.json();
-  const vigo_ = await fetch(`https://quickgold.es/markers${idVigo}.json`);
+  const vigo_ = await fetch(`https://panel.quickgold.es/markers${idVigo}.json`);
   const vigo = await vigo_.json();
   const zaragoza_ = await fetch(
-    `https://quickgold.es/markers${idZaragoza}.json`
+    `https://panel.quickgold.es/markers${idZaragoza}.json`
   );
   const zaragoza = await zaragoza_.json();
   // Pass data to the page via props
