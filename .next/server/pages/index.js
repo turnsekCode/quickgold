@@ -14,9 +14,8 @@ module.exports = {
 	"bloqueInferiorCard": "section_dos_bloqueInferiorCard__Of_DA",
 	"bloqueSuperior": "section_dos_bloqueSuperior__qTrTJ",
 	"bloqueInferiorTexto": "section_dos_bloqueInferiorTexto__MeDpQ",
-	"bloqueServicios": "section_dos_bloqueServicios__1mf5d",
-	"cardServicio": "section_dos_cardServicio__XgPOU",
-	"bloqueInferiorImagen": "section_dos_bloqueInferiorImagen__DIo5c"
+	"bloqueInferiorImagen": "section_dos_bloqueInferiorImagen__DIo5c",
+	"imagenHome": "section_dos_imagenHome__zr5rT"
 };
 
 
@@ -46,7 +45,19 @@ module.exports = {
 
 /***/ }),
 
-/***/ 7279:
+/***/ 8869:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"contenedorSelect": "selectCiudadHome_contenedorSelect__rlHsj",
+	"select": "selectCiudadHome_select__mJNsy"
+};
+
+
+/***/ }),
+
+/***/ 5589:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -113,13 +124,51 @@ var section_dos_module_default = /*#__PURE__*/__webpack_require__.n(section_dos_
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__(1664);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
+// EXTERNAL MODULE: ./src/componentes/SelectCiudadHome/selectCiudadHome.module.css
+var selectCiudadHome_module = __webpack_require__(8869);
+var selectCiudadHome_module_default = /*#__PURE__*/__webpack_require__.n(selectCiudadHome_module);
+// EXTERNAL MODULE: external "next/router"
+var router_ = __webpack_require__(1853);
+;// CONCATENATED MODULE: ./src/componentes/SelectCiudadHome/SelectCiudadHome.js
+
+
+
+
+const SelectCiudadHome = ({ listadoUrlCiudad  })=>{
+    const listadoCiudades = listadoUrlCiudad?.arrayMarker;
+    const router = (0,router_.useRouter)();
+    function IrUrl(e) {
+        router.push(`/tiendas/compro-oro-${e}`);
+    }
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        className: (selectCiudadHome_module_default()).contenedorSelect,
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("select", {
+            onChange: (e)=>{
+                IrUrl(e.target.value);
+            },
+            className: (selectCiudadHome_module_default()).select,
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx("option", {
+                    children: "Selecciona Ciudad"
+                }),
+                listadoCiudades?.filter((url)=>url.id !== 0).map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("option", {
+                        value: ciudad.nombreMinusculas,
+                        children: ciudad.nombre
+                    }, i))
+            ]
+        })
+    });
+};
+/* harmony default export */ const SelectCiudadHome_SelectCiudadHome = (SelectCiudadHome);
+
 ;// CONCATENATED MODULE: ./src/componentes/ComponentesHome/Section_2/Section_dos.js
 
 
 
 
 
-const Section_dos = ()=>{
+
+const Section_dos = ({ listadoUrlCiudad  })=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         className: (section_dos_module_default()).contenedorSectionTres,
         children: [
@@ -135,18 +184,23 @@ const Section_dos = ()=>{
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: (section_dos_module_default()).bloqueInferiorCard,
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: (section_dos_module_default()).bloqueInferiorImagen,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                    href: "/compro-oro",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        src: "/assets/img/imagenSectionDosHome1.png",
-                                        alt: "VENDER ORO",
-                                        className: (section_dos_module_default()).imagenHome,
-                                        width: 257,
-                                        height: 257
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "/compro-oro",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: "/assets/img/imagenComproOroHome.png",
+                                            alt: "COMPRA DE ORO",
+                                            className: (section_dos_module_default()).imagenHome,
+                                            width: 257,
+                                            height: 257
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(SelectCiudadHome_SelectCiudadHome, {
+                                        listadoUrlCiudad: listadoUrlCiudad
                                     })
-                                })
+                                ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: (section_dos_module_default()).bloqueInferiorTexto,
@@ -155,7 +209,7 @@ const Section_dos = ()=>{
                                         href: "/compro-oro",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                             children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                                children: "VENDER ORO"
+                                                children: "COMPRA DE ORO"
                                             })
                                         })
                                     }),
@@ -169,18 +223,23 @@ const Section_dos = ()=>{
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: (section_dos_module_default()).bloqueInferiorCard,
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: (section_dos_module_default()).bloqueInferiorImagen,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                    href: "/empeno-de-joyas",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        src: "/assets/img/imagenSectionDosHome2.png",
-                                        alt: "EMPE\xd1AR JOYAS ",
-                                        className: (section_dos_module_default()).imagenHome,
-                                        width: 257,
-                                        height: 257
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "/empeno-de-joyas",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: "/assets/img/imagenEmpenoJoyasHome.png",
+                                            alt: "EMPE\xd1O DE JOYAS",
+                                            className: (section_dos_module_default()).imagenHome,
+                                            width: 257,
+                                            height: 257
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(SelectCiudadHome_SelectCiudadHome, {
+                                        listadoUrlCiudad: listadoUrlCiudad
                                     })
-                                })
+                                ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: (section_dos_module_default()).bloqueInferiorTexto,
@@ -189,7 +248,7 @@ const Section_dos = ()=>{
                                         href: "/empeno-de-joyas",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                             children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                                children: "EMPE\xd1AR JOYAS"
+                                                children: "EMPE\xd1O DE JOYAS"
                                             })
                                         })
                                     }),
@@ -203,18 +262,23 @@ const Section_dos = ()=>{
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: (section_dos_module_default()).bloqueInferiorCard,
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: (section_dos_module_default()).bloqueInferiorImagen,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                    href: "/cambio-divisas",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        src: "/assets/img/imagenSectionDosHome3.png",
-                                        alt: "CAMBIAR DIVISA",
-                                        className: (section_dos_module_default()).imagenHome,
-                                        width: 257,
-                                        height: 257
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "/cambio-divisas",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: "/assets/img/imagenDivisaHome.png",
+                                            alt: "CAMBIO DIVISAS ",
+                                            className: (section_dos_module_default()).imagenHome,
+                                            width: 257,
+                                            height: 257
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(SelectCiudadHome_SelectCiudadHome, {
+                                        listadoUrlCiudad: listadoUrlCiudad
                                     })
-                                })
+                                ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: (section_dos_module_default()).bloqueInferiorTexto,
@@ -223,7 +287,7 @@ const Section_dos = ()=>{
                                         href: "/cambio-divisas",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                             children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                                children: "CAMBIAR DIVISA"
+                                                children: "CAMBIO DIVISAS"
                                             })
                                         })
                                     }),
@@ -233,83 +297,108 @@ const Section_dos = ()=>{
                                 ]
                             })
                         ]
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (section_dos_module_default()).bloqueServicios,
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: (section_dos_module_default()).cardServicio,
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
-                            href: "/compro-plata",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenSectionDosHome4.png",
-                                    alt: "COMPRA DE PLATA",
-                                    className: (section_dos_module_default()).imagenHome,
-                                    width: 257,
-                                    height: 257
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "COMPRA DE PLATA"
-                                })
-                            ]
-                        })
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: (section_dos_module_default()).cardServicio,
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
-                            href: "/joyeria-de-ocasion",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenSectionDosHome5.png",
-                                    alt: "JOYER\xcdA DE OCASI\xd3N",
-                                    className: (section_dos_module_default()).imagenHome,
-                                    width: 257,
-                                    height: 257
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "JOYER\xcdA DE OCASI\xd3N"
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (section_dos_module_default()).bloqueInferiorCard,
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: (section_dos_module_default()).bloqueInferiorImagen,
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "/compro-plata",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: "/assets/img/imagenComproPlataHome.png",
+                                            alt: "COMPRA DE PLATA ",
+                                            className: (section_dos_module_default()).imagenHome,
+                                            width: 257,
+                                            height: 257
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(SelectCiudadHome_SelectCiudadHome, {
+                                        listadoUrlCiudad: listadoUrlCiudad
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (section_dos_module_default()).bloqueInferiorTexto,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                    href: "/compro-plata",
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                            children: "COMPRA DE PLATA"
+                                        })
+                                    })
                                 })
-                            ]
-                        })
+                            })
+                        ]
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: (section_dos_module_default()).cardServicio,
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
-                            href: "/invertir-en-oro",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenSectionDosHome6.png",
-                                    alt: "ORO DE INVERSI\xd3N ",
-                                    className: (section_dos_module_default()).imagenHome,
-                                    width: 257,
-                                    height: 257
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "ORO DE INVERSI\xd3N"
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (section_dos_module_default()).bloqueInferiorCard,
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: (section_dos_module_default()).bloqueInferiorImagen,
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "/joyeria-de-ocasion",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: "/assets/img/imagenJoyeriaHome.png",
+                                            alt: "VENTA DE JOYER\xcdA ",
+                                            className: (section_dos_module_default()).imagenHome,
+                                            width: 257,
+                                            height: 257
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(SelectCiudadHome_SelectCiudadHome, {
+                                        listadoUrlCiudad: listadoUrlCiudad
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (section_dos_module_default()).bloqueInferiorTexto,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                    href: "/empeno-de-joyas",
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                            children: "VENTA DE JOYER\xcdA"
+                                        })
+                                    })
                                 })
-                            ]
-                        })
+                            })
+                        ]
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: (section_dos_module_default()).cardServicio,
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
-                            href: "/vender-diamantes",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenSectionDosHome7.png",
-                                    alt: "COMPRA DE DIAMANTES",
-                                    className: (section_dos_module_default()).imagenHome,
-                                    width: 257,
-                                    height: 257
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "COMPRA DE DIAMANTES"
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (section_dos_module_default()).bloqueInferiorCard,
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: (section_dos_module_default()).bloqueInferiorImagen,
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "/invertir-en-oro",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: "/assets/img/imagenInversionHome.png",
+                                            alt: "ORO DE INVERSI\xd3N",
+                                            className: (section_dos_module_default()).imagenHome,
+                                            width: 257,
+                                            height: 257
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(SelectCiudadHome_SelectCiudadHome, {
+                                        listadoUrlCiudad: listadoUrlCiudad
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (section_dos_module_default()).bloqueInferiorTexto,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                    href: "/invertir-en-oro",
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                            children: "ORO DE INVERSI\xd3N"
+                                        })
+                                    })
                                 })
-                            ]
-                        })
+                            })
+                        ]
                     })
                 ]
             })
@@ -360,7 +449,7 @@ const Section_tres = ()=>{
 
 
 //import { ChakraProvider } from "@chakra-ui/react";
-function Home({ menu_list , ciudad , general  }) {
+function Home({ menu_list , ciudad , general , listadoUrlCiudad  }) {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx((next_seo_default()), {
@@ -398,7 +487,9 @@ function Home({ menu_list , ciudad , general  }) {
                         className: (Home_module_default()).main
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx(section_1_Section_uno, {}),
-                    /*#__PURE__*/ jsx_runtime_.jsx(Section_2_Section_dos, {}),
+                    /*#__PURE__*/ jsx_runtime_.jsx(Section_2_Section_dos, {
+                        listadoUrlCiudad: listadoUrlCiudad
+                    }),
                     /*#__PURE__*/ jsx_runtime_.jsx(section_3_Section_tres, {})
                 ]
             })
@@ -417,11 +508,14 @@ async function getStaticProps() {
     const general = await res.json();
     const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
     const menu_list = await menu.json();
+    const Listado = await fetch(`https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`);
+    const listadoUrlCiudad = await Listado.json();
     return {
         props: {
             menu_list,
             ciudad,
-            general
+            general,
+            listadoUrlCiudad
         },
         revalidate: 1
     };
@@ -806,6 +900,14 @@ module.exports = require("next/head");
 
 /***/ }),
 
+/***/ 1853:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/router");
+
+/***/ }),
+
 /***/ 6689:
 /***/ ((module) => {
 
@@ -845,7 +947,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,5799], () => (__webpack_exec__(7279)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,5799], () => (__webpack_exec__(5589)));
 module.exports = __webpack_exports__;
 
 })();

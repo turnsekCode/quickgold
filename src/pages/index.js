@@ -10,7 +10,7 @@ import Section_tres from "@/componentes/ComponentesHome/section_3/Section_tres";
 
 //import { ChakraProvider } from "@chakra-ui/react";
 
-export default function Home({ menu_list, ciudad, general }) {
+export default function Home({ menu_list, ciudad, general, listadoUrlCiudad }) {
   return (
     <>
       <SEO
@@ -43,7 +43,7 @@ export default function Home({ menu_list, ciudad, general }) {
       />*/}
         </div>
         <Section_uno />
-        <Section_dos />
+        <Section_dos listadoUrlCiudad={listadoUrlCiudad} />
         <Section_tres />
       </Layout>
     </>
@@ -69,12 +69,17 @@ export async function getStaticProps() {
     `https://panel.quickgold.es/wp-json/menus/v1/menus/2219`
   );
   const menu_list = await menu.json();
+  const Listado = await fetch(
+    `https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`
+  );
+  const listadoUrlCiudad = await Listado.json();
 
   return {
     props: {
       menu_list,
       ciudad,
       general,
+      listadoUrlCiudad,
     },
     revalidate: 1,
   };

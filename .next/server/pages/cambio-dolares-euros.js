@@ -129,7 +129,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 6369:
+/***/ 3780:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -157,8 +157,8 @@ var external_react_ = __webpack_require__(6689);
 // EXTERNAL MODULE: ./src/componentes/ComponentesDolarEuro/Section_1/section_uno.module.css
 var section_uno_module = __webpack_require__(1770);
 var section_uno_module_default = /*#__PURE__*/__webpack_require__.n(section_uno_module);
-;// CONCATENATED MODULE: external "@mui/icons-material/LocationOnOutlined"
-const LocationOnOutlined_namespaceObject = require("@mui/icons-material/LocationOnOutlined");
+// EXTERNAL MODULE: external "@mui/icons-material/LocationOnOutlined"
+var LocationOnOutlined_ = __webpack_require__(3804);
 // EXTERNAL MODULE: external "react-scroll"
 var external_react_scroll_ = __webpack_require__(3094);
 // EXTERNAL MODULE: ./src/utilities/useScreenSize.js
@@ -228,12 +228,12 @@ var estilosConversor_module_default = /*#__PURE__*/__webpack_require__.n(estilos
 // EXTERNAL MODULE: external "@mui/icons-material/KeyboardArrowDown"
 var KeyboardArrowDown_ = __webpack_require__(4845);
 var KeyboardArrowDown_default = /*#__PURE__*/__webpack_require__.n(KeyboardArrowDown_);
-;// CONCATENATED MODULE: external "@mui/icons-material/PowerInput"
-const PowerInput_namespaceObject = require("@mui/icons-material/PowerInput");
-var PowerInput_default = /*#__PURE__*/__webpack_require__.n(PowerInput_namespaceObject);
-;// CONCATENATED MODULE: external "@mui/icons-material/ImportExport"
-const ImportExport_namespaceObject = require("@mui/icons-material/ImportExport");
-var ImportExport_default = /*#__PURE__*/__webpack_require__.n(ImportExport_namespaceObject);
+// EXTERNAL MODULE: external "@mui/icons-material/PowerInput"
+var PowerInput_ = __webpack_require__(8711);
+var PowerInput_default = /*#__PURE__*/__webpack_require__.n(PowerInput_);
+// EXTERNAL MODULE: external "@mui/icons-material/ImportExport"
+var ImportExport_ = __webpack_require__(5579);
+var ImportExport_default = /*#__PURE__*/__webpack_require__.n(ImportExport_);
 ;// CONCATENATED MODULE: ./src/componentes/ComponentesDolarEuro/Section_3/ConversorDivisa/Comprar.js
 
 
@@ -1034,6 +1034,14 @@ module.exports = require("@mui/icons-material/Facebook");
 
 /***/ }),
 
+/***/ 5579:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("@mui/icons-material/ImportExport");
+
+/***/ }),
+
 /***/ 3281:
 /***/ ((module) => {
 
@@ -1066,6 +1074,14 @@ module.exports = require("@mui/icons-material/LinkedIn");
 
 /***/ }),
 
+/***/ 3804:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("@mui/icons-material/LocationOnOutlined");
+
+/***/ }),
+
 /***/ 2906:
 /***/ ((module) => {
 
@@ -1079,6 +1095,14 @@ module.exports = require("@mui/icons-material/Lock");
 
 "use strict";
 module.exports = require("@mui/icons-material/Menu");
+
+/***/ }),
+
+/***/ 8711:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("@mui/icons-material/PowerInput");
 
 /***/ }),
 
@@ -1225,7 +1249,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,5799,5709], () => (__webpack_exec__(6369)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,5799,5709], () => (__webpack_exec__(3780)));
 module.exports = __webpack_exports__;
 
 })();
