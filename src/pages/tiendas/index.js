@@ -16,8 +16,8 @@ const schema = {
     "https://twitter.com/quickgoldqg",
     "https://www.facebook.com/quickgold.es",
   ],
-  logo: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
-  image: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
+  logo: "/assets/img/logo.jpg",
+  image: "/assets/img/logo.jpg",
   description:
     "Buscador de tiendas Quickgold. Encuentra tu tienda compro oro e infórmate de todos los servicios que se prestan en ella. Ubicación, teléfono, horarios y más",
   address: {

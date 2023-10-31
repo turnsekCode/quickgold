@@ -296,9 +296,15 @@ const SelectCiudad = ({ listadoCiudades , urlSelect , setUrlSelect , ciudad  })=
                         className: (selecCiudad_module_default()).bloqueInferiorTexto1,
                         children: "\xbfTe gustar\xeda comprar o vender divisa?"
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                         className: (selecCiudad_module_default()).bloqueInferiorTexto2,
-                        children: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+                        children: [
+                            "Realiza en ",
+                            /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                children: "quickgold"
+                            }),
+                            " tu cambio de moneda extranjera sin comisiones para siempre. M\xe1s de 25 divisas disponibles al instante para que puedas fijar tu precio de cambio. Consulta la cotizaci\xf3n de la moneda que quieras con nuestro conversor online."
+                        ]
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                         className: (selecCiudad_module_default()).bloqueInferiorTexto3,

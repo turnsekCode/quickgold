@@ -16,7 +16,7 @@
 .subTituloServicio{
     font-weight: 100;
     font-size: 13px;
-    line-height: 12px;
+    line-height: 15px;
     color: #FFFFFF;
 }
 .contenedorTituloServicio{
@@ -38,6 +38,9 @@
     border-bottom: 2px solid #fff;
     padding: 15px 0!important;
 }
+.textoMenos {
+    font-family: 'Gotham Thin';
+}
 @media (min-width: 610px) {
     .contenedorAccordion {
             border-radius: 12px;
@@ -58,7 +61,7 @@
         .subTituloServicio {
             font-weight: 100;
             font-size: 13px;
-            line-height: 12px;
+            line-height: 15px;
             color: #FFFFFF;
         }
     
@@ -79,5 +82,8 @@
             border-bottom: 2px solid #fff;
             padding: 15px 0!important;
             height: auto;
+        }
+        .textoMenos {
+            font-family: 'Gotham Thin';
         }
 }

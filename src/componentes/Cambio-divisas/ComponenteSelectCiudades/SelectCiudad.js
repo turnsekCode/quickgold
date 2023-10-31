@@ -16,9 +16,10 @@ const SelectCiudad = ({ listadoCiudades, urlSelect, setUrlSelect, ciudad }) => {
           ¿Te gustaría comprar o vender divisa?
         </p>
         <p className={styles.bloqueInferiorTexto2}>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus.
+          Realiza en <strong>quickgold</strong> tu cambio de moneda extranjera
+          sin comisiones para siempre. Más de 25 divisas disponibles al instante
+          para que puedas fijar tu precio de cambio. Consulta la cotización de
+          la moneda que quieras con nuestro conversor online.
         </p>
         <p className={styles.bloqueInferiorTexto3}>
           Selecciona tu ciudad y haz clic en{" "}

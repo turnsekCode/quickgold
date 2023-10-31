@@ -16,11 +16,11 @@ const Breadcrumbs = ({
   return (
     <div className={styles.sectionBreadcrumbs}>
       <div className={styles.contenedorBreadcrumbs}>
-        <a href="https://quickgold.es" title={`Ir a ${raiz}`}>
+        <a href="/" title={`Ir a ${raiz}`}>
           {raiz}
         </a>
         {iconoRaiz}
-        <a href="https://quickgold.es/tiendas" title={`Ir a ${tiendas}`}>
+        <a href="/tiendas" title={`Ir a ${tiendas}`}>
           {tiendas}
         </a>
         {iconoTiendas}

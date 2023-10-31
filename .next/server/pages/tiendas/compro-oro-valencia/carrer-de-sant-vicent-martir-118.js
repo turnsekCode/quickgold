@@ -94,8 +94,8 @@ function PlazaEspana({ menu_list , ciudad , tiendaGoogle , general  }) {
             "https://twitter.com/quickgoldqg",
             "https://www.facebook.com/quickgold.es"
         ],
-        logo: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
-        image: "https://quickgold.es/wp-content/uploads/img/logo.jpg"
+        logo: "/assets/img/logo.jpg",
+        image: "/assets/img/logo.jpg"
     };
     const schema_resenas = {
         "@context": "http://schema.org",

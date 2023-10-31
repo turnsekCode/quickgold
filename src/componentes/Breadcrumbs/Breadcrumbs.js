@@ -6,7 +6,7 @@ const Breadcrumbs = () => {
   return (
     <div className={styles.sectionBreadcrumbs}>
       <div className={styles.contenedorBreadcrumbs}>
-        <a href="https://quickgold.es" title="Ir a Quickgold">
+        <a href="/" title="Ir a Quickgold">
           Quickgold
         </a>
         <KeyboardArrowRightIcon />

@@ -7,11 +7,13 @@ import styles from "./seccionUno.module.css";
 const SeccionUno = ({ ciudad }) => {
   //const [toggler, setToggler] = useState(false);
   return (
-    <article className={styles.contenedorSeccionUno}>
+    <header className={styles.contenedorSeccionUno}>
       <div className={styles.bloqueDer}>
         <h1>
-          {ciudad?.acf?.titulo_del_h1}
+          {/*ciudad?.acf?.titulo_del_h1*/}
           {/*<span className={styles.linea}>{ciudad?.acf?.ciudad_landing}</span>*/}
+          Tiendas Quickgold en {ciudad?.acf?.ciudad_landing}<br/>
+          <span className={styles.textoMenos}>Compro oro. Cambio de divisa. Empeñar oro.</span>
         </h1>
       </div>
       {/*<FsLightbox
@@ -22,7 +24,7 @@ const SeccionUno = ({ ciudad }) => {
           ciudad?.acf?.foto_3,
         ]}
       />*/}
-    </article>
+    </header>
   );
 };
 

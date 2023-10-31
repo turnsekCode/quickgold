@@ -126,7 +126,7 @@ const Breadcrumbs = ()=>{
                 className: (breadcrumbs_module_default()).contenedorBreadcrumbs,
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                        href: "https://quickgold.es",
+                        href: "/",
                         title: "Ir a Quickgold",
                         children: "Quickgold"
                     }),
@@ -8900,8 +8900,8 @@ const schema = {
         "https://twitter.com/quickgoldqg",
         "https://www.facebook.com/quickgold.es"
     ],
-    logo: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
-    image: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
+    logo: "/assets/img/logo.jpg",
+    image: "/assets/img/logo.jpg",
     description: "Buscador de tiendas Quickgold. Encuentra tu tienda compro oro e inf\xf3rmate de todos los servicios que se prestan en ella. Ubicaci\xf3n, tel\xe9fono, horarios y m\xe1s",
     address: {
         "@type": "PostalAddress",

@@ -284,7 +284,10 @@
             font-weight: 400;
             line-height: normal;
         }
-    
+        .bloqueInferior {
+            width: 342px;
+            margin: 0 auto;
+        }
         .bloqueIzqInferior {
             border-radius: 8px;
             background: #0F2D45;

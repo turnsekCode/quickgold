@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./seccionUno.module.css";
-import Image from "next/image";
 //import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 //import Image from "next/image";
 //import FsLightbox from "fslightbox-react";
@@ -43,7 +42,7 @@ const SeccionUno = ({ ciudad, tiendaGoogle }) => {
       <section className={styles.bloqueIzq}>
         <div className={styles.bloqueResenas}>
           <div className={styles.contenedorLogoGoogle}>
-            <Image
+            <img
               src="/assets/img/GOOGLE.png"
               width={29}
               height={30}

@@ -150,9 +150,9 @@ const CalculadoraOro = ({ ciudad }) => {
               }}
             >
               <option value={0}>---</option>
-              <option value={precio999}>999</option>
-              <option value={precio925}>925</option>
               <option value={precio800}>800</option>
+              <option value={precio925}>925</option>
+              <option value={precio999}>999</option>
             </select>
           </div>
           <div className={styles.input}>
@@ -160,8 +160,6 @@ const CalculadoraOro = ({ ciudad }) => {
             <input
               type="number"
               placeholder="Cantidad"
-              pattern="[0-9]*"
-              inputMode="numeric"
               onChange={(event) => setValorInput(event.target.value)}
             />
             <span>g</span>
@@ -183,10 +181,11 @@ const CalculadoraOro = ({ ciudad }) => {
       </div>
       <p className={styles.promocion}>Promoción Online</p>
       <a
+       title={`Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`}
         className={styles.botonLlamarTienda}
         href={`tel:${ciudad?.acf?.telefono}`}
       >
-        LLAMAR A LA TIENDA
+        LLAMA GRATIS
       </a>
     </div>
   );

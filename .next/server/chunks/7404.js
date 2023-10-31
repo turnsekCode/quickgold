@@ -9,7 +9,8 @@ exports.modules = {
 module.exports = {
 	"contenedorSeccionUno": "seccionUno_contenedorSeccionUno__MtPgj",
 	"bloqueDer": "seccionUno_bloqueDer__csCt7",
-	"linea": "seccionUno_linea__sKg3N"
+	"linea": "seccionUno_linea__sKg3N",
+	"textoMenos": "seccionUno_textoMenos__mLuez"
 };
 
 
@@ -47,12 +48,20 @@ module.exports = {
 //import FsLightbox from "fslightbox-react";
 const SeccionUno = ({ ciudad  })=>{
     //const [toggler, setToggler] = useState(false);
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("article", {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("header", {
         className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorSeccionUno),
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
             className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().bloqueDer),
-            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                children: ciudad?.acf?.titulo_del_h1
+            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h1", {
+                children: [
+                    "Tiendas Quickgold en ",
+                    ciudad?.acf?.ciudad_landing,
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                        className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().textoMenos),
+                        children: "Compro oro. Cambio de divisa. Empe\xf1ar oro."
+                    })
+                ]
             })
         })
     });

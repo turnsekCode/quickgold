@@ -875,8 +875,8 @@ const schema = {
         "https://twitter.com/quickgoldqg",
         "https://www.facebook.com/quickgold.es"
     ],
-    logo: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
-    image: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
+    logo: "/assets/img/logo.jpg",
+    image: "/assets/img/logo.jpg",
     description: "Cambia d\xf3lares por euros en nuestras oficinas de cambio de divisas Quickgold. Precio del d\xf3lar siempre actualizado y el mejor tipo de cambio de tu ciudad.",
     address: {
         "@type": "PostalAddress",

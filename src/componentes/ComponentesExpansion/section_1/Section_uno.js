@@ -10,20 +10,15 @@ const Section_uno = () => {
           Franquicias <span className={styles.linea}>quickgold</span>
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit ullamcorper
-          luctus pharetra, cubilia sollicitudin sagittis interdum consequat a
-          nisi volutpat rutrum lobortis risus, cum hendrerit curabitur duis
-          ultricies tortor libero suspendisse netus. Per condimentum dui rutrum
-          nisi quam praesent molestie suspendisse, id turpis ullamcorper
-          vehicula fusce cum purus nibh iaculis, etiam nam consequat eu
-          pellentesque interdum class. Commodo a gravida lacus maecenas cras
-          imperdiet faucibus eros conubia dui egestas, pharetra ac parturient
-          nec platea ultrices pellentesque sociosqu euismod potenti.
+          En <strong>quickgold</strong> queremos seguir creciendo contigo, y
+          para ello contamos con las mejores condiciones para que puedas
+          emprender. Si siempre has querido tener tu propio negocio y compartes
+          nuestros mismos valores recibe, a continuación, toda la información.
         </p>
       </div>
       <Image
         src="/assets/img/PolygonExpansion.png"
-        alt="Compro oro"
+        alt="Expansion"
         className={styles.polygonoExpansion}
         width={300}
         height={300}

@@ -86,14 +86,8 @@ export default function SantaCruzDeTenerife({
         <div itemScope itemType="http://schema.org/Organization">
           <meta itemProp="name" content="Quickgold" />
           <meta itemProp="url" content="https://quickgold.es" />
-          <meta
-            itemProp="logo"
-            content="https://quickgold.es/wp-content/uploads/img/logo.jpg"
-          />
-          <meta
-            itemProp="image"
-            content="https://quickgold.es/wp-content/uploads/img/logo.jpg"
-          />
+          <meta itemProp="logo" content="/assets/img/logo.jpg" />
+          <meta itemProp="image" content="/assets/img/logo.jpg" />
           <meta itemProp="telephone" content="+34 900 373 629" />
           <meta itemProp="email" content="info@quickgold.es" />
           <meta

@@ -12,7 +12,7 @@ const SeccionTres = ({ tiendaGoogle, ciudad }) => {
   const diaSabadoReemplazo = diaSabado?.replace("sábado:", "");
   const diaDomingoReemplazo = diaDomingo?.replace("domingo:", "");
   return (
-    <article className={styles.contenedorSeccionTres}>
+    <aside className={styles.contenedorSeccionTres}>
       <section className={styles.contenedorInfoTienda}>
         <div className={styles.bloqueIzqInfoTienda}>
           <p className={styles.bloqueIzqTitulo}>Contacto</p>
@@ -21,14 +21,14 @@ const SeccionTres = ({ tiendaGoogle, ciudad }) => {
           </p>
 
           <div className={styles.iconosTelefono}>
-            <a aria-label="Llamar a fijo" href={`tel:${ciudad?.acf?.telefono}`}>
+            <a title={`Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`} href={`tel:${ciudad?.acf?.telefono}`}>
               <span className={styles.bloqueIzqTel}>
                 {ciudad?.acf?.telefono}
               </span>
             </a>
             <div className={styles.contenedorIconos}>
               <a
-                aria-label="Llamar a fijo"
+                title={`Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`}
                 className={styles.telefonoIcon}
                 href={`tel:${ciudad?.acf?.telefono}`}
               >
@@ -36,7 +36,7 @@ const SeccionTres = ({ tiendaGoogle, ciudad }) => {
                 <span className={styles.bloqueIzqTel}></span>
               </a>
               <a
-                aria-label="Llamar a whatsapp"
+                title="Escribir WhatsApp"
                 className={styles.WhatsAppIcon}
                 target="_blank"
                 href={`https://wa.me/${(ciudad?.acf?.mobile).replace(
@@ -75,7 +75,7 @@ const SeccionTres = ({ tiendaGoogle, ciudad }) => {
       <section className={styles.contenedorResenasGoogle}>
         <ResenasGoogle tiendaGoogle={tiendaGoogle} ciudad={ciudad} />
       </section>
-    </article>
+    </aside>
   );
 };
 

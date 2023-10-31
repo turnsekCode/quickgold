@@ -373,7 +373,7 @@ const SelectCiudad = ({ listadoCiudades , urlSelect , setUrlSelect , ciudad  })=
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                            children: "Compra de oro"
+                            children: "Precio del oro"
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("p", {
                             children: "\xbfCu\xe1nto cuesta ahora el oro?"
@@ -388,9 +388,15 @@ const SelectCiudad = ({ listadoCiudades , urlSelect , setUrlSelect , ciudad  })=
                         className: (selecCiudad_module_default()).bloqueInferiorTexto1,
                         children: "\xbfTe gustar\xeda conocer el precio del oro?"
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                         className: (selecCiudad_module_default()).bloqueInferiorTexto2,
-                        children: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+                        children: [
+                            "En ",
+                            /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                children: "quickgold"
+                            }),
+                            " encontrar\xe1s nuestro principal servicio de Compro Oro, con el que tasamos todas las piezas a la vista para garantizarte una operaci\xf3n segura y un precio justo para todo el oro que quieras vender. No importa si est\xe1n desemparejadas o rotas."
+                        ]
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                         className: (selecCiudad_module_default()).bloqueInferiorTexto3,
@@ -745,8 +751,8 @@ const schema = {
         "https://twitter.com/quickgoldqg",
         "https://www.facebook.com/quickgold.es"
     ],
-    logo: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
-    image: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
+    logo: "/assets/img/logo.jpg",
+    image: "/assets/img/logo.jpg",
     description: "Quickgold es tu tienda compro oro de confianza. Obt\xe9n dinero extra por las joyas de oro que ya no quieras. Tasaci\xf3n transparente y segura.",
     address: {
         "@type": "PostalAddress",

@@ -20,8 +20,8 @@ const schema = {
     "https://twitter.com/quickgoldqg",
     "https://www.facebook.com/quickgold.es",
   ],
-  logo: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
-  image: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
+  logo: "/assets/img/logo.jpg",
+  image: "/assets/img/logo.jpg",
   description:
     "Quickgold es tu tienda compro oro de confianza. Obtén dinero extra por las joyas de oro que ya no quieras. Tasación transparente y segura.",
   address: {

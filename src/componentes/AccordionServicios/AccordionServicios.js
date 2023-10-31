@@ -59,7 +59,8 @@ export default function AccordionServicios({ ciudad }) {
   };
 
   return (
-    <section className={styles.contenedorAccordion}>
+    <article className={styles.contenedorAccordion}>
+      <section >
       <Accordion
         style={{
           background: "#0F2D45",
@@ -80,24 +81,26 @@ export default function AccordionServicios({ ciudad }) {
           id="panel3d-header"
         >
           <div className={styles.contenedorTituloServicio}>
-            <h2
+            <h1
               className={
                 expanded === "panel3"
                   ? `${styles.tituloServicio} ${styles.accordionActivo}`
                   : `${styles.tituloServicio}`
               }
             >
-              Cambio de Divisas
+              Cambio de divisas
+            </h1>
+            <h2 className={styles.subTituloServicio}>
+            Somos la <strong>casa de cambio</strong> preferida por miles de personas al año en {ciudad?.acf?.ciudad_landing}. <strong>Cambiar divisa</strong> en Quickgold siempre es sin comisiones y, fácil y rápido.
             </h2>
-            <p className={styles.subTituloServicio}>
-              Descubre el valor de la moneda que te interesa.
-            </p>
           </div>
         </AccordionSummary>
         <AccordionDetails className={styles.details}>
           <ConversorDivisa ciudad={ciudad} />
         </AccordionDetails>
       </Accordion>
+      </section>
+      <section >
       <Accordion
         style={{
           background: "#0F2D45",
@@ -119,22 +122,24 @@ export default function AccordionServicios({ ciudad }) {
         >
           <div className={styles.contenedorTituloServicio}>
             {" "}
-            <h2
+            <h1
               className={
                 expanded === "panel1"
                   ? `${styles.tituloServicio} ${styles.accordionActivo}`
                   : `${styles.tituloServicio}`
               }
             >
-              Precio del Oro
-            </h2>
-            <p className={styles.subTituloServicio}>Conoce el precio del oro</p>
+              Precio del oro
+            </h1>
+            <h2 className={styles.subTituloServicio}>Vender <strong>oro al mejor precio</strong> es fácil en nuestras tiendas <strong>Compro oro</strong> en {ciudad?.acf?.ciudad_landing}. Más de 15 años en el sector siendo la empresa referente en las ciudades donde estamos.</h2>
           </div>
         </AccordionSummary>
         <AccordionDetails className={styles.details}>
           <CalculadoraOro ciudad={ciudad} />
         </AccordionDetails>
       </Accordion>
+      </section>
+      <section>
       <Accordion
         style={{
           background: "#0F2D45",
@@ -156,24 +161,26 @@ export default function AccordionServicios({ ciudad }) {
         >
           <div className={styles.contenedorTituloServicio}>
             {" "}
-            <h2
+            <h1
               className={
                 expanded === "panel2"
                   ? `${styles.tituloServicio} ${styles.accordionActivo}`
                   : `${styles.tituloServicio}`
               }
             >
-              Precio de la Plata
+              Precio de la plata
+            </h1>
+            <h2 className={styles.subTituloServicio}>
+              Compramos <strong>plata al mejor precio</strong>: joyas, cuberterías, etc. Somos los líderes en la <strong>compra de joyas</strong> en {ciudad?.acf?.ciudad_landing}.
             </h2>
-            <p className={styles.subTituloServicio}>
-              ¿Cuánto cuesta ahora la plata?
-            </p>
           </div>
         </AccordionSummary>
         <AccordionDetails className={styles.details}>
           <BloquePrecioPlata ciudad={ciudad} />
         </AccordionDetails>
       </Accordion>
+      </section>
+      <section>
       <Accordion
         style={{
           background: "#0F2D45",
@@ -195,24 +202,26 @@ export default function AccordionServicios({ ciudad }) {
         >
           <div className={styles.contenedorTituloServicio}>
             {" "}
-            <h2
+            <h1
               className={
                 expanded === "panel4"
                   ? `${styles.tituloServicio} ${styles.accordionActivo}`
                   : `${styles.tituloServicio}`
               }
             >
-              Empeño de Joyas
+              Empeño de joyas
+            </h1>
+            <h2 className={styles.subTituloServicio}>
+            Nuestros <strong>empeños sin interés el primer mes</strong> hacen que empeñar oro sea mucho más cómodo y fácil para nuestros clientes.
             </h2>
-            <p className={styles.subTituloServicio}>
-              Calcula cuánto puedes obtener por tu joya.
-            </p>
           </div>
         </AccordionSummary>
         <AccordionDetails className={styles.details}>
           <Empenos ciudad={ciudad} />
         </AccordionDetails>
       </Accordion>
+      </section>
+      <section>
       <Accordion
         style={{
           background: "#0F2D45",
@@ -234,24 +243,25 @@ export default function AccordionServicios({ ciudad }) {
         >
           <div className={styles.contenedorTituloServicio}>
             {" "}
-            <h2
+            <h1
               className={
                 expanded === "panel5"
                   ? `${styles.tituloServicio} ${styles.accordionActivo}`
                   : `${styles.tituloServicio}`
               }
             >
-              Invertir en Oro
+              Invertir en oro
+            </h1>
+            <h2 className={styles.subTituloServicio}>
+              Venta de lingotes de oro con las mejores condiciones. El oro, como valor refugio está claramente por encima de otro tipo de inversiones.
             </h2>
-            <p className={styles.subTituloServicio}>
-              Da el paso e invierte en el oro
-            </p>
           </div>
         </AccordionSummary>
         <AccordionDetails style={{ border: "none" }} className={styles.details}>
           <TablaLingotes ciudad={ciudad} />
         </AccordionDetails>
       </Accordion>
-    </section>
+      </section>
+    </article>
   );
 }

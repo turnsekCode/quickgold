@@ -458,14 +458,20 @@ const Section_uno = ()=>{
                             })
                         ]
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                        children: "Lorem ipsum dolor sit amet consectetur adipiscing elit ullamcorper luctus pharetra, cubilia sollicitudin sagittis interdum consequat a nisi volutpat rutrum lobortis risus, cum hendrerit curabitur duis ultricies tortor libero suspendisse netus. Per condimentum dui rutrum nisi quam praesent molestie suspendisse, id turpis ullamcorper vehicula fusce cum purus nibh iaculis, etiam nam consequat eu pellentesque interdum class. Commodo a gravida lacus maecenas cras imperdiet faucibus eros conubia dui egestas, pharetra ac parturient nec platea ultrices pellentesque sociosqu euismod potenti."
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                        children: [
+                            "En ",
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
+                                children: "quickgold"
+                            }),
+                            " queremos seguir creciendo contigo, y para ello contamos con las mejores condiciones para que puedas emprender. Si siempre has querido tener tu propio negocio y compartes nuestros mismos valores recibe, a continuaci\xf3n, toda la informaci\xf3n."
+                        ]
                     })
                 ]
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                 src: "/assets/img/PolygonExpansion.png",
-                alt: "Compro oro",
+                alt: "Expansion",
                 className: (_section_uno_module_css__WEBPACK_IMPORTED_MODULE_3___default().polygonoExpansion),
                 width: 300,
                 height: 300,

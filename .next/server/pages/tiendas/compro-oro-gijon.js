@@ -145,11 +145,11 @@ function Gijon({ markers , menu_list , ciudad , general  }) {
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                                 itemProp: "logo",
-                                content: "https://quickgold.es/wp-content/uploads/img/logo.jpg"
+                                content: "/assets/img/logo.jpg"
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                                 itemProp: "image",
-                                content: "https://quickgold.es/wp-content/uploads/img/logo.jpg"
+                                content: "/assets/img/logo.jpg"
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                                 itemProp: "telephone",

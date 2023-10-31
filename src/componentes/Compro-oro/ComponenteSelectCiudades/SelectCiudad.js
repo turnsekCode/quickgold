@@ -7,7 +7,7 @@ const SelectCiudad = ({ listadoCiudades, urlSelect, setUrlSelect, ciudad }) => {
     <div id="calculadoraOro" className={styles.bloqueDer}>
       <div className={styles.bloqueSuperiorTexto}>
         <div>
-          <p>Compra de oro</p>
+          <p>Precio del oro</p>
           <p>¿Cuánto cuesta ahora el oro?</p>
         </div>
       </div>
@@ -16,9 +16,10 @@ const SelectCiudad = ({ listadoCiudades, urlSelect, setUrlSelect, ciudad }) => {
           ¿Te gustaría conocer el precio del oro?
         </p>
         <p className={styles.bloqueInferiorTexto2}>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus.
+          En <strong>quickgold</strong> encontrarás nuestro principal servicio
+          de Compro Oro, con el que tasamos todas las piezas a la vista para
+          garantizarte una operación segura y un precio justo para todo el oro
+          que quieras vender. No importa si están desemparejadas o rotas.
         </p>
         <p className={styles.bloqueInferiorTexto3}>
           Selecciona tu ciudad y haz clic en{" "}

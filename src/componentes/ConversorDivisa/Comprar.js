@@ -78,6 +78,7 @@ function NuevoConversor2({ ciudad, setSelectDivisa, selectDivisa }) {
                   currency.Name !== "DKK" &&
                   currency.Name !== "RUB" &&
                   currency.Name !== "NOK" &&
+                  currency.Name !== "ILS" &&
                   currency.Name !== "SEK"
               )
               .map((data, i) =>
@@ -243,10 +244,11 @@ function NuevoConversor2({ ciudad, setSelectDivisa, selectDivisa }) {
           ¡LLÁMANOS!
         </p>
         <a
+          title={`Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`}
           href={`tel:${ciudad?.acf?.telefono}`}
           className={styles.botonLlamarTienda}
         >
-          LLAMAR A LA TIENDA
+          LLAMA GRATIS
         </a>
       </div>{" "}
       <p className={styles.bloqueDivisaHabitualTexto}>

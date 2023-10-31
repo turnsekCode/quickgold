@@ -58,7 +58,7 @@ export default function CasaCambioValencia({
 
       <SEO
         title={ciudad?.acf?.titulo_del_meta}
-        description={ciudad?.acf?.descripcion_del_meta}
+        description={ciudad?.acf?.description_del_meta}
         icon="/favicon.png"
         facebook={{
           image: "/facebook.png",

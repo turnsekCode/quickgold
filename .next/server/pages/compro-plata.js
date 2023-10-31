@@ -447,10 +447,6 @@ const SelectCiudad = ({ listadoUrlCiudad , ciudad  })=>{
                         className: (selecCiudad_module_default()).bloqueInferiorTexto1,
                         children: "\xbfTe gustar\xeda conocer el precio de la plata?"
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        className: (selecCiudad_module_default()).bloqueInferiorTexto2,
-                        children: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-                    }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                         className: (selecCiudad_module_default()).bloqueInferiorTexto3,
                         children: [
