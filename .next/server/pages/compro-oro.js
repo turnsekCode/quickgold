@@ -257,9 +257,11 @@ const Section_dos = ({ ciudad  })=>{
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                    src: "https://quickgold.es/imagenVentaja1.png",
-                                    alt: "a c\xf3mo est\xe1 el oro"
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: "/assets/img/imagenVentaja1.png",
+                                    alt: "a c\xf3mo est\xe1 el oro",
+                                    width: 39,
+                                    height: 41
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -272,9 +274,11 @@ const Section_dos = ({ ciudad  })=>{
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                    src: "https://quickgold.es/imagenVentaja2.png",
-                                    alt: "precio oro"
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: "/assets/img/imagenVentaja2.png",
+                                    alt: "precio oro",
+                                    width: 38,
+                                    height: 35
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -287,9 +291,11 @@ const Section_dos = ({ ciudad  })=>{
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                    src: "https://quickgold.es/imagenVentaja3.png",
-                                    alt: "tiendas compro oro"
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: "/assets/img/imagenVentaja3.png",
+                                    alt: "tiendas compro oro",
+                                    width: 36,
+                                    height: 36
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -302,9 +308,11 @@ const Section_dos = ({ ciudad  })=>{
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                    src: "https://quickgold.es/imagenVentaja4.png",
-                                    alt: "vender oro"
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: "/assets/img/imagenVentaja4.png",
+                                    alt: "vender oro",
+                                    width: 41,
+                                    height: 35
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -317,9 +325,11 @@ const Section_dos = ({ ciudad  })=>{
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                    src: "https://quickgold.es/imagenVentaja5.png",
-                                    alt: "vender joyas"
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: "/assets/img/imagenVentaja5.png",
+                                    alt: "vender joyas",
+                                    width: 38,
+                                    height: 38
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -332,9 +342,11 @@ const Section_dos = ({ ciudad  })=>{
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                    src: "https://quickgold.es/imagenVentaja6.png",
-                                    alt: "tasaci\xf3n oro"
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: "/assets/img/imagenVentaja6.png",
+                                    alt: "tasaci\xf3n oro",
+                                    width: 38,
+                                    height: 38
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {

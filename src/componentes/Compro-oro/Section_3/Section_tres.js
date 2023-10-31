@@ -18,9 +18,11 @@ const Section_dos = ({ ciudad }) => {
       <div className={styles.bloqueInferior}>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
-            <img
-              src="https://quickgold.es/imagenVentaja1.png"
+            <Image
+              src="/assets/img/imagenVentaja1.png"
               alt="a cómo está el oro"
+              width={39}
+              height={41}
             />
           </div>
 
@@ -28,9 +30,11 @@ const Section_dos = ({ ciudad }) => {
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
-            <img
-              src="https://quickgold.es/imagenVentaja2.png"
+            <Image
+              src="/assets/img/imagenVentaja2.png"
               alt="precio oro"
+              width={38}
+              height={35}
             />
           </div>
 
@@ -38,9 +42,11 @@ const Section_dos = ({ ciudad }) => {
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
-            <img
-              src="https://quickgold.es/imagenVentaja3.png"
+            <Image
+              src="/assets/img/imagenVentaja3.png"
               alt="tiendas compro oro"
+              width={36}
+              height={36}
             />
           </div>
 
@@ -48,9 +54,11 @@ const Section_dos = ({ ciudad }) => {
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
-            <img
-              src="https://quickgold.es/imagenVentaja4.png"
+            <Image
+              src="/assets/img/imagenVentaja4.png"
               alt="vender oro"
+              width={41}
+              height={35}
             />
           </div>
 
@@ -58,9 +66,11 @@ const Section_dos = ({ ciudad }) => {
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
-            <img
-              src="https://quickgold.es/imagenVentaja5.png"
+            <Image
+              src="/assets/img/imagenVentaja5.png"
               alt="vender joyas"
+              width={38}
+              height={38}
             />
           </div>
 
@@ -68,9 +78,11 @@ const Section_dos = ({ ciudad }) => {
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
-            <img
-              src="https://quickgold.es/imagenVentaja6.png"
+            <Image
+              src="/assets/img/imagenVentaja6.png"
               alt="tasación oro"
+              width={38}
+              height={38}
             />
           </div>
 
