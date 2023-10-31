@@ -11,6 +11,7 @@ const SelectCiudadHome = ({ listadoUrlCiudad }) => {
   return (
     <div className={styles.contenedorSelect}>
       <select
+        aria-label="quickgold"
         onChange={(e) => {
           IrUrl(e.target.value);
         }}

@@ -1038,7 +1038,7 @@ function ComproPlata({ menu_list , ciudad , listadoUrlCiudad  }) {
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("link", {
                         rel: "icon",
-                        href: "/assets/favicon.png"
+                        href: "/favicon.png"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("link", {
                         rel: "stylesheet preload prefetch",

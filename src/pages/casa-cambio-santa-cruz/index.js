@@ -59,7 +59,7 @@ export default function CasaCambioValencia({
       <SEO
         title={ciudad?.acf?.titulo_del_meta}
         description={ciudad?.acf?.descripcion_del_meta}
-        icon="/assets/favicon.png"
+        icon="/favicon.png"
         facebook={{
           image: "/facebook.png",
           url: "https://www.facebook.com/quickgold.es/",

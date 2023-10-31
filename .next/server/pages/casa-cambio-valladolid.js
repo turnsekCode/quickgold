@@ -95,7 +95,7 @@ function CasaCambioValencia({ markers , menu_list , ciudad , general  }) {
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_9___default()), {
                 title: ciudad?.acf?.titulo_del_meta,
                 description: ciudad?.acf?.descripcion_del_meta,
-                icon: "/assets/favicon.png",
+                icon: "/favicon.png",
                 facebook: {
                     image: "/facebook.png",
                     url: "https://www.facebook.com/quickgold.es/",

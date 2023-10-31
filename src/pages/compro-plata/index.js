@@ -32,7 +32,7 @@ export default function ComproPlata({ menu_list, ciudad, listadoUrlCiudad }) {
       />
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/assets/favicon.png" />
+        <link rel="icon" href="/favicon.png" />
         <link
           rel="stylesheet preload prefetch"
           href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"

@@ -1128,7 +1128,6 @@ function Expansion({ menu_list , ciudad , general  }) {
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_3___default()), {
                 title: ciudad?.acf?.titulo_del_meta,
                 description: ciudad?.description_del_meta,
-                icon: "/favicon.png",
                 facebook: {
                     image: "/facebook.png",
                     url: "https://www.facebook.com/quickgold.es/",
@@ -1154,7 +1153,7 @@ function Expansion({ menu_list , ciudad , general  }) {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                         rel: "icon",
-                        href: "/assets/favicon.png"
+                        href: "/favicon.png"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                         rel: "stylesheet preload prefetch",

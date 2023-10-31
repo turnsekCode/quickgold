@@ -143,6 +143,7 @@ const SelectCiudadHome = ({ listadoUrlCiudad  })=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
         className: (selectCiudadHome_module_default()).contenedorSelect,
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("select", {
+            "aria-label": "quickgold",
             onChange: (e)=>{
                 IrUrl(e.target.value);
             },
@@ -174,7 +175,7 @@ const Section_dos = ({ listadoUrlCiudad  })=>{
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: (section_dos_module_default()).bloqueSuperior,
-                children: /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                children: /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                     children: "Nuestros Servicios"
                 })
             }),

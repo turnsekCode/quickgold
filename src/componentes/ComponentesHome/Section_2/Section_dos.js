@@ -8,7 +8,7 @@ const Section_dos = ({ listadoUrlCiudad }) => {
   return (
     <section className={styles.contenedorSectionTres}>
       <div className={styles.bloqueSuperior}>
-        <h3>Nuestros Servicios</h3>
+        <h2>Nuestros Servicios</h2>
       </div>
       <div className={styles.bloqueInferior}>
         <div className={styles.bloqueInferiorCard}>

@@ -45,7 +45,6 @@ export default function Expansion({ menu_list, ciudad, general }) {
       <SEO
         title={ciudad?.acf?.titulo_del_meta}
         description={ciudad?.description_del_meta}
-        icon="/favicon.png"
         facebook={{
           image: "/facebook.png",
           url: "https://www.facebook.com/quickgold.es/",
@@ -63,7 +62,7 @@ export default function Expansion({ menu_list, ciudad, general }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         ></script>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/assets/favicon.png" />
+        <link rel="icon" href="/favicon.png" />
         <link
           rel="stylesheet preload prefetch"
           href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
