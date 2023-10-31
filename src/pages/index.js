@@ -1,16 +1,16 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
-import Breadcrumbs from "@/componentes/BreadcrumbsRaiz/Breadcrumbs.js";
+//import Breadcrumbs from "@/componentes/BreadcrumbsRaiz/Breadcrumbs.js";
 import Section_uno from "@/componentes/ComponentesHome/section_1/Section_uno.js";
-import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
+//import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import SEO from "@bradgarropy/next-seo";
 import Layout from "@/componentes/Layout/Layout";
 import Section_dos from "@/componentes/ComponentesHome/Section_2/Section_dos";
 import Section_tres from "@/componentes/ComponentesHome/section_3/Section_tres";
-
-//import { ChakraProvider } from "@chakra-ui/react";
+import { useInView } from "react-intersection-observer";
 
 export default function Home({ menu_list, ciudad, general, listadoUrlCiudad }) {
+  const { ref: myRef, inView, entry } = useInView();
   return (
     <>
       <SEO
@@ -44,7 +44,9 @@ export default function Home({ menu_list, ciudad, general, listadoUrlCiudad }) {
         </div>
         <Section_uno />
         <Section_dos listadoUrlCiudad={listadoUrlCiudad} />
-        <Section_tres />
+        <div style={{ height: "346px" }} ref={myRef}>
+          {inView ? <Section_tres /> : null}
+        </div>
       </Layout>
     </>
   );
