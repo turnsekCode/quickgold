@@ -32,6 +32,7 @@ export default function Document() {
         />
 </noscript>*/}
       <link rel="icon" href="/favicon.png" />
+      <meta name="robots" content="max-snippet:-1"></meta>
       <meta name="robots" content="noindex, nofollow" />
       <Head />
       <body>

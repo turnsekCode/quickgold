@@ -140,9 +140,9 @@ export default function Valencia({ markers, menu_list, ciudad, general }) {
           ) : null}
           <div className={styles.contenedorSeccionUnoDos}>
             <SeccionDos ciudad={ciudad} />
-            {/* <article className={styles.contenedorMapaVisible} ref={myRef}>
+            <article className={styles.contenedorMapaVisible} ref={myRef}>
               {inView ? <Mapa markers={markers} ciudad={ciudad} /> : null}
-          </article>*/}
+            </article>
             {/*<Mapa markers={markers} />*/}
           </div>
         </div>
