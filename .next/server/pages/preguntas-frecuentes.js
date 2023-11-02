@@ -922,7 +922,7 @@ function AccordiosnCambioDivisa() {
                                 "En quickgold puedes cambiar cualquier cantidad de dinero, no tenemos una cantidad m\xednima. Si necesitas cambiar grandes cantidades, avisa a tu tienda para que prepare el efectivo y lo tenga todo listo para cuando nos visites. Necesitaremos documentaci\xf3n adicional para cantidades grandes de divisa. Puedes consultar toda la informaci\xf3n relacionada en nuestro apartado del servicio:",
                                 " ",
                                 /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "https://quickgold.es/cambio-divisas",
+                                    href: "/cambio-divisas",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                         children: "cambio de divisa"
                                     })
@@ -1022,7 +1022,7 @@ function AccordiosnCambioDivisa() {
                                 ") en vigor. Adem\xe1s, para cantidades grandes necesitamos un documento que acredite la procedencia de fondos y tu cargo profesional. Si fuera necesario por falta de efectivo, necesitaremos tambi\xe9n un n\xfamero de cuenta para abonarte el importe de tu cambio. Si tienes cualquier duda puedes visitar",
                                 " ",
                                 /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "https://quickgold.es/cambio-divisas",
+                                    href: "/cambio-divisas",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                         children: "nuestra p\xe1gina de servicio de cambio de divisa"
                                     })
@@ -1030,10 +1030,9 @@ function AccordiosnCambioDivisa() {
                                 "o bien",
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("strong", {
                                     children: [
-                                        "llamarnos gratuitamente al",
-                                        " ",
+                                        "llamarnos gratuitamente al ",
                                         /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "tel.900 373 629",
+                                            href: "tel:900373629",
                                             children: "900 373 629"
                                         })
                                     ]
@@ -1353,7 +1352,7 @@ function AccordiosnEmpenos() {
                                 ", facilitando toda la informaci\xf3n requerida por \xe9ste. Una vez tasadas se fijar\xe1 el precio seg\xfan la cotizaci\xf3n del metal en el momento y se realizar\xe1 un contrato de empe\xf1os. Una vez firmado por ambas partes se entregar\xe1 el dinero acordado y obtendr\xe1s toda la informaci\xf3n necesaria para conocer c\xf3mo y cu\xe1ndo se renueva el contrato y c\xf3mo lo podr\xe1s cancelar de la manera m\xe1s sencilla y c\xf3moda para ti.",
                                 " ",
                                 /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                    href: "/empeno-de-joyas/",
+                                    href: "/empeno-de-joyas",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                         children: "Consulta toda la informaci\xf3n sobre los empe\xf1os de quickgold"
                                     })
@@ -1496,7 +1495,7 @@ function AccordiosnInvertirOro() {
                                 ". Cada uno de ellos cuenta con certificado de garant\xeda que acredita la pureza del mismo. Como nos encanta contar con tu satisfacci\xf3n nos esforzamos por entregarte el lingote en menos de 72h. Ac\xe9rcate a nuestras oficinas o",
                                 " ",
                                 /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "tel:900 373 629",
+                                    href: "tel:900373629",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                         children: "ll\xe1manos al 900 373 629 para m\xe1s informaci\xf3n."
                                     })
@@ -1532,7 +1531,7 @@ function AccordiosnInvertirOro() {
                                 "No, el oro est\xe1 exento del cargo del IVA. Consulta",
                                 " ",
                                 /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                    href: "/inverti-en-oro/",
+                                    href: "/invertir-en-oro",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                         children: "nuestro cat\xe1logo de lingotes de oro aqu\xed"
                                     })
@@ -1610,7 +1609,7 @@ function AccordiosnInvertirOro() {
                                 }),
                                 ", necesitamos que realices tu reserva y conocer algunos datos. Para ello nos puedes llamar al 900 373 629 o al tel\xe9fono de tu tienda favorita que encontrar\xe1s en este",
                                 /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                    href: "/contacto/",
+                                    href: "/contacto",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                         children: " directorio"
                                     })
@@ -1706,7 +1705,7 @@ function AccordiosnVenderDiamantes() {
                                 "Compramos brillantes de talla moderna, catalogados con color en escala H \xf3 I, con una pureza superior a SI3 y quilataje superior a 0,10ct. Para saber m\xe1s detalles sobre el proceso de tasaci\xf3n y caracter\xedsticas de los diferentes diamantes, visita nuestra secci\xf3n del servicio de",
                                 " ",
                                 /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                    href: "/vender-diamantes/",
+                                    href: "/vender-diamantes",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                         children: "compra de diamantes"
                                     })

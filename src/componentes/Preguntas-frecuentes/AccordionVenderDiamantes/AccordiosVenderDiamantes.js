@@ -77,7 +77,7 @@ export default function AccordiosnVenderDiamantes() {
             0,10ct. Para saber más detalles sobre el proceso de tasación y
             características de los diferentes diamantes, visita nuestra sección
             del servicio de{" "}
-            <Link href="/vender-diamantes/">
+            <Link href="/vender-diamantes">
               <strong>compra de diamantes</strong>
             </Link>
             .

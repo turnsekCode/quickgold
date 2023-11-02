@@ -168,7 +168,7 @@ export default function AccordiosnEmpenos() {
             acordado y obtendrás toda la información necesaria para conocer cómo
             y cuándo se renueva el contrato y cómo lo podrás cancelar de la
             manera más sencilla y cómoda para ti.{" "}
-            <Link href="/empeno-de-joyas/">
+            <Link href="/empeno-de-joyas">
               <strong>
                 Consulta toda la información sobre los empeños de quickgold
               </strong>

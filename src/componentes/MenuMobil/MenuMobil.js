@@ -75,7 +75,7 @@ const MenuMobil = ({ menuAbieto, menu_list }) => {
               <a href="/cambio-divisas" title="Ir a cambio de divisa">
                 CAMBIO DE DIVISAS
               </a>
-              <a href="s/empeno-de-joyas" title="Ir a empeño de joyas">
+              <a href="/empeno-de-joyas" title="Ir a empeño de joyas">
                 EMPEÑO DE JOYAS
               </a>
               <a href="/compro-plata">COMPRA DE PLATA</a>

@@ -79,7 +79,7 @@ export default function AccordiosnCambioDivisa() {
             cuando nos visites. Necesitaremos documentación adicional para
             cantidades grandes de divisa. Puedes consultar toda la información
             relacionada en nuestro apartado del servicio:{" "}
-            <a href="https://quickgold.es/cambio-divisas">
+            <a href="/cambio-divisas">
               <strong>cambio de divisa</strong>
             </a>
             .
@@ -177,13 +177,12 @@ export default function AccordiosnCambioDivisa() {
             falta de efectivo, necesitaremos también un número de cuenta para
             abonarte el importe de tu cambio. Si tienes cualquier duda puedes
             visitar{" "}
-            <a href="https://quickgold.es/cambio-divisas">
+            <a href="/cambio-divisas">
               <strong>nuestra página de servicio de cambio de divisa</strong>
             </a>
             o bien
             <strong>
-              llamarnos gratuitamente al{" "}
-              <a href="tel.900 373 629">900 373 629</a>
+              llamarnos gratuitamente al <a href="tel:900373629">900 373 629</a>
             </strong>
             , estaremos encantados de ayudarte.
           </p>

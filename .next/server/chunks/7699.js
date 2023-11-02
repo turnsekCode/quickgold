@@ -334,7 +334,7 @@ const MenuMobil = ({ menuAbieto , menu_list  })=>{
                                         children: "CAMBIO DE DIVISAS"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "s/empeno-de-joyas",
+                                        href: "/empeno-de-joyas",
                                         title: "Ir a empe\xf1o de joyas",
                                         children: "EMPE\xd1O DE JOYAS"
                                     }),

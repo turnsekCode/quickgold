@@ -80,7 +80,7 @@ export default function AccordiosnInvertirOro() {
             con certificado de garantía que acredita la pureza del mismo. Como
             nos encanta contar con tu satisfacción nos esforzamos por entregarte
             el lingote en menos de 72h. Acércate a nuestras oficinas o{" "}
-            <a href="tel:900 373 629">
+            <a href="tel:900373629">
               <strong>llámanos al 900 373 629 para más información.</strong>
             </a>
           </p>
@@ -109,7 +109,7 @@ export default function AccordiosnInvertirOro() {
         <AccordionDetails className={styles.contenerdorContenidoAccordion}>
           <p className={styles.contenidoAccordion}>
             No, el oro está exento del cargo del IVA. Consulta{" "}
-            <Link href="/inverti-en-oro/">
+            <Link href="/invertir-en-oro">
               <strong>nuestro catálogo de lingotes de oro aquí</strong>
             </Link>
             .
@@ -169,7 +169,7 @@ export default function AccordiosnInvertirOro() {
             <strong>quickgold</strong>, necesitamos que realices tu reserva y
             conocer algunos datos. Para ello nos puedes llamar al 900 373 629 o
             al teléfono de tu tienda favorita que encontrarás en este
-            <Link href="/contacto/">
+            <Link href="/contacto">
               <strong> directorio</strong>
             </Link>
             .
