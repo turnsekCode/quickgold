@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/osVQj4c1kxqidmdtA4-ek/_buildManifest.js",
-    "static/osVQj4c1kxqidmdtA4-ek/_ssgManifest.js"
+    "static/cYnCInrtjxtdFwpislGMb/_buildManifest.js",
+    "static/cYnCInrtjxtdFwpislGMb/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -391,7 +391,7 @@
       "static/chunks/7699-5b22d7cfc2152654.js",
       "static/css/318cf53306eaecb7.css",
       "static/chunks/6228-cc522d6f2e63e103.js",
-      "static/chunks/pages/casa-cambio-santander-e39d1810346860fb.js"
+      "static/chunks/pages/casa-cambio-santander-d5fd789618e54c86.js"
     ],
     "/casa-cambio-santiago": [
       "static/chunks/webpack-588f0a730b3e624f.js",
@@ -415,7 +415,7 @@
       "static/chunks/7699-5b22d7cfc2152654.js",
       "static/css/318cf53306eaecb7.css",
       "static/chunks/6228-cc522d6f2e63e103.js",
-      "static/chunks/pages/casa-cambio-sevilla-d2c78d82517fa741.js"
+      "static/chunks/pages/casa-cambio-sevilla-e383c21481c0f6c8.js"
     ],
     "/casa-cambio-tarragona": [
       "static/chunks/webpack-588f0a730b3e624f.js",
