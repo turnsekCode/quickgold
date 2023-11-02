@@ -258,7 +258,7 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenVentaja1.png",
+                                    src: "/assets/img/imagenventaja1.png",
                                     alt: "a c\xf3mo est\xe1 el oro",
                                     width: 39,
                                     height: 41
@@ -275,7 +275,7 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenVentaja2.png",
+                                    src: "/assets/img/imagenventaja2.png",
                                     alt: "precio oro",
                                     width: 38,
                                     height: 35
@@ -292,7 +292,7 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenVentaja3.png",
+                                    src: "/assets/img/imagenventaja3.png",
                                     alt: "tiendas compro oro",
                                     width: 36,
                                     height: 36
@@ -309,7 +309,7 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenVentaja4.png",
+                                    src: "/assets/img/imagenventaja4.png",
                                     alt: "vender oro",
                                     width: 41,
                                     height: 35
@@ -326,7 +326,7 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenVentaja5.png",
+                                    src: "/assets/img/imagenventaja5.png",
                                     alt: "vender joyas",
                                     width: 38,
                                     height: 38
@@ -343,7 +343,7 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenVentaja6.png",
+                                    src: "/assets/img/imagenventaja6.png",
                                     alt: "tasaci\xf3n oro",
                                     width: 38,
                                     height: 38
