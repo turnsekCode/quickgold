@@ -84,7 +84,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 7363:
+/***/ 8415:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -3782,6 +3782,240 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
         setActiveId(marker?.id);
     };
     const numeroDeTiendas = granada?.arrayMarker[granada?.arrayMarker.length - 1];
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
+        className: (mapa_module_default()).contenedorMapa,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: (mapa_module_default()).contenedorbloqueIzq,
+                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: (mapa_module_default()).contenedorTiendas,
+                    children: marcador?.map((marker)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            onClick: ()=>{
+                                toggleTab();
+                                onSelectMarker(marker);
+                            },
+                            className: activeId === marker.id && showPopup ? `${(mapa_module_default()).contenedorInfoTiendaMapa} ${(mapa_module_default()).contenedorInfoTiendaMapaActivo}` : ` ${(mapa_module_default()).contenedorInfoTiendaMapa}`,
+                            children: [
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_scroll_.Link, {
+                                    onClick: ()=>{
+                                        toggleTab();
+                                        onSelectMarker(marker);
+                                    },
+                                    to: "contenedorMapa2",
+                                    smooth: true,
+                                    offset: -110,
+                                    spy: true,
+                                    duration: 500,
+                                    children: [
+                                        activeId === marker.id && showPopup ? /*#__PURE__*/ jsx_runtime_.jsx((RadioButtonChecked_default()), {}) : /*#__PURE__*/ jsx_runtime_.jsx((RadioButtonUnchecked_default()), {}),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                                            children: marker.nombreTienda
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx(external_react_scroll_.Link, {
+                                    onClick: ()=>{
+                                        toggleTab();
+                                        onSelectMarker(marker);
+                                    },
+                                    to: "contenedorMapa2",
+                                    smooth: true,
+                                    offset: -110,
+                                    spy: true,
+                                    duration: 500,
+                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                        className: (mapa_module_default()).tienda,
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                children: marker.direccion
+                                            }),
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                                children: [
+                                                    "Tel\xe9fono: ",
+                                                    marker.telefono
+                                                ]
+                                            })
+                                        ]
+                                    })
+                                })
+                            ]
+                        }, marker.id))
+                })
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: (mapa_module_default()).bloqueDer,
+                id: "contenedorMapa2",
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)((external_react_map_gl_default()), {
+                    onStyleLoad: true,
+                    ref: mapRef,
+                    ...viewState,
+                    onMove: (evt)=>setViewState(evt.viewState),
+                    className: (mapa_module_default()).mapa,
+                    mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
+                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
+                        " ",
+                        /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.GeolocateControl, {}),
+                        " ",
+                        /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.NavigationControl, {}),
+                        /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                            className: (mapa_module_default()).reset_map,
+                            onClick: ()=>{
+                                resetMap();
+                            },
+                            children: "Reset Map"
+                        }),
+                        marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
+                                longitude: marker.longitude,
+                                latitude: marker.latitude,
+                                onClick: ()=>{
+                                    onSelectMarker(marker);
+                                    toggleTab();
+                                },
+                                children: showPopup ? /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Popup, {
+                                    style: {
+                                        top: -25,
+                                        maxWidth: 255
+                                    },
+                                    longitude: showInfo.longitude,
+                                    className: "popup",
+                                    latitude: showInfo.latitude,
+                                    closeOnClick: false,
+                                    anchor: null,
+                                    onClose: ()=>setShowPopup(false),
+                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                        className: (mapa_module_default()).contenedor_popuop,
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                className: (mapa_module_default()).nombre_ciudad_popup,
+                                                children: showInfo.nombreTienda
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                title: "Direcci\xf3n",
+                                                href: showInfo.comoLlegar,
+                                                rel: "noreferrer",
+                                                target: "_blank",
+                                                className: (mapa_module_default()).direccion_popup,
+                                                children: showInfo.direccion
+                                            }),
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
+                                                href: `tel:${showInfo.telefono}`,
+                                                className: (mapa_module_default()).telefono_popup,
+                                                title: "Tel\xe9fono",
+                                                children: [
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((Call_default()), {})
+                                                    }),
+                                                    showInfo.telefono
+                                                ]
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                title: "C\xf3mo llegar",
+                                                href: showInfo.comoLlegar,
+                                                rel: "noreferrer",
+                                                className: (mapa_module_default()).boton_como_llegar,
+                                                children: "C\xf3mo llegar"
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                title: "Llamar",
+                                                href: `tel:${showInfo?.telefono}`,
+                                                rel: "noreferrer",
+                                                className: (mapa_module_default()).boton_como_llegar,
+                                                children: "Llamar"
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                title: "Sitio Web",
+                                                href: showInfo.url,
+                                                rel: "noreferrer",
+                                                className: (mapa_module_default()).boton_como_llegar,
+                                                children: "Web"
+                                            })
+                                        ]
+                                    })
+                                }) : null
+                            }, marker.id))
+                    ]
+                })
+            })
+        ]
+    });
+}
+
+;// CONCATENATED MODULE: ./src/componentes/Mapas/MapaJerez/Mapa.js
+
+
+
+
+
+
+
+
+/*const DynamicBloqueTiendas = dynamic(() =>
+  import("../BloqueTiendas/BloqueTiendas")
+);*/ function MapaJerez({ jerez  }) {
+    const marcador = jerez?.arrayMarker;
+    const [viewState, setViewState] = (0,external_react_.useState)({
+        longitude: jerez?.markerInicial[0].longitude,
+        latitude: jerez?.markerInicial[0].latitude,
+        zoom: jerez?.markerInicial[0].zoom,
+        cooperativeGestures: true
+    });
+    const mapRef = (0,external_react_.useRef)();
+    const resetMap = ()=>{
+        setShowPopup(false);
+        mapRef.current?.flyTo({
+            center: [
+                jerez.markerInicial[0].longitude,
+                jerez.markerInicial[0].latitude
+            ],
+            duration: 2000,
+            zoom: jerez?.markerInicial[0].zoom
+        });
+    };
+    const [showPopup, setShowPopup] = (0,external_react_.useState)(null);
+    const toggleTab = ()=>{
+        setShowPopup(true);
+    };
+    const [showInfo, setShowInfo] = (0,external_react_.useState)({
+        id: "",
+        longitude: "",
+        latitude: "",
+        tienda: "",
+        telefono: "",
+        direccion: "",
+        comoLlegar: "",
+        nombreTienda: "",
+        duration: "",
+        zoom: "",
+        url: ""
+    });
+    const [activeId, setActiveId] = (0,external_react_.useState)("");
+    const onSelectMarker = (marker)=>{
+        setShowInfo({
+            id: marker?.id,
+            longitude: marker?.longitude,
+            latitude: marker?.latitude,
+            tienda: marker?.tienda,
+            telefono: marker?.telefono,
+            direccion: marker?.direccion,
+            comoLlegar: marker?.comoLlegar,
+            nombreTienda: marker?.nombreTienda,
+            duration: marker?.duration,
+            zoom: marker?.zoom,
+            url: marker?.url
+        });
+        mapRef.current?.flyTo({
+            center: {
+                lng: marker?.longitude,
+                lat: marker?.latitude
+            },
+            duration: 1500,
+            zoom: marker?.zoom
+        });
+        setActiveId(marker?.id);
+    };
+    const numeroDeTiendas = jerez?.arrayMarker[jerez?.arrayMarker.length - 1];
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         className: (mapa_module_default()).contenedorMapa,
         children: [
@@ -8662,7 +8896,8 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
 
 
 
-const Section_dos = ({ alcaladehenares , alcobendas , alcorcon , alicante , almeria , barcelona , benidorm , bilbao , cadiz , cartagena , castellon , cordoba , elche , getafe , gijon , granada , lacoruna , leon , logrono , madrid , malaga , marbella , murcia , oviedo , palma , reus , roquetasdemar , santacruzdetenerife , santander , santiagodecompostela , sevilla , tarragona , valencia , valladolid , vigo , zaragoza , ListadoCiudades  })=>{
+
+const Section_dos = ({ alcaladehenares , alcobendas , alcorcon , alicante , almeria , barcelona , benidorm , bilbao , cadiz , cartagena , castellon , cordoba , elche , getafe , gijon , granada , jerez , lacoruna , leon , logrono , madrid , malaga , marbella , murcia , oviedo , palma , reus , roquetasdemar , santacruzdetenerife , santander , santiagodecompostela , sevilla , tarragona , valencia , valladolid , vigo , zaragoza , ListadoCiudades  })=>{
     const [ciudad, setCiudad] = (0,external_react_.useState)(null);
     let mapa;
     if (ciudad === "alicante") {
@@ -8743,6 +8978,11 @@ const Section_dos = ({ alcaladehenares , alcobendas , alcorcon , alicante , alme
     if (ciudad === "granada") {
         mapa = /*#__PURE__*/ jsx_runtime_.jsx(MapaGranada, {
             granada: granada
+        });
+    }
+    if (ciudad === "jerez") {
+        mapa = /*#__PURE__*/ jsx_runtime_.jsx(MapaJerez, {
+            jerez: jerez
         });
     }
     if (ciudad === "lacoruna") {
@@ -8913,7 +9153,7 @@ const schema = {
         contactType: "info@quickgold.es"
     }
 };
-function MapaTiendas({ menu_list , ListadoCiudades , alcaladehenares , alcobendas , alcorcon , alicante , almeria , barcelona , benidorm , bilbao , cadiz , cartagena , castellon , cordoba , elche , getafe , gijon , granada , lacoruna , leon , logrono , madrid , malaga , marbella , murcia , oviedo , palma , reus , roquetasdemar , santacruzdetenerife , santander , santiagodecompostela , sevilla , tarragona , tenerife , valencia , valladolid , vigo , zaragoza  }) {
+function MapaTiendas({ menu_list , ListadoCiudades , alcaladehenares , alcobendas , alcorcon , alicante , almeria , barcelona , benidorm , bilbao , cadiz , cartagena , castellon , cordoba , elche , getafe , gijon , granada , jerez , lacoruna , leon , logrono , madrid , malaga , marbella , murcia , oviedo , palma , reus , roquetasdemar , santacruzdetenerife , santander , santiagodecompostela , sevilla , tarragona , tenerife , valencia , valladolid , vigo , zaragoza  }) {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx((next_seo_default()), {
@@ -8978,6 +9218,7 @@ function MapaTiendas({ menu_list , ListadoCiudades , alcaladehenares , alcobenda
                             getafe: getafe,
                             gijon: gijon,
                             granada: granada,
+                            jerez: jerez,
                             lacoruna: lacoruna,
                             leon: leon,
                             logrono: logrono,
@@ -9025,6 +9266,7 @@ const idGetafe = "getafe";
 const idGijon = "gijon";
 const idGranada = "granada";
 const idLaCoruna = "lacoruna";
+const idJerez = "jerez";
 const idLeon = "leon";
 const idLogrono = "logrono";
 const idMadrid = "madrid";
@@ -9083,6 +9325,8 @@ async function getStaticProps() {
     const gijon = await gijon_.json();
     const granada_ = await fetch(`https://panel.quickgold.es/markers${idGranada}.json`);
     const granada = await granada_.json();
+    const lajerez_ = await fetch(`https://panel.quickgold.es/markers${idJerez}.json`);
+    const jerez = await lajerez_.json();
     const lacoruna_ = await fetch(`https://panel.quickgold.es/markers${idLaCoruna}.json`);
     const lacoruna = await lacoruna_.json();
     const leon_ = await fetch(`https://panel.quickgold.es/markers${idLeon}.json`);
@@ -9146,6 +9390,7 @@ async function getStaticProps() {
             getafe,
             gijon,
             granada,
+            jerez,
             lacoruna,
             leon,
             logrono,
@@ -9422,7 +9667,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699], () => (__webpack_exec__(7363)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699], () => (__webpack_exec__(8415)));
 module.exports = __webpack_exports__;
 
 })();

@@ -50,6 +50,7 @@ export default function MapaTiendas({
   getafe,
   gijon,
   granada,
+  jerez,
   lacoruna,
   leon,
   logrono,
@@ -123,6 +124,7 @@ export default function MapaTiendas({
             getafe={getafe}
             gijon={gijon}
             granada={granada}
+            jerez={jerez}
             lacoruna={lacoruna}
             leon={leon}
             logrono={logrono}
@@ -169,6 +171,7 @@ const idGetafe = "getafe";
 const idGijon = "gijon";
 const idGranada = "granada";
 const idLaCoruna = "lacoruna";
+const idJerez = "jerez";
 const idLeon = "leon";
 const idLogrono = "logrono";
 const idMadrid = "madrid";
@@ -263,6 +266,10 @@ export async function getStaticProps() {
     `https://panel.quickgold.es/markers${idGranada}.json`
   );
   const granada = await granada_.json();
+  const lajerez_ = await fetch(
+    `https://panel.quickgold.es/markers${idJerez}.json`
+  );
+  const jerez = await lajerez_.json();
   const lacoruna_ = await fetch(
     `https://panel.quickgold.es/markers${idLaCoruna}.json`
   );
@@ -362,6 +369,7 @@ export async function getStaticProps() {
       getafe,
       gijon,
       granada,
+      jerez,
       lacoruna,
       leon,
       logrono,

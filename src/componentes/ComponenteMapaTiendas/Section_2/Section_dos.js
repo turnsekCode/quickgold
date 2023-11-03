@@ -16,6 +16,7 @@ import MapaElche from "../../Mapas/MapaElche/Mapa";
 import MapaGetafe from "../../Mapas/MapaGetafe/Mapa";
 import MapaGijon from "../../Mapas/MapaGijon/Mapa";
 import MapaGranada from "../../Mapas/MapaGranada/Mapa";
+import MapaJerez from "../../Mapas/MapaJerez/Mapa";
 import MapaLaCoruna from "../../Mapas/MapaLaCoruna/Mapa";
 import MapaLeon from "../../Mapas/MapaLeon/Mapa";
 import MapaLogrono from "../../Mapas/MapaLogrono/Mapa";
@@ -54,6 +55,7 @@ const Section_dos = ({
   getafe,
   gijon,
   granada,
+  jerez,
   lacoruna,
   leon,
   logrono,
@@ -126,6 +128,9 @@ const Section_dos = ({
   }
   if (ciudad === "granada") {
     mapa = <MapaGranada granada={granada} />;
+  }
+  if (ciudad === "jerez") {
+    mapa = <MapaJerez jerez={jerez} />;
   }
   if (ciudad === "lacoruna") {
     mapa = <MapaLaCoruna lacoruna={lacoruna} />;
