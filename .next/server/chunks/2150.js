@@ -141,7 +141,8 @@ const Section_uno = ({ ciudad  })=>{
                     alt: `Cambiar Dólares a Euros ${ciudad?.acf?.ciudad}`,
                     className: (_section_uno_module_css__WEBPACK_IMPORTED_MODULE_5___default().Image),
                     width: 480,
-                    height: 390
+                    height: 390,
+                    priority: true
                 })
             })
         ]

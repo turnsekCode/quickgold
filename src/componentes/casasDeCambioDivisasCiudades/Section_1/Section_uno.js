@@ -38,6 +38,7 @@ const Section_uno = ({ ciudad }) => {
           className={styles.Image}
           width={480}
           height={390}
+          priority
         />
       </div>
     </section>
