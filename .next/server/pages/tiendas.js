@@ -161,7 +161,7 @@ const Section_uno = ()=>{
                     children: [
                         "Actualmente contamos con un total de ",
                         /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                            children: "60"
+                            children: "62"
                         }),
                         " tiendas."
                     ]

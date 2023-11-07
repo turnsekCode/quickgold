@@ -1,5 +1,4 @@
 import React from "react";
-//import Image from "next/image";
 import styles from "./section_uno.module.css";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import { Link } from "react-scroll";
@@ -34,12 +33,11 @@ const Section_uno = ({ ciudad }) => {
       </div>
       <div className={styles.bloqueDer}>
         <Image
-          src="/assets/divisa.png"
-          alt={`Casas de cambio ${ciudad?.acf?.ciudad}`}
-          className={styles.madridMobil}
+          src={`/assets/img/casa-cambio-${ciudad?.acf?.ciudad_minuscula}.webp`}
+          alt={`Cambiar Dólares a Euros ${ciudad?.acf?.ciudad}`}
+          className={styles.Image}
           width={480}
-          height={364}
-          priority
+          height={390}
         />
       </div>
     </section>

@@ -129,7 +129,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3780:
+/***/ 5288:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -228,12 +228,12 @@ var estilosConversor_module_default = /*#__PURE__*/__webpack_require__.n(estilos
 // EXTERNAL MODULE: external "@mui/icons-material/KeyboardArrowDown"
 var KeyboardArrowDown_ = __webpack_require__(4845);
 var KeyboardArrowDown_default = /*#__PURE__*/__webpack_require__.n(KeyboardArrowDown_);
-// EXTERNAL MODULE: external "@mui/icons-material/PowerInput"
-var PowerInput_ = __webpack_require__(8711);
-var PowerInput_default = /*#__PURE__*/__webpack_require__.n(PowerInput_);
-// EXTERNAL MODULE: external "@mui/icons-material/ImportExport"
-var ImportExport_ = __webpack_require__(5579);
-var ImportExport_default = /*#__PURE__*/__webpack_require__.n(ImportExport_);
+;// CONCATENATED MODULE: external "@mui/icons-material/PowerInput"
+const PowerInput_namespaceObject = require("@mui/icons-material/PowerInput");
+var PowerInput_default = /*#__PURE__*/__webpack_require__.n(PowerInput_namespaceObject);
+;// CONCATENATED MODULE: external "@mui/icons-material/ImportExport"
+const ImportExport_namespaceObject = require("@mui/icons-material/ImportExport");
+var ImportExport_default = /*#__PURE__*/__webpack_require__.n(ImportExport_namespaceObject);
 ;// CONCATENATED MODULE: ./src/componentes/ComponentesDolarEuro/Section_3/ConversorDivisa/Comprar.js
 
 
@@ -977,31 +977,6 @@ async function getStaticProps() {
 
 /***/ }),
 
-/***/ 771:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-if (false) { var height1, width1; }
-const useScreenSize = ()=>{
-    const [width, setWidth] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(width1);
-    const [height, setHeight] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(height1);
-    if (false) {}
-    return {
-        width,
-        height
-    };
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (useScreenSize);
-
-
-/***/ }),
-
 /***/ 4579:
 /***/ ((module) => {
 
@@ -1031,14 +1006,6 @@ module.exports = require("@mui/icons-material/Close");
 
 "use strict";
 module.exports = require("@mui/icons-material/Facebook");
-
-/***/ }),
-
-/***/ 5579:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("@mui/icons-material/ImportExport");
 
 /***/ }),
 
@@ -1095,14 +1062,6 @@ module.exports = require("@mui/icons-material/Lock");
 
 "use strict";
 module.exports = require("@mui/icons-material/Menu");
-
-/***/ }),
-
-/***/ 8711:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("@mui/icons-material/PowerInput");
 
 /***/ }),
 
@@ -1249,7 +1208,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,5799,5709], () => (__webpack_exec__(3780)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,9206,7908,5709], () => (__webpack_exec__(5288)));
 module.exports = __webpack_exports__;
 
 })();

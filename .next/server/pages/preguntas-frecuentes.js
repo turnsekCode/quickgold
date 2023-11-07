@@ -147,6 +147,20 @@ module.exports = {
 
 /***/ }),
 
+/***/ 8874:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"main": "Home_main__EtNt2",
+	"contenedorMapaVisible": "Home_contenedorMapaVisible__piXgh",
+	"contenedorSeccionUnoDos": "Home_contenedorSeccionUnoDos__pegsP",
+	"contenedorMapaVisibleCasaCambio": "Home_contenedorMapaVisibleCasaCambio__A5Ti8"
+};
+
+
+/***/ }),
+
 /***/ 8659:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -2583,7 +2597,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,5799], () => (__webpack_exec__(8659)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,9206], () => (__webpack_exec__(8659)));
 module.exports = __webpack_exports__;
 
 })();

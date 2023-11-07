@@ -106,7 +106,7 @@ const SeccionUno = ({ ciudad  })=>{
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _componentes_AccordionServicios_AccordionServicios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7215);
+/* harmony import */ var _componentes_AccordionServicios_AccordionServicios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(527);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _seccionDos_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7999);

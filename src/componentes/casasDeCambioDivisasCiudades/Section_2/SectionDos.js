@@ -1,97 +1,41 @@
-import React, { useState } from "react";
-import Comprar from "../ConversorDivisa/Comprar";
+import React from "react";
 import styles from "./section_2.module.css";
-import Vender from "../ConversorDivisa/Vender";
+import ConversorDivisa from "@/componentes/ConversorDivisa/ConversorDivisa";
 import Image from "next/image";
 
 const SectionDos = ({ ciudad, comprar }) => {
-  const [switched, setSwitched] = useState(null);
-  const [selectDivisa, setSelectDivisa] = useState(true);
-  const url = ciudad?.acf?.ciudad_minuscula;
   return (
-    <div
-      style={{
-        backgroundImage: `url(/assets/degradado${url}.png)`,
-      }}
-      className={styles.contenedorSectionDos}
-    >
+    <div className={styles.contenedorSectionDos}>
       <div className={styles.bloqueIzq}>
-        <figure>
-          <Image
-            src="/assets/imagen_calc.png"
-            alt="Logo Divisa"
-            width={80}
-            height={80}
-            priority
-          />
-        </figure>
-        <div className={styles.contenedorInfo}>
-          <h2>Cambio de Divisas {ciudad?.acf?.ciudad}</h2>
+        <h2 className={styles.bloqueIzqTitulo}>Cambio de divisa</h2>
+        <p className={styles.bloqueIzqTexto}>
+          Descubre el valor de la moneda que te interesa.
+        </p>
+        <ConversorDivisa ciudad={ciudad} comprar={comprar} />
+      </div>
+      <div className={styles.bloqueDer}>
+        <div className={styles.bloqueDerUno}>
+          <h2>
+            {ciudad?.acf?.texto_section_tres?.titulo_del_bloque_izq}
+            <span className={styles.linea}> {ciudad?.acf?.ciudad}?</span>
+          </h2>
           <p>
-            Conoce el tipo de cambio en nuestras<br></br> casas de cambio de
-            moneda en {ciudad?.acf?.ciudad}.
+            <span>{ciudad?.acf?.texto_section_tres?.texto_bloque_izq} </span>
+            {ciudad?.acf?.texto_section_tres?.texto_bloque_izq_negrita}
           </p>
         </div>
-        <div className={styles.contenedorBotones}>
-          {/* <button
-            onClick={() => {
-              setSwitched(false);
-              setSelectDivisa(true);
-            }}
-            className={
-              switched
-                ? `${styles.botonComprar}`
-                : `${styles.botonComprar} ${styles.botonActivo}`
-            }
-          >
-            QUIERO EUROS
-          </button>*/}
-          {comprar ? (
-            <>
-              {" "}
-              <button
-                onClick={() => {
-                  setSwitched(false);
-                  setSelectDivisa(true);
-                }}
-                className={
-                  switched
-                    ? `${styles.botonComprar}`
-                    : `${styles.botonComprar} ${styles.botonActivo}`
-                }
-              >
-                QUIERO EUROS
-              </button>
-              <button
-                className={
-                  switched
-                    ? `${styles.botonVender} ${styles.botonActivo}`
-                    : ` ${styles.botonVender}`
-                }
-                onClick={() => {
-                  setSwitched(true);
-                  setSelectDivisa(true);
-                }}
-              >
-                TENGO EUROS
-              </button>
-            </>
-          ) : null}
+        <div className={styles.bloqueDerDos}>
+          <h2>{ciudad?.acf?.texto_section_tres?.titulo_bloque_der}</h2>
+          <p>{ciudad?.acf?.texto_section_tres?.texto_bloque_der}</p>
         </div>
+        <Image
+          src="/assets/img/adornoCasaCambios.png"
+          alt="Casa de Cambio"
+          className={styles.ImageAdorno}
+          width={210}
+          height={210}
+        />
       </div>
-      {switched ? (
-        <Vender
-          ciudad={ciudad}
-          setSelectDivisa={setSelectDivisa}
-          selectDivisa={selectDivisa}
-        />
-      ) : (
-        <Comprar
-          ciudad={ciudad}
-          setSelectDivisa={setSelectDivisa}
-          selectDivisa={selectDivisa}
-        />
-      )}
     </div>
   );
 };

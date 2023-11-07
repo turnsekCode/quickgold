@@ -9,18 +9,9 @@ const SectionCuatro = ({ ciudad }) => {
       <div className={styles.bloqueIzq}>
         <h2>
           {ciudad?.acf?.texto_section_con_imagen?.titulo_bloqueizq} {""}
-          <span className={styles.linea}>{ciudad?.acf?.ciudad}</span>
+          {ciudad?.acf?.ciudad}
         </h2>
         <p>{ciudad?.acf?.texto_section_con_imagen?.texto_bloque_izq}</p>
-      </div>
-      <div className={styles.bloqueDer}>
-        <Image
-          src={`/assets/casa-cambio-${ciudad?.acf?.ciudad_minuscula}.webp`}
-          alt={`Cambiar Dólares a Euros ${ciudad?.acf?.ciudad}`}
-          className={styles.Image}
-          width={480}
-          height={390}
-        />
       </div>
     </section>
   );

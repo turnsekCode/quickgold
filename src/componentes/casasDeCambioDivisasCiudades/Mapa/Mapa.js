@@ -1,8 +1,7 @@
 import React, { useState, useRef } from "react";
-//import BloqueTiendas from "../BloqueTiendas/BloqueTiendas";
-import styles from "./mapa.module.css";
-//import dynamic from "next/dynamic";
-import { Link } from "react-scroll";
+import styles from "./mapaCiudades.module.css";
+import { Link as Link2 } from "react-scroll";
+import CallIcon from "@mui/icons-material/Call";
 import Map, {
   FullscreenControl,
   GeolocateControl,
@@ -10,16 +9,14 @@ import Map, {
   NavigationControl,
   Popup,
 } from "react-map-gl";
+import Link from "next/link";
 
-/*const DynamicBloqueTiendas = dynamic(() =>
-  import("../BloqueTiendas/BloqueTiendas")
-);*/
 const Mapa = ({ markers, ciudad }) => {
   const marcador = markers.arrayMarker;
   const [viewState, setViewState] = useState({
-    longitude: markers?.markerInicial[0].longitude,
-    latitude: markers?.markerInicial[0].latitude,
-    zoom: markers?.markerInicial[0].zoom,
+    longitude: markers.markerInicial[0].longitude,
+    latitude: markers.markerInicial[0].latitude,
+    zoom: markers.markerInicial[0].zoom,
     cooperativeGestures: true,
   });
   const mapRef = useRef();
@@ -27,11 +24,11 @@ const Mapa = ({ markers, ciudad }) => {
     setShowPopup(false);
     mapRef.current?.flyTo({
       center: [
-        markers?.markerInicial[0].longitude,
-        markers?.markerInicial[0].latitude,
+        markers.markerInicial[0].longitude,
+        markers.markerInicial[0].latitude,
       ],
       duration: 2000,
-      zoom: markers?.markerInicial[0].zoom,
+      zoom: markers.markerInicial[0].zoom,
     });
   };
   const [showPopup, setShowPopup] = useState(null);
@@ -50,6 +47,7 @@ const Mapa = ({ markers, ciudad }) => {
     nombreTienda: "",
     duration: "",
     zoom: "",
+    url: "",
   });
   const [activeId, setActiveId] = useState("");
   const onSelectMarker = (marker) => {
@@ -64,6 +62,7 @@ const Mapa = ({ markers, ciudad }) => {
       nombreTienda: marker.nombreTienda,
       duration: marker.duration,
       zoom: marker.zoom,
+      url: marker.url,
     });
     mapRef.current?.flyTo({
       center: { lng: marker.longitude, lat: marker.latitude },
@@ -77,56 +76,56 @@ const Mapa = ({ markers, ciudad }) => {
     <section className={styles.contenedorMapa}>
       <div className={styles.contenedorbloqueIzq}>
         <div className={styles.bloqueIzq}>
-          <h2>
-            Casas de cambio en{" "}
-            <span className={styles.linea}>{ciudad?.acf?.ciudad}</span>
-          </h2>
           <p>
-            Tiendas Quickgold: <span>{numeroDeTiendas.id}</span>
+            Tiendas: <span>{numeroDeTiendas?.id}</span>
           </p>
         </div>
         <div className={styles.contenedorTiendas}>
           {marcador.map((marker) => (
-            <div
+            <Link2
               onClick={() => {
                 toggleTab();
                 onSelectMarker(marker);
               }}
+              to="contenedorMapa2"
+              smooth={true}
+              offset={-110}
+              spy={true}
+              duration={500}
               key={marker.id}
-              className={
-                activeId === marker?.id && showPopup
-                  ? `${styles.contenedorInfoTiendaMapa} ${styles.contenedorInfoTiendaMapaActivo}`
-                  : ` ${styles.contenedorInfoTiendaMapa}`
-              }
             >
-              <Link
+              <div
                 onClick={() => {
                   toggleTab();
                   onSelectMarker(marker);
                 }}
-                to="contenedorMapa2"
-                smooth={true}
-                offset={-110}
-                spy={true}
-                duration={500}
+                className={
+                  activeId === marker.id && showPopup
+                    ? `${styles.contenedorInfoTiendaMapa} ${styles.contenedorInfoTiendaMapaActivo}`
+                    : ` ${styles.contenedorInfoTiendaMapa}`
+                }
               >
                 <h3>{marker?.nombreTienda}</h3>
-              </Link>
-              <div className={styles.tienda}>
-                <p>{marker?.direccion}</p>
-                <p>Teléfono: {marker?.telefono}</p>
-                <Link
-                  to="contenedorMapa2"
-                  smooth={true}
-                  offset={-110}
-                  spy={true}
-                  duration={500}
-                  className={styles.boton_como_llegar}
-                >
-                  Ver Más
-                </Link>
+                <div className={styles.tienda}>
+                  <p>{marker?.direccion}</p>
+                  <p>{marker?.telefono}</p>
+                  {/* <Link2
+                    onClick={() => {
+                      toggleTab();
+                      onSelectMarker(marker);
+                    }}
+                    to="contenedorMapa2"
+                    smooth={true}
+                    offset={-110}
+                    spy={true}
+                    duration={500}
+                    className={styles.boton_como_llegar}
+                  >
+                    Ver Más
+                  </Link2>*/}
+                </div>
               </div>
-            </div>
+            </Link2>
           ))}
         </div>
         {/*<BloqueTiendas />*/}
@@ -152,9 +151,9 @@ const Mapa = ({ markers, ciudad }) => {
           </button>
           {marcador.map((marker) => (
             <Marker
-              key={marker?.id}
-              longitude={marker?.longitude}
-              latitude={marker?.latitude}
+              key={marker.id}
+              longitude={marker.longitude}
+              latitude={marker.latitude}
               onClick={() => {
                 onSelectMarker(marker);
                 toggleTab();
@@ -163,48 +162,61 @@ const Mapa = ({ markers, ciudad }) => {
               {showPopup ? (
                 <Popup
                   style={{ top: -25, maxWidth: 255 }}
-                  longitude={showInfo.longitude}
+                  longitude={showInfo?.longitude}
                   className="popup"
-                  latitude={showInfo.latitude}
+                  latitude={showInfo?.latitude}
                   closeOnClick={false}
                   anchor={null}
                   onClose={() => setShowPopup(false)}
                 >
                   <div className={styles.contenedor_popuop}>
                     <p className={styles.nombre_ciudad_popup}>
-                      {showInfo.nombreTienda}
+                      {showInfo?.nombreTienda}
                     </p>
-                    <p className={styles.nombre_ciudad_popup}>Contacto:</p>
                     <a
                       title="Dirección"
-                      href={showInfo.comoLlegar}
+                      href={showInfo?.comoLlegar}
                       rel="noreferrer"
                       target="_blank"
                       className={styles.direccion_popup}
                     >
-                      {showInfo.direccion}
+                      {showInfo?.direccion}
                     </a>
-                    <br />
-
+                    <br></br>
                     <a
-                      href={`tel:${showInfo.telefono}`}
+                      href={`tel:${showInfo?.telefono}`}
                       className={styles.telefono_popup}
                       title="Teléfono"
                     >
-                      <span>Llamar: </span>
-                      {showInfo.telefono}
+                      <span>
+                        <CallIcon></CallIcon>{" "}
+                      </span>
+                      {showInfo?.telefono}
                     </a>
-                    <br />
                     <a
                       title="Cómo llegar"
-                      href={showInfo.comoLlegar}
+                      href={showInfo?.comoLlegar}
                       rel="noreferrer"
-                      ƒ
-                      className={styles.boton_como_llegar}
+                      className={styles.boton_popUp}
                     >
                       Cómo llegar
                     </a>
-                    <br></br>
+                    <a
+                      title="Llamar"
+                      href={`tel:${showInfo?.telefono}`}
+                      rel="noreferrer"
+                      className={styles.boton_popUp}
+                    >
+                      Llamar
+                    </a>
+                    <Link
+                      title="Cómo llegar"
+                      href={showInfo?.url}
+                      rel="noreferrer"
+                      className={styles.boton_popUp}
+                    >
+                      Web
+                    </Link>
                   </div>
                 </Popup>
               ) : null}

@@ -1,4 +1,4 @@
-.contenedorContenidoUno{
+.contenedorSectionTres{
     display: flex;
     justify-content: space-between;
     margin-top: 55px;
@@ -97,11 +97,11 @@ font-weight: 700;
     font-family: 'Gotham Bold';
 }
 @media (min-width: 610px) {
-    .contenedorContenidoUno {
+    .contenedorSectionTres {
         display: flex;
         justify-content: space-between;
         margin-top: 55px;
-        flex-direction: row;
+        flex-direction: column;
         padding: 0;
     }
 

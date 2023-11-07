@@ -1,127 +1,186 @@
 .contenedorSectionDos{
-    justify-content: center;
-    background-color: #0692d0;
-    background-repeat: no-repeat;
-    background-position: 650px;
-    width: 100%;
-    height: 743px;
-    border-radius: 8px;
-    margin-top: 55px;
-}
-
-.bloqueIzq, .bloqueDer{
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 25px 10px;
+    gap: 20px;
+    justify-content: space-between;
 }
-.bloqueIzq figure img{
-    width: 80px;
-    height: 80px;
+.bloqueIzq {
+    width: 100%;
+    border-radius: 8px;
+    background: #0F2D45;
+    padding: 40px 30px;
 }
-.contenedorInfo h2{
-    font-weight: 700;
+.bloqueIzqTitulo{
+    color: #FFF;
+    font-family: "Gotham Black";
     font-size: 30px;
-    line-height: 40px;
-    text-align: center;
-    color: #FFFFFF;
-    font-family: 'Gotham Bold';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
-.contenedorInfo p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #FFFFFF;
-}
-.contenedorBotones{
-    margin-top: 30px;
-    display: flex;
-    gap: 10px;
-  
-}
-.botonComprar, .botonVender{
-    background: #1864A8;
-    align-items: center;
-    padding: 13px 10px;
-    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 2px;
-    border: none;
-    color: #FFFFFF;
-    font-weight: 700;
+.bloqueIzqTexto{
+    color: #FFF;
     font-size: 13px;
-    line-height: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.bloqueDer{
+    width: 99%;
+    height: 770px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    position: relative;
+    padding: 35px 50px;
+}
+.ImageAdorno{
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+.bloqueDerUno h2{
+    color:  #213E58;
     text-align: center;
-    cursor: pointer;
+    font-family: "Gotham Bold";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
 }
-
-.botonActivo{
-    background: #E83C82;
+.bloqueDerUno p{
+    color: #213E58;
+    text-align: justify;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    margin-bottom: 20px;
 }
-
+.bloqueDerUno p span{
+    color: #213E58;
+    text-align: justify;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: "Gotham Bold";
+}
+.bloqueDerDos h2{
+    color: #213E58;
+    text-align: center;
+    font-family: "Gotham Bold";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.bloqueDerDos p {
+    color: #213E58;
+    text-align: justify;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+}
 @media (min-width: 610px) {
     .contenedorSectionDos {
-        width: 100%;
-        height: 490px;
-        border-radius: 8px;
-        margin-top: 55px;
+        margin-top: 80px;
         display: flex;
-        gap: 60px;
-        background-blend-mode: multiply;
-        background-position: left;
-        background-size: 50%;
-        background-color: #0692d0;
-        background-repeat: no-repeat;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .bloqueIzq {
+        width: 50%;
+        border-radius: 8px;
+        background: #0F2D45;
+        padding: 40px 30px;
+    }
+
+    .bloqueIzqTitulo {
+        color: #FFF;
+        font-family: "Gotham Black";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .bloqueIzqTexto {
+        color: #FFF;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    .bloqueDer {
+        width: 50%;
+        height: 650px;
+        border-radius: 8px;
+        border: 1px solid #000;
+        position: relative;
+        padding: 35px 50px;
+    }
+
+    .ImageAdorno {
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+    }
+
+    .bloqueDerUno h2 {
+        color: #213E58;
+        text-align: center;
+        font-family: "Gotham Bold";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    .bloqueDerUno p {
+        color: #213E58;
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bloqueDerUno p span {
+        color: #213E58;
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        font-family: "Gotham Bold";
+    }
+
+    .bloqueDerDos h2 {
+        color: #213E58;
+        text-align: center;
+        font-family: "Gotham Bold";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    .bloqueDerDos p {
+        color: #213E58;
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 20px;
     }
    
-        .bloqueIzq,
-        .bloqueDer {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 0;
-        }
-        .bloqueIzq figure img {
-            width: 80px;
-            height: 80px;
-        }
-        .contenedorInfo h2 {
-            font-weight: 700;
-            font-size: 30px;
-            line-height: 40px;
-            text-align: center;
-            color: #FFFFFF;
-        }
-        .contenedorInfo p {
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 17px;
-            text-align: center;
-            color: #FFFFFF;
-        }
-        .contenedorBotones {
-            margin-top: 30px;
-            display: flex;
-            gap: 10px;
-        }
-        .botonComprar,
-        .botonVender {
-            background: #1864A8;
-            align-items: center;
-            padding: 13px 10px;
-            box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 2px;
-            border: none;
-            color: #FFFFFF;
-            font-weight: 700;
-            font-size: 13px;
-            line-height: 14px;
-            text-align: center;
-            cursor: pointer;
-        }
-        .botonActivo {
-            background: #E83C82;
-        }
+
 }
