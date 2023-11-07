@@ -14,6 +14,7 @@ import SectionCuatro from "@/componentes/Cambio-divisas/Section_4/SectionCuatro"
 import Section_cinco from "@/componentes/Cambio-divisas/Section_5/Section_cinco";
 import Section_cinco_mobil from "@/componentes/Cambio-divisas/Section_5_mobil/Section_cinco_mobil";
 import Section_seis from "@/componentes/Cambio-divisas/Section_6/Section_seis";
+import BotonLamarFijo from "@/componentes/BotonLlamarFijo/BotonLamarFijo";
 
 export default function CambioDivisas({
   menu_list,
@@ -68,6 +69,7 @@ export default function CambioDivisas({
           <Section_dos ciudad={ciudad} listadoUrlCiudad={listadoUrlCiudad} />
           <SectionTres ciudad={ciudad} />
           <SectionCuatro ciudad={ciudad} />
+          <BotonLamarFijo ciudad={ciudad} />
         </div>
 
         <Section_cinco ciudad={ciudad} />

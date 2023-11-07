@@ -9,6 +9,7 @@ import Section_tres from "@/componentes/Compro-oro/Section_3/Section_tres";
 import Section_dos from "@/componentes/Compro-oro/Section_2/Section_dos";
 import Section_cinco from "@/componentes/Compro-oro/Section_5/Section_cinco";
 import Section_seis from "@/componentes/Compro-oro/Section_6/Section_seis";
+import BotonLamarFijo from "@/componentes/BotonLlamarFijo/BotonLamarFijo";
 
 const schema = {
   "@context": "http://www.schema.org",
@@ -84,6 +85,7 @@ export default function ComproOro({
           listadoCiudadesServicios={listadoCiudadesServicios}
           ciudad={ciudad}
         />
+        <BotonLamarFijo ciudad={ciudad} />
       </Layout>
     </>
   );

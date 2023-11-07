@@ -10,6 +10,7 @@ import Section_tres from "@/componentes/Joyeria-de-ocasion/Section_3/Section_tre
 import Section_cuatro from "@/componentes/Joyeria-de-ocasion/Section_4/Section_cuatro";
 import Section_cinco from "@/componentes/Joyeria-de-ocasion/Section_5/Section_cinco";
 import Section_seis from "@/componentes/Joyeria-de-ocasion/Section_6/Section_seis";
+import BotonLamarFijo from "@/componentes/BotonLlamarFijo/BotonLamarFijo";
 
 export default function JoyeriaOcasion({
   menu_list,
@@ -64,6 +65,7 @@ export default function JoyeriaOcasion({
         <Section_cuatro ciudad={ciudad} />
         <Section_cinco ciudad={ciudad} />
         <Section_seis ciudad={ciudad} />
+        <BotonLamarFijo ciudad={ciudad} />
       </Layout>
     </>
   );

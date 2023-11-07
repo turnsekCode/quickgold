@@ -11,6 +11,7 @@ import Section_cuatro from "@/componentes/Compro-plata/Section_4/Section_cuatro"
 import Section_Seis from "@/componentes/Compro-plata/Section_6/Section_seis";
 import Section_seis_mobil from "@/componentes/Compro-plata/Section_6_mobil/Section_seis_mobil";
 import Section_siete from "@/componentes/Compro-plata/Section_7/Section_siete";
+import BotonLamarFijo from "@/componentes/BotonLlamarFijo/BotonLamarFijo";
 
 export default function ComproPlata({ menu_list, ciudad, listadoUrlCiudad }) {
   return (
@@ -66,6 +67,7 @@ export default function ComproPlata({ menu_list, ciudad, listadoUrlCiudad }) {
           ciudad={ciudad}
           //listadoCiudadesServicios={listadoCiudadesServicios}
         />
+        <BotonLamarFijo ciudad={ciudad} />
       </Layout>
     </>
   );

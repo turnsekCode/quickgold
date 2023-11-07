@@ -985,10 +985,13 @@ const Section_cuatro_mobil = ({ ciudad  })=>{
 };
 /* harmony default export */ const Section_4_mobil_Section_cuatro_mobil = (Section_cuatro_mobil);
 
+// EXTERNAL MODULE: ./src/componentes/BotonLlamarFijo/BotonLamarFijo.js
+var BotonLamarFijo = __webpack_require__(7186);
 ;// CONCATENATED MODULE: ./src/pages/vender-diamantes/index.js
 
 
 //import Image from "next/image";
+
 
 
 
@@ -1072,6 +1075,9 @@ function VenderDiamantes({ menu_list , ciudad , listadoUrlCiudad  }) {
                         ciudad: ciudad
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx(Section_5_Section_cinco, {
+                        ciudad: ciudad
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(BotonLamarFijo/* default */.Z, {
                         ciudad: ciudad
                     })
                 ]
@@ -1373,7 +1379,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,5152,7699,9206,8100], () => (__webpack_exec__(4091)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,5152,7699,9206,3366], () => (__webpack_exec__(4091)));
 module.exports = __webpack_exports__;
 
 })();

@@ -13,6 +13,7 @@ import SeccionDos from "@/componentes/ComponentesPaginasCiudad/seccionDos/Seccio
 import BannerPromoGeneral from "@/componentes/BannerGeneral/BannerPromoGeneral";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import Mapa from "@/componentes/MapaCiudades/MapaCiudades.js";
+import HtmlGeneral from "@/componentes/ComponenteHTMLGeneral/HtmlGeneral";
 import BannerPromoTiendas from "@/componentes/BannerPromoTiendas/BannerPromoTiendas.js";
 
 export default function SantiagoDeCompostela({
@@ -134,6 +135,7 @@ export default function SantiagoDeCompostela({
             </article>
             {/*<Mapa markers={markers} />*/}
           </div>
+<HtmlGeneral general={general}/>
         </div>
 
         {ciudad?.acf?.tienda === "" ? (

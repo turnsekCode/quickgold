@@ -9,6 +9,7 @@ import Section_uno from "@/componentes/Invertir-en-oro/Section_1/Section_uno";
 import Section_dos from "@/componentes/Invertir-en-oro/Section_2/Section_dos";
 import Section_tres from "@/componentes/Invertir-en-oro/Section_3/Section_tres";
 import Section_cuatro from "@/componentes/Invertir-en-oro/Section_4/Section_cuatro";
+import BotonLamarFijo from "@/componentes/BotonLlamarFijo/BotonLamarFijo";
 
 export default function InvertirEnOro({ menu_list, ciudad, popUpCiudades }) {
   const nombreCiudad = ciudad?.acf?.ciudad_oro;
@@ -73,6 +74,7 @@ export default function InvertirEnOro({ menu_list, ciudad, popUpCiudades }) {
           <Section_tres ciudad={ciudad} />
         </div>
         <Section_cuatro ciudad={ciudad} />
+        <BotonLamarFijo ciudad={ciudad} />
       </Layout>
     </>
   );

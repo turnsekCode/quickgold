@@ -14,6 +14,7 @@ import BannerPromoGeneral from "@/componentes/BannerGeneral/BannerPromoGeneral";
 import BannerPromoTiendas from "@/componentes/BannerPromoTiendas/BannerPromoTiendas.js";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import Mapa from "@/componentes/MapaCiudades/MapaCiudades.js";
+import HtmlGeneral from "@/componentes/ComponenteHTMLGeneral/HtmlGeneral";
 
 export default function AlcalaDeHenares({
   markers,
@@ -134,6 +135,7 @@ export default function AlcalaDeHenares({
             </article>
             {/*<Mapa markers={markers} />*/}
           </div>
+          <HtmlGeneral general={general}/>
         </div>
         {ciudad?.acf?.tienda === "" ? (
           <BotonLamarFijo ciudad={ciudad} />

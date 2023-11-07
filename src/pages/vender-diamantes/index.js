@@ -13,6 +13,7 @@ import Section_tres from "@/componentes/Vender-diamantes/Section_3/Section_tres"
 import Section_cuatro from "@/componentes/Vender-diamantes/Section_4/Section_cuatro";
 import Section_cinco from "@/componentes/Vender-diamantes/Section_5/Section_cinco";
 import Section_cuatro_mobil from "@/componentes/Vender-diamantes/Section_4_mobil/Section_cuatro_mobil";
+import BotonLamarFijo from "@/componentes/BotonLlamarFijo/BotonLamarFijo";
 
 export default function VenderDiamantes({
   menu_list,
@@ -66,6 +67,7 @@ export default function VenderDiamantes({
         <Section_cuatro ciudad={ciudad} />
         <Section_cuatro_mobil ciudad={ciudad} />
         <Section_cinco ciudad={ciudad} />
+        <BotonLamarFijo ciudad={ciudad} />
       </Layout>
     </>
   );

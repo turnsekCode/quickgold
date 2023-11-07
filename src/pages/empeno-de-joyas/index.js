@@ -8,6 +8,7 @@ import Section_uno from "@/componentes/Empeno-de-joyas/Section_1/Section_uno";
 import Section_tres from "@/componentes/Empeno-de-joyas/Section_3/Section_tres";
 import Section_cuatro from "@/componentes/Empeno-de-joyas/Section_4/Section_cuatro";
 import Section_seis from "@/componentes/Empeno-de-joyas/Section_6/Section_seis";
+import BotonLamarFijo from "@/componentes/BotonLlamarFijo/BotonLamarFijo";
 
 export default function EmpenoJoyas({ menu_list, ciudad, listadoUrlCiudad }) {
   return (
@@ -56,6 +57,7 @@ export default function EmpenoJoyas({ menu_list, ciudad, listadoUrlCiudad }) {
         </div>
         <Section_tres ciudad={ciudad} />
         <Section_cuatro ciudad={ciudad} />
+        <BotonLamarFijo ciudad={ciudad} />
       </Layout>
     </>
   );

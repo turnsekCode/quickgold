@@ -4,6 +4,17 @@ exports.id = 9107;
 exports.ids = [9107];
 exports.modules = {
 
+/***/ 9657:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"botonLlamar": "botonLamarFijo_botonLlamar__ywd7X"
+};
+
+
+/***/ }),
+
 /***/ 4574:
 /***/ ((module) => {
 
@@ -152,6 +163,37 @@ module.exports = {
 	"contenedorTiposDivisas": "sectionSeis_contenedorTiposDivisas__P8cEj",
 	"contenedorTiposDivisasCard1": "sectionSeis_contenedorTiposDivisasCard1__uFYFe"
 };
+
+
+/***/ }),
+
+/***/ 7186:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _botonLamarFijo_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9657);
+/* harmony import */ var _botonLamarFijo_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_botonLamarFijo_module_css__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+const BotonLamarFijo = ()=>{
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        className: (_botonLamarFijo_module_css__WEBPACK_IMPORTED_MODULE_2___default().botonLlamar),
+        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+            title: "Tel\xe9fono",
+            href: "tel:900 373 629",
+            children: "LLAMAR A 900 373 629"
+        })
+    });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (BotonLamarFijo);
 
 
 /***/ }),
@@ -962,8 +1004,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _componentes_BreadcrumbsRaiz_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9206);
 /* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(547);
 /* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(8874);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(8874);
+/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16__);
 /* harmony import */ var _componentes_Layout_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(7699);
 /* harmony import */ var react_intersection_observer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(4009);
 /* harmony import */ var _bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(4579);
@@ -975,11 +1017,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _componentes_Cambio_divisas_Section_5_Section_cinco__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(874);
 /* harmony import */ var _componentes_Cambio_divisas_Section_5_mobil_Section_cinco_mobil__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(179);
 /* harmony import */ var _componentes_Cambio_divisas_Section_6_Section_seis__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(2639);
+/* harmony import */ var _componentes_BotonLlamarFijo_BotonLamarFijo__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(7186);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([react_intersection_observer__WEBPACK_IMPORTED_MODULE_6__]);
 react_intersection_observer__WEBPACK_IMPORTED_MODULE_6__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
 
 //import Image from "next/image";
+
 
 
 
@@ -1041,7 +1085,7 @@ function CambioDivisas({ menu_list , ciudad , divisas_list , listadoUrlCiudad , 
                 ciudad: ciudad,
                 children: [
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15___default().main),
+                        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16___default().main),
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BreadcrumbsRaiz_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
                                 raiz: "Quickgold",
@@ -1061,6 +1105,9 @@ function CambioDivisas({ menu_list , ciudad , divisas_list , listadoUrlCiudad , 
                                 ciudad: ciudad
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_Cambio_divisas_Section_4_SectionCuatro__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {
+                                ciudad: ciudad
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BotonLlamarFijo_BotonLamarFijo__WEBPACK_IMPORTED_MODULE_15__/* ["default"] */ .Z, {
                                 ciudad: ciudad
                             })
                         ]

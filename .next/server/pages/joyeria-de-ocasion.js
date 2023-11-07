@@ -637,7 +637,10 @@ const Section_seis = ()=>{
 };
 /* harmony default export */ const Section_6_Section_seis = (Section_seis);
 
+// EXTERNAL MODULE: ./src/componentes/BotonLlamarFijo/BotonLamarFijo.js
+var BotonLamarFijo = __webpack_require__(7186);
 ;// CONCATENATED MODULE: ./src/pages/joyeria-de-ocasion/index.js
+
 
 
 
@@ -725,6 +728,9 @@ function JoyeriaOcasion({ menu_list , ciudad , listadoUrlCiudad  }) {
                         ciudad: ciudad
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx(Section_6_Section_seis, {
+                        ciudad: ciudad
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(BotonLamarFijo/* default */.Z, {
                         ciudad: ciudad
                     })
                 ]
@@ -1186,7 +1192,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,9206,7908,8100], () => (__webpack_exec__(208)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,9206,7908,3366], () => (__webpack_exec__(208)));
 module.exports = __webpack_exports__;
 
 })();

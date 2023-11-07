@@ -4,6 +4,17 @@ exports.id = 8469;
 exports.ids = [8469];
 exports.modules = {
 
+/***/ 9657:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"botonLlamar": "botonLamarFijo_botonLlamar__ywd7X"
+};
+
+
+/***/ }),
+
 /***/ 4772:
 /***/ ((module) => {
 
@@ -102,6 +113,37 @@ module.exports = {
 	"contenedorTiposOroCard1": "sectionSeis_contenedorTiposOroCard1__DlThX",
 	"contenedorTiposOroCard2": "sectionSeis_contenedorTiposOroCard2__NBwiU"
 };
+
+
+/***/ }),
+
+/***/ 7186:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _botonLamarFijo_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9657);
+/* harmony import */ var _botonLamarFijo_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_botonLamarFijo_module_css__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+const BotonLamarFijo = ()=>{
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        className: (_botonLamarFijo_module_css__WEBPACK_IMPORTED_MODULE_2___default().botonLlamar),
+        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+            title: "Tel\xe9fono",
+            href: "tel:900 373 629",
+            children: "LLAMAR A 900 373 629"
+        })
+    });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (BotonLamarFijo);
 
 
 /***/ }),
@@ -740,7 +782,10 @@ const Section_seis = ({ listadoCiudadesServicios  })=>{
 };
 /* harmony default export */ const Section_6_Section_seis = (Section_seis);
 
+// EXTERNAL MODULE: ./src/componentes/BotonLlamarFijo/BotonLamarFijo.js
+var BotonLamarFijo = __webpack_require__(7186);
 ;// CONCATENATED MODULE: ./src/pages/compro-oro/index.js
+
 
 
 
@@ -841,6 +886,9 @@ function ComproOro({ menu_list , listadoUrlCiudad , listadoCiudadesServicios , c
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx(Section_6_Section_seis, {
                         listadoCiudadesServicios: listadoCiudadesServicios,
+                        ciudad: ciudad
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(BotonLamarFijo/* default */.Z, {
                         ciudad: ciudad
                     })
                 ]

@@ -540,7 +540,10 @@ const Section_cuatro = ({ ciudad  })=>{
 };
 /* harmony default export */ const Section_4_Section_cuatro = (Section_cuatro);
 
+// EXTERNAL MODULE: ./src/componentes/BotonLlamarFijo/BotonLamarFijo.js
+var BotonLamarFijo = __webpack_require__(7186);
 ;// CONCATENATED MODULE: ./src/pages/invertir-en-oro/index.js
+
 
 
 
@@ -634,6 +637,9 @@ function InvertirEnOro({ menu_list , ciudad , popUpCiudades  }) {
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx(Section_4_Section_cuatro, {
+                        ciudad: ciudad
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(BotonLamarFijo/* default */.Z, {
                         ciudad: ciudad
                     })
                 ]
@@ -903,7 +909,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,9206,7908,8100], () => (__webpack_exec__(434)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,9206,7908,3366], () => (__webpack_exec__(434)));
 module.exports = __webpack_exports__;
 
 })();
