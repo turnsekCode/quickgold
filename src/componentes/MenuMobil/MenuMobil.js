@@ -84,14 +84,13 @@ const MenuMobil = ({ menuAbieto, menu_list }) => {
 
               <a href="/vender-diamantes">COMPRA DE DIAMANTES</a>
             </div>
-
-            {/*<a
+            <a
               className={styles.contacto}
               href="https://quickgold.es/contacto"
               title="Ir a contacto"
             >
               CONTACTO
-            </a>*/}
+            </a>
           </div>
           <div className={styles.menuInferiorMobil}>
             <ul>
@@ -105,11 +104,11 @@ const MenuMobil = ({ menuAbieto, menu_list }) => {
                   TRABAJA CON NOSOTROS
                 </a>
               </li>
-              <li>
+              {/*<li>
                 <a href="/preguntas-frecuentes" title="PREGUNTA FRECUENTES">
                   PREGUNTA FRECUENTES
                 </a>
-              </li>
+            </li>*/}
               {/* <li>
                 <a href="/blog/" title="">
                   BLOG

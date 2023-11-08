@@ -158,7 +158,7 @@ const BotonLamarFijo = ()=>{
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
             title: "Tel\xe9fono",
             href: "tel:900 373 629",
-            children: "LLAMAR A 900 373 629"
+            children: "LLAMA GRATIS"
         })
     });
 };

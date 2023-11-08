@@ -250,6 +250,13 @@ const MenuOrdenador = ({ menu_list , sticky , stickyRef  })=>{
                         title: "Ir a expansion",
                         children: "SOBRE QUICKGOLD"
                     })
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        href: "https://quickgold.es/contacto",
+                        title: "Ir a contacto",
+                        children: "CONTACTO"
+                    })
                 })
             ]
         })
@@ -355,6 +362,12 @@ const MenuMobil = ({ menuAbieto , menu_list  })=>{
                                         children: "COMPRA DE DIAMANTES"
                                     })
                                 ]
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                className: (menuMobil_module_default()).contacto,
+                                href: "https://quickgold.es/contacto",
+                                title: "Ir a contacto",
+                                children: "CONTACTO"
                             })
                         ]
                     }),
@@ -374,13 +387,6 @@ const MenuMobil = ({ menuAbieto , menu_list  })=>{
                                         href: "/trabaja-con-nosotros",
                                         title: "TRABAJA CON NOSOTROS",
                                         children: "TRABAJA CON NOSOTROS"
-                                    })
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "/preguntas-frecuentes",
-                                        title: "PREGUNTA FRECUENTES",
-                                        children: "PREGUNTA FRECUENTES"
                                     })
                                 })
                             ]

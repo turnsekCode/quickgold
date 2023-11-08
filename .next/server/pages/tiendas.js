@@ -9157,7 +9157,7 @@ function MapaTiendas({ menu_list , ListadoCiudades , alcaladehenares , alcobenda
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx((next_seo_default()), {
-                title: "Tiendas compro oro Quickgold | M\xe1s de 60 Tiendas en Espa\xf1a",
+                title: "Tiendas compro oro Quickgold - M\xe1s de 60 Tiendas en Espa\xf1a",
                 description: "Buscador de tiendas Quickgold. Encuentra tu tienda compro oro e inf\xf3rmate de todos los servicios que se prestan en ella. Ubicaci\xf3n, tel\xe9fono, horarios y m\xe1s",
                 icon: "/favicon.png",
                 facebook: {

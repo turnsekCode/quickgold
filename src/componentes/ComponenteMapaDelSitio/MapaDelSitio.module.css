@@ -1,0 +1,41 @@
+.contenidoMapa {
+    max-width: 1060px;
+    margin:auto;
+    padding: 20px 0px;
+}
+
+.contenidoMapa ul {
+    padding-left: 30px;
+}
+.contenidoMapa ul li {
+    margin-bottom: 5px;
+}
+.tituloMapa {
+    font-size: 35px;
+    line-height: 35px;
+    color: #213E58;
+    text-align: center;
+    padding-top: 0;
+    font-family: 'Gotham Black';
+}
+.tituloA {
+    color: mediumblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+}
+.tituloA a {
+    color: mediumblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.tituloTexto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+    font-style: italic;
+}
+

@@ -76,7 +76,7 @@ export default function MapaTiendas({
   return (
     <>
       <SEO
-        title="Tiendas compro oro Quickgold | Más de 60 Tiendas en España"
+        title="Tiendas compro oro Quickgold - Más de 60 Tiendas en España"
         description="Buscador de tiendas Quickgold. Encuentra tu tienda compro oro e infórmate de todos los servicios que se prestan en ella. Ubicación, teléfono, horarios y más"
         icon="/favicon.png"
         facebook={{
