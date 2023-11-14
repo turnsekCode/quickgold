@@ -39,24 +39,13 @@ export default function VenderDiamantes({
       />
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link
-          rel="stylesheet preload prefetch"
-          href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-          as="style"
-        ></link>
-        <noscript>
-          <link
-            rel="stylesheet"
-            href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-          />
-        </noscript>
       </Head>
       <Layout menu_list={menu_list} ciudad={ciudad}>
         <div className={styles.main}>
           <Breadcrumbs
             raiz="Quickgold"
             iconoRaiz={<KeyboardArrowRightIcon />}
-            urlUbicacionActual="/vender-diamantes/"
+            urlUbicacionActual="/vender-diamantes"
             iconoUbiccionActual={<KeyboardArrowRightIcon />}
             ubicacionActual="Compra de diamantes"
           />
@@ -72,7 +61,6 @@ export default function VenderDiamantes({
     </>
   );
 }
-const idTienda = "venderdiamantes";
 const idPaginaWp = "384";
 const apiGeneral = "13848";
 

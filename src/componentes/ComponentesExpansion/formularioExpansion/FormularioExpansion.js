@@ -1,25 +1,14 @@
 import styles from "./formularioExpansion.module.css";
-import Image from "next/image";
 import {
-  Heading,
   FormControl,
-  Container,
-  FormLabel,
   Input,
-  Textarea,
   FormErrorMessage,
-  Button,
   Text,
   useToast,
   Checkbox,
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { sendContactForm } from "../../../lib/api";
-import { useRouter } from "next/router";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
-import LocalPhoneRoundedIcon from "@mui/icons-material/LocalPhoneRounded";
-//import { sendContactBd } from "../lib/bdConect";
 import { ChakraProvider } from "@chakra-ui/react";
 
 const initValues = {
@@ -34,8 +23,7 @@ const FormularioExpansion = () => {
   const toast = useToast();
   const [state, setState] = useState(initState);
   const [touched, setTouched] = useState({});
-  const { values, isLoading, error } = state;
-  //const router = useRouter();
+  const { values, error } = state;
   const [checkedItems, setCheckedItems] = useState(false);
   const onBlur = ({ target }) =>
     setTouched((prev) => ({
@@ -57,10 +45,8 @@ const FormularioExpansion = () => {
     }));
     try {
       await sendContactForm(values);
-      //await sendContactBd(values);
       setTouched({});
       setState(initState);
-      //router.push("/gracias");
       toast({
         title: "Mensaje enviado",
         status: "success",
@@ -162,12 +148,13 @@ const FormularioExpansion = () => {
           onChange={(e) => setCheckedItems(e.target.checked)}
         >
           He leído y acepto la{" "}
-          <a className={styles.linkPoliticas} href="/politica-de-privacidad/">
+          <a className={styles.linkPoliticas} href="/politica-de-privacidad">
             política de privacidad
           </a>
         </Checkbox>
         <FormErrorMessage>Required</FormErrorMessage>
         <button
+          id="formularioexpansion"
           className={
             !values.name ||
             !values.email ||
@@ -177,12 +164,6 @@ const FormularioExpansion = () => {
               ? `${styles.botonEnviar}`
               : `${styles.botonEnviar} ${styles.botonEnviarHabilitado}`
           }
-          //background=" #E83C82"
-          //variant="outline"
-          //borderRadius="13px"
-          //width="262px"
-          //color="#fff"
-          //isLoading={isLoading}
           disabled={
             !values.name ||
             !values.email ||

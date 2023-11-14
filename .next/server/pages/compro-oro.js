@@ -418,6 +418,7 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 
 
 const SelectCiudad = ({ listadoCiudades , urlSelect , setUrlSelect , ciudad  })=>{
+    const [botonActivo, setBotonActivo] = (0,external_react_.useState)(true);
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         id: "calculadoraOro",
         className: (selecCiudad_module_default()).bloqueDer,
@@ -468,6 +469,7 @@ const SelectCiudad = ({ listadoCiudades , urlSelect , setUrlSelect , ciudad  })=
                             /*#__PURE__*/ jsx_runtime_.jsx("select", {
                                 onChange: (e)=>{
                                     setUrlSelect(e.target.value);
+                                    setBotonActivo(false);
                                 },
                                 className: (selecCiudad_module_default()).select,
                                 children: listadoCiudades.map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("option", {
@@ -475,7 +477,11 @@ const SelectCiudad = ({ listadoCiudades , urlSelect , setUrlSelect , ciudad  })=
                                         children: ciudad.nombre
                                     }, i))
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                            botonActivo ? /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                disabled: true,
+                                className: (selecCiudad_module_default()).botonIrCiudad,
+                                children: "CONOCE EL PRECIO DEL ORO"
+                            }) : /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                 className: (selecCiudad_module_default()).botonIrCiudad,
                                 href: `/tiendas/compro-oro-${urlSelect}`,
                                 children: "CONOCE EL PRECIO DEL ORO"
@@ -866,7 +872,7 @@ function ComproOro({ menu_list , listadoUrlCiudad , listadoCiudadesServicios , c
                         children: /*#__PURE__*/ jsx_runtime_.jsx(Breadcrumbs/* default */.Z, {
                             raiz: "Quickgold",
                             iconoRaiz: /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowRight_default()), {}),
-                            urlUbicacionActual: "https://quickgold.es/compro-oro/",
+                            urlUbicacionActual: "https://quickgold.es/compro-oro",
                             iconoUbiccionActual: /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowRight_default()), {}),
                             ubicacionActual: "Compro Oro"
                         })
@@ -898,10 +904,7 @@ function ComproOro({ menu_list , listadoUrlCiudad , listadoCiudadesServicios , c
 }
 const idPaginaWp = "326";
 async function getStaticProps() {
-    /*const response = await fetch(
-    `https://quickgold.es/wp-json/wp/v2/pages/${idWp}`
-  );
-  const dataIdWp = await response.json();*/ const Listado = await fetch(`https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`);
+    const Listado = await fetch(`https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`);
     const listadoUrlCiudad = await Listado.json();
     const listadoServicio = await fetch(`https://panel.quickgold.es/ListadoCiudadesServicio/listadoCiudadesServicioOro.json`);
     const listadoCiudadesServicios = await listadoServicio.json();

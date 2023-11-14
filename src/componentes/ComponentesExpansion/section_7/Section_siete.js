@@ -31,7 +31,7 @@ const Section_siete = () => {
               <CircleIcon />
             </div>
           </div>
-          <a href="tel:900 373 629">
+          <a href="tel:900373629">
             <strong>LLAMA GRATIS</strong> AL 900 373 629
           </a>
         </div>

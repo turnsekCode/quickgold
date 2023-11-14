@@ -68,10 +68,10 @@ const MenuOrdenador = ({ menu_list, sticky, stickyRef }) => {
           </a>
         </li>
         <li>
-          <a href="https://quickgold.es/contacto" title="Ir a contacto">
+          <a href="/contacto" title="Ir a contacto">
             CONTACTO
           </a>
-            </li>
+        </li>
       </ul>
     </nav>
   );

@@ -1023,24 +1023,11 @@ function VenderDiamantes({ menu_list , ciudad , listadoUrlCiudad  }) {
                     card: "summary_large_image"
                 }
             }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        name: "viewport",
-                        content: "width=device-width, initial-scale=1"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet preload prefetch",
-                        href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css",
-                        as: "style"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("noscript", {
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                            rel: "stylesheet",
-                            href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-                        })
-                    })
-                ]
+            /*#__PURE__*/ jsx_runtime_.jsx((head_default()), {
+                children: /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                    name: "viewport",
+                    content: "width=device-width, initial-scale=1"
+                })
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Layout/* default */.Z, {
                 menu_list: menu_list,
@@ -1052,7 +1039,7 @@ function VenderDiamantes({ menu_list , ciudad , listadoUrlCiudad  }) {
                             /*#__PURE__*/ jsx_runtime_.jsx(Breadcrumbs/* default */.Z, {
                                 raiz: "Quickgold",
                                 iconoRaiz: /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowRight_default()), {}),
-                                urlUbicacionActual: "/vender-diamantes/",
+                                urlUbicacionActual: "/vender-diamantes",
                                 iconoUbiccionActual: /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowRight_default()), {}),
                                 ubicacionActual: "Compra de diamantes"
                             }),
@@ -1085,7 +1072,6 @@ function VenderDiamantes({ menu_list , ciudad , listadoUrlCiudad  }) {
         ]
     });
 }
-const idTienda = "venderdiamantes";
 const idPaginaWp = "384";
 const apiGeneral = "13848";
 //const idWp = "13848";

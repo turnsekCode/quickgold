@@ -196,35 +196,19 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(4703);
-/* harmony import */ var _formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5675);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2210);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _lib_api__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(1145);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1853);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _mui_icons_material_AccountCircle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1883);
-/* harmony import */ var _mui_icons_material_AccountCircle__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_AccountCircle__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _mui_icons_material_EmailRounded__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(7140);
-/* harmony import */ var _mui_icons_material_EmailRounded__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_EmailRounded__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _mui_icons_material_LocalPhoneRounded__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(3983);
-/* harmony import */ var _mui_icons_material_LocalPhoneRounded__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_LocalPhoneRounded__WEBPACK_IMPORTED_MODULE_7__);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__]);
-_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+/* harmony import */ var _formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4703);
+/* harmony import */ var _formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2210);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _lib_api__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1145);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__]);
+_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
 
 
 
 
-
-
-
-
-
-//import { sendContactBd } from "../lib/bdConect";
 
 const initValues = {
     name: "",
@@ -236,12 +220,11 @@ const initState = {
     values: initValues
 };
 const FormularioExpansion = ()=>{
-    const toast = (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.useToast)();
-    const [state, setState] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(initState);
-    const [touched, setTouched] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)({});
-    const { values , isLoading , error  } = state;
-    //const router = useRouter();
-    const [checkedItems, setCheckedItems] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(false);
+    const toast = (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.useToast)();
+    const [state, setState] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(initState);
+    const [touched, setTouched] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)({});
+    const { values , error  } = state;
+    const [checkedItems, setCheckedItems] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(false);
     const onBlur = ({ target  })=>setTouched((prev)=>({
                 ...prev,
                 [target.name]: true
@@ -259,11 +242,9 @@ const FormularioExpansion = ()=>{
                 isLoading: true
             }));
         try {
-            await (0,_lib_api__WEBPACK_IMPORTED_MODULE_8__/* .sendContactForm */ .m)(values);
-            //await sendContactBd(values);
+            await (0,_lib_api__WEBPACK_IMPORTED_MODULE_3__/* .sendContactForm */ .m)(values);
             setTouched({});
             setState(initState);
-            //router.push("/gracias");
             toast({
                 title: "Mensaje enviado",
                 status: "success",
@@ -278,37 +259,37 @@ const FormularioExpansion = ()=>{
                 }));
         }
     };
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.ChakraProvider, {
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.ChakraProvider, {
         children: [
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: (_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_9___default().contenedorTitulo),
+                className: (_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_4___default().contenedorTitulo),
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                        className: (_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_9___default().contenedorTituloTextoUno),
+                        className: (_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_4___default().contenedorTituloTextoUno),
                         children: "TE LLAMAMOS"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                        className: (_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_9___default().contenedorTituloTextoDos),
+                        className: (_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_4___default().contenedorTituloTextoDos),
                         children: "Rellena el siguiente formulario y te llamaremos para ofrecerte toda la informaci\xf3n que necesitas."
                     })
                 ]
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: (_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_9___default().contenedorFormulario),
+                className: (_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_4___default().contenedorFormulario),
                 children: [
-                    error && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Text, {
+                    error && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Text, {
                         color: "red.300",
                         my: 4,
                         fontSize: "xl",
                         children: error
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormControl, {
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormControl, {
                         isRequired: true,
                         position: "relative",
                         isInvalid: touched.name && !values.name,
                         mb: "4",
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Input, {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Input, {
                                 type: "text",
                                 placeholder: "Nombre y Apellidos *",
                                 name: "name",
@@ -317,18 +298,18 @@ const FormularioExpansion = ()=>{
                                 onChange: handleChange,
                                 onBlur: onBlur
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormErrorMessage, {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormErrorMessage, {
                                 children: "Se Requiere"
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormControl, {
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormControl, {
                         isRequired: true,
                         isInvalid: touched.subject && !values.subject,
                         "box-shadow": "0px 4px 4px rgba(0, 0, 0, 0.25)",
                         mb: "4",
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Input, {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Input, {
                                 placeholder: "Ciudad d\xf3nde abrir la tienda",
                                 //className={styles.inputPista}
                                 type: "text",
@@ -337,17 +318,17 @@ const FormularioExpansion = ()=>{
                                 onChange: handleChange,
                                 onBlur: onBlur
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormErrorMessage, {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormErrorMessage, {
                                 children: "Se Requiere"
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormControl, {
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormControl, {
                         isRequired: true,
                         isInvalid: touched.message && !values.message,
                         mb: "4",
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Input, {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Input, {
                                 placeholder: "Tel\xe9fono *",
                                 type: "number",
                                 inputMode: "numeric",
@@ -357,16 +338,16 @@ const FormularioExpansion = ()=>{
                                 onChange: handleChange,
                                 onBlur: onBlur
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormErrorMessage, {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormErrorMessage, {
                                 children: "Se Requiere"
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormControl, {
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormControl, {
                         isRequired: true,
                         isInvalid: touched.email && !values.email,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Input, {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Input, {
                                 placeholder: "Correo electr\xf3nico *",
                                 type: "email",
                                 name: "email",
@@ -374,12 +355,12 @@ const FormularioExpansion = ()=>{
                                 onChange: handleChange,
                                 onBlur: onBlur
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormErrorMessage, {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormErrorMessage, {
                                 children: "Se Requiere"
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Checkbox, {
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Checkbox, {
                         type: "checkbox",
                         required: true,
                         color: "#fff",
@@ -390,23 +371,18 @@ const FormularioExpansion = ()=>{
                             "He le\xeddo y acepto la",
                             " ",
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                className: (_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_9___default().linkPoliticas),
-                                href: "/politica-de-privacidad/",
+                                className: (_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_4___default().linkPoliticas),
+                                href: "/politica-de-privacidad",
                                 children: "pol\xedtica de privacidad"
                             })
                         ]
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormErrorMessage, {
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormErrorMessage, {
                         children: "Required"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                        className: !values.name || !values.email || !values.subject || !values.message || checkedItems === false ? `${(_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_9___default().botonEnviar)}` : `${(_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_9___default().botonEnviar)} ${(_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_9___default().botonEnviarHabilitado)}`,
-                        //background=" #E83C82"
-                        //variant="outline"
-                        //borderRadius="13px"
-                        //width="262px"
-                        //color="#fff"
-                        //isLoading={isLoading}
+                        id: "formularioexpansion",
+                        className: !values.name || !values.email || !values.subject || !values.message || checkedItems === false ? `${(_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_4___default().botonEnviar)}` : `${(_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_4___default().botonEnviar)} ${(_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_4___default().botonEnviarHabilitado)}`,
                         disabled: !values.name || !values.email || !values.subject || !values.message || checkedItems === false,
                         onClick: onSubmit,
                         children: "ENVIAR"
@@ -939,7 +915,7 @@ const Section_siete = ()=>{
                                 ]
                             }),
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                                href: "tel:900 373 629",
+                                href: "tel:900373629",
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
                                         children: "LLAMA GRATIS"
@@ -1160,17 +1136,6 @@ function Expansion({ menu_list , ciudad , general  }) {
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                         rel: "icon",
                         href: "/favicon.png"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                        rel: "stylesheet preload prefetch",
-                        href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css",
-                        as: "style"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("noscript", {
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "stylesheet",
-                            href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-                        })
                     })
                 ]
             }),
@@ -1230,14 +1195,6 @@ module.exports = require("@bradgarropy/next-seo");
 
 /***/ }),
 
-/***/ 1883:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("@mui/icons-material/AccountCircle");
-
-/***/ }),
-
 /***/ 6741:
 /***/ ((module) => {
 
@@ -1259,14 +1216,6 @@ module.exports = require("@mui/icons-material/Circle");
 
 "use strict";
 module.exports = require("@mui/icons-material/Close");
-
-/***/ }),
-
-/***/ 7140:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("@mui/icons-material/EmailRounded");
 
 /***/ }),
 
@@ -1307,14 +1256,6 @@ module.exports = require("@mui/icons-material/KeyboardArrowUp");
 
 "use strict";
 module.exports = require("@mui/icons-material/LinkedIn");
-
-/***/ }),
-
-/***/ 3983:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("@mui/icons-material/LocalPhoneRounded");
 
 /***/ }),
 
@@ -1435,14 +1376,6 @@ module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 "use strict";
 module.exports = require("next/head");
-
-/***/ }),
-
-/***/ 1853:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/router");
 
 /***/ }),
 

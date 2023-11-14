@@ -72,7 +72,7 @@ export default function ComproOro({
           <Breadcrumbs
             raiz="Quickgold"
             iconoRaiz={<KeyboardArrowRightIcon />}
-            urlUbicacionActual="https://quickgold.es/compro-oro/"
+            urlUbicacionActual="https://quickgold.es/compro-oro"
             iconoUbiccionActual={<KeyboardArrowRightIcon />}
             ubicacionActual="Compro Oro"
           />
@@ -92,10 +92,6 @@ export default function ComproOro({
 }
 const idPaginaWp = "326";
 export async function getStaticProps() {
-  /*const response = await fetch(
-    `https://quickgold.es/wp-json/wp/v2/pages/${idWp}`
-  );
-  const dataIdWp = await response.json();*/
   const Listado = await fetch(
     `https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`
   );

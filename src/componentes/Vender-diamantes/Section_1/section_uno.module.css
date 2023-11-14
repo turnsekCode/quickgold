@@ -80,7 +80,8 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top: 20px;
-        padding: 0;
+        gap: 75px;
+        padding: 10px 0px 0 0px;
     }
     .bloqueDer{
         width: 480px;

@@ -123,15 +123,12 @@ export default function Santander({
           href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
           as="style"
         ></link>
-        <noscript>
-          <link
-            rel="stylesheet"
-            href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-          />
-        </noscript>
+
         <link rel="canonical" href={ciudad?.acf?.canonical} />
       </Head>
-      <Script id="livechat">{ciudad?.acf?.script_chat}</Script>
+      <Script id="livechat" property="lazyOnload">
+        {ciudad?.acf?.script_chat}
+      </Script>
       <Layout menu_list={menu_list} ciudad={ciudad}>
         <div className={styles.main}>
           <BreadcrumbsTiendas

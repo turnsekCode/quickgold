@@ -681,17 +681,6 @@ function JoyeriaOcasion({ menu_list , ciudad , listadoUrlCiudad  }) {
                     /*#__PURE__*/ jsx_runtime_.jsx("link", {
                         rel: "icon",
                         href: "/favicon.png"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet preload prefetch",
-                        href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css",
-                        as: "style"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("noscript", {
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                            rel: "stylesheet",
-                            href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-                        })
                     })
                 ]
             }),
@@ -705,7 +694,7 @@ function JoyeriaOcasion({ menu_list , ciudad , listadoUrlCiudad  }) {
                             /*#__PURE__*/ jsx_runtime_.jsx(Breadcrumbs/* default */.Z, {
                                 raiz: "Quickgold",
                                 iconoRaiz: /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowRight_default()), {}),
-                                urlUbicacionActual: "/joyeria-de-ocasion/",
+                                urlUbicacionActual: "/joyeria-de-ocasion",
                                 iconoUbiccionActual: /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowRight_default()), {}),
                                 ubicacionActual: "Joyer\xeda de ocasi\xf3n"
                             }),
@@ -738,7 +727,6 @@ function JoyeriaOcasion({ menu_list , ciudad , listadoUrlCiudad  }) {
         ]
     });
 }
-const idTienda = "joyeriadeocasion";
 const idPaginaWp = "12771";
 const apiGeneral = "13848";
 //const idWp = "13848";

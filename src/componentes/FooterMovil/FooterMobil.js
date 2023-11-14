@@ -163,11 +163,11 @@ const FooterMobil = () => {
                 Mapa del sitio
               </a>
             </li>
-            {/* <li>
-              <a href="https://quickgold.es/contacto" title="Ir a contacto">
+            <li>
+              <a href="/contacto" title="Ir a contacto">
                 Contacto
               </a>
-        </li>*/}
+            </li>
             {/* <li>
               <a href="https://quickgold.es/blog/" title="Ir a blog">
                 Blog

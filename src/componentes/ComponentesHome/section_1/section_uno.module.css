@@ -9,7 +9,7 @@
     align-items: flex-start;
     justify-content: center;
     background-image: url(/assets/img/imagenBackgroundHome.png);
-    background-position: center;
+    background-position: 65%;
     background-size: cover;
     z-index: -2;
     position: relative;

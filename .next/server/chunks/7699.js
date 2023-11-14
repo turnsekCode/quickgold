@@ -253,7 +253,7 @@ const MenuOrdenador = ({ menu_list , sticky , stickyRef  })=>{
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                        href: "https://quickgold.es/contacto",
+                        href: "/contacto",
                         title: "Ir a contacto",
                         children: "CONTACTO"
                     })
@@ -365,7 +365,7 @@ const MenuMobil = ({ menuAbieto , menu_list  })=>{
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                 className: (menuMobil_module_default()).contacto,
-                                href: "https://quickgold.es/contacto",
+                                href: "/contacto",
                                 title: "Ir a contacto",
                                 children: "CONTACTO"
                             })
@@ -675,6 +675,13 @@ const Footer = ()=>{
                                                 href: "/tiendas",
                                                 children: "Mapa del sitio"
                                             })
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                title: "Ir a contacto",
+                                                href: "/contacto",
+                                                children: "Contacto"
+                                            })
                                         })
                                     ]
                                 })
@@ -983,6 +990,13 @@ const FooterMobil = ()=>{
                                             href: "/",
                                             title: "Ir a mapa del sitio",
                                             children: "Mapa del sitio"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                            href: "/contacto",
+                                            title: "Ir a contacto",
+                                            children: "Contacto"
                                         })
                                     })
                                 ]

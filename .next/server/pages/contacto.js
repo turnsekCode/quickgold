@@ -322,17 +322,6 @@ function Contacto({ menu_list , ciudad , listadociudades  }) {
                     /*#__PURE__*/ jsx_runtime_.jsx("link", {
                         rel: "icon",
                         href: "/favicon.png"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet preload prefetch",
-                        href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css",
-                        as: "style"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("noscript", {
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                            rel: "stylesheet",
-                            href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-                        })
                     })
                 ]
             }),
@@ -345,7 +334,7 @@ function Contacto({ menu_list , ciudad , listadociudades  }) {
                         /*#__PURE__*/ jsx_runtime_.jsx(Breadcrumbs/* default */.Z, {
                             raiz: "Quickgold",
                             iconoRaiz: /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowRight_default()), {}),
-                            urlUbicacionActual: "/contacto/",
+                            urlUbicacionActual: "/contacto",
                             iconoUbiccionActual: /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowRight_default()), {}),
                             ubicacionActual: "Contacto"
                         }),
@@ -362,7 +351,6 @@ function Contacto({ menu_list , ciudad , listadociudades  }) {
         ]
     });
 }
-const idTienda = "contacto";
 const idPaginaWp = "2595";
 const apiGeneral = "13848";
 //const idWp = "13848";

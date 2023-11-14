@@ -478,6 +478,7 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 
 const SelectCiudad = ({ listadoUrlCiudad , ciudad  })=>{
     const [urlSelect, setUrlSelect] = (0,external_react_.useState)("");
+    const [botonActivo, setBotonActivo] = (0,external_react_.useState)(true);
     const listadoCiudades = listadoUrlCiudad?.arrayMarker;
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         id: "calculadoraOro",
@@ -519,6 +520,7 @@ const SelectCiudad = ({ listadoUrlCiudad , ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("select", {
                                 onChange: (e)=>{
                                     setUrlSelect(e.target.value);
+                                    setBotonActivo(false);
                                 },
                                 className: (selecCiudad_module_default()).select,
                                 children: listadoCiudades?.map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("option", {
@@ -526,7 +528,11 @@ const SelectCiudad = ({ listadoUrlCiudad , ciudad  })=>{
                                         children: ciudad.nombre
                                     }, i))
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                            botonActivo ? /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                disabled: true,
+                                className: (selecCiudad_module_default()).botonIrCiudad,
+                                children: "CONOCE EL PRECIO DE LA PLATA"
+                            }) : /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                 className: (selecCiudad_module_default()).botonIrCiudad,
                                 href: `/tiendas/compro-oro-${urlSelect}`,
                                 children: "CONOCE EL PRECIO DE LA PLATA"
@@ -1094,17 +1100,6 @@ function ComproPlata({ menu_list , ciudad , listadoUrlCiudad  }) {
                     /*#__PURE__*/ jsx_runtime_.jsx("link", {
                         rel: "icon",
                         href: "/favicon.png"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet preload prefetch",
-                        href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css",
-                        as: "style"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("noscript", {
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                            rel: "stylesheet",
-                            href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-                        })
                     })
                 ]
             }),
@@ -1118,7 +1113,7 @@ function ComproPlata({ menu_list , ciudad , listadoUrlCiudad  }) {
                             /*#__PURE__*/ jsx_runtime_.jsx(Breadcrumbs/* default */.Z, {
                                 raiz: "Quickgold",
                                 iconoRaiz: /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowRight_default()), {}),
-                                urlUbicacionActual: "/compro-plata/",
+                                urlUbicacionActual: "/compro-plata",
                                 iconoUbiccionActual: /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowRight_default()), {}),
                                 ubicacionActual: "Compro Plata"
                             }),
@@ -1154,7 +1149,6 @@ function ComproPlata({ menu_list , ciudad , listadoUrlCiudad  }) {
         ]
     });
 }
-const idTienda = "comproplata";
 const idPaginaWp = "377";
 const apiGeneral = "13848";
 //const idWp = "13848";

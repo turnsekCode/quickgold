@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./selecCiudad.module.css";
 import Link from "next/link";
 
 const SelectCiudad = ({ listadoCiudades, urlSelect, setUrlSelect, ciudad }) => {
+  const [botonActivo, setBotonActivo] = useState(true);
   return (
     <div id="calculadoraOro" className={styles.bloqueDer}>
       <div className={styles.bloqueSuperiorTexto}>
@@ -29,6 +30,7 @@ const SelectCiudad = ({ listadoCiudades, urlSelect, setUrlSelect, ciudad }) => {
           <select
             onChange={(e) => {
               setUrlSelect(e.target.value);
+              setBotonActivo(false);
             }}
             className={styles.select}
           >
@@ -38,12 +40,18 @@ const SelectCiudad = ({ listadoCiudades, urlSelect, setUrlSelect, ciudad }) => {
               </option>
             ))}
           </select>
-          <Link
-            className={styles.botonIrCiudad}
-            href={`/tiendas/compro-oro-${urlSelect}`}
-          >
-            CONOCE EL PRECIO DEL ORO
-          </Link>
+          {botonActivo ? (
+            <button disabled className={styles.botonIrCiudad}>
+              CONOCE EL PRECIO DEL ORO
+            </button>
+          ) : (
+            <Link
+              className={styles.botonIrCiudad}
+              href={`/tiendas/compro-oro-${urlSelect}`}
+            >
+              CONOCE EL PRECIO DEL ORO
+            </Link>
+          )}
         </div>
         <p className={styles.bloqueInferiorTexto4}>
           Si lo prefieres, también puedes llamarnos e informarte. ¡Estaremos

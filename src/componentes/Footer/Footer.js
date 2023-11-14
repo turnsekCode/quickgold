@@ -80,11 +80,11 @@ const Footer = () => {
                   Mapa del sitio
                 </a>
               </li>
-              {/*<li>
-                <a title="Ir a contacto" href="https://quickgold.es/contacto">
+              <li>
+                <a title="Ir a contacto" href="/contacto">
                   Contacto
                 </a>
-</li>*/}
+              </li>
               {/*<li>
                 <a title="Ir a blog" href="https://quickgold.es/blog">
                   Blog

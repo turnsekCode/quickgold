@@ -282,6 +282,7 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony import */ var _mui_icons_material_LocalPhoneRounded__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_LocalPhoneRounded__WEBPACK_IMPORTED_MODULE_7__);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__]);
 _chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+"use client";
 
 
 
@@ -298,7 +299,8 @@ const initValues = {
     name: "",
     email: "",
     subject: "",
-    message: ""
+    message: "",
+    file: ""
 };
 const initState = {
     values: initValues
@@ -310,6 +312,9 @@ const FormularioTrabaja = ()=>{
     const { values , isLoading , error  } = state;
     //const router = useRouter();
     const [checkedItems, setCheckedItems] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(false);
+    const [file, setFile] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)();
+    const variableFile = file?.name;
+    // console.log(variableFile);
     const onBlur = ({ target  })=>setTouched((prev)=>({
                 ...prev,
                 [target.name]: true
@@ -321,6 +326,9 @@ const FormularioTrabaja = ()=>{
                     [target.name]: target.value
                 }
             }));
+    const handleChangeFile = (e)=>{
+        setFile(e.target.files[0]);
+    };
     const onSubmit = async ()=>{
         setState((prev)=>({
                 ...prev,
@@ -331,6 +339,16 @@ const FormularioTrabaja = ()=>{
             //await sendContactBd(values);
             setTouched({});
             setState(initState);
+            //formulario de archivo
+            //const form = new FormData();
+            //form.set("file", file);
+            //const res = await fetch("/api/upload", {
+            //  method: "POST",
+            //  body: JSON.stringify(file),
+            //});
+            //const data = await res.json();
+            //console.log(data);
+            //fin formulario de archivo
             //router.push("/gracias");
             toast({
                 title: "Mensaje enviado",
@@ -494,7 +512,7 @@ const FormularioTrabaja = ()=>{
                     //width="262px"
                     //color="#fff"
                     //isLoading={isLoading}
-                    disabled: !values.name || !values.email || !values.subject || !values.message || checkedItems === false,
+                    disabled: !values.name || !values.email || !values.subject || !values.message || checkedItems === false || !file === true,
                     onClick: onSubmit,
                     children: "ENVIAR"
                 })
@@ -822,7 +840,7 @@ __webpack_async_result__();
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "m": () => (/* binding */ sendContactForm)
 /* harmony export */ });
-const sendContactForm = async (data)=>fetch("https://web.quickgold.es/api/contactTrabaja", {
+const sendContactForm = async (data)=>fetch("http://localhost:3000/api/contactTrabaja", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {
@@ -909,17 +927,6 @@ function TrabajaConNosotros({ markers , menu_list , ciudad , general  }) {
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                         rel: "icon",
                         href: "/favicon.png"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                        rel: "stylesheet preload prefetch",
-                        href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css",
-                        as: "style"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("noscript", {
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "stylesheet",
-                            href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-                        })
                     })
                 ]
             }),

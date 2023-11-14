@@ -5,6 +5,7 @@ import Link from "next/link";
 const SelectCiudad = ({ listadoUrlCiudad, ciudad }) => {
   const [urlSelect, setUrlSelect] = useState("");
   const listadoCiudades = listadoUrlCiudad?.arrayMarker;
+  const [botonActivo, setBotonActivo] = useState(true);
   return (
     <div id="calculadoraOro" className={styles.bloqueDer}>
       <div className={styles.bloqueSuperiorTexto}>
@@ -22,6 +23,7 @@ const SelectCiudad = ({ listadoUrlCiudad, ciudad }) => {
           <select
             onChange={(e) => {
               setUrlSelect(e.target.value);
+              setBotonActivo(false);
             }}
             className={styles.select}
           >
@@ -31,12 +33,18 @@ const SelectCiudad = ({ listadoUrlCiudad, ciudad }) => {
               </option>
             ))}
           </select>
-          <Link
-            className={styles.botonIrCiudad}
-            href={`/tiendas/compro-oro-${urlSelect}`}
-          >
-            CONOCE EL PRECIO DEL ORO
-          </Link>
+          {botonActivo ? (
+            <button disabled className={styles.botonIrCiudad}>
+              CONOCE EL PRECIO DEL ORO
+            </button>
+          ) : (
+            <Link
+              className={styles.botonIrCiudad}
+              href={`/tiendas/compro-oro-${urlSelect}`}
+            >
+              CONOCE EL PRECIO DEL ORO
+            </Link>
+          )}
         </div>
         <div className={styles.contenidoEjemplo}>
           <div className={styles.contenedorInfo}>

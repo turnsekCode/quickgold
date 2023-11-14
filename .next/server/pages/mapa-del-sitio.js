@@ -49,7 +49,7 @@ module.exports = {
 
 
 const MapaDelSitio = ({ alcaladehenaresCiudad , alcaladehenaresTienda , alcobendasCiudad , alcobendasTienda , alcorconCiudad , alcorconTienda , alicanteCiudad , alfonso , sanfrancisco , almeriaCiudad , almeriaTienda  })=>{
-    console.log(alfonso);
+    //console.log(alfonso)
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
         className: (_MapaDelSitio_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenidoMapa),
         children: [
@@ -242,7 +242,8 @@ const MapaDelSitio = ({ alcaladehenaresCiudad , alcaladehenaresTienda , alcobend
                                                                 href: `${alcaladehenaresTienda?.acf?.canonical}`,
                                                                 title: `Tienda Quickgold ${alcaladehenaresTienda?.acf?.ciudad_landing}`,
                                                                 children: [
-                                                                    "Tienda Quickgold ",
+                                                                    "Tienda Quickgold",
+                                                                    " ",
                                                                     alcaladehenaresCiudad?.acf?.ciudad_landing
                                                                 ]
                                                             })
@@ -513,7 +514,7 @@ function ListadoUrls({ menu_list , alcaladehenaresCiudad , alcaladehenaresTienda
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BreadcrumbsRaiz_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
                             raiz: "Quickgold",
                             iconoRaiz: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_3___default()), {}),
-                            urlUbicacionActual: "/mapa-del-sitio/",
+                            urlUbicacionActual: "/mapa-del-sitio",
                             iconoUbiccionActual: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_3___default()), {}),
                             ubicacionActual: "Mapa del sitio"
                         })

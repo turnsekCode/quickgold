@@ -429,6 +429,7 @@ var selecCiudad_module_default = /*#__PURE__*/__webpack_require__.n(selecCiudad_
 const SelectCiudad = ({ listadoUrlCiudad , ciudad  })=>{
     const [urlSelect, setUrlSelect] = (0,external_react_.useState)("");
     const listadoCiudades = listadoUrlCiudad?.arrayMarker;
+    const [botonActivo, setBotonActivo] = (0,external_react_.useState)(true);
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         id: "calculadoraOro",
         className: (selecCiudad_module_default()).bloqueDer,
@@ -465,6 +466,7 @@ const SelectCiudad = ({ listadoUrlCiudad , ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("select", {
                                 onChange: (e)=>{
                                     setUrlSelect(e.target.value);
+                                    setBotonActivo(false);
                                 },
                                 className: (selecCiudad_module_default()).select,
                                 children: listadoCiudades.map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("option", {
@@ -472,7 +474,11 @@ const SelectCiudad = ({ listadoUrlCiudad , ciudad  })=>{
                                         children: ciudad.nombre
                                     }, i))
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                            botonActivo ? /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                disabled: true,
+                                className: (selecCiudad_module_default()).botonIrCiudad,
+                                children: "CONOCE EL PRECIO DEL ORO"
+                            }) : /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                 className: (selecCiudad_module_default()).botonIrCiudad,
                                 href: `/tiendas/compro-oro-${urlSelect}`,
                                 children: "CONOCE EL PRECIO DEL ORO"
@@ -627,17 +633,6 @@ function EmpenoJoyas({ menu_list , ciudad , listadoUrlCiudad  }) {
                     /*#__PURE__*/ jsx_runtime_.jsx("link", {
                         rel: "icon",
                         href: "/favicon.png"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet preload prefetch",
-                        href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css",
-                        as: "style"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("noscript", {
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                            rel: "stylesheet",
-                            href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-                        })
                     })
                 ]
             }),
@@ -651,7 +646,7 @@ function EmpenoJoyas({ menu_list , ciudad , listadoUrlCiudad  }) {
                             /*#__PURE__*/ jsx_runtime_.jsx(Breadcrumbs/* default */.Z, {
                                 raiz: "Quickgold",
                                 iconoRaiz: /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowRight_default()), {}),
-                                urlUbicacionActual: "/empeno-de-joyas/",
+                                urlUbicacionActual: "/empeno-de-joyas",
                                 iconoUbiccionActual: /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowRight_default()), {}),
                                 ubicacionActual: "Empe\xf1o de joyas"
                             }),
@@ -679,7 +674,6 @@ function EmpenoJoyas({ menu_list , ciudad , listadoUrlCiudad  }) {
         ]
     });
 }
-const idTienda = "empenojoyas";
 const idPaginaWp = "7692";
 const apiGeneral = "13848";
 //const idWp = "13848";

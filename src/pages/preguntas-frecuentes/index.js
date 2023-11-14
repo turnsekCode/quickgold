@@ -30,24 +30,13 @@ export default function PreguntasFrecuentes({ menu_list, ciudad }) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
-        <link
-          rel="stylesheet preload prefetch"
-          href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-          as="style"
-        ></link>
-        <noscript>
-          <link
-            rel="stylesheet"
-            href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-          />
-        </noscript>
       </Head>
       <Layout menu_list={menu_list} ciudad={ciudad}>
         <div className={styles.main}>
           <Breadcrumbs
             raiz="Quickgold"
             iconoRaiz={<KeyboardArrowRightIcon />}
-            urlUbicacionActual="/preguntas-frecuentes/"
+            urlUbicacionActual="/preguntas-frecuentes"
             iconoUbiccionActual={<KeyboardArrowRightIcon />}
             ubicacionActual="Preguntas frecuentes"
           />
@@ -60,7 +49,6 @@ export default function PreguntasFrecuentes({ menu_list, ciudad }) {
     </>
   );
 }
-const idTienda = "preguntasfrecuentes";
 const idPaginaWp = "2702";
 const apiGeneral = "13848";
 

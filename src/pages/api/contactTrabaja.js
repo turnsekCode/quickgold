@@ -7,6 +7,7 @@ const CONTAC_MESSAGE_FIELDS = {
   email: "Correo electrónico",
   subject: "Ciudad",
   message: "Teléfono",
+  file: "curriculum",
 };
 
 const generateEmailContent = (data) => {
@@ -166,6 +167,7 @@ const generateEmailContent = (data) => {
 const handler = async (req, res) => {
   if (req.method === "POST") {
     const data = req.body;
+    console.log(data);
     if (!data.name || !data.email || !data.subject || !data.message) {
       return res.status(400).json({ message: "Bad request" });
     }

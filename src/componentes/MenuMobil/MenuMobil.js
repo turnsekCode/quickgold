@@ -86,7 +86,7 @@ const MenuMobil = ({ menuAbieto, menu_list }) => {
             </div>
             <a
               className={styles.contacto}
-              href="https://quickgold.es/contacto"
+              href="/contacto"
               title="Ir a contacto"
             >
               CONTACTO

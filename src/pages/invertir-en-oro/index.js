@@ -48,24 +48,13 @@ export default function InvertirEnOro({ menu_list, ciudad, popUpCiudades }) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
-        <link
-          rel="stylesheet preload prefetch"
-          href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-          as="style"
-        ></link>
-        <noscript>
-          <link
-            rel="stylesheet"
-            href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-          />
-        </noscript>
       </Head>
       <Layout menu_list={menu_list} ciudad={ciudad}>
         <div className={styles.main}>
           <Breadcrumbs
             raiz="Quickgold"
             iconoRaiz={<KeyboardArrowRightIcon />}
-            urlUbicacionActual="/invertir-en-oro/"
+            urlUbicacionActual="/invertir-en-oro"
             iconoUbiccionActual={<KeyboardArrowRightIcon />}
             ubicacionActual="Inversión en oro"
           />
@@ -79,7 +68,6 @@ export default function InvertirEnOro({ menu_list, ciudad, popUpCiudades }) {
     </>
   );
 }
-const idTienda = "invertirenoro";
 const idPaginaWp = "2705";
 const apiGeneral = "13848";
 

@@ -75,12 +75,7 @@ export default function SantiagoDeCompostela({
           href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
           as="style"
         ></link>
-        <noscript>
-          <link
-            rel="stylesheet"
-            href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-          />
-        </noscript>
+
         <link rel="canonical" href={ciudad?.acf?.canonical} />
       </Head>
       <Layout menu_list={menu_list} ciudad={ciudad}>
@@ -135,7 +130,7 @@ export default function SantiagoDeCompostela({
             </article>
             {/*<Mapa markers={markers} />*/}
           </div>
-<HtmlGeneral general={general}/>
+          <HtmlGeneral general={general} />
         </div>
 
         {ciudad?.acf?.tienda === "" ? (

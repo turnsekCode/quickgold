@@ -4,6 +4,7 @@ import Link from "next/link";
 
 const SelectCiudad = ({ listadoUrlCiudad, ciudad }) => {
   const [urlSelect, setUrlSelect] = useState("");
+  const [botonActivo, setBotonActivo] = useState(true);
   const listadoCiudades = listadoUrlCiudad?.arrayMarker;
   return (
     <div id="calculadoraOro" className={styles.bloqueDer}>
@@ -30,6 +31,7 @@ const SelectCiudad = ({ listadoUrlCiudad, ciudad }) => {
           <select
             onChange={(e) => {
               setUrlSelect(e.target.value);
+              setBotonActivo(false);
             }}
             className={styles.select}
           >
@@ -39,12 +41,18 @@ const SelectCiudad = ({ listadoUrlCiudad, ciudad }) => {
               </option>
             ))}
           </select>
-          <Link
-            className={styles.botonIrCiudad}
-            href={`/tiendas/compro-oro-${urlSelect}`}
-          >
-            CONOCE EL PRECIO DE LA PLATA
-          </Link>
+          {botonActivo ? (
+            <button disabled className={styles.botonIrCiudad}>
+              CONOCE EL PRECIO DE LA PLATA
+            </button>
+          ) : (
+            <Link
+              className={styles.botonIrCiudad}
+              href={`/tiendas/compro-oro-${urlSelect}`}
+            >
+              CONOCE EL PRECIO DE LA PLATA
+            </Link>
+          )}
         </div>
         <p className={styles.bloqueInferiorTexto4}>
           Si lo prefieres, también puedes llamarnos e informarte. ¡Estaremos

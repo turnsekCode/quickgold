@@ -1,3 +1,5 @@
+"use client";
+
 import styles from "./formularioTrabaja.module.css";
 import Image from "next/image";
 import {
@@ -27,6 +29,7 @@ const initValues = {
   email: "",
   subject: "",
   message: "",
+  file: "",
 };
 const initState = { values: initValues };
 
@@ -37,6 +40,9 @@ const FormularioTrabaja = () => {
   const { values, isLoading, error } = state;
   //const router = useRouter();
   const [checkedItems, setCheckedItems] = useState(false);
+  const [file, setFile] = useState();
+  const variableFile = file?.name;
+  // console.log(variableFile);
   const onBlur = ({ target }) =>
     setTouched((prev) => ({
       ...prev,
@@ -50,6 +56,9 @@ const FormularioTrabaja = () => {
         [target.name]: target.value,
       },
     }));
+  const handleChangeFile = (e) => {
+    setFile(e.target.files[0]);
+  };
   const onSubmit = async () => {
     setState((prev) => ({
       ...prev,
@@ -60,6 +69,16 @@ const FormularioTrabaja = () => {
       //await sendContactBd(values);
       setTouched({});
       setState(initState);
+      //formulario de archivo
+      //const form = new FormData();
+      //form.set("file", file);
+      //const res = await fetch("/api/upload", {
+      //  method: "POST",
+      //  body: JSON.stringify(file),
+      //});
+      //const data = await res.json();
+      //console.log(data);
+      //fin formulario de archivo
       //router.push("/gracias");
       toast({
         title: "Mensaje enviado",
@@ -164,7 +183,7 @@ const FormularioTrabaja = () => {
             Se Requiere
           </FormErrorMessage>
         </FormControl>
-        {/* <FormControl
+        {/*<FormControl
           isRequired
           isInvalid={touched.file && !values.file}
           //box-shadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
@@ -176,17 +195,20 @@ const FormularioTrabaja = () => {
             style={{ border: "none", padding: "0 0 0 33px" }}
             className={styles.inputFile}
             type="file"
-            //inputMode="numeric"
-            name="file"
-            value={values.file}
-            onChange={handleChange}
+            filename={values.file}
+            //value={values.file}
+            onChange={(e) => {
+              handleChange(e);
+            }}
             onBlur={onBlur}
           />
+          <input value={values.file} style={{ display: "none" }} />
+
           <p>MÁX. 2 MB</p>
           <FormErrorMessage style={{ margin: "0" }}>
             Se Requiere
           </FormErrorMessage>
-        </FormControl>*/}
+          </FormControl>*/}
         <Checkbox
           type="checkbox"
           required
@@ -222,7 +244,8 @@ const FormularioTrabaja = () => {
             !values.email ||
             !values.subject ||
             !values.message ||
-            checkedItems === false
+            checkedItems === false ||
+            !file === true
           }
           onClick={onSubmit}
         >

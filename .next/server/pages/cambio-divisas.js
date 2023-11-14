@@ -314,6 +314,7 @@ var selecCiudad_module_default = /*#__PURE__*/__webpack_require__.n(selecCiudad_
 
 
 const SelectCiudad = ({ listadoCiudades , urlSelect , setUrlSelect , ciudad  })=>{
+    const [botonActivo, setBotonActivo] = (0,external_react_.useState)(true);
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         id: "calculadora",
         className: (selecCiudad_module_default()).bloqueDer,
@@ -365,6 +366,7 @@ const SelectCiudad = ({ listadoCiudades , urlSelect , setUrlSelect , ciudad  })=
                             /*#__PURE__*/ jsx_runtime_.jsx("select", {
                                 onChange: (e)=>{
                                     setUrlSelect(e.target.value);
+                                    setBotonActivo(false);
                                 },
                                 className: (selecCiudad_module_default()).select,
                                 children: listadoCiudades.map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("option", {
@@ -372,7 +374,11 @@ const SelectCiudad = ({ listadoCiudades , urlSelect , setUrlSelect , ciudad  })=
                                         children: ciudad.nombre
                                     }, i))
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                            botonActivo ? /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                disabled: true,
+                                className: (selecCiudad_module_default()).botonIrCiudad,
+                                children: "CONOCE EL PRECIO DE LA DIVISA"
+                            }) : /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                 className: (selecCiudad_module_default()).botonIrCiudad,
                                 href: `/tiendas/compro-oro-${urlSelect}`,
                                 children: "CONOCE EL PRECIO DE LA DIVISA"
@@ -1066,17 +1072,6 @@ function CambioDivisas({ menu_list , ciudad , divisas_list , listadoUrlCiudad , 
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                         rel: "icon",
                         href: "/favicon.png"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                        rel: "stylesheet preload prefetch",
-                        href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css",
-                        as: "style"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("noscript", {
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "stylesheet",
-                            href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-                        })
                     })
                 ]
             }),

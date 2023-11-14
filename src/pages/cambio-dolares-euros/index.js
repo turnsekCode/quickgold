@@ -13,7 +13,7 @@ const schema = {
   "@context": "http://www.schema.org",
   "@type": "Organization",
   name: "Quickgold",
-  url: "https://quickgold.es/cambio-dolares-euros/",
+  url: "https://quickgold.es/cambio-dolares-euros",
   sameAs: [
     "https://instagram.com/quickgold.es",
     "https://twitter.com/quickgoldqg",
