@@ -9,7 +9,7 @@ const Section_uno = () => {
         <h1>Contacto</h1>
         <p>
           ¿Tienes alguna duda? Nuestras{" "}
-          <Link href="/preguntas-frecuentes/">
+          <Link href="/preguntas-frecuentes">
             <strong>Preguntas Frecuentes</strong>
           </Link>{" "}
           pueden ayudarte. Si no, ponte en contacto con nosotros. Estaremos
@@ -22,7 +22,7 @@ const Section_uno = () => {
           <p>
             ¿Necesitas más información de cómo abrir una tienda quickgold?
             Escríbenos o llama a Expansión quickgold.{" "}
-            <a href="tel:687 696 523">
+            <a href="tel:687696523">
               <strong>687 696 523</strong>
             </a>
           </p>
@@ -32,10 +32,7 @@ const Section_uno = () => {
           <p>
             ¿Necesitas información sobre alguno de los servicios quickgold?
             Escríbenos o llama gratis a Atención al Cliente quickgold.
-            <a
-              href="tel: 900 373
-            629"
-            >
+            <a href="tel:900373629">
               {" "}
               <strong>900 373 629</strong>
             </a>

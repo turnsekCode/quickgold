@@ -1,5 +1,5 @@
 export const sendContactForm = async (data) =>
-  fetch("http://localhost:3000/api/contactTrabaja", {
+  fetch("https://quickgold.es/api/contactTrabaja", {
     method: "POST",
     body: JSON.stringify(data),
     headers: {

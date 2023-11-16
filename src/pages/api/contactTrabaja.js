@@ -4,10 +4,10 @@ import { mailOptions, transporter } from "../../config/nodemailerTrabaja";
 
 const CONTAC_MESSAGE_FIELDS = {
   name: "Nombre y Apellido",
-  email: "Correo electrónico",
-  subject: "Ciudad",
-  message: "Teléfono",
-  file: "curriculum",
+  telefono: "Teléfono",
+  correo: "Correo electrónico",
+  ciudad: "Ciudad",
+  curriculum: "Url para descargar el curriculum",
 };
 
 const generateEmailContent = (data) => {
@@ -167,8 +167,13 @@ const generateEmailContent = (data) => {
 const handler = async (req, res) => {
   if (req.method === "POST") {
     const data = req.body;
-    console.log(data);
-    if (!data.name || !data.email || !data.subject || !data.message) {
+    if (
+      !data.name ||
+      !data.telefono ||
+      !data.correo ||
+      !data.ciudad ||
+      !data.curriculum
+    ) {
       return res.status(400).json({ message: "Bad request" });
     }
     try {

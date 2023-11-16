@@ -8,7 +8,7 @@ function searchTerm(term) {
   return function (x) {
     return (
       x.nombreCiudad.toLowerCase().includes(term.toLowerCase()) ||
-      x.direccion.toLowerCase().includes(term.toLowerCase()) ||
+      //x.direccion.toLowerCase().includes(term.toLowerCase()) ||
       !term
     );
   };

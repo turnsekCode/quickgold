@@ -12,7 +12,7 @@ module.exports = require("nodemailer");
 
 /***/ }),
 
-/***/ 6066:
+/***/ 3096:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -26,11 +26,7 @@ __webpack_require__.d(__webpack_exports__, {
 // EXTERNAL MODULE: external "nodemailer"
 var external_nodemailer_ = __webpack_require__(5184);
 var external_nodemailer_default = /*#__PURE__*/__webpack_require__.n(external_nodemailer_);
-;// CONCATENATED MODULE: external "path"
-const external_path_namespaceObject = require("path");
-var external_path_default = /*#__PURE__*/__webpack_require__.n(external_path_namespaceObject);
 ;// CONCATENATED MODULE: ./src/config/nodemailerTrabaja.js
-
 
 const email = process.env.EMAIL;
 const pass = process.env.EMAIL_PASS;
@@ -43,14 +39,7 @@ const transporter = external_nodemailer_default().createTransport({
 });
 const mailOptions = {
     from: email,
-    to: "dev@quickgold.es",
-    attachments: [
-        {
-            filename: "curriculum.pdf",
-            path: external_path_default().join(process.cwd(), "public", "curriculum.pdf"),
-            contentType: "application/pdf"
-        }
-    ]
+    to: "dev@quickgold.es"
 };
 
 ;// CONCATENATED MODULE: ./src/pages/api/contactTrabaja.js
@@ -59,10 +48,10 @@ const mailOptions = {
 
 const CONTAC_MESSAGE_FIELDS = {
     name: "Nombre y Apellido",
-    email: "Correo electr\xf3nico",
-    subject: "Ciudad",
-    message: "Tel\xe9fono",
-    file: "curriculum"
+    telefono: "Tel\xe9fono",
+    correo: "Correo electr\xf3nico",
+    ciudad: "Ciudad",
+    curriculum: "Url para descargar el curriculum"
 };
 const generateEmailContent = (data)=>{
     const stringData = Object.entries(data).reduce((str, [key, val])=>str += `${CONTAC_MESSAGE_FIELDS[key]}: \n${val} \n \n`, "");
@@ -211,8 +200,7 @@ const generateEmailContent = (data)=>{
 const handler = async (req, res)=>{
     if (req.method === "POST") {
         const data = req.body;
-        console.log(data);
-        if (!data.name || !data.email || !data.subject || !data.message) {
+        if (!data.name || !data.telefono || !data.correo || !data.ciudad || !data.curriculum) {
             return res.status(400).json({
                 message: "Bad request"
             });
@@ -249,7 +237,7 @@ const handler = async (req, res)=>{
 var __webpack_require__ = require("../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(6066));
+var __webpack_exports__ = (__webpack_exec__(3096));
 module.exports = __webpack_exports__;
 
 })();

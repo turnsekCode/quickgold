@@ -107,7 +107,7 @@ const Section_uno = ()=>{
                             "\xbfTienes alguna duda? Nuestras",
                             " ",
                             /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                href: "/preguntas-frecuentes/",
+                                href: "/preguntas-frecuentes",
                                 children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                     children: "Preguntas Frecuentes"
                                 })
@@ -132,7 +132,7 @@ const Section_uno = ()=>{
                                     "\xbfNecesitas m\xe1s informaci\xf3n de c\xf3mo abrir una tienda quickgold? Escr\xedbenos o llama a Expansi\xf3n quickgold.",
                                     " ",
                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "tel:687 696 523",
+                                        href: "tel:687696523",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                             children: "687 696 523"
                                         })
@@ -151,7 +151,7 @@ const Section_uno = ()=>{
                                 children: [
                                     "\xbfNecesitas informaci\xf3n sobre alguno de los servicios quickgold? Escr\xedbenos o llama gratis a Atenci\xf3n al Cliente quickgold.",
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                        href: "tel: 900 373 629",
+                                        href: "tel:900373629",
                                         children: [
                                             " ",
                                             /*#__PURE__*/ jsx_runtime_.jsx("strong", {
@@ -191,7 +191,8 @@ var Place_default = /*#__PURE__*/__webpack_require__.n(Place_namespaceObject);
 
 function searchTerm(term) {
     return function(x) {
-        return x.nombreCiudad.toLowerCase().includes(term.toLowerCase()) || x.direccion.toLowerCase().includes(term.toLowerCase()) || !term;
+        return x.nombreCiudad.toLowerCase().includes(term.toLowerCase()) || //x.direccion.toLowerCase().includes(term.toLowerCase()) ||
+        !term;
     };
 }
 const Section_dos = ({ listadociudades  })=>{

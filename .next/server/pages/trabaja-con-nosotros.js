@@ -19,32 +19,32 @@ module.exports = {
 
 /***/ }),
 
-/***/ 1555:
+/***/ 6255:
 /***/ ((module) => {
 
 // Exports
 module.exports = {
-	"contenedorMain": "formularioTrabaja_contenedorMain__3rArt",
-	"cabecera": "formularioTrabaja_cabecera__HmSh0",
-	"footer": "formularioTrabaja_footer__PAiOn",
-	"fondoCeleste": "formularioTrabaja_fondoCeleste__7Rs_Z",
-	"imagenCombinado": "formularioTrabaja_imagenCombinado__GZWLN",
-	"contenedor": "formularioTrabaja_contenedor__QDDY7",
-	"contenedorFormulario": "formularioTrabaja_contenedorFormulario__VgTOx",
-	"contenedorTexto": "formularioTrabaja_contenedorTexto__KvhAM",
-	"imagenGlobo": "formularioTrabaja_imagenGlobo__n8r8s",
-	"contenedorPistas": "formularioTrabaja_contenedorPistas__3C0IJ",
-	"contenedorFormPistas": "formularioTrabaja_contenedorFormPistas__lBnZK",
-	"imagenPersona": "formularioTrabaja_imagenPersona___1qgV",
-	"contenedorInputPistas": "formularioTrabaja_contenedorInputPistas__lxQAI",
-	"linea": "formularioTrabaja_linea__6nPmE",
-	"linkPoliticas": "formularioTrabaja_linkPoliticas__DNtIt",
-	"contenedorBoton": "formularioTrabaja_contenedorBoton__q9EXu",
-	"basesLegales": "formularioTrabaja_basesLegales__mzDx3",
-	"textoLabel": "formularioTrabaja_textoLabel__4QNcy",
-	"botonEnviar": "formularioTrabaja_botonEnviar__IDmCT",
-	"botonEnviarHabilitado": "formularioTrabaja_botonEnviarHabilitado__j6MUB",
-	"inputFile": "formularioTrabaja_inputFile__XCnFY"
+	"contenedorMain": "formularioTrabaja_contenedorMain__J06Qu",
+	"cabecera": "formularioTrabaja_cabecera__zd0l2",
+	"footer": "formularioTrabaja_footer__f8NBL",
+	"fondoCeleste": "formularioTrabaja_fondoCeleste__Db_2v",
+	"imagenCombinado": "formularioTrabaja_imagenCombinado__Ndvpg",
+	"contenedor": "formularioTrabaja_contenedor__jcKbb",
+	"contenedorFormulario": "formularioTrabaja_contenedorFormulario__KUum_",
+	"contenedorTexto": "formularioTrabaja_contenedorTexto__95vyj",
+	"imagenGlobo": "formularioTrabaja_imagenGlobo__wYO66",
+	"contenedorPistas": "formularioTrabaja_contenedorPistas__EuKBH",
+	"contenedorFormPistas": "formularioTrabaja_contenedorFormPistas__ExoTz",
+	"imagenPersona": "formularioTrabaja_imagenPersona__G_6Mz",
+	"contenedorInputPistas": "formularioTrabaja_contenedorInputPistas__B4g5y",
+	"linea": "formularioTrabaja_linea__u7ccB",
+	"linkPoliticas": "formularioTrabaja_linkPoliticas__g2zK1",
+	"contenedorBoton": "formularioTrabaja_contenedorBoton__4bY_Q",
+	"basesLegales": "formularioTrabaja_basesLegales__ENhk4",
+	"textoLabel": "formularioTrabaja_textoLabel__uk3Ys",
+	"botonEnviar": "formularioTrabaja_botonEnviar__RZHSN",
+	"botonEnviarHabilitado": "formularioTrabaja_botonEnviarHabilitado__rsMfB",
+	"inputFile": "formularioTrabaja_inputFile__PakRJ"
 };
 
 
@@ -254,7 +254,7 @@ const Section_tres = ()=>{
 
 /***/ }),
 
-/***/ 3127:
+/***/ 7252:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -264,14 +264,321 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(1555);
-/* harmony import */ var _formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(6255);
+/* harmony import */ var _formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2210);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _lib_apiTrabaja__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6910);
+/* harmony import */ var _utilities_fireBaseConfig__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9806);
+/* harmony import */ var firebase_storage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3392);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__, _utilities_fireBaseConfig__WEBPACK_IMPORTED_MODULE_3__, firebase_storage__WEBPACK_IMPORTED_MODULE_4__]);
+([_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__, _utilities_fireBaseConfig__WEBPACK_IMPORTED_MODULE_3__, firebase_storage__WEBPACK_IMPORTED_MODULE_4__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+"use client";
+
+
+
+
+
+
+
+//import { v4 } from "uuid";
+
+const initValues = {
+    name: "",
+    telefono: "",
+    correo: "",
+    ciudad: "",
+    curriculum: ""
+};
+const initState = {
+    values: initValues
+};
+const FormularioTrabajaFirebase = ()=>{
+    const toast = (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.useToast)();
+    const [state, setState] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(initState);
+    const [touched, setTouched] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)({});
+    const { values , isLoading , error  } = state;
+    const [checkedItems, setCheckedItems] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(false);
+    const [curriculum, setCurriculum] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)();
+    const [nombre, setNombre] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)();
+    const [pesoArchivo, setPesoArchivo] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)();
+    const onBlur = ({ target  })=>setTouched((prev)=>({
+                ...prev,
+                [target.name]: true
+            }));
+    const handleChangeNombre = (e)=>setState((prev)=>({
+                ...prev,
+                values: {
+                    ...prev.values,
+                    name: e.target.value
+                }
+            }));
+    const handleChangeTelefono = (e)=>setState((prev)=>({
+                ...prev,
+                values: {
+                    ...prev.values,
+                    telefono: e.target.value
+                }
+            }));
+    const handleChangeCorreo = (e)=>setState((prev)=>({
+                ...prev,
+                values: {
+                    ...prev.values,
+                    correo: e.target.value
+                }
+            }));
+    const handleChangeCiudad = (e)=>setState((prev)=>({
+                ...prev,
+                values: {
+                    ...prev.values,
+                    ciudad: e.target.value
+                }
+            }));
+    const handleChangeFile = (e)=>{
+        setPesoArchivo(e.target.files[0]);
+        const archivo = (0,firebase_storage__WEBPACK_IMPORTED_MODULE_4__.ref)(_utilities_fireBaseConfig__WEBPACK_IMPORTED_MODULE_3__/* .file */ .t, `Curriculums/${nombre}`);
+        if (e.target.files[0]?.size < 2000000) {
+            (0,firebase_storage__WEBPACK_IMPORTED_MODULE_4__.uploadBytes)(archivo, e.target.files[0]).then((data)=>{
+                (0,firebase_storage__WEBPACK_IMPORTED_MODULE_4__.getDownloadURL)(data.ref).then((val)=>{
+                    setCurriculum(val);
+                    setState((prev)=>({
+                            ...prev,
+                            values: {
+                                ...prev.values,
+                                curriculum: val
+                            }
+                        }));
+                });
+            });
+        }
+    };
+    const onSubmit = async ()=>{
+        setState((prev)=>({
+                ...prev,
+                isLoading: true
+            }));
+        try {
+            await (0,_lib_apiTrabaja__WEBPACK_IMPORTED_MODULE_5__/* .sendContactForm */ .m)(values);
+            window.location.href = window.location.href;
+            //const valRef = collection(text, "textoData");
+            //await addDoc(valRef, { txtVal: nombre, archivoUrl: curriculum });
+            toast({
+                title: "Mensaje enviado",
+                status: "success",
+                duration: 2000,
+                position: "top"
+            });
+            setTouched({});
+        } catch (error) {
+            setState((prev)=>({
+                    ...prev,
+                    isLoading: false,
+                    error: error.message
+                }));
+        }
+    };
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.ChakraProvider, {
+        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Container, {
+            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().contenedorFormulario),
+            children: [
+                error && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Text, {
+                    color: "red.300",
+                    my: 4,
+                    fontSize: "xl",
+                    children: error
+                }),
+                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormControl, {
+                    isRequired: true,
+                    position: "relative",
+                    isInvalid: touched.name && !values.name,
+                    mb: "4",
+                    children: [
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().textoLabel),
+                            children: "Nombre y Apellidos*"
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Input, {
+                            required: true,
+                            type: "text",
+                            placeholder: "Nombre y Apellidos...",
+                            name: "name",
+                            errorBorderColor: "red.300",
+                            onChange: (e)=>{
+                                handleChangeNombre(e);
+                                setNombre(e.target.value);
+                            },
+                            onBlur: onBlur
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormErrorMessage, {
+                            style: {
+                                margin: "0"
+                            },
+                            children: "Se Requiere"
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormControl, {
+                    isRequired: true,
+                    isInvalid: touched.telefono && !values.telefono,
+                    mb: "4",
+                    children: [
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().textoLabel),
+                            children: "Tel\xe9fono*"
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Input, {
+                            placeholder: "Tel\xe9fono...",
+                            type: "number",
+                            inputMode: "numeric",
+                            name: "telefono",
+                            onChange: (e)=>handleChangeTelefono(e),
+                            onBlur: onBlur
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormErrorMessage, {
+                            style: {
+                                margin: "0"
+                            },
+                            children: "Se Requiere"
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormControl, {
+                    isRequired: true,
+                    isInvalid: touched.correo && !values.correo,
+                    mb: "4",
+                    children: [
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().textoLabel),
+                            children: "Correo electr\xf3nico*"
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Input, {
+                            placeholder: "Correo electr\xf3nico...",
+                            type: "email",
+                            name: "correo",
+                            onChange: (e)=>handleChangeCorreo(e),
+                            onBlur: onBlur
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormErrorMessage, {
+                            style: {
+                                margin: "0"
+                            },
+                            children: "Se Requiere"
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormControl, {
+                    isRequired: true,
+                    isInvalid: touched.ciudad && !values.ciudad,
+                    mb: "4",
+                    children: [
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().textoLabel),
+                            children: "\xbfEn qu\xe9 ciudad te interesar\xeda trabajar?*"
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Input, {
+                            placeholder: "Ciudad...",
+                            type: "text",
+                            name: "ciudad",
+                            onChange: (e)=>handleChangeCiudad(e),
+                            onBlur: onBlur
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormErrorMessage, {
+                            style: {
+                                margin: "0"
+                            },
+                            children: "Se Requiere"
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormControl, {
+                    isRequired: true,
+                    isInvalid: touched.curriculum && !values.curriculum,
+                    mb: "4",
+                    children: [
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().textoLabel),
+                            children: "Sube tu curr\xedculum"
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Input, {
+                            //color="#fff"
+                            style: {
+                                border: "none",
+                                padding: "0 0 0 33px"
+                            },
+                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().inputFile),
+                            type: "file",
+                            onChange: (e)=>{
+                                handleChangeFile(e);
+                            }
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            children: "M\xc1X. 2 MB"
+                        }),
+                        pesoArchivo?.size > 2000000 ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            children: "Excede tama\xf1o de 2 megas"
+                        }) : "",
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormErrorMessage, {
+                            style: {
+                                margin: "0"
+                            },
+                            children: "Se Requiere"
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Checkbox, {
+                    type: "checkbox",
+                    required: true,
+                    color: "#fff",
+                    isChecked: checkedItems,
+                    name: "checkbox",
+                    onChange: (e)=>setCheckedItems(e.target.checked),
+                    children: [
+                        "He le\xeddo y acepto la",
+                        " ",
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().linkPoliticas),
+                            href: "/politica-de-privacidad",
+                            children: "pol\xedtica de privacidad"
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormErrorMessage, {
+                    style: {
+                        margin: "0"
+                    },
+                    children: "Required"
+                }),
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Button, {
+                    isLoading: isLoading,
+                    className: !values.name || !values.telefono || !values.correo || !values.ciudad || !curriculum || pesoArchivo?.size > 2000000 || checkedItems === false ? `${(_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().botonEnviar)}` : `${(_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().botonEnviar)} ${(_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().botonEnviarHabilitado)}`,
+                    isDisabled: !values.name || !values.telefono || !values.correo || !values.ciudad || !curriculum || checkedItems === false || pesoArchivo?.size > 2000000,
+                    onClick: onSubmit,
+                    children: "ENVIAR"
+                })
+            ]
+        })
+    });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (FormularioTrabajaFirebase);
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
+
+/***/ }),
+
+/***/ 3127:
+/***/ ((module, __unused_webpack___webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5675);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2210);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _lib_apiTrabaja__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(6910);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1853);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _mui_icons_material_AccountCircle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1883);
@@ -306,13 +613,13 @@ const initState = {
     values: initValues
 };
 const FormularioTrabaja = ()=>{
-    const toast = (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.useToast)();
-    const [state, setState] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(initState);
-    const [touched, setTouched] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)({});
+    const toast = useToast();
+    const [state, setState] = useState(initState);
+    const [touched, setTouched] = useState({});
     const { values , isLoading , error  } = state;
     //const router = useRouter();
-    const [checkedItems, setCheckedItems] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(false);
-    const [file, setFile] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)();
+    const [checkedItems, setCheckedItems] = useState(false);
+    const [file, setFile] = useState();
     const onBlur = ({ target  })=>setTouched((prev)=>({
                 ...prev,
                 [target.name]: true
@@ -333,7 +640,7 @@ const FormularioTrabaja = ()=>{
                 isLoading: true
             }));
         try {
-            await (0,_lib_apiTrabaja__WEBPACK_IMPORTED_MODULE_8__/* .sendContactForm */ .m)(values);
+            await sendContactForm(values);
             //await sendContactBd(values);
             setTouched({});
             setState(initState);
@@ -362,27 +669,27 @@ const FormularioTrabaja = ()=>{
                 }));
         }
     };
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.ChakraProvider, {
-        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Container, {
-            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_9___default().contenedorFormulario),
+    return /*#__PURE__*/ _jsx(ChakraProvider, {
+        children: /*#__PURE__*/ _jsxs(Container, {
+            className: styles.contenedorFormulario,
             children: [
-                error && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Text, {
+                error && /*#__PURE__*/ _jsx(Text, {
                     color: "red.300",
                     my: 4,
                     fontSize: "xl",
                     children: error
                 }),
-                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormControl, {
+                /*#__PURE__*/ _jsxs(FormControl, {
                     isRequired: true,
                     position: "relative",
                     isInvalid: touched.name && !values.name,
                     mb: "4",
                     children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_9___default().textoLabel),
+                        /*#__PURE__*/ _jsx("p", {
+                            className: styles.textoLabel,
                             children: "Nombre y Apellidos*"
                         }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Input, {
+                        /*#__PURE__*/ _jsx(Input, {
                             type: "text",
                             placeholder: "Nombre y Apellidos...",
                             name: "name",
@@ -391,7 +698,7 @@ const FormularioTrabaja = ()=>{
                             onChange: handleChange,
                             onBlur: onBlur
                         }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormErrorMessage, {
+                        /*#__PURE__*/ _jsx(FormErrorMessage, {
                             style: {
                                 margin: "0"
                             },
@@ -399,16 +706,16 @@ const FormularioTrabaja = ()=>{
                         })
                     ]
                 }),
-                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormControl, {
+                /*#__PURE__*/ _jsxs(FormControl, {
                     isRequired: true,
                     isInvalid: touched.message && !values.message,
                     mb: "4",
                     children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_9___default().textoLabel),
+                        /*#__PURE__*/ _jsx("p", {
+                            className: styles.textoLabel,
                             children: "Tel\xe9fono*"
                         }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Input, {
+                        /*#__PURE__*/ _jsx(Input, {
                             placeholder: "Tel\xe9fono...",
                             type: "number",
                             inputMode: "numeric",
@@ -417,7 +724,7 @@ const FormularioTrabaja = ()=>{
                             onChange: handleChange,
                             onBlur: onBlur
                         }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormErrorMessage, {
+                        /*#__PURE__*/ _jsx(FormErrorMessage, {
                             style: {
                                 margin: "0"
                             },
@@ -425,16 +732,16 @@ const FormularioTrabaja = ()=>{
                         })
                     ]
                 }),
-                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormControl, {
+                /*#__PURE__*/ _jsxs(FormControl, {
                     isRequired: true,
                     isInvalid: touched.email && !values.email,
                     mb: "4",
                     children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_9___default().textoLabel),
+                        /*#__PURE__*/ _jsx("p", {
+                            className: styles.textoLabel,
                             children: "Correo electr\xf3nico*"
                         }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Input, {
+                        /*#__PURE__*/ _jsx(Input, {
                             placeholder: "Correo electr\xf3nico...",
                             type: "email",
                             name: "email",
@@ -442,7 +749,7 @@ const FormularioTrabaja = ()=>{
                             onChange: handleChange,
                             onBlur: onBlur
                         }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormErrorMessage, {
+                        /*#__PURE__*/ _jsx(FormErrorMessage, {
                             style: {
                                 margin: "0"
                             },
@@ -450,17 +757,17 @@ const FormularioTrabaja = ()=>{
                         })
                     ]
                 }),
-                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormControl, {
+                /*#__PURE__*/ _jsxs(FormControl, {
                     isRequired: true,
                     isInvalid: touched.subject && !values.subject,
                     //box-shadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
                     mb: "4",
                     children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_9___default().textoLabel),
+                        /*#__PURE__*/ _jsx("p", {
+                            className: styles.textoLabel,
                             children: "\xbfEn qu\xe9 ciudad te interesar\xeda trabajar?*"
                         }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Input, {
+                        /*#__PURE__*/ _jsx(Input, {
                             placeholder: "Ciudad...",
                             //color="#fff"
                             //className={styles.inputPista}
@@ -471,7 +778,7 @@ const FormularioTrabaja = ()=>{
                             onChange: handleChange,
                             onBlur: onBlur
                         }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormErrorMessage, {
+                        /*#__PURE__*/ _jsx(FormErrorMessage, {
                             style: {
                                 margin: "0"
                             },
@@ -479,7 +786,41 @@ const FormularioTrabaja = ()=>{
                         })
                     ]
                 }),
-                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Checkbox, {
+                /*#__PURE__*/ _jsxs(FormControl, {
+                    isRequired: true,
+                    isInvalid: touched.file && !values.file,
+                    //box-shadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
+                    mb: "4",
+                    children: [
+                        /*#__PURE__*/ _jsx("p", {
+                            className: styles.textoLabel,
+                            children: "Sube tu curr\xedculum"
+                        }),
+                        /*#__PURE__*/ _jsx(Input, {
+                            //color="#fff"
+                            style: {
+                                border: "none",
+                                padding: "0 0 0 33px"
+                            },
+                            className: styles.inputFile,
+                            type: "file",
+                            onChange: (e)=>{
+                                handleChangeFile(e);
+                            },
+                            onBlur: onBlur
+                        }),
+                        /*#__PURE__*/ _jsx("p", {
+                            children: "M\xc1X. 2 MB"
+                        }),
+                        /*#__PURE__*/ _jsx(FormErrorMessage, {
+                            style: {
+                                margin: "0"
+                            },
+                            children: "Se Requiere"
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ _jsxs(Checkbox, {
                     type: "checkbox",
                     required: true,
                     color: "#fff",
@@ -489,21 +830,21 @@ const FormularioTrabaja = ()=>{
                     children: [
                         "He le\xeddo y acepto la",
                         " ",
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_9___default().linkPoliticas),
+                        /*#__PURE__*/ _jsx("a", {
+                            className: styles.linkPoliticas,
                             href: "/politica-de-privacidad",
                             children: "pol\xedtica de privacidad"
                         })
                     ]
                 }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormErrorMessage, {
+                /*#__PURE__*/ _jsx(FormErrorMessage, {
                     style: {
                         margin: "0"
                     },
                     children: "Required"
                 }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                    className: !values.name || !values.email || !values.subject || !values.message || checkedItems === false ? `${(_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_9___default().botonEnviar)}` : `${(_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_9___default().botonEnviar)} ${(_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_9___default().botonEnviarHabilitado)}`,
+                /*#__PURE__*/ _jsx("button", {
+                    className: !values.name || !values.email || !values.subject || !values.message || checkedItems === false ? `${styles.botonEnviar}` : `${styles.botonEnviar} ${styles.botonEnviarHabilitado}`,
                     //background=" #E83C82"
                     //variant="outline"
                     //borderRadius="13px"
@@ -518,7 +859,7 @@ const FormularioTrabaja = ()=>{
         })
     });
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (FormularioTrabaja);
+/* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ((/* unused pure expression or super */ null && (FormularioTrabaja)));
 
 __webpack_async_result__();
 } catch(e) { __webpack_async_result__(e); } });
@@ -783,13 +1124,15 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Section_cinco_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4595);
-/* harmony import */ var _Section_cinco_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Section_cinco_module_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _Section_cinco_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4595);
+/* harmony import */ var _Section_cinco_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Section_cinco_module_css__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5675);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _formularioTrabaja_FormularioTrabaja__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3127);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_formularioTrabaja_FormularioTrabaja__WEBPACK_IMPORTED_MODULE_3__]);
-_formularioTrabaja_FormularioTrabaja__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+/* harmony import */ var _formularioTrabajaFireBase_FormularioTrabaja__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(7252);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_formularioTrabaja_FormularioTrabaja__WEBPACK_IMPORTED_MODULE_3__, _formularioTrabajaFireBase_FormularioTrabaja__WEBPACK_IMPORTED_MODULE_4__]);
+([_formularioTrabaja_FormularioTrabaja__WEBPACK_IMPORTED_MODULE_3__, _formularioTrabajaFireBase_FormularioTrabaja__WEBPACK_IMPORTED_MODULE_4__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+
 
 
 
@@ -797,27 +1140,27 @@ _formularioTrabaja_FormularioTrabaja__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_a
 
 const Section_cinco = ()=>{
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-        className: (_Section_cinco_module_css__WEBPACK_IMPORTED_MODULE_4___default().contenedorSectionCinco),
+        className: (_Section_cinco_module_css__WEBPACK_IMPORTED_MODULE_5___default().contenedorSectionCinco),
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
                 children: "Si te identificas con nosotros, m\xe1ndanos tu curr\xedculum"
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: (_Section_cinco_module_css__WEBPACK_IMPORTED_MODULE_4___default().contenedorBloques),
+                className: (_Section_cinco_module_css__WEBPACK_IMPORTED_MODULE_5___default().contenedorBloques),
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_Section_cinco_module_css__WEBPACK_IMPORTED_MODULE_4___default().bloqueIzq),
+                        className: (_Section_cinco_module_css__WEBPACK_IMPORTED_MODULE_5___default().bloqueIzq),
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                             src: "/assets/img/imagenBloqueCinco.png",
                             alt: "Compro oro",
-                            className: (_Section_cinco_module_css__WEBPACK_IMPORTED_MODULE_4___default().imagenSectionCinco),
+                            className: (_Section_cinco_module_css__WEBPACK_IMPORTED_MODULE_5___default().imagenSectionCinco),
                             width: 519,
                             height: 600
                         })
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_Section_cinco_module_css__WEBPACK_IMPORTED_MODULE_4___default().bloqueDer),
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_formularioTrabaja_FormularioTrabaja__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {})
+                        className: (_Section_cinco_module_css__WEBPACK_IMPORTED_MODULE_5___default().bloqueDer),
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_formularioTrabajaFireBase_FormularioTrabaja__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {})
                     })
                 ]
             })
@@ -838,7 +1181,7 @@ __webpack_async_result__();
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "m": () => (/* binding */ sendContactForm)
 /* harmony export */ });
-const sendContactForm = async (data)=>fetch("http://localhost:3000/api/contactTrabaja", {
+const sendContactForm = async (data)=>fetch("https://quickgold.es/api/contactTrabaja", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {
@@ -974,6 +1317,42 @@ async function getStaticProps() {
         revalidate: 1
     };
 }
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
+
+/***/ }),
+
+/***/ 9806:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "t": () => (/* binding */ file)
+/* harmony export */ });
+/* unused harmony export text */
+/* harmony import */ var firebase_app__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3745);
+/* harmony import */ var firebase_storage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3392);
+/* harmony import */ var firebase_firestore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1492);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([firebase_app__WEBPACK_IMPORTED_MODULE_0__, firebase_storage__WEBPACK_IMPORTED_MODULE_1__, firebase_firestore__WEBPACK_IMPORTED_MODULE_2__]);
+([firebase_app__WEBPACK_IMPORTED_MODULE_0__, firebase_storage__WEBPACK_IMPORTED_MODULE_1__, firebase_firestore__WEBPACK_IMPORTED_MODULE_2__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+
+
+
+const firebaseConfig = {
+    apiKey: "AIzaSyAyjvmVOwlJRziZOtcQD-EsRwbaB8oPXO0",
+    authDomain: "formtrabajaconnosotros.firebaseapp.com",
+    projectId: "formtrabajaconnosotros",
+    storageBucket: "formtrabajaconnosotros.appspot.com",
+    messagingSenderId: "421897463469",
+    appId: "1:421897463469:web:a29ad1f837d1681c190824"
+};
+// Initialize Firebase
+const app = (0,firebase_app__WEBPACK_IMPORTED_MODULE_0__.initializeApp)(firebaseConfig);
+const file = (0,firebase_storage__WEBPACK_IMPORTED_MODULE_1__.getStorage)(app);
+const text = (0,firebase_firestore__WEBPACK_IMPORTED_MODULE_2__.getFirestore)(app);
+
 
 __webpack_async_result__();
 } catch(e) { __webpack_async_result__(e); } });
@@ -1249,6 +1628,30 @@ module.exports = require("react/jsx-runtime");
 
 "use strict";
 module.exports = import("@chakra-ui/react");;
+
+/***/ }),
+
+/***/ 3745:
+/***/ ((module) => {
+
+"use strict";
+module.exports = import("firebase/app");;
+
+/***/ }),
+
+/***/ 1492:
+/***/ ((module) => {
+
+"use strict";
+module.exports = import("firebase/firestore");;
+
+/***/ }),
+
+/***/ 3392:
+/***/ ((module) => {
+
+"use strict";
+module.exports = import("firebase/storage");;
 
 /***/ })
 

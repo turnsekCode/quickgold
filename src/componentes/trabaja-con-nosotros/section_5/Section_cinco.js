@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Section_cinco.module.css";
 import Image from "next/image";
 import FormularioTrabaja from "../formularioTrabaja/FormularioTrabaja";
+import FormularioTrabajaFirebase from "../formularioTrabajaFireBase/FormularioTrabaja";
 
 const Section_cinco = () => {
   return (
@@ -18,7 +19,7 @@ const Section_cinco = () => {
           />
         </div>
         <div className={styles.bloqueDer}>
-          <FormularioTrabaja />
+          <FormularioTrabajaFirebase />
         </div>
       </div>
     </section>
