@@ -181,7 +181,7 @@ const FormularioTrabaja = () => {
             Se Requiere
           </FormErrorMessage>
         </FormControl>
-        <FormControl
+        {/* <FormControl
           isRequired
           isInvalid={touched.file && !values.file}
           //box-shadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
@@ -203,7 +203,7 @@ const FormularioTrabaja = () => {
           <FormErrorMessage style={{ margin: "0" }}>
             Se Requiere
           </FormErrorMessage>
-        </FormControl>
+          </FormControl>*/}
         <Checkbox
           type="checkbox"
           required
