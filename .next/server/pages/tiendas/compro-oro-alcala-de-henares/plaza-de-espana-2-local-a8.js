@@ -226,9 +226,6 @@ function Plazadeespana2locala8({ menu_list , ciudad , tiendaGoogle , general  })
                     }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BotonesLlamarWT_BotonesLlamar__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
                         ciudad: ciudad
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponenteHTML_Html__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
-                        ciudad: ciudad
-                    }),
                     ciudad?.acf?.activar_banner_wallapop ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerWallapop_BannerWallapop__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
                         ciudad: ciudad
                     }) : null

@@ -41,8 +41,6 @@ const FormularioTrabaja = () => {
   //const router = useRouter();
   const [checkedItems, setCheckedItems] = useState(false);
   const [file, setFile] = useState();
-  const variableFile = file?.name;
-  // console.log(variableFile);
   const onBlur = ({ target }) =>
     setTouched((prev) => ({
       ...prev,
@@ -70,14 +68,14 @@ const FormularioTrabaja = () => {
       setTouched({});
       setState(initState);
       //formulario de archivo
-      //const form = new FormData();
-      //form.set("file", file);
-      //const res = await fetch("/api/upload", {
-      //  method: "POST",
-      //  body: JSON.stringify(file),
-      //});
-      //const data = await res.json();
-      //console.log(data);
+      const formData = new FormData();
+      formData.append("file", file);
+      const res = await fetch("/api/upload", {
+        method: "POST",
+        body: formData,
+      });
+      const data = await res.json();
+      console.log(formData);
       //fin formulario de archivo
       //router.push("/gracias");
       toast({
@@ -183,7 +181,7 @@ const FormularioTrabaja = () => {
             Se Requiere
           </FormErrorMessage>
         </FormControl>
-        {/*<FormControl
+        <FormControl
           isRequired
           isInvalid={touched.file && !values.file}
           //box-shadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
@@ -195,20 +193,17 @@ const FormularioTrabaja = () => {
             style={{ border: "none", padding: "0 0 0 33px" }}
             className={styles.inputFile}
             type="file"
-            filename={values.file}
-            //value={values.file}
             onChange={(e) => {
-              handleChange(e);
+              handleChangeFile(e);
             }}
             onBlur={onBlur}
           />
-          <input value={values.file} style={{ display: "none" }} />
 
           <p>MÁX. 2 MB</p>
           <FormErrorMessage style={{ margin: "0" }}>
             Se Requiere
           </FormErrorMessage>
-          </FormControl>*/}
+        </FormControl>
         <Checkbox
           type="checkbox"
           required

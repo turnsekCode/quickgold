@@ -167,7 +167,6 @@ export default function CalleMayor74({
         ) : (
           <BotonesLlamar ciudad={ciudad} />
         )}
-        <Html ciudad={ciudad} />
         {ciudad?.acf?.activar_banner_wallapop ? (
           <BannerWallapop ciudad={ciudad} />
         ) : null}

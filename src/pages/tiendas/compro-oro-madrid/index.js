@@ -165,7 +165,11 @@ export default function Madrid({ markers, menu_list, ciudad, general }) {
             </article>
             {/*<Mapa markers={markers} />*/}
           </div>
-          <HtmlGeneral general={general} />
+          {general?.acf?.html === "" || ciudad?.acf?.html !== "" ? (
+            <Html ciudad={ciudad} />
+          ) : (
+            <HtmlGeneral general={general} />
+          )}
         </div>
 
         {ciudad?.acf?.tienda === "" ? (
@@ -173,7 +177,6 @@ export default function Madrid({ markers, menu_list, ciudad, general }) {
         ) : (
           <BotonesLlamar ciudad={ciudad} />
         )}
-        <Html ciudad={ciudad} />
         {ciudad?.acf?.activar_banner_wallapop ? (
           <BannerWallapop ciudad={ciudad} />
         ) : null}

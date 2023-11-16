@@ -213,7 +213,9 @@ function Elche({ markers , menu_list , ciudad , general  }) {
                                     })
                                 ]
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponenteHTMLGeneral_HtmlGeneral__WEBPACK_IMPORTED_MODULE_15__/* ["default"] */ .Z, {
+                            general?.acf?.html === "" || ciudad?.acf?.html !== "" ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponenteHTML_Html__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
+                                ciudad: ciudad
+                            }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponenteHTMLGeneral_HtmlGeneral__WEBPACK_IMPORTED_MODULE_15__/* ["default"] */ .Z, {
                                 general: general
                             })
                         ]
@@ -221,9 +223,6 @@ function Elche({ markers , menu_list , ciudad , general  }) {
                     ciudad?.acf?.tienda === "" ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BotonLlamarFijo_BotonLamarFijo__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
                         ciudad: ciudad
                     }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BotonesLlamarWT_BotonesLlamar__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
-                        ciudad: ciudad
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponenteHTML_Html__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
                         ciudad: ciudad
                     }),
                     ciudad?.acf?.activar_banner_wallapop ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerWallapop_BannerWallapop__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {

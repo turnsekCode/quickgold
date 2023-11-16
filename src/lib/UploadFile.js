@@ -1,14 +1,11 @@
-export const sendContactForm = async (file) => {
-  //console.log(file);
-  //const form = new FormData();
-  //form.set("file", file);
-  const res = await fetch("http://localhost:3000/api/upload", {
+export const sendContactForm = async (data) =>
+  fetch("http://localhost:3000/api/contactTrabaja", {
     method: "POST",
+    body: formData,
     headers: {
-      "Content-Type": "application/json",
-      Accept: "application/json,",
-      body: file,
+      "Content-Type": "multipart/form-data",
     },
+  }).then((res) => {
+    if (!res.ok) throw new Error("Failed to send message");
+    return res.json();
   });
-  const data = await res.json();
-};

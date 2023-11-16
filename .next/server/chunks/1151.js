@@ -1274,6 +1274,7 @@ function Empenos({ ciudad  }) {
 }
 
 ;// CONCATENATED MODULE: ./src/componentes/AccordionServicios/AccordionServicios.js
+"use client";
 
 
 
@@ -1324,6 +1325,10 @@ const AccordionDetails = (0,styles_.styled)((AccordionDetails_default()))(({ the
         padding: theme.spacing(2)
     }));
 function AccordionServicios({ ciudad  }) {
+    (0,external_react_.useEffect)(()=>{
+        const url = window.location.href;
+        console.log(url);
+    }, []);
     const [expanded, setExpanded] = external_react_default().useState("panel3");
     const handleChange = (panel)=>(event, newExpanded)=>{
             setExpanded(newExpanded ? panel : false);
@@ -1366,7 +1371,8 @@ function AccordionServicios({ ciudad  }) {
                                             }),
                                             " preferida por miles de personas al a\xf1o en ",
                                             ciudad?.acf?.ciudad_landing,
-                                            ". ",
+                                            ".",
+                                            " ",
                                             /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                                 children: "Cambiar divisa"
                                             }),
@@ -1387,6 +1393,7 @@ function AccordionServicios({ ciudad  }) {
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("section", {
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Accordion, {
+                    id: "precioOro",
                     style: {
                         background: "#0F2D45",
                         borderRadius: "8px",
@@ -1423,7 +1430,8 @@ function AccordionServicios({ ciudad  }) {
                                             /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                                 children: "Compro oro"
                                             }),
-                                            " en ",
+                                            " en",
+                                            " ",
                                             ciudad?.acf?.ciudad_landing,
                                             ". M\xe1s de 15 a\xf1os en el sector siendo la empresa referente en las ciudades donde estamos."
                                         ]
@@ -1474,11 +1482,13 @@ function AccordionServicios({ ciudad  }) {
                                             /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                                 children: "plata al mejor precio"
                                             }),
-                                            ": joyas, cuberter\xedas, etc. Somos los l\xedderes en la ",
+                                            ": joyas, cuberter\xedas, etc. Somos los l\xedderes en la",
+                                            " ",
                                             /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                                 children: "compra de joyas"
                                             }),
-                                            " en ",
+                                            " en",
+                                            " ",
                                             ciudad?.acf?.ciudad_landing,
                                             "."
                                         ]
@@ -1529,7 +1539,8 @@ function AccordionServicios({ ciudad  }) {
                                             /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                                 children: "empe\xf1os sin inter\xe9s el primer mes"
                                             }),
-                                            " hacen que empe\xf1ar oro sea mucho m\xe1s c\xf3modo y f\xe1cil para nuestros clientes."
+                                            " ",
+                                            "hacen que empe\xf1ar oro sea mucho m\xe1s c\xf3modo y f\xe1cil para nuestros clientes."
                                         ]
                                     })
                                 ]

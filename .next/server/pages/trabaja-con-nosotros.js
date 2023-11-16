@@ -313,8 +313,6 @@ const FormularioTrabaja = ()=>{
     //const router = useRouter();
     const [checkedItems, setCheckedItems] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(false);
     const [file, setFile] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)();
-    const variableFile = file?.name;
-    // console.log(variableFile);
     const onBlur = ({ target  })=>setTouched((prev)=>({
                 ...prev,
                 [target.name]: true
@@ -340,14 +338,14 @@ const FormularioTrabaja = ()=>{
             setTouched({});
             setState(initState);
             //formulario de archivo
-            //const form = new FormData();
-            //form.set("file", file);
-            //const res = await fetch("/api/upload", {
-            //  method: "POST",
-            //  body: JSON.stringify(file),
-            //});
-            //const data = await res.json();
-            //console.log(data);
+            const formData = new FormData();
+            formData.append("file", file);
+            const res = await fetch("/api/upload", {
+                method: "POST",
+                body: formData
+            });
+            const data = await res.json();
+            console.log(formData);
             //fin formulario de archivo
             //router.push("/gracias");
             toast({
@@ -472,6 +470,40 @@ const FormularioTrabaja = ()=>{
                             value: values.subject,
                             onChange: handleChange,
                             onBlur: onBlur
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormErrorMessage, {
+                            style: {
+                                margin: "0"
+                            },
+                            children: "Se Requiere"
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormControl, {
+                    isRequired: true,
+                    isInvalid: touched.file && !values.file,
+                    //box-shadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
+                    mb: "4",
+                    children: [
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_9___default().textoLabel),
+                            children: "Sube tu curr\xedculum"
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Input, {
+                            //color="#fff"
+                            style: {
+                                border: "none",
+                                padding: "0 0 0 33px"
+                            },
+                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_9___default().inputFile),
+                            type: "file",
+                            onChange: (e)=>{
+                                handleChangeFile(e);
+                            },
+                            onBlur: onBlur
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            children: "M\xc1X. 2 MB"
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.FormErrorMessage, {
                             style: {

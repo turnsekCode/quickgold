@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
 import { styled } from "@mui/material/styles";
 import MuiAccordion from "@mui/material/Accordion";
 import MuiAccordionSummary from "@mui/material/AccordionSummary";
@@ -52,6 +54,10 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 }));
 
 export default function AccordionServicios({ ciudad }) {
+  useEffect(() => {
+    const url = window.location.href;
+    console.log(url);
+  }, []);
   const [expanded, setExpanded] = React.useState("panel3");
 
   const handleChange = (panel) => (event, newExpanded) => {
@@ -60,207 +66,226 @@ export default function AccordionServicios({ ciudad }) {
 
   return (
     <article className={styles.contenedorAccordion}>
-      <section >
-      <Accordion
-        style={{
-          background: "#0F2D45",
-          borderRadius: "8px",
-          border: "none",
-          padding: "10px 20px 0 20px",
-        }}
-        className={styles.contendorAccordion3}
-        expanded={expanded === "panel3"}
-        onChange={handleChange("panel3")}
-      >
-        <AccordionSummary
+      <section>
+        <Accordion
           style={{
-            padding: "0",
-            borderBottom: "2px solid #fff",
+            background: "#0F2D45",
+            borderRadius: "8px",
+            border: "none",
+            padding: "10px 20px 0 20px",
           }}
-          aria-controls="panel3d-content"
-          id="panel3d-header"
+          className={styles.contendorAccordion3}
+          expanded={expanded === "panel3"}
+          onChange={handleChange("panel3")}
         >
-          <div className={styles.contenedorTituloServicio}>
-            <h1
-              className={
-                expanded === "panel3"
-                  ? `${styles.tituloServicio} ${styles.accordionActivo}`
-                  : `${styles.tituloServicio}`
-              }
-            >
-              Cambio de divisas
-            </h1>
-            <h2 className={styles.subTituloServicio}>
-            Somos la <strong>casa de cambio</strong> preferida por miles de personas al año en {ciudad?.acf?.ciudad_landing}. <strong>Cambiar divisa</strong> en Quickgold siempre es sin comisiones y, fácil y rápido.
-            </h2>
-          </div>
-        </AccordionSummary>
-        <AccordionDetails className={styles.details}>
-          <ConversorDivisa ciudad={ciudad} />
-        </AccordionDetails>
-      </Accordion>
-      </section>
-      <section >
-      <Accordion
-        style={{
-          background: "#0F2D45",
-          borderRadius: "8px",
-          border: "none",
-          padding: "10px 20px 0 20px",
-        }}
-        className={styles.contendorAccordion1}
-        expanded={expanded === "panel1"}
-        onChange={handleChange("panel1")}
-      >
-        <AccordionSummary
-          style={{
-            padding: "0",
-            borderBottom: "2px solid #fff",
-          }}
-          aria-controls="panel1d-content"
-          id="panel1d-header"
-        >
-          <div className={styles.contenedorTituloServicio}>
-            {" "}
-            <h1
-              className={
-                expanded === "panel1"
-                  ? `${styles.tituloServicio} ${styles.accordionActivo}`
-                  : `${styles.tituloServicio}`
-              }
-            >
-              Precio del oro
-            </h1>
-            <h2 className={styles.subTituloServicio}>Vender <strong>oro al mejor precio</strong> es fácil en nuestras tiendas <strong>Compro oro</strong> en {ciudad?.acf?.ciudad_landing}. Más de 15 años en el sector siendo la empresa referente en las ciudades donde estamos.</h2>
-          </div>
-        </AccordionSummary>
-        <AccordionDetails className={styles.details}>
-          <CalculadoraOro ciudad={ciudad} />
-        </AccordionDetails>
-      </Accordion>
+          <AccordionSummary
+            style={{
+              padding: "0",
+              borderBottom: "2px solid #fff",
+            }}
+            aria-controls="panel3d-content"
+            id="panel3d-header"
+          >
+            <div className={styles.contenedorTituloServicio}>
+              <h1
+                className={
+                  expanded === "panel3"
+                    ? `${styles.tituloServicio} ${styles.accordionActivo}`
+                    : `${styles.tituloServicio}`
+                }
+              >
+                Cambio de divisas
+              </h1>
+              <h2 className={styles.subTituloServicio}>
+                Somos la <strong>casa de cambio</strong> preferida por miles de
+                personas al año en {ciudad?.acf?.ciudad_landing}.{" "}
+                <strong>Cambiar divisa</strong> en Quickgold siempre es sin
+                comisiones y, fácil y rápido.
+              </h2>
+            </div>
+          </AccordionSummary>
+          <AccordionDetails className={styles.details}>
+            <ConversorDivisa ciudad={ciudad} />
+          </AccordionDetails>
+        </Accordion>
       </section>
       <section>
-      <Accordion
-        style={{
-          background: "#0F2D45",
-          borderRadius: "8px",
-          border: "none",
-          padding: "10px 20px 0 20px",
-        }}
-        className={styles.contendorAccordion2}
-        expanded={expanded === "panel2"}
-        onChange={handleChange("panel2")}
-      >
-        <AccordionSummary
+        <Accordion
+          id="precioOro"
           style={{
-            padding: "0",
-            borderBottom: "2px solid #fff",
+            background: "#0F2D45",
+            borderRadius: "8px",
+            border: "none",
+            padding: "10px 20px 0 20px",
           }}
-          aria-controls="panel2d-content"
-          id="panel2d-header"
+          className={styles.contendorAccordion1}
+          expanded={expanded === "panel1"}
+          onChange={handleChange("panel1")}
         >
-          <div className={styles.contenedorTituloServicio}>
-            {" "}
-            <h1
-              className={
-                expanded === "panel2"
-                  ? `${styles.tituloServicio} ${styles.accordionActivo}`
-                  : `${styles.tituloServicio}`
-              }
-            >
-              Precio de la plata
-            </h1>
-            <h2 className={styles.subTituloServicio}>
-              Compramos <strong>plata al mejor precio</strong>: joyas, cuberterías, etc. Somos los líderes en la <strong>compra de joyas</strong> en {ciudad?.acf?.ciudad_landing}.
-            </h2>
-          </div>
-        </AccordionSummary>
-        <AccordionDetails className={styles.details}>
-          <BloquePrecioPlata ciudad={ciudad} />
-        </AccordionDetails>
-      </Accordion>
+          <AccordionSummary
+            style={{
+              padding: "0",
+              borderBottom: "2px solid #fff",
+            }}
+            aria-controls="panel1d-content"
+            id="panel1d-header"
+          >
+            <div className={styles.contenedorTituloServicio}>
+              {" "}
+              <h1
+                className={
+                  expanded === "panel1"
+                    ? `${styles.tituloServicio} ${styles.accordionActivo}`
+                    : `${styles.tituloServicio}`
+                }
+              >
+                Precio del oro
+              </h1>
+              <h2 className={styles.subTituloServicio}>
+                Vender <strong>oro al mejor precio</strong> es fácil en nuestras
+                tiendas <strong>Compro oro</strong> en{" "}
+                {ciudad?.acf?.ciudad_landing}. Más de 15 años en el sector
+                siendo la empresa referente en las ciudades donde estamos.
+              </h2>
+            </div>
+          </AccordionSummary>
+          <AccordionDetails className={styles.details}>
+            <CalculadoraOro ciudad={ciudad} />
+          </AccordionDetails>
+        </Accordion>
       </section>
       <section>
-      <Accordion
-        style={{
-          background: "#0F2D45",
-          borderRadius: "8px",
-          border: "none",
-          padding: "10px 20px 0 20px",
-        }}
-        className={styles.contendorAccordion4}
-        expanded={expanded === "panel4"}
-        onChange={handleChange("panel4")}
-      >
-        <AccordionSummary
+        <Accordion
           style={{
-            padding: "0",
-            borderBottom: "2px solid #fff",
+            background: "#0F2D45",
+            borderRadius: "8px",
+            border: "none",
+            padding: "10px 20px 0 20px",
           }}
-          aria-controls="panel4d-content"
-          id="panel4d-header"
+          className={styles.contendorAccordion2}
+          expanded={expanded === "panel2"}
+          onChange={handleChange("panel2")}
         >
-          <div className={styles.contenedorTituloServicio}>
-            {" "}
-            <h1
-              className={
-                expanded === "panel4"
-                  ? `${styles.tituloServicio} ${styles.accordionActivo}`
-                  : `${styles.tituloServicio}`
-              }
-            >
-              Empeño de joyas
-            </h1>
-            <h2 className={styles.subTituloServicio}>
-            Nuestros <strong>empeños sin interés el primer mes</strong> hacen que empeñar oro sea mucho más cómodo y fácil para nuestros clientes.
-            </h2>
-          </div>
-        </AccordionSummary>
-        <AccordionDetails className={styles.details}>
-          <Empenos ciudad={ciudad} />
-        </AccordionDetails>
-      </Accordion>
+          <AccordionSummary
+            style={{
+              padding: "0",
+              borderBottom: "2px solid #fff",
+            }}
+            aria-controls="panel2d-content"
+            id="panel2d-header"
+          >
+            <div className={styles.contenedorTituloServicio}>
+              {" "}
+              <h1
+                className={
+                  expanded === "panel2"
+                    ? `${styles.tituloServicio} ${styles.accordionActivo}`
+                    : `${styles.tituloServicio}`
+                }
+              >
+                Precio de la plata
+              </h1>
+              <h2 className={styles.subTituloServicio}>
+                Compramos <strong>plata al mejor precio</strong>: joyas,
+                cuberterías, etc. Somos los líderes en la{" "}
+                <strong>compra de joyas</strong> en{" "}
+                {ciudad?.acf?.ciudad_landing}.
+              </h2>
+            </div>
+          </AccordionSummary>
+          <AccordionDetails className={styles.details}>
+            <BloquePrecioPlata ciudad={ciudad} />
+          </AccordionDetails>
+        </Accordion>
       </section>
       <section>
-      <Accordion
-        style={{
-          background: "#0F2D45",
-          borderRadius: "8px",
-          border: "none",
-          padding: "10px 20px 0 20px",
-        }}
-        className={styles.contendorAccordion5}
-        expanded={expanded === "panel5"}
-        onChange={handleChange("panel5")}
-      >
-        <AccordionSummary
+        <Accordion
           style={{
-            padding: "0",
-            //borderBottom: "2px solid #fff",
+            background: "#0F2D45",
+            borderRadius: "8px",
+            border: "none",
+            padding: "10px 20px 0 20px",
           }}
-          aria-controls="panel5d-content"
-          id="panel5d-header"
+          className={styles.contendorAccordion4}
+          expanded={expanded === "panel4"}
+          onChange={handleChange("panel4")}
         >
-          <div className={styles.contenedorTituloServicio}>
-            {" "}
-            <h1
-              className={
-                expanded === "panel5"
-                  ? `${styles.tituloServicio} ${styles.accordionActivo}`
-                  : `${styles.tituloServicio}`
-              }
-            >
-              Invertir en oro
-            </h1>
-            <h2 className={styles.subTituloServicio}>
-              Venta de lingotes de oro con las mejores condiciones. El oro, como valor refugio está claramente por encima de otro tipo de inversiones.
-            </h2>
-          </div>
-        </AccordionSummary>
-        <AccordionDetails style={{ border: "none" }} className={styles.details}>
-          <TablaLingotes ciudad={ciudad} />
-        </AccordionDetails>
-      </Accordion>
+          <AccordionSummary
+            style={{
+              padding: "0",
+              borderBottom: "2px solid #fff",
+            }}
+            aria-controls="panel4d-content"
+            id="panel4d-header"
+          >
+            <div className={styles.contenedorTituloServicio}>
+              {" "}
+              <h1
+                className={
+                  expanded === "panel4"
+                    ? `${styles.tituloServicio} ${styles.accordionActivo}`
+                    : `${styles.tituloServicio}`
+                }
+              >
+                Empeño de joyas
+              </h1>
+              <h2 className={styles.subTituloServicio}>
+                Nuestros <strong>empeños sin interés el primer mes</strong>{" "}
+                hacen que empeñar oro sea mucho más cómodo y fácil para nuestros
+                clientes.
+              </h2>
+            </div>
+          </AccordionSummary>
+          <AccordionDetails className={styles.details}>
+            <Empenos ciudad={ciudad} />
+          </AccordionDetails>
+        </Accordion>
+      </section>
+      <section>
+        <Accordion
+          style={{
+            background: "#0F2D45",
+            borderRadius: "8px",
+            border: "none",
+            padding: "10px 20px 0 20px",
+          }}
+          className={styles.contendorAccordion5}
+          expanded={expanded === "panel5"}
+          onChange={handleChange("panel5")}
+        >
+          <AccordionSummary
+            style={{
+              padding: "0",
+              //borderBottom: "2px solid #fff",
+            }}
+            aria-controls="panel5d-content"
+            id="panel5d-header"
+          >
+            <div className={styles.contenedorTituloServicio}>
+              {" "}
+              <h1
+                className={
+                  expanded === "panel5"
+                    ? `${styles.tituloServicio} ${styles.accordionActivo}`
+                    : `${styles.tituloServicio}`
+                }
+              >
+                Invertir en oro
+              </h1>
+              <h2 className={styles.subTituloServicio}>
+                Venta de lingotes de oro con las mejores condiciones. El oro,
+                como valor refugio está claramente por encima de otro tipo de
+                inversiones.
+              </h2>
+            </div>
+          </AccordionSummary>
+          <AccordionDetails
+            style={{ border: "none" }}
+            className={styles.details}
+          >
+            <TablaLingotes ciudad={ciudad} />
+          </AccordionDetails>
+        </Accordion>
       </section>
     </article>
   );
