@@ -15,7 +15,8 @@ module.exports = {
 	"bloqueDer": "section_uno_bloqueDer__j24ag",
 	"madridMobil": "section_uno_madridMobil__EQOwU",
 	"botones": "section_uno_botones__QGcKv",
-	"botonPopUp": "section_uno_botonPopUp__eWwOb"
+	"botonPopUp": "section_uno_botonPopUp__eWwOb",
+	"ImagenBannerMobil": "section_uno_ImagenBannerMobil__cxvTa"
 };
 
 
@@ -172,16 +173,33 @@ const Section_uno = ({ ciudad , listadoUrlCiudad  })=>{
                     })
                 ]
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: (section_uno_module_default()).bloqueDer,
-                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: "/assets/img/imagenJoyeriaOcasion.png",
-                    alt: "Joyer\xeda de ocasi\xf3n",
-                    className: (section_uno_module_default()).madridMobil,
-                    width: 360,
-                    height: 254,
-                    priority: true
-                })
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        target: "_blank",
+                        href: "https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            style: {
+                                width: "100%"
+                            },
+                            src: "/assets/img/Banner-wallapop-joyeria-ocasion-black.png",
+                            alt: "Joyer\xeda de ocasi\xf3n",
+                            className: (section_uno_module_default()).ImagenBannerMobil,
+                            width: 325,
+                            height: 248,
+                            priority: true
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        src: "/assets/img/imagenJoyeriaOcasion.png",
+                        alt: "Joyer\xeda de ocasi\xf3n",
+                        className: (section_uno_module_default()).madridMobil,
+                        width: 360,
+                        height: 254,
+                        priority: true
+                    })
+                ]
             })
         ]
     });
@@ -507,27 +525,17 @@ var sectionCuatro_module_default = /*#__PURE__*/__webpack_require__.n(sectionCua
 
 const Section_cuatro = ()=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("section", {
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
+        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
             target: "_blank",
             href: "https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956",
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: "/assets/img/Banner-wallapop-black.png",
-                    alt: "Joyer\xeda de ocasi\xf3n",
-                    className: (sectionCuatro_module_default()).ImagenBanner,
-                    width: 1280,
-                    height: 356,
-                    priority: true
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: "/assets/img/Banner-wallapop-joyeria-ocasion-black.png",
-                    alt: "Joyer\xeda de ocasi\xf3n",
-                    className: (sectionCuatro_module_default()).ImagenBannerMobil,
-                    width: 325,
-                    height: 248,
-                    priority: true
-                })
-            ]
+            children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                src: "/assets/img/Banner-wallapop-black.png",
+                alt: "Joyer\xeda de ocasi\xf3n",
+                className: (sectionCuatro_module_default()).ImagenBanner,
+                width: 1280,
+                height: 356,
+                priority: true
+            })
         })
     });
 };

@@ -32,10 +32,10 @@ const Section_cuatro = ({ ciudad }) => {
           <p>Importe a pagar</p>
           <p>
             En caso de haber fijado precio, se pagarán los gramos pesados por el
-            peso fijado (para fijar precio, llame gratis al{" "}
+            precio fijado (para fijar precio, llame gratis al{" "}
             <a href={`tel:${ciudad?.acf?.telefono}`}>
               <strong>{ciudad?.acf?.telefono}</strong>
-            </a>{" "}
+            </a>
             ). En caso contrario, se aplicará el precio publicado en el momento
             de la venta.
           </p>

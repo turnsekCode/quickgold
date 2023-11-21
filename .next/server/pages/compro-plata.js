@@ -275,7 +275,7 @@ const Section_uno = ({ ciudad  })=>{
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        children: "En quickgold compramos todo tipo de piezas de plata como joyas, monedas, elementos de decoraci\xf3n o cuberter\xedas y lingotes. Si tienes plata que quieras vender ven a cualquiera de nuestras tiendas y obt\xe9n dinero en efectivo por ellas. Garantizamos el mejor servicio y precio por tus piezas de plata"
+                        children: "En quickgold compramos todo tipo de piezas de plata como joyas, monedas, elementos de decoraci\xf3n o cuberter\xedas y lingotes. Si tienes plata que quieras vender ven a cualquiera de nuestras tiendas y obt\xe9n dinero por ellas. Garantizamos el mejor servicio y precio por tus piezas de plata"
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: (section_uno_module_default()).botones,
@@ -365,8 +365,12 @@ const Section_dos = ({ ciudad  })=>{
                                     height: 42
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Mejor servicio y precio garantizado."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Mejor servicio y",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " precio garantizado."
+                                ]
                             })
                         ]
                     }),
@@ -382,8 +386,12 @@ const Section_dos = ({ ciudad  })=>{
                                     height: 36
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Precio de la plata siempre actualizado."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Precio de la plata",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " siempre actualizado."
+                                ]
                             })
                         ]
                     }),
@@ -399,8 +407,12 @@ const Section_dos = ({ ciudad  })=>{
                                     height: 36
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "M\xe1s de 50 tiendas para vender plata."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "M\xe1s de 50 tiendas",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " para vender plata."
+                                ]
                             })
                         ]
                     }),
@@ -416,8 +428,12 @@ const Section_dos = ({ ciudad  })=>{
                                     height: 32
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Atenci\xf3n personalizada."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Atenci\xf3n",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " personalizada."
+                                ]
                             })
                         ]
                     }),
@@ -433,8 +449,12 @@ const Section_dos = ({ ciudad  })=>{
                                     height: 38
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Dinero en efectivo al instante."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Dinero en",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " efectivo al instante."
+                                ]
                             })
                         ]
                     }),
@@ -450,8 +470,12 @@ const Section_dos = ({ ciudad  })=>{
                                     height: 39
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Tasaci\xf3n profesional, justa y segura."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Tasaci\xf3n profesional,",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " justa y segura."
+                                ]
                             })
                         ]
                     })
@@ -581,7 +605,7 @@ const Section_tres = ({ ciudad , listadoUrlCiudad  })=>{
                             ]
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                            children: "Al igual que con cualquier otro metal precioso, el precio de la plata var\xeda en el tiempo seg\xfan ciertos criterios como: el peso o la pureza. Por eso es necesario realizar una tasaci\xf3n previa a la venta de plata."
+                            children: "Al igual que con cualquier otro metal precioso, el precio de la plata var\xeda en el tiempo y seg\xfan ciertos criterios como: el peso o la pureza. Por eso es necesario realizar una tasaci\xf3n previa a la venta de plata."
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("p", {
                             children: "Nuestro equipo cualificado ser\xe1 el encargado de realizar todas las pruebas necesarias para fijar el precio de las piezas. \xc9stas se realizan, como siempre, a la vista del cliente y se complementan aportando toda la informaci\xf3n precisa por cada paso que van dando."
@@ -682,7 +706,7 @@ const Section_cuatro = ({ ciudad  })=>{
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                                 children: [
-                                    "En caso de haber fijado precio, se pagar\xe1n los gramos pesados por el peso fijado (para fijar precio, llame gratis al",
+                                    "En caso de haber fijado precio, se pagar\xe1n los gramos pesados por el precio fijado (para fijar precio, llame gratis al",
                                     " ",
                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                         href: `tel:${ciudad?.acf?.telefono}`,
@@ -690,7 +714,6 @@ const Section_cuatro = ({ ciudad  })=>{
                                             children: ciudad?.acf?.telefono
                                         })
                                     }),
-                                    " ",
                                     "). En caso contrario, se aplicar\xe1 el precio publicado en el momento de la venta."
                                 ]
                             })
@@ -974,10 +997,6 @@ const Section_seis_mobil = ({ ciudad  })=>{
                         ]
                     })
                 ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                className: (sectionSeisMobil_module_default()).texto,
-                children: "Informaci\xf3n de inter\xe9s"
             })
         ]
     });
@@ -1007,7 +1026,7 @@ const Section_siete = ({ ciudad , listadoCiudadesServicios  })=>{
                             children: "Los contrastes de la plata"
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                            children: "La plata como el oro tiene diferentes caracter\xedsticas que hace que se distingan diferentes tipolog\xedas, te indicamos las m\xe1s comunes."
+                            children: "La plata como el oro tiene diferentes calidades seg\xfan su pureza, te indicamos las m\xe1s comunes."
                         })
                     ]
                 }),
@@ -1018,10 +1037,10 @@ const Section_siete = ({ ciudad , listadoCiudadesServicios  })=>{
                             className: (sectionSiete_module_default()).contenedorTiposOroCard1,
                             children: [
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Plata 800 "
+                                    children: "Plata 999 "
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Este tipo contiene un 80% de plata y un 20% de otros metales. Se le conoce como “plata de segunda ley”. Se suele usar para cadenas por su resistencia."
+                                    children: "Tiene un grado de pureza m\xednimo de 99%, por lo que se le considera plata pura. Lo encontrar\xe1s en lingotes y en algunas monedas. Suele venir marcada como 999."
                                 })
                             ]
                         }),
@@ -1032,7 +1051,7 @@ const Section_siete = ({ ciudad , listadoCiudadesServicios  })=>{
                                     children: "Plata 925 o esterlina "
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Est\xe1 formada por un 92,5% de plata que junto con otras fusiones le dan dureza para la elaboraci\xf3n de las joyas. Es la m\xe1s empleada y tambi\xe9n muy habitual en monedas de plata."
+                                    children: "Est\xe1 formada por un 92,5% de plata, que en aleaci\xf3n con otros metales, le dan dureza para la elaboraci\xf3n de las joyas. Es la m\xe1s empleada. Suele venir marcada como 925 \xf3 con algunos s\xedmbolos equivalentes."
                                 })
                             ]
                         }),
@@ -1040,10 +1059,10 @@ const Section_siete = ({ ciudad , listadoCiudadesServicios  })=>{
                             className: (sectionSiete_module_default()).contenedorTiposOroCard1,
                             children: [
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Plata 900 "
+                                    children: "Plata 800 "
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "No se puede obtener plata m\xe1s fina que esta. Es el tipo con mayor pureza con un 99,9% de plata. No se trabaja en joyer\xeda porque es blanda y se marca con facilidad."
+                                    children: "Este tipo contiene un 80% de plata y un 20% de otros metales. Se le conoce como “plata de segunda ley”. Suele venir marcada como 800 \xf3 con algunos s\xedmbolos equivalentes."
                                 })
                             ]
                         })

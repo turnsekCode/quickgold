@@ -14,8 +14,8 @@ const Section_uno = ({ ciudad }) => {
           En quickgold compramos todo tipo de piezas de plata como joyas,
           monedas, elementos de decoración o cuberterías y lingotes. Si tienes
           plata que quieras vender ven a cualquiera de nuestras tiendas y obtén
-          dinero en efectivo por ellas. Garantizamos el mejor servicio y precio
-          por tus piezas de plata
+          dinero por ellas. Garantizamos el mejor servicio y precio por tus
+          piezas de plata
         </p>
         <div className={styles.botones}>
           <Link

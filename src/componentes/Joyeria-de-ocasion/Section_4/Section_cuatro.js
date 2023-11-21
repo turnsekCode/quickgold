@@ -17,14 +17,14 @@ const Section_cuatro = () => {
           height={356}
           priority
         />
-        <Image
+        {/* <Image
           src="/assets/img/Banner-wallapop-joyeria-ocasion-black.png"
           alt="Joyería de ocasión"
           className={styles.ImagenBannerMobil}
           width={325}
           height={248}
           priority
-        />
+  />*/}
       </a>
     </section>
   );

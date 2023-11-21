@@ -120,7 +120,6 @@ const Section_seis_mobil = ({ ciudad }) => {
           CONOCE EL PRECIO DE LA PLATA
         </button>
   </div>*/}
-      <p className={styles.texto}>Información de interés</p>
     </section>
   );
 };

@@ -1,7 +1,7 @@
 .contenedorSectionTresMargen{
     max-width: 1060px;
     margin: 0 auto;
-    padding: 60px 10px;
+    padding: 20px 10px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -79,7 +79,7 @@
     position: absolute;
     display: block;
     height: 5px;
-    transform: translateY(40%);
+    transform: translateY(20%);
 }
 
 .linea:after {
@@ -108,18 +108,16 @@
 
 .bloqueIzqInferior {
     border-radius: 8px;
-    background: #0F2D45;
     width: 100%;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 40px;
     margin-top: 0;
 }
 
 .bloqueIzqInferior p {
-    color: #FFF;
+    color: #0F2D45;
     text-align: justify;
     font-size: 16px;
     font-style: normal;
@@ -143,7 +141,7 @@
         width: 50%;
         border: 1px solid;
         border-radius: 8px;
-        padding: 49px 30px;
+        padding: 30px 30px;
     }
 
     .bloqueIzq h2 {
@@ -244,17 +242,15 @@
     }
     .bloqueIzqInferior{
         border-radius: 8px;
-        background: #0F2D45;
         width: 100%;
         height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 20px 40px;
-        margin-top: 50px;
+        margin-top: 20px;
     }
     .bloqueIzqInferior p{
-        color: #FFF;
+        color: #0F2D45;
         text-align: justify;
         font-size: 16px;
         font-style: normal;

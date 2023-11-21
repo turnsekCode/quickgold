@@ -1,7 +1,7 @@
 .contenedorSectionCinco{
     max-width: 1060px;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 0;
 }
 .sectionCincoContenido{
     display: flex;
@@ -15,8 +15,9 @@
     line-height: 29px;
     text-align: center;
     color: #000831;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-family: 'Gotham Bold';
+    padding: 0 40px;
 }
 .linea {
     position: relative;
@@ -32,7 +33,7 @@
     position: absolute;
     display: block;
     height: 5px;
-    transform: translateY(40%);
+    transform: translateY(20%);
 }
 
 .linea:before {
@@ -43,7 +44,6 @@
     width: 341px;
     height: 341px;
     background: #FFFFFF;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.14);
     border-radius: 8px;
     padding: 30px;
     border: 1px solid #000;
@@ -94,6 +94,7 @@
         text-align: center;
         color: #000831;
         margin-bottom: 50px;
+        padding: 0;
     }
 
     .linea {
@@ -122,7 +123,6 @@
         width: 341px;
         height: 341px;
         background: #FFFFFF;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.14);
         border-radius: 8px;
         padding: 30px;
     }

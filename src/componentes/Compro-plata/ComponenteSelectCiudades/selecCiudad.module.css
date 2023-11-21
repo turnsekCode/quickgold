@@ -2,8 +2,8 @@
     width: 100%;
     background: #0F2D45;
     border-radius: 8px;
-    padding: 20px 20px;
-    margin-bottom: 40px;
+    padding: 20px 20px 30px 20px;
+    margin-bottom: 30px;
 }
 
 .contenidoBloqueDer {
@@ -110,6 +110,7 @@
     font-weight: 700;
     line-height: normal;
     margin: 40px 0 20px 0;
+    font-family: 'Gotham Bold';
 }
 
 .bloqueInferiorTexto2 {
@@ -177,6 +178,8 @@
     justify-content: center;
     height: 53px;
     margin-bottom: 40px;
+    border: none;
+    font-family: 'Gotham Bold';
 }
 
 .bloqueInferiorTexto4 {
@@ -205,6 +208,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+    font-family: 'Gotham Bold';
 }
 
 @media (min-width: 610px) {

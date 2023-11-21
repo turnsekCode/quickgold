@@ -14,9 +14,9 @@ const Section_tres = ({ ciudad, listadoUrlCiudad }) => {
           </h2>
           <p>
             Al igual que con cualquier otro metal precioso, el precio de la
-            plata varía en el tiempo según ciertos criterios como: el peso o la
-            pureza. Por eso es necesario realizar una tasación previa a la venta
-            de plata.
+            plata varía en el tiempo y según ciertos criterios como: el peso o
+            la pureza. Por eso es necesario realizar una tasación previa a la
+            venta de plata.
           </p>
           <p>
             Nuestro equipo cualificado será el encargado de realizar todas las

@@ -25,7 +25,9 @@ const Section_dos = ({ ciudad }) => {
               height={42}
             />
           </div>
-          <p>Mejor servicio y precio garantizado.</p>
+          <p>
+            Mejor servicio y<br></br> precio garantizado.
+          </p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
@@ -36,7 +38,9 @@ const Section_dos = ({ ciudad }) => {
               height={36}
             />
           </div>
-          <p>Precio de la plata siempre actualizado.</p>
+          <p>
+            Precio de la plata<br></br> siempre actualizado.
+          </p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
@@ -47,7 +51,9 @@ const Section_dos = ({ ciudad }) => {
               height={36}
             />
           </div>
-          <p>Más de 50 tiendas para vender plata.</p>
+          <p>
+            Más de 50 tiendas<br></br> para vender plata.
+          </p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
@@ -58,7 +64,9 @@ const Section_dos = ({ ciudad }) => {
               height={32}
             />
           </div>
-          <p>Atención personalizada.</p>
+          <p>
+            Atención<br></br> personalizada.
+          </p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
@@ -69,7 +77,9 @@ const Section_dos = ({ ciudad }) => {
               height={38}
             />
           </div>
-          <p>Dinero en efectivo al instante.</p>
+          <p>
+            Dinero en<br></br> efectivo al instante.
+          </p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
@@ -80,7 +90,9 @@ const Section_dos = ({ ciudad }) => {
               height={39}
             />
           </div>
-          <p>Tasación profesional, justa y segura.</p>
+          <p>
+            Tasación profesional,<br></br> justa y segura.
+          </p>
         </div>
       </div>
     </section>

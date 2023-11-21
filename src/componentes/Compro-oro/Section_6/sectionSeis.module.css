@@ -46,6 +46,8 @@
 }
 .contenedorTiposOro{
     padding: 0 20px;
+    border-radius: 8px;
+    background: none;
 }
 .contenedorTiposOroCard1{
     width: 100%;
@@ -53,7 +55,6 @@
     left: 135px;
     top: 3944px;
     background: rgba(0, 45, 70, 0.2);
-    border-radius: 8px;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -84,7 +85,6 @@
     left: 135px;
     top: 3944px;
     background: rgba(0, 45, 70, 0.1);
-    border-radius: 8px;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -144,6 +144,8 @@
     }
     .contenedorTiposOro {
         padding: 0;
+        border-radius: 8px;
+        background: rgba(0, 45, 70, 0.1);
     }
     .contenedorTiposOroCard1 {
         width: 100%;
@@ -151,7 +153,6 @@
         left: 135px;
         top: 3944px;
         background: rgba(0, 45, 70, 0.2);
-        border-radius: 8px;
         display: flex;
         flex-direction: row;
         padding: 10px;
@@ -183,7 +184,6 @@
         left: 135px;
         top: 3944px;
         background: rgba(0, 45, 70, 0.1);
-        border-radius: 8px;
         display: flex;
         flex-direction: row;
         padding: 10px;

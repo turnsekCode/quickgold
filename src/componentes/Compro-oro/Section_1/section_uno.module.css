@@ -103,7 +103,7 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top: 20px;
-        gap: 83px;
+        gap: 70px;
         padding: 10px 20px 0 20px;
     }
     .bloqueDer{
@@ -130,7 +130,7 @@
         position: absolute;
         display: block;
         height: 5px;
-        transform: translateY(150%);
+        transform: translateY(120%);
     }
 
     .linea:before {

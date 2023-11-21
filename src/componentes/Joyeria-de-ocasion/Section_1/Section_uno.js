@@ -28,6 +28,20 @@ const Section_uno = ({ ciudad, listadoUrlCiudad }) => {
         </div>
       </div>
       <div className={styles.bloqueDer}>
+        <a
+          target="_blank"
+          href="https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956"
+        >
+          <Image
+            style={{ width: "100%" }}
+            src="/assets/img/Banner-wallapop-joyeria-ocasion-black.png"
+            alt="Joyería de ocasión"
+            className={styles.ImagenBannerMobil}
+            width={325}
+            height={248}
+            priority
+          />
+        </a>
         <Image
           src="/assets/img/imagenJoyeriaOcasion.png"
           alt="Joyería de ocasión"

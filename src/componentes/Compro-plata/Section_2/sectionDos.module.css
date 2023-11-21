@@ -71,7 +71,7 @@
     position: absolute;
     display: block;
     height: 5px;
-    transform: translateY(40%);
+    transform: translateY(20%);
 }
 
 .linea:after {
