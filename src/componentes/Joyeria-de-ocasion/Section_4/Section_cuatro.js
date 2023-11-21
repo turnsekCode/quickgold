@@ -10,7 +10,7 @@ const Section_cuatro = () => {
         href="https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956"
       >
         <Image
-          src="/assets/img/Banner-wallapop-joyeria-ocasion.png"
+          src="/assets/img/Banner-wallapop-black.png"
           alt="Joyería de ocasión"
           className={styles.ImagenBanner}
           width={1280}
@@ -18,7 +18,7 @@ const Section_cuatro = () => {
           priority
         />
         <Image
-          src="/assets/img/Banner-wallapop-joyeria-ocasion-mobil.png"
+          src="/assets/img/Banner-wallapop-joyeria-ocasion-black.png"
           alt="Joyería de ocasión"
           className={styles.ImagenBannerMobil}
           width={325}

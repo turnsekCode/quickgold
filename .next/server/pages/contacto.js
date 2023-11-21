@@ -268,10 +268,7 @@ const Section_dos = ({ listadociudades  })=>{
                                     })
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: `tel:${ciudad.telefono}`,
-                                        children: ciudad.telefono
-                                    })
+                                    children: ciudad.telefono
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                     children: ciudad.direccion

@@ -14,7 +14,7 @@ import { useState } from "react";
 import { sendContactForm } from "../../../lib/apiTrabaja";
 import { ChakraProvider } from "@chakra-ui/react";
 import { file } from "../../../utilities/fireBaseConfig";
-//import { v4 } from "uuid";
+import { v4 } from "uuid";
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 
 const initValues = {
@@ -73,7 +73,7 @@ const FormularioTrabajaFirebase = () => {
     }));
   const handleChangeFile = (e) => {
     setPesoArchivo(e.target.files[0]);
-    const archivo = ref(file, `Curriculums/${nombre}`);
+    const archivo = ref(file, `Curriculums/${nombre}-${v4()}`);
     if (e.target.files[0]?.size < 2000000) {
       uploadBytes(archivo, e.target.files[0]).then((data) => {
         getDownloadURL(data.ref).then((val) => {
@@ -102,7 +102,7 @@ const FormularioTrabajaFirebase = () => {
       toast({
         title: "Mensaje enviado",
         status: "success",
-        duration: 2000,
+        duration: 3000,
         position: "top",
       });
       setTouched({});

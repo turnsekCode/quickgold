@@ -62,7 +62,8 @@ module.exports = {
 // Exports
 module.exports = {
 	"contenedorSectionTresMargen": "sectionTres_contenedorSectionTresMargen__GX4Do",
-	"bloqueIzq": "sectionTres_bloqueIzq__C9OUu"
+	"bloqueIzq": "sectionTres_bloqueIzq__C9OUu",
+	"linea": "sectionTres_linea__ybGOZ"
 };
 
 
@@ -216,7 +217,7 @@ const Section_uno = ({ ciudad  })=>{
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        children: "Si tienes joyas de oro que ya no desees tener y quieres obtener dinero extra por ellas, elige vender tus piezas de oro en quickgold y te garantizamos el servicio que estabas buscando, con una valoraci\xf3n a la vista, detallada y a un precio justo. Somos tu Compro Oro de confianza."
+                        children: "Si tienes joyas de oro que ya no desees conservar y quieres obtener dinero extra por ellas, elige vender tus piezas de oro en quickgold. Te garantizamos el servicio que estas buscando, con una valoraci\xf3n a la vista, detallada y a un precio justo. Somos tu compro oro de confianza."
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: (section_uno_module_default()).botones,
@@ -306,8 +307,12 @@ const Section_dos = ({ ciudad  })=>{
                                     height: 41
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Mejor servicio y precio garantizado."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Mejor servicio y ",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    "precio garantizado."
+                                ]
                             })
                         ]
                     }),
@@ -323,8 +328,12 @@ const Section_dos = ({ ciudad  })=>{
                                     height: 35
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Precio del oro siempre actualizado."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Precio del oro",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " siempre actualizado."
+                                ]
                             })
                         ]
                     }),
@@ -340,8 +349,12 @@ const Section_dos = ({ ciudad  })=>{
                                     height: 36
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "M\xe1s de 50 tiendas para realizar tu venta de oro."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "M\xe1s de 50 tiendas para",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " realizar tu venta de oro."
+                                ]
                             })
                         ]
                     }),
@@ -354,11 +367,15 @@ const Section_dos = ({ ciudad  })=>{
                                     src: "/assets/img/imagenventaja4.png",
                                     alt: "vender oro",
                                     width: 41,
-                                    height: 35
+                                    height: 32
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Atenci\xf3n personalizada."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Atenci\xf3n",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " personalizada."
+                                ]
                             })
                         ]
                     }),
@@ -374,8 +391,12 @@ const Section_dos = ({ ciudad  })=>{
                                     height: 38
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Dinero en efectivo al instante."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Dinero en",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " efectivo al instante."
+                                ]
                             })
                         ]
                     }),
@@ -391,8 +412,12 @@ const Section_dos = ({ ciudad  })=>{
                                     height: 38
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Tasaci\xf3n profesional, justa y segura."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Tasaci\xf3n profesional, ",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    "justa y segura."
+                                ]
                             })
                         ]
                     })
@@ -537,7 +562,7 @@ const Section_dos_Section_tres = ({ ciudad , listadoUrlCiudad  })=>{
                             ]
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                            children: "Puedes traernos cualquier pieza de oro, no importa si est\xe1 deteriorada o desparejada. Una vez que hayamos comprobado la pureza de la misma calculamos su valor basado en la cotizaci\xf3n del momento, y te abonamos el importe en efectivo o por transferencia."
+                            children: "Puedes traernos cualquier pieza de oro, no importa si est\xe1 deteriorada o desparejada. Compramos todo tipo de piezas de oro como joyas, relojes, monedas, lingotes. Una vez que hayamos comprobado la pureza de la misma calculamos su valor basado en la cotizaci\xf3n del momento, y te abonamos el importe en efectivo o por transferencia."
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("p", {
                             children: "En quickgold llevamos al frente m\xe1s de 15 a\xf1os ofreciendo nuestro servicio de compro oro, por lo que cuentas con especialistas con una larga trayectoria que te ayudar\xe1n en todo lo que necesites. Como nos encanta recibir tu satisfacci\xf3n y confianza nos adaptamos a tus circunstancias ofreci\xe9ndote siempre el mejor servicio posible."
@@ -594,11 +619,15 @@ const Section_cinco = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "#1"
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Comprobaci\xf3n inicial"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Comprobaci\xf3n",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " inicial"
+                                ]
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "La comprobaci\xf3n del oro sigue un procedimiento riguroso y claro, independientemente de que se trate de nuestro servicio de compraventa o empe\xf1o. Nuestras compa\xf1eras, por seguridad, realizar\xe1n una comprobaci\xf3n previa para ver el estado y procedencia de \xe9stas. No importa si est\xe1n rotas o desparejadas, utilizaremos un im\xe1n y una comprobaci\xf3n visual con lupa de los contrastes de la pieza para determinar si es oro."
+                                children: "La comprobaci\xf3n del oro sigue un procedimiento riguroso y claro, independientemente de que se trate de nuestro servicio de compraventa o empe\xf1o. Nuestras compa\xf1eras, por seguridad, realizar\xe1n una comprobaci\xf3n previa de las piezas, para ver el estado y procedencia de \xe9stas. No importa si est\xe1n rotas o desparejadas. Utilizaremos un im\xe1n y una comprobaci\xf3n visual con lupa para revisar los contrastes de la pieza y para determinar si es oro y su calidad."
                             })
                         ]
                     }),
@@ -609,10 +638,10 @@ const Section_cinco = ({ ciudad  })=>{
                                 children: "#2"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Tasaci\xf3n profesional a la vista"
+                                children: "Valoraci\xf3n de las piezas de oro"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Una vez realizada la comprobaci\xf3n previa. Comenzamos con el proceso de tasaci\xf3n utilizando herramientas homologadas. Todos los pasos que nuestras compa\xf1eras van efectuando se detallan al cliente, adem\xe1s, cada uno de ellos se realiza a la vista para que resulte un proceso totalmente transparente. Utilizaremos dens\xedmetros para determinar el quilataje de la pieza y \xe1cidos que por norma general no ser\xe1 inferior a 14K."
+                                children: "Una vez comprobadas las joyas de oro, se ofrece un importe basado en la cotizaci\xf3n actual del mercado. Si est\xe1s de acuerdo con \xe9ste, tan s\xf3lo necesitamos tu DNI u otra identificaci\xf3n en vigor para realizar la compra de las piezas. Recuerda que debes ser mayor de edad y presentar DNI en vigor."
                             })
                         ]
                     }),
@@ -622,11 +651,15 @@ const Section_cinco = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "#3"
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Valoraci\xf3n de las piezas de oro"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Tasaci\xf3n",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " profesional a la vista"
+                                ]
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Una vez tasadas las joyas de oro se ofrece un importe basado en la cotizaci\xf3n actual del mercado. Si est\xe1s de acuerdo con \xe9ste tan s\xf3lo necesitamos tu DNI u otra identificaci\xf3n en vigor para realizar la compra de las joyas. Recuerda que debes ser mayor de edad y presentar DNI en vigor."
+                                children: "Una vez realizada la comprobaci\xf3n previa continuaremos con el proceso, utilizando herramientas homologadas. Todos los pasos que nuestras compa\xf1eras van efectuando se detallan al cliente, adem\xe1s, cada uno de ellos se realiza a la vista para que resulte un proceso totalmente transparente. Utilizaremos dens\xedmetros \xe1cidos para determinar el quilataje de las piezas."
                             })
                         ]
                     }),
@@ -636,11 +669,15 @@ const Section_cinco = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "#4"
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Pago inmediato del valor fijado y acordado"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Pago inmediato del ",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    "valor fijado y acordado"
+                                ]
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Te entregaremos el importe acordado en el momento para que dispongas de forma inmediata el efectivo de la transacci\xf3n. Te garantizamos, durante todo el proceso de venta, el mejor servicio y atenci\xf3n para tu satisfacci\xf3n. Siempre con la sonrisa que nos provoca realizar el trabajo que nos encanta poder ofrecerte."
+                                children: "Te realizaremos el pago del importe acordado en el momento, en efectivo o por transferencia bancaria. Te garantizamos, durante todo el proceso de venta, el mejor servicio y atenci\xf3n para tu satisfacci\xf3n. Siempre con la sonrisa que nos provoca realizar el trabajo que nos encanta poder ofrecerte."
                             })
                         ]
                     })
@@ -674,7 +711,7 @@ const Section_seis = ({ listadoCiudadesServicios  })=>{
                             children: "\xbfQu\xe9 tipo de oro hay en el mercado?"
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                            children: "Existe diferentes tipo de oro seg\xfan sus quilates, caracter\xedsticas, calidad, etc."
+                            children: "Existen diferentes tipos de oro seg\xfan su calidad, color, etc."
                         })
                     ]
                 }),
@@ -688,7 +725,7 @@ const Section_seis = ({ listadoCiudadesServicios  })=>{
                                     children: "Oro 24K "
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Es m\xe1s conocido por ser el llamado \xaboro de inversi\xf3n\xbb. Tiene un grado de pureza de 99,9% por lo que se le considera oro puro. Lo encontrar\xe1s en lingotes de oro."
+                                    children: "Es m\xe1s conocido por ser el llamado \xaboro de inversi\xf3n\xbb. Tiene un grado de pureza de 99,9% por lo que se le considera oro puro. Lo encontrar\xe1s en lingotes de oro y en algunas monedas. Suele venir marcado en la pieza como 999."
                                 })
                             ]
                         }),
@@ -699,7 +736,7 @@ const Section_seis = ({ listadoCiudadesServicios  })=>{
                                     children: "Oro 18K "
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "El oro alto tiene una pureza del 75%. Es el m\xe1s usado en joyer\xeda y orfebrer\xeda."
+                                    children: 'Es conocido como oro de "primera ley", tiene una pureza del 75%. Se realiza una aleaci\xf3n de oro puro con otros metales para darle mayor resistencia y dureza. Es el m\xe1s usado en joyer\xeda y orfebrer\xeda. Suele venir marcado en la pieza como 750.'
                                 })
                             ]
                         }),
@@ -710,7 +747,7 @@ const Section_seis = ({ listadoCiudadesServicios  })=>{
                                     children: "Oro 14K "
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Es conocido como oro bajo ya que tiene una pureza del 60% y est\xe1 compuesto por 14 partes de oro y 10 de otros metales."
+                                    children: "Es conocido como oro bajo ya que tiene una pureza de oro m\xe1s baja, del 58,50%. Es habitual encontrarlo en joyer\xeda espa\xf1ola antigua y en determinados pa\xedses. Suele venir marcado en la pieza como 585."
                                 })
                             ]
                         }),
@@ -721,7 +758,7 @@ const Section_seis = ({ listadoCiudadesServicios  })=>{
                                     children: "Oro amarillo "
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Se trata de oro noble cuyo color no suele cambiar y suele ser de 24K o 18K."
+                                    children: "Es el color del oro y puedes encontrar piezas de cualquier calidad en este color."
                                 })
                             ]
                         }),
@@ -732,7 +769,7 @@ const Section_seis = ({ listadoCiudadesServicios  })=>{
                                     children: "Oro blanco "
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Com\xfanmente es de 18K y contiene un 75% de oro fino y una aleaci\xf3n de paladio o de Liga Italiana (material proveniente de Italia de alta calidad que permite realizar una mejor fundici\xf3n)."
+                                    children: "Es una aleaci\xf3n de oro con otros metales blancos como plata y paladio. Se puede encontrar en calidades de 18k o inferiores."
                                 })
                             ]
                         }),
@@ -740,43 +777,10 @@ const Section_seis = ({ listadoCiudadesServicios  })=>{
                             className: (sectionSeis_module_default()).contenedorTiposOroCard2,
                             children: [
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Oro rosado "
+                                    children: "Oro rojo o rosado "
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Es una mezcla de oro fijo, cobre y plata."
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: (sectionSeis_module_default()).contenedorTiposOroCard1,
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Oro rojo "
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Oro mezclado con cobre."
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: (sectionSeis_module_default()).contenedorTiposOroCard2,
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Oro gris "
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Mezcla de oro y n\xedquel que se presenta en bajas denominaciones de quilates."
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: (sectionSeis_module_default()).contenedorTiposOroCard1,
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Oro verde "
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Oro mezclado con plata."
+                                    children: "Es una aleaci\xf3n de oro con cobre, lo que le da ese tono rosado o rojo. Se puede encontrar en calidades de 18k o inferiores."
                                 })
                             ]
                         })

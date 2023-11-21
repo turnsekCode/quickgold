@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     max-width: 1060px;
-    margin: 20px auto;
+    margin: 0 auto;
     padding: 30px 20px 0 20px;
 }
 .linea {
@@ -19,7 +19,7 @@
     position: absolute;
     display: block;
     height: 5px;
-    transform: translateY(40%);
+    transform: translateY(10%);
 }
 
 .linea:before {
@@ -38,6 +38,7 @@
     width: 100%;
     text-align: center;
     font-family: "Gotham Black";
+    padding: 15px 30px 0 30px;
 }
 .bloqueIzq p {
     font-style: normal;
@@ -64,7 +65,7 @@
     height: auto;
 }
 .botones, .botonPopUp{
-    margin: 15px 0;
+    margin: 25px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,10 +73,10 @@
 }
 .botones a,
 .botonPopUp{
-    width: 235px;
+    width: 255px;
     height: 40px;
     background: #0692D0;
-    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
     border-radius: 2px;
     font-weight: 700;
     font-size: 13px;
@@ -87,6 +88,7 @@
     padding: 13px 5px;
     text-transform: uppercase;
     border: none;
+    font-family: "Gotham Bold";
 }
 .botones a:nth-child(2){
    display: none;
@@ -101,7 +103,7 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top: 20px;
-        gap: 90px;
+        gap: 83px;
         padding: 10px 20px 0 20px;
     }
     .bloqueDer{
@@ -138,6 +140,7 @@
     .bloqueDer img {
         width: 480px;
         height: 364px;
+        margin-top: 0;
     }
     .bloqueIzq h1 {
         font-style: normal;
@@ -147,6 +150,7 @@
         color: #213E58;
         width: 90%;
         text-align: left;
+        padding: 0;
     }
 
     .bloqueIzq p {
@@ -160,7 +164,7 @@
     }
 
     .botones {
-        margin-top: 20px;
+        margin: 20px 0 0 0;
         display: flex;
         gap: 50px;
     }
@@ -169,10 +173,10 @@
         background: #E83C82;
     }
     .botones a {
-        width: 225px;
+        width: 240px;
         height: 40px;
         background: #0692D0;
-        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
         border-radius: 2px;
         font-weight: 700;
         font-size: 13px;
@@ -181,7 +185,7 @@
         justify-content: center;
         display: flex;
         align-items: center;
-        padding: 13px 5px;
+        padding: 13px;
         text-transform: uppercase;
     }
 }

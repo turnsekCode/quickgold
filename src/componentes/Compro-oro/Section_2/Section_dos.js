@@ -22,9 +22,10 @@ const Section_tres = ({ ciudad, listadoUrlCiudad }) => {
           </p>
           <p>
             Puedes traernos cualquier pieza de oro, no importa si está
-            deteriorada o desparejada. Una vez que hayamos comprobado la pureza
-            de la misma calculamos su valor basado en la cotización del momento,
-            y te abonamos el importe en efectivo o por transferencia.
+            deteriorada o desparejada. Compramos todo tipo de piezas de oro como
+            joyas, relojes, monedas, lingotes. Una vez que hayamos comprobado la
+            pureza de la misma calculamos su valor basado en la cotización del
+            momento, y te abonamos el importe en efectivo o por transferencia.
           </p>
           <p>
             En quickgold llevamos al frente más de 15 años ofreciendo nuestro

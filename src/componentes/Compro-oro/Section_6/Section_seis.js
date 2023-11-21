@@ -8,10 +8,7 @@ const Section_seis = ({ listadoCiudadesServicios }) => {
       <div className={styles.contenedorSectionSeisMargen}>
         <div className={styles.contenedorTexto}>
           <h5>¿Qué tipo de oro hay en el mercado?</h5>
-          <p>
-            Existe diferentes tipo de oro según sus quilates, características,
-            calidad, etc.
-          </p>
+          <p>Existen diferentes tipos de oro según su calidad, color, etc.</p>
         </div>
         <div className={styles.contenedorTiposOro}>
           <div className={styles.contenedorTiposOroCard1}>
@@ -19,56 +16,47 @@ const Section_seis = ({ listadoCiudadesServicios }) => {
             <p>
               Es más conocido por ser el llamado «oro de inversión». Tiene un
               grado de pureza de 99,9% por lo que se le considera oro puro. Lo
-              encontrarás en lingotes de oro.
+              encontrarás en lingotes de oro y en algunas monedas. Suele venir
+              marcado en la pieza como 999.
             </p>
           </div>
           <div className={styles.contenedorTiposOroCard2}>
             <p>Oro 18K </p>
             <p>
-              El oro alto tiene una pureza del 75%. Es el más usado en joyería y
-              orfebrería.
+              Es conocido como oro de "primera ley", tiene una pureza del 75%.
+              Se realiza una aleación de oro puro con otros metales para darle
+              mayor resistencia y dureza. Es el más usado en joyería y
+              orfebrería. Suele venir marcado en la pieza como 750.
             </p>
           </div>
           <div className={styles.contenedorTiposOroCard1}>
             <p>Oro 14K </p>
             <p>
-              Es conocido como oro bajo ya que tiene una pureza del 60% y está
-              compuesto por 14 partes de oro y 10 de otros metales.
+              Es conocido como oro bajo ya que tiene una pureza de oro más baja,
+              del 58,50%. Es habitual encontrarlo en joyería española antigua y
+              en determinados países. Suele venir marcado en la pieza como 585.
             </p>
           </div>
           <div className={styles.contenedorTiposOroCard2}>
             <p>Oro amarillo </p>
             <p>
-              Se trata de oro noble cuyo color no suele cambiar y suele ser de
-              24K o 18K.
+              Es el color del oro y puedes encontrar piezas de cualquier calidad
+              en este color.
             </p>
           </div>
           <div className={styles.contenedorTiposOroCard1}>
             <p>Oro blanco </p>
             <p>
-              Comúnmente es de 18K y contiene un 75% de oro fino y una aleación
-              de paladio o de Liga Italiana (material proveniente de Italia de
-              alta calidad que permite realizar una mejor fundición).
+              Es una aleación de oro con otros metales blancos como plata y
+              paladio. Se puede encontrar en calidades de 18k o inferiores.
             </p>
           </div>
           <div className={styles.contenedorTiposOroCard2}>
-            <p>Oro rosado </p>
-            <p>Es una mezcla de oro fijo, cobre y plata.</p>
-          </div>
-          <div className={styles.contenedorTiposOroCard1}>
-            <p>Oro rojo </p>
-            <p>Oro mezclado con cobre.</p>
-          </div>
-          <div className={styles.contenedorTiposOroCard2}>
-            <p>Oro gris </p>
+            <p>Oro rojo o rosado </p>
             <p>
-              Mezcla de oro y níquel que se presenta en bajas denominaciones de
-              quilates.
+              Es una aleación de oro con cobre, lo que le da ese tono rosado o
+              rojo. Se puede encontrar en calidades de 18k o inferiores.
             </p>
-          </div>
-          <div className={styles.contenedorTiposOroCard1}>
-            <p>Oro verde </p>
-            <p>Oro mezclado con plata.</p>
           </div>
         </div>
       </div>

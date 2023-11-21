@@ -13,10 +13,10 @@ const Section_uno = ({ ciudad }) => {
           Tiendas compro oro <span className={styles.linea}>quickgold</span>
         </h1>
         <p>
-          Si tienes joyas de oro que ya no desees tener y quieres obtener dinero
-          extra por ellas, elige vender tus piezas de oro en quickgold y te
-          garantizamos el servicio que estabas buscando, con una valoración a la
-          vista, detallada y a un precio justo. Somos tu Compro Oro de
+          Si tienes joyas de oro que ya no desees conservar y quieres obtener
+          dinero extra por ellas, elige vender tus piezas de oro en quickgold.
+          Te garantizamos el servicio que estas buscando, con una valoración a
+          la vista, detallada y a un precio justo. Somos tu compro oro de
           confianza.
         </p>
         <div className={styles.botones}>

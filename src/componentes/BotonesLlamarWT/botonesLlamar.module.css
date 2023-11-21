@@ -12,6 +12,7 @@
     align-items: center;
     gap: 8px;
     margin-bottom: 10px;
+    font-family: 'Gotham Bold';
 }
 .botonWhatsapp {
     width: 140px;
@@ -27,6 +28,7 @@
     align-items: center;
     gap: 8px;
     margin-bottom: 10px;
+    font-family: 'Gotham Bold';
 }
 .contenedorBotones {
     width: 100%;

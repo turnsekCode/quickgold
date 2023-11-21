@@ -16,7 +16,7 @@ const Section_cinco = () => {
           El procedimiento para vender tus joyas de oro o plata que ya no
           quieres es muy sencillo, solo tienes que hacer clic{" "}
           <strong>
-            <Link href="/compro-oro/">aquí</Link>
+            <Link href="/compro-oro">aquí</Link>
           </strong>{" "}
           y te explicamos cómo.
         </p>

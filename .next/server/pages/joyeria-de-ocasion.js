@@ -512,7 +512,7 @@ const Section_cuatro = ()=>{
             href: "https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: "/assets/img/Banner-wallapop-joyeria-ocasion.png",
+                    src: "/assets/img/Banner-wallapop-black.png",
                     alt: "Joyer\xeda de ocasi\xf3n",
                     className: (sectionCuatro_module_default()).ImagenBanner,
                     width: 1280,
@@ -520,7 +520,7 @@ const Section_cuatro = ()=>{
                     priority: true
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: "/assets/img/Banner-wallapop-joyeria-ocasion-mobil.png",
+                    src: "/assets/img/Banner-wallapop-joyeria-ocasion-black.png",
                     alt: "Joyer\xeda de ocasi\xf3n",
                     className: (sectionCuatro_module_default()).ImagenBannerMobil,
                     width: 325,
@@ -573,7 +573,7 @@ const Section_cinco = ()=>{
                             " ",
                             /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                    href: "/compro-oro/",
+                                    href: "/compro-oro",
                                     children: "aqu\xed"
                                 })
                             }),

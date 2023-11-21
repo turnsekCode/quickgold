@@ -1325,10 +1325,11 @@ const AccordionDetails = (0,styles_.styled)((AccordionDetails_default()))(({ the
         padding: theme.spacing(2)
     }));
 function AccordionServicios({ ciudad  }) {
-    (0,external_react_.useEffect)(()=>{
-        const url = window.location.href;
-        console.log(url);
-    }, []);
+    {
+    /* useEffect(() => {
+    const url = window.location.href;
+    console.log(url);
+  }, []);*/ }
     const [expanded, setExpanded] = external_react_default().useState("panel3");
     const handleChange = (panel)=>(event, newExpanded)=>{
             setExpanded(newExpanded ? panel : false);

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React from "react";
 import { styled } from "@mui/material/styles";
 import MuiAccordion from "@mui/material/Accordion";
 import MuiAccordionSummary from "@mui/material/AccordionSummary";
@@ -54,10 +54,12 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 }));
 
 export default function AccordionServicios({ ciudad }) {
-  useEffect(() => {
+  {
+    /* useEffect(() => {
     const url = window.location.href;
     console.log(url);
-  }, []);
+  }, []);*/
+  }
   const [expanded, setExpanded] = React.useState("panel3");
 
   const handleChange = (panel) => (event, newExpanded) => {

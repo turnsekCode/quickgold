@@ -26,7 +26,9 @@ const Section_dos = ({ ciudad }) => {
             />
           </div>
 
-          <p>Mejor servicio y precio garantizado.</p>
+          <p>
+            Mejor servicio y <br></br>precio garantizado.
+          </p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
@@ -38,7 +40,9 @@ const Section_dos = ({ ciudad }) => {
             />
           </div>
 
-          <p>Precio del oro siempre actualizado.</p>
+          <p>
+            Precio del oro<br></br> siempre actualizado.
+          </p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
@@ -50,7 +54,9 @@ const Section_dos = ({ ciudad }) => {
             />
           </div>
 
-          <p>Más de 50 tiendas para realizar tu venta de oro.</p>
+          <p>
+            Más de 50 tiendas para<br></br> realizar tu venta de oro.
+          </p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
@@ -58,11 +64,13 @@ const Section_dos = ({ ciudad }) => {
               src="/assets/img/imagenventaja4.png"
               alt="vender oro"
               width={41}
-              height={35}
+              height={32}
             />
           </div>
 
-          <p>Atención personalizada.</p>
+          <p>
+            Atención<br></br> personalizada.
+          </p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
@@ -74,7 +82,9 @@ const Section_dos = ({ ciudad }) => {
             />
           </div>
 
-          <p>Dinero en efectivo al instante.</p>
+          <p>
+            Dinero en<br></br> efectivo al instante.
+          </p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
@@ -86,7 +96,9 @@ const Section_dos = ({ ciudad }) => {
             />
           </div>
 
-          <p>Tasación profesional, justa y segura.</p>
+          <p>
+            Tasación profesional, <br></br>justa y segura.
+          </p>
         </div>
       </div>
     </section>
