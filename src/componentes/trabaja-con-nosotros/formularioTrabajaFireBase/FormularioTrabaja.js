@@ -34,6 +34,7 @@ const FormularioTrabajaFirebase = () => {
   const [curriculum, setCurriculum] = useState();
   const [nombre, setNombre] = useState();
   const [pesoArchivo, setPesoArchivo] = useState();
+
   const onBlur = ({ target }) =>
     setTouched((prev) => ({
       ...prev,
@@ -71,10 +72,15 @@ const FormularioTrabajaFirebase = () => {
         ciudad: e.target.value,
       },
     }));
+
   const handleChangeFile = (e) => {
+    console.log(e.target.files[0].type);
     setPesoArchivo(e.target.files[0]);
     const archivo = ref(file, `Curriculums/${nombre}-${v4()}`);
-    if (e.target.files[0]?.size < 2000000) {
+    if (
+      e.target.files[0]?.size < 2000000 &&
+      e.target.files[0]?.type === "application/pdf"
+    ) {
       uploadBytes(archivo, e.target.files[0]).then((data) => {
         getDownloadURL(data.ref).then((val) => {
           setCurriculum(val);
@@ -214,8 +220,13 @@ const FormularioTrabajaFirebase = () => {
               handleChangeFile(e);
             }}
           />
-
           <p>MÁX. 2 MB</p>
+
+          {pesoArchivo?.type === "application/pdf" ? (
+            ""
+          ) : (
+            <p>Debe ser un archivo pdf</p>
+          )}
           {pesoArchivo?.size > 2000000 ? <p>Excede tamaño de 2 megas</p> : ""}
           <FormErrorMessage style={{ margin: "0" }}>
             Se Requiere

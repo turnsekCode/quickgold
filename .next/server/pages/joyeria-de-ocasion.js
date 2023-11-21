@@ -529,7 +529,7 @@ const Section_cuatro = ()=>{
             target: "_blank",
             href: "https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956",
             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                src: "/assets/img/Banner-wallapop-black.png",
+                src: "/assets/img/Banner-wallapop-Black.png",
                 alt: "Joyer\xeda de ocasi\xf3n",
                 className: (sectionCuatro_module_default()).ImagenBanner,
                 width: 1280,

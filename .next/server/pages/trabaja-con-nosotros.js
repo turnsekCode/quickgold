@@ -337,9 +337,10 @@ const FormularioTrabajaFirebase = ()=>{
                 }
             }));
     const handleChangeFile = (e)=>{
+        console.log(e.target.files[0].type);
         setPesoArchivo(e.target.files[0]);
         const archivo = (0,firebase_storage__WEBPACK_IMPORTED_MODULE_5__.ref)(_utilities_fireBaseConfig__WEBPACK_IMPORTED_MODULE_3__/* .file */ .t, `Curriculums/${nombre}-${(0,uuid__WEBPACK_IMPORTED_MODULE_4__.v4)()}`);
-        if (e.target.files[0]?.size < 2000000) {
+        if (e.target.files[0]?.size < 2000000 && e.target.files[0]?.type === "application/pdf") {
             (0,firebase_storage__WEBPACK_IMPORTED_MODULE_5__.uploadBytes)(archivo, e.target.files[0]).then((data)=>{
                 (0,firebase_storage__WEBPACK_IMPORTED_MODULE_5__.getDownloadURL)(data.ref).then((val)=>{
                     setCurriculum(val);
@@ -515,6 +516,9 @@ const FormularioTrabajaFirebase = ()=>{
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                             children: "M\xc1X. 2 MB"
+                        }),
+                        pesoArchivo?.type === "application/pdf" ? "" : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            children: "Debe ser un archivo pdf"
                         }),
                         pesoArchivo?.size > 2000000 ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                             children: "Excede tama\xf1o de 2 megas"
