@@ -58,7 +58,7 @@ react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__ = (__webpack_async_depe
 
 
 function AlcalaDeHenares({ markers , menu_list , ciudad , general  }) {
-    const { ref: myRef , inView , entry  } = (0,react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__.useInView)();
+    const { ref: myRef , inView  } = (0,react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__.useInView)();
     const breadCrumb = {
         "@context": "https://schema.org/",
         "@type": "BreadcrumbList",
@@ -182,8 +182,8 @@ function AlcalaDeHenares({ markers , menu_list , ciudad , general  }) {
                                 ubicacionActual: ciudad?.acf?.ciudad_landing,
                                 iconoRaiz: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_14___default()), {}),
                                 iconoUbiccionActual: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_14___default()), {}),
-                                urlNombreCiudad: "https://quickgold.es/tiendas/compro-oro-alcala-de-henares/",
-                                urlNombreTienda: "https://quickgold.es/tiendas/compro-oro-alcala-de-henares/"
+                                urlNombreCiudad: "https://quickgold.es/tiendas/compro-oro-alcala-de-henares",
+                                urlNombreTienda: "https://quickgold.es/tiendas/compro-oro-alcala-de-henares"
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasCiudad_SeccionUno_SeccionUno__WEBPACK_IMPORTED_MODULE_10__/* ["default"] */ .Z, {
                                 ciudad: ciudad
@@ -696,7 +696,7 @@ module.exports = import("react-intersection-observer");;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,9317,1151,4330], () => (__webpack_exec__(2978)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,9317,362,2548], () => (__webpack_exec__(2978)));
 module.exports = __webpack_exports__;
 
 })();

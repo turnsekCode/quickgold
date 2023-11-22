@@ -17,7 +17,7 @@ import HtmlGeneral from "@/componentes/ComponenteHTMLGeneral/HtmlGeneral";
 import BannerPromoTiendas from "@/componentes/BannerPromoTiendas/BannerPromoTiendas.js";
 
 export default function Benidorm({ markers, menu_list, ciudad, general }) {
-  const { ref: myRef, inView, entry } = useInView();
+  const { ref: myRef, inView } = useInView();
   const breadCrumb = {
     "@context": "https://schema.org/",
     "@type": "BreadcrumbList",

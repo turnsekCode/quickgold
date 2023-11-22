@@ -10,6 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0 10px;
 }
 .bloqueSuperior h2{
     font-weight: 700;
@@ -18,7 +19,7 @@
     color: #000831;
     margin-bottom: 30px;
     text-align: center;
-    padding: 0 20px;
+    padding: 0 25px;
     font-family: 'Gotham Bold';
 }
 .bloqueSuperior p {
@@ -36,18 +37,18 @@
 }
 .contenedorVentajas p{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 20px;
     text-align: center;
     color: #0F2D45;
-    padding: 0 20px;
+    padding: 0;
     margin-top: 20px;
 }
 .contenedorVentajas {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 33%;
+    width: 32%;
     margin-bottom: 30px;
 }
 .linea {
@@ -64,7 +65,7 @@
     position: absolute;
     display: block;
     height: 5px;
-    transform: translateY(40%);
+    transform: translateY(10%);
 }
 
 .linea:after {

@@ -9,7 +9,7 @@ const Section_dos = ({ ciudad }) => {
         <h2>¿Necesitas cambiar divisa?</h2>
         <p>
           *Para realizar cambios de divisa es necesario ser mayor de edad y
-          aportar documento de identidad en vigor.
+          aportar DNI en vigor.
         </p>
       </div>
       <div className={styles.bloqueInferior}>
@@ -18,8 +18,8 @@ const Section_dos = ({ ciudad }) => {
             <Image
               src="/assets/img/imagensectiondos1.png"
               alt="Mejor servicio y precio"
-              width={40}
-              height={42}
+              width={32}
+              height={35}
             />
           </div>
 
@@ -38,7 +38,9 @@ const Section_dos = ({ ciudad }) => {
             />
           </div>
 
-          <p>Realizamos la transacción al momento, sin esperas y comisiones.</p>
+          <p>
+            Realizamos la transacción al momento, sin esperas y sin comisiones.
+          </p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
@@ -50,7 +52,9 @@ const Section_dos = ({ ciudad }) => {
             />
           </div>
 
-          <p>Recibes tu cambio al instante y sin coste adicional.</p>
+          <p>
+            Recibes tu cambio<br></br> al instante y sin coste adicional.
+          </p>
         </div>
       </div>
     </section>

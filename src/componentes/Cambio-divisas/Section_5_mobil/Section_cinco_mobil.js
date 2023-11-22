@@ -80,22 +80,6 @@ const Section_cinco_mobil = ({ ciudad }) => {
           <p>Reserva gratuita de más de 30 divisas.</p>
         </div>
       </div>
-      <div className={styles.botones}>
-        <Link
-          to="calculadoraDivisa"
-          smooth={true}
-          offset={-110}
-          spy={true}
-          duration={500}
-          title="texto"
-          passive="true"
-        >
-          <button className={styles.botonPopUp} title="texto">
-            CONOCE EL PRECIO DE LA DIVISA
-          </button>
-        </Link>
-      </div>
-      <p className={styles.texto}>Información de interés</p>
     </section>
   );
 };

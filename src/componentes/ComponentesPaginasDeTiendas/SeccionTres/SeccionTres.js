@@ -3,8 +3,10 @@ import styles from "./seccionTres.module.css";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import ResenasGoogle from "@/componentes/ResenasGoogle/ResenasGoogle";
+import { useInView } from "react-intersection-observer";
 
 const SeccionTres = ({ tiendaGoogle, ciudad }) => {
+  const { ref: myRef, inView } = useInView();
   const diaSemana = tiendaGoogle?.result.opening_hours?.weekday_text[0];
   const diaSabado = tiendaGoogle?.result.opening_hours?.weekday_text[5];
   const diaDomingo = tiendaGoogle?.result.opening_hours?.weekday_text[6];
@@ -21,7 +23,10 @@ const SeccionTres = ({ tiendaGoogle, ciudad }) => {
           </p>
 
           <div className={styles.iconosTelefono}>
-            <a title={`Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`} href={`tel:${ciudad?.acf?.telefono}`}>
+            <a
+              title={`Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`}
+              href={`tel:${ciudad?.acf?.telefono}`}
+            >
               <span className={styles.bloqueIzqTel}>
                 {ciudad?.acf?.telefono}
               </span>
@@ -72,8 +77,10 @@ const SeccionTres = ({ tiendaGoogle, ciudad }) => {
           loading="lazy"
         ></iframe>
       </section>
-      <section className={styles.contenedorResenasGoogle}>
-        <ResenasGoogle tiendaGoogle={tiendaGoogle} ciudad={ciudad} />
+      <section className={styles.contenedorResenasGoogle} ref={myRef}>
+        {inView ? (
+          <ResenasGoogle tiendaGoogle={tiendaGoogle} ciudad={ciudad} />
+        ) : null}
       </section>
     </aside>
   );

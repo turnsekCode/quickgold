@@ -12,7 +12,7 @@ const Section_uno = ({ ciudad }) => {
         <h1>Cambiar divisas al instante y sin comisiones</h1>
         <p>
           Cambiar moneda extranjera en quickgold es muy fácil y rápido. Tenemos
-          más de 30 divisas disponibles para que puedas realizar tu cambio al
+          más de 20 divisas disponibles para que puedas realizar tu cambio al
           mejor precio y de forma inmediata, sin esperas.
         </p>
         <div className={styles.botones}>

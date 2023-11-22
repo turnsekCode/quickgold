@@ -63,7 +63,7 @@ function CasaCambioValencia({ markers , menu_list , ciudad , general  }) {
         "@context": "http://www.schema.org",
         "@type": "Organization",
         name: "Quickgold",
-        url: `https://quickgold.es/casa-cambio-${ciudad?.acf?.ciudad_minuscula}/`,
+        url: `https://quickgold.es/casa-cambio-${ciudad?.acf?.ciudad_minuscula}`,
         sameAs: [
             "https://instagram.com/quickgold.es",
             "https://twitter.com/quickgoldqg",
@@ -84,7 +84,7 @@ function CasaCambioValencia({ markers , menu_list , ciudad , general  }) {
             contactType: "info@quickgold.es"
         }
     };
-    const { ref: myRef , inView , entry  } = (0,react_intersection_observer__WEBPACK_IMPORTED_MODULE_11__.useInView)();
+    const { ref: myRef , inView  } = (0,react_intersection_observer__WEBPACK_IMPORTED_MODULE_11__.useInView)();
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_script__WEBPACK_IMPORTED_MODULE_12___default()), {

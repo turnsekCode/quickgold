@@ -6,7 +6,6 @@ import BotonLamarFijo from "@/componentes/BotonLlamarFijo/BotonLamarFijo";
 import BotonesLlamar from "@/componentes/BotonesLlamarWT/BotonesLlamar";
 import BannerWallapop from "@/componentes/BannerWallapop/BannerWallapop";
 import Layout from "@/componentes/Layout/Layout";
-import Html from "@/componentes/ComponenteHTML/Html";
 import SeccionUno from "@/componentes/ComponentesPaginasDeTiendas/SeccionUno/SeccionUno";
 import SeccionDos from "@/componentes/ComponentesPaginasDeTiendas/seccionDos/SeccionDos";
 import SeccionTres from "@/componentes/ComponentesPaginasDeTiendas/SeccionTres/SeccionTres";
@@ -14,6 +13,7 @@ import BannerPromoTiendas from "@/componentes/BannerPromoTiendas/BannerPromoTien
 import BannerPromoGeneral from "@/componentes/BannerGeneral/BannerPromoGeneral";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import Script from "next/script.js";
+import { useInView } from "react-intersection-observer";
 
 export default function AvBurjassot({
   menu_list,
@@ -21,6 +21,7 @@ export default function AvBurjassot({
   tiendaGoogle,
   general,
 }) {
+  const { ref: myRef, inView } = useInView();
   const breadCrumb = {
     "@context": "https://schema.org/",
     "@type": "BreadcrumbList",
@@ -167,9 +168,13 @@ export default function AvBurjassot({
         ) : (
           <BotonesLlamar ciudad={ciudad} />
         )}
-        {ciudad?.acf?.activar_banner_wallapop ? (
-          <BannerWallapop ciudad={ciudad} />
-        ) : null}
+        <div className={styles.contenedorBannerVisible} ref={myRef}>
+          {ciudad?.acf?.activar_banner_wallapop ? (
+            inView ? (
+              <BannerWallapop ciudad={ciudad} />
+            ) : null
+          ) : null}
+        </div>
       </Layout>
     </>
   );

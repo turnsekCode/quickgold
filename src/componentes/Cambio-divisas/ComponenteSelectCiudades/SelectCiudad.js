@@ -18,13 +18,13 @@ const SelectCiudad = ({ listadoCiudades, urlSelect, setUrlSelect, ciudad }) => {
         </p>
         <p className={styles.bloqueInferiorTexto2}>
           Realiza en <strong>quickgold</strong> tu cambio de moneda extranjera
-          sin comisiones para siempre. Más de 25 divisas disponibles al instante
+          sin comisiones para siempre. Más de 20 divisas disponibles al instante
           para que puedas fijar tu precio de cambio. Consulta la cotización de
           la moneda que quieras con nuestro conversor online.
         </p>
         <p className={styles.bloqueInferiorTexto3}>
           Selecciona tu ciudad y haz clic en{" "}
-          <span>cambio y compra de divisa </span>para saberlo.
+          <span>conoce el precio de la divisa </span>para saberlo.
         </p>
         <div className={styles.ContenedorSelect}>
           <select

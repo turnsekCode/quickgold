@@ -55,6 +55,8 @@
     margin: 20px auto 20px 0;
     text-align: center;
     width: 100%;
+    font-family: 'Gotham Bold';
+    padding: 0 50px;
 }
 .contenedorTiposDivisas{
     padding: 0 20px;
@@ -126,6 +128,7 @@
         text-align: left;
         width: 100%;
         font-family: 'Gotham Bold';
+        padding: 0;
     }
     .contenedorTiposDivisas {
         padding: 0;

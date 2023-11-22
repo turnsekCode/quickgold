@@ -22,7 +22,7 @@ export default function AlcalaDeHenares({
   ciudad,
   general,
 }) {
-  const { ref: myRef, inView, entry } = useInView();
+  const { ref: myRef, inView } = useInView();
   const breadCrumb = {
     "@context": "https://schema.org/",
     "@type": "BreadcrumbList",
@@ -106,8 +106,8 @@ export default function AlcalaDeHenares({
             ubicacionActual={ciudad?.acf?.ciudad_landing}
             iconoRaiz={<KeyboardArrowRightIcon />}
             iconoUbiccionActual={<KeyboardArrowRightIcon />}
-            urlNombreCiudad="https://quickgold.es/tiendas/compro-oro-alcala-de-henares/"
-            urlNombreTienda="https://quickgold.es/tiendas/compro-oro-alcala-de-henares/"
+            urlNombreCiudad="https://quickgold.es/tiendas/compro-oro-alcala-de-henares"
+            urlNombreTienda="https://quickgold.es/tiendas/compro-oro-alcala-de-henares"
           />
           <SeccionUno ciudad={ciudad} />
           {ciudad?.acf?.activar_banner_en_tiendas_y_ciudad &&

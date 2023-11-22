@@ -7,7 +7,8 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
-    "analyze": "cross-env ANALYZE=true next build"
+    "analyze": "cross-env ANALYZE=true next build",
+    "sitemap": "next-sitemap --config next-sitemap.config.js"
   },
   "dependencies": {
     "@bradgarropy/next-seo": "^1.2.0",
@@ -33,6 +34,7 @@
     "react-scroll": "^1.8.9",
     "react-scroll-to-top": "^3.0.0",
     "sharp": "^0.32.6",
-    "uuid": "^9.0.1"
+    "uuid": "^9.0.1",
+    "next-sitemap": "^4.2.3"
   }
 }

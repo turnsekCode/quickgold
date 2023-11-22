@@ -63,13 +63,14 @@ module.exports = {
 module.exports = {
 	"contenedorSectionCuatro": "sectionCuatro_contenedorSectionCuatro__Af03G",
 	"contenedorSectionCuatroMargen": "sectionCuatro_contenedorSectionCuatroMargen__RP3hm",
-	"bloqueDerMobil": "sectionCuatro_bloqueDerMobil__XmqQc",
 	"bloqueDerPc": "sectionCuatro_bloqueDerPc__Bp1yb",
 	"botonPopUp": "sectionCuatro_botonPopUp__8Hj2n",
 	"bloqueDerLista": "sectionCuatro_bloqueDerLista__lZebD",
 	"adornoMobil": "sectionCuatro_adornoMobil__oKmAj",
 	"bloqueSuperiorTexto": "sectionCuatro_bloqueSuperiorTexto__F7ywv",
-	"botonLlamar": "sectionCuatro_botonLlamar__tBgRh"
+	"botonLlamar": "sectionCuatro_botonLlamar__tBgRh",
+	"subTitulo": "sectionCuatro_subTitulo__cSL5J",
+	"bloqueDerMobil": "sectionCuatro_bloqueDerMobil__XmqQc"
 };
 
 
@@ -234,7 +235,7 @@ const Section_uno = ({ ciudad  })=>{
                         children: "Cambiar divisas al instante y sin comisiones"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                        children: "Cambiar moneda extranjera en quickgold es muy f\xe1cil y r\xe1pido. Tenemos m\xe1s de 30 divisas disponibles para que puedas realizar tu cambio al mejor precio y de forma inmediata, sin esperas."
+                        children: "Cambiar moneda extranjera en quickgold es muy f\xe1cil y r\xe1pido. Tenemos m\xe1s de 20 divisas disponibles para que puedas realizar tu cambio al mejor precio y de forma inmediata, sin esperas."
                     }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                         className: (_section_uno_module_css__WEBPACK_IMPORTED_MODULE_5___default().botones),
@@ -346,7 +347,7 @@ const SelectCiudad = ({ listadoCiudades , urlSelect , setUrlSelect , ciudad  })=
                             /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                 children: "quickgold"
                             }),
-                            " tu cambio de moneda extranjera sin comisiones para siempre. M\xe1s de 25 divisas disponibles al instante para que puedas fijar tu precio de cambio. Consulta la cotizaci\xf3n de la moneda que quieras con nuestro conversor online."
+                            " tu cambio de moneda extranjera sin comisiones para siempre. M\xe1s de 20 divisas disponibles al instante para que puedas fijar tu precio de cambio. Consulta la cotizaci\xf3n de la moneda que quieras con nuestro conversor online."
                         ]
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
@@ -355,7 +356,7 @@ const SelectCiudad = ({ listadoCiudades , urlSelect , setUrlSelect , ciudad  })=
                             "Selecciona tu ciudad y haz clic en",
                             " ",
                             /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                children: "cambio y compra de divisa "
+                                children: "conoce el precio de la divisa "
                             }),
                             "para saberlo."
                         ]
@@ -434,39 +435,12 @@ const Section_cuatro = ({ ciudad , listadoUrlCiudad  })=>{
                     })
                 ]
             }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: (sectionCuatro_module_default()).bloqueDerMobil,
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        children: "\xbfQu\xe9 divisa compramos?"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                        className: (sectionCuatro_module_default()).bloqueDerLista,
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                children: "Compramos divisa extranjera en circulaci\xf3n."
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                children: "No compramos monedas, solo billetes."
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                                children: [
-                                    "Consulta en el desplegable de la calculadora las diferentes divisas que aceptamos.",
-                                    " "
-                                ]
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                children: "No cobramos ninguna comisi\xf3n."
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                        className: (sectionCuatro_module_default()).botonLlamar,
-                        href: `tel:${ciudad?.acf?.telefono}`,
-                        title: "Tel\xe9fono",
-                        children: "Llama gratis"
-                    })
-                ]
+                children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                    className: (sectionCuatro_module_default()).subTitulo,
+                    children: "Consigue el mejor cambio a euros hoy. Precios siempre actualizados."
+                })
             })
         ]
     });
@@ -506,7 +480,7 @@ const Section_dos = ({ ciudad  })=>{
                         children: "\xbfNecesitas cambiar divisa?"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                        children: "*Para realizar cambios de divisa es necesario ser mayor de edad y aportar documento de identidad en vigor."
+                        children: "*Para realizar cambios de divisa es necesario ser mayor de edad y aportar DNI en vigor."
                     })
                 ]
             }),
@@ -521,8 +495,8 @@ const Section_dos = ({ ciudad  })=>{
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                     src: "/assets/img/imagensectiondos1.png",
                                     alt: "Mejor servicio y precio",
-                                    width: 40,
-                                    height: 42
+                                    width: 32,
+                                    height: 35
                                 })
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
@@ -543,7 +517,7 @@ const Section_dos = ({ ciudad  })=>{
                                 })
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                children: "Realizamos la transacci\xf3n al momento, sin esperas y comisiones."
+                                children: "Realizamos la transacci\xf3n al momento, sin esperas y sin comisiones."
                             })
                         ]
                     }),
@@ -559,8 +533,12 @@ const Section_dos = ({ ciudad  })=>{
                                     height: 36
                                 })
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                children: "Recibes tu cambio al instante y sin coste adicional."
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                                children: [
+                                    "Recibes tu cambio",
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
+                                    " al instante y sin coste adicional."
+                                ]
                             })
                         ]
                     })
@@ -601,14 +579,8 @@ const SectionTres = ({ ciudad  })=>{
                         className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().linea),
                         children: "quickgold"
                     }),
-                    " es muy f\xe1cil"
+                    " es f\xe1cil"
                 ]
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().bloqueTextoMobil),
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                    children: "Cambiar divisa en cualquiera de nuestras tiendas tan solo te llevar\xe1 unos minutos."
-                })
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                 className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorInfoTres),
@@ -644,29 +616,6 @@ const SectionTres = ({ ciudad  })=>{
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                 children: "Recibe el dinero en efectivo al instante"
                             })
-                        ]
-                    })
-                ]
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().subTitulo),
-                children: "Consigue el mejor cambio a euros hoy. Precios siempre actualizados."
-            }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().subParrafo),
-                children: [
-                    "Selecciona la ciudad donde vas a realizar el cambio y obt\xe9n al momento el precio actualizado por tu operaci\xf3n. ",
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                    "No cobramos ninguna comisi\xf3n por lo que ver\xe1s el precio final que podr\xe1s fijar llam\xe1ndonos gratuitamente al",
-                    " ",
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                href: `tel:${ciudad?.acf?.telefono}`,
-                                children: ciudad?.acf?.telefono
-                            }),
-                            "."
                         ]
                     })
                 ]
@@ -910,27 +859,6 @@ const Section_cinco_mobil = ({ ciudad  })=>{
                         ]
                     })
                 ]
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().botones),
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_scroll__WEBPACK_IMPORTED_MODULE_3__.Link, {
-                    to: "calculadoraDivisa",
-                    smooth: true,
-                    offset: -110,
-                    spy: true,
-                    duration: 500,
-                    title: "texto",
-                    passive: "true",
-                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                        className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().botonPopUp),
-                        title: "texto",
-                        children: "CONOCE EL PRECIO DE LA DIVISA"
-                    })
-                })
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().texto),
-                children: "Informaci\xf3n de inter\xe9s"
             })
         ]
     });
@@ -1085,7 +1013,7 @@ function CambioDivisas({ menu_list , ciudad , divisas_list , listadoUrlCiudad , 
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BreadcrumbsRaiz_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
                                 raiz: "Quickgold",
                                 iconoRaiz: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4___default()), {}),
-                                urlUbicacionActual: "/cambio-divisas/",
+                                urlUbicacionActual: "/cambio-divisas",
                                 iconoUbiccionActual: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4___default()), {}),
                                 ubicacionActual: "Cambio Divisa"
                             }),
@@ -1123,7 +1051,6 @@ function CambioDivisas({ menu_list , ciudad , divisas_list , listadoUrlCiudad , 
         ]
     });
 }
-const idTienda = "cambiardivisas";
 const idPaginaWp = "404";
 const apiGeneral = "13848";
 //const idWp = "13848";

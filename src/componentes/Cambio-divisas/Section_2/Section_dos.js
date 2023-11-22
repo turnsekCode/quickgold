@@ -27,23 +27,9 @@ const Section_cuatro = ({ ciudad, listadoUrlCiudad }) => {
         />
       </div>
       <div className={styles.bloqueDerMobil}>
-        <p>¿Qué divisa compramos?</p>
-        <ul className={styles.bloqueDerLista}>
-          <li>Compramos divisa extranjera en circulación.</li>
-          <li>No compramos monedas, solo billetes.</li>
-          <li>
-            Consulta en el desplegable de la calculadora las diferentes divisas
-            que aceptamos.{" "}
-          </li>
-          <li>No cobramos ninguna comisión.</li>
-        </ul>
-        <a
-          className={styles.botonLlamar}
-          href={`tel:${ciudad?.acf?.telefono}`}
-          title="Teléfono"
-        >
-          Llama gratis
-        </a>
+        <p className={styles.subTitulo}>
+          Consigue el mejor cambio a euros hoy. Precios siempre actualizados.
+        </p>
       </div>
     </section>
   );

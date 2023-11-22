@@ -28,7 +28,7 @@ export default function CasaCambioValencia({
     "@context": "http://www.schema.org",
     "@type": "Organization",
     name: "Quickgold",
-    url: `https://quickgold.es/casa-cambio-${ciudad?.acf?.ciudad_minuscula}/`,
+    url: `https://quickgold.es/casa-cambio-${ciudad?.acf?.ciudad_minuscula}`,
     sameAs: [
       "https://instagram.com/quickgold.es",
       "https://twitter.com/quickgoldqg",
@@ -49,7 +49,7 @@ export default function CasaCambioValencia({
       contactType: "info@quickgold.es",
     },
   };
-  const { ref: myRef, inView, entry } = useInView();
+  const { ref: myRef, inView } = useInView();
   return (
     <>
       <Script id="livechat" property="lazyOnload">

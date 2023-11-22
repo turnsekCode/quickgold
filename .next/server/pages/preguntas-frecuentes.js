@@ -155,7 +155,8 @@ module.exports = {
 	"main": "Home_main__EtNt2",
 	"contenedorMapaVisible": "Home_contenedorMapaVisible__piXgh",
 	"contenedorSeccionUnoDos": "Home_contenedorSeccionUnoDos__pegsP",
-	"contenedorMapaVisibleCasaCambio": "Home_contenedorMapaVisibleCasaCambio__A5Ti8"
+	"contenedorMapaVisibleCasaCambio": "Home_contenedorMapaVisibleCasaCambio__A5Ti8",
+	"contenedorBannerVisible": "Home_contenedorBannerVisible__opy6k"
 };
 
 

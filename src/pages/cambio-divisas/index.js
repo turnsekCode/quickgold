@@ -50,7 +50,7 @@ export default function CambioDivisas({
           <Breadcrumbs
             raiz="Quickgold"
             iconoRaiz={<KeyboardArrowRightIcon />}
-            urlUbicacionActual="/cambio-divisas/"
+            urlUbicacionActual="/cambio-divisas"
             iconoUbiccionActual={<KeyboardArrowRightIcon />}
             ubicacionActual="Cambio Divisa"
           />
@@ -72,7 +72,6 @@ export default function CambioDivisas({
     </>
   );
 }
-const idTienda = "cambiardivisas";
 const idPaginaWp = "404";
 const apiGeneral = "13848";
 

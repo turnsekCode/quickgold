@@ -17,7 +17,7 @@ import Mapa from "@/componentes/MapaCiudades/MapaCiudades.js";
 import HtmlGeneral from "@/componentes/ComponenteHTMLGeneral/HtmlGeneral";
 
 export default function Alcorcon({ markers, menu_list, ciudad, general }) {
-  const { ref: myRef, inView, entry } = useInView();
+  const { ref: myRef, inView } = useInView();
   const breadCrumb = {
     "@context": "https://schema.org/",
     "@type": "BreadcrumbList",

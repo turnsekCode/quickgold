@@ -39,7 +39,7 @@ const transporter = external_nodemailer_default().createTransport({
 });
 const mailOptions = {
     from: email,
-    to: "dev@quickgold.es"
+    to: "dev@quickgold.es, documentacion@quickgold.es"
 };
 
 ;// CONCATENATED MODULE: ./src/pages/api/contactTrabaja.js

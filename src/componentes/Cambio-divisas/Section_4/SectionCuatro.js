@@ -5,15 +5,15 @@ const SectionTres = ({ ciudad }) => {
   return (
     <section className={styles.contenedorSectionTres}>
       <h2>
-        Cambiar divisa en <span className={styles.linea}>quickgold</span> es muy
+        Cambiar divisa en <span className={styles.linea}>quickgold</span> es
         fácil
       </h2>
-      <div className={styles.bloqueTextoMobil}>
+      {/*<div className={styles.bloqueTextoMobil}>
         <p>
           Cambiar divisa en cualquiera de nuestras tiendas tan solo te llevará
           unos minutos.
         </p>
-      </div>
+  </div>*/}
       <div className={styles.contenedorInfoTres}>
         <div className={styles.cards}>
           <p>#1</p>
@@ -28,18 +28,6 @@ const SectionTres = ({ ciudad }) => {
           <p>Recibe el dinero en efectivo al instante</p>
         </div>
       </div>
-      <p className={styles.subTitulo}>
-        Consigue el mejor cambio a euros hoy. Precios siempre actualizados.
-      </p>
-      <p className={styles.subParrafo}>
-        Selecciona la ciudad donde vas a realizar el cambio y obtén al momento
-        el precio actualizado por tu operación. <br></br>
-        <br></br>No cobramos ninguna comisión por lo que verás el precio final
-        que podrás fijar llamándonos gratuitamente al{" "}
-        <span>
-          <a href={`tel:${ciudad?.acf?.telefono}`}>{ciudad?.acf?.telefono}</a>.
-        </span>
-      </p>
     </section>
   );
 };
