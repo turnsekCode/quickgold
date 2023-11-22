@@ -1,10 +1,9 @@
 import React from "react";
 import styles from "./section_uno.module.css";
-import useScreenSize from "@/utilities/useScreenSize";
 import Image from "next/image";
 import SelectorCiudades from "@/componentes/BotonSelectorCiudades/SelectorCiudades";
 
-const Section_uno = ({ ciudad, popUpCiudades }) => {
+const Section_uno = ({ ciudad, listadoUrlCiudad }) => {
   return (
     <section className={styles.contenedorSectionUno}>
       <div className={styles.bloqueIzq}>
@@ -15,7 +14,7 @@ const Section_uno = ({ ciudad, popUpCiudades }) => {
           oro físico.
         </p>
         <div className={styles.botones}>
-          <SelectorCiudades />
+          <SelectorCiudades listadoUrlCiudad={listadoUrlCiudad} />
           <a
             className={styles.botonLlamar}
             href={`tel:${ciudad?.acf?.telefono}`}

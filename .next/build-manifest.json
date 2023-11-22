@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/ggJWVyxk3MY8KE3R-7bT1/_buildManifest.js",
-    "static/ggJWVyxk3MY8KE3R-7bT1/_ssgManifest.js"
+    "static/DdxRuTZrfSpMvUh0tm1Hn/_buildManifest.js",
+    "static/DdxRuTZrfSpMvUh0tm1Hn/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -419,7 +419,7 @@
       "static/css/3cca45b58fce46e2.css",
       "static/chunks/5340-16eab3fa8848a850.js",
       "static/css/e0524166f54cc084.css",
-      "static/chunks/pages/casa-cambio-santander-9e934c06f5c6c1c5.js"
+      "static/chunks/pages/casa-cambio-santander-25673481062058ae.js"
     ],
     "/casa-cambio-santiago": [
       "static/chunks/webpack-31fe7975e2b3baad.js",
@@ -445,7 +445,7 @@
       "static/css/3cca45b58fce46e2.css",
       "static/chunks/5340-16eab3fa8848a850.js",
       "static/css/e0524166f54cc084.css",
-      "static/chunks/pages/casa-cambio-sevilla-cdac04e4377b610e.js"
+      "static/chunks/pages/casa-cambio-sevilla-e83f833f8cd97d4c.js"
     ],
     "/casa-cambio-tarragona": [
       "static/chunks/webpack-31fe7975e2b3baad.js",
@@ -574,7 +574,7 @@
       "static/chunks/5231-1f913a458affb1e4.js",
       "static/chunks/7699-a532fd9e1c2acb8e.js",
       "static/css/db30a659c2fb67eb.css",
-      "static/chunks/pages/invertir-en-oro-263133db013c0442.js"
+      "static/chunks/pages/invertir-en-oro-68800b1e26e38244.js"
     ],
     "/joyeria-de-ocasion": [
       "static/chunks/webpack-31fe7975e2b3baad.js",

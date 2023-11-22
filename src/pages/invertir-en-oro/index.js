@@ -11,7 +11,7 @@ import Section_tres from "@/componentes/Invertir-en-oro/Section_3/Section_tres";
 import Section_cuatro from "@/componentes/Invertir-en-oro/Section_4/Section_cuatro";
 import BotonLamarFijo from "@/componentes/BotonLlamarFijo/BotonLamarFijo";
 
-export default function InvertirEnOro({ menu_list, ciudad, popUpCiudades }) {
+export default function InvertirEnOro({ menu_list, ciudad, listadoUrlCiudad }) {
   const nombreCiudad = ciudad?.acf?.ciudad_oro;
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(null);
@@ -58,7 +58,7 @@ export default function InvertirEnOro({ menu_list, ciudad, popUpCiudades }) {
             iconoUbiccionActual={<KeyboardArrowRightIcon />}
             ubicacionActual="Inversión en oro"
           />
-          <Section_uno ciudad={ciudad} popUpCiudades={popUpCiudades} />
+          <Section_uno ciudad={ciudad} listadoUrlCiudad={listadoUrlCiudad} />
           <Section_dos ciudad={ciudad} data={data} loading={loading} />
           <Section_tres ciudad={ciudad} />
         </div>
@@ -92,15 +92,15 @@ export async function getStaticProps() {
   );
   const menu_list = await menu.json();
   const ciudadPopUp = await fetch(
-    `https://panel.quickgold.es/ciudadesDelPopUp/PopUpCiudades.json`
+    `https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`
   );
-  const popUpCiudades = await ciudadPopUp.json();
+  const listadoUrlCiudad = await ciudadPopUp.json();
 
   return {
     props: {
       menu_list,
       ciudad,
-      popUpCiudades,
+      listadoUrlCiudad,
     },
     revalidate: 1,
   };

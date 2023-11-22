@@ -109,8 +109,6 @@ var next_seo_default = /*#__PURE__*/__webpack_require__.n(next_seo_);
 // EXTERNAL MODULE: ./src/componentes/Invertir-en-oro/Section_1/section_uno.module.css
 var section_uno_module = __webpack_require__(9697);
 var section_uno_module_default = /*#__PURE__*/__webpack_require__.n(section_uno_module);
-// EXTERNAL MODULE: ./src/utilities/useScreenSize.js
-var useScreenSize = __webpack_require__(771);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(5675);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
@@ -122,8 +120,7 @@ var SelectorCiudades = __webpack_require__(8100);
 
 
 
-
-const Section_uno = ({ ciudad , popUpCiudades  })=>{
+const Section_uno = ({ ciudad , listadoUrlCiudad  })=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         className: (section_uno_module_default()).contenedorSectionUno,
         children: [
@@ -139,7 +136,9 @@ const Section_uno = ({ ciudad , popUpCiudades  })=>{
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: (section_uno_module_default()).botones,
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx(SelectorCiudades/* default */.Z, {}),
+                            /*#__PURE__*/ jsx_runtime_.jsx(SelectorCiudades/* default */.Z, {
+                                listadoUrlCiudad: listadoUrlCiudad
+                            }),
                             /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                 className: (section_uno_module_default()).botonLlamar,
                                 href: `tel:${ciudad?.acf?.telefono}`,
@@ -556,7 +555,7 @@ var BotonLamarFijo = __webpack_require__(7186);
 
 
 
-function InvertirEnOro({ menu_list , ciudad , popUpCiudades  }) {
+function InvertirEnOro({ menu_list , ciudad , listadoUrlCiudad  }) {
     const nombreCiudad = ciudad?.acf?.ciudad_oro;
     const [data, setData] = (0,external_react_.useState)([]);
     const [loading, setLoading] = (0,external_react_.useState)(null);
@@ -613,7 +612,7 @@ function InvertirEnOro({ menu_list , ciudad , popUpCiudades  }) {
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx(Section_1_Section_uno, {
                                 ciudad: ciudad,
-                                popUpCiudades: popUpCiudades
+                                listadoUrlCiudad: listadoUrlCiudad
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx(Section_2_Section_dos, {
                                 ciudad: ciudad,
@@ -651,13 +650,13 @@ async function getStaticProps() {
   );
   const dataIdWp = await response.json();*/ const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
     const menu_list = await menu.json();
-    const ciudadPopUp = await fetch(`https://panel.quickgold.es/ciudadesDelPopUp/PopUpCiudades.json`);
-    const popUpCiudades = await ciudadPopUp.json();
+    const ciudadPopUp = await fetch(`https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`);
+    const listadoUrlCiudad = await ciudadPopUp.json();
     return {
         props: {
             menu_list,
             ciudad,
-            popUpCiudades
+            listadoUrlCiudad
         },
         revalidate: 1
     };
@@ -897,7 +896,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,9206,7908,3366], () => (__webpack_exec__(434)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,9206,1734], () => (__webpack_exec__(434)));
 module.exports = __webpack_exports__;
 
 })();
