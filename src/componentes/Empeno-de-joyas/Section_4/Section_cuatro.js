@@ -7,7 +7,7 @@ const Section_cuatro = ({ ciudad }) => {
       <div className={styles.contenedorSectionCincoMargen}>
         <h4>Nuestros empeños están pensados para tu comodidad</h4>
         <p>
-          Si necesitas <strong>obtener dinero extra</strong> por tus joyas pero
+          Si necesitas <strong>obtener dinero extra</strong> por tus joyas, pero
           no quieres desprenderte de ellas, te ayudamos. Trae tus joyas a
           quickgold y descubre nuestro servicio de empeños. Nuestro
           procedimiento es el siguiente:
@@ -16,7 +16,9 @@ const Section_cuatro = ({ ciudad }) => {
       <div className={styles.sectionCincoContenido}>
         <div className={styles.contenidoCard}>
           <p>#1</p>
-          <p>Comprobación de las joyas a empeñar</p>
+          <p>
+            Comprobación de<br></br> las joyas a empeñar
+          </p>
           <p>
             Realizamos una tasación para conocer las características de las
             piezas y determinar así, el valor del préstamo. Todo este proceso se
@@ -37,12 +39,16 @@ const Section_cuatro = ({ ciudad }) => {
         </div>
         <div className={styles.contenidoCard}>
           <p>#3</p>
-          <p>Valoración de las piezas de oro</p>
+          <p>
+            Valoración de<br></br> las piezas de oro
+          </p>
           <p>Tras estipular la cantidad, firmamos el contrato.</p>
         </div>
         <div className={styles.contenidoCard}>
           <p>#4</p>
-          <p>Pago inmediato del valor fijado y acordado</p>
+          <p>
+            Pago inmediato del<br></br> valor fijado y acordado
+          </p>
           <p>
             Una vez firmado el acuerdo te entregamos el dinero en el momento,
             sin esperas ni gestiones de solvencia. Obtén tu dinero en efectivo o

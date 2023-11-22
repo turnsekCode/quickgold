@@ -258,7 +258,7 @@ const Section_uno = ({ ciudad , listadoUrlCiudad  })=>{
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: (section_uno_module_default()).bloqueDer,
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: "/assets/img/imagenEmpenojoyas.png",
+                    src: "/assets/img/imagenEmpenoJoyas.png",
                     alt: "Empe\xf1ar joyas",
                     className: (section_uno_module_default()).imagenJoyas,
                     width: 432,
@@ -296,7 +296,7 @@ const Section_tres = ({ ciudad  })=>{
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                         className: (sectionTres_module_default()).textoUno,
-                        children: "*Para realizar cambios de divisa es necesario ser mayor de edad y aportar DNI en vigor."
+                        children: "*Para realizar empe\xf1os es necesario ser mayor de edad y aportar DNI en vigor."
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                         className: (sectionTres_module_default()).textoDos,
@@ -305,7 +305,7 @@ const Section_tres = ({ ciudad  })=>{
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                         className: (sectionTres_module_default()).textoTres,
                         children: [
-                            "En quickgold puedes empe\xf1ar joyas o piezas de oro, plata, diamantes, etc. V\xedsitanos y descubre todas las facilidades en pr\xe9stamos por joyas. Localiza tu tienda con nuestro",
+                            "En quickgold puedes empe\xf1ar joyas o piezas de oro, plata, diamantes, etc. Visitanos y descubre todas las facilidades en pr\xe9stamos por joyas. Localiza tu tienda con nuestro",
                             " ",
                             /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
@@ -345,7 +345,7 @@ const Section_cuatro = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                 children: "obtener dinero extra"
                             }),
-                            " por tus joyas pero no quieres desprenderte de ellas, te ayudamos. Trae tus joyas a quickgold y descubre nuestro servicio de empe\xf1os. Nuestro procedimiento es el siguiente:"
+                            " por tus joyas, pero no quieres desprenderte de ellas, te ayudamos. Trae tus joyas a quickgold y descubre nuestro servicio de empe\xf1os. Nuestro procedimiento es el siguiente:"
                         ]
                     })
                 ]
@@ -359,8 +359,12 @@ const Section_cuatro = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "#1"
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Comprobaci\xf3n de las joyas a empe\xf1ar"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Comprobaci\xf3n de",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " las joyas a empe\xf1ar"
+                                ]
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "Realizamos una tasaci\xf3n para conocer las caracter\xedsticas de las piezas y determinar as\xed, el valor del pr\xe9stamo. Todo este proceso se realiza a la vista e informando de cada paso."
@@ -387,8 +391,12 @@ const Section_cuatro = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "#3"
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Valoraci\xf3n de las piezas de oro"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Valoraci\xf3n de",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " las piezas de oro"
+                                ]
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "Tras estipular la cantidad, firmamos el contrato."
@@ -401,8 +409,12 @@ const Section_cuatro = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "#4"
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Pago inmediato del valor fijado y acordado"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Pago inmediato del",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " valor fijado y acordado"
+                                ]
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "Una vez firmado el acuerdo te entregamos el dinero en el momento, sin esperas ni gestiones de solvencia. Obt\xe9n tu dinero en efectivo o por transferencia, como prefieras. As\xed de f\xe1cil."
@@ -499,7 +511,7 @@ const SelectCiudad = ({ listadoUrlCiudad , ciudad  })=>{
                                     children: [
                                         "Para un empe\xf1o con inter\xe9s al",
                                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                            children: "3% mensual y 0% de inter\xe9s primer mes:"
+                                            children: "3% mensual y 0% de inter\xe9s el primer mes:"
                                         }),
                                         " "
                                     ]

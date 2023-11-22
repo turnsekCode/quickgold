@@ -42,7 +42,7 @@ const Section_uno = ({ ciudad, listadoUrlCiudad }) => {
       </div>
       <div className={styles.bloqueDer}>
         <Image
-          src="/assets/img/imagenEmpenojoyas.png"
+          src="/assets/img/imagenEmpenoJoyas.png"
           alt="Empeñar joyas"
           className={styles.imagenJoyas}
           width={432}

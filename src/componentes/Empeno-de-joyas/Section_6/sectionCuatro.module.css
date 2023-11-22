@@ -1,6 +1,6 @@
 .contenedorSectionCuatro{
     width: 370px;
-    margin: 0 auto;
+    margin: 15px auto;
     border-radius: 8px;
     background: transparent;
 }
@@ -53,7 +53,7 @@
     font-weight: 500;
     line-height: 30px;
     padding: 0 30px;
-    margin: 30px 0;
+    margin: 0 0 20px 0;
     font-family: 'Gotham Bold';
 }
 .bloqueDerPcTextoUno {
@@ -237,7 +237,7 @@
     position: absolute;
     display: block;
     height: 5px;
-    transform: translateY(40%);
+    transform: translateY(10%);
 }
 
 .linea:before {

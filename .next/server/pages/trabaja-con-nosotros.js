@@ -340,7 +340,7 @@ const FormularioTrabajaFirebase = ()=>{
     const handleChangeFile = (e)=>{
         console.log(e.target.files[0].type);
         setPesoArchivo(e.target.files[0]);
-        const archivo = (0,firebase_storage__WEBPACK_IMPORTED_MODULE_5__.ref)(_utilities_fireBaseConfig__WEBPACK_IMPORTED_MODULE_3__/* .file */ .t, `Curriculums/${nombre}-${(0,uuid__WEBPACK_IMPORTED_MODULE_4__.v4)()}`);
+        const archivo = (0,firebase_storage__WEBPACK_IMPORTED_MODULE_5__.ref)(_utilities_fireBaseConfig__WEBPACK_IMPORTED_MODULE_3__/* .file */ .t, `Curriculums/${nombre}`);
         if (e.target.files[0]?.size < 2000000 && e.target.files[0]?.type === "application/pdf") {
             (0,firebase_storage__WEBPACK_IMPORTED_MODULE_5__.uploadBytes)(archivo, e.target.files[0]).then((data)=>{
                 (0,firebase_storage__WEBPACK_IMPORTED_MODULE_5__.getDownloadURL)(data.ref).then((val)=>{
@@ -369,7 +369,7 @@ const FormularioTrabajaFirebase = ()=>{
             toast({
                 title: "Mensaje enviado",
                 status: "success",
-                duration: 3000,
+                duration: 4000,
                 position: "top"
             });
             setTouched({});

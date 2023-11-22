@@ -1,7 +1,7 @@
 .contenedorSectionTresMargen{
     max-width: 1060px;
     margin: 0 auto;
-    padding: 60px 10px 0 10px;
+    padding: 10px 10px 0 10px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -56,9 +56,7 @@
 .textoUno{
     color: #908F8F;
     text-align: center;
-    font-family: "Gotham Thin";
     font-size: 16px;
-    font-style: italic;
     font-weight: 300;
     line-height: 20px;
     margin-bottom: 20px;

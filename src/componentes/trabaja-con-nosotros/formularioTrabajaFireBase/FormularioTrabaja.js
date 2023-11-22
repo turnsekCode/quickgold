@@ -76,7 +76,7 @@ const FormularioTrabajaFirebase = () => {
   const handleChangeFile = (e) => {
     console.log(e.target.files[0].type);
     setPesoArchivo(e.target.files[0]);
-    const archivo = ref(file, `Curriculums/${nombre}-${v4()}`);
+    const archivo = ref(file, `Curriculums/${nombre}`);
     if (
       e.target.files[0]?.size < 2000000 &&
       e.target.files[0]?.type === "application/pdf"
@@ -108,7 +108,7 @@ const FormularioTrabajaFirebase = () => {
       toast({
         title: "Mensaje enviado",
         status: "success",
-        duration: 3000,
+        duration: 4000,
         position: "top",
       });
       setTouched({});

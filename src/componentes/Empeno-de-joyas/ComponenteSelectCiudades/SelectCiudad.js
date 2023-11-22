@@ -51,7 +51,7 @@ const SelectCiudad = ({ listadoUrlCiudad, ciudad }) => {
             <h5>PONGAMOS UN EJEMPLO</h5>
             <p className={styles.segundoParrafo}>
               Para un empeño con interés al
-              <span>3% mensual y 0% de interés primer mes:</span>{" "}
+              <span>3% mensual y 0% de interés el primer mes:</span>{" "}
             </p>
             <div className={styles.ejemplo}>
               <p className={styles.primerParrafo}>
