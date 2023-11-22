@@ -1,10 +1,10 @@
 .contenedorSectionDos{
-    margin: 40px 0;
+    margin: 20px 0 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 .bloqueInferior{
     display: flex;

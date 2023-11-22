@@ -43,7 +43,7 @@
 .contenidoBloqueDer{
     width: 100%;
     height: auto;
-    background: #0F2D45;
+    background: #036F9A;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
     border-radius: 8px;
     position: relative;
@@ -124,6 +124,7 @@
     color: #0F2D45;
     margin-bottom: 15px;
     padding: 0 20px;
+    text-align: center;
  }
 .botonLlamar {
     display: none;
@@ -179,7 +180,7 @@
     .contenidoBloqueDer {
         width: 312px;
         height: 417px;
-        background: #0F2D45;
+        background: #036F9A;
         border-radius: 8px;
         position: relative;
         display: flex;
@@ -239,6 +240,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        font-family: 'Gotham Bold';
     }
     .contenedorSectionTresTexto {
         font-weight: 400;

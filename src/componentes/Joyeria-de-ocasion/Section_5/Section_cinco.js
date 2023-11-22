@@ -8,7 +8,7 @@ const Section_cinco = () => {
       <h3>¿Dónde vender joyas de segunda mano?</h3>
       <div className={styles.contendorSectionCincoTexto}>
         <p>
-          Recuerda que si tienes por cada joyas de oro o plata que ya no usas,
+          Recuerda que si tienes por casa joyas de oro o plata que ya no usas,
           puedes <strong>venderlas</strong> o <strong>empeñarlas</strong> en
           nuestras tiendas quickgold.
         </p>

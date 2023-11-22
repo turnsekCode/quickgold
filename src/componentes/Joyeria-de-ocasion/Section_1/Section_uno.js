@@ -14,7 +14,7 @@ const Section_uno = ({ ciudad, listadoUrlCiudad }) => {
           En quickgold, además de ser especialistas en la compra y venta de oro,
           también ofrecemos el servicio de venta de joyería de ocasión de oro y
           plata. En nuestras tiendas, encontrarás una gran exposición de joyería
-          de ocasión con un 60% inferior a su PVP de grandes marcas.
+          de ocasión con un 60% inferior a su PVP y de grandes marcas.
         </p>
         <div className={styles.botones}>
           <SelectorCiudades listadoUrlCiudad={listadoUrlCiudad} />

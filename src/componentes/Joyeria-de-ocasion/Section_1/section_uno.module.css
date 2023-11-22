@@ -40,7 +40,7 @@
     width: 100%;
     text-align: center;
     font-family: 'Gotham Black';
-    padding: 15px 0 0 0;
+    padding: 15px 60px 0 60px;
 }
 .bloqueIzq p {
     font-style: normal;
@@ -87,7 +87,7 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top: 20px;
-        gap: 90px;
+        gap: 78px;
         padding: 10px 20px 0 0;
     }
     .bloqueDer{
@@ -155,7 +155,7 @@
         width: 225px;
         height: 40px;
         background: #E83C82;
-        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
         border-radius: 2px;
         font-weight: 700;
         font-size: 13px;

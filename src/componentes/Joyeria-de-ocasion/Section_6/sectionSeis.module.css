@@ -43,6 +43,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Gotham Bold';
 }
 @media (min-width: 610px) {
 .contenedorSectionSeis {

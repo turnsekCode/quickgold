@@ -20,74 +20,86 @@ const Section_dos = ({ ciudad }) => {
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
             <Image
-              src="/assets/img/imagenventaja1.png"
+              src="/assets/img/imagenjoyeriauno.png"
               alt="Mejor servicio y precio"
               width={29}
               height={40}
             />
           </div>
 
-          <p>Precios reducidos en más de un 60%.</p>
+          <p>
+            Precios reducidos<br></br> en más de un 60%.
+          </p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
             <Image
-              src="/assets/img/imagenventaja2.png"
+              src="/assets/img/imagenjoyeriados.png"
               alt="Mejor servicio y precio"
               width={37}
               height={37}
             />
           </div>
 
-          <p>Envíos a domicilio a través de la plataforma de Wallapop.</p>
+          <p>
+            Envíos a domicilio a través<br></br> de la plataforma de Wallapop.
+          </p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
             <Image
-              src="/assets/img/imagenventaja3.png"
+              src="/assets/img/imagenjoyeriatres.png"
               alt="Mejor servicio y precio"
               width={23}
               height={36}
             />
           </div>
 
-          <p>Catálogo de todas nuestras joyas en Wallapop.</p>
+          <p>
+            Catálogo de todas<br></br> nuestras joyas en Wallapop.
+          </p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
             <Image
-              src="/assets/img/imagenventaja4.png"
+              src="/assets/img/imagenjoyeriacuatro.png"
               alt="Mejor servicio y precio"
               width={40}
               height={36}
             />
           </div>
 
-          <p>Todas las piezas se preparan y limpian para su venta.</p>
+          <p>
+            Todas las piezas se<br></br> preparan y limpian para su venta.
+          </p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
             <Image
-              src="/assets/img/imagenventaja5.png"
+              src="/assets/img/imagenjoyeriacinco.png"
               alt="Mejor servicio y precio"
               width={38}
               height={38}
             />
           </div>
 
-          <p>Dinero en efectivo al instante.</p>
+          <p>
+            Mejor<br></br> servicio y precio
+          </p>
         </div>
         <div className={styles.contenedorVentajas}>
           <div className={styles.imagenventaja1}>
             <Image
-              src="/assets/img/imagenventaja6.png"
+              src="/assets/img/imagenjoyeriaseis.png"
               alt="Mejor servicio y precio"
               width={37}
               height={30}
             />
           </div>
 
-          <p>Pagos aplazados con solo un 1% de interés mensual.</p>
+          <p>
+            Pagos aplazados con<br></br> solo un 1% de interés mensual.
+          </p>
         </div>
       </div>
     </section>

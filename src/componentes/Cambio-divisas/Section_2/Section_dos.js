@@ -28,7 +28,8 @@ const Section_cuatro = ({ ciudad, listadoUrlCiudad }) => {
       </div>
       <div className={styles.bloqueDerMobil}>
         <p className={styles.subTitulo}>
-          Consigue el mejor cambio a euros hoy. Precios siempre actualizados.
+          Consigue el mejor <br></br>cambio a euros hoy. Precios siempre
+          actualizados.
         </p>
       </div>
     </section>

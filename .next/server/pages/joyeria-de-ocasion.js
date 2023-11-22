@@ -155,7 +155,7 @@ const Section_uno = ({ ciudad , listadoUrlCiudad  })=>{
                         children: "Venta de joyer\xeda"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        children: "En quickgold, adem\xe1s de ser especialistas en la compra y venta de oro, tambi\xe9n ofrecemos el servicio de venta de joyer\xeda de ocasi\xf3n de oro y plata. En nuestras tiendas, encontrar\xe1s una gran exposici\xf3n de joyer\xeda de ocasi\xf3n con un 60% inferior a su PVP de grandes marcas."
+                        children: "En quickgold, adem\xe1s de ser especialistas en la compra y venta de oro, tambi\xe9n ofrecemos el servicio de venta de joyer\xeda de ocasi\xf3n de oro y plata. En nuestras tiendas, encontrar\xe1s una gran exposici\xf3n de joyer\xeda de ocasi\xf3n con un 60% inferior a su PVP y de grandes marcas."
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: (section_uno_module_default()).botones,
@@ -245,14 +245,18 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenventaja1.png",
+                                    src: "/assets/img/imagenjoyeriauno.png",
                                     alt: "Mejor servicio y precio",
                                     width: 29,
                                     height: 40
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Precios reducidos en m\xe1s de un 60%."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Precios reducidos",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " en m\xe1s de un 60%."
+                                ]
                             })
                         ]
                     }),
@@ -262,14 +266,18 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenventaja2.png",
+                                    src: "/assets/img/imagenjoyeriados.png",
                                     alt: "Mejor servicio y precio",
                                     width: 37,
                                     height: 37
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Env\xedos a domicilio a trav\xe9s de la plataforma de Wallapop."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Env\xedos a domicilio a trav\xe9s",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " de la plataforma de Wallapop."
+                                ]
                             })
                         ]
                     }),
@@ -279,14 +287,18 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenventaja3.png",
+                                    src: "/assets/img/imagenjoyeriatres.png",
                                     alt: "Mejor servicio y precio",
                                     width: 23,
                                     height: 36
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Cat\xe1logo de todas nuestras joyas en Wallapop."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Cat\xe1logo de todas",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " nuestras joyas en Wallapop."
+                                ]
                             })
                         ]
                     }),
@@ -296,14 +308,18 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenventaja4.png",
+                                    src: "/assets/img/imagenjoyeriacuatro.png",
                                     alt: "Mejor servicio y precio",
                                     width: 40,
                                     height: 36
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Todas las piezas se preparan y limpian para su venta."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Todas las piezas se",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " preparan y limpian para su venta."
+                                ]
                             })
                         ]
                     }),
@@ -313,14 +329,18 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenventaja5.png",
+                                    src: "/assets/img/imagenjoyeriacinco.png",
                                     alt: "Mejor servicio y precio",
                                     width: 38,
                                     height: 38
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Dinero en efectivo al instante."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Mejor",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " servicio y precio"
+                                ]
                             })
                         ]
                     }),
@@ -330,14 +350,18 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenventaja6.png",
+                                    src: "/assets/img/imagenjoyeriaseis.png",
                                     alt: "Mejor servicio y precio",
                                     width: 37,
                                     height: 30
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Pagos aplazados con solo un 1% de inter\xe9s mensual."
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Pagos aplazados con",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " solo un 1% de inter\xe9s mensual."
+                                ]
                             })
                         ]
                     })
@@ -564,7 +588,7 @@ const Section_cinco = ()=>{
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                         children: [
-                            "Recuerda que si tienes por cada joyas de oro o plata que ya no usas, puedes ",
+                            "Recuerda que si tienes por casa joyas de oro o plata que ya no usas, puedes ",
                             /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                 children: "venderlas"
                             }),

@@ -437,9 +437,13 @@ const Section_cuatro = ({ ciudad , listadoUrlCiudad  })=>{
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: (sectionCuatro_module_default()).bloqueDerMobil,
-                children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                     className: (sectionCuatro_module_default()).subTitulo,
-                    children: "Consigue el mejor cambio a euros hoy. Precios siempre actualizados."
+                    children: [
+                        "Consigue el mejor ",
+                        /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                        "cambio a euros hoy. Precios siempre actualizados."
+                    ]
                 })
             })
         ]
