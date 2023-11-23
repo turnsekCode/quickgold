@@ -1,3 +1,7 @@
+.contenedorBloqueSuperior{
+    max-width: 1060px;
+    margin: 0 auto;
+}
 .contenedorBloqueSuperior h3{
     color: #0F2D45;
     font-size: 30px;
@@ -116,7 +120,7 @@
         text-align: center;
         line-height: 20px;
         margin: 30px 0;
-        padding: 0 310px;
+        padding: 0 200px;
     }
 
     .contenedorBloqueSuperior p:nth-child(3) {
