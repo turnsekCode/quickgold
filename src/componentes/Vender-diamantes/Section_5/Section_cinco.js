@@ -34,7 +34,7 @@ const Section_cinco = ({ ciudad }) => {
         <div className={styles.contenedorTiposDivisas}>
           <div className={styles.contenedorTiposDivisasCard1}>
             <p className={styles.contenedorTiposDivisasCard1Texto}>
-              Cada diamante es único, tiene muchos tamaños, formas, colores y
+              Cada diamante es único, existen muchos tamaños, formas, colores y
               características internas. Su valor se basa es una combinación de
               factores como la rareza. Cuanto más raros más valiosos. Los
               profesionales de la joyería nos basamos en un sistema desarrollado

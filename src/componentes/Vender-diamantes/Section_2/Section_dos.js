@@ -6,8 +6,8 @@ const Section_dos = ({ ciudad }) => {
     <section className={styles.contenedorSectionCinco}>
       <div className={styles.contenedorSectionCincoMargen}>
         <h4>
-          Vender diamantes en <span className={styles.linea}>quickgold?</span>{" "}
-          es fácil{" "}
+          Vender diamantes en <span className={styles.linea}>quickgold</span> es
+          fácil{" "}
         </h4>
         <p className={styles.parrafoVenderDiamantes}>
           <strong>IMPORTANTE</strong>
@@ -38,9 +38,10 @@ const Section_dos = ({ ciudad }) => {
           <p>#3</p>
           <p>Características diamantes</p>
           <p>
-            Comprobados y medidos los diamantes, trabajamos todas las calidades,
-            desde VVS hasta Piqué, teniendo en cuenta las 4 C´s: Quilates
-            (carat), color (color), pureza (clarity) y talla (cut).
+            Comprobamos y medimos los diamantes, teniendo en cuenta las 4 C´s:
+            Quilates (carat), color (color), pureza (clarity) y talla (cut).
+            Consultanos si tu pieza tiene diamantes de cualquier calidad y te
+            daremos una valoración personalizada.
           </p>
         </div>
         <div className={styles.contenidoCard}>

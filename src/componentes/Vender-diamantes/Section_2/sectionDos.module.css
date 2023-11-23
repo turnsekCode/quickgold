@@ -8,7 +8,7 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .contenedorSectionCincoMargen h4{
     font-weight: 700;
@@ -45,7 +45,6 @@
     width: 341px;
     height: auto;
     background: #FFFFFF;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.14);
     border-radius: 8px;
     padding: 30px;
     border: 1px solid #000;
@@ -83,10 +82,10 @@
     font-weight: 500;
     padding: 0 20px;
     background: #036F9A;
-    width: 320px;
+    width: 337px;
     height: 97px;
     border-radius: 8px;
-    margin: 0 auto 50px;
+    margin: 0 auto 20px;
     padding-top: 20px;
 }
 .parrafoVenderDiamantes a{
@@ -118,7 +117,7 @@
         line-height: 29px;
         text-align: center;
         color: #000831;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 
     .linea {
@@ -147,7 +146,6 @@
         width: 341px;
         height: auto;
         background: #FFFFFF;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.14);
         border-radius: 8px;
         padding: 30px;
     }

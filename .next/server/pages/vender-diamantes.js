@@ -241,10 +241,9 @@ const Section_dos = ({ ciudad  })=>{
                             "Vender diamantes en ",
                             /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                 className: (sectionDos_module_default()).linea,
-                                children: "quickgold?"
+                                children: "quickgold"
                             }),
-                            " ",
-                            "es f\xe1cil",
+                            " es f\xe1cil",
                             " "
                         ]
                     }),
@@ -309,7 +308,7 @@ const Section_dos = ({ ciudad  })=>{
                                 children: "Caracter\xedsticas diamantes"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Comprobados y medidos los diamantes, trabajamos todas las calidades, desde VVS hasta Piqu\xe9, teniendo en cuenta las 4 C\xb4s: Quilates (carat), color (color), pureza (clarity) y talla (cut)."
+                                children: "Comprobamos y medimos los diamantes, teniendo en cuenta las 4 C\xb4s: Quilates (carat), color (color), pureza (clarity) y talla (cut). Consultanos si tu pieza tiene diamantes de cualquier calidad y te daremos una valoraci\xf3n personalizada."
                             })
                         ]
                     }),
@@ -355,8 +354,9 @@ const Section_tres = ({ ciudad  })=>{
                             " ",
                             /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                 className: (sectioTres_module_default()).linea,
-                                children: "quickgold?"
-                            })
+                                children: "quickgold"
+                            }),
+                            "?"
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -378,10 +378,10 @@ const Section_tres = ({ ciudad  })=>{
                                     children: "Compramos talla brillante moderna."
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                    children: "Aquellos que est\xe9n catalogados como Escala de color hasta la letra J."
+                                    children: "Aquellos que est\xe9n catalogados incoloros y en la escala de color hasta la letra H/I."
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                    children: "La pureza debe estar por encima de P (Sl2). "
+                                    children: "La pureza debe estar en la escala de pureza hasta P/SI3."
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
                                     children: [
@@ -390,10 +390,10 @@ const Section_tres = ({ ciudad  })=>{
                                     ]
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                    children: "No importa si no tienes certificado, est\xe1n sueltos o engastados. Te mantenemos informado de la mejor oferta por tu brillante en ct m\xe1s altos, de manera particular."
+                                    children: "No importa si no tienes certificado, est\xe1n sueltos o engastados. Te informamos de la mejor oferta por tu brillante de manera particular."
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                    children: "No compramos las tallas no brillante: princesa, pera, esmeraldo, marquesa, oval..."
+                                    children: "No compramos las tallas no brillante: princesa, pera, esmeralda, marquesa, oval..."
                                 })
                             ]
                         })
@@ -410,7 +410,7 @@ const Section_tres = ({ ciudad  })=>{
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                                 children: [
-                                    "El precio final depender\xe1 de las caracter\xedsticas de los diamantes y del valor en el marcado. Nuestros precios son muy competitivos. Estaremos encantados de atenderte. Pide cita en nuestro n\xfamero gratuito",
+                                    "El precio final depender\xe1 de las caracter\xedsticas de los diamantes y del valor en el mercado. Nuestros precios son muy competitivos. Estaremos encantados de atenderte. Pide cita en nuestro n\xfamero gratuito",
                                     " ",
                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                         href: `tel:${ciudad?.acf?.telefono}`,
@@ -609,7 +609,7 @@ function AccordionDiamantes() {
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 className: (accordionDiamantes_module_default()).textoContenido,
-                                children: "Las diferencias sutiles en el color pueden hacer que el valor del brillante cambie considerablemente. En el rango del color normal, cuanto m\xe1s se acerque a un diamante incoloro, mayor es su precio por quilate. Esta clasificaci\xf3n por color se realiza en condiciones controladas compar\xe1ndolos con las llamadas “piedras muestras”."
+                                children: "En los diamantes sin color, las diferencias sutiles en el color pueden hacer que el valor del brillante cambie considerablemente. Cuanto m\xe1s se acerque a un diamante incoloro, mayor es su precio por quilate. Esta clasificaci\xf3n por color se realiza en condiciones controladas compar\xe1ndolos con las llamadas “piedras muestras”."
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 src: "/assets/img/diamantes-guia-color-.jpg",
@@ -698,7 +698,7 @@ function AccordionDiamantes() {
                         className: (accordionDiamantes_module_default()).accordionDetails,
                         children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
                             className: (accordionDiamantes_module_default()).textoContenido,
-                            children: "Para pesar un diamante se necesita mucha precisi\xf3n. Los pesos de \xe9stos se expresan en quilates m\xe9tricos (ct). Un quilate m\xe9trico es dos d\xe9cimas de un gramo (0,2) o lo que es lo mismo y poco m\xe1s de siete mil\xe9simas de una onza (0,007). Los diamantes grandes son m\xe1s raros que los diamantes peque\xf1os. Por lo tanto, es un factor muy importante para determinar su valor."
+                            children: "Para pesar un diamante se necesita mucha precisi\xf3n. Los pesos de \xe9stos se expresan en quilates (ct), que en gemolog\xeda es una medida de masa y equivale a 0,2 gramos. Los diamantes grandes son m\xe1s raros que los diamantes peque\xf1os. Por lo tanto, es un factor muy importante para determinar su valor."
                         })
                     })
                 ]
@@ -761,7 +761,7 @@ const Section_cinco = ({ ciudad  })=>{
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                                 className: (sectionCinco_module_default()).contenedorTiposDivisasCard1Texto,
                                 children: [
-                                    "Cada diamante es \xfanico, tiene muchos tama\xf1os, formas, colores y caracter\xedsticas internas. Su valor se basa es una combinaci\xf3n de factores como la rareza. Cuanto m\xe1s raros m\xe1s valiosos. Los profesionales de la joyer\xeda nos basamos en un sistema desarrollado por GIA para establecer de forma sistem\xe1tica, los factores m\xe1s importantes para clasificar los diamantes: claridad, color, corte y peso en quilates. Se conocen como las 4Cs y nos sirve para valorar un diamante.",
+                                    "Cada diamante es \xfanico, existen muchos tama\xf1os, formas, colores y caracter\xedsticas internas. Su valor se basa es una combinaci\xf3n de factores como la rareza. Cuanto m\xe1s raros m\xe1s valiosos. Los profesionales de la joyer\xeda nos basamos en un sistema desarrollado por GIA para establecer de forma sistem\xe1tica, los factores m\xe1s importantes para clasificar los diamantes: claridad, color, corte y peso en quilates. Se conocen como las 4Cs y nos sirve para valorar un diamante.",
                                     /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                     /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                     " Los profesionales de la joyer\xeda nos basamos en un sistema desarrollado por GIA para establecer de forma sistem\xe1tica, los factores m\xe1s importantes para clasificar los diamantes:",
@@ -959,10 +959,6 @@ const Section_cuatro_mobil = ({ ciudad  })=>{
                         ]
                     })
                 ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                className: (sectionCuatroMobil_module_default()).texto,
-                children: "Informaci\xf3n de inter\xe9s"
             })
         ]
     });

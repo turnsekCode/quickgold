@@ -159,7 +159,7 @@ ul {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin: 0 0 15px 0;
+  font-family: 'Gotham Bold';
 }
 
 .MuiAccordionSummary-content svg {

@@ -8,7 +8,7 @@ const Section_tres = ({ ciudad }) => {
       <div className={styles.contenedorBloqueSuperior}>
         <h3>
           ¿Qué diamantes compramos en{" "}
-          <span className={styles.linea}>quickgold?</span>
+          <span className={styles.linea}>quickgold</span>?
         </h3>
         <p>
           Para realizar una venta de diamantes es necesario ser mayor de edad y
@@ -25,21 +25,21 @@ const Section_tres = ({ ciudad }) => {
           <ol>
             <li>Compramos talla brillante moderna.</li>
             <li>
-              Aquellos que estén catalogados como Escala de color hasta la letra
-              J.
+              Aquellos que estén catalogados incoloros y en la escala de color
+              hasta la letra H/I.
             </li>
-            <li>La pureza debe estar por encima de P (Sl2). </li>
+            <li>La pureza debe estar en la escala de pureza hasta P/SI3.</li>
             <li>
               Compramos brillantes con un quilataje mayor a 0,10 ct (a partir de
               10 puntos, consultar para menos).{" "}
             </li>
             <li>
               No importa si no tienes certificado, están sueltos o engastados.
-              Te mantenemos informado de la mejor oferta por tu brillante en ct
-              más altos, de manera particular.
+              Te informamos de la mejor oferta por tu brillante de manera
+              particular.
             </li>
             <li>
-              No compramos las tallas no brillante: princesa, pera, esmeraldo,
+              No compramos las tallas no brillante: princesa, pera, esmeralda,
               marquesa, oval...
             </li>
           </ol>
@@ -54,7 +54,7 @@ const Section_tres = ({ ciudad }) => {
           />
           <p>
             El precio final dependerá de las características de los diamantes y
-            del valor en el marcado. Nuestros precios son muy competitivos.
+            del valor en el mercado. Nuestros precios son muy competitivos.
             Estaremos encantados de atenderte. Pide cita en nuestro número
             gratuito{" "}
             <a href={`tel:${ciudad?.acf?.telefono}`}>

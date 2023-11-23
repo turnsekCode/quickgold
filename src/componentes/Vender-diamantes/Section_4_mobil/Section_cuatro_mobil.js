@@ -120,7 +120,7 @@ const Section_cuatro_mobil = ({ ciudad }) => {
           CONOCE EL PRECIO DEL ORO
         </button>
   </div>*/}
-      <p className={styles.texto}>Información de interés</p>
+      {/*<p className={styles.texto}>Información de interés</p>*/}
     </section>
   );
 };

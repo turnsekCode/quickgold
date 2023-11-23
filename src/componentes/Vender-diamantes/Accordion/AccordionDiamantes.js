@@ -74,9 +74,9 @@ export default function AccordionDiamantes() {
         </AccordionSummary>
         <AccordionDetails className={styles.accordionDetails}>
           <p className={styles.textoContenido}>
-            Las diferencias sutiles en el color pueden hacer que el valor del
-            brillante cambie considerablemente. En el rango del color normal,
-            cuanto más se acerque a un diamante incoloro, mayor es su precio por
+            En los diamantes sin color, las diferencias sutiles en el color
+            pueden hacer que el valor del brillante cambie considerablemente.
+            Cuanto más se acerque a un diamante incoloro, mayor es su precio por
             quilate. Esta clasificación por color se realiza en condiciones
             controladas comparándolos con las llamadas “piedras muestras”.
           </p>
@@ -161,10 +161,9 @@ export default function AccordionDiamantes() {
         <AccordionDetails className={styles.accordionDetails}>
           <p className={styles.textoContenido}>
             Para pesar un diamante se necesita mucha precisión. Los pesos de
-            éstos se expresan en quilates métricos (ct). Un quilate métrico es
-            dos décimas de un gramo (0,2) o lo que es lo mismo y poco más de
-            siete milésimas de una onza (0,007). Los diamantes grandes son más
-            raros que los diamantes pequeños. Por lo tanto, es un factor muy
+            éstos se expresan en quilates (ct), que en gemología es una medida
+            de masa y equivale a 0,2 gramos. Los diamantes grandes son más raros
+            que los diamantes pequeños. Por lo tanto, es un factor muy
             importante para determinar su valor.
           </p>
         </AccordionDetails>

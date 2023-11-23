@@ -9,14 +9,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 50px;
+        gap: 10px;
     }
 
     .bloqueInferior {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        width: 990px;
+        width: 1020px;
     }
 
     .bloqueSuperior h3 {
@@ -57,7 +57,7 @@
         align-items: center;
         width: 100%;
         margin-bottom: 30px;
-        width: 249px;
+        width: 275px;
         height: 249px;
         background-image: linear-gradient(180deg, #0F2D45 0%, rgba(15, 45, 69, 0.5) 0%), url(/assets/img/imagenPorqueElegirnosDiamantes1.png);
         background-size: cover;
@@ -71,7 +71,7 @@
         align-items: center;
         width: 100%;
         margin-bottom: 30px;
-        width: 249px;
+        width: 275px;
         height: 249px;
         background-image: linear-gradient(180deg, #0F2D45 0%, rgba(15, 45, 69, 0.5) 0%), url(/assets/img/imagenPorqueElegirnosDiamantes2.png);
         background-size: cover;
@@ -85,7 +85,7 @@
         align-items: center;
         width: 100%;
         margin-bottom: 30px;
-        width: 249px;
+        width: 275px;
         height: 249px;
         background-image: linear-gradient(180deg, #0F2D45 0%, rgba(15, 45, 69, 0.5) 0%), url(/assets/img/imagenPorqueElegirnosDiamantes3.png);
         background-size: cover;
@@ -99,7 +99,7 @@
         align-items: center;
         width: 100%;
         margin-bottom: 30px;
-        width: 249px;
+        width: 275px;
         height: 249px;
         background-image: linear-gradient(180deg, #0F2D45 0%, rgba(15, 45, 69, 0.5) 0%), url(/assets/img/imagenPorqueElegirnosDiamantes4.png);
         background-size: cover;
@@ -113,7 +113,7 @@
         align-items: center;
         width: 100%;
         margin-bottom: 30px;
-        width: 249px;
+        width: 275px;
         height: 249px;
         background-image: linear-gradient(180deg, #0F2D45 0%, rgba(15, 45, 69, 0.5) 0%), url(/assets/img/imagenPorqueElegirnosDiamantes5.png);
         background-size: cover;
@@ -127,7 +127,7 @@
         align-items: center;
         width: 100%;
         margin-bottom: 30px;
-        width: 249px;
+        width: 275px;
         height: 249px;
         background-image: linear-gradient(180deg, #0F2D45 0%, rgba(15, 45, 69, 0.5) 0%), url(/assets/img/imagenPorqueElegirnosDiamantes6.png);
         background-size: cover;
@@ -141,7 +141,7 @@
     align-items: center;
     width: 100%;
     margin-bottom: 30px;
-    width: 249px;
+    width: 275px;
     height: 249px;
     background-image: linear-gradient(180deg, #0F2D45 0%, rgba(15, 45, 69, 0.5) 0%), url(/assets/img/imagenPorqueElegirnosDiamantes7.png);
     background-size: cover;
@@ -155,7 +155,7 @@
     align-items: center;
     width: 100%;
     margin-bottom: 30px;
-    width: 249px;
+    width: 275px;
     height: 249px;
     background-image: linear-gradient(180deg, #0F2D45 0%, rgba(15, 45, 69, 0.5) 0%), url(/assets/img/imagenPorqueElegirnosDiamantes8.png);
     background-size: cover;
@@ -169,7 +169,7 @@
     align-items: center;
     width: 100%;
     margin-bottom: 30px;
-    width: 249px;
+    width: 275px;
     height: 249px;
     background-image: linear-gradient(180deg, #0F2D45 0%, rgba(15, 45, 69, 0.5) 0%), url(/assets/img/imagenPorqueElegirnosDiamantes9.png);
     background-size: cover;
