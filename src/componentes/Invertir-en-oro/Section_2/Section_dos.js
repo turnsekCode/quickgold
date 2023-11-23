@@ -50,7 +50,7 @@ const Section_dos = ({ ciudad, data, loading }) => {
       imagenLingote: lingote2_5,
       nombreLingote: "Lingote de 2.5gr",
       precioLingote: precio2_5,
-      medidaBlister: "17,82 x 10,82 x 1,349mm",
+      medidaBlister: "17,82 x 10,82 x 1,35mm",
       telefono: ciudad?.acf?.telefono,
     },
     {
@@ -58,7 +58,7 @@ const Section_dos = ({ ciudad, data, loading }) => {
       imagenLingote: lingote5,
       nombreLingote: "Lingote de 5gr",
       precioLingote: precio5,
-      medidaBlister: "14,95 x 7,95 x 0,437mm",
+      medidaBlister: "14,95 x 7,95 x 0,44mm",
       telefono: ciudad?.acf?.telefono,
     },
     {
@@ -66,7 +66,7 @@ const Section_dos = ({ ciudad, data, loading }) => {
       imagenLingote: lingote10,
       nombreLingote: "Lingote de 10gr",
       precioLingote: precio10,
-      medidaBlister: "27,82 x 13,82 x 1,358mm",
+      medidaBlister: "27,82 x 13,82 x 1,35mm",
       telefono: ciudad?.acf?.telefono,
     },
     {
@@ -74,7 +74,7 @@ const Section_dos = ({ ciudad, data, loading }) => {
       imagenLingote: lingote20,
       nombreLingote: "Lingote de 20gr",
       precioLingote: precio20,
-      medidaBlister: "31,82 x 15,82 x 2,070mm",
+      medidaBlister: "31,82 x 15,82 x 2,07mm",
       telefono: ciudad?.acf?.telefono,
     },
     {
@@ -82,7 +82,7 @@ const Section_dos = ({ ciudad, data, loading }) => {
       imagenLingote: lingote1oz,
       nombreLingote: "Lingote de 1oz",
       precioLingote: precio1Oz,
-      medidaBlister: "31,82 x 15,82 x 3,219mm",
+      medidaBlister: "31,82 x 15,82 x 3,22mm",
       telefono: ciudad?.acf?.telefono,
     },
     {
@@ -90,7 +90,7 @@ const Section_dos = ({ ciudad, data, loading }) => {
       imagenLingote: lingote50,
       nombreLingote: "Lingote de 50gr",
       precioLingote: precio50,
-      medidaBlister: "41,82 x 23,82 x 2,610pxmm",
+      medidaBlister: "41,82 x 23,82 x 2,61mm",
       telefono: ciudad?.acf?.telefono,
     },
     {
@@ -98,7 +98,7 @@ const Section_dos = ({ ciudad, data, loading }) => {
       imagenLingote: lingote100,
       nombreLingote: "Lingote de 100gr",
       precioLingote: precio100,
-      medidaBlister: "41,82 x 23,82 x 5,220mm",
+      medidaBlister: "41,82 x 23,82 x 5,22mm",
       telefono: ciudad?.acf?.telefono,
     },
     {
@@ -154,7 +154,7 @@ const Section_dos = ({ ciudad, data, loading }) => {
                   className={styles.botonLlamar}
                   href={`tel:${lingote.telefono}`}
                 >
-                  LlAMAR
+                  LLAMAR
                 </a>
               </div>
             ))}

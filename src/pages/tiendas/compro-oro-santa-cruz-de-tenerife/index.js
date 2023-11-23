@@ -22,7 +22,7 @@ export default function SantaCruzDeTenerife({
   ciudad,
   general,
 }) {
-  const { ref: myRef, inView, entry } = useInView();
+  const { ref: myRef, inView } = useInView();
   const breadCrumb = {
     "@context": "https://schema.org/",
     "@type": "BreadcrumbList",

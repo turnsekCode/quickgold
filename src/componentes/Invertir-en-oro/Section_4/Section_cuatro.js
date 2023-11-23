@@ -36,16 +36,17 @@ const Section_cuatro = ({ ciudad }) => {
               llegado el momento, seas avisado y obtengas el máximo beneficio de
               la inversión realizada.<br></br>
               <br></br> Dispones de varios tipos de lingotes para que elijas el
-              que más se adecué a tu presupuesto, desde{" "}
-              <strong>Lingotes de 1 kg hasta lingotes de 10g.</strong> Todos
+              que más se adecúe a tu presupuesto, desde{" "}
+              <strong>Lingotes de 1 kg hasta lingotes de 2.5g.</strong> Todos
               nuestros lingotes llevan adjunto un certificado de autenticidad,
               así como las marcas requeridas en superficie.<br></br>
               <br></br> En estas marcas deben incluirse: el número de serie del
               lingote; la marca del ensayador o refinería; un número de cuatro o
-              cinco dígitos si incluye un decimal (separado por coma o punto),
-              que indica la pureza; y el año de fabricación.<br></br> <br></br>
+              cinco dígitos si incluye dos decimales (separado por coma o
+              punto), que indica la pureza y el peso del lingote.<br></br>{" "}
+              <br></br>
               Acércate a una de nuestras oficinas o contáctanos en el{" "}
-              <a href="tel:900 373 629">
+              <a href="tel:900373629">
                 <strong>900 373 629</strong>
               </a>
               , estaremos encantados de atenderte y de resolver cualquier

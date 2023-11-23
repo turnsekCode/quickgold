@@ -148,10 +148,6 @@ var jsx_runtime_ = __webpack_require__(997);
 // EXTERNAL MODULE: external "next/head"
 var head_ = __webpack_require__(968);
 var head_default = /*#__PURE__*/__webpack_require__.n(head_);
-// EXTERNAL MODULE: ./node_modules/next/dynamic.js
-var dynamic = __webpack_require__(5152);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
 // EXTERNAL MODULE: ./src/componentes/BreadcrumbsRaiz/Breadcrumbs.js
 var Breadcrumbs = __webpack_require__(9206);
 // EXTERNAL MODULE: external "@mui/icons-material/KeyboardArrowRight"
@@ -165,6 +161,8 @@ var Layout = __webpack_require__(7699);
 // EXTERNAL MODULE: external "@bradgarropy/next-seo"
 var next_seo_ = __webpack_require__(4579);
 var next_seo_default = /*#__PURE__*/__webpack_require__.n(next_seo_);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(6689);
 // EXTERNAL MODULE: ./src/componentes/Vender-diamantes/Section_1/section_uno.module.css
 var section_uno_module = __webpack_require__(6412);
 var section_uno_module_default = /*#__PURE__*/__webpack_require__.n(section_uno_module);
@@ -976,9 +974,6 @@ var BotonLamarFijo = __webpack_require__(7186);
 ;// CONCATENATED MODULE: ./src/pages/vender-diamantes/index.js
 
 
-//import Image from "next/image";
-
-
 
 
 
@@ -1280,14 +1275,6 @@ module.exports = require("next/dist/shared/lib/image-loader");
 
 /***/ }),
 
-/***/ 5832:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/loadable.js");
-
-/***/ }),
-
 /***/ 2470:
 /***/ ((module) => {
 
@@ -1351,7 +1338,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,5152,7699,9206,1734], () => (__webpack_exec__(4091)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,9206,1734], () => (__webpack_exec__(4091)));
 module.exports = __webpack_exports__;
 
 })();

@@ -1,7 +1,4 @@
 import Head from "next/head";
-//import Image from "next/image";
-import dynamic from "next/dynamic";
-import { useState, useEffect } from "react";
 import Breadcrumbs from "@/componentes/BreadcrumbsRaiz/Breadcrumbs.js";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import styles from "@/styles/Home.module.css";

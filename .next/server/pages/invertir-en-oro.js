@@ -250,7 +250,7 @@ const Section_dos = ({ ciudad , data , loading  })=>{
             imagenLingote: lingote2_5,
             nombreLingote: "Lingote de 2.5gr",
             precioLingote: precio2_5,
-            medidaBlister: "17,82 x 10,82 x 1,349mm",
+            medidaBlister: "17,82 x 10,82 x 1,35mm",
             telefono: ciudad?.acf?.telefono
         },
         {
@@ -258,7 +258,7 @@ const Section_dos = ({ ciudad , data , loading  })=>{
             imagenLingote: lingote5,
             nombreLingote: "Lingote de 5gr",
             precioLingote: precio5,
-            medidaBlister: "14,95 x 7,95 x 0,437mm",
+            medidaBlister: "14,95 x 7,95 x 0,44mm",
             telefono: ciudad?.acf?.telefono
         },
         {
@@ -266,7 +266,7 @@ const Section_dos = ({ ciudad , data , loading  })=>{
             imagenLingote: lingote10,
             nombreLingote: "Lingote de 10gr",
             precioLingote: precio10,
-            medidaBlister: "27,82 x 13,82 x 1,358mm",
+            medidaBlister: "27,82 x 13,82 x 1,35mm",
             telefono: ciudad?.acf?.telefono
         },
         {
@@ -274,7 +274,7 @@ const Section_dos = ({ ciudad , data , loading  })=>{
             imagenLingote: lingote20,
             nombreLingote: "Lingote de 20gr",
             precioLingote: precio20,
-            medidaBlister: "31,82 x 15,82 x 2,070mm",
+            medidaBlister: "31,82 x 15,82 x 2,07mm",
             telefono: ciudad?.acf?.telefono
         },
         {
@@ -282,7 +282,7 @@ const Section_dos = ({ ciudad , data , loading  })=>{
             imagenLingote: lingote1oz,
             nombreLingote: "Lingote de 1oz",
             precioLingote: precio1Oz,
-            medidaBlister: "31,82 x 15,82 x 3,219mm",
+            medidaBlister: "31,82 x 15,82 x 3,22mm",
             telefono: ciudad?.acf?.telefono
         },
         {
@@ -290,7 +290,7 @@ const Section_dos = ({ ciudad , data , loading  })=>{
             imagenLingote: lingote50,
             nombreLingote: "Lingote de 50gr",
             precioLingote: precio50,
-            medidaBlister: "41,82 x 23,82 x 2,610pxmm",
+            medidaBlister: "41,82 x 23,82 x 2,61mm",
             telefono: ciudad?.acf?.telefono
         },
         {
@@ -298,7 +298,7 @@ const Section_dos = ({ ciudad , data , loading  })=>{
             imagenLingote: lingote100,
             nombreLingote: "Lingote de 100gr",
             precioLingote: precio100,
-            medidaBlister: "41,82 x 23,82 x 5,220mm",
+            medidaBlister: "41,82 x 23,82 x 5,22mm",
             telefono: ciudad?.acf?.telefono
         },
         {
@@ -370,7 +370,7 @@ const Section_dos = ({ ciudad , data , loading  })=>{
                                 /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                     className: (sectionDos_module_default()).botonLlamar,
                                     href: `tel:${lingote.telefono}`,
-                                    children: "LlAMAR"
+                                    children: "LLAMAR"
                                 })
                             ]
                         }, lingote.id))
@@ -450,7 +450,7 @@ const Section_tres = ({ ciudad  })=>{
                                 children: "Inversi\xf3n segura"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "El oro mantiene el poder adquisitivo relativo, no est\xe1 correlacionado con ninguna otra divisa y, su car\xe1cter tangible, as\xed como su liquidez, consiguen que invertir en este metal sea -hist\xf3ricamente y hasta hoy- la mejor opci\xf3n contra la incertidumbre y la volatilidad. Son momentos de grandes cambios: s\xe9 conservador, prot\xe9gete."
+                                children: "El oro mantiene el poder adquisitivo relativo, no est\xe1 correlacionado con ninguna otra divisa y, su car\xe1cter tangible, as\xed como su liquidez, consiguen que invertir en este metal sea -hist\xf3ricamente y hasta hoy - la mejor opci\xf3n contra la incertidumbre y la volatilidad. Son momentos de grandes cambios: s\xe9 conservador, prot\xe9gete."
                             })
                         ]
                     })
@@ -508,22 +508,22 @@ const Section_cuatro = ({ ciudad  })=>{
                                 "En quickgold entendemos que para nuestros clientes invertir en oro es una decisi\xf3n importante, por ello, en todas las oficinas quickgold no s\xf3lo vas a realizar una gesti\xf3n de compraventa, sino que vas a obtener asesoramiento y consejo por parte de todo el equipo, una copia del contrato perfeccionado, y, si lo deseas, seguimiento de la cotizaci\xf3n de forma personalizada para que llegado el momento, seas avisado y obtengas el m\xe1ximo beneficio de la inversi\xf3n realizada.",
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                " Dispones de varios tipos de lingotes para que elijas el que m\xe1s se adecu\xe9 a tu presupuesto, desde",
+                                " Dispones de varios tipos de lingotes para que elijas el que m\xe1s se adec\xfae a tu presupuesto, desde",
                                 " ",
                                 /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                    children: "Lingotes de 1 kg hasta lingotes de 10g."
+                                    children: "Lingotes de 1 kg hasta lingotes de 2.5g."
                                 }),
                                 " Todos nuestros lingotes llevan adjunto un certificado de autenticidad, as\xed como las marcas requeridas en superficie.",
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                " En estas marcas deben incluirse: el n\xfamero de serie del lingote; la marca del ensayador o refiner\xeda; un n\xfamero de cuatro o cinco d\xedgitos si incluye un decimal (separado por coma o punto), que indica la pureza; y el a\xf1o de fabricaci\xf3n.",
+                                " En estas marcas deben incluirse: el n\xfamero de serie del lingote; la marca del ensayador o refiner\xeda; un n\xfamero de cuatro o cinco d\xedgitos si incluye dos decimales (separado por coma o punto), que indica la pureza y el peso del lingote.",
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                 " ",
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                 "Ac\xe9rcate a una de nuestras oficinas o cont\xe1ctanos en el",
                                 " ",
                                 /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "tel:900 373 629",
+                                    href: "tel:900373629",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                         children: "900 373 629"
                                     })

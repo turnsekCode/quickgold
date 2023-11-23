@@ -1,53 +1,13 @@
+"use strict";
 (() => {
 var exports = {};
 exports.id = 5878;
 exports.ids = [5878];
 exports.modules = {
 
-/***/ 8612:
-/***/ ((module) => {
-
-// Exports
-module.exports = {
-	"contenedorHtml": "html_contenedorHtml__h65BV"
-};
-
-
-/***/ }),
-
-/***/ 38:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _html_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8612);
-/* harmony import */ var _html_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_html_module_css__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-const Html = ({ ciudad  })=>{
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-        className: (_html_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorHtml),
-        dangerouslySetInnerHTML: {
-            __html: ciudad?.acf?.html
-        }
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Html);
-
-
-/***/ }),
-
 /***/ 4493:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -58,8 +18,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(968);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(8874);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(8874);
+/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15__);
 /* harmony import */ var _componentes_BreadcrumbsTiendas_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(942);
 /* harmony import */ var _bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4579);
 /* harmony import */ var _bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_3__);
@@ -67,19 +27,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _componentes_BotonesLlamarWT_BotonesLlamar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2911);
 /* harmony import */ var _componentes_BannerWallapop_BannerWallapop__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(3428);
 /* harmony import */ var _componentes_Layout_Layout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(7699);
-/* harmony import */ var _componentes_ComponenteHTML_Html__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(38);
-/* harmony import */ var _componentes_ComponentesPaginasDeTiendas_SeccionUno_SeccionUno__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(8609);
-/* harmony import */ var _componentes_ComponentesPaginasDeTiendas_seccionDos_SeccionDos__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(2093);
-/* harmony import */ var _componentes_ComponentesPaginasDeTiendas_SeccionTres_SeccionTres__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(1643);
-/* harmony import */ var _componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(2810);
-/* harmony import */ var _componentes_BannerGeneral_BannerPromoGeneral__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(7967);
-/* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(547);
-/* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var next_script_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(3159);
-/* harmony import */ var next_script_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(next_script_js__WEBPACK_IMPORTED_MODULE_15__);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_componentes_ComponentesPaginasDeTiendas_SeccionTres_SeccionTres__WEBPACK_IMPORTED_MODULE_11__]);
-_componentes_ComponentesPaginasDeTiendas_SeccionTres_SeccionTres__WEBPACK_IMPORTED_MODULE_11__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-
+/* harmony import */ var _componentes_ComponentesPaginasDeTiendas_SeccionUno_SeccionUno__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(8609);
+/* harmony import */ var _componentes_ComponentesPaginasDeTiendas_seccionDos_SeccionDos__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(2093);
+/* harmony import */ var _componentes_ComponentesPaginasDeTiendas_SeccionTres_SeccionTres__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(1643);
+/* harmony import */ var _componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(2810);
+/* harmony import */ var _componentes_BannerGeneral_BannerPromoGeneral__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(7967);
+/* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(547);
+/* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var next_script_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(3159);
+/* harmony import */ var next_script_js__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(next_script_js__WEBPACK_IMPORTED_MODULE_14__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_componentes_ComponentesPaginasDeTiendas_SeccionTres_SeccionTres__WEBPACK_IMPORTED_MODULE_10__]);
+_componentes_ComponentesPaginasDeTiendas_SeccionTres_SeccionTres__WEBPACK_IMPORTED_MODULE_10__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
 
 
@@ -214,7 +172,7 @@ function Tetuan({ menu_list , ciudad , tiendaGoogle , general  }) {
                     })
                 ]
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_script_js__WEBPACK_IMPORTED_MODULE_15___default()), {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_script_js__WEBPACK_IMPORTED_MODULE_14___default()), {
                 id: "livechat",
                 property: "lazyOnload",
                 children: ciudad?.acf?.script_chat
@@ -224,7 +182,7 @@ function Tetuan({ menu_list , ciudad , tiendaGoogle , general  }) {
                 ciudad: ciudad,
                 children: [
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16___default().main),
+                        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15___default().main),
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BreadcrumbsTiendas_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
                                 raiz: "Quickgold",
@@ -234,29 +192,29 @@ function Tetuan({ menu_list , ciudad , tiendaGoogle , general  }) {
                                 nombreCiudad: ciudad?.acf?.nombreCiudad,
                                 nombreTienda: ciudad?.acf?.ciudad_landing,
                                 ubicacionActual: ciudad?.acf?.nombre_tienda,
-                                iconoRaiz: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_14___default()), {}),
-                                iconoTiendas: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_14___default()), {})
+                                iconoRaiz: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_13___default()), {}),
+                                iconoTiendas: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_13___default()), {})
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasDeTiendas_SeccionUno_SeccionUno__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z, {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasDeTiendas_SeccionUno_SeccionUno__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
                                 ciudad: ciudad,
                                 tiendaGoogle: tiendaGoogle
                             }),
-                            ciudad?.acf?.activar_banner_en_tiendas_y_ciudad && general?.acf?.activar_promo_general ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_12__/* ["default"] */ .Z, {
+                            ciudad?.acf?.activar_banner_en_tiendas_y_ciudad && general?.acf?.activar_promo_general ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {
                                 ciudad: ciudad
                             }) : null,
-                            ciudad?.acf?.activar_banner_en_tiendas_y_ciudad == false && general?.acf?.activar_promo_general ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerGeneral_BannerPromoGeneral__WEBPACK_IMPORTED_MODULE_13__/* ["default"] */ .Z, {
+                            ciudad?.acf?.activar_banner_en_tiendas_y_ciudad == false && general?.acf?.activar_promo_general ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerGeneral_BannerPromoGeneral__WEBPACK_IMPORTED_MODULE_12__/* ["default"] */ .Z, {
                                 general: general
                             }) : null,
-                            general?.acf?.activar_promo_general == false && ciudad?.acf?.activar_banner_en_tiendas_y_ciudad ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_12__/* ["default"] */ .Z, {
+                            general?.acf?.activar_promo_general == false && ciudad?.acf?.activar_banner_en_tiendas_y_ciudad ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {
                                 ciudad: ciudad
                             }) : null,
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16___default().contenedorSeccionUnoDos),
+                                className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15___default().contenedorSeccionUnoDos),
                                 children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasDeTiendas_seccionDos_SeccionDos__WEBPACK_IMPORTED_MODULE_10__/* ["default"] */ .Z, {
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasDeTiendas_seccionDos_SeccionDos__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z, {
                                         ciudad: ciudad
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasDeTiendas_SeccionTres_SeccionTres__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasDeTiendas_SeccionTres_SeccionTres__WEBPACK_IMPORTED_MODULE_10__/* ["default"] */ .Z, {
                                         ciudad: ciudad,
                                         tiendaGoogle: tiendaGoogle
                                     })
@@ -314,7 +272,6 @@ __webpack_async_result__();
 /***/ 4579:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@bradgarropy/next-seo");
 
 /***/ }),
@@ -322,7 +279,6 @@ module.exports = require("@bradgarropy/next-seo");
 /***/ 765:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/icons-material/ArrowDropDown");
 
 /***/ }),
@@ -330,7 +286,6 @@ module.exports = require("@mui/icons-material/ArrowDropDown");
 /***/ 6741:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/icons-material/CheckCircle");
 
 /***/ }),
@@ -338,7 +293,6 @@ module.exports = require("@mui/icons-material/CheckCircle");
 /***/ 4173:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/icons-material/Close");
 
 /***/ }),
@@ -346,7 +300,6 @@ module.exports = require("@mui/icons-material/Close");
 /***/ 7666:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/icons-material/Facebook");
 
 /***/ }),
@@ -354,7 +307,6 @@ module.exports = require("@mui/icons-material/Facebook");
 /***/ 3281:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/icons-material/Instagram");
 
 /***/ }),
@@ -362,7 +314,6 @@ module.exports = require("@mui/icons-material/Instagram");
 /***/ 4845:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/icons-material/KeyboardArrowDown");
 
 /***/ }),
@@ -370,7 +321,6 @@ module.exports = require("@mui/icons-material/KeyboardArrowDown");
 /***/ 547:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/icons-material/KeyboardArrowRight");
 
 /***/ }),
@@ -378,7 +328,6 @@ module.exports = require("@mui/icons-material/KeyboardArrowRight");
 /***/ 9881:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/icons-material/KeyboardArrowUp");
 
 /***/ }),
@@ -386,7 +335,6 @@ module.exports = require("@mui/icons-material/KeyboardArrowUp");
 /***/ 5939:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/icons-material/LinkedIn");
 
 /***/ }),
@@ -394,7 +342,6 @@ module.exports = require("@mui/icons-material/LinkedIn");
 /***/ 2906:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/icons-material/Lock");
 
 /***/ }),
@@ -402,7 +349,6 @@ module.exports = require("@mui/icons-material/Lock");
 /***/ 3365:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/icons-material/Menu");
 
 /***/ }),
@@ -410,7 +356,6 @@ module.exports = require("@mui/icons-material/Menu");
 /***/ 8377:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/icons-material/PhoneInTalk");
 
 /***/ }),
@@ -418,7 +363,6 @@ module.exports = require("@mui/icons-material/PhoneInTalk");
 /***/ 5631:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/icons-material/Twitter");
 
 /***/ }),
@@ -426,7 +370,6 @@ module.exports = require("@mui/icons-material/Twitter");
 /***/ 2232:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/icons-material/WhatsApp");
 
 /***/ }),
@@ -434,7 +377,6 @@ module.exports = require("@mui/icons-material/WhatsApp");
 /***/ 9409:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/material/Accordion");
 
 /***/ }),
@@ -442,7 +384,6 @@ module.exports = require("@mui/material/Accordion");
 /***/ 8279:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/material/AccordionDetails");
 
 /***/ }),
@@ -450,7 +391,6 @@ module.exports = require("@mui/material/AccordionDetails");
 /***/ 4604:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/material/AccordionSummary");
 
 /***/ }),
@@ -458,7 +398,6 @@ module.exports = require("@mui/material/AccordionSummary");
 /***/ 3819:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/material/Button");
 
 /***/ }),
@@ -466,7 +405,6 @@ module.exports = require("@mui/material/Button");
 /***/ 4180:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/material/SwipeableDrawer");
 
 /***/ }),
@@ -474,7 +412,6 @@ module.exports = require("@mui/material/SwipeableDrawer");
 /***/ 8442:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("@mui/material/styles");
 
 /***/ }),
@@ -482,7 +419,6 @@ module.exports = require("@mui/material/styles");
 /***/ 3918:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/shared/lib/amp-context.js");
 
 /***/ }),
@@ -490,7 +426,6 @@ module.exports = require("next/dist/shared/lib/amp-context.js");
 /***/ 5732:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/shared/lib/amp-mode.js");
 
 /***/ }),
@@ -498,7 +433,6 @@ module.exports = require("next/dist/shared/lib/amp-mode.js");
 /***/ 2796:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/shared/lib/head-manager-context.js");
 
 /***/ }),
@@ -506,7 +440,6 @@ module.exports = require("next/dist/shared/lib/head-manager-context.js");
 /***/ 4486:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/shared/lib/image-blur-svg.js");
 
 /***/ }),
@@ -514,7 +447,6 @@ module.exports = require("next/dist/shared/lib/image-blur-svg.js");
 /***/ 744:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/shared/lib/image-config-context.js");
 
 /***/ }),
@@ -522,7 +454,6 @@ module.exports = require("next/dist/shared/lib/image-config-context.js");
 /***/ 5843:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/shared/lib/image-config.js");
 
 /***/ }),
@@ -530,7 +461,6 @@ module.exports = require("next/dist/shared/lib/image-config.js");
 /***/ 9552:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/shared/lib/image-loader");
 
 /***/ }),
@@ -538,7 +468,6 @@ module.exports = require("next/dist/shared/lib/image-loader");
 /***/ 2470:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/shared/lib/side-effect.js");
 
 /***/ }),
@@ -546,7 +475,6 @@ module.exports = require("next/dist/shared/lib/side-effect.js");
 /***/ 618:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
@@ -554,7 +482,6 @@ module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 /***/ 968:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/head");
 
 /***/ }),
@@ -562,7 +489,6 @@ module.exports = require("next/head");
 /***/ 3159:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/script.js");
 
 /***/ }),
@@ -570,7 +496,6 @@ module.exports = require("next/script.js");
 /***/ 6689:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("react");
 
 /***/ }),
@@ -578,7 +503,6 @@ module.exports = require("react");
 /***/ 5337:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("react-scroll-to-top");
 
 /***/ }),
@@ -586,7 +510,6 @@ module.exports = require("react-scroll-to-top");
 /***/ 997:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("react/jsx-runtime");
 
 /***/ }),
@@ -594,7 +517,6 @@ module.exports = require("react/jsx-runtime");
 /***/ 4009:
 /***/ ((module) => {
 
-"use strict";
 module.exports = import("react-intersection-observer");;
 
 /***/ })

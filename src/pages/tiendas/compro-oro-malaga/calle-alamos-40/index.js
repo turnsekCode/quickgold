@@ -6,7 +6,6 @@ import BotonLamarFijo from "@/componentes/BotonLlamarFijo/BotonLamarFijo";
 import BotonesLlamar from "@/componentes/BotonesLlamarWT/BotonesLlamar";
 import BannerWallapop from "@/componentes/BannerWallapop/BannerWallapop";
 import Layout from "@/componentes/Layout/Layout";
-import Html from "@/componentes/ComponenteHTML/Html";
 import SeccionUno from "@/componentes/ComponentesPaginasDeTiendas/SeccionUno/SeccionUno";
 import SeccionDos from "@/componentes/ComponentesPaginasDeTiendas/seccionDos/SeccionDos";
 import SeccionTres from "@/componentes/ComponentesPaginasDeTiendas/SeccionTres/SeccionTres";

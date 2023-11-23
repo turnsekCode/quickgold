@@ -17,7 +17,7 @@ import HtmlGeneral from "@/componentes/ComponenteHTMLGeneral/HtmlGeneral";
 import BannerPromoTiendas from "@/componentes/BannerPromoTiendas/BannerPromoTiendas.js";
 
 export default function Alcobendas({ markers, menu_list, ciudad, general }) {
-  const { ref: myRef, inView, entry } = useInView();
+  const { ref: myRef, inView } = useInView();
   const breadCrumb = {
     "@context": "https://schema.org/",
     "@type": "BreadcrumbList",
@@ -102,8 +102,8 @@ export default function Alcobendas({ markers, menu_list, ciudad, general }) {
             ubicacionActual={ciudad?.acf?.ciudad_landing}
             iconoRaiz={<KeyboardArrowRightIcon />}
             iconoUbiccionActual={<KeyboardArrowRightIcon />}
-            urlNombreCiudad="https://quickgold.es/tiendas/compro-oro-jerez/"
-            urlNombreTienda="https://quickgold.es/tiendas/compro-oro-jerez/"
+            urlNombreCiudad="https://quickgold.es/tiendas/compro-oro-jerez"
+            urlNombreTienda="https://quickgold.es/tiendas/compro-oro-jerez"
           />
           <SeccionUno ciudad={ciudad} />
           {ciudad?.acf?.activar_banner_en_tiendas_y_ciudad &&

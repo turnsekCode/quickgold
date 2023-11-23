@@ -47,9 +47,9 @@ const Section_tres = ({ ciudad }) => {
             El oro mantiene el poder adquisitivo relativo, no está
             correlacionado con ninguna otra divisa y, su carácter tangible, así
             como su liquidez, consiguen que invertir en este metal sea
-            -históricamente y hasta hoy- la mejor opción contra la incertidumbre
-            y la volatilidad. Son momentos de grandes cambios: sé conservador,
-            protégete.
+            -históricamente y hasta hoy - la mejor opción contra la
+            incertidumbre y la volatilidad. Son momentos de grandes cambios: sé
+            conservador, protégete.
           </p>
         </div>
       </div>

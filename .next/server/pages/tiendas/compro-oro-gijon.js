@@ -58,7 +58,7 @@ react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__ = (__webpack_async_depe
 
 
 function Gijon({ markers , menu_list , ciudad , general  }) {
-    const { ref: myRef , inView , entry  } = (0,react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__.useInView)();
+    const { ref: myRef , inView  } = (0,react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__.useInView)();
     const breadCrumb = {
         "@context": "https://schema.org/",
         "@type": "BreadcrumbList",

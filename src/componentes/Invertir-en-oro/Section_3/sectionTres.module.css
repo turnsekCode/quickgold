@@ -16,7 +16,7 @@
     line-height: 29px;
     text-align: center;
     color: #000831;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     padding: 0 20px;
     font-family: 'Gotham Bold';
 }
@@ -34,7 +34,7 @@
     position: absolute;
     display: block;
     height: 5px;
-    transform: translateY(40%);
+    transform: translateY(10%);
 }
 
 .linea:before {
@@ -45,7 +45,6 @@
     width: 341px;
     height: auto;
     background: #FFFFFF;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.14);
     border-radius: 8px;
     padding: 30px;
     border: 1px solid #000;
@@ -79,7 +78,7 @@
 .contenedorSectionCinco {
         max-width: 1060px;
         margin: 0 auto;
-        padding: 60px 0;
+        padding: 20px 0;
     }
 
     .sectionCincoContenido {
@@ -95,7 +94,7 @@
         line-height: 29px;
         text-align: center;
         color: #000831;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .linea {
@@ -112,7 +111,7 @@
         position: absolute;
         display: block;
         height: 5px;
-        transform: translateY(40%);
+        transform: translateY(30%);
     }
 
     .linea:before {
@@ -121,10 +120,9 @@
     }
 
     .contenidoCard {
-        width: 330px;
+        width: 328px;
         height: auto;
         background: #FFFFFF;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.14);
         border-radius: 8px;
         padding: 30px;
     }

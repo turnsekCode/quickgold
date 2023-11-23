@@ -10,7 +10,7 @@ import Section_tres from "@/componentes/ComponentesHome/section_3/Section_tres";
 import { useInView } from "react-intersection-observer";
 
 export default function Home({ menu_list, ciudad, general, listadoUrlCiudad }) {
-  const { ref: myRef, inView, entry } = useInView();
+  const { ref: myRef, inView } = useInView();
   return (
     <>
       <SEO

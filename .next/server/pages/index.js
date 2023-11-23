@@ -503,7 +503,7 @@ react_intersection_observer__WEBPACK_IMPORTED_MODULE_7__ = (__webpack_async_depe
 
 
 function Home({ menu_list , ciudad , general , listadoUrlCiudad  }) {
-    const { ref: myRef , inView , entry  } = (0,react_intersection_observer__WEBPACK_IMPORTED_MODULE_7__.useInView)();
+    const { ref: myRef , inView  } = (0,react_intersection_observer__WEBPACK_IMPORTED_MODULE_7__.useInView)();
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_3___default()), {
