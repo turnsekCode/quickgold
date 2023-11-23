@@ -9,12 +9,12 @@ const Section_dos = ({ ciudad }) => {
           Vender diamantes en <span className={styles.linea}>quickgold</span> es
           fácil{" "}
         </h4>
-        <p className={styles.parrafoVenderDiamantes}>
+        {/*<p className={styles.parrafoVenderDiamantes}>
           <strong>IMPORTANTE</strong>
           <br></br>
           Para vender diamantes es necesario cita previa llamando al{" "}
           <a href={`tel:${ciudad?.acf?.telefono}`}>{ciudad?.acf?.telefono}.</a>
-        </p>
+  </p>*/}
       </div>
       <div className={styles.sectionCincoContenido}>
         <div className={styles.contenidoCard}>

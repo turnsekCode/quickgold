@@ -34,7 +34,7 @@
     position: absolute;
     display: block;
     height: 5px;
-    transform: translateY(40%);
+    transform: translateY(10%);
 }
 
 .linea:before {

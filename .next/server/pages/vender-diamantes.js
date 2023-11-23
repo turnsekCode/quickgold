@@ -233,39 +233,19 @@ const Section_dos = ({ ciudad  })=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         className: (sectionDos_module_default()).contenedorSectionCinco,
         children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: (sectionDos_module_default()).contenedorSectionCincoMargen,
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h4", {
-                        children: [
-                            "Vender diamantes en ",
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                className: (sectionDos_module_default()).linea,
-                                children: "quickgold"
-                            }),
-                            " es f\xe1cil",
-                            " "
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                        className: (sectionDos_module_default()).parrafoVenderDiamantes,
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                children: "IMPORTANTE"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                            "Para vender diamantes es necesario cita previa llamando al",
-                            " ",
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                href: `tel:${ciudad?.acf?.telefono}`,
-                                children: [
-                                    ciudad?.acf?.telefono,
-                                    "."
-                                ]
-                            })
-                        ]
-                    })
-                ]
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h4", {
+                    children: [
+                        "Vender diamantes en ",
+                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                            className: (sectionDos_module_default()).linea,
+                            children: "quickgold"
+                        }),
+                        " es f\xe1cil",
+                        " "
+                    ]
+                })
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: (sectionDos_module_default()).sectionCincoContenido,
