@@ -1314,11 +1314,6 @@ const AccordionDetails = (0,styles_.styled)((AccordionDetails_default()))(({ the
         padding: theme.spacing(2)
     }));
 function AccordionServicios({ ciudad  }) {
-    {
-    /* useEffect(() => {
-    const url = window.location.href;
-    console.log(url);
-  }, []);*/ }
     const [expanded, setExpanded] = external_react_default().useState("panel3");
     const handleChange = (panel)=>(event, newExpanded)=>{
             setExpanded(newExpanded ? panel : false);
@@ -1730,7 +1725,7 @@ const BotonLamarFijo = ()=>{
         className: (_botonLamarFijo_module_css__WEBPACK_IMPORTED_MODULE_2___default().botonLlamar),
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
             title: "Tel\xe9fono",
-            href: "tel:900 373 629",
+            href: "tel:900373629",
             children: "LLAMA GRATIS"
         })
     });

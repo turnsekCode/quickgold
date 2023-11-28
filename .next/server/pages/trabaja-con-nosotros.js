@@ -265,17 +265,16 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(6255);
-/* harmony import */ var _formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(6255);
+/* harmony import */ var _formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2210);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _lib_apiTrabaja__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(6910);
+/* harmony import */ var _lib_apiTrabaja__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6910);
 /* harmony import */ var _utilities_fireBaseConfig__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9806);
-/* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6555);
-/* harmony import */ var firebase_storage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(3392);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__, _utilities_fireBaseConfig__WEBPACK_IMPORTED_MODULE_3__, uuid__WEBPACK_IMPORTED_MODULE_4__, firebase_storage__WEBPACK_IMPORTED_MODULE_5__]);
-([_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__, _utilities_fireBaseConfig__WEBPACK_IMPORTED_MODULE_3__, uuid__WEBPACK_IMPORTED_MODULE_4__, firebase_storage__WEBPACK_IMPORTED_MODULE_5__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+/* harmony import */ var firebase_storage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3392);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__, _utilities_fireBaseConfig__WEBPACK_IMPORTED_MODULE_3__, firebase_storage__WEBPACK_IMPORTED_MODULE_4__]);
+([_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__, _utilities_fireBaseConfig__WEBPACK_IMPORTED_MODULE_3__, firebase_storage__WEBPACK_IMPORTED_MODULE_4__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 "use client";
 
 
@@ -284,7 +283,7 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_cha
 
 
 
-
+//import { v4 } from "uuid";
 
 const initValues = {
     name: "",
@@ -340,10 +339,10 @@ const FormularioTrabajaFirebase = ()=>{
     const handleChangeFile = (e)=>{
         console.log(e.target.files[0].type);
         setPesoArchivo(e.target.files[0]);
-        const archivo = (0,firebase_storage__WEBPACK_IMPORTED_MODULE_5__.ref)(_utilities_fireBaseConfig__WEBPACK_IMPORTED_MODULE_3__/* .file */ .t, `Curriculums/${nombre}`);
+        const archivo = (0,firebase_storage__WEBPACK_IMPORTED_MODULE_4__.ref)(_utilities_fireBaseConfig__WEBPACK_IMPORTED_MODULE_3__/* .file */ .t, `Curriculums/${nombre}`);
         if (e.target.files[0]?.size < 2000000 && e.target.files[0]?.type === "application/pdf") {
-            (0,firebase_storage__WEBPACK_IMPORTED_MODULE_5__.uploadBytes)(archivo, e.target.files[0]).then((data)=>{
-                (0,firebase_storage__WEBPACK_IMPORTED_MODULE_5__.getDownloadURL)(data.ref).then((val)=>{
+            (0,firebase_storage__WEBPACK_IMPORTED_MODULE_4__.uploadBytes)(archivo, e.target.files[0]).then((data)=>{
+                (0,firebase_storage__WEBPACK_IMPORTED_MODULE_4__.getDownloadURL)(data.ref).then((val)=>{
                     setCurriculum(val);
                     setState((prev)=>({
                             ...prev,
@@ -362,7 +361,7 @@ const FormularioTrabajaFirebase = ()=>{
                 isLoading: true
             }));
         try {
-            await (0,_lib_apiTrabaja__WEBPACK_IMPORTED_MODULE_6__/* .sendContactForm */ .m)(values);
+            await (0,_lib_apiTrabaja__WEBPACK_IMPORTED_MODULE_5__/* .sendContactForm */ .m)(values);
             window.location.href = window.location.href;
             //const valRef = collection(text, "textoData");
             //await addDoc(valRef, { txtVal: nombre, archivoUrl: curriculum });
@@ -383,7 +382,7 @@ const FormularioTrabajaFirebase = ()=>{
     };
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.ChakraProvider, {
         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Container, {
-            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_7___default().contenedorFormulario),
+            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().contenedorFormulario),
             children: [
                 error && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Text, {
                     color: "red.300",
@@ -398,7 +397,7 @@ const FormularioTrabajaFirebase = ()=>{
                     mb: "4",
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_7___default().textoLabel),
+                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().textoLabel),
                             children: "Nombre y Apellidos*"
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Input, {
@@ -427,7 +426,7 @@ const FormularioTrabajaFirebase = ()=>{
                     mb: "4",
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_7___default().textoLabel),
+                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().textoLabel),
                             children: "Tel\xe9fono*"
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Input, {
@@ -452,7 +451,7 @@ const FormularioTrabajaFirebase = ()=>{
                     mb: "4",
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_7___default().textoLabel),
+                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().textoLabel),
                             children: "Correo electr\xf3nico*"
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Input, {
@@ -476,7 +475,7 @@ const FormularioTrabajaFirebase = ()=>{
                     mb: "4",
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_7___default().textoLabel),
+                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().textoLabel),
                             children: "\xbfEn qu\xe9 ciudad te interesar\xeda trabajar?*"
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Input, {
@@ -500,7 +499,7 @@ const FormularioTrabajaFirebase = ()=>{
                     mb: "4",
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_7___default().textoLabel),
+                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().textoLabel),
                             children: "Sube tu curr\xedculum"
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Input, {
@@ -509,7 +508,7 @@ const FormularioTrabajaFirebase = ()=>{
                                 border: "none",
                                 padding: "0 0 0 33px"
                             },
-                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_7___default().inputFile),
+                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().inputFile),
                             type: "file",
                             onChange: (e)=>{
                                 handleChangeFile(e);
@@ -543,7 +542,7 @@ const FormularioTrabajaFirebase = ()=>{
                         "He le\xeddo y acepto la",
                         " ",
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_7___default().linkPoliticas),
+                            className: (_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().linkPoliticas),
                             href: "/politica-de-privacidad",
                             children: "pol\xedtica de privacidad"
                         })
@@ -557,7 +556,7 @@ const FormularioTrabajaFirebase = ()=>{
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Button, {
                     isLoading: isLoading,
-                    className: !values.name || !values.telefono || !values.correo || !values.ciudad || !curriculum || pesoArchivo?.size > 2000000 || checkedItems === false ? `${(_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_7___default().botonEnviar)}` : `${(_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_7___default().botonEnviar)} ${(_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_7___default().botonEnviarHabilitado)}`,
+                    className: !values.name || !values.telefono || !values.correo || !values.ciudad || !curriculum || pesoArchivo?.size > 2000000 || checkedItems === false ? `${(_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().botonEnviar)}` : `${(_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().botonEnviar)} ${(_formularioTrabaja_module_css__WEBPACK_IMPORTED_MODULE_6___default().botonEnviarHabilitado)}`,
                     isDisabled: !values.name || !values.telefono || !values.correo || !values.ciudad || !curriculum || checkedItems === false || pesoArchivo?.size > 2000000,
                     onClick: onSubmit,
                     children: "ENVIAR"
@@ -659,7 +658,7 @@ const Section_dos = ()=>{
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
                         " ",
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                        "Ya contamos con m\xe1s de 35 tiendas en Espa\xf1a y seguimos expandi\xe9ndonos por todo el territorio con la misi\xf3n de hacer cumplir nuestros objetivos de crecimiento. Para ello, trabajamos cada d\xeda enfoc\xe1ndonos en ofrecer el mejor servicio y apoyo a nuestros clientes para que puedan cubrir sus necesidades."
+                        "Ya contamos con m\xe1s de 60 tiendas en Espa\xf1a y seguimos expandi\xe9ndonos por todo el territorio con la misi\xf3n de hacer cumplir nuestros objetivos de crecimiento. Para ello, trabajamos cada d\xeda enfoc\xe1ndonos en ofrecer el mejor servicio y apoyo a nuestros clientes para que puedan cubrir sus necesidades."
                     ]
                 })
             ]
@@ -1295,14 +1294,6 @@ module.exports = import("firebase/firestore");;
 
 "use strict";
 module.exports = import("firebase/storage");;
-
-/***/ }),
-
-/***/ 6555:
-/***/ ((module) => {
-
-"use strict";
-module.exports = import("uuid");;
 
 /***/ })
 

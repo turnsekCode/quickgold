@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./sectionCincoMobil.module.css";
 import Image from "next/image";
-import { Link } from "react-scroll";
 
 const Section_cinco_mobil = ({ ciudad }) => {
   return (

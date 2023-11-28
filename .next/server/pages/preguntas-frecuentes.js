@@ -162,7 +162,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 8659:
+/***/ 8924:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -251,8 +251,6 @@ var Tabs_default = /*#__PURE__*/__webpack_require__.n(Tabs_namespaceObject);
 ;// CONCATENATED MODULE: external "@mui/material/Tab"
 const Tab_namespaceObject = require("@mui/material/Tab");
 var Tab_default = /*#__PURE__*/__webpack_require__.n(Tab_namespaceObject);
-;// CONCATENATED MODULE: external "@mui/material/Typography"
-const Typography_namespaceObject = require("@mui/material/Typography");
 ;// CONCATENATED MODULE: external "@mui/material/Box"
 const Box_namespaceObject = require("@mui/material/Box");
 var Box_default = /*#__PURE__*/__webpack_require__.n(Box_namespaceObject);
@@ -1786,7 +1784,6 @@ function AccordiosnVenderDiamantes() {
 
 
 
-
 function TabPanel(props) {
     const { children , value , index , ...other } = props;
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -2114,7 +2111,6 @@ function PreguntasFrecuentes({ menu_list , ciudad  }) {
 }
 const idPaginaWp = "2702";
 const apiGeneral = "13848";
-//const idWp = "13848";
 async function getStaticProps() {
     //datos de los campos personalizados de la ciudad
     const ciudad1 = await fetch(`https://panel.quickgold.es/wp-json/acf/v3/pages/${idPaginaWp}`);
@@ -2122,10 +2118,7 @@ async function getStaticProps() {
     //fin datos de los campos personalizados de la ciudad
     const res = await fetch(`https://panel.quickgold.es/wp-json/acf/v3/pages/${apiGeneral}`);
     const general = await res.json();
-    /*const response = await fetch(
-    `https://quickgold.es/wp-json/wp/v2/pages/${idWp}`
-  );
-  const dataIdWp = await response.json();*/ const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
+    const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
     const menu_list = await menu.json();
     return {
         props: {
@@ -2586,7 +2579,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,9206], () => (__webpack_exec__(8659)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,9206], () => (__webpack_exec__(8924)));
 module.exports = __webpack_exports__;
 
 })();

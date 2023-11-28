@@ -17,14 +17,14 @@ const Section_cuatro = () => {
           </p>
           <Image
             src="/assets/img/logosOtsu.png"
-            alt="Compro oro"
+            alt="Expansion quickgold"
             className={styles.logosOtsu}
             width={257}
             height={132}
           />
           <Image
             src="/assets/img/logosOtsuMobil.png"
-            alt="Compro oro"
+            alt="Expansion quickgold"
             className={styles.logosOtsuMobil}
             width={258}
             height={132}

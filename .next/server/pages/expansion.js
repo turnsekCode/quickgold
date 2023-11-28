@@ -498,14 +498,14 @@ const Section_dos = ()=>{
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                     src: "/assets/img/evolucionExpansion.png",
-                    alt: "Compro oro",
+                    alt: "Expansion quickgold",
                     className: (_section_dos_module_css__WEBPACK_IMPORTED_MODULE_3___default().evolucionExpansion),
                     width: 1072,
                     height: 379
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                     src: "/assets/img/evolucionExpansionMobil.png",
-                    alt: "Compro oro",
+                    alt: "Expansion quickgold",
                     className: (_section_dos_module_css__WEBPACK_IMPORTED_MODULE_3___default().evolucionExpansionMobil),
                     width: 357,
                     height: 524
@@ -594,14 +594,14 @@ const Section_cuatro = ()=>{
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                             src: "/assets/img/logosOtsu.png",
-                            alt: "Compro oro",
+                            alt: "Expansion quickgold",
                             className: (_section_cuatro_module_css__WEBPACK_IMPORTED_MODULE_3___default().logosOtsu),
                             width: 257,
                             height: 132
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                             src: "/assets/img/logosOtsuMobil.png",
-                            alt: "Compro oro",
+                            alt: "Expansion quickgold",
                             className: (_section_cuatro_module_css__WEBPACK_IMPORTED_MODULE_3___default().logosOtsuMobil),
                             width: 258,
                             height: 132

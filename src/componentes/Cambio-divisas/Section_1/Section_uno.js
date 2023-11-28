@@ -1,11 +1,9 @@
 import React from "react";
 import styles from "./section_uno.module.css";
-import useScreenSize from "@/utilities/useScreenSize";
 import Image from "next/image";
 import { Link } from "react-scroll";
 
 const Section_uno = ({ ciudad }) => {
-  const { width } = useScreenSize();
   return (
     <section className={styles.contenedorSectionUno}>
       <div className={styles.bloqueIzq}>

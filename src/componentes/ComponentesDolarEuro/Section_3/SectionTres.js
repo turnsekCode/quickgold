@@ -32,7 +32,7 @@ const SectionCuatro = ({ ListadoCiudades, setCiudadOpen, ciudadOpen }) => {
         </div>
         <div className={styles.bloqueDer}>
           <Comprar
-            ListadoCiudades={ListadoCiudades}
+            //ListadoCiudades={ListadoCiudades}
             setCiudadOpen={setCiudadOpen}
             ciudadOpen={ciudadOpen}
           />

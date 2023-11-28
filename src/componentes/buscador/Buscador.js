@@ -16,7 +16,7 @@ const Buscador = ({ ciudades }) => {
   return (
     <div>
       <input
-        placeholder="Encuantra ciudad"
+        placeholder="Encuentra ciudad"
         onChange={(e) => setTerm(e.target.value)}
       />
       <div>

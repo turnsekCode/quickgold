@@ -36,12 +36,7 @@ const schema = {
   },
 };
 
-export default function ComproOro({
-  menu_list,
-  listadoUrlCiudad,
-  listadoCiudadesServicios,
-  ciudad,
-}) {
+export default function ComproOro({ menu_list, listadoUrlCiudad, ciudad }) {
   return (
     <>
       <SEO
@@ -81,10 +76,7 @@ export default function ComproOro({
         <Section_dos ciudad={ciudad} listadoUrlCiudad={listadoUrlCiudad} />
         <Section_tres ciudad={ciudad} />
         <Section_cinco ciudad={ciudad} />
-        <Section_seis
-          listadoCiudadesServicios={listadoCiudadesServicios}
-          ciudad={ciudad}
-        />
+        <Section_seis ciudad={ciudad} />
         <BotonLamarFijo ciudad={ciudad} />
       </Layout>
     </>
@@ -96,11 +88,6 @@ export async function getStaticProps() {
     `https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`
   );
   const listadoUrlCiudad = await Listado.json();
-
-  const listadoServicio = await fetch(
-    `https://panel.quickgold.es/ListadoCiudadesServicio/listadoCiudadesServicioOro.json`
-  );
-  const listadoCiudadesServicios = await listadoServicio.json();
 
   const menu = await fetch(
     `https://panel.quickgold.es/wp-json/menus/v1/menus/2219`
@@ -117,7 +104,6 @@ export async function getStaticProps() {
     props: {
       menu_list,
       listadoUrlCiudad,
-      listadoCiudadesServicios,
       ciudad,
     },
     revalidate: 1,

@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "./section_uno.module.css";
-import useScreenSize from "@/utilities/useScreenSize";
 import Image from "next/image";
 import { Link } from "react-scroll";
-//import PopUpCiudades from "@/componentes/PopUpCiudades/PopUpCiudades";
 
 const Section_uno = ({ ciudad }) => {
   return (

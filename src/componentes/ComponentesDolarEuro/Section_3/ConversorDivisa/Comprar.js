@@ -8,7 +8,7 @@ const Comprar = ({ ListadoCiudades }) => {
   const [ciudad, setCiudad] = useState("");
   const [ciudadOpen, setCiudadOpen] = useState(null);
   const [selectDivisa, setSelectDivisa] = useState(true);
-  const datosCiudad = ListadoCiudades.arrayMarker;
+  const datosCiudad = ListadoCiudades?.arrayMarker;
   const [data, setData] = useState([]);
   //const datos = data;
   //console.log(datos.splice(0, 1, "USD"));
@@ -78,7 +78,7 @@ const Comprar = ({ ListadoCiudades }) => {
               }
             >
               <ul>
-                {datosCiudad.map((ciudad, i) => (
+                {datosCiudad?.map((ciudad, i) => (
                   <li
                     key={i}
                     className={styles.listaCiudad}
@@ -110,7 +110,7 @@ const Comprar = ({ ListadoCiudades }) => {
               setOpened(false);
             }}
           >
-            {datosCiudad.map((ciudad, i) => (
+            {datosCiudad?.map((ciudad, i) => (
               <option key={i} value={ciudad.nombreMinusculas}>
                 {ciudad.nombre}
               </option>

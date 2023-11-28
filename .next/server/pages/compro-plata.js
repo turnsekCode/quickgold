@@ -166,6 +166,21 @@ module.exports = {
 
 /***/ }),
 
+/***/ 8874:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"main": "Home_main__EtNt2",
+	"contenedorMapaVisible": "Home_contenedorMapaVisible__piXgh",
+	"contenedorSeccionUnoDos": "Home_contenedorSeccionUnoDos__pegsP",
+	"contenedorMapaVisibleCasaCambio": "Home_contenedorMapaVisibleCasaCambio__A5Ti8",
+	"contenedorBannerVisible": "Home_contenedorBannerVisible__opy6k"
+};
+
+
+/***/ }),
+
 /***/ 7186:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -187,7 +202,7 @@ const BotonLamarFijo = ()=>{
         className: (_botonLamarFijo_module_css__WEBPACK_IMPORTED_MODULE_2___default().botonLlamar),
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
             title: "Tel\xe9fono",
-            href: "tel:900 373 629",
+            href: "tel:900373629",
             children: "LLAMA GRATIS"
         })
     });
@@ -570,7 +585,6 @@ const SelectCiudad = ({ listadoUrlCiudad , ciudad  })=>{
 
 
 
-
 const Section_tres = ({ ciudad , listadoUrlCiudad  })=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("section", {
         className: (sectionTres_module_default()).contenedorSectionTres,
@@ -730,7 +744,6 @@ const Section_cuatro = ({ ciudad  })=>{
 var sectionSeis_module = __webpack_require__(6152);
 var sectionSeis_module_default = /*#__PURE__*/__webpack_require__.n(sectionSeis_module);
 ;// CONCATENATED MODULE: ./src/componentes/Compro-plata/Section_6/Section_seis.js
-
 
 
 
@@ -992,14 +1005,11 @@ const Section_seis_mobil = ({ ciudad  })=>{
 // EXTERNAL MODULE: ./src/componentes/Compro-plata/Section_7/sectionSiete.module.css
 var sectionSiete_module = __webpack_require__(8148);
 var sectionSiete_module_default = /*#__PURE__*/__webpack_require__.n(sectionSiete_module);
-// EXTERNAL MODULE: ./src/componentes/SelectorCiudadesServicio/SelectorCiudadesServicio.js
-var SelectorCiudadesServicio = __webpack_require__(5709);
 ;// CONCATENATED MODULE: ./src/componentes/Compro-plata/Section_7/Section_siete.js
 
 
 
-
-const Section_siete = ({ ciudad , listadoCiudadesServicios  })=>{
+const Section_siete = ()=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("section", {
         className: (sectionSiete_module_default()).contenedorSectionSeis,
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -1156,7 +1166,6 @@ function ComproPlata({ menu_list , ciudad , listadoUrlCiudad  }) {
 }
 const idPaginaWp = "377";
 const apiGeneral = "13848";
-//const idWp = "13848";
 async function getStaticProps() {
     //datos de los campos personalizados de la ciudad
     const ciudad1 = await fetch(`https://panel.quickgold.es/wp-json/acf/v3/pages/${idPaginaWp}`);
@@ -1166,10 +1175,7 @@ async function getStaticProps() {
     const Listado = await fetch(`https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`);
     const listadoUrlCiudad = await Listado.json();
     const general = await res.json();
-    /*const response = await fetch(
-    `https://quickgold.es/wp-json/wp/v2/pages/${idWp}`
-  );
-  const dataIdWp = await response.json();*/ const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
+    const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
     const menu_list = await menu.json();
     return {
         props: {
@@ -1607,7 +1613,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,9206,3730], () => (__webpack_exec__(4031)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,9206], () => (__webpack_exec__(4031)));
 module.exports = __webpack_exports__;
 
 })();

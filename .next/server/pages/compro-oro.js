@@ -118,6 +118,21 @@ module.exports = {
 
 /***/ }),
 
+/***/ 8874:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"main": "Home_main__EtNt2",
+	"contenedorMapaVisible": "Home_contenedorMapaVisible__piXgh",
+	"contenedorSeccionUnoDos": "Home_contenedorSeccionUnoDos__pegsP",
+	"contenedorMapaVisibleCasaCambio": "Home_contenedorMapaVisibleCasaCambio__A5Ti8",
+	"contenedorBannerVisible": "Home_contenedorBannerVisible__opy6k"
+};
+
+
+/***/ }),
+
 /***/ 7186:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -139,7 +154,7 @@ const BotonLamarFijo = ()=>{
         className: (_botonLamarFijo_module_css__WEBPACK_IMPORTED_MODULE_2___default().botonLlamar),
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
             title: "Tel\xe9fono",
-            href: "tel:900 373 629",
+            href: "tel:900373629",
             children: "LLAMA GRATIS"
         })
     });
@@ -185,8 +200,6 @@ var external_react_ = __webpack_require__(6689);
 // EXTERNAL MODULE: ./src/componentes/Compro-oro/Section_1/section_uno.module.css
 var section_uno_module = __webpack_require__(3588);
 var section_uno_module_default = /*#__PURE__*/__webpack_require__.n(section_uno_module);
-// EXTERNAL MODULE: ./src/utilities/useScreenSize.js
-var useScreenSize = __webpack_require__(771);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(5675);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
@@ -198,8 +211,6 @@ var external_react_scroll_ = __webpack_require__(3094);
 
 
 
-
-//import PopUpCiudades from "@/componentes/PopUpCiudades/PopUpCiudades";
 const Section_uno = ({ ciudad  })=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         className: (section_uno_module_default()).contenedorSectionUno,
@@ -691,14 +702,11 @@ const Section_cinco = ({ ciudad  })=>{
 // EXTERNAL MODULE: ./src/componentes/Compro-oro/Section_6/sectionSeis.module.css
 var sectionSeis_module = __webpack_require__(4988);
 var sectionSeis_module_default = /*#__PURE__*/__webpack_require__.n(sectionSeis_module);
-// EXTERNAL MODULE: ./src/componentes/SelectorCiudadesServicio/SelectorCiudadesServicio.js
-var SelectorCiudadesServicio = __webpack_require__(5709);
 ;// CONCATENATED MODULE: ./src/componentes/Compro-oro/Section_6/Section_seis.js
 
 
 
-
-const Section_seis = ({ listadoCiudadesServicios  })=>{
+const Section_seis = ()=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("section", {
         className: (sectionSeis_module_default()).contenedorSectionSeis,
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -831,7 +839,7 @@ const schema = {
         contactType: "info@quickgold.es"
     }
 };
-function ComproOro({ menu_list , listadoUrlCiudad , listadoCiudadesServicios , ciudad  }) {
+function ComproOro({ menu_list , listadoUrlCiudad , ciudad  }) {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx((next_seo_default()), {
@@ -895,7 +903,6 @@ function ComproOro({ menu_list , listadoUrlCiudad , listadoCiudadesServicios , c
                         ciudad: ciudad
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx(Section_6_Section_seis, {
-                        listadoCiudadesServicios: listadoCiudadesServicios,
                         ciudad: ciudad
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx(BotonLamarFijo/* default */.Z, {
@@ -910,8 +917,6 @@ const idPaginaWp = "326";
 async function getStaticProps() {
     const Listado = await fetch(`https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`);
     const listadoUrlCiudad = await Listado.json();
-    const listadoServicio = await fetch(`https://panel.quickgold.es/ListadoCiudadesServicio/listadoCiudadesServicioOro.json`);
-    const listadoCiudadesServicios = await listadoServicio.json();
     const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
     const menu_list = await menu.json();
     const ciudad1 = await fetch(`https://panel.quickgold.es/wp-json/acf/v3/pages/${idPaginaWp}`);
@@ -921,37 +926,11 @@ async function getStaticProps() {
         props: {
             menu_list,
             listadoUrlCiudad,
-            listadoCiudadesServicios,
             ciudad
         },
         revalidate: 1
     };
 }
-
-
-/***/ }),
-
-/***/ 771:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-if (false) { var height1, width1; }
-const useScreenSize = ()=>{
-    const [width, setWidth] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(width1);
-    const [height, setHeight] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(height1);
-    if (false) {}
-    return {
-        width,
-        height
-    };
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (useScreenSize);
 
 
 /***/ }),
@@ -1379,7 +1358,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,9206,3730], () => (__webpack_exec__(145)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,9206], () => (__webpack_exec__(145)));
 module.exports = __webpack_exports__;
 
 })();

@@ -61,8 +61,6 @@ export default function JoyeriaOcasion({
 }
 const idPaginaWp = "12771";
 const apiGeneral = "13848";
-
-//const idWp = "13848";
 export async function getStaticProps() {
   //datos de los campos personalizados de la ciudad
   const ciudad1 = await fetch(
@@ -74,10 +72,6 @@ export async function getStaticProps() {
     `https://panel.quickgold.es/wp-json/acf/v3/pages/${apiGeneral}`
   );
   const general = await res.json();
-  /*const response = await fetch(
-    `https://quickgold.es/wp-json/wp/v2/pages/${idWp}`
-  );
-  const dataIdWp = await response.json();*/
   const menu = await fetch(
     `https://panel.quickgold.es/wp-json/menus/v1/menus/2219`
   );

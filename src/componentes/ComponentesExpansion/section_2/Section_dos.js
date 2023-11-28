@@ -11,14 +11,14 @@ const Section_dos = () => {
         </h2>
         <Image
           src="/assets/img/evolucionExpansion.png"
-          alt="Compro oro"
+          alt="Expansion quickgold"
           className={styles.evolucionExpansion}
           width={1072}
           height={379}
         />
         <Image
           src="/assets/img/evolucionExpansionMobil.png"
-          alt="Compro oro"
+          alt="Expansion quickgold"
           className={styles.evolucionExpansionMobil}
           width={357}
           height={524}

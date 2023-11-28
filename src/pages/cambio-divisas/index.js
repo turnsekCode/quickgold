@@ -1,11 +1,8 @@
 import Head from "next/head";
-//import Image from "next/image";
-import dynamic from "next/dynamic";
 import Breadcrumbs from "@/componentes/BreadcrumbsRaiz/Breadcrumbs.js";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import styles from "@/styles/Home.module.css";
 import Layout from "@/componentes/Layout/Layout";
-import { useInView } from "react-intersection-observer";
 import SEO from "@bradgarropy/next-seo";
 import Section_uno from "@/componentes/Cambio-divisas/Section_1/Section_uno";
 import Section_dos from "@/componentes/Cambio-divisas/Section_2/Section_dos";
@@ -21,9 +18,7 @@ export default function CambioDivisas({
   ciudad,
   divisas_list,
   listadoUrlCiudad,
-  listadoCiudadesServicios,
 }) {
-  const { ref: myRef, inView, entry } = useInView();
   return (
     <>
       <SEO
@@ -60,22 +55,15 @@ export default function CambioDivisas({
           <SectionCuatro ciudad={ciudad} />
           <BotonLamarFijo ciudad={ciudad} />
         </div>
-
         <Section_cinco ciudad={ciudad} />
         <Section_cinco_mobil ciudad={ciudad} />
-        <Section_seis
-          ciudad={ciudad}
-          divisas_list={divisas_list}
-          listadoCiudadesServicios={listadoCiudadesServicios}
-        />
+        <Section_seis ciudad={ciudad} divisas_list={divisas_list} />
       </Layout>
     </>
   );
 }
 const idPaginaWp = "404";
 const apiGeneral = "13848";
-
-//const idWp = "13848";
 export async function getStaticProps() {
   //datos de los campos personalizados de la ciudad
   const ciudad1 = await fetch(
@@ -87,16 +75,10 @@ export async function getStaticProps() {
     `https://panel.quickgold.es/wp-json/acf/v3/pages/${apiGeneral}`
   );
   const general = await res.json();
-  /*const response = await fetch(
-    `https://quickgold.es/wp-json/wp/v2/pages/${idWp}`
-  );
-  const dataIdWp = await response.json();*/
-
   const menu = await fetch(
     `https://panel.quickgold.es/wp-json/menus/v1/menus/2219`
   );
   const menu_list = await menu.json();
-
   const divisas = await fetch(
     `https://panel.quickgold.es/archivos-cache/Fixingmadrid.txt`
   );
@@ -105,10 +87,6 @@ export async function getStaticProps() {
     `https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`
   );
   const listadoUrlCiudad = await Listado.json();
-  const listadoServicio = await fetch(
-    `https://panel.quickgold.es/ListadoCiudadesServicio/listadoCiudadesServicioDivisa.json`
-  );
-  const listadoCiudadesServicios = await listadoServicio.json();
 
   return {
     props: {
@@ -116,7 +94,6 @@ export async function getStaticProps() {
       ciudad,
       divisas_list,
       listadoUrlCiudad,
-      listadoCiudadesServicios,
     },
     revalidate: 1,
   };

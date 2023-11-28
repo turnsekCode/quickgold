@@ -13,7 +13,7 @@ const Section_dos = () => {
           divisas, hemos conseguido crear un sistema de franquicias estable y
           con un futuro prometedor.
           <br></br> <br></br>
-          Ya contamos con más de 35 tiendas en España y seguimos expandiéndonos
+          Ya contamos con más de 60 tiendas en España y seguimos expandiéndonos
           por todo el territorio con la misión de hacer cumplir nuestros
           objetivos de crecimiento. Para ello, trabajamos cada día enfocándonos
           en ofrecer el mejor servicio y apoyo a nuestros clientes para que

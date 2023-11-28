@@ -129,7 +129,36 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5288:
+/***/ 8410:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"contenedorSelector": "SelectorCiudades_contenedorSelector__3WJdv",
+	"contenedorSelectorUl": "SelectorCiudades_contenedorSelectorUl__LJDct",
+	"contenedorSelectorUlActivo": "SelectorCiudades_contenedorSelectorUlActivo__beYh_",
+	"contenedorSelectorListado": "SelectorCiudades_contenedorSelectorListado__jd_aw"
+};
+
+
+/***/ }),
+
+/***/ 8874:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"main": "Home_main__EtNt2",
+	"contenedorMapaVisible": "Home_contenedorMapaVisible__piXgh",
+	"contenedorSeccionUnoDos": "Home_contenedorSeccionUnoDos__pegsP",
+	"contenedorMapaVisibleCasaCambio": "Home_contenedorMapaVisibleCasaCambio__A5Ti8",
+	"contenedorBannerVisible": "Home_contenedorBannerVisible__opy6k"
+};
+
+
+/***/ }),
+
+/***/ 237:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -161,8 +190,20 @@ var section_uno_module_default = /*#__PURE__*/__webpack_require__.n(section_uno_
 var LocationOnOutlined_ = __webpack_require__(3804);
 // EXTERNAL MODULE: external "react-scroll"
 var external_react_scroll_ = __webpack_require__(3094);
-// EXTERNAL MODULE: ./src/utilities/useScreenSize.js
-var useScreenSize = __webpack_require__(771);
+;// CONCATENATED MODULE: ./src/utilities/useScreenSize.js
+
+if (false) { var height1, width1; }
+const useScreenSize = ()=>{
+    const [width, setWidth] = (0,external_react_.useState)(width1);
+    const [height, setHeight] = (0,external_react_.useState)(height1);
+    if (false) {}
+    return {
+        width,
+        height
+    };
+};
+/* harmony default export */ const utilities_useScreenSize = (useScreenSize);
+
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(5675);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
@@ -176,7 +217,7 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 
 
 const Section_uno = ()=>{
-    const { width  } = (0,useScreenSize/* default */.Z)();
+    const { width  } = utilities_useScreenSize();
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         className: (section_uno_module_default()).contenedorSectionUno,
         children: [
@@ -197,7 +238,7 @@ const Section_uno = ()=>{
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: (section_uno_module_default()).botones,
                         children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                            href: "tel:900 373 629",
+                            href: "tel:900373629",
                             title: "Tel\xe9fono",
                             children: "llama gratis al 900 373 629"
                         })
@@ -245,7 +286,7 @@ const Comprar = ({ ListadoCiudades  })=>{
     const [ciudad, setCiudad] = (0,external_react_.useState)("");
     const [ciudadOpen, setCiudadOpen] = (0,external_react_.useState)(null);
     const [selectDivisa, setSelectDivisa] = (0,external_react_.useState)(true);
-    const datosCiudad = ListadoCiudades.arrayMarker;
+    const datosCiudad = ListadoCiudades?.arrayMarker;
     const [data, setData] = (0,external_react_.useState)([]);
     //const datos = data;
     //console.log(datos.splice(0, 1, "USD"));
@@ -324,7 +365,7 @@ const Comprar = ({ ListadoCiudades  })=>{
                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                     className: ciudadOpen ? `${(estilosConversor_module_default()).contenedorOptions} ${(estilosConversor_module_default()).contenedorOptionsActivo}` : `${(estilosConversor_module_default()).contenedorOptions}`,
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                        children: datosCiudad.map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                        children: datosCiudad?.map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
                                                 className: (estilosConversor_module_default()).listaCiudad,
                                                 onClick: (e)=>{
                                                     captureHabitual(e);
@@ -353,7 +394,7 @@ const Comprar = ({ ListadoCiudades  })=>{
                                 setSelectDivisa(true);
                                 setOpened(false);
                             },
-                            children: datosCiudad.map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("option", {
+                            children: datosCiudad?.map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("option", {
                                     value: ciudad.nombreMinusculas,
                                     children: ciudad.nombre
                                 }, i))
@@ -571,7 +612,7 @@ const SectionCuatro = ({ ListadoCiudades , setCiudadOpen , ciudadOpen  })=>{
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                     className: (sectionCuatro_module_default()).bloqueDer,
                     children: /*#__PURE__*/ jsx_runtime_.jsx(ConversorDivisa_Comprar, {
-                        ListadoCiudades: ListadoCiudades,
+                        //ListadoCiudades={ListadoCiudades}
                         setCiudadOpen: setCiudadOpen,
                         ciudadOpen: ciudadOpen
                     })
@@ -813,8 +854,47 @@ const Section_cinco = ({ ciudad  })=>{
 // EXTERNAL MODULE: ./src/componentes/ComponentesDolarEuro/Section_6/sectionSeis.module.css
 var sectionSeis_module = __webpack_require__(6549);
 var sectionSeis_module_default = /*#__PURE__*/__webpack_require__.n(sectionSeis_module);
-// EXTERNAL MODULE: ./src/componentes/SelectorCiudadesServicio/SelectorCiudadesServicio.js
-var SelectorCiudadesServicio = __webpack_require__(5709);
+// EXTERNAL MODULE: ./src/componentes/SelectorCiudadesServicio/SelectorCiudades.module.css
+var SelectorCiudades_module = __webpack_require__(8410);
+var SelectorCiudades_module_default = /*#__PURE__*/__webpack_require__.n(SelectorCiudades_module);
+;// CONCATENATED MODULE: ./src/componentes/SelectorCiudadesServicio/SelectorCiudadesServicio.js
+
+
+
+
+const SelectorCiudadesServicio = ({ listadoCiudadesServicios  })=>{
+    const listadoCiudades = listadoCiudadesServicios?.arrayMarker;
+    const [selectOpen, setSelectOpen] = (0,external_react_.useState)(null);
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: (SelectorCiudades_module_default()).contenedorSelector,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                onClick: ()=>{
+                    setSelectOpen(!selectOpen);
+                },
+                children: [
+                    "Selecciona tienda ",
+                    /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowDown_default()), {})
+                ]
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("ul", {
+                className: selectOpen ? `${(SelectorCiudades_module_default()).contenedorSelectorUl} ${(SelectorCiudades_module_default()).contenedorSelectorUlActivo}` : `${(SelectorCiudades_module_default()).contenedorSelectorUl}`,
+                children: listadoCiudades?.map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        onClick: ()=>{
+                            setSelectOpen(false);
+                        },
+                        href: ciudad.url,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                            className: (SelectorCiudades_module_default()).contenedorSelectorListado,
+                            children: ciudad.ciudad
+                        })
+                    }, i))
+            })
+        ]
+    });
+};
+/* harmony default export */ const SelectorCiudadesServicio_SelectorCiudadesServicio = (SelectorCiudadesServicio);
+
 ;// CONCATENATED MODULE: ./src/componentes/ComponentesDolarEuro/Section_6/Section_seis.js
 
 
@@ -838,7 +918,7 @@ const Section_seis = ({ listadoCiudadesServicios  })=>{
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
                             className: (sectionSeis_module_default()).SelectCiudades,
-                            children: /*#__PURE__*/ jsx_runtime_.jsx(SelectorCiudadesServicio/* default */.Z, {
+                            children: /*#__PURE__*/ jsx_runtime_.jsx(SelectorCiudadesServicio_SelectorCiudadesServicio, {
                                 listadoCiudadesServicios: listadoCiudadesServicios
                             })
                         })
@@ -956,48 +1036,29 @@ const idPaginaWp = "16708";
 async function getStaticProps() {
     const ciudad1 = await fetch(`https://panel.quickgold.es/wp-json/acf/v3/pages/${idPaginaWp}`);
     const ciudad = await ciudad1.json();
-    const Listado = await fetch(`https://panel.quickgold.es/ListadoCiudadesSelectorCalculadora/listadoCiudades.json`);
-    const ListadoCiudades = await Listado.json();
-    const listadoServicio = await fetch(`https://panel.quickgold.es/ListadoCiudadesServicio/listadoCiudadesServicioDivisa.json`);
-    const listadoCiudadesServicios = await listadoServicio.json();
+    {
+    /* const Listado = await fetch(
+    `https://panel.quickgold.es/ListadoCiudadesSelectorCalculadora/listadoCiudades.json`
+  );
+  const ListadoCiudades = await Listado.json();
+
+   const listadoServicio = await fetch(
+    `https://panel.quickgold.es/ListadoCiudadesServicio/listadoCiudadesServicioDivisa.json`
+  );
+const listadoCiudadesServicios = await listadoServicio.json();*/ }
     const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
     const menu_list = await menu.json();
     // Pass data to the page via props
     return {
         props: {
             menu_list,
-            ListadoCiudades,
-            listadoCiudadesServicios,
+            //ListadoCiudades,
+            //listadoCiudadesServicios,
             ciudad
         },
         revalidate: 1
     };
 }
-
-
-/***/ }),
-
-/***/ 771:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-if (false) { var height1, width1; }
-const useScreenSize = ()=>{
-    const [width, setWidth] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(width1);
-    const [height, setHeight] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(height1);
-    if (false) {}
-    return {
-        width,
-        height
-    };
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (useScreenSize);
 
 
 /***/ }),
@@ -1233,7 +1294,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,9206,3730], () => (__webpack_exec__(5288)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,9206], () => (__webpack_exec__(237)));
 module.exports = __webpack_exports__;
 
 })();

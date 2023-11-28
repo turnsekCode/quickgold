@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "./sectionCuatro.module.css";
 import Image from "next/image";
-import Link from "next/link";
 import SelectCiudad from "../ComponenteSelectCiudades/SelectCiudad";
 
 const Section_cuatro = ({ ciudad, listadoUrlCiudad }) => {
@@ -23,7 +22,7 @@ const Section_cuatro = ({ ciudad, listadoUrlCiudad }) => {
           src="/assets/img/adornoCalculadoraDivisa.png"
           width={227}
           height={218}
-          alt="cambio divisas"
+          alt="cambio de divisas"
         />
       </div>
       <div className={styles.bloqueDerMobil}>

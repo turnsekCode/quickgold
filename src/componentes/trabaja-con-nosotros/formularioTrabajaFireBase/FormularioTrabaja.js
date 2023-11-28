@@ -14,7 +14,7 @@ import { useState } from "react";
 import { sendContactForm } from "../../../lib/apiTrabaja";
 import { ChakraProvider } from "@chakra-ui/react";
 import { file } from "../../../utilities/fireBaseConfig";
-import { v4 } from "uuid";
+//import { v4 } from "uuid";
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 
 const initValues = {

@@ -158,7 +158,7 @@ const BotonLamarFijo = ()=>{
         className: (_botonLamarFijo_module_css__WEBPACK_IMPORTED_MODULE_2___default().botonLlamar),
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
             title: "Tel\xe9fono",
-            href: "tel:900 373 629",
+            href: "tel:900373629",
             children: "LLAMA GRATIS"
         })
     });
@@ -278,7 +278,6 @@ var sectionTres_module_default = /*#__PURE__*/__webpack_require__.n(sectionTres_
 var next_link = __webpack_require__(1664);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 ;// CONCATENATED MODULE: ./src/componentes/Empeno-de-joyas/Section_3/Section_tres.js
-
 
 
 
@@ -594,7 +593,7 @@ const Section_seis_Section_cuatro = ({ ciudad , listadoUrlCiudad  })=>{
                             src: "/assets/img/adornoCalculadoraEmpeno.png",
                             width: 200,
                             height: 192,
-                            alt: "cambio divisas"
+                            alt: "Empe\xf1o de joyas"
                         })
                     ]
                 })
@@ -689,7 +688,6 @@ function EmpenoJoyas({ menu_list , ciudad , listadoUrlCiudad  }) {
 }
 const idPaginaWp = "7692";
 const apiGeneral = "13848";
-//const idWp = "13848";
 async function getStaticProps() {
     //datos de los campos personalizados de la ciudad
     const ciudad1 = await fetch(`https://panel.quickgold.es/wp-json/acf/v3/pages/${idPaginaWp}`);
@@ -697,10 +695,7 @@ async function getStaticProps() {
     //fin datos de los campos personalizados de la ciudad
     const res = await fetch(`https://panel.quickgold.es/wp-json/acf/v3/pages/${apiGeneral}`);
     const general = await res.json();
-    /*const response = await fetch(
-    `https://quickgold.es/wp-json/wp/v2/pages/${idWp}`
-  );
-  const dataIdWp = await response.json();*/ const Listado = await fetch(`https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`);
+    const Listado = await fetch(`https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`);
     const listadoUrlCiudad = await Listado.json();
     const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
     const menu_list = await menu.json();

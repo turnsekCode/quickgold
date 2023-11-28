@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./sectionTres.module.css";
-import Image from "next/image";
 import SelectCiudad from "../ComponenteSelectCiudades/SelectCiudad";
 
 const Section_tres = ({ ciudad, listadoUrlCiudad }) => {

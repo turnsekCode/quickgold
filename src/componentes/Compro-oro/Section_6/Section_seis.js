@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./sectionSeis.module.css";
-import SelectorCiudadesServicio from "@/componentes/SelectorCiudadesServicio/SelectorCiudadesServicio";
 
-const Section_seis = ({ listadoCiudadesServicios }) => {
+const Section_seis = () => {
   return (
     <section className={styles.contenedorSectionSeis}>
       <div className={styles.contenedorSectionSeisMargen}>

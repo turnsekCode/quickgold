@@ -58,7 +58,7 @@
     border-radius: 8px;
 }
 .madridMobil{
-    display: none;
+
     object-fit: contain;
     border-radius: 8px;
 }
@@ -167,9 +167,7 @@
         padding: 13px 5px;
         text-transform: uppercase;
     }
-        .ImagenBannerMobil{
-            display: none;
-        }
+       
         .madridMobil {
             display: block;
         }

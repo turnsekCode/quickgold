@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./section_uno.module.css";
-import Image from "next/image";
 
 const Section_uno = () => {
   return (

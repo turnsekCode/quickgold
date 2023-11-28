@@ -1,20 +1,10 @@
 import React from "react";
 import styles from "./sectionSiete.module.css";
-import SelectorCiudadesServicio from "@/componentes/SelectorCiudadesServicio/SelectorCiudadesServicio";
 
-const Section_siete = ({ ciudad, listadoCiudadesServicios }) => {
+const Section_siete = () => {
   return (
     <section className={styles.contenedorSectionSeis}>
       <div className={styles.contenedorSectionSeisMargen}>
-        {/* <h5 className={styles.tituloMobil}>Nuestras tiendas compro plata</h5>
-         <div className={styles.BannerSelectorCiudad}>
-          <h5>Nuestras tiendas compro plata</h5>
-          <div className={styles.SelectCiudades}>
-            <SelectorCiudadesServicio
-              listadoCiudadesServicios={listadoCiudadesServicios}
-            />
-          </div>
-  </div>*/}
         <div className={styles.contenedorTexto}>
           <h5>Los contrastes de la plata</h5>
           <p>

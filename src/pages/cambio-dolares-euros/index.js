@@ -88,15 +88,17 @@ export async function getStaticProps() {
     `https://panel.quickgold.es/wp-json/acf/v3/pages/${idPaginaWp}`
   );
   const ciudad = await ciudad1.json();
-  const Listado = await fetch(
+  {
+    /* const Listado = await fetch(
     `https://panel.quickgold.es/ListadoCiudadesSelectorCalculadora/listadoCiudades.json`
   );
   const ListadoCiudades = await Listado.json();
 
-  const listadoServicio = await fetch(
+   const listadoServicio = await fetch(
     `https://panel.quickgold.es/ListadoCiudadesServicio/listadoCiudadesServicioDivisa.json`
   );
-  const listadoCiudadesServicios = await listadoServicio.json();
+const listadoCiudadesServicios = await listadoServicio.json();*/
+  }
 
   const menu = await fetch(
     `https://panel.quickgold.es/wp-json/menus/v1/menus/2219`
@@ -107,8 +109,8 @@ export async function getStaticProps() {
   return {
     props: {
       menu_list,
-      ListadoCiudades,
-      listadoCiudadesServicios,
+      //ListadoCiudades,
+      //listadoCiudadesServicios,
       ciudad,
     },
     revalidate: 1,

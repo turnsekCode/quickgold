@@ -52,10 +52,7 @@ export default function ComproPlata({ menu_list, ciudad, listadoUrlCiudad }) {
         <Section_cuatro ciudad={ciudad} />
         <Section_Seis ciudad={ciudad} />
         <Section_seis_mobil ciudad={ciudad} />
-        <Section_siete
-          ciudad={ciudad}
-          //listadoCiudadesServicios={listadoCiudadesServicios}
-        />
+        <Section_siete ciudad={ciudad} />
         <BotonLamarFijo ciudad={ciudad} />
       </Layout>
     </>
@@ -63,8 +60,6 @@ export default function ComproPlata({ menu_list, ciudad, listadoUrlCiudad }) {
 }
 const idPaginaWp = "377";
 const apiGeneral = "13848";
-
-//const idWp = "13848";
 export async function getStaticProps() {
   //datos de los campos personalizados de la ciudad
   const ciudad1 = await fetch(
@@ -80,11 +75,6 @@ export async function getStaticProps() {
   );
   const listadoUrlCiudad = await Listado.json();
   const general = await res.json();
-  /*const response = await fetch(
-    `https://quickgold.es/wp-json/wp/v2/pages/${idWp}`
-  );
-  const dataIdWp = await response.json();*/
-
   const menu = await fetch(
     `https://panel.quickgold.es/wp-json/menus/v1/menus/2219`
   );

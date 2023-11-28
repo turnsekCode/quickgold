@@ -18,11 +18,6 @@ const SelectCiudad = ({ listadoUrlCiudad, ciudad }) => {
         <p className={styles.bloqueInferiorTexto1}>
           ¿Te gustaría conocer el precio de la plata?
         </p>
-        {/*<p className={styles.bloqueInferiorTexto2}>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus.
-  </p>*/}
         <p className={styles.bloqueInferiorTexto3}>
           Selecciona tu ciudad y haz clic en{" "}
           <span>conoce el precio de la plata para saberlo.</span>

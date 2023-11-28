@@ -153,7 +153,6 @@ export default function MapaTiendas({
     </>
   );
 }
-//const idWp = "13848";
 const idAlcladehenares = "alcaladehenares";
 const idAlcobendas = "alcobendas";
 const idAlicante = "alicante";

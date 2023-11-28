@@ -21,7 +21,6 @@ const FooterMobil = () => {
           rel="noopener noreferrer"
         >
           <Image
-            loading="lazy"
             src="/assets/img/logo.png"
             alt="Quickgold Logo"
             className={styles.logo}

@@ -127,8 +127,15 @@ const Section_uno = ({ ciudad , listadoUrlCiudad  })=>{
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: (section_uno_module_default()).bloqueIzq,
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                        children: "Invierte en lingotes de oro con quickgold"
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h1", {
+                        children: [
+                            "Invierte en lingotes de oro con",
+                            " ",
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                className: (section_uno_module_default()).linea,
+                                children: "quickgold"
+                            })
+                        ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                         children: "Aprovecha la oportunidad de obtener un activo cuyo valor est\xe1 asegurado y preserve su patrimonio de la mejor manera: ahorrando en oro f\xedsico."
@@ -153,7 +160,7 @@ const Section_uno = ({ ciudad , listadoUrlCiudad  })=>{
                 className: (section_uno_module_default()).bloqueDer,
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     src: "/assets/img/imagenInvertirEnOro.png",
-                    alt: "Compro oro",
+                    alt: "Invertir en oro",
                     className: (section_uno_module_default()).madridMobil,
                     width: 480,
                     height: 364,
@@ -637,7 +644,6 @@ function InvertirEnOro({ menu_list , ciudad , listadoUrlCiudad  }) {
 }
 const idPaginaWp = "2705";
 const apiGeneral = "13848";
-//const idWp = "13848";
 async function getStaticProps() {
     //datos de los campos personalizados de la ciudad
     const ciudad1 = await fetch(`https://panel.quickgold.es/wp-json/acf/v3/pages/${idPaginaWp}`);
@@ -645,10 +651,7 @@ async function getStaticProps() {
     //fin datos de los campos personalizados de la ciudad
     const res = await fetch(`https://panel.quickgold.es/wp-json/acf/v3/pages/${apiGeneral}`);
     const general = await res.json();
-    /*const response = await fetch(
-    `https://quickgold.es/wp-json/wp/v2/pages/${idWp}`
-  );
-  const dataIdWp = await response.json();*/ const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
+    const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
     const menu_list = await menu.json();
     const ciudadPopUp = await fetch(`https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`);
     const listadoUrlCiudad = await ciudadPopUp.json();

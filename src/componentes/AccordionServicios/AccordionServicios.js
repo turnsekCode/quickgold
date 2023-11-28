@@ -54,12 +54,6 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 }));
 
 export default function AccordionServicios({ ciudad }) {
-  {
-    /* useEffect(() => {
-    const url = window.location.href;
-    console.log(url);
-  }, []);*/
-  }
   const [expanded, setExpanded] = React.useState("panel3");
 
   const handleChange = (panel) => (event, newExpanded) => {

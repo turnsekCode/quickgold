@@ -33,7 +33,7 @@ const Section_cuatro = ({ ciudad, listadoUrlCiudad }) => {
             src="/assets/img/adornoCalculadoraEmpeno.png"
             width={200}
             height={192}
-            alt="cambio divisas"
+            alt="Empeño de joyas"
           />
         </div>
       </div>

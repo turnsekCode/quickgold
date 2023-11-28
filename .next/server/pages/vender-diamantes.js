@@ -417,7 +417,6 @@ var sectionCuatro_module_default = /*#__PURE__*/__webpack_require__.n(sectionCua
 
 
 
-
 const Section_cuatro = ({ ciudad  })=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         className: (sectionCuatro_module_default()).contenedorSectionCinco,

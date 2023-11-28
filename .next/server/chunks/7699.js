@@ -826,7 +826,6 @@ const FooterMobil = ()=>{
                     title: "texto",
                     rel: "noopener noreferrer",
                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        loading: "lazy",
                         src: "/assets/img/logo.png",
                         alt: "Quickgold Logo",
                         className: (footerMobil_module_default()).logo,

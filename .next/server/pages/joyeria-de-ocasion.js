@@ -129,8 +129,6 @@ var external_react_ = __webpack_require__(6689);
 // EXTERNAL MODULE: ./src/componentes/Joyeria-de-ocasion/Section_1/section_uno.module.css
 var section_uno_module = __webpack_require__(8292);
 var section_uno_module_default = /*#__PURE__*/__webpack_require__.n(section_uno_module);
-// EXTERNAL MODULE: ./src/utilities/useScreenSize.js
-var useScreenSize = __webpack_require__(771);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(5675);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
@@ -142,9 +140,7 @@ var SelectorCiudades = __webpack_require__(8100);
 
 
 
-
 const Section_uno = ({ ciudad , listadoUrlCiudad  })=>{
-    const { width  } = (0,useScreenSize/* default */.Z)();
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         className: (section_uno_module_default()).contenedorSectionUno,
         children: [
@@ -173,33 +169,16 @@ const Section_uno = ({ ciudad , listadoUrlCiudad  })=>{
                     })
                 ]
             }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: (section_uno_module_default()).bloqueDer,
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                        target: "_blank",
-                        href: "https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            style: {
-                                width: "100%"
-                            },
-                            src: "/assets/img/Banner-wallapop-joyeria-ocasion-black.png",
-                            alt: "Joyer\xeda de ocasi\xf3n",
-                            className: (section_uno_module_default()).ImagenBannerMobil,
-                            width: 325,
-                            height: 248,
-                            priority: true
-                        })
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        src: "/assets/img/imagenJoyeriaOcasion.png",
-                        alt: "Joyer\xeda de ocasi\xf3n",
-                        className: (section_uno_module_default()).madridMobil,
-                        width: 360,
-                        height: 254,
-                        priority: true
-                    })
-                ]
+                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    src: "/assets/img/imagenJoyeriaOcasion.png",
+                    alt: "Joyer\xeda de ocasi\xf3n",
+                    className: (section_uno_module_default()).madridMobil,
+                    width: 360,
+                    height: 254,
+                    priority: true
+                })
             })
         ]
     });
@@ -549,17 +528,27 @@ var sectionCuatro_module_default = /*#__PURE__*/__webpack_require__.n(sectionCua
 
 const Section_cuatro = ()=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("section", {
-        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
             target: "_blank",
             href: "https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956",
-            children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                src: "/assets/img/Banner-wallapop-Black.png",
-                alt: "Joyer\xeda de ocasi\xf3n",
-                className: (sectionCuatro_module_default()).ImagenBanner,
-                width: 1280,
-                height: 356,
-                priority: true
-            })
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    src: "/assets/img/Banner-wallapop.png",
+                    alt: "Joyer\xeda de ocasi\xf3n",
+                    className: (sectionCuatro_module_default()).ImagenBanner,
+                    width: 1280,
+                    height: 356,
+                    priority: true
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    src: "/assets/img/Banner-wallapop-joyeria-ocasion-mobil.png",
+                    alt: "Joyer\xeda de ocasi\xf3n",
+                    className: (sectionCuatro_module_default()).ImagenBannerMobil,
+                    width: 325,
+                    height: 248,
+                    priority: true
+                })
+            ]
         })
     });
 };
@@ -761,7 +750,6 @@ function JoyeriaOcasion({ menu_list , ciudad , listadoUrlCiudad  }) {
 }
 const idPaginaWp = "12771";
 const apiGeneral = "13848";
-//const idWp = "13848";
 async function getStaticProps() {
     //datos de los campos personalizados de la ciudad
     const ciudad1 = await fetch(`https://panel.quickgold.es/wp-json/acf/v3/pages/${idPaginaWp}`);
@@ -769,10 +757,7 @@ async function getStaticProps() {
     //fin datos de los campos personalizados de la ciudad
     const res = await fetch(`https://panel.quickgold.es/wp-json/acf/v3/pages/${apiGeneral}`);
     const general = await res.json();
-    /*const response = await fetch(
-    `https://quickgold.es/wp-json/wp/v2/pages/${idWp}`
-  );
-  const dataIdWp = await response.json();*/ const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
+    const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
     const menu_list = await menu.json();
     const Listado = await fetch(`https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`);
     const listadoUrlCiudad = await Listado.json();
@@ -785,31 +770,6 @@ async function getStaticProps() {
         revalidate: 1
     };
 }
-
-
-/***/ }),
-
-/***/ 771:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-if (false) { var height1, width1; }
-const useScreenSize = ()=>{
-    const [width, setWidth] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(width1);
-    const [height, setHeight] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(height1);
-    if (false) {}
-    return {
-        width,
-        height
-    };
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (useScreenSize);
 
 
 /***/ }),

@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./sectionSeis.module.css";
-import SelectorCiudadesServicio from "@/componentes/SelectorCiudadesServicio/SelectorCiudadesServicio";
 
-const Section_seis = ({ ciudad, divisas_list, listadoCiudadesServicios }) => {
+const Section_seis = ({ ciudad, divisas_list }) => {
   const divisas = divisas_list?.result.Tarifas?.Divisas_Compra;
   return (
     <section className={styles.contenedorSectionSeis}>

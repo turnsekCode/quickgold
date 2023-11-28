@@ -168,6 +168,21 @@ module.exports = {
 
 /***/ }),
 
+/***/ 8874:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"main": "Home_main__EtNt2",
+	"contenedorMapaVisible": "Home_contenedorMapaVisible__piXgh",
+	"contenedorSeccionUnoDos": "Home_contenedorSeccionUnoDos__pegsP",
+	"contenedorMapaVisibleCasaCambio": "Home_contenedorMapaVisibleCasaCambio__A5Ti8",
+	"contenedorBannerVisible": "Home_contenedorBannerVisible__opy6k"
+};
+
+
+/***/ }),
+
 /***/ 7186:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -189,7 +204,7 @@ const BotonLamarFijo = ()=>{
         className: (_botonLamarFijo_module_css__WEBPACK_IMPORTED_MODULE_2___default().botonLlamar),
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
             title: "Tel\xe9fono",
-            href: "tel:900 373 629",
+            href: "tel:900373629",
             children: "LLAMA GRATIS"
         })
     });
@@ -199,48 +214,70 @@ const BotonLamarFijo = ()=>{
 
 /***/ }),
 
-/***/ 1068:
+/***/ 3867:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _section_uno_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2116);
-/* harmony import */ var _section_uno_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_section_uno_module_css__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _utilities_useScreenSize__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(771);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5675);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3094);
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_4__);
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
 
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ CambioDivisas),
+  "getStaticProps": () => (/* binding */ getStaticProps)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: external "next/head"
+var head_ = __webpack_require__(968);
+var head_default = /*#__PURE__*/__webpack_require__.n(head_);
+// EXTERNAL MODULE: ./src/componentes/BreadcrumbsRaiz/Breadcrumbs.js
+var Breadcrumbs = __webpack_require__(9206);
+// EXTERNAL MODULE: external "@mui/icons-material/KeyboardArrowRight"
+var KeyboardArrowRight_ = __webpack_require__(547);
+var KeyboardArrowRight_default = /*#__PURE__*/__webpack_require__.n(KeyboardArrowRight_);
+// EXTERNAL MODULE: ./src/styles/Home.module.css
+var Home_module = __webpack_require__(8874);
+var Home_module_default = /*#__PURE__*/__webpack_require__.n(Home_module);
+// EXTERNAL MODULE: ./src/componentes/Layout/Layout.js + 6 modules
+var Layout = __webpack_require__(7699);
+// EXTERNAL MODULE: external "@bradgarropy/next-seo"
+var next_seo_ = __webpack_require__(4579);
+var next_seo_default = /*#__PURE__*/__webpack_require__.n(next_seo_);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(6689);
+// EXTERNAL MODULE: ./src/componentes/Cambio-divisas/Section_1/section_uno.module.css
+var section_uno_module = __webpack_require__(2116);
+var section_uno_module_default = /*#__PURE__*/__webpack_require__.n(section_uno_module);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(5675);
+var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
+// EXTERNAL MODULE: external "react-scroll"
+var external_react_scroll_ = __webpack_require__(3094);
+;// CONCATENATED MODULE: ./src/componentes/Cambio-divisas/Section_1/Section_uno.js
 
 
 
 
 
 const Section_uno = ({ ciudad  })=>{
-    const { width  } = (0,_utilities_useScreenSize__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)();
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-        className: (_section_uno_module_css__WEBPACK_IMPORTED_MODULE_5___default().contenedorSectionUno),
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
+        className: (section_uno_module_default()).contenedorSectionUno,
         children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: (_section_uno_module_css__WEBPACK_IMPORTED_MODULE_5___default().bloqueIzq),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (section_uno_module_default()).bloqueIzq,
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
                         children: "Cambiar divisas al instante y sin comisiones"
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
                         children: "Cambiar moneda extranjera en quickgold es muy f\xe1cil y r\xe1pido. Tenemos m\xe1s de 20 divisas disponibles para que puedas realizar tu cambio al mejor precio y de forma inmediata, sin esperas."
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_section_uno_module_css__WEBPACK_IMPORTED_MODULE_5___default().botones),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (section_uno_module_default()).botones,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_scroll__WEBPACK_IMPORTED_MODULE_4__.Link, {
+                            /*#__PURE__*/ jsx_runtime_.jsx(external_react_scroll_.Link, {
                                 to: "calculadora",
                                 smooth: true,
                                 offset: -110,
@@ -248,14 +285,14 @@ const Section_uno = ({ ciudad  })=>{
                                 duration: 500,
                                 title: "texto",
                                 passive: "true",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                                    className: (_section_uno_module_css__WEBPACK_IMPORTED_MODULE_5___default().botonPopUp),
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                    className: (section_uno_module_default()).botonPopUp,
                                     title: "texto",
                                     children: "CONOCE EL PRECIO DE LA DIVISA"
                                 })
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                className: (_section_uno_module_css__WEBPACK_IMPORTED_MODULE_5___default().botonLlamar),
+                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                className: (section_uno_module_default()).botonLlamar,
                                 href: `tel:${ciudad?.acf?.telefono}`,
                                 title: "Tel\xe9fono",
                                 children: "llama gratis"
@@ -264,12 +301,12 @@ const Section_uno = ({ ciudad  })=>{
                     })
                 ]
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: (_section_uno_module_css__WEBPACK_IMPORTED_MODULE_5___default().bloqueDer),
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_3___default()), {
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: (section_uno_module_default()).bloqueDer,
+                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     src: "/assets/img/imagenCambiarDivisa.png",
                     alt: "Cambio Divisas",
-                    className: (_section_uno_module_css__WEBPACK_IMPORTED_MODULE_5___default().madridMobil),
+                    className: (section_uno_module_default()).madridMobil,
                     width: 480,
                     height: 364,
                     priority: true
@@ -278,37 +315,17 @@ const Section_uno = ({ ciudad  })=>{
         ]
     });
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Section_uno);
+/* harmony default export */ const Section_1_Section_uno = (Section_uno);
 
-
-/***/ }),
-
-/***/ 7509:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ Section_dos)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
 // EXTERNAL MODULE: ./src/componentes/Cambio-divisas/Section_2/sectionCuatro.module.css
 var sectionCuatro_module = __webpack_require__(254);
 var sectionCuatro_module_default = /*#__PURE__*/__webpack_require__.n(sectionCuatro_module);
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(5675);
-var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(1664);
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 // EXTERNAL MODULE: ./src/componentes/Cambio-divisas/ComponenteSelectCiudades/selecCiudad.module.css
 var selecCiudad_module = __webpack_require__(4574);
 var selecCiudad_module_default = /*#__PURE__*/__webpack_require__.n(selecCiudad_module);
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__(1664);
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 ;// CONCATENATED MODULE: ./src/componentes/Cambio-divisas/ComponenteSelectCiudades/SelectCiudad.js
 
 
@@ -408,7 +425,6 @@ const SelectCiudad = ({ listadoCiudades , urlSelect , setUrlSelect , ciudad  })=
 
 
 
-
 const Section_cuatro = ({ ciudad , listadoUrlCiudad  })=>{
     const [urlSelect, setUrlSelect] = (0,external_react_.useState)("");
     const listadoCiudades = listadoUrlCiudad?.arrayMarker;
@@ -431,7 +447,7 @@ const Section_cuatro = ({ ciudad , listadoUrlCiudad  })=>{
                         src: "/assets/img/adornoCalculadoraDivisa.png",
                         width: 227,
                         height: 218,
-                        alt: "cambio divisas"
+                        alt: "cambio de divisas"
                     })
                 ]
             }),
@@ -451,96 +467,82 @@ const Section_cuatro = ({ ciudad , listadoUrlCiudad  })=>{
 };
 /* harmony default export */ const Section_dos = (Section_cuatro);
 
-
-/***/ }),
-
-/***/ 5379:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _sectionDos_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6406);
-/* harmony import */ var _sectionDos_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sectionDos_module_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5675);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);
+// EXTERNAL MODULE: ./src/componentes/Cambio-divisas/Section_3/sectionDos.module.css
+var sectionDos_module = __webpack_require__(6406);
+var sectionDos_module_default = /*#__PURE__*/__webpack_require__.n(sectionDos_module);
+;// CONCATENATED MODULE: ./src/componentes/Cambio-divisas/Section_3/Section_tres.js
 
 
 
 
-const Section_dos = ({ ciudad  })=>{
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-        className: (_sectionDos_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorSectionDos),
+const Section_tres_Section_dos = ({ ciudad  })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
+        className: (sectionDos_module_default()).contenedorSectionDos,
         children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: (_sectionDos_module_css__WEBPACK_IMPORTED_MODULE_3___default().bloqueSuperior),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (sectionDos_module_default()).bloqueSuperior,
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                         children: "\xbfNecesitas cambiar divisa?"
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
                         children: "*Para realizar cambios de divisa es necesario ser mayor de edad y aportar DNI en vigor."
                     })
                 ]
             }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: (_sectionDos_module_css__WEBPACK_IMPORTED_MODULE_3___default().bloqueInferior),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (sectionDos_module_default()).bloqueInferior,
                 children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_sectionDos_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorVentajas),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionDos_module_default()).contenedorVentajas,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: (_sectionDos_module_css__WEBPACK_IMPORTED_MODULE_3___default().imagenventaja1),
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (sectionDos_module_default()).imagenventaja1,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                     src: "/assets/img/imagensectiondos1.png",
                                     alt: "Mejor servicio y precio",
                                     width: 32,
                                     height: 35
                                 })
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "Cambiar moneda extranjera en quickgold es muy f\xe1cil, r\xe1pido, barato y c\xf3modo."
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_sectionDos_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorVentajas),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionDos_module_default()).contenedorVentajas,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: (_sectionDos_module_css__WEBPACK_IMPORTED_MODULE_3___default().imagenventaja1),
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (sectionDos_module_default()).imagenventaja1,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                     src: "/assets/img/imagensectiondos2.png",
                                     alt: "Mejor servicio y precio",
                                     width: 39,
                                     height: 36
                                 })
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "Realizamos la transacci\xf3n al momento, sin esperas y sin comisiones."
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_sectionDos_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorVentajas),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionDos_module_default()).contenedorVentajas,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: (_sectionDos_module_css__WEBPACK_IMPORTED_MODULE_3___default().imagenventaja1),
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (sectionDos_module_default()).imagenventaja1,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                     src: "/assets/img/imagensectiondos3.png",
                                     alt: "Mejor servicio y precio",
                                     width: 36,
                                     height: 36
                                 })
                             }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                                 children: [
                                     "Recibes tu cambio",
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                     " al instante y sin coste adicional."
                                 ]
                             })
@@ -551,73 +553,61 @@ const Section_dos = ({ ciudad  })=>{
         ]
     });
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Section_dos);
+/* harmony default export */ const Section_tres = (Section_tres_Section_dos);
 
-
-/***/ }),
-
-/***/ 7063:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2661);
-/* harmony import */ var _sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2__);
+// EXTERNAL MODULE: ./src/componentes/Cambio-divisas/Section_4/sectionTres.module.css
+var sectionTres_module = __webpack_require__(2661);
+var sectionTres_module_default = /*#__PURE__*/__webpack_require__.n(sectionTres_module);
+;// CONCATENATED MODULE: ./src/componentes/Cambio-divisas/Section_4/SectionCuatro.js
 
 
 
 const SectionTres = ({ ciudad  })=>{
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-        className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorSectionTres),
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
+        className: (sectionTres_module_default()).contenedorSectionTres,
         children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h2", {
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
                 children: [
                     "Cambiar divisa en ",
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                        className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().linea),
+                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                        className: (sectionTres_module_default()).linea,
                         children: "quickgold"
                     }),
                     " es f\xe1cil"
                 ]
             }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorInfoTres),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (sectionTres_module_default()).contenedorInfoTres,
                 children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().cards),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionTres_module_default()).cards,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "#1"
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "Ind\xedcanos la divisa que quieres cambiar"
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().cards),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionTres_module_default()).cards,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "#2"
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "Acordamos precio. \xa1Hacemos mejoras por cantidad!"
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_sectionTres_module_css__WEBPACK_IMPORTED_MODULE_2___default().cards),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionTres_module_default()).cards,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "#3"
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "Recibe el dinero en efectivo al instante"
                             })
                         ]
@@ -627,84 +617,69 @@ const SectionTres = ({ ciudad  })=>{
         ]
     });
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SectionTres);
+/* harmony default export */ const SectionCuatro = (SectionTres);
 
-
-/***/ }),
-
-/***/ 874:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _sectionCinco_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5982);
-/* harmony import */ var _sectionCinco_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sectionCinco_module_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5675);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);
-
+// EXTERNAL MODULE: ./src/componentes/Cambio-divisas/Section_5/sectionCinco.module.css
+var sectionCinco_module = __webpack_require__(5982);
+var sectionCinco_module_default = /*#__PURE__*/__webpack_require__.n(sectionCinco_module);
+;// CONCATENATED MODULE: ./src/componentes/Cambio-divisas/Section_5/Section_cinco.js
 
 
 
 const Section_cinco = ({ ciudad  })=>{
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-        className: (_sectionCinco_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorSectionCinco),
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
+        className: (sectionCinco_module_default()).contenedorSectionCinco,
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: (_sectionCinco_module_css__WEBPACK_IMPORTED_MODULE_3___default().bloqueSuperior),
-                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: (sectionCinco_module_default()).bloqueSuperior,
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h3", {
                     children: [
                         "\xbfPor qu\xe9 cambiar divisa en",
                         " ",
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                            className: (_sectionCinco_module_css__WEBPACK_IMPORTED_MODULE_3___default().linea),
+                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                            className: (sectionCinco_module_default()).linea,
                             children: "quickgold"
                         }),
                         "?"
                     ]
                 })
             }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: (_sectionCinco_module_css__WEBPACK_IMPORTED_MODULE_3___default().bloqueInferior),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (sectionCinco_module_default()).bloqueInferior,
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_sectionCinco_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorVentajas1),
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (sectionCinco_module_default()).contenedorVentajas1,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
                             children: "Mejor servicio y precio garantizado"
                         })
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_sectionCinco_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorVentajas2),
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (sectionCinco_module_default()).contenedorVentajas2,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
                             children: "El mejor precio de tu ciudad"
                         })
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_sectionCinco_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorVentajas3),
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (sectionCinco_module_default()).contenedorVentajas3,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
                             children: "Mejora de precio seg\xfan cantidad"
                         })
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_sectionCinco_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorVentajas4),
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (sectionCinco_module_default()).contenedorVentajas4,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
                             children: "Premiamos tu fidelidad al traer un amigo"
                         })
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_sectionCinco_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorVentajas5),
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (sectionCinco_module_default()).contenedorVentajas5,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
                             children: "Mejoramos el precio si vienes en grupo"
                         })
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_sectionCinco_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorVentajas6),
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (sectionCinco_module_default()).contenedorVentajas6,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
                             children: "Reserva gratuita de m\xe1s de 30 divisas"
                         })
                     })
@@ -713,151 +688,134 @@ const Section_cinco = ({ ciudad  })=>{
         ]
     });
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Section_cinco);
+/* harmony default export */ const Section_5_Section_cinco = (Section_cinco);
 
-
-/***/ }),
-
-/***/ 179:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(8253);
-/* harmony import */ var _sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5675);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3094);
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_3__);
-
+// EXTERNAL MODULE: ./src/componentes/Cambio-divisas/Section_5_mobil/sectionCincoMobil.module.css
+var sectionCincoMobil_module = __webpack_require__(8253);
+var sectionCincoMobil_module_default = /*#__PURE__*/__webpack_require__.n(sectionCincoMobil_module);
+;// CONCATENATED MODULE: ./src/componentes/Cambio-divisas/Section_5_mobil/Section_cinco_mobil.js
 
 
 
 
 const Section_cinco_mobil = ({ ciudad  })=>{
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-        className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().contenedorSectionCincoMobil),
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
+        className: (sectionCincoMobil_module_default()).contenedorSectionCincoMobil,
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().bloqueSuperior),
-                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h2", {
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: (sectionCincoMobil_module_default()).bloqueSuperior,
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
                     children: [
                         "Por qu\xe9 cambiar divisa en",
                         " ",
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                            className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().linea),
+                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                            className: (sectionCincoMobil_module_default()).linea,
                             children: "quickgold"
                         })
                     ]
                 })
             }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().bloqueInferior),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (sectionCincoMobil_module_default()).bloqueInferior,
                 children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().contenedorVentajas),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionCincoMobil_module_default()).contenedorVentajas,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().imagenventaja1),
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (sectionCincoMobil_module_default()).imagenventaja1,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                     src: "/assets/img/imagenSeccionCincoMobil1.png",
                                     alt: "Mejor servicio y precio",
                                     width: 56,
                                     height: 56
                                 })
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "Cambio de divisas sin comisiones y al instante."
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().contenedorVentajas),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionCincoMobil_module_default()).contenedorVentajas,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().imagenventaja1),
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (sectionCincoMobil_module_default()).imagenventaja1,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                     src: "/assets/img/imagenSeccionCincoMobil2.png",
                                     alt: "Mejor servicio y precio",
                                     width: 56,
                                     height: 56
                                 })
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "El mejor precio de tu ciudad."
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().contenedorVentajas),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionCincoMobil_module_default()).contenedorVentajas,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().imagenventaja1),
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (sectionCincoMobil_module_default()).imagenventaja1,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                     src: "/assets/img/imagenSeccionCincoMobil3.png",
                                     alt: "Mejor servicio y precio",
                                     width: 56,
                                     height: 56
                                 })
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "Mejora de precio seg\xfan cantidad."
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().contenedorVentajas),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionCincoMobil_module_default()).contenedorVentajas,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().imagenventaja1),
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (sectionCincoMobil_module_default()).imagenventaja1,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                     src: "/assets/img/imagenSeccionCincoMobil4.png",
                                     alt: "Mejor servicio y precio",
                                     width: 56,
                                     height: 56
                                 })
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "Premiamos tu fidelidad al traer a un amigo."
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().contenedorVentajas),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionCincoMobil_module_default()).contenedorVentajas,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().imagenventaja1),
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (sectionCincoMobil_module_default()).imagenventaja1,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                     src: "/assets/img/imagenSeccionCincoMobil5.png",
                                     alt: "Mejor servicio y precio",
                                     width: 56,
                                     height: 56
                                 })
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "Mejoramos el precio si vienes en grupo."
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().contenedorVentajas),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (sectionCincoMobil_module_default()).contenedorVentajas,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: (_sectionCincoMobil_module_css__WEBPACK_IMPORTED_MODULE_4___default().imagenventaja1),
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (sectionCincoMobil_module_default()).imagenventaja1,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                     src: "/assets/img/imagenSeccionCincoMobil6.png",
                                     alt: "Mejor servicio y precio",
                                     width: 56,
                                     height: 56
                                 })
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: "Reserva gratuita de m\xe1s de 30 divisas."
                             })
                         ]
@@ -867,48 +825,34 @@ const Section_cinco_mobil = ({ ciudad  })=>{
         ]
     });
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Section_cinco_mobil);
+/* harmony default export */ const Section_5_mobil_Section_cinco_mobil = (Section_cinco_mobil);
 
-
-/***/ }),
-
-/***/ 2639:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _sectionSeis_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3578);
-/* harmony import */ var _sectionSeis_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sectionSeis_module_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _componentes_SelectorCiudadesServicio_SelectorCiudadesServicio__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5709);
+// EXTERNAL MODULE: ./src/componentes/Cambio-divisas/Section_6/sectionSeis.module.css
+var sectionSeis_module = __webpack_require__(3578);
+var sectionSeis_module_default = /*#__PURE__*/__webpack_require__.n(sectionSeis_module);
+;// CONCATENATED MODULE: ./src/componentes/Cambio-divisas/Section_6/Section_seis.js
 
 
 
-
-const Section_seis = ({ ciudad , divisas_list , listadoCiudadesServicios  })=>{
+const Section_seis = ({ ciudad , divisas_list  })=>{
     const divisas = divisas_list?.result.Tarifas?.Divisas_Compra;
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
-        className: (_sectionSeis_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorSectionSeis),
-        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: (_sectionSeis_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorSectionSeisMargen),
+    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
+        className: (sectionSeis_module_default()).contenedorSectionSeis,
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            className: (sectionSeis_module_default()).contenedorSectionSeisMargen,
             children: [
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: (_sectionSeis_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorTexto),
-                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h5", {
+                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: (sectionSeis_module_default()).contenedorTexto,
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("h5", {
                         children: "Cambio de divisa en quickgold"
                     })
                 }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: (_sectionSeis_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorTiposDivisas),
-                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_sectionSeis_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorTiposDivisasCard1),
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("ul", {
-                            children: divisas?.filter((currency)=>currency.Name !== "HRK" && currency.Name !== "DKK" && currency.Name !== "RUB" && currency.Name !== "NOK" && currency.Name !== "ILS" && currency.Name !== "SEK").map((divisa, index)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: (sectionSeis_module_default()).contenedorTiposDivisas,
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (sectionSeis_module_default()).contenedorTiposDivisasCard1,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("ul", {
+                            children: divisas?.filter((currency)=>currency.Name !== "HRK" && currency.Name !== "DKK" && currency.Name !== "RUB" && currency.Name !== "NOK" && currency.Name !== "ILS" && currency.Name !== "SEK").map((divisa, index)=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
                                     children: divisa?.Productos[0]?.Nombre
                                 }, index))
                         })
@@ -918,49 +862,11 @@ const Section_seis = ({ ciudad , divisas_list , listadoCiudadesServicios  })=>{
         })
     });
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Section_seis);
+/* harmony default export */ const Section_6_Section_seis = (Section_seis);
 
-
-/***/ }),
-
-/***/ 2493:
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ CambioDivisas),
-/* harmony export */   "getStaticProps": () => (/* binding */ getStaticProps)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(968);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5152);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _componentes_BreadcrumbsRaiz_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9206);
-/* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(547);
-/* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(8874);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _componentes_Layout_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(7699);
-/* harmony import */ var react_intersection_observer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(4009);
-/* harmony import */ var _bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(4579);
-/* harmony import */ var _bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _componentes_Cambio_divisas_Section_1_Section_uno__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(1068);
-/* harmony import */ var _componentes_Cambio_divisas_Section_2_Section_dos__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(7509);
-/* harmony import */ var _componentes_Cambio_divisas_Section_3_Section_tres__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(5379);
-/* harmony import */ var _componentes_Cambio_divisas_Section_4_SectionCuatro__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(7063);
-/* harmony import */ var _componentes_Cambio_divisas_Section_5_Section_cinco__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(874);
-/* harmony import */ var _componentes_Cambio_divisas_Section_5_mobil_Section_cinco_mobil__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(179);
-/* harmony import */ var _componentes_Cambio_divisas_Section_6_Section_seis__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(2639);
-/* harmony import */ var _componentes_BotonLlamarFijo_BotonLamarFijo__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(7186);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([react_intersection_observer__WEBPACK_IMPORTED_MODULE_6__]);
-react_intersection_observer__WEBPACK_IMPORTED_MODULE_6__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-
-
-//import Image from "next/image";
+// EXTERNAL MODULE: ./src/componentes/BotonLlamarFijo/BotonLamarFijo.js
+var BotonLamarFijo = __webpack_require__(7186);
+;// CONCATENATED MODULE: ./src/pages/cambio-divisas/index.js
 
 
 
@@ -976,11 +882,10 @@ react_intersection_observer__WEBPACK_IMPORTED_MODULE_6__ = (__webpack_async_depe
 
 
 
-function CambioDivisas({ menu_list , ciudad , divisas_list , listadoUrlCiudad , listadoCiudadesServicios  }) {
-    const { ref: myRef , inView , entry  } = (0,react_intersection_observer__WEBPACK_IMPORTED_MODULE_6__.useInView)();
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+function CambioDivisas({ menu_list , ciudad , divisas_list , listadoUrlCiudad  }) {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_7___default()), {
+            /*#__PURE__*/ jsx_runtime_.jsx((next_seo_default()), {
                 title: ciudad?.acf?.titulo_del_meta,
                 description: ciudad?.acf?.descripcion_del_meta,
                 icon: "/favicon.png",
@@ -995,60 +900,59 @@ function CambioDivisas({ menu_list , ciudad , divisas_list , listadoUrlCiudad , 
                     card: "summary_large_image"
                 }
             }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                         name: "viewport",
                         content: "width=device-width, initial-scale=1"
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
                         rel: "icon",
                         href: "/favicon.png"
                     })
                 ]
             }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_componentes_Layout_Layout__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Layout/* default */.Z, {
                 menu_list: menu_list,
                 ciudad: ciudad,
                 children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16___default().main),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (Home_module_default()).main,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BreadcrumbsRaiz_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
+                            /*#__PURE__*/ jsx_runtime_.jsx(Breadcrumbs/* default */.Z, {
                                 raiz: "Quickgold",
-                                iconoRaiz: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4___default()), {}),
+                                iconoRaiz: /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowRight_default()), {}),
                                 urlUbicacionActual: "/cambio-divisas",
-                                iconoUbiccionActual: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_4___default()), {}),
+                                iconoUbiccionActual: /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowRight_default()), {}),
                                 ubicacionActual: "Cambio Divisa"
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_Cambio_divisas_Section_1_Section_uno__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
+                            /*#__PURE__*/ jsx_runtime_.jsx(Section_1_Section_uno, {
                                 ciudad: ciudad
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_Cambio_divisas_Section_2_Section_dos__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z, {
+                            /*#__PURE__*/ jsx_runtime_.jsx(Section_dos, {
                                 ciudad: ciudad,
                                 listadoUrlCiudad: listadoUrlCiudad
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_Cambio_divisas_Section_3_Section_tres__WEBPACK_IMPORTED_MODULE_10__/* ["default"] */ .Z, {
+                            /*#__PURE__*/ jsx_runtime_.jsx(Section_tres, {
                                 ciudad: ciudad
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_Cambio_divisas_Section_4_SectionCuatro__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {
+                            /*#__PURE__*/ jsx_runtime_.jsx(SectionCuatro, {
                                 ciudad: ciudad
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BotonLlamarFijo_BotonLamarFijo__WEBPACK_IMPORTED_MODULE_15__/* ["default"] */ .Z, {
+                            /*#__PURE__*/ jsx_runtime_.jsx(BotonLamarFijo/* default */.Z, {
                                 ciudad: ciudad
                             })
                         ]
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_Cambio_divisas_Section_5_Section_cinco__WEBPACK_IMPORTED_MODULE_12__/* ["default"] */ .Z, {
+                    /*#__PURE__*/ jsx_runtime_.jsx(Section_5_Section_cinco, {
                         ciudad: ciudad
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_Cambio_divisas_Section_5_mobil_Section_cinco_mobil__WEBPACK_IMPORTED_MODULE_13__/* ["default"] */ .Z, {
+                    /*#__PURE__*/ jsx_runtime_.jsx(Section_5_mobil_Section_cinco_mobil, {
                         ciudad: ciudad
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_Cambio_divisas_Section_6_Section_seis__WEBPACK_IMPORTED_MODULE_14__/* ["default"] */ .Z, {
+                    /*#__PURE__*/ jsx_runtime_.jsx(Section_6_Section_seis, {
                         ciudad: ciudad,
-                        divisas_list: divisas_list,
-                        listadoCiudadesServicios: listadoCiudadesServicios
+                        divisas_list: divisas_list
                     })
                 ]
             })
@@ -1057,7 +961,6 @@ function CambioDivisas({ menu_list , ciudad , divisas_list , listadoUrlCiudad , 
 }
 const idPaginaWp = "404";
 const apiGeneral = "13848";
-//const idWp = "13848";
 async function getStaticProps() {
     //datos de los campos personalizados de la ciudad
     const ciudad1 = await fetch(`https://panel.quickgold.es/wp-json/acf/v3/pages/${idPaginaWp}`);
@@ -1065,55 +968,22 @@ async function getStaticProps() {
     //fin datos de los campos personalizados de la ciudad
     const res = await fetch(`https://panel.quickgold.es/wp-json/acf/v3/pages/${apiGeneral}`);
     const general = await res.json();
-    /*const response = await fetch(
-    `https://quickgold.es/wp-json/wp/v2/pages/${idWp}`
-  );
-  const dataIdWp = await response.json();*/ const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
+    const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
     const menu_list = await menu.json();
     const divisas = await fetch(`https://panel.quickgold.es/archivos-cache/Fixingmadrid.txt`);
     const divisas_list = await divisas.json();
     const Listado = await fetch(`https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`);
     const listadoUrlCiudad = await Listado.json();
-    const listadoServicio = await fetch(`https://panel.quickgold.es/ListadoCiudadesServicio/listadoCiudadesServicioDivisa.json`);
-    const listadoCiudadesServicios = await listadoServicio.json();
     return {
         props: {
             menu_list,
             ciudad,
             divisas_list,
-            listadoUrlCiudad,
-            listadoCiudadesServicios
+            listadoUrlCiudad
         },
         revalidate: 1
     };
 }
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
-
-/***/ }),
-
-/***/ 771:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-if (false) { var height1, width1; }
-const useScreenSize = ()=>{
-    const [width, setWidth] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(width1);
-    const [height, setHeight] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(height1);
-    if (false) {}
-    return {
-        width,
-        height
-    };
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (useScreenSize);
 
 
 /***/ }),
@@ -1307,14 +1177,6 @@ module.exports = require("next/dist/shared/lib/image-loader");
 
 "use strict";
 module.exports = require("next/dist/shared/lib/is-plain-object.js");
-
-/***/ }),
-
-/***/ 5832:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/loadable.js");
 
 /***/ }),
 
@@ -1540,14 +1402,6 @@ module.exports = require("react-scroll-to-top");
 "use strict";
 module.exports = require("react/jsx-runtime");
 
-/***/ }),
-
-/***/ 4009:
-/***/ ((module) => {
-
-"use strict";
-module.exports = import("react-intersection-observer");;
-
 /***/ })
 
 };
@@ -1557,7 +1411,7 @@ module.exports = import("react-intersection-observer");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,5152,7699,9206,3730], () => (__webpack_exec__(2493)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,9206], () => (__webpack_exec__(3867)));
 module.exports = __webpack_exports__;
 
 })();

@@ -196,6 +196,11 @@ const SeccionUno = ({ ciudad  })=>{
 
 
 const SeccionDos = ({ ciudad  })=>{
+    {
+    /* useEffect(() => {
+    const url = window.location.href;
+    console.log(url);
+  }, []);*/ }
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("article", {
         className: (_seccionDos_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorSeccionDos),
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_AccordionServicios_AccordionServicios__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {

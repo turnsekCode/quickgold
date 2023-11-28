@@ -53,8 +53,6 @@ export default function EmpenoJoyas({ menu_list, ciudad, listadoUrlCiudad }) {
 }
 const idPaginaWp = "7692";
 const apiGeneral = "13848";
-
-//const idWp = "13848";
 export async function getStaticProps() {
   //datos de los campos personalizados de la ciudad
   const ciudad1 = await fetch(
@@ -66,10 +64,6 @@ export async function getStaticProps() {
     `https://panel.quickgold.es/wp-json/acf/v3/pages/${apiGeneral}`
   );
   const general = await res.json();
-  /*const response = await fetch(
-    `https://quickgold.es/wp-json/wp/v2/pages/${idWp}`
-  );
-  const dataIdWp = await response.json();*/
   const Listado = await fetch(
     `https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`
   );

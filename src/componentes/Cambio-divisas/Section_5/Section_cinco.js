@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./sectionCinco.module.css";
-import Image from "next/image";
 
 const Section_cinco = ({ ciudad }) => {
   return (

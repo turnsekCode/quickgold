@@ -34,7 +34,7 @@ const Section_uno = () => {
             <LocationOnOutlinedIcon />
             conoce el precio del dólar
   </Link>*/}
-          <a href="tel:900 373 629" title="Teléfono">
+          <a href="tel:900373629" title="Teléfono">
             llama gratis al 900 373 629
           </a>
         </div>
