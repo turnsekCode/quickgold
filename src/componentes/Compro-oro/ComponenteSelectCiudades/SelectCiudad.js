@@ -47,7 +47,7 @@ const SelectCiudad = ({ listadoCiudades, urlSelect, setUrlSelect, ciudad }) => {
           ) : (
             <Link
               className={styles.botonIrCiudad}
-              href={`/tiendas/compro-oro-${urlSelect}`}
+              href={`/tiendas/compro-oro-${urlSelect}?#precioOro`}
             >
               CONOCE EL PRECIO DEL ORO
             </Link>

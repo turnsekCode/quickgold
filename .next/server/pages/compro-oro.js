@@ -519,7 +519,7 @@ const SelectCiudad = ({ listadoCiudades , urlSelect , setUrlSelect , ciudad  })=
                                 children: "CONOCE EL PRECIO DEL ORO"
                             }) : /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                 className: (selecCiudad_module_default()).botonIrCiudad,
-                                href: `/tiendas/compro-oro-${urlSelect}`,
+                                href: `/tiendas/compro-oro-${urlSelect}?#precioOro`,
                                 children: "CONOCE EL PRECIO DEL ORO"
                             })
                         ]
