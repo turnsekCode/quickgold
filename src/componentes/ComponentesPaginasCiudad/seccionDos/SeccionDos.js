@@ -2,6 +2,8 @@ import AccordionServicios from "@/componentes/AccordionServicios/AccordionServic
 import React, { useEffect, useState } from "react";
 import styles from "./seccionDos.module.css";
 import AccordionServiciosPrecioOro from "@/componentes/AccordionServiciosPrecioOro/AccordionServiciosPrecioOro";
+import AccordionServiciosEmpenoJoyas from "@/componentes/AccordionServiciosEmpenosJoyas/AccordionServiciosEmpenosJoyas";
+import AccordionServiciosComproPlata from "@/componentes/AccordionServiciosCompraPlata/AccordionServiciosComproPlata";
 
 const SeccionDos = ({ ciudad }) => {
   const [url, setUrl] = useState("");
@@ -19,9 +21,25 @@ const SeccionDos = ({ ciudad }) => {
   ) {
     accordion = <AccordionServiciosPrecioOro ciudad={ciudad} />;
   }
+  if (
+    url ===
+    `https://quickgold.es/tiendas/compro-oro-${ciudad?.acf?.url_para_precio_compro_oro}?#empenoJoyas`
+  ) {
+    accordion = <AccordionServiciosEmpenoJoyas ciudad={ciudad} />;
+  }
+  if (
+    url ===
+    `https://quickgold.es/tiendas/compro-oro-${ciudad?.acf?.url_para_precio_compro_oro}?#precioPLata`
+  ) {
+    accordion = <AccordionServiciosComproPlata ciudad={ciudad} />;
+  }
   return (
     <article id="precioOro" className={styles.contenedorSeccionDos}>
-      {accordion}
+      <span id="precioPLata" className={styles.contenedorSeccionDos}>
+        <span id="empenoJoyas" className={styles.contenedorSeccionDos}>
+          {accordion}
+        </span>
+      </span>
     </article>
   );
 };

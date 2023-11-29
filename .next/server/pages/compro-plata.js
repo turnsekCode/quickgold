@@ -559,7 +559,7 @@ const SelectCiudad = ({ listadoUrlCiudad , ciudad  })=>{
                                 children: "CONOCE EL PRECIO DE LA PLATA"
                             }) : /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                 className: (selecCiudad_module_default()).botonIrCiudad,
-                                href: `/tiendas/compro-oro-${urlSelect}`,
+                                href: `/tiendas/compro-oro-${urlSelect}?#precioPLata`,
                                 children: "CONOCE EL PRECIO DE LA PLATA"
                             })
                         ]
