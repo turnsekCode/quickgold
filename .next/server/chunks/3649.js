@@ -694,7 +694,7 @@ function Empenos({ ciudad  }) {
             setData(response);
         });
     }, []);
-    const precio18k = data?.result?.Tarifas?.Oro[2].Productos[0].Precio / 1000;
+    const precio18k = data?.result?.Tarifas?.Oro[2]?.Productos[0]?.Precio / 1000;
     const paraMasOro = ciudad?.acf?.para_mas_de_oro;
     const masDeOro = ciudad?.acf?.precio_mas_de_oro;
     const precioMas18k = (precio18k + parseFloat(masDeOro)).toFixed(2);
@@ -802,7 +802,8 @@ function Empenos({ ciudad  }) {
                                     children: [
                                         "Precio del oro: ",
                                         precioMas18k,
-                                        " €/g 18k m\xe1s de ",
+                                        " €/g 18k para m\xe1s de",
+                                        " ",
                                         paraMasOro,
                                         "g."
                                     ]
@@ -882,7 +883,7 @@ function Empenos({ ciudad  }) {
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                     className: (_conversor_module_css__WEBPACK_IMPORTED_MODULE_2___default().botonLlamarTienda),
                     href: `tel:${telefono}`,
-                    children: "LLAMAR A LA TIENDA"
+                    children: "LLAMA GRATIS"
                 })
             })
         ]

@@ -298,7 +298,7 @@
         }
     
         .contenedorResenasGoogle::-webkit-scrollbar:horizontal {
-            height: 5px;
+            height: 10px;
         }
     
         .contenedorResenasGoogle::-webkit-scrollbar-thumb {

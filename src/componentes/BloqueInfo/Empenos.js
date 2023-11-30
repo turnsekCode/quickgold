@@ -16,7 +16,7 @@ export default function Empenos({ ciudad }) {
         setData(response);
       });
   }, []);
-  const precio18k = data?.result?.Tarifas?.Oro[2].Productos[0].Precio / 1000;
+  const precio18k = data?.result?.Tarifas?.Oro[2]?.Productos[0]?.Precio / 1000;
   const paraMasOro = ciudad?.acf?.para_mas_de_oro;
   const masDeOro = ciudad?.acf?.precio_mas_de_oro;
   const precioMas18k = (precio18k + parseFloat(masDeOro)).toFixed(2);
@@ -90,7 +90,8 @@ export default function Empenos({ ciudad }) {
                   {primerMes}% interés <span>primer mes</span>
                 </h3>
                 <p className={styles.preciosDelOro}>
-                  Precio del oro: {precioMas18k} €/g 18k más de {paraMasOro}
+                  Precio del oro: {precioMas18k} €/g 18k para más de{" "}
+                  {paraMasOro}
                   g.
                 </p>
                 <div className={styles.contenedorTresBloques}>
@@ -126,7 +127,7 @@ export default function Empenos({ ciudad }) {
       </div>
       <div className={styles.contenedorBotonLlamar}>
         <a className={styles.botonLlamarTienda} href={`tel:${telefono}`}>
-          LLAMAR A LA TIENDA
+          LLAMA GRATIS
         </a>
       </div>
     </>

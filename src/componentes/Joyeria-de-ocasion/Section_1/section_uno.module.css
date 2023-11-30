@@ -52,13 +52,13 @@
     margin-top: 40px;
 }
 .bloqueDer img{
-    width: 110%;
+    width: 100%;
     height: fit-content;
     object-fit: contain;
     border-radius: 8px;
 }
 .madridMobil{
-
+    display: none;
     object-fit: contain;
     border-radius: 8px;
 }
@@ -170,5 +170,8 @@
        
         .madridMobil {
             display: block;
+        }
+        .ImagenBannerMobil {
+            display: none;
         }
 }

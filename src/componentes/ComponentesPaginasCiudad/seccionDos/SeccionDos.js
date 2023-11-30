@@ -7,6 +7,7 @@ import AccordionServiciosComproPlata from "@/componentes/AccordionServiciosCompr
 
 const SeccionDos = ({ ciudad }) => {
   const [url, setUrl] = useState("");
+
   useEffect(() => {
     let url = window.location.href;
     setUrl(url);

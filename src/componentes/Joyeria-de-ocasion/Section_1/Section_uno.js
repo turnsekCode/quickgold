@@ -34,6 +34,19 @@ const Section_uno = ({ ciudad, listadoUrlCiudad }) => {
           height={254}
           priority
         />
+        <a
+          target="_blank"
+          href="https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956"
+        >
+          <Image
+            src="/assets/img/Banner-wallapop-joyeria-ocasion-mobil.png"
+            alt="Joyería de ocasión"
+            className={styles.ImagenBannerMobil}
+            width={325}
+            height={248}
+            priority
+          />
+        </a>
       </div>
     </section>
   );

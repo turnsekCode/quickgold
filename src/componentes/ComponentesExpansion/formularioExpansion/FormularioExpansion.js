@@ -101,7 +101,7 @@ const FormularioExpansion = () => {
           mb="4"
         >
           <Input
-            placeholder="Ciudad dónde abrir la tienda"
+            placeholder="Ciudad dónde abrir la tienda *"
             //className={styles.inputPista}
             type="text"
             name="subject"

@@ -311,7 +311,7 @@ const FormularioExpansion = ()=>{
                         mb: "4",
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Input, {
-                                placeholder: "Ciudad d\xf3nde abrir la tienda",
+                                placeholder: "Ciudad d\xf3nde abrir la tienda *",
                                 //className={styles.inputPista}
                                 type: "text",
                                 name: "subject",
