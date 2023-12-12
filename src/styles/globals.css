@@ -6,7 +6,6 @@
   font-style: italic;
   font-display: fallback;
 }
-
 @font-face {
   font-family: 'Gotham Black Italic';
   src: url('/fuentes/Gotham-BlackItalic.woff2') format('woff2'), url('/fuentes/Gotham-BlackItalic.woff') format('woff');
@@ -14,7 +13,6 @@
   font-style: italic;
   font-display: fallback;
 }
-
 @font-face {
   font-family: 'Gotham Light';
   src: url('/fuentes/Gotham-Light.woff2') format('woff2'), url('/fuentes/Gotham-Light.woff') format('woff');
@@ -22,7 +20,6 @@
   font-style: normal;
   font-display: fallback;
 }
-
 @font-face {
   font-family: 'Gotham Medium';
   src: url('/fuentes/Gotham-Medium.woff2') format('woff2'), url('/fuentes/Gotham-Medium.woff') format('woff');
@@ -30,7 +27,6 @@
   font-style: normal;
   font-display: fallback;
 }
-
 @font-face {
   font-family: 'Gotham Book';
   src: url('/fuentes/Gotham-Book.woff2') format('woff2'), url('/fuentes/Gotham-Book.woff') format('woff');
@@ -38,7 +34,6 @@
   font-style: normal;
   font-display: fallback;
 }
-
 @font-face {
   font-family: 'Gotham Light Italic';
   src: url('/fuentes/Gotham-LightItalic.woff2') format('woff2'), url('/fuentes/Gotham-LightItalic.woff') format('woff');
@@ -46,7 +41,6 @@
   font-style: italic;
   font-display: fallback;
 }
-
 @font-face {
   font-family: 'Gotham Black';
   src: url('/fuentes/Gotham-Black.woff2') format('woff2'), url('/fuentes/Gotham-Black.woff') format('woff');
@@ -54,7 +48,6 @@
   font-style: normal;
   font-display: fallback;
 }
-
 @font-face {
   font-family: 'Gotham Ultra';
   src: url('/fuentes/Gotham-UltraItalic.woff2') format('woff2'), url('/fuentes/Gotham-UltraItalic.woff') format('woff');
@@ -62,14 +55,12 @@
   font-style: italic;
   font-display: fallback;
 }
-
 @font-face {
   font-family: 'Gotham Bold Italic';
   src: url('/fuentes/Gotham-BoldItalic.woff2') format('woff2'), url('/fuentes/Gotham-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
 }
-
 @font-face {
   font-family: 'Gotham Bold';
   src: url('/fuentes/Gotham-Bold.woff2') format('woff2'), url('/fuentes/Gotham-Bold.woff') format('woff');
@@ -77,7 +68,6 @@
   font-style: normal;
   font-display: fallback;
 }
-
 @font-face {
   font-family: 'Gotham Book Italic';
   src: url('/fuentes/Gotham-BookItalic.woff2') format('woff2'), url('/fuentes/Gotham-BookItalic.woff') format('woff');
@@ -85,7 +75,6 @@
   font-style: italic;
   font-display: fallback;
 }
-
 @font-face {
   font-family: 'Gotham Thin Italic';
   src: url('/fuentes/Gotham-ThinItalic.woff2') format('woff2'), url('/fuentes/Gotham-ThinItalic.woff') format('woff');
@@ -93,7 +82,6 @@
   font-style: italic;
   font-display: fallback;
 }
-
 @font-face {
   font-family: 'Gotham Ultra';
   src: url('/fuentes/Gotham-Ultra.woff2') format('woff2'), url('/fuentes/Gotham-Ultra.woff') format('woff');
@@ -101,7 +89,6 @@
   font-style: normal;
   font-display: fallback;
 }
-
 @font-face {
   font-family: 'Gotham Thin';
   src: url('/fuentes/Gotham-Thin.woff2') format('woff2'), url('/fuentes/Gotham-Thin.woff') format('woff');
@@ -109,26 +96,22 @@
   font-style: normal;
   font-display: fallback;
 }
-
 /*Fuentes de Gotham*/
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
 html,
 body {
   max-width: 100vw;
   font-family: 'Gotham Book', sans-serif;
 }
-
 input,
 select,
 button {
   font-family: 'Gotham Book', sans-serif;
 }
-
 a {
   color: inherit;
   text-decoration: none;
@@ -150,27 +133,22 @@ ul {
   margin-bottom: 40px;
 
 }
-
 .MuiTabs-indicator {
   display: none;
 }
-
 .MuiAccordionSummary-content {
   display: flex;
   align-items: center;
   gap: 10px;
   font-family: 'Gotham Bold';
 }
-
 .MuiAccordionSummary-content svg {
   color: #0692D0 !important;
   font-size: 30px !important;
 }
-
 .css-ibyop0-MuiButtonBase-root-MuiAccordionSummary-root .MuiAccordionSummary-content {
   margin: 0 0 20px 0 !important;
 }
-
 .css-1tjvent-MuiButtonBase-root-MuiAccordionSummary-root .MuiAccordionSummary-content {
   margin-left: 0 !important;
 }

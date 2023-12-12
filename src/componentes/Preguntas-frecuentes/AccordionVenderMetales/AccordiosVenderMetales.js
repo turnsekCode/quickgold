@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { styled } from "@mui/material/styles";
 import MuiAccordion from "@mui/material/Accordion";
 import MuiAccordionSummary from "@mui/material/AccordionSummary";
@@ -71,8 +71,9 @@ export default function AccordiosnVenderMetales() {
         </AccordionSummary>
         <AccordionDetails className={styles.contenerdorContenidoAccordion}>
           <p className={styles.contenidoAccordion}>
-            Las monedas que compramos son aquellas que son de oro o plata. Las
-            tasamos por su peso en el metal no por su valor histórico.
+            Compramos todo tipo de monedas de oro y plata, no importa el año o
+            estado de conservación. Las monedas que compramos son aquellas que
+            son de oro o plata. Las tasamos por su peso en el metal.
           </p>
         </AccordionDetails>
       </Accordion>

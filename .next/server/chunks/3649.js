@@ -1431,8 +1431,8 @@ const CalculadoraOro = ({ ciudad  })=>{
                                             children: "18K"
                                         }),
                                         !loading ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: (_conversor_module_css__WEBPACK_IMPORTED_MODULE_2___default().precio18k),
-                                            children: "Cargando"
+                                            className: (_conversor_module_css__WEBPACK_IMPORTED_MODULE_2___default().precio18kCargando),
+                                            children: "Cargando..."
                                         }) : /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                             className: (_conversor_module_css__WEBPACK_IMPORTED_MODULE_2___default().precio18k),
                                             children: [
@@ -1456,8 +1456,8 @@ const CalculadoraOro = ({ ciudad  })=>{
                                                 children: "24K"
                                             }),
                                             !loading ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                className: (_conversor_module_css__WEBPACK_IMPORTED_MODULE_2___default().precio),
-                                                children: "Cargando"
+                                                className: (_conversor_module_css__WEBPACK_IMPORTED_MODULE_2___default().precioCargando),
+                                                children: "Cargando.."
                                             }) : /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                                 className: (_conversor_module_css__WEBPACK_IMPORTED_MODULE_2___default().precio),
                                                 children: [
@@ -1478,8 +1478,8 @@ const CalculadoraOro = ({ ciudad  })=>{
                                                 children: "14K"
                                             }),
                                             !loading ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                className: (_conversor_module_css__WEBPACK_IMPORTED_MODULE_2___default().precio),
-                                                children: "Cargando"
+                                                className: (_conversor_module_css__WEBPACK_IMPORTED_MODULE_2___default().precioCargando),
+                                                children: "Cargando.."
                                             }) : /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                                                 className: (_conversor_module_css__WEBPACK_IMPORTED_MODULE_2___default().precio),
                                                 children: [

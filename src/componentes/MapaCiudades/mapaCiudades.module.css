@@ -79,20 +79,16 @@
 .contenedorTiendas::-webkit-scrollbar {
     -webkit-appearance: none;
 }
-
 .contenedorTiendas::-webkit-scrollbar:vertical {
     width: 10px;
 }
-
 .contenedorTiendas::-webkit-scrollbar-button:increment,
 .contenedorTiendas::-webkit-scrollbar-button {
     display: none;
 }
-
 .contenedorTiendas::-webkit-scrollbar:horizontal {
     height: 10px;
 }
-
 .contenedorTiendas::-webkit-scrollbar-thumb {
     background: #B0B0B0;
     border-radius: 20px;
@@ -112,14 +108,12 @@
     margin: 5px 0px 10px;
     cursor: pointer;
 }
-
 .tienda h5 {
     font-weight: 700;
     font-size: 15px;
     line-height: 20px;
     color: #213E58;
 }
-
 .tienda p {
     color: #213E58;
     font-size: 13px;
@@ -127,47 +121,41 @@
     font-weight: 400;
     line-height: 20px;
 }
-
 .mapboxgl-popup-close-button {
     font-size: 25px;
 }
-
-   .nombre_ciudad_popup {
-       color: #0F2D45;
-       font-size: 12px;
-       font-style: normal;
-       font-weight: 400;
-       line-height: 15px;
-       margin-bottom: 10px;
+.nombre_ciudad_popup {
+    color: #0F2D45;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 10px;
     font-family: 'Gotham Book';
-   }
-
-   .direccion_popup {
-       color: #0F2D45;
-       font-size: 13px;
-       font-style: normal;
-       font-weight: 700;
-       line-height: 15px;
-        font-family: 'Gotham Book';
-        outline: none;
-   }
-
-   .telefono_popup {
-       color: #0F2D45;
-       font-size: 13px;
-       font-style: normal;
-       font-weight: 400;
-       line-height: 15px;
-       display: flex;
-       margin-top: 10px;
-        font-family: 'Gotham Book';
-   }
-
-   .telefono_popup span svg {
-       color: #000D20;
-       font-size: 20px;
-   }
-
+}
+.direccion_popup {
+    color: #0F2D45;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    font-family: 'Gotham Book';
+    outline: none;
+}
+.telefono_popup {
+    color: #0F2D45;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    display: flex;
+    margin-top: 10px;
+    font-family: 'Gotham Book';
+}
+.telefono_popup span svg {
+    color: #000D20;
+    font-size: 20px;
+}
 .boton_como_llegar {
     padding: 2px 8px;
     background: #0692D0;
@@ -224,20 +212,17 @@
             flex-direction: column;
             width: 478px;
         }
-    
         .bloqueDer {
             width: 474px;
             height: 412px;
             background-color: #f1f1f1;
         }
-    
         .bloqueIzq {
             width: 100%;
             border-bottom: 2px solid #0F2D45;
             padding-bottom: 30px;
             margin-top: 20px;
         }
-    
         .bloqueIzq h2 {
             font-weight: 700;
             font-size: 30px;
@@ -245,7 +230,6 @@
             text-align: center;
             color: #213E58;
         }
-    
         .bloqueIzq p {
             font-weight: 700;
             font-size: 30px;
@@ -255,17 +239,14 @@
             margin-top: 0;
             font-family: 'Gotham Medium';
         }
-    
         .bloqueIzq p span {
             color: #0692D0;
         }
-    
         .linea {
             position: relative;
             display: inline-block;
             margin-left: 5px;
         }
-    
         .linea:before {
             content: '';
             width: 100%;
@@ -276,7 +257,6 @@
             height: 5px;
             transform: translateY(30%);
         }
-    
         .linea:before {
             left: 2px;
             top: calc(50% - 1px);
@@ -299,19 +279,16 @@
             overflow-x: hidden;
             height: 370px;
         }
-
         .tienda {
             margin: 5px 0px 10px;
             cursor: pointer;
         }
-
         .tienda h5 {
             font-weight: 700;
             font-size: 15px;
             line-height: 20px;
             color: #213E58;
         }
-
         .tienda p {
             color: #213E58;
             font-size: 13px;
@@ -320,7 +297,6 @@
             line-height: 20px;
             padding-right: 205px;
         }
-
         .nombre_ciudad_popup {
             color: #0F2D45;
             font-size: 12px;
@@ -330,7 +306,6 @@
             margin-bottom: 10px;
             font-family: 'Gotham Book';
         }
-
         .direccion_popup {
             color: #0F2D45;
             font-size: 13px;
@@ -339,7 +314,6 @@
             line-height: 15px;
             font-family: 'Gotham Book';
         }
-
         .telefono_popup {
             color: #0F2D45;
             font-size: 13px;
@@ -350,12 +324,10 @@
             margin-top: 10px;
             font-family: 'Gotham Book';
         }
-
         .telefono_popup span svg {
             color: #000D20;
             font-size: 20px;
         }
-
         .boton_como_llegar {
             background: #0692D0;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);

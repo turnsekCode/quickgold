@@ -13,8 +13,8 @@
     margin-top: 10px;
     display: block;
     cursor: pointer;
+    font-family: 'Gotham Bold';
 }
-
 .botonComprar,
 .botonVender {
     align-items: center;
@@ -31,7 +31,6 @@
     cursor: pointer;
     letter-spacing: 1px;
 }
-
 .botonActivo {
     background: #0692D0;
     color: #fff;
@@ -42,7 +41,6 @@
     justify-content: space-between;
     gap: 25px;
 }
-
 .bloqueCalculadora{
     border-radius: 8px;
     background: #FFF;
@@ -51,7 +49,6 @@
     margin: 20px auto;
     padding: 20px 26px 15px 26px;
 }
-
 .select{
     border-radius: 2px;
     border: 1px solid #0F2D45;
@@ -93,7 +90,6 @@
     z-index: 50;
     overflow-x: hidden;
 }
-
 .select_activo {
     display: block;
 }
@@ -110,7 +106,6 @@
     background-color: #E83C82;
     color: #fff;
 }
-
 .contenedor_list:hover .nombre {
     background-color: #E83C82;
     color: #fff;
@@ -119,7 +114,6 @@
     background-color: #E83C82;
     color: #fff;
 }
-
 .bandera {
     display: flex;
     align-items: center;
@@ -127,12 +121,10 @@
     height: 27px;
     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.14));
 }
-
 .bandera img {
     width: 100%;
     border-radius: 4px;
 }
-
 .moneda {
     font-weight: 700;
     font-size: 15px;
@@ -142,7 +134,6 @@
     display: flex;
     align-items: center;
 }
-
 .moneda span {
     font-weight: 400;
     font-size: 13px;
@@ -151,7 +142,6 @@
     margin-left: 5px;
     width: 100%;
 }
-
 .select svg {
     font-size: 30px;
 }
@@ -286,21 +276,21 @@
     cursor: pointer;
     text-align: center;
 }
-  .bloqueIzq,
-  .bloqueDer {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-  }
-  .acronimoTexto{
-    color: #0F2D45;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 15px;
-  }
+.bloqueIzq,
+.bloqueDer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.acronimoTexto{
+color: #0F2D45;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 15px;
+}
 @media (min-width: 610px) {
     .botonLlamarTienda {
         background: #E83C82;
@@ -340,19 +330,16 @@
        cursor: pointer;
        letter-spacing: 1px;
    }
-    
         .botonActivo {
             background: #0692D0;
             color: #fff;
             border: none;
         }
-    
         .contenedorBotones {
             display: flex;
             justify-content: space-between;
             gap: 25px;
         }
-    
         .bloqueCalculadora {
             border-radius: 8px;
             background: #FFF;
@@ -361,7 +348,6 @@
             margin: 20px auto;
             padding: 20px 26px 15px 26px;
         }
-    
         .select {
             border-radius: 2px;
             border: 1px solid #0F2D45;
@@ -376,7 +362,6 @@
             font-weight: 700;
             font-size: 17px;
         }
-    
         .select p {
             color: #0F2D45;
             text-align: center;
@@ -385,12 +370,10 @@
             font-weight: 700;
             line-height: normal;
         }
-    
         .select svg {
             font-size: 30px;
             color: #0F2D45;
         }
-    
         .select_monedas {
             position: absolute;
             top: 55px;
@@ -406,37 +389,30 @@
             z-index: 50;
             overflow-x: hidden;
         }
-    
         .select_activo {
             display: block;
         }
-    
         .contenedor_list {
             display: flex;
             gap: 20px;
             padding: 10px;
         }
-    
         .contenedor_list:hover {
             background-color: #E83C82;
             color: #fff;
         }
-    
         .contenedor_list:hover .moneda {
             background-color: #E83C82;
             color: #fff;
         }
-    
         .contenedor_list:hover .nombre {
             background-color: #E83C82;
             color: #fff;
         }
-    
         .contenedor_list:hover .acronimo {
             background-color: #E83C82;
             color: #fff;
         }
-    
         .bandera {
             display: flex;
             align-items: center;
@@ -444,12 +420,10 @@
             height: 27px;
             filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.14));
         }
-    
         .bandera img {
             width: 100%;
             border-radius: 4px;
         }
-    
         .moneda {
             font-weight: 700;
             font-size: 15px;
@@ -459,7 +433,6 @@
             display: flex;
             align-items: center;
         }
-    
         .moneda span {
             font-weight: 400;
             font-size: 13px;
@@ -468,11 +441,9 @@
             margin-left: 5px;
             width: 100%;
         }
-    
         .select svg {
             font-size: 30px;
         }
-    
         .contenedorInputs {
             display: flex;
             width: 100%;
@@ -480,7 +451,6 @@
             border-top: 1px solid #000;
             margin-top: 20px;
         }
-    
         .inputSuperior {
             width: 187px;
             height: 48px;
@@ -495,7 +465,6 @@
             line-height: normal;
             font-family: Gotham Black;
         }
-    
         .inputSuperior::placeholder {
             color: #A6C9E8;
             font-size: 13px;
@@ -503,7 +472,6 @@
             font-weight: 400;
             line-height: normal;
         }
-    
         .inputInferior::placeholder {
             color: #A6C9E8;
             font-size: 13px;
@@ -511,7 +479,6 @@
             font-weight: 400;
             line-height: normal;
         }
-    
         .inputInferior {
             width: 187px;
             height: 48px;
@@ -526,12 +493,10 @@
             line-height: normal;
             font-family: Gotham Black;
         }
-    
         .contenedorTipoCambio {
             display: flex;
             margin-top: 10px;
         }
-    
         .tipoCambioIzq p {
             color: #0F2D45;
             font-size: 13px;
@@ -539,7 +504,6 @@
             font-weight: 400;
             line-height: normal;
         }
-    
         .tipoCambioDer p {
             color: #0F2D45;
             font-size: 13px;
@@ -547,11 +511,9 @@
             font-weight: 400;
             line-height: normal;
         }
-    
         .tipoCambioIzq {
             width: 52%;
         }
-    
         .bloqueCalculadoraTextoSup {
             color: #0F2D45;
             text-align: center;
@@ -561,14 +523,12 @@
             line-height: normal;
             margin-bottom: 3px;
         }
-    
         .bloqueBotonLamar {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
-    
         .bloqueBotonLamarTexto {
             color: #FFF;
             text-align: center;
@@ -577,7 +537,6 @@
             font-weight: 400;
             line-height: normal;
         }
-    
         .bloqueDivisaHabitualTexto {
             color: #FFF;
             text-align: center;
@@ -587,7 +546,6 @@
             line-height: normal;
             margin-top: 10px;
         }
-    
         .bloqueDivisaHabitual {
             display: flex;
             flex-direction: column;
@@ -596,12 +554,10 @@
             margin-top: 10px;
             padding-bottom: 20px;
         }
-    
         .contenedorDivisaHabitual {
             display: flex;
             gap: 15px;
         }
-    
         .bloqueDivisaHabitual1,
         .bloqueDivisaHabitual2,
         .bloqueDivisaHabitual3,

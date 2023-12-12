@@ -24,6 +24,7 @@
     line-height: normal;
     margin-bottom: 10px;
     padding: 0 85px;
+    font-family: 'Gotham Bold';
 }
 .bloqueSuperior p {
     color: #0F2D45;
@@ -61,14 +62,12 @@
         max-width: 1060px;
         margin: 0 auto;
     }
-
     .bloqueInferior {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         flex-direction: row;
     }
-
     .bloqueInferiorCard {
         width: 30%;
         display: flex;
@@ -76,7 +75,6 @@
         justify-content: center;
         align-items: center;
     }
-
     .bloqueSuperior h3 {
         color: #0F2D45;
         text-align: center;
@@ -87,7 +85,6 @@
         margin-bottom: 10px;
         padding: 0;
     }
-
     .bloqueSuperior p {
         color: #0F2D45;
         text-align: center;
@@ -97,11 +94,9 @@
         line-height: 20px;
         margin-bottom: 40px;
     }
-
     .bloqueInferiorTexto {
         padding: 20px 0;
     }
-
     .bloqueInferiorTexto p:nth-child(1) {
         color: #0F2D45;
         text-align: center;
@@ -111,7 +106,6 @@
         line-height: 20px;
         margin-bottom: 5px;
     }
-
     .bloqueInferiorTexto p {
         color: #0F2D45;
         text-align: justify;

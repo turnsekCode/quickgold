@@ -3,9 +3,7 @@
 }
 .contenedorMenu {
     display: none;
-
 }
-
 .botonLlamar a {
     display: none;
 }
@@ -17,20 +15,17 @@
         background: #036F9A;
         width: 100%;
     }
-
     .contenedorMenuSticky {
         height: 50px;
         width: 100%;
         display: block;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
     }
-
     .contenedorMenuSticky ul {
         display: flex;
         margin: 0 auto;
         max-width: 1060px;
     }
-
     .contenedorMenuSticky ul a {
         padding: 13px 20px;
         transition: 0.3s;
@@ -38,12 +33,10 @@
         display: flex;
         align-items: center;
     }
-
     .contenedorMenuSticky ul li:hover {
         background: #0A6A94;
         border-radius: 2px;
     }
-
     .contenedorMenuSticky ul li {
         color: #FFFFFF;
         text-transform: uppercase;
@@ -55,19 +48,16 @@
         align-items: center;
         font-family: 'Gotham Bold';
     }
-
     .contenedorMenu {
         height: 50px;
         width: 100%;
         display: block;
     }
-
     .contenedorMenu ul {
         display: flex;
         margin: 0 auto;
         max-width: 1060px;
     }
-
     .contenedorMenu ul a {
         padding: 13px 20px;
         transition: 0.3s;
@@ -75,12 +65,10 @@
         display: flex;
         align-items: center;
     }
-
     .contenedorMenu ul li:hover {
         background: #0A6A94;
         border-radius: 2px;
     }
-
     .contenedorMenu ul li {
         color: #FFFFFF;
         text-transform: uppercase;
@@ -184,5 +172,4 @@
         display: block;
         height: 280px;
     }
-
 }

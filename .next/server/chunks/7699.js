@@ -388,6 +388,13 @@ const MenuMobil = ({ menuAbieto , menu_list  })=>{
                                         title: "TRABAJA CON NOSOTROS",
                                         children: "TRABAJA CON NOSOTROS"
                                     })
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        href: "/preguntas-frecuentes",
+                                        title: "PREGUNTAS FRECUENTES",
+                                        children: "PREGUNTAS FRECUENTES"
+                                    })
                                 })
                             ]
                         })
@@ -455,7 +462,8 @@ const Header = ({ menu_list , sticky , stickyRef  })=>{
                                 alt: "Quickgold Logo",
                                 className: (header_module_default()).logo,
                                 width: 163,
-                                height: 30
+                                height: 30,
+                                priority: true
                             })
                         })
                     }),
@@ -660,6 +668,13 @@ const Footer = ()=>{
                                                 title: "Ir a conoce quickgold",
                                                 href: "/expansion",
                                                 children: "Conoce Quickgold"
+                                            })
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                title: "Ir a preguntas frecuentes",
+                                                href: "/preguntas-frecuentes",
+                                                children: "Preguntas frecuentes"
                                             })
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("li", {
@@ -979,6 +994,13 @@ const FooterMobil = ()=>{
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                            href: "/preguntas-frecuentes",
+                                            title: "Ir a preguntas frecuentes",
+                                            children: "Preguntas frecuentes"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                             href: "/tiendas",
                                             title: "Ir a localizador de tiendas",
                                             children: "Localizador de tiendas"
@@ -986,7 +1008,7 @@ const FooterMobil = ()=>{
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "/",
+                                            href: "/tiendas",
                                             title: "Ir a mapa del sitio",
                                             children: "Mapa del sitio"
                                         })

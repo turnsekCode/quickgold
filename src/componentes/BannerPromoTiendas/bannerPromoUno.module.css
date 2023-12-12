@@ -5,7 +5,6 @@
     margin: 40px auto;
     padding: 0 20px;
 }
-
 .bannerDesktop {
     display: none;
 }
@@ -24,7 +23,6 @@
         margin: 40px auto;
         padding: 0;
     }
-
     .bannerDesktop {
         width: 100%;
         height: 100%;

@@ -16,8 +16,8 @@ const Section_tres = ({ ciudad }) => {
           para poder tasarlo.
         </p>
         <p>
-          Para que podamos comprar un diamante es necesario que tengas las
-          siguientes características:
+          Para que podamos comprar un diamante es necesario que tengas en cuenta
+          las siguientes características:
         </p>
       </div>
       <div className={styles.contenedorBloqueInferior}>

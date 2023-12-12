@@ -35,7 +35,6 @@
     display: inline-block;
     z-index: 1;
 }
-
 .linea:after {
     content: '';
     width: 100%;
@@ -46,7 +45,6 @@
     height: 4px;
     transform: translateY(20%);
 }
-
 .linea:after {
     left: 2px;
     top: calc(50% - 1px);
@@ -61,14 +59,12 @@
         flex-direction: row-reverse;
         justify-content: space-between;
     }
-
     .bloqueIzq {
         width: 50%;
         border: 1px solid;
         border-radius: 8px;
         padding: 49px 30px;
     }
-
     .bloqueIzq h2 {
         font-weight: 700;
         font-size: 30px;
@@ -78,7 +74,6 @@
         text-align: center;
         padding: 0 45px;
     }
-
     .bloqueIzq p {
         font-weight: 400;
         font-size: 16px;
@@ -87,25 +82,23 @@
         color: #0F2D45;
         margin-bottom: 20px;
     }
-        .linea {
-            position: relative;
-            display: inline-block;
-            z-index: 1;
-        }
-    
-        .linea:after {
-            content: '';
-            width: 100%;
-            z-index: -1;
-            border-bottom: 7px solid #FBBE00;
-            position: absolute;
-            display: block;
-            height: 5px;
-            transform: translateY(20%);
-        }
-    
-        .linea:after {
-            left: 2px;
-            top: calc(50% - 1px);
-        }
+    .linea {
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+    }
+    .linea:after {
+        content: '';
+        width: 100%;
+        z-index: -1;
+        border-bottom: 7px solid #FBBE00;
+        position: absolute;
+        display: block;
+        height: 5px;
+        transform: translateY(20%);
+    }
+    .linea:after {
+        left: 2px;
+        top: calc(50% - 1px);
+    }
 }

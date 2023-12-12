@@ -680,7 +680,7 @@ const Section_cinco = ({ ciudad  })=>{
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: (sectionCinco_module_default()).contenedorVentajas6,
                         children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                            children: "Reserva gratuita de m\xe1s de 30 divisas"
+                            children: "Reserva gratuita de m\xe1s de 20 divisas"
                         })
                     })
                 ]

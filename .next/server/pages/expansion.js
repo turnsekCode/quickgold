@@ -224,7 +224,7 @@ const FormularioExpansion = ()=>{
     const toast = (0,_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.useToast)();
     const [state, setState] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(initState);
     const [touched, setTouched] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)({});
-    const { values , error  } = state;
+    const { values , isLoading , error  } = state;
     const [checkedItems, setCheckedItems] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(false);
     const onBlur = ({ target  })=>setTouched((prev)=>({
                 ...prev,
@@ -381,10 +381,11 @@ const FormularioExpansion = ()=>{
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.FormErrorMessage, {
                         children: "Required"
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Button, {
+                        isLoading: isLoading,
                         id: "formularioexpansion",
                         className: !values.name || !values.email || !values.subject || !values.message || checkedItems === false ? `${(_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_4___default().botonEnviar)}` : `${(_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_4___default().botonEnviar)} ${(_formularioExpansion_module_css__WEBPACK_IMPORTED_MODULE_4___default().botonEnviarHabilitado)}`,
-                        disabled: !values.name || !values.email || !values.subject || !values.message || checkedItems === false,
+                        isDisabled: !values.name || !values.email || !values.subject || !values.message || checkedItems === false,
                         onClick: onSubmit,
                         children: "ENVIAR"
                     })
@@ -915,14 +916,11 @@ const Section_siete = ()=>{
                                     })
                                 ]
                             }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                 href: "tel:900373629",
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
-                                        children: "LLAMA GRATIS"
-                                    }),
-                                    " AL 900 373 629"
-                                ]
+                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
+                                    children: "LLAMA GRATIS"
+                                })
                             })
                         ]
                     }),

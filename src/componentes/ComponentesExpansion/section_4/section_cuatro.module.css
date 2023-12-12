@@ -1,6 +1,6 @@
 .contenedorSectionCuatro{
     height: 470px;
-    margin-bottom: 50px;
+    margin-bottom: 0;
 }
 .contenedorSectionCuatroMargen{
     max-width: 1060px;
@@ -26,9 +26,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding: 0 50px;
     position: initial;
+    font-family: 'Gotham Bold';
 }
 .bloqueIzq p {
     color: #0F2D45;
@@ -62,11 +63,9 @@
         background-repeat: no-repeat;
         position: relative;
     }
-
     .bloqueIzq {
         width: 60%;
     }
-
     .bloqueDer {
         display: flex;
         flex-direction: column;
@@ -75,7 +74,6 @@
         height: 689px;
         width: 40%;
     }
-
     .bloqueIzq h3 {
         color: #0F2D45;
         font-size: 30px;
@@ -90,7 +88,6 @@
         padding: 0;
         text-align: left;
     }
-
     .bloqueIzq p {
         color: #0F2D45;
         font-size: 14px;

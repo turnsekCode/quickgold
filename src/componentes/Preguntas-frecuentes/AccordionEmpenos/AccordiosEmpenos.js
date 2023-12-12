@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { styled } from "@mui/material/styles";
 import MuiAccordion from "@mui/material/Accordion";
 import MuiAccordionSummary from "@mui/material/AccordionSummary";
@@ -130,9 +130,10 @@ export default function AccordiosnEmpenos() {
         <AccordionDetails className={styles.contenerdorContenidoAccordion}>
           <p className={styles.contenidoAccordion}>
             Puedes empeñar <strong>joyas de oro o plata</strong> como:
-            pendientes, pulseras, relojes, etc. Si tienes alguna duda, puedes
-            llamar a tu tienda más cercana para que te expliquen, personalmente,
-            cómo funcionan nuestros <strong>empeños de joyas</strong>.
+            pendientes, pulseras, relojes, monedas y lingotes, etc. Si tienes
+            alguna duda, puedes llamar a tu tienda más cercana para que te
+            expliquen, personalmente, cómo funcionan nuestros{" "}
+            <strong>empeños de joyas</strong>.
           </p>
         </AccordionDetails>
       </Accordion>
@@ -159,9 +160,8 @@ export default function AccordiosnEmpenos() {
         <AccordionDetails className={styles.contenerdorContenidoAccordion}>
           <p className={styles.contenidoAccordion}>
             La <strong>tasación de las joyas</strong> de empeños se realiza
-            igual que con la compra de éstas. Se tasará, a la{" "}
-            <strong>vista del cliente</strong>, los{" "}
-            <strong>metales preciosos</strong>, facilitando toda la información
+            igual que con la compra de éstas. Se tasarán las piezas, a la{" "}
+            <strong>vista del cliente</strong>, facilitando toda la información
             requerida por éste. Una vez tasadas se fijará el precio según la
             cotización del metal en el momento y se realizará un contrato de
             empeños. Una vez firmado por ambas partes se entregará el dinero
@@ -200,9 +200,10 @@ export default function AccordiosnEmpenos() {
           <p className={styles.contenidoAccordion}>
             En <strong>quickgold</strong> te ofrecemos todas las facilidades
             necesarias para que puedas{" "}
-            <strong>empeñar tus joyas en 1, 2 o 3 meses</strong>. Aprovecha
-            nuestra promoción en empeños, con la que puedes dejarnos tus joyas
-            de oro o plata{" "}
+            <strong>empeñar tus joyas en 1, 2 o 3 meses</strong> seguidos, con
+            la posibilidad de seguir renovando el contrato, pasado este tiempo.
+            Aprovecha nuestra promoción en empeños, con la que puedes dejarnos
+            tus joyas de oro o plata{" "}
             <strong>sin pagar intereses durante el primer mes</strong>.
           </p>
         </AccordionDetails>

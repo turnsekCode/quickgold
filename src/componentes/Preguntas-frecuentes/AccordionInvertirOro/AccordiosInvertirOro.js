@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { styled } from "@mui/material/styles";
 import MuiAccordion from "@mui/material/Accordion";
 import MuiAccordionSummary from "@mui/material/AccordionSummary";
@@ -108,7 +108,7 @@ export default function AccordiosnInvertirOro() {
         </AccordionSummary>
         <AccordionDetails className={styles.contenerdorContenidoAccordion}>
           <p className={styles.contenidoAccordion}>
-            No, el oro está exento del cargo del IVA. Consulta{" "}
+            No, el oro de inversión está exento del cargo del IVA. Consulta{" "}
             <Link href="/invertir-en-oro">
               <strong>nuestro catálogo de lingotes de oro aquí</strong>
             </Link>

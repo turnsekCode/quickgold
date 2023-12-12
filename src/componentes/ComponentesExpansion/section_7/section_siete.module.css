@@ -15,6 +15,7 @@
     padding: 60px 20px 20px 20px;
     border-top: 1px solid #fff;
     width: 80%;
+    font-family: 'Gotham Bold';
 }
 .contenedorBloques{
     display: flex;
@@ -53,6 +54,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    font-family: 'Gotham Bold';
 }
 .bloqueIzqTexto{
     color: #FFF;
@@ -99,6 +101,7 @@
     line-height: normal;
     border-bottom: 2px solid #FFF;
     width: 220px;
+    font-family: 'Gotham Bold';
 }
 .horarioDias{
     color: #FFF;
@@ -107,6 +110,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    font-family: 'Gotham Bold';
 }
 .horarioHoras{
     color: #FFF;
@@ -127,6 +131,7 @@
     font-weight: 900;
     line-height: normal;
     padding-top: 5px;
+    font-family: 'Gotham Bold';
 }
 .horariosHorasDos{
     color: #FFF;
@@ -143,6 +148,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    font-family: 'Gotham Bold';
 }
 .horariosHorasTres{
     color: #FFF;
@@ -164,6 +170,7 @@
     line-height: 14px;
     margin-top: 20px;
     text-align: center;
+    font-family: 'Gotham Bold';
 }
 
 @media (min-width: 610px) {
@@ -173,7 +180,6 @@
         margin-bottom: 100px;
         background: transparent;
     }
-
     .contenedorSectionSiete h5 {
         color: #0F2D45;
         text-align: center;
@@ -186,13 +192,11 @@
         border-top: 1px solid #fff;
         width: 80%;
     }
-
     .contenedorBloques {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-
     .bloqueIzq {
         width: 48%;
         height: 520px;
@@ -205,7 +209,6 @@
         align-items: center;
         justify-content: space-between;
     }
-
     .bloqueDer {
         width: 48%;
         height: 520px;
@@ -213,14 +216,12 @@
         background: #0F2D45;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
-
     .bloqueIzqInferior {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
     .bloqueIzq h6 {
         color: #FFF;
         text-align: center;
@@ -229,7 +230,6 @@
         font-weight: 900;
         line-height: normal;
     }
-
     .bloqueIzqTexto {
         color: #FFF;
         text-align: center;
@@ -239,7 +239,6 @@
         line-height: normal;
         padding: 0 40px;
     }
-
     .bloqueHorario {
         margin-top: 20px;
         width: 280px;
@@ -252,7 +251,6 @@
         align-items: center;
         justify-content: space-around;
     }
-
     .bloqueHorariosDos {
         width: 280px;
         height: 120px;
@@ -264,13 +262,11 @@
         align-items: center;
         justify-content: space-around;
     }
-
     .bloqueHorario svg,
     .bloqueHorariosDos svg {
         color: #fff;
         font-size: 10px;
     }
-
     .nuestroHorario {
         color: #FFF;
         text-align: center;
@@ -281,7 +277,6 @@
         border-bottom: 2px solid #FFF;
         width: 220px;
     }
-
     .horarioDias {
         color: #FFF;
         text-align: center;
@@ -290,7 +285,6 @@
         font-weight: 900;
         line-height: normal;
     }
-
     .horarioHoras {
         color: #FFF;
         text-align: center;
@@ -302,7 +296,6 @@
         border-bottom: 2px solid #FFF;
         padding-bottom: 5px;
     }
-
     .horariosDiasDos {
         color: #FFF;
         text-align: center;
@@ -312,7 +305,6 @@
         line-height: normal;
         padding-top: 5px;
     }
-
     .horariosHorasDos {
         color: #FFF;
         text-align: center;
@@ -321,7 +313,6 @@
         font-weight: 400;
         line-height: normal;
     }
-
     .horariosDiasTres {
         color: #FFF;
         text-align: center;
@@ -330,7 +321,6 @@
         font-weight: 900;
         line-height: normal;
     }
-
     .horariosHorasTres {
         color: #FFF;
         text-align: center;
@@ -339,7 +329,6 @@
         font-weight: 400;
         line-height: normal;
     }
-
     .bloqueIzq a {
         border-radius: 2px;
         background: #E83C82;

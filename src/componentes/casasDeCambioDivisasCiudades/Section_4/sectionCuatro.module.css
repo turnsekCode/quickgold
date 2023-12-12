@@ -33,11 +33,9 @@ width: 100%;
         margin-top: 60px;
         justify-content: space-between;
     }
-
     .bloqueIzq {
         width: 100%;
     }
-
     .bloqueIzq h2 {
         font-weight: 700;
         font-size: 30px;
@@ -46,7 +44,6 @@ width: 100%;
         margin-bottom: 15px;
         text-align: center;
     }
-
     .bloqueIzq p {
         font-weight: 400;
         font-size: 14px;

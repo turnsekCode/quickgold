@@ -1,4 +1,3 @@
-
 .contenedorSectionTres h2{
     font-weight: 700;
     font-size: 30px;
@@ -53,7 +52,6 @@
 .bloqueIzq p span{
 font-weight: 700;
 }
-
 .contenedorInfoTres{
     display: flex;
     flex-direction: column;
@@ -140,17 +138,14 @@ font-weight: 700;
         color: #213E58;
         margin-bottom: 40px;
     }
-
     .bloqueIzq {
         width: 43%;
         margin-bottom: 50px;
     }
-
     .linea {
         position: relative;
         display: inline-block;
     }
-
     .linea:before {
         content: '';
         width: 100%;
@@ -161,16 +156,13 @@ font-weight: 700;
         height: 5px;
         transform: translateY(40%);
     }
-
     .linea:before {
         left: 2px;
         top: calc(50% - 1px);
     }
-
     .bloqueDer {
         width: 50%;
     }
-
     .bloqueIzq h2,
     .bloqueDer h2 {
         font-style: normal;
@@ -181,7 +173,6 @@ font-weight: 700;
         margin-bottom: 10px;
         text-align: start;
     }
-
     .bloqueIzq p,
     .bloqueDer p {
         font-weight: 400;
@@ -190,18 +181,15 @@ font-weight: 700;
         color: #213E58;
         text-align: start;
     }
-
     .bloqueIzq p span {
         font-weight: 700;
     }
-
     .contenedorInfoTres {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
     }
-
     .cards {
         border-radius: 8px;
         width: 330px;
@@ -211,7 +199,6 @@ font-weight: 700;
         align-items: center;
         justify-content: center;
     }
-
     .cards p:first-child {
         font-weight: 700;
         font-size: 30px;
@@ -219,7 +206,6 @@ font-weight: 700;
         text-align: center;
         color: #0692D0;
     }
-
     .cards p {
         font-weight: 700;
         font-size: 20px;

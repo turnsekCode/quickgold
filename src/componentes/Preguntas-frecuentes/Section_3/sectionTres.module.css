@@ -4,7 +4,6 @@
     background-image: url(/assets/img/imagenFondoPreguntasFrecuentes.png);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 .contenedorTexto{
     max-width: 1020px;
@@ -13,11 +12,12 @@
     flex-direction: column;
     justify-content: center;
     height: 300px;
+    padding: 20px 40px;
 }
 .contenedorTexto p:nth-child(1){
     color: #FFF;
     font-family: "Gotham Bold";
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
@@ -25,24 +25,74 @@
 }
 .contenedorTexto p:nth-child(2) {
     color: #FFF;
-    font-size: 25px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 20px;
     margin-bottom: 20px;
-    padding: 0 100px 0 0;
+    padding: 0;
 }
 .contenedorTexto p:nth-child(2) a{
     color: #FFF;
-    font-size: 25px;
+    font-size: 14px;
     font-style: normal;
     font-family: "Gotham Bold";
     line-height: 30px;
 }
 .contenedorTexto p:nth-child(3) {
     color: #FFF;
-    font-size: 25px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+}
+
+@media (min-width: 610px) {
+    .contenedorImagenFondo {
+            width: 100%;
+            height: 309px;
+            background-image: url(/assets/img/imagenFondoPreguntasFrecuentes.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .contenedorTexto {
+            max-width: 1020px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 300px;
+        }
+        .contenedorTexto p:nth-child(1) {
+            color: #FFF;
+            font-family: "Gotham Bold";
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+        .contenedorTexto p:nth-child(2) {
+            color: #FFF;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            margin-bottom: 20px;
+            padding: 0 100px 0 0;
+        }
+        .contenedorTexto p:nth-child(2) a {
+            color: #FFF;
+            font-size: 25px;
+            font-style: normal;
+            font-family: "Gotham Bold";
+            line-height: 30px;
+        }
+        .contenedorTexto p:nth-child(3) {
+            color: #FFF;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+        }
 }

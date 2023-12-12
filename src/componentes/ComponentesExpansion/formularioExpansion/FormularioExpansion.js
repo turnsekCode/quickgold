@@ -6,6 +6,7 @@ import {
   Text,
   useToast,
   Checkbox,
+  Button,
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { sendContactForm } from "../../../lib/api";
@@ -23,7 +24,7 @@ const FormularioExpansion = () => {
   const toast = useToast();
   const [state, setState] = useState(initState);
   const [touched, setTouched] = useState({});
-  const { values, error } = state;
+  const { values, isLoading, error } = state;
   const [checkedItems, setCheckedItems] = useState(false);
   const onBlur = ({ target }) =>
     setTouched((prev) => ({
@@ -153,7 +154,8 @@ const FormularioExpansion = () => {
           </a>
         </Checkbox>
         <FormErrorMessage>Required</FormErrorMessage>
-        <button
+        <Button
+          isLoading={isLoading}
           id="formularioexpansion"
           className={
             !values.name ||
@@ -164,7 +166,7 @@ const FormularioExpansion = () => {
               ? `${styles.botonEnviar}`
               : `${styles.botonEnviar} ${styles.botonEnviarHabilitado}`
           }
-          disabled={
+          isDisabled={
             !values.name ||
             !values.email ||
             !values.subject ||
@@ -174,7 +176,7 @@ const FormularioExpansion = () => {
           onClick={onSubmit}
         >
           ENVIAR
-        </button>
+        </Button>
       </div>
     </ChakraProvider>
   );

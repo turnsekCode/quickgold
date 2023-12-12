@@ -28,7 +28,6 @@
 .contenedorRedes {
     display: none;
 }
-
 .closeBoton {
     display: flex;
     justify-content: flex-end;
@@ -38,7 +37,6 @@
     width: 100%;
     padding: 10px 0px;
 }
-
 .closeBoton svg {
     font-size: 43px;
     color: #FFFFFF;
@@ -53,7 +51,6 @@
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
             z-index: 200;
         }
-    
         .contenedorLogo {
             height: 80px;
             max-width: 1050px;
@@ -62,23 +59,19 @@
             align-items: center;
             justify-content: space-between;
         }
-    
         .contenedorRedes {
             display: flex;
             gap: 20px;
         }
-    
         .contenedorIconos {
             display: flex;
             gap: 10px;
             color: #fff;
             align-items: center;
         }
-    
         .contenedorIconos svg {
             font-size: x-large;
         }
-    
         .botonLlamar a {
             background: #E83C82;
             border-radius: 2px;
@@ -95,11 +88,9 @@
             height: 40px;
             font-family: 'Gotham Bold';
         }
-    
         .linkedin {
             position: relative;
         }
-    
         .vector {
             width: 12px;
             height: 12px;

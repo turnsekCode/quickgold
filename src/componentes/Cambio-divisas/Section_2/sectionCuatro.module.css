@@ -13,7 +13,6 @@
     gap: 60px;
     flex-direction: column;
 }
-
 .bloqueDerPc{
     display: none;
 }
@@ -108,7 +107,6 @@
         gap: 25px;
         flex-direction: column;
     }
-
     .bloqueDerMobil {
         display: none;
     }
@@ -127,7 +125,6 @@
         right: -52px;
         display: block;
     }
-
     .bloqueDerPc p {
         color: #0F2D45;
         text-align: center;

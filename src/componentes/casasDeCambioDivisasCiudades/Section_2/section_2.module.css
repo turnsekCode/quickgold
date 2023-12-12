@@ -92,14 +92,12 @@
         gap: 20px;
         justify-content: space-between;
     }
-
     .bloqueIzq {
         width: 50%;
         border-radius: 8px;
         background: #0F2D45;
         padding: 40px 30px;
     }
-
     .bloqueIzqTitulo {
         color: #FFF;
         font-family: "Gotham Black";
@@ -108,7 +106,6 @@
         font-weight: 500;
         line-height: normal;
     }
-
     .bloqueIzqTexto {
         color: #FFF;
         font-size: 13px;
@@ -117,7 +114,6 @@
         line-height: normal;
         margin-bottom: 20px;
     }
-
     .bloqueDer {
         width: 50%;
         height: 650px;
@@ -126,13 +122,11 @@
         position: relative;
         padding: 35px 50px;
     }
-
     .ImageAdorno {
         position: absolute;
         bottom: 0;
         left: 30%;
     }
-
     .bloqueDerUno h2 {
         color: #213E58;
         text-align: center;
@@ -143,7 +137,6 @@
         line-height: normal;
         margin-bottom: 20px;
     }
-
     .bloqueDerUno p {
         color: #213E58;
         text-align: justify;
@@ -152,7 +145,6 @@
         line-height: 20px;
         margin-bottom: 20px;
     }
-
     .bloqueDerUno p span {
         color: #213E58;
         text-align: justify;
@@ -162,7 +154,6 @@
         line-height: 20px;
         font-family: "Gotham Bold";
     }
-
     .bloqueDerDos h2 {
         color: #213E58;
         text-align: center;
@@ -173,7 +164,6 @@
         line-height: normal;
         margin-bottom: 20px;
     }
-
     .bloqueDerDos p {
         color: #213E58;
         text-align: justify;
@@ -181,6 +171,4 @@
         font-style: normal;
         line-height: 20px;
     }
-   
-
 }

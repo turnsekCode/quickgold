@@ -14,21 +14,18 @@
     display: flex;
     gap: 15px;
 }
-
 .conversorTexto p {
     font-weight: 100;
     font-size: 13px;
     line-height: 16px;
     color: #FFFFFF;
 }
-
 .conversorTexto h2 {
     font-weight: 900;
     font-size: 30px;
     line-height: 37px;
     color: #FFFFFF;
 }
-
 .botonLlamarTienda {
     background: #E83C82;
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
@@ -45,13 +42,11 @@
     display: block;
     font-family: 'Gotham Bold';
 }
-
 .contenedorAmbosBloquesEmpeno {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .contenedorBloqueEmpeno {
     width: 100%;
     height: auto;
@@ -60,7 +55,6 @@
     margin-top: 0;
     padding: 30px 20px;
 }
-
 .contenedorBloqueEmpeno h3 {
     font-weight: 500;
     font-size: 23px;
@@ -71,24 +65,20 @@
     margin-bottom: 20px;
     font-family: 'Gotham Black';
 }
-
 .contenedorBloqueEmpeno h3 span {
     font-family: 'Gotham Bold';
 }
-
 .contenedorTresBloques {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
 }
-
 .contenedorBloques {
     display: flex;
     border-radius: 2px;
     height: 40px;
 }
-
 .bloqueIzq {
     width: 30%;
     border-radius: 2px;
@@ -97,14 +87,12 @@
     align-items: center;
     justify-content: center;
 }
-
 .bloqueIzq p {
     font-weight: 100;
     font-size: 20px;
     line-height: 14px;
     color: #0F2D45;
 }
-
 .bloqueDer {
     width: 70%;
     display: flex;
@@ -112,7 +100,6 @@
     border: 1px solid #0F2D45;
     padding-left: 20px;
 }
-
 .bloqueDer p {
     font-weight: 500;
     font-size: 17px;
@@ -120,14 +107,12 @@
     letter-spacing: 1px;
     color: #0F2D45;
 }
-
 .contenedorImagen {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
 }
-
 .contenedorPrecioOro {
     width: 290px;
     height: 260px;
@@ -136,7 +121,6 @@
     border-radius: 8px;
     padding: 10px;
 }
-
 .contenedorPrecioPlata {
     width: 290px;
     height: 170px;
@@ -145,7 +129,6 @@
     padding: 10px;
     margin-top: 30px;
 }
-
 .contenedorBloqueMasDe h4 {
     font-weight: 900;
     font-size: 16px;
@@ -154,17 +137,14 @@
     color: #FFFFFF;
     margin-bottom: 10px;
 }
-
 .contenedorBloqueMasDe h4 span {
     font-weight: 500;
 }
-
 .contenedorPrecios {
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
 }
-
 .precios {
     width: 85px;
     height: 47px;
@@ -175,7 +155,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .precios p {
     font-weight: 700;
     font-size: 14px;
@@ -183,7 +162,6 @@
     text-align: center;
     color: #FFFFFF;
 }
-
 .precios p span {
     font-weight: 400;
     font-size: 13px;
@@ -191,7 +169,6 @@
     text-align: center;
     color: #FFFFFF;
 }
-
 .precios span {
     font-weight: 400;
     font-size: 13px;
@@ -199,7 +176,6 @@
     text-align: center;
     color: #FFFFFF;
 }
-
 /*estilos info*/
 .contenedorInfo {
     width: 100%;
@@ -209,12 +185,10 @@
     margin-top: 25px;
     padding: 20px 15px;
 }
-
 .primerParrafo span {
     font-weight: bold;
     margin: 0 4px;
 }
-
 .contenedorInfo h5 {
     color: #0F2D45;
     text-align: center;
@@ -224,7 +198,6 @@
     line-height: 20px;
     font-family: 'Gotham Bold';
 }
-
 .segundoParrafo {
     font-weight: 400;
     font-size: 14px;
@@ -235,12 +208,10 @@
     text-align: center;
 
 }
-
 .segundoParrafo span {
     font-family: 'Gotham Bold';
     margin-left: 4px;
 }
-
 .ejemplo {
     display: flex;
     flex-direction: column;
@@ -248,7 +219,6 @@
     justify-content: center;
     margin-bottom: 20px;
 }
-
 .primerParrafo {
     color: #0F2D45;
     text-align: center;
@@ -257,7 +227,6 @@
     font-weight: 400;
     line-height: 20px;
 }
-
 .tercerParrafo {
     color: #0692D0;
     font-size: 11px;
@@ -265,7 +234,6 @@
     font-weight: 500;
     line-height: 20px;
 }
-
 .cuartoParrafo {
     color: #0F2D45;
     text-align: center;
@@ -274,12 +242,10 @@
     font-weight: 400;
     line-height: 20px;
 }
-
 .contenedorBotonLlamar {
     width: 271px;
     margin: 0 auto;
 }
-
 .preciosDelOro {
     color: #0F2D45;
     text-align: center;
@@ -296,7 +262,6 @@
     align-items: center;
     gap: 20px;
 }
-
 .botonUno,
 .botonDos {
     border-radius: 2px;
@@ -312,7 +277,6 @@
     cursor: pointer;
     border: none;
 }
-
 .botonActivo {
     background: #0093CA;
     color: #fff;
@@ -335,14 +299,12 @@
         display: flex;
         gap: 15px;
     }
-
     .conversorTexto p {
         font-weight: 100;
         font-size: 13px;
         line-height: 16px;
         color: #FFFFFF;
     }
-
     .conversorTexto h2 {
         font-weight: 900;
         font-size: 30px;
@@ -369,7 +331,6 @@
     flex-direction: column;
     align-items: center;
 }
-
 .contenedorBloqueEmpeno {
     width: 100%;
     height: auto;
@@ -378,7 +339,6 @@
     margin-top: 0;
     padding: 30px 20px;
 }
-
 .contenedorBloqueEmpeno h3 {
     font-weight: 500;
     font-size: 30px;
@@ -388,24 +348,20 @@
     padding: 0;
     margin-bottom: 20px;
 }
-
 .contenedorBloqueEmpeno h3 span {
     font-weight: 700;
 }
-
 .contenedorTresBloques {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
 }
-
 .contenedorBloques {
     display: flex;
     border-radius: 2px;
     height: 40px;
 }
-
 .bloqueIzq {
     width: 30%;
     border-radius: 2px;
@@ -414,14 +370,12 @@
     align-items: center;
     justify-content: center;
 }
-
 .bloqueIzq p {
     font-weight: 100;
     font-size: 20px;
     line-height: 14px;
     color: #0F2D45;
 }
-
 .bloqueDer {
     width: 70%;
     display: flex;
@@ -429,7 +383,6 @@
     border: 1px solid #0F2D45;
     padding-left: 20px;
 }
-
 .bloqueDer p {
     font-weight: 500;
     font-size: 20px;
@@ -437,14 +390,12 @@
     letter-spacing: 1px;
     color: #0F2D45;
 }
-
 .contenedorImagen {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
 }
-
 .contenedorPrecioOro {
     width: 290px;
     height: 260px;
@@ -453,7 +404,6 @@
     border-radius: 8px;
     padding: 10px;
 }
-
 .contenedorPrecioPlata {
     width: 290px;
     height: 170px;
@@ -462,7 +412,6 @@
     padding: 10px;
     margin-top: 30px;
 }
-
 .contenedorBloqueMasDe h4 {
     font-weight: 900;
     font-size: 16px;
@@ -471,17 +420,14 @@
     color: #FFFFFF;
     margin-bottom: 10px;
 }
-
 .contenedorBloqueMasDe h4 span {
     font-weight: 500;
 }
-
 .contenedorPrecios {
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
 }
-
 .precios {
     width: 85px;
     height: 47px;
@@ -492,7 +438,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .precios p {
     font-weight: 700;
     font-size: 14px;
@@ -500,7 +445,6 @@
     text-align: center;
     color: #FFFFFF;
 }
-
 .precios p span {
     font-weight: 400;
     font-size: 13px;
@@ -508,7 +452,6 @@
     text-align: center;
     color: #FFFFFF;
 }
-
 .precios span {
     font-weight: 400;
     font-size: 13px;
@@ -516,7 +459,6 @@
     text-align: center;
     color: #FFFFFF;
 }
-
 /*estilos info*/
 .contenedorInfo {
     width: 100%;
@@ -526,7 +468,6 @@
     margin-top: 25px;
     padding: 30px;
 }
-
 .contenedorInfo h5 {
     color: #0F2D45;
     text-align: center;
@@ -535,7 +476,6 @@
     font-weight: 700;
     line-height: 20px;
 }
-
 .segundoParrafo {
     color: #0F2D45;
     text-align: center;
@@ -545,12 +485,10 @@
     line-height: 20px;
     padding: 0 40px;
 }
-
 .segundoParrafo span {
     font-weight: 700;
     margin-left: 4px;
 }
-
 .ejemplo {
     display: flex;
     flex-direction: column;
@@ -558,7 +496,6 @@
     justify-content: center;
     margin-bottom: 20px;
 }
-
 .primerParrafo {
     color: #0F2D45;
     text-align: center;
@@ -567,7 +504,6 @@
     font-weight: 400;
     line-height: 20px;
 }
-
 .tercerParrafo {
     color: #0692D0;
     font-size: 11px;
@@ -575,7 +511,6 @@
     font-weight: 500;
     line-height: 20px;
 }
-
 .cuartoParrafo {
     color: #0F2D45;
     text-align: center;
@@ -584,12 +519,10 @@
     font-weight: 400;
     line-height: 20px;
 }
-
 .contenedorBotonLlamar {
     width: 271px;
     margin: 0 auto;
 }
-
 .preciosDelOro{
     color: #0F2D45;
     text-align: center;

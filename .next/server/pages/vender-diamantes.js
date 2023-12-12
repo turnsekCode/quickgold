@@ -343,7 +343,7 @@ const Section_tres = ({ ciudad  })=>{
                         children: "Para realizar una venta de diamantes es necesario ser mayor de edad y aportar tu DNI en vigor. Si tienes un brillante, contacta con nosotros para poder tasarlo."
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        children: "Para que podamos comprar un diamante es necesario que tengas las siguientes caracter\xedsticas:"
+                        children: "Para que podamos comprar un diamante es necesario que tengas en cuenta las siguientes caracter\xedsticas:"
                     })
                 ]
             }),

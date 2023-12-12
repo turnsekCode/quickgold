@@ -20,13 +20,11 @@
         font-size: 20px;
         margin-top: 2px;
     }
-
     .sectionBreadcrumbs {
         display: flex;
         align-items: center;
         font-size: 14px;
         line-height: 11px;
-        color: #213E58;
-      
+        color: #213E58;  
     }
 }

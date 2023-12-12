@@ -144,21 +144,18 @@ const FooterMobil = () => {
                 Conoce Quickgold
               </a>
             </li>
-            {/*<li>
-              <a
-                href="https://quickgold.es/preguntas-frecuentes"
-                title="Ir a preguntas frecuentes"
-              >
+            <li>
+              <a href="/preguntas-frecuentes" title="Ir a preguntas frecuentes">
                 Preguntas frecuentes
               </a>
-          </li>*/}
+            </li>
             <li>
               <a href="/tiendas" title="Ir a localizador de tiendas">
                 Localizador de tiendas
               </a>
             </li>
             <li>
-              <a href="/" title="Ir a mapa del sitio">
+              <a href="/tiendas" title="Ir a mapa del sitio">
                 Mapa del sitio
               </a>
             </li>

@@ -32,7 +32,7 @@ const Section_siete = () => {
             </div>
           </div>
           <a href="tel:900373629">
-            <strong>LLAMA GRATIS</strong> AL 900 373 629
+            <strong>LLAMA GRATIS</strong>
           </a>
         </div>
         <div className={styles.bloqueDer}>

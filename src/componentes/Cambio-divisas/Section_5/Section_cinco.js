@@ -27,7 +27,7 @@ const Section_cinco = ({ ciudad }) => {
           <p>Mejoramos el precio si vienes en grupo</p>
         </div>
         <div className={styles.contenedorVentajas6}>
-          <p>Reserva gratuita de más de 30 divisas</p>
+          <p>Reserva gratuita de más de 20 divisas</p>
         </div>
       </div>
     </section>

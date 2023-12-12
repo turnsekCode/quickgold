@@ -24,7 +24,6 @@
     line-height: 37px;
     color: #FFFFFF;
 }
-
 .botonLlamarTienda {
     background: #E83C82;
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
@@ -39,6 +38,7 @@
     width: 280px;
     margin-top: 30px;
     display: block;
+    font-family: 'Gotham Bold';
 }
 .contenedorAmbosBloquesOro{
     display: flex;
@@ -235,7 +235,6 @@
     width: 270px;
     margin: 20px auto;
 }
-
 .Select select{
     width: 120px;
     height: 40px;
@@ -313,7 +312,6 @@
     position: relative;
     display: inline-block;
 }
-
 .linea:before {
     content: '';
     width: 100%;
@@ -324,7 +322,6 @@
     height: 5px;
     transform: translateY(15%);
 }
-
 .linea:before {
     left: 2px;
     top: calc(50% - 1px);
@@ -347,26 +344,22 @@
         flex-direction: column;
         margin-bottom: 40px;
     }
-
     .conversorTitulo {
         display: flex;
         gap: 15px;
     }
-
     .conversorTexto p {
         font-weight: 100;
         font-size: 13px;
         line-height: 16px;
         color: #FFFFFF;
     }
-
     .conversorTexto h2 {
         font-weight: 900;
         font-size: 22px;
         line-height: 37px;
         color: #FFFFFF;
     }
-
     .botonLlamarTienda {
         background: #E83C82;
         box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
@@ -382,7 +375,6 @@
         margin-top: 30px;
         display: block;
     }
-
     .contenedorAmbosBloquesOro {
         display: flex;
         justify-content: center;
@@ -390,7 +382,6 @@
         align-items: center;
         margin: 20px 0;
     }
-
     .contenedorBloqueSuperior {
         width: 100%;
         height: 155px;
@@ -398,7 +389,6 @@
         border-radius: 8px;
         padding: 10px 20px;
     }
-
     .contenedorBloqueSuperiorPlata {
         width: 100%;
         height: 166px;
@@ -406,12 +396,10 @@
         border-radius: 8px;
         padding: 10px;
     }
-
     .botones {
         display: flex;
         gap: 10px;
     }
-
     .button {
         border: 0.5px solid #B6CFE9;
         background: #FFF;
@@ -424,45 +412,37 @@
         line-height: 10px;
         cursor: pointer;
     }
-
     .botonActivo {
         background: #0692D0;
         color: #FFFFFF;
     }
-
     .contenedorPrecios {
         display: flex;
         justify-content: space-between;
         margin-top: -10px;
     }
-
     .contenedorPreciosPlata {
         display: flex;
         justify-content: space-between;
     }
-
     .contenedorprecioDestacado {
         display: flex;
         justify-content: center;
     }
-
     .precioDestacado {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
     }
-
     .contenedorprecioDestacadoPlata {
         display: flex;
         justify-content: center;
         width: 70%;
     }
-
     .precioDestacadoPlata {
         width: 118px;
         height: 76px;
     }
-
     .masde {
         font-weight: 500;
         font-size: 15px;
@@ -471,7 +451,6 @@
         color: #FFFFFF;
         margin-bottom: 5px;
     }
-
     .precio18k {
         color: #0F2D45;
         font-size: 55px;
@@ -481,7 +460,6 @@
         margin-top: -15px;
         font-family: 'Gotham Black';
     }
-
     .precio18k span {
         color: #0F2D45;
         font-size: 27px;
@@ -499,7 +477,6 @@
         margin-top: -8px;
         font-family: 'Gotham Black';
     }
-
     .precio999 span {
         color: #0F2D45;
         font-size: 24px;
@@ -515,14 +492,12 @@
         font-weight: 500;
         line-height: 20px;
     }
-
     .contenedorOtrosPrecios {
         width: 30%;
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
-
     .OtrosPrecios {
         background: #F3FBFE;
         border-radius: 8px;
@@ -534,7 +509,6 @@
         align-items: flex-start;
         padding-left: 10px;
     }
-
     .precio {
         color: #0F2D45;
         text-align: center;
@@ -544,7 +518,6 @@
         line-height: 16px;
         font-family: 'Gotham Medium';
     }
-
     .OtrosPrecios p span {
         color: #0F2D45;
         text-align: center;
@@ -553,7 +526,6 @@
         font-weight: 700;
         line-height: 16px;
     }
-
     .preciok {
         color: #0692D0;
         text-align: left;
@@ -562,7 +534,6 @@
         font-weight: 700;
         line-height: 20px;
     }
-
     .contenedorCalculadora {
         background: #fff;
         border-radius: 8px;
@@ -571,7 +542,6 @@
         margin-top: 20px;
         padding: 10px;
     }
-
     .contenedorCalculadora h2 {
         color: #0F2D45;
         text-align: center;
@@ -580,7 +550,6 @@
         font-weight: 700;
         line-height: normal;
     }
-
     .contenedorCalculadora h2 span {
         color: #0F2D45;
         text-align: center;
@@ -589,7 +558,6 @@
         font-weight: 500;
         line-height: normal;
     }
-
     .contenedorSelect {
         display: flex;
         align-items: center;
@@ -597,7 +565,6 @@
         width: 270px;
         margin: 20px auto;
     }
-
     .Select select {
         width: 120px;
         height: 40px;
@@ -611,14 +578,12 @@
         cursor: pointer;
         border: none;
     }
-
     .Select select option {
         color: #213E58;
         font-weight: 400;
         font-size: 14px;
         line-height: 12px;
     }
-
     .Select p,
     .input p {
         color: #0F2D45;
@@ -627,14 +592,12 @@
         font-weight: 400;
         line-height: normal;
     }
-
     .input span {
         font-size: 16px;
         line-height: 11px;
         color: #0F2D45;
         margin-left: 4px;
     }
-
     .input input {
         width: 120px;
         height: 40px;
@@ -648,7 +611,6 @@
         color: #213E58;
         padding: 0 5px;
     }
-
     .tituloInferior {
         color: #0F2D45;
         text-align: center;
@@ -657,7 +619,6 @@
         font-weight: 300;
         line-height: normal;
     }
-
     .precioFinal {
         color: #0F2D45;
         text-align: center;
@@ -666,11 +627,9 @@
         font-weight: 900;
         line-height: normal;
     }
-
     .precioFinal span {
         font-size: 22px;
     }
-
     .promocion {
         font-weight: 700;
         font-size: 16px;
@@ -679,12 +638,10 @@
         text-align: center;
         margin-top: 35px;
     }
-
     .linea {
         position: relative;
         display: inline-block;
     }
-
     .linea:before {
         content: '';
         width: 100%;
@@ -695,12 +652,10 @@
         height: 5px;
         transform: translateY(15%);
     }
-
     .linea:before {
         left: 2px;
         top: calc(50% - 1px);
     }
-
     .contenedorPrecioPlata {
         margin: 30px 0;
         display: flex;

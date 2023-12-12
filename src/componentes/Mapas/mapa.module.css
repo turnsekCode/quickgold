@@ -86,14 +86,12 @@
     margin: 5px 0px 10px;
     cursor: pointer;
 }
-
 .tienda h5 {
     font-weight: 700;
     font-size: 15px;
     line-height: 20px;
     color: #213E58;
 }
-
 .tienda p {
     color: #0F2D45;
     font-size: 16px;
@@ -110,67 +108,60 @@
     color: #213E58;
     display: none;
 }
-
 .mapboxgl-popup-close-button {
     font-size: 25px;
 }
-
-  .nombre_ciudad_popup {
-      color: #0F2D45;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 15px;
-      margin-bottom: 10px;
-      font-family: 'Gotham Book';
-  }
-
-  .direccion_popup {
-      color: #0F2D45;
-      font-size: 13px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 15px;
-      outline: none;
-      font-family: 'Gotham Book';
-  }
-
-  .telefono_popup {
-      color: #0F2D45;
-      font-size: 13px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 15px;
-      display: flex;
-      margin-top: 10px;
-      font-family: 'Gotham Book';
-  }
-
-  .telefono_popup span svg {
-      color: #000D20;
-      font-size: 20px;
-  }
-
-  .boton_como_llegar {
-      padding: 2px 8px;
-      background: #0692D0;
-      height: 26.797px;
-      color: #FFF;
-      text-align: center;
-      font-size: 13px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 15px;
-      border: none;
-      border-radius: 2px;
-      margin: 10px 3px 0 0;
-  }
+.nombre_ciudad_popup {
+    color: #0F2D45;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 10px;
+    font-family: 'Gotham Book';
+}
+.direccion_popup {
+    color: #0F2D45;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    outline: none;
+    font-family: 'Gotham Book';
+}
+.telefono_popup {
+    color: #0F2D45;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    display: flex;
+    margin-top: 10px;
+    font-family: 'Gotham Book';
+}
+.telefono_popup span svg {
+    color: #000D20;
+    font-size: 20px;
+}
+.boton_como_llegar {
+    padding: 2px 8px;
+    background: #0692D0;
+    height: 26.797px;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    border: none;
+    border-radius: 2px;
+    margin: 10px 3px 0 0;
+}
 .contenedorInfoTiendaMapa{
     padding: 10px 0 10px 0;
     margin-bottom: 8px;
     border-radius: 4px;
 }
-
 .contenedorInfoTiendaMapa:hover {
     background: #EBF6FB;
     padding: 10px 0 10px 0;
@@ -199,17 +190,14 @@
             margin: 80px 0 50px 0;
             flex-direction: row;
         }
-    
         .bloqueDer {
             width: 627px;
             height: 600px;
             background-color: #f1f1f1;
         }
-    
         .bloqueIzq {
             width: 90%;
         }
-    
         .bloqueIzq h2 {
             font-weight: 700;
             font-size: 30px;
@@ -217,7 +205,6 @@
             text-align: center;
             color: #213E58;
         }
-    
         .bloqueIzq p {
             font-weight: 700;
             font-size: 20px;
@@ -226,17 +213,14 @@
             color: #213E58;
             margin-top: 35px;
         }
-    
         .bloqueIzq p span {
             color: #0692D0;
         }
-    
         .linea {
             position: relative;
             display: inline-block;
             margin-left: 5px;
         }
-    
         .linea:before {
             content: '';
             width: 100%;
@@ -247,7 +231,6 @@
             height: 5px;
             transform: translateY(30%);
         }
-    
         .linea:before {
             left: 2px;
             top: calc(50% - 1px);
@@ -271,19 +254,16 @@
             height: 600px;
             margin-top: 0;
         }
-
         .tienda {
             margin: 5px 0px 10px;
             cursor: pointer;
         }
-
         .tienda h5 {
             font-weight: 700;
             font-size: 15px;
             line-height: 20px;
             color: #213E58;
         }
-
         .tienda p {
             color: #0F2D45;
             font-size: 16px;
@@ -292,7 +272,6 @@
             line-height: 18px;
             padding-left: 25px;
         }
-
         .nombre_ciudad_popup {
             color: #0F2D45;
             font-size: 12px;
@@ -301,7 +280,6 @@
             line-height: 15px;
             margin-bottom: 10px;
         }
-    
         .direccion_popup {
             color: #0F2D45;
             font-size: 13px;
@@ -309,7 +287,6 @@
             font-weight: 700;
             line-height: 15px;
         }
-    
         .telefono_popup {
             color: #0F2D45;
             font-size: 13px;
@@ -319,12 +296,10 @@
             display: flex;
             margin-top: 10px;
         }
-    
         .telefono_popup span svg {
             color: #000D20;
             font-size: 20px;
         }
-    
         .boton_como_llegar {
             padding: 2px 8px;
             background: #0692D0;
@@ -347,14 +322,12 @@
             margin-bottom: 8px;
             border-radius: 4px;
         }
-
         .contenedorInfoTiendaMapa:hover {
             background: #EBF6FB;
             padding: 10px 0 10px 0;
             margin-bottom: 8px;
             border-radius: 4px;
         }
-
         .contenedorInfoTiendaMapaActivo {
             background: #EBF6FB;
             padding: 10px 0 10px 0;

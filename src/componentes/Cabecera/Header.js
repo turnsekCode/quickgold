@@ -27,6 +27,7 @@ const Header = ({ menu_list, sticky, stickyRef }) => {
               className={styles.logo}
               width={163}
               height={30}
+              priority
             />
           </a>
         </figure>

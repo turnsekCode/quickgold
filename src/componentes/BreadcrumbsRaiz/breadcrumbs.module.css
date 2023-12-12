@@ -12,7 +12,6 @@
         display: flex;
         align-items: center;
     }
-
     .contenedorBreadcrumbs svg {
         font-size: 20px;
         margin-top: 2px;

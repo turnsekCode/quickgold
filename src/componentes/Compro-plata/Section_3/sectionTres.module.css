@@ -49,7 +49,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  
 }
 .contenidoBloqueDer p{
     font-weight: 400;
@@ -70,7 +69,6 @@
     display: inline-block;
     z-index: 1;
 }
-
 .linea:after {
     content: '';
     width: 100%;
@@ -81,7 +79,6 @@
     height: 5px;
     transform: translateY(20%);
 }
-
 .linea:after {
     left: 2px;
     top: calc(50% - 1px);
@@ -89,7 +86,6 @@
 .bloqueSuperiorTexto {
     display: flex;
 }
-
 .bloqueSuperiorTexto p:nth-child(1) {
     color: #FFF;
     font-size: 20px;
@@ -97,7 +93,6 @@
     font-weight: 500;
     line-height: normal;
 }
-
 .bloqueSuperiorTexto p:nth-child(2) {
     color: #FFF;
     font-size: 13px;
@@ -105,7 +100,6 @@
     font-weight: 400;
     line-height: normal;
 }
-
 .bloqueIzqInferior {
     border-radius: 8px;
     width: 100%;
@@ -115,7 +109,6 @@
     justify-content: center;
     margin-top: 0;
 }
-
 .bloqueIzqInferior p {
     color: #0F2D45;
     text-align: justify;
@@ -136,14 +129,12 @@
         flex-direction: row-reverse;
         justify-content: space-between;
     }
-
     .bloqueIzq {
         width: 50%;
         border: 1px solid;
         border-radius: 8px;
         padding: 30px 30px;
     }
-
     .bloqueIzq h2 {
         font-weight: 700;
         font-size: 30px;
@@ -153,7 +144,6 @@
         text-align: center;
         padding: 0 50px;
     }
-
     .bloqueIzq p {
         font-weight: 400;
         font-size: 16px;
@@ -162,7 +152,6 @@
         color: #0F2D45;
         margin-bottom: 20px;
     }
-
     .bloqueDer {
         display: flex;
         align-items: center;
@@ -173,7 +162,6 @@
         padding: 20px 0;
         margin-bottom: 0;
     }
-
     .contenidoBloqueDer {
         width: 250px;
         height: 215px;
@@ -183,9 +171,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
-
     .contenidoBloqueDer p {
         font-weight: 400;
         font-size: 16px;
@@ -194,20 +180,17 @@
         padding: 50px 15px 15px 25px;
         text-align: left;
     }
-
     .contenidoBloqueDer img {
         position: absolute;
         top: -61px;
         right: -51px;
         display: block;
     }
-
     .linea {
         position: relative;
         display: inline-block;
         z-index: 1;
     }
-
     .linea:after {
         content: '';
         width: 100%;
@@ -218,7 +201,6 @@
         height: 5px;
         transform: translateY(40%);
     }
-
     .linea:after {
         left: 2px;
         top: calc(50% - 1px);

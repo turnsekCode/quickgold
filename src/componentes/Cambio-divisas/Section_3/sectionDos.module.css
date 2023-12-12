@@ -63,7 +63,6 @@
     display: inline-block;
     z-index: 1;
 }
-
 .linea:after {
     content: '';
     width: 100%;
@@ -74,12 +73,10 @@
     height: 5px;
     transform: translateY(40%);
 }
-
 .linea:after {
     left: 2px;
     top: calc(50% - 1px);
 }
-
 
 @media (min-width: 610px) {
 .contenedorSectionDos {
@@ -90,13 +87,11 @@
         align-items: center;
         gap: 50px;
     }
-
     .bloqueInferior {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-
     .bloqueSuperior h2 {
         font-weight: 700;
         font-size: 30px;
@@ -105,7 +100,6 @@
         margin-bottom: 30px;
         padding: 0;
     }
-
     .bloqueSuperior p {
         font-weight: 400;
         font-size: 16px;
@@ -113,7 +107,6 @@
         text-align: center;
         color: #918F8F;
     }
-
     .imagenventaja1 {
         padding: 10px;
         background: #FFFFFF;
@@ -125,7 +118,6 @@
         align-items: center;
         justify-content: center;
     }
-
     .contenedorVentajas p {
         font-weight: 400;
         font-size: 16px;
@@ -135,7 +127,6 @@
         width: 75%;
         margin-top: 20px;
     }
-
     .contenedorVentajas {
         display: flex;
         flex-direction: column;
@@ -144,13 +135,11 @@
         width: 30%;
         margin-bottom: 30px;
     }
-
     .linea {
         position: relative;
         display: inline-block;
         z-index: 1;
     }
-
     .linea:after {
         content: '';
         width: 100%;
@@ -161,7 +150,6 @@
         height: 5px;
         transform: translateY(40%);
     }
-
     .linea:after {
         left: 2px;
         top: calc(50% - 1px);

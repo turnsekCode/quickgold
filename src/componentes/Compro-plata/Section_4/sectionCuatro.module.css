@@ -24,7 +24,6 @@
     display: inline-block;
     z-index: 1;
 }
-
 .linea:before {
     content: '';
     width: 100%;
@@ -35,7 +34,6 @@
     height: 5px;
     transform: translateY(20%);
 }
-
 .linea:before {
     left: 2px;
     top: calc(50% - 1px);
@@ -79,14 +77,12 @@
         margin: 0 auto;
         padding: 60px 0;
     }
-
     .sectionCincoContenido {
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
         justify-content: center;
     }
-
     .contenedorSectionCincoMargen h4 {
         font-weight: 700;
         font-size: 30px;
@@ -96,13 +92,11 @@
         margin-bottom: 50px;
         padding: 0;
     }
-
     .linea {
         position: relative;
         display: inline-block;
         z-index: 1;
     }
-
     .linea:before {
         content: '';
         width: 100%;
@@ -113,12 +107,10 @@
         height: 5px;
         transform: translateY(40%);
     }
-
     .linea:before {
         left: 2px;
         top: calc(50% - 1px);
     }
-
     .contenidoCard {
         width: 341px;
         height: 341px;
@@ -126,7 +118,6 @@
         border-radius: 8px;
         padding: 30px;
     }
-
     .contenidoCard p:nth-child(1) {
         font-weight: 700;
         font-size: 30px;
@@ -135,7 +126,6 @@
         color: #0692D0;
         margin-bottom: 20px;
     }
-
     .contenidoCard p:nth-child(2) {
         font-weight: 700;
         font-size: 20px;
@@ -144,7 +134,6 @@
         color: #000831;
         margin-bottom: 20px;
     }
-
     .contenidoCard p:nth-child(3) {
         font-weight: 400;
         font-size: 16px;

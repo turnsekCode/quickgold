@@ -8,7 +8,6 @@
     align-items: center;
     padding-top: 0;
 }
-
 .cabecera {
     width: 100%;
     height: 100px;
@@ -20,7 +19,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .footer {
     background: #036F9A;
     width: 100%;
@@ -29,7 +27,6 @@
     position: relative;
     bottom: 0;
 }
-
 .fondoCeleste,
 .imagenCombinado {
     position: absolute;
@@ -37,7 +34,6 @@
     left: 0;
     height: 107vh;
 }
-
 .contenedor {
     width: 100%;
     height: auto;
@@ -50,7 +46,6 @@
     display: flex;
     flex-direction: column;
 }
-
 .contenedorFormulario {
     width: 360px;
     background: #0F2D45;
@@ -58,15 +53,13 @@
     padding: 20px;
     margin: 0 auto;
 }
-
 .contenedorFormulario input {
     background: #FFFFFF;
     border: 1px solid #213E58;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 13px;
-    padding: 0 0 0 40px;
+    border-radius: 2px;
+    padding: 0 0 0 20px;
 }
-
 .contenedorFormulario input::placeholder {
     font-style: italic;
     font-weight: 400;
@@ -74,7 +67,6 @@
     line-height: 13px;
     color: #0F2D45;
 }
-
 .contenedorFormulario h2 {
     font-weight: 700;
     font-size: 25px;
@@ -84,12 +76,10 @@
     margin: 20px 0 45px 0;
     padding: 0 50px;
 }
-
 .contenedorFormulario span {
     font-size: 10px;
     margin: 20px 5px;
 }
-
 .contenedorTexto {
     width: 100%;
     padding: 30px 50px;
@@ -99,7 +89,6 @@
     justify-content: center;
     position: relative;
 }
-
 .contenedorTexto h2,
 .contenedorTexto p {
     font-weight: 700;
@@ -109,18 +98,15 @@
     color: #0F2D45;
     margin-bottom: 30px;
 }
-
 .contenedorTexto p:nth-child(3) {
     margin-bottom: 110px;
 }
-
 .imagenGlobo {
     position: absolute;
     top: 220px;
     left: 163px;
     width: 15%;
 }
-
 .contenedorPistas {
     background: #FFFFFF;
     border: 1px solid #213E58;
@@ -132,7 +118,6 @@
     width: 261px;
     height: 48px;
 }
-
 .contenedorPistas p {
     font-weight: 700;
     font-size: 18px;
@@ -141,13 +126,11 @@
     color: #213E58;
     margin: 0;
 }
-
 .contenedorFormPistas {
     display: flex;
     gap: 10px;
     position: relative;
 }
-
 .imagenPersona {
     position: absolute;
     right: 0px;
@@ -155,20 +138,15 @@
     z-index: 0;
     width: 20%;
 }
-
 .contenedorInputPistas input::placeholder {
     color: #fff;
     text-align: center;
     font-size: 18px;
-
-
 }
-
 .linea {
     position: relative;
     display: inline-block;
 }
-
 .linea:before {
     content: '';
     width: 100%;
@@ -179,27 +157,22 @@
     height: 5px;
     transform: translateY(156%);
 }
-
 .linea:before {
     left: 2px;
     top: calc(50% - 1px);
 }
-
 .linkPoliticas:hover {
     text-decoration: underline;
 }
-
 .linkPoliticas {
     font-weight: 700;
 }
-
 .contenedorBoton {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 8px;
 }
-
 .contenedorFormulario svg {
     position: absolute;
     top: 9px;
@@ -207,7 +180,6 @@
     z-index: 2;
     color: #0F2D45;
 }
-
 .basesLegales {
     font-weight: 100;
     font-size: 14px;
@@ -226,7 +198,6 @@
     line-height: 20px;
     margin-bottom: 5px;
 }
-
 .botonEnviar {
     border: 2px solid #0F2D45;
     width: 100%;
@@ -235,13 +206,13 @@
     background: #E83C82;
     opacity: 0.4;
     color: #fff;
+    font-family: 'Gotham Bold';
 }
-
 .botonEnviarHabilitado {
     opacity: 1;
 }
 .contenedorTitulo{
-    padding: 30px 100px 0 100px;
+    padding: 0 20px 0 20px;
 }
 .contenedorTituloTextoUno{
     color: #FFF;
@@ -250,6 +221,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    font-family: 'Gotham Bold';
 }
 .contenedorTituloTextoDos{
     color: #FFF;
@@ -271,7 +243,6 @@
         align-items: center;
         padding-top: 50px;
     }
-
     .cabecera {
         width: 100%;
         height: 100px;
@@ -283,7 +254,6 @@
         align-items: center;
         justify-content: center;
     }
-
     .footer {
         background: #036F9A;
         width: 100%;
@@ -292,7 +262,6 @@
         position: relative;
         bottom: 0;
     }
-
     .fondoCeleste,
     .imagenCombinado {
         position: absolute;
@@ -300,7 +269,6 @@
         left: 0;
         height: 107vh;
     }
-
     .contenedor {
         width: 1000px;
         height: auto;
@@ -313,7 +281,6 @@
         display: flex;
         flex-direction: row;
     }
-
     .contenedorFormulario {
         width: 300px;
         background: #0F2D45;
@@ -321,7 +288,6 @@
         padding: 20px;
         margin: 0 auto;
     }
-
     .contenedorFormulario input {
         background: #FFFFFF;
         border: 1px solid #213E58;
@@ -329,16 +295,13 @@
         border-radius: 2px;
         padding: 0 0 0 10px;
     }
-
     .contenedorFormulario input::placeholder {
         font-style: italic;
         font-weight: 400;
         font-size: 13px;
         line-height: 13px;
         color: #0F2D45;
-
     }
-
     .contenedorFormulario h2 {
         font-weight: 700;
         font-size: 25px;
@@ -347,12 +310,10 @@
         color: #FFFFFF;
         margin: 20px 0 45px 0;
     }
-
     .contenedorFormulario span {
         font-size: 10px;
         margin: 20px 5px;
     }
-
     .contenedorTexto {
         width: 100%;
         padding: 30px 50px;
@@ -362,7 +323,6 @@
         justify-content: center;
         position: relative;
     }
-
     .contenedorTexto h2,
     .contenedorTexto p {
         font-weight: 700;
@@ -372,13 +332,11 @@
         color: #0F2D45;
         margin-bottom: 30px;
     }
-
     .imagenGlobo {
         position: absolute;
         top: -86px;
         left: 40px;
     }
-
     .contenedorPistas {
         background: #FFFFFF;
         border: 1px solid #213E58;
@@ -390,7 +348,6 @@
         width: 261px;
         height: 48px;
     }
-
     .contenedorPistas p {
         font-weight: 700;
         font-size: 18px;
@@ -399,13 +356,11 @@
         color: #213E58;
         margin: 0;
     }
-
     .contenedorFormPistas {
         display: flex;
         gap: 10px;
         position: relative;
     }
-
     .imagenPersona {
         position: absolute;
         right: -105px;
@@ -413,19 +368,15 @@
         z-index: -1;
         width: 30%;
     }
-
     .contenedorInputPistas input::placeholder {
         color: #fff;
         text-align: center;
         font-size: 18px;
-
     }
-
     .linea {
         position: relative;
         display: inline-block;
     }
-
     .linea:before {
         content: '';
         width: 100%;
@@ -436,20 +387,16 @@
         height: 5px;
         transform: translateY(156%);
     }
-
     .linea:before {
         left: 2px;
         top: calc(50% - 1px);
     }
-
     .linkPoliticas:hover {
         text-decoration: underline;
     }
-
     .linkPoliticas {
         font-weight: 700;
     }
-
     .contenedorFormulario svg {
         position: absolute;
         top: 9px;
@@ -457,11 +404,9 @@
         z-index: 2;
         color: #0F2D45;
     }
-
     .contenedorTexto p:nth-child(3) {
         margin-bottom: 50px;
     }
-
     .basesLegales {
         font-weight: 100;
         font-size: 14px;
@@ -473,7 +418,6 @@
     .contenedorTitulo {
         padding: 30px 100px 0 100px;
     }
-
     .contenedorTituloTextoUno {
         color: #FFF;
         text-align: center;
@@ -482,7 +426,6 @@
         font-weight: 900;
         line-height: normal;
     }
-
     .contenedorTituloTextoDos {
         color: #FFF;
         text-align: center;
@@ -500,7 +443,6 @@
         line-height: 20px;
         margin-bottom: 5px;
     }
-
     .botonEnviar {
         border: 2px solid #0F2D45;
         width: 100%;

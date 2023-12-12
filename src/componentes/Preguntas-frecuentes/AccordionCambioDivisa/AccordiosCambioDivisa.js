@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { styled } from "@mui/material/styles";
 import MuiAccordion from "@mui/material/Accordion";
 import MuiAccordionSummary from "@mui/material/AccordionSummary";
@@ -173,14 +173,12 @@ export default function AccordiosnCambioDivisa() {
             <strong>mayor de edad</strong> y que aportes tu documentación
             personal (<strong>DNI, NIE o Pasaporte</strong>) en vigor. Además,
             para cantidades grandes necesitamos un documento que acredite la
-            procedencia de fondos y tu cargo profesional. Si fuera necesario por
-            falta de efectivo, necesitaremos también un número de cuenta para
-            abonarte el importe de tu cambio. Si tienes cualquier duda puedes
-            visitar{" "}
+            procedencia de fondos y tu cargo profesional. Si tienes cualquier
+            duda puedes visitar{" "}
             <a href="/cambio-divisas">
               <strong>nuestra página de servicio de cambio de divisa</strong>
-            </a>
-            o bien
+            </a>{" "}
+            o bien{" "}
             <strong>
               llamarnos gratuitamente al <a href="tel:900373629">900 373 629</a>
             </strong>
@@ -211,9 +209,8 @@ export default function AccordiosnCambioDivisa() {
         <AccordionDetails className={styles.contenerdorContenidoAccordion}>
           <p className={styles.contenidoAccordion}>
             De momento puedes comprar moneda extranjera en algunas de{" "}
-            <strong>nuestras oficinas</strong>. Tienes disponibles más de 30
-            divisas diferentes. Estas son las tiendas en las que puedes realizar
-            tu cambio de euros a divisa extranjera.
+            <strong>nuestras oficinas</strong>. Tienes disponibles más de 20
+            divisas diferentes.
           </p>
         </AccordionDetails>
       </Accordion>
@@ -268,12 +265,12 @@ export default function AccordiosnCambioDivisa() {
         <AccordionDetails className={styles.contenerdorContenidoAccordion}>
           <p className={styles.contenidoAccordion}>
             Google nos ofrece la posibilidad de conocer el{" "}
-            <strong>precio de cotización</strong>
-            de la moneda que te interese, es decir, vemos el{" "}
-            <strong>precio de bolsa</strong> de la divisa en el momento que
-            realizas la búsqueda. Sobre ese precio las oficinas de cambio
-            trabajamos unos márgenes. Cuánto más se acerque nuestro precio al
-            que marca el de cotización en bolsa, mejor cambio recibirás. En
+            <strong>precio de cotización</strong> de la moneda que te interese,
+            es decir, vemos el <strong>precio de bolsa</strong> de la divisa en
+            el momento que realizas la búsqueda. Sobre ese precio las oficinas
+            de cambio trabajamos unos márgenes. Cuánto más se acerque nuestro
+            precio al que marca el de cotización en bolsa, mejor cambio
+            recibirás. En
             <strong> quickgold</strong> te aseguramos{" "}
             <strong>la mejor tasa de cambio para tu moneda</strong>.
           </p>

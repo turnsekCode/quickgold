@@ -6,7 +6,6 @@
     margin: 0 auto;
     padding: 60px 0;
 }
-
 .BannerSelectorCiudad{
     border-radius: 8px;
     width: 280px;
@@ -18,7 +17,6 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto 50px;
-
 }
 .BannerSelectorCiudad h5 {
     font-weight: 700;
@@ -88,7 +86,6 @@
         margin: 0 auto;
         padding: 60px 0;
     }
-
     .BannerSelectorCiudad {
         border-radius: 8px;
         width: 100%;
@@ -101,7 +98,6 @@
         align-items: center;
         margin-bottom: 50px;
     }
-
     .BannerSelectorCiudad h5 {
         font-weight: 700;
         font-size: 50px;
@@ -110,7 +106,6 @@
         width: 50%;
         display: block;
     }
-
     .SelectCiudades {
         width: 260px;
         height: 50px;
@@ -118,7 +113,6 @@
         box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
         border-radius: 2px;
     }
-
     .contenedorTexto h5 {
         font-weight: 700;
         font-size: 30px;

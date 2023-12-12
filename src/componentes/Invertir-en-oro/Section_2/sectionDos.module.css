@@ -10,7 +10,6 @@
     margin: 0 auto;
     gap: 30px;
     flex-direction: column;
-  
 }
 .bloqueDer {
     width: 90%;
@@ -52,7 +51,6 @@
     align-items: center;
     justify-content: space-between;
 }
-
 .contenedorImagen {
     display: flex;
     align-items: center;
@@ -78,7 +76,6 @@
     justify-content: space-between;
     background: #FFFFFF;
 }
-
 .nombreLingote {
     font-weight: 900;
     font-size: 13px;
@@ -86,7 +83,6 @@
     font-family: 'Gotham Black';
     margin-top: 20px;
 }
-
 .precioLingote {
     font-weight: bolder;
     font-size: 18px;
@@ -94,7 +90,6 @@
     margin-bottom: 20px;
     font-family: 'Gotham Black';
 }
-
 .detallesLingote p {
     font-weight: 400;
     font-size: 12px;
@@ -114,7 +109,6 @@
         border-radius: 12px;
         margin-bottom: 50px;
     }
-
     .contenedorSectionCuatroMargen {
         display: flex;
         max-width: 100%;
@@ -125,7 +119,6 @@
         align-items: center;
         justify-content: center;
     }
-
     .bloqueDer {
         width: 90%;
         display: flex;
@@ -165,13 +158,11 @@
         justify-content: space-between;
         width: 100%;
     }
-
     .contenedorImagen {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-
     .tabla {
         border: 1px solid #0F2D45;
         border-radius: 8px;
@@ -192,21 +183,18 @@
         align-items: center;
         justify-content: space-between;
     }
-
     .nombreLingote {
         font-weight: 900;
         font-size: 20px;
         color: #213E58;
         margin: 25px 0 0 0;
     }
-
     .precioLingote {
         font-weight: bolder;
         font-size: 25px;
         color: #213E58;
         margin: 0 0 20px 0;
     }
-
     .detallesLingote p {
         font-weight: 400;
         font-size: 16px;

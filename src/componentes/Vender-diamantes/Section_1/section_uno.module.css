@@ -20,7 +20,6 @@
     height: 5px;
     transform: translateY(40%);
 }
-
 .linea:before {
     left: 2px;
     top: calc(50% - 1px);
@@ -56,7 +55,6 @@
     border-radius: 8px;
 }
 .madridMobil{
-    
     object-fit: contain;
     border-radius: 8px;
 }
@@ -92,12 +90,10 @@
     .bloqueIzq {
         width: 50%;
     }
-
     .linea {
         position: relative;
         display: inline-block;
     }
-
     .linea:before {
         content: '';
         width: 100%;
@@ -108,7 +104,6 @@
         height: 5px;
         transform: translateY(150%);
     }
-
     .linea:before {
         left: 2px;
         top: calc(50% - 1px);
@@ -127,7 +122,6 @@
         text-align: left;
         padding: 0;
     }
-
     .bloqueIzq p {
         font-style: normal;
         font-weight: 400;
@@ -138,7 +132,6 @@
         margin-top: 25px;
         padding: 0;
     }
-
     .botones {
         margin-top: 30px;
         display: flex;

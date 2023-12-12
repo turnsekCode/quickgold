@@ -323,7 +323,7 @@ const AccordionDetails = (0,styles_.styled)((AccordionDetails_default()))(({ the
         borderTop: "1px solid rgba(0, 0, 0, .125)"
     }));
 function AccordiosnFranquicia() {
-    const [expanded, setExpanded] = external_react_.useState(false);
+    const [expanded, setExpanded] = external_react_default().useState(false);
     const handleChange = (panel)=>(event, newExpanded)=>{
             setExpanded(newExpanded ? panel : false);
         };
@@ -651,7 +651,7 @@ const AccordiosVenderMetales_AccordionDetails = (0,styles_.styled)((AccordionDet
         borderTop: "1px solid rgba(0, 0, 0, .125)"
     }));
 function AccordiosnVenderMetales() {
-    const [expanded, setExpanded] = external_react_.useState(false);
+    const [expanded, setExpanded] = external_react_default().useState(false);
     const handleChange = (panel)=>(event, newExpanded)=>{
             setExpanded(newExpanded ? panel : false);
         };
@@ -678,7 +678,7 @@ function AccordiosnVenderMetales() {
                         className: (accordionVenderMetales_module_default()).contenerdorContenidoAccordion,
                         children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
                             className: (accordionVenderMetales_module_default()).contenidoAccordion,
-                            children: "Las monedas que compramos son aquellas que son de oro o plata. Las tasamos por su peso en el metal no por su valor hist\xf3rico."
+                            children: "Compramos todo tipo de monedas de oro y plata, no importa el a\xf1o o estado de conservaci\xf3n. Las monedas que compramos son aquellas que son de oro o plata. Las tasamos por su peso en el metal."
                         })
                     })
                 ]
@@ -904,7 +904,7 @@ const AccordiosCambioDivisa_AccordionDetails = (0,styles_.styled)((AccordionDeta
         borderTop: "1px solid rgba(0, 0, 0, .125)"
     }));
 function AccordiosnCambioDivisa() {
-    const [expanded, setExpanded] = external_react_.useState(false);
+    const [expanded, setExpanded] = external_react_default().useState(false);
     const handleChange = (panel)=>(event, newExpanded)=>{
             setExpanded(newExpanded ? panel : false);
         };
@@ -1032,7 +1032,7 @@ function AccordiosnCambioDivisa() {
                                 /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                     children: "DNI, NIE o Pasaporte"
                                 }),
-                                ") en vigor. Adem\xe1s, para cantidades grandes necesitamos un documento que acredite la procedencia de fondos y tu cargo profesional. Si fuera necesario por falta de efectivo, necesitaremos tambi\xe9n un n\xfamero de cuenta para abonarte el importe de tu cambio. Si tienes cualquier duda puedes visitar",
+                                ") en vigor. Adem\xe1s, para cantidades grandes necesitamos un documento que acredite la procedencia de fondos y tu cargo profesional. Si tienes cualquier duda puedes visitar",
                                 " ",
                                 /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                     href: "/cambio-divisas",
@@ -1040,7 +1040,9 @@ function AccordiosnCambioDivisa() {
                                         children: "nuestra p\xe1gina de servicio de cambio de divisa"
                                     })
                                 }),
+                                " ",
                                 "o bien",
+                                " ",
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("strong", {
                                     children: [
                                         "llamarnos gratuitamente al ",
@@ -1084,7 +1086,7 @@ function AccordiosnCambioDivisa() {
                                 /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                     children: "nuestras oficinas"
                                 }),
-                                ". Tienes disponibles m\xe1s de 30 divisas diferentes. Estas son las tiendas en las que puedes realizar tu cambio de euros a divisa extranjera."
+                                ". Tienes disponibles m\xe1s de 20 divisas diferentes."
                             ]
                         })
                     })
@@ -1152,8 +1154,7 @@ function AccordiosnCambioDivisa() {
                                 /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                     children: "precio de cotizaci\xf3n"
                                 }),
-                                "de la moneda que te interese, es decir, vemos el",
-                                " ",
+                                " de la moneda que te interese, es decir, vemos el ",
                                 /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                     children: "precio de bolsa"
                                 }),
@@ -1229,7 +1230,7 @@ const AccordiosEmpenos_AccordionDetails = (0,styles_.styled)((AccordionDetails_d
         borderTop: "1px solid rgba(0, 0, 0, .125)"
     }));
 function AccordiosnEmpenos() {
-    const [expanded, setExpanded] = external_react_.useState(false);
+    const [expanded, setExpanded] = external_react_default().useState(false);
     const handleChange = (panel)=>(event, newExpanded)=>{
             setExpanded(newExpanded ? panel : false);
         };
@@ -1315,7 +1316,8 @@ function AccordiosnEmpenos() {
                                 /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                     children: "joyas de oro o plata"
                                 }),
-                                " como: pendientes, pulseras, relojes, etc. Si tienes alguna duda, puedes llamar a tu tienda m\xe1s cercana para que te expliquen, personalmente, c\xf3mo funcionan nuestros ",
+                                " como: pendientes, pulseras, relojes, monedas y lingotes, etc. Si tienes alguna duda, puedes llamar a tu tienda m\xe1s cercana para que te expliquen, personalmente, c\xf3mo funcionan nuestros",
+                                " ",
                                 /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                     children: "empe\xf1os de joyas"
                                 }),
@@ -1352,15 +1354,10 @@ function AccordiosnEmpenos() {
                                 /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                     children: "tasaci\xf3n de las joyas"
                                 }),
-                                " de empe\xf1os se realiza igual que con la compra de \xe9stas. Se tasar\xe1, a la",
+                                " de empe\xf1os se realiza igual que con la compra de \xe9stas. Se tasar\xe1n las piezas, a la",
                                 " ",
                                 /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                     children: "vista del cliente"
-                                }),
-                                ", los",
-                                " ",
-                                /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                    children: "metales preciosos"
                                 }),
                                 ", facilitando toda la informaci\xf3n requerida por \xe9ste. Una vez tasadas se fijar\xe1 el precio seg\xfan la cotizaci\xf3n del metal en el momento y se realizar\xe1 un contrato de empe\xf1os. Una vez firmado por ambas partes se entregar\xe1 el dinero acordado y obtendr\xe1s toda la informaci\xf3n necesaria para conocer c\xf3mo y cu\xe1ndo se renueva el contrato y c\xf3mo lo podr\xe1s cancelar de la manera m\xe1s sencilla y c\xf3moda para ti.",
                                 " ",
@@ -1407,7 +1404,7 @@ function AccordiosnEmpenos() {
                                 /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                     children: "empe\xf1ar tus joyas en 1, 2 o 3 meses"
                                 }),
-                                ". Aprovecha nuestra promoci\xf3n en empe\xf1os, con la que puedes dejarnos tus joyas de oro o plata",
+                                " seguidos, con la posibilidad de seguir renovando el contrato, pasado este tiempo. Aprovecha nuestra promoci\xf3n en empe\xf1os, con la que puedes dejarnos tus joyas de oro o plata",
                                 " ",
                                 /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                     children: "sin pagar intereses durante el primer mes"
@@ -1472,7 +1469,7 @@ const AccordiosInvertirOro_AccordionDetails = (0,styles_.styled)((AccordionDetai
         borderTop: "1px solid rgba(0, 0, 0, .125)"
     }));
 function AccordiosnInvertirOro() {
-    const [expanded, setExpanded] = external_react_.useState(false);
+    const [expanded, setExpanded] = external_react_default().useState(false);
     const handleChange = (panel)=>(event, newExpanded)=>{
             setExpanded(newExpanded ? panel : false);
         };
@@ -1541,7 +1538,7 @@ function AccordiosnInvertirOro() {
                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                             className: (accordionInvertirOro_module_default()).contenidoAccordion,
                             children: [
-                                "No, el oro est\xe1 exento del cargo del IVA. Consulta",
+                                "No, el oro de inversi\xf3n est\xe1 exento del cargo del IVA. Consulta",
                                 " ",
                                 /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                     href: "/invertir-en-oro",
@@ -1687,7 +1684,7 @@ const AccordiosVenderDiamantes_AccordionDetails = (0,styles_.styled)((AccordionD
         borderTop: "1px solid rgba(0, 0, 0, .125)"
     }));
 function AccordiosnVenderDiamantes() {
-    const [expanded, setExpanded] = external_react_.useState(false);
+    const [expanded, setExpanded] = external_react_default().useState(false);
     const handleChange = (panel)=>(event, newExpanded)=>{
             setExpanded(newExpanded ? panel : false);
         };
@@ -1715,7 +1712,7 @@ function AccordiosnVenderDiamantes() {
                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                             className: (accordionVenderDiamantes_module_default()).contenidoAccordion,
                             children: [
-                                "Compramos brillantes de talla moderna, catalogados con color en escala H \xf3 I, con una pureza superior a SI3 y quilataje superior a 0,10ct. Para saber m\xe1s detalles sobre el proceso de tasaci\xf3n y caracter\xedsticas de los diferentes diamantes, visita nuestra secci\xf3n del servicio de",
+                                "Compramos diamantes talla brillante moderna, catalogados con color H/I, con una pureza superior a P/SI3 y quilataje superior a 0,10ct. Para saber m\xe1s detalles sobre el proceso de tasaci\xf3n y caracter\xedsticas de los diferentes diamantes, visita nuestra secci\xf3n del servicio de",
                                 " ",
                                 /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                     href: "/vender-diamantes",
@@ -1754,7 +1751,7 @@ function AccordiosnVenderDiamantes() {
                             children: [
                                 "Para que podamos tasar tu brillante necesitamos que concretes una",
                                 /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                    children: "cita previa con tu tienda m\xe1s cercana"
+                                    children: " cita previa con tu tienda m\xe1s cercana"
                                 }),
                                 ". Nuestro experto gem\xf3logo realizar\xe1 unas comprobaciones detalladas y a la vista que ayudar\xe1n a conocer las caracter\xedsticas del diamante y saber el ",
                                 /*#__PURE__*/ jsx_runtime_.jsx("strong", {

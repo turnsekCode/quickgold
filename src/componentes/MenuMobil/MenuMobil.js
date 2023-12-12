@@ -104,11 +104,11 @@ const MenuMobil = ({ menuAbieto, menu_list }) => {
                   TRABAJA CON NOSOTROS
                 </a>
               </li>
-              {/*<li>
-                <a href="/preguntas-frecuentes" title="PREGUNTA FRECUENTES">
-                  PREGUNTA FRECUENTES
+              <li>
+                <a href="/preguntas-frecuentes" title="PREGUNTAS FRECUENTES">
+                  PREGUNTAS FRECUENTES
                 </a>
-            </li>*/}
+              </li>
               {/* <li>
                 <a href="/blog/" title="">
                   BLOG

@@ -2,9 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 25px;
+    padding-top: 35px;
 }
-
 .contenedorBloqueSuperior h1{
     color: #0F2D45;
     font-size: 30px;
@@ -44,7 +43,6 @@
         align-items: flex-end;
         padding-top: 0;
     }
-
     .contenedorBloqueSuperior h1 {
         color: #0F2D45;
         font-size: 60px;
@@ -52,7 +50,6 @@
         font-weight: 700;
         margin-bottom: 20px;
     }
-
     .contenedorBloqueSuperior p {
         color: #0F2D45;
         font-size: 16px;
@@ -61,18 +58,15 @@
         margin-bottom: 20px;
         padding: 0 0 0 148px;
     }
-
     .bloqueIzq {
         width: 30%;
     }
-
     .bloqueDer {
         width: 70%;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
     }
-
     .bloqueDer a {
         color: #E83C82;
         font-weight: 700;

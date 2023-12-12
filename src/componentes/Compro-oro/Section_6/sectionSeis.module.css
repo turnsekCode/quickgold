@@ -90,7 +90,6 @@
     padding: 20px;
     align-items: left;
 }
-
 .contenedorTiposOroCard2 p:nth-child(1) {
     width: 50%;
     text-align: left;
@@ -101,7 +100,6 @@
     margin-bottom: 10px;
     font-family: 'Gotham Bold';
 }
-
 .contenedorTiposOroCard2 p:nth-child(2) {
     width: 100%;
     font-style: normal;
@@ -111,18 +109,17 @@
     color: #FFFFFF;
 }
 @media (min-width: 610px) {
-.contenedorSectionSeis {
-        background: #036F9A;
+    .contenedorSectionSeis {
+            background: #036F9A;
+        }
+    .tituloMobil{
+        display: none;
     }
-.tituloMobil{
-    display: none;
-}
     .contenedorSectionSeisMargen {
         max-width: 1060px;
         margin: 0 auto;
         padding: 60px 0;
     }
-
     .contenedorTexto h5 {
         font-weight: 700;
         font-size: 30px;
@@ -132,7 +129,6 @@
         text-align: left;
         width: 100%;
     }
-
     .contenedorTexto p {
         font-weight: 100;
         font-size: 16px;
@@ -158,7 +154,6 @@
         padding: 10px;
         align-items: center;
     }
-
     .contenedorTiposOroCard1 p:nth-child(1) {
         width: 40%;
         text-align: center;
@@ -168,7 +163,6 @@
         color: #FFFFFF;
         margin-bottom: 0;
     }
-
     .contenedorTiposOroCard1 p:nth-child(2) {
         width: 60%;
         font-style: normal;
@@ -177,7 +171,6 @@
         line-height: 20px;
         color: #FFFFFF;
     }
-
     .contenedorTiposOroCard2 {
         width: 100%;
         height: auto;
@@ -189,7 +182,6 @@
         padding: 10px;
         align-items: center;
     }
-
     .contenedorTiposOroCard2 p:nth-child(1) {
         width: 40%;
         text-align: center;
@@ -199,7 +191,6 @@
         color: #FFFFFF;
         margin-bottom: 0;
     }
-
     .contenedorTiposOroCard2 p:nth-child(2) {
         width: 60%;
         font-style: normal;

@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { styled } from "@mui/material/styles";
 import MuiAccordion from "@mui/material/Accordion";
 import MuiAccordionSummary from "@mui/material/AccordionSummary";
@@ -72,9 +72,9 @@ export default function AccordiosnVenderDiamantes() {
         </AccordionSummary>
         <AccordionDetails className={styles.contenerdorContenidoAccordion}>
           <p className={styles.contenidoAccordion}>
-            Compramos brillantes de talla moderna, catalogados con color en
-            escala H ó I, con una pureza superior a SI3 y quilataje superior a
-            0,10ct. Para saber más detalles sobre el proceso de tasación y
+            Compramos diamantes talla brillante moderna, catalogados con color
+            H/I, con una pureza superior a P/SI3 y quilataje superior a 0,10ct.
+            Para saber más detalles sobre el proceso de tasación y
             características de los diferentes diamantes, visita nuestra sección
             del servicio de{" "}
             <Link href="/vender-diamantes">
@@ -107,7 +107,7 @@ export default function AccordiosnVenderDiamantes() {
         <AccordionDetails className={styles.contenerdorContenidoAccordion}>
           <p className={styles.contenidoAccordion}>
             Para que podamos tasar tu brillante necesitamos que concretes una
-            <strong>cita previa con tu tienda más cercana</strong>. Nuestro
+            <strong> cita previa con tu tienda más cercana</strong>. Nuestro
             experto gemólogo realizará unas comprobaciones detalladas y a la
             vista que ayudarán a conocer las características del diamante y
             saber el <strong>precio de compra</strong> del mismo.
