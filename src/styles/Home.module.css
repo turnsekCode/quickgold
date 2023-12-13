@@ -36,6 +36,7 @@
       margin-top: 30px;
       justify-content: space-between;
       flex-direction: row;
+      height: 1175px;
     }
     .contenedorBannerVisible{
       height: 353px;

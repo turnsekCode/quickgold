@@ -206,6 +206,9 @@
     border-radius: 4px;
 }
 @media (min-width: 610px) {
+    .contenedorbloqueIzq {
+            height: 630px;
+        }
     .contenedorMapa {
             display: flex;
             margin-top: 0;
@@ -277,7 +280,7 @@
         .contenedorTiendas {
             padding: 0 20px 0 0;
             overflow-x: hidden;
-            height: 370px;
+            height: 540px;
         }
         .tienda {
             margin: 5px 0px 10px;
