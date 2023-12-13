@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/V7qEXN-iQonWJ9kVVTh8S/_buildManifest.js",
-    "static/V7qEXN-iQonWJ9kVVTh8S/_ssgManifest.js"
+    "static/_1KQTGVzzMv1cUT4stpX9/_buildManifest.js",
+    "static/_1KQTGVzzMv1cUT4stpX9/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -633,7 +633,7 @@
       "static/chunks/5438-0fdc52b618582d10.js",
       "static/chunks/4049-820d1db95868043f.js",
       "static/css/82bdac3fc369d715.css",
-      "static/chunks/pages/prueba-granada-6bc80a995a871b5c.js"
+      "static/chunks/pages/prueba-granada-2a01c4654dedb5b3.js"
     ],
     "/tiendas": [
       "static/chunks/webpack-eca27bdd67a14a56.js",

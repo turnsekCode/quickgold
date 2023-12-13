@@ -97,6 +97,7 @@ export default function Granada({ menu_list, ciudad, tiendaGoogle, general }) {
         }}
       />
       <Head>
+        <meta name="robots" content="noindex"></meta>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema_resenas) }}
