@@ -182,8 +182,8 @@ function Archiduque({ menu_list , ciudad , tiendaGoogle , general  }) {
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BreadcrumbsTiendas_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
                                 raiz: "Quickgold",
                                 tiendas: "Tiendas",
-                                urlNombreCiudad: "ttps://quickgold.es/tiendas/compro-oro-valencia/carrer-de-l-arxiduc-carles-81",
-                                urlNombreTienda: "ttps://quickgold.es/tiendas/compro-oro-valencia",
+                                urlNombreCiudad: "https://quickgold.es/tiendas/compro-oro-valencia/carrer-de-l-arxiduc-carles-81",
+                                urlNombreTienda: "https://quickgold.es/tiendas/compro-oro-valencia",
                                 nombreCiudad: ciudad?.acf?.nombreCiudad,
                                 nombreTienda: ciudad?.acf?.ciudad_landing,
                                 ubicacionActual: ciudad?.acf?.nombre_tienda,

@@ -128,8 +128,8 @@ export default function Archiduque({
           <BreadcrumbsTiendas
             raiz="Quickgold"
             tiendas="Tiendas"
-            urlNombreCiudad="ttps://quickgold.es/tiendas/compro-oro-valencia/carrer-de-l-arxiduc-carles-81"
-            urlNombreTienda="ttps://quickgold.es/tiendas/compro-oro-valencia"
+            urlNombreCiudad="https://quickgold.es/tiendas/compro-oro-valencia/carrer-de-l-arxiduc-carles-81"
+            urlNombreTienda="https://quickgold.es/tiendas/compro-oro-valencia"
             nombreCiudad={ciudad?.acf?.nombreCiudad}
             nombreTienda={ciudad?.acf?.ciudad_landing}
             ubicacionActual={ciudad?.acf?.nombre_tienda}

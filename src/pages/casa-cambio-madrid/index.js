@@ -55,7 +55,6 @@ export default function CasaCambioValencia({
       <Script id="livechat" property="lazyOnload">
         {ciudad?.acf?.script_chat}
       </Script>
-
       <SEO
         title={ciudad?.acf?.titulo_del_meta}
         description={ciudad?.acf?.description_del_meta}
@@ -72,6 +71,7 @@ export default function CasaCambioValencia({
         }}
       />
       <Head>
+        <meta name="robots" content="noindex"></meta>
         {ciudad?.acf?.nonscript_chat}
         <script
           type="application/ld+json"
