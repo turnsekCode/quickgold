@@ -37,8 +37,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_14__);
 /* harmony import */ var _componentes_MapaCiudades_MapaCiudades_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(7319);
 /* harmony import */ var _componentes_ComponenteHTMLGeneral_HtmlGeneral__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(3467);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__]);
-react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__, _componentes_MapaCiudades_MapaCiudades_js__WEBPACK_IMPORTED_MODULE_15__]);
+([react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__, _componentes_MapaCiudades_MapaCiudades_js__WEBPACK_IMPORTED_MODULE_15__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
 
 

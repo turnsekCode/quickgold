@@ -10,8 +10,10 @@ import Map, {
   Popup,
 } from "react-map-gl";
 import Link from "next/link";
+import { useInView } from "react-intersection-observer";
 
 const MapaCiudades = ({ markers, ciudad }) => {
+  const { ref: myRef, inView } = useInView();
   const marcador = markers.arrayMarker;
   const [viewState, setViewState] = useState({
     longitude: markers.markerInicial[0].longitude,
@@ -130,99 +132,101 @@ const MapaCiudades = ({ markers, ciudad }) => {
         </div>
         {/*<BloqueTiendas />*/}
       </div>
-      <div className={styles.bloqueDer} id="contenedorMapa2">
-        <Map
-          onStyleLoad
-          ref={mapRef}
-          {...viewState}
-          onMove={(evt) => setViewState(evt.viewState)}
-          className={styles.mapa}
-          mapStyle="mapbox://styles/mapbox/streets-v9?optimize=true"
-          mapboxAccessToken={process.env.NEXT_PUBLIC_MAPA}
-        >
-          <FullscreenControl /> <GeolocateControl /> <NavigationControl />
-          <button
-            className={styles.reset_map}
-            onClick={() => {
-              resetMap();
-            }}
+      <div className={styles.bloqueDer} id="contenedorMapa2" ref={myRef}>
+        {inView ? (
+          <Map
+            onStyleLoad
+            ref={mapRef}
+            {...viewState}
+            onMove={(evt) => setViewState(evt.viewState)}
+            className={styles.mapa}
+            mapStyle="mapbox://styles/mapbox/streets-v9?optimize=true"
+            mapboxAccessToken={process.env.NEXT_PUBLIC_MAPA}
           >
-            Reset Map
-          </button>
-          {marcador.map((marker) => (
-            <Marker
-              key={marker.id}
-              longitude={marker.longitude}
-              latitude={marker.latitude}
+            <FullscreenControl /> <GeolocateControl /> <NavigationControl />
+            <button
+              className={styles.reset_map}
               onClick={() => {
-                onSelectMarker(marker);
-                toggleTab();
+                resetMap();
               }}
             >
-              {showPopup ? (
-                <Popup
-                  style={{ top: -25, maxWidth: 255 }}
-                  longitude={showInfo?.longitude}
-                  className="popup"
-                  latitude={showInfo?.latitude}
-                  closeOnClick={false}
-                  anchor={null}
-                  onClose={() => setShowPopup(false)}
-                >
-                  <div className={styles.contenedor_popuop}>
-                    <p className={styles.nombre_ciudad_popup}>
-                      {showInfo?.nombreTienda}
-                    </p>
-                    <a
-                      title="Dirección"
-                      href={showInfo?.comoLlegar}
-                      rel="noreferrer"
-                      target="_blank"
-                      className={styles.direccion_popup}
-                    >
-                      {showInfo?.direccion}
-                    </a>
-                    <br></br>
-                    <a
-                      href={`tel:${showInfo?.telefono}`}
-                      className={styles.telefono_popup}
-                      title="Teléfono"
-                    >
-                      <span>
-                        <CallIcon></CallIcon>{" "}
-                      </span>
-                      {showInfo?.telefono}
-                    </a>
-                    <a
-                      title="Cómo llegar"
-                      href={showInfo?.comoLlegar}
-                      rel="noreferrer"
-                      className={styles.boton_popUp}
-                    >
-                      Cómo llegar
-                    </a>
-                    <a
-                      title="Llamar"
-                      href={`tel:${showInfo?.telefono}`}
-                      rel="noreferrer"
-                      className={styles.boton_popUp}
-                    >
-                      Llamar
-                    </a>
-                    <Link
-                      title="Cómo llegar"
-                      href={showInfo?.url}
-                      rel="noreferrer"
-                      className={styles.boton_popUp}
-                    >
-                      Web
-                    </Link>
-                  </div>
-                </Popup>
-              ) : null}
-            </Marker>
-          ))}
-        </Map>
+              Reset Map
+            </button>
+            {marcador.map((marker) => (
+              <Marker
+                key={marker.id}
+                longitude={marker.longitude}
+                latitude={marker.latitude}
+                onClick={() => {
+                  onSelectMarker(marker);
+                  toggleTab();
+                }}
+              >
+                {showPopup ? (
+                  <Popup
+                    style={{ top: -25, maxWidth: 255 }}
+                    longitude={showInfo?.longitude}
+                    className="popup"
+                    latitude={showInfo?.latitude}
+                    closeOnClick={false}
+                    anchor={null}
+                    onClose={() => setShowPopup(false)}
+                  >
+                    <div className={styles.contenedor_popuop}>
+                      <p className={styles.nombre_ciudad_popup}>
+                        {showInfo?.nombreTienda}
+                      </p>
+                      <a
+                        title="Dirección"
+                        href={showInfo?.comoLlegar}
+                        rel="noreferrer"
+                        target="_blank"
+                        className={styles.direccion_popup}
+                      >
+                        {showInfo?.direccion}
+                      </a>
+                      <br></br>
+                      <a
+                        href={`tel:${showInfo?.telefono}`}
+                        className={styles.telefono_popup}
+                        title="Teléfono"
+                      >
+                        <span>
+                          <CallIcon></CallIcon>{" "}
+                        </span>
+                        {showInfo?.telefono}
+                      </a>
+                      <a
+                        title="Cómo llegar"
+                        href={showInfo?.comoLlegar}
+                        rel="noreferrer"
+                        className={styles.boton_popUp}
+                      >
+                        Cómo llegar
+                      </a>
+                      <a
+                        title="Llamar"
+                        href={`tel:${showInfo?.telefono}`}
+                        rel="noreferrer"
+                        className={styles.boton_popUp}
+                      >
+                        Llamar
+                      </a>
+                      <Link
+                        title="Cómo llegar"
+                        href={showInfo?.url}
+                        rel="noreferrer"
+                        className={styles.boton_popUp}
+                      >
+                        Web
+                      </Link>
+                    </div>
+                  </Popup>
+                ) : null}
+              </Marker>
+            ))}
+          </Map>
+        ) : null}
       </div>
     </section>
   );

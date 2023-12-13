@@ -37,8 +37,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _componentes_MapaCiudades_MapaCiudades_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(7319);
 /* harmony import */ var _componentes_ComponenteHTMLGeneral_HtmlGeneral__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(3467);
 /* harmony import */ var _componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(2810);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__]);
-react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__, _componentes_MapaCiudades_MapaCiudades_js__WEBPACK_IMPORTED_MODULE_14__]);
+([react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__, _componentes_MapaCiudades_MapaCiudades_js__WEBPACK_IMPORTED_MODULE_14__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
 
 

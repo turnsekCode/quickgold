@@ -1319,9 +1319,10 @@ const SeccionDos = ({ ciudad  })=>{
 /***/ }),
 
 /***/ 7319:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
@@ -1329,8 +1330,8 @@ const SeccionDos = ({ ciudad  })=>{
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(7657);
-/* harmony import */ var _mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(7657);
+/* harmony import */ var _mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3094);
 /* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _mui_icons_material_Call__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2081);
@@ -1339,6 +1340,10 @@ const SeccionDos = ({ ciudad  })=>{
 /* harmony import */ var react_map_gl__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_map_gl__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1664);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_intersection_observer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(4009);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([react_intersection_observer__WEBPACK_IMPORTED_MODULE_6__]);
+react_intersection_observer__WEBPACK_IMPORTED_MODULE_6__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
 
 
 
@@ -1347,6 +1352,7 @@ const SeccionDos = ({ ciudad  })=>{
 
 
 const MapaCiudades = ({ markers , ciudad  })=>{
+    const { ref: myRef , inView  } = (0,react_intersection_observer__WEBPACK_IMPORTED_MODULE_6__.useInView)();
     const marcador = markers.arrayMarker;
     const [viewState, setViewState] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)({
         longitude: markers.markerInicial[0].longitude,
@@ -1410,13 +1416,13 @@ const MapaCiudades = ({ markers , ciudad  })=>{
     };
     const numeroDeTiendas = markers.arrayMarker[markers.arrayMarker.length - 1];
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-        className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().contenedorMapa),
+        className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().contenedorMapa),
         children: [
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().contenedorbloqueIzq),
+                className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().contenedorbloqueIzq),
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().bloqueIzq),
+                        className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().bloqueIzq),
                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                             children: [
                                 "Tiendas: ",
@@ -1427,7 +1433,7 @@ const MapaCiudades = ({ markers , ciudad  })=>{
                         })
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().contenedorTiendas),
+                        className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().contenedorTiendas),
                         children: marcador.map((marker)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_scroll__WEBPACK_IMPORTED_MODULE_2__.Link, {
                                 onClick: ()=>{
                                     toggleTab();
@@ -1443,13 +1449,13 @@ const MapaCiudades = ({ markers , ciudad  })=>{
                                         toggleTab();
                                         onSelectMarker(marker);
                                     },
-                                    className: activeId === marker.id && showPopup ? `${(_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().contenedorInfoTiendaMapa)} ${(_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().contenedorInfoTiendaMapaActivo)}` : ` ${(_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().contenedorInfoTiendaMapa)}`,
+                                    className: activeId === marker.id && showPopup ? `${(_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().contenedorInfoTiendaMapa)} ${(_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().contenedorInfoTiendaMapaActivo)}` : ` ${(_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().contenedorInfoTiendaMapa)}`,
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
                                             children: marker?.nombreTienda
                                         }),
                                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                            className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().tienda),
+                                            className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().tienda),
                                             children: [
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                     children: marker?.direccion
@@ -1466,14 +1472,15 @@ const MapaCiudades = ({ markers , ciudad  })=>{
                 ]
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().bloqueDer),
+                className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().bloqueDer),
                 id: "contenedorMapa2",
-                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((react_map_gl__WEBPACK_IMPORTED_MODULE_4___default()), {
+                ref: myRef,
+                children: inView ? /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((react_map_gl__WEBPACK_IMPORTED_MODULE_4___default()), {
                     onStyleLoad: true,
                     ref: mapRef,
                     ...viewState,
                     onMove: (evt)=>setViewState(evt.viewState),
-                    className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().mapa),
+                    className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().mapa),
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
                     mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
                     children: [
@@ -1483,7 +1490,7 @@ const MapaCiudades = ({ markers , ciudad  })=>{
                         " ",
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_map_gl__WEBPACK_IMPORTED_MODULE_4__.NavigationControl, {}),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                            className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().reset_map),
+                            className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().reset_map),
                             onClick: ()=>{
                                 resetMap();
                             },
@@ -1508,10 +1515,10 @@ const MapaCiudades = ({ markers , ciudad  })=>{
                                     anchor: null,
                                     onClose: ()=>setShowPopup(false),
                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                        className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().contenedor_popuop),
+                                        className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().contenedor_popuop),
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().nombre_ciudad_popup),
+                                                className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().nombre_ciudad_popup),
                                                 children: showInfo?.nombreTienda
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
@@ -1519,13 +1526,13 @@ const MapaCiudades = ({ markers , ciudad  })=>{
                                                 href: showInfo?.comoLlegar,
                                                 rel: "noreferrer",
                                                 target: "_blank",
-                                                className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().direccion_popup),
+                                                className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().direccion_popup),
                                                 children: showInfo?.direccion
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
                                                 href: `tel:${showInfo?.telefono}`,
-                                                className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().telefono_popup),
+                                                className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().telefono_popup),
                                                 title: "Tel\xe9fono",
                                                 children: [
                                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
@@ -1541,21 +1548,21 @@ const MapaCiudades = ({ markers , ciudad  })=>{
                                                 title: "C\xf3mo llegar",
                                                 href: showInfo?.comoLlegar,
                                                 rel: "noreferrer",
-                                                className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().boton_popUp),
+                                                className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().boton_popUp),
                                                 children: "C\xf3mo llegar"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                 title: "Llamar",
                                                 href: `tel:${showInfo?.telefono}`,
                                                 rel: "noreferrer",
-                                                className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().boton_popUp),
+                                                className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().boton_popUp),
                                                 children: "Llamar"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_5___default()), {
                                                 title: "C\xf3mo llegar",
                                                 href: showInfo?.url,
                                                 rel: "noreferrer",
-                                                className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_6___default().boton_popUp),
+                                                className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().boton_popUp),
                                                 children: "Web"
                                             })
                                         ]
@@ -1563,13 +1570,15 @@ const MapaCiudades = ({ markers , ciudad  })=>{
                                 }) : null
                             }, marker.id))
                     ]
-                })
+                }) : null
             })
         ]
     });
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MapaCiudades);
 
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ })
 
