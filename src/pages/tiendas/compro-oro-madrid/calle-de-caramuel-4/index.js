@@ -117,12 +117,6 @@ export default function PuertaDelAngel({
         ></script>
         {ciudad?.acf?.nonscript_chat}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link
-          rel="stylesheet preload prefetch"
-          href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
-          as="style"
-        ></link>
-
         <link rel="canonical" href={ciudad?.acf?.canonical} />
       </Head>
       <Script id="livechat" property="lazyOnload">
