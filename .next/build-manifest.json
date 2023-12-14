@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/dofp1iP4NX_pHnDHzNi6y/_buildManifest.js",
-    "static/dofp1iP4NX_pHnDHzNi6y/_ssgManifest.js"
+    "static/5_3BgMQGfY95kTa2crfLz/_buildManifest.js",
+    "static/5_3BgMQGfY95kTa2crfLz/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -338,7 +338,7 @@
       "static/css/83339f747fffe02b.css",
       "static/chunks/5340-d60942087b347d7f.js",
       "static/css/e0524166f54cc084.css",
-      "static/chunks/pages/casa-cambio-murcia-6a86d3cae8014344.js"
+      "static/chunks/pages/casa-cambio-murcia-a5be33e0df52c612.js"
     ],
     "/casa-cambio-oviedo": [
       "static/chunks/webpack-b8e842273fc8ae8c.js",
