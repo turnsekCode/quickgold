@@ -71,7 +71,6 @@ export default function CasaCambioValencia({
         }}
       />
       <Head>
-        <meta name="robots" content="noindex"></meta>
         {ciudad?.acf?.nonscript_chat}
         <script
           type="application/ld+json"

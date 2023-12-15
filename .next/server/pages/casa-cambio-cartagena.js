@@ -109,10 +109,6 @@ function CasaCambioValencia({ markers , menu_list , ciudad , general  }) {
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
-                        name: "robots",
-                        content: "noindex"
-                    }),
                     ciudad?.acf?.nonscript_chat,
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("script", {
                         type: "application/ld+json",
