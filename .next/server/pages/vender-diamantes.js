@@ -537,13 +537,6 @@ function AccordionDiamantes() {
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)((AccordionDetails_default()), {
                         className: (accordionDiamantes_module_default()).accordionDetails,
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                src: "/assets/img/diamanteBrillante.png",
-                                alt: "Compra de diamantes",
-                                className: (accordionDiamantes_module_default()).imagenDiamantesBrillante,
-                                width: 82,
-                                height: 98
-                            }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 className: (accordionDiamantes_module_default()).textoContenido,
                                 children: "Seg\xfan el IGE (Instituto de Gemolog\xeda Espa\xf1ol): La talla brillante moderna se estructur\xf3 definitivamente despu\xe9s de la publicaci\xf3n en 1919 de un estudio te\xf3rico realizado por Marcel Tolkowsky. En \xe9l se fijaban los \xe1ngulos correctos que hab\xeda que dar a las facetas de la corona y de la culata con respecto al plano del filet\xedn, y las proporciones adecuadas para que un diamante de esa talla presentara el m\xe1ximo brillo y dispersi\xf3n. Como la casi totalidad de las tallas, la talla brillante est\xe1 constituida por dos partes principales, una superior denominada corona y otra inferior llamada culata. Ambas est\xe1n separadas, o si se prefiere unidas, por una banda irregular llamada filet\xedn, el cual puede quedar en su estado natural o ser pulido o facetado. El v\xe9rtice de la culata por lo general se termina en punta. A veces puede estar ligeramente truncado, sobre todo en piedras grandes, tall\xe1ndole una diminuta faceta que se denomina “culet”, con lo que el v\xe9rtice queda mejor protegido de posibles golpes."

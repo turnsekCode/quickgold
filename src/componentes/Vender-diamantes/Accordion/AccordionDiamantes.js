@@ -19,13 +19,6 @@ export default function AccordionDiamantes() {
           <p>Talla brillante moderna</p>
         </AccordionSummary>
         <AccordionDetails className={styles.accordionDetails}>
-          <Image
-            src="/assets/img/diamanteBrillante.png"
-            alt="Compra de diamantes"
-            className={styles.imagenDiamantesBrillante}
-            width={82}
-            height={98}
-          />
           <p className={styles.textoContenido}>
             Según el IGE (Instituto de Gemología Español): La talla brillante
             moderna se estructuró definitivamente después de la publicación en
