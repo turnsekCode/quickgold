@@ -27,7 +27,7 @@ const Section_siete = () => {
               Está formada por un 92,5% de plata, que en aleación con otros
               metales, le dan dureza para la elaboración de las joyas. Es la más
               empleada. Suele venir marcada como 925 ó con algunos símbolos
-              equivalentes.
+              equivalentes, es la conocida como plata de primera ley.
             </p>
           </div>
           <div className={styles.contenedorTiposOroCard1}>

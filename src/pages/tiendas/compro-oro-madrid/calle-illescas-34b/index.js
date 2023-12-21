@@ -149,7 +149,6 @@ export default function Aluche({ menu_list, ciudad, tiendaGoogle, general }) {
             <SeccionTres ciudad={ciudad} tiendaGoogle={tiendaGoogle} />
           </div>
         </div>
-
         {ciudad?.acf?.tienda === "" ? (
           <BotonLamarFijo ciudad={ciudad} />
         ) : (

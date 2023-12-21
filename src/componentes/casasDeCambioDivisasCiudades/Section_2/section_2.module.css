@@ -33,12 +33,11 @@
     border-radius: 8px;
     border: 1px solid #000;
     position: relative;
-    padding: 35px 50px;
+    padding: 35px 50px 0 50px;
 }
 .ImageAdorno{
-    position: absolute;
-    bottom: 0;
-    left: 20%;
+    margin-top: 65px;
+    margin-left: 35px;
 }
 .bloqueDerUno h2{
     color:  #213E58;
@@ -116,17 +115,13 @@
     }
     .bloqueDer {
         width: 50%;
-        height: 650px;
+        height: auto;
         border-radius: 8px;
         border: 1px solid #000;
         position: relative;
-        padding: 35px 50px;
+        padding: 35px 50px 0 50px;
     }
-    .ImageAdorno {
-        position: absolute;
-        bottom: 0;
-        left: 30%;
-    }
+   
     .bloqueDerUno h2 {
         color: #213E58;
         text-align: center;
@@ -170,5 +165,9 @@
         font-size: 16px;
         font-style: normal;
         line-height: 20px;
+    }
+    .ImageAdorno {
+        margin-top: 75px;
+        margin-left: 90px;
     }
 }

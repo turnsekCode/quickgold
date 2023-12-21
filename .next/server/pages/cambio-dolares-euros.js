@@ -240,7 +240,7 @@ const Section_uno = ()=>{
                         children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                             href: "tel:900373629",
                             title: "Tel\xe9fono",
-                            children: "llama gratis al 900 373 629"
+                            children: "llama gratis"
                         })
                     })
                 ]
@@ -248,7 +248,7 @@ const Section_uno = ()=>{
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: (section_uno_module_default()).bloqueDer,
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: "/assets/dolar-euro/imagenDolarEuro.png",
+                    src: "/assets/img/imagenDolarEuro.png",
                     alt: "Cambio dolar - euro",
                     className: (section_uno_module_default()).madridMobil,
                     width: 290,
@@ -659,7 +659,7 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/dolar-euro/imagenVentaja1.png",
+                                    src: "/assets/img/imagenVentaja1.png",
                                     alt: "Mejor servicio y precio",
                                     width: 40,
                                     height: 41
@@ -676,7 +676,7 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/dolar-euro/imagenVentaja2.png",
+                                    src: "/assets/img/imagenVentaja2.png",
                                     alt: "Mejor servicio y precio",
                                     width: 39,
                                     height: 35
@@ -693,7 +693,7 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/dolar-euro/imagenVentaja3.png",
+                                    src: "/assets/img/imagenVentaja3.png",
                                     alt: "Mejor servicio y precio",
                                     width: 37,
                                     height: 36
@@ -710,7 +710,7 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/dolar-euro/imagenVentaja4.png",
+                                    src: "/assets/img/imagenVentaja4.png",
                                     alt: "Mejor servicio y precio",
                                     width: 31,
                                     height: 31
@@ -727,7 +727,7 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/dolar-euro/imagenVentaja5.png",
+                                    src: "/assets/img/imagenVentaja5.png",
                                     alt: "Mejor servicio y precio",
                                     width: 39,
                                     height: 41
@@ -744,7 +744,7 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/dolar-euro/imagenVentaja6.png",
+                                    src: "/assets/img/imagenVentaja6.png",
                                     alt: "Mejor servicio y precio",
                                     width: 38,
                                     height: 38

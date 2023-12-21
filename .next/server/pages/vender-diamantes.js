@@ -740,7 +740,7 @@ const Section_cinco = ({ ciudad  })=>{
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                                 className: (sectionCinco_module_default()).contenedorTiposDivisasCard1Texto,
                                 children: [
-                                    "Cada diamante es \xfanico, existen muchos tama\xf1os, formas, colores y caracter\xedsticas internas. Su valor se basa es una combinaci\xf3n de factores como la rareza. Cuanto m\xe1s raros m\xe1s valiosos. Los profesionales de la joyer\xeda nos basamos en un sistema desarrollado por GIA para establecer de forma sistem\xe1tica, los factores m\xe1s importantes para clasificar los diamantes: claridad, color, corte y peso en quilates. Se conocen como las 4Cs y nos sirve para valorar un diamante.",
+                                    "Cada diamante es \xfanico, existen muchos tama\xf1os, formas, colores y caracter\xedsticas internas. Su valor se basa es una combinaci\xf3n de factores como la rareza. Cuanto m\xe1s raros m\xe1s valiosos.",
                                     /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                     /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                     " Los profesionales de la joyer\xeda nos basamos en un sistema desarrollado por GIA para establecer de forma sistem\xe1tica, los factores m\xe1s importantes para clasificar los diamantes:",

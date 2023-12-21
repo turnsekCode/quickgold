@@ -25,7 +25,8 @@
         margin: 0 auto;
       }
      .contenedorMapaVisible {
-       height: 900px;
+       height: auto;
+       margin-bottom: 40px;
      }
     .contenedorMapaVisibleCasaCambio {
       height: 600px;
@@ -36,7 +37,7 @@
       margin-top: 30px;
       justify-content: space-between;
       flex-direction: row;
-      height: 1175px;
+      height: auto;
     }
     .contenedorBannerVisible{
       height: 353px;

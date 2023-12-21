@@ -207,7 +207,7 @@
 }
 @media (min-width: 610px) {
     .contenedorbloqueIzq {
-            height: 650px;
+            height: 720px;
         }
     .contenedorMapa {
             display: flex;
@@ -280,7 +280,7 @@
         .contenedorTiendas {
             padding: 0 20px 0 0;
             overflow-x: hidden;
-            height: 560px;
+            height: 630px;
         }
         .tienda {
             margin: 5px 0px 10px;

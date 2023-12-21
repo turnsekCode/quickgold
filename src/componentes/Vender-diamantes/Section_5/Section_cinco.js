@@ -36,12 +36,7 @@ const Section_cinco = ({ ciudad }) => {
             <p className={styles.contenedorTiposDivisasCard1Texto}>
               Cada diamante es único, existen muchos tamaños, formas, colores y
               características internas. Su valor se basa es una combinación de
-              factores como la rareza. Cuanto más raros más valiosos. Los
-              profesionales de la joyería nos basamos en un sistema desarrollado
-              por GIA para establecer de forma sistemática, los factores más
-              importantes para clasificar los diamantes: claridad, color, corte
-              y peso en quilates. Se conocen como las 4Cs y nos sirve para
-              valorar un diamante.
+              factores como la rareza. Cuanto más raros más valiosos.
               <br></br>
               <br></br> Los profesionales de la joyería nos basamos en un
               sistema desarrollado por GIA para establecer de forma sistemática,

@@ -1047,7 +1047,7 @@ const Section_siete = ()=>{
                                     children: "Plata 925 o esterlina "
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Est\xe1 formada por un 92,5% de plata, que en aleaci\xf3n con otros metales, le dan dureza para la elaboraci\xf3n de las joyas. Es la m\xe1s empleada. Suele venir marcada como 925 \xf3 con algunos s\xedmbolos equivalentes."
+                                    children: "Est\xe1 formada por un 92,5% de plata, que en aleaci\xf3n con otros metales, le dan dureza para la elaboraci\xf3n de las joyas. Es la m\xe1s empleada. Suele venir marcada como 925 \xf3 con algunos s\xedmbolos equivalentes, es la conocida como plata de primera ley."
                                 })
                             ]
                         }),

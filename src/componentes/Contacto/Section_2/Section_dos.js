@@ -57,7 +57,9 @@ const Section_dos = ({ listadociudades }) => {
                   {ciudad.marca} {ciudad.nombreCiudad}
                 </strong>
               </p>
-              <p>{ciudad.telefono}</p>
+              <p>
+                <a href={`tel:${ciudad.telefono}`}>{ciudad.telefono}</a>
+              </p>
               <p>{ciudad.direccion}</p>
             </div>
           );

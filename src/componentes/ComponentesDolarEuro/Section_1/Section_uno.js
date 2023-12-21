@@ -35,13 +35,13 @@ const Section_uno = () => {
             conoce el precio del dólar
   </Link>*/}
           <a href="tel:900373629" title="Teléfono">
-            llama gratis al 900 373 629
+            llama gratis
           </a>
         </div>
       </div>
       <div className={styles.bloqueDer}>
         <Image
-          src="/assets/dolar-euro/imagenDolarEuro.png"
+          src="/assets/img/imagenDolarEuro.png"
           alt="Cambio dolar - euro"
           className={styles.madridMobil}
           width={290}

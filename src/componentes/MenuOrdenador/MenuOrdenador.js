@@ -19,7 +19,6 @@ const MenuOrdenador = ({ menu_list, sticky, stickyRef }) => {
             INICIO
           </a>
         </li>
-
         <li className={styles.contenedorSubMenuServicios}>
           <div className={styles.servicios}>
             servicios <KeyboardArrowDownIcon />
@@ -43,13 +42,11 @@ const MenuOrdenador = ({ menu_list, sticky, stickyRef }) => {
             <a title="Ir a invertir en oro" href="/invertir-en-oro">
               ORO DE INVERSIÓN
             </a>
-
             <a title="Ir a compra de diamantes" href="/vender-diamantes">
               COMPRA DE DIAMANTES
             </a>
           </div>
         </li>
-
         <li className={styles.contenedorSubMenuTiendas}>
           <a href="/tiendas" title="Tiendas Quickgold">
             Tiendas <KeyboardArrowDownIcon />
