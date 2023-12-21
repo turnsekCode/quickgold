@@ -237,9 +237,9 @@
     gap: 10px;
 }
 .bloqueBotonLamarTexto{
-    color: #FFF;
+    color: #62CEFE;
     text-align: center;
-    font-size: 10px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -530,9 +530,9 @@ margin-top: 15px;
             align-items: center;
         }
         .bloqueBotonLamarTexto {
-            color: #FFF;
+            color: #62CEFE;
             text-align: center;
-            font-size: 10px;
+            font-size: 19px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
