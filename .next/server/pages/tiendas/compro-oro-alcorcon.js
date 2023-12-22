@@ -18,8 +18,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(968);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(8874);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(8874);
+/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_18__);
 /* harmony import */ var _componentes_BreadcrumbsTiendas_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(942);
 /* harmony import */ var _bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4579);
 /* harmony import */ var _bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_3__);
@@ -37,8 +37,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_14__);
 /* harmony import */ var _componentes_MapaCiudades_MapaCiudades_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(7319);
 /* harmony import */ var _componentes_ComponenteHTMLGeneral_HtmlGeneral__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(3467);
+/* harmony import */ var next_script_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(3159);
+/* harmony import */ var next_script_js__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(next_script_js__WEBPACK_IMPORTED_MODULE_17__);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__, _componentes_MapaCiudades_MapaCiudades_js__WEBPACK_IMPORTED_MODULE_15__]);
 ([react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__, _componentes_MapaCiudades_MapaCiudades_js__WEBPACK_IMPORTED_MODULE_15__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+
 
 
 
@@ -117,11 +120,17 @@ function Alcorcon({ markers , menu_list , ciudad , general  }) {
                         href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css",
                         as: "style"
                     }),
+                    ciudad?.acf?.nonscript_chat,
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                         rel: "canonical",
                         href: ciudad?.acf?.canonical
                     })
                 ]
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_script_js__WEBPACK_IMPORTED_MODULE_17___default()), {
+                id: "livechat",
+                property: "lazyOnload",
+                children: ciudad?.acf?.script_chat
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_componentes_Layout_Layout__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {
                 menu_list: menu_list,
@@ -174,7 +183,7 @@ function Alcorcon({ markers , menu_list , ciudad , general  }) {
                         ]
                     }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_17___default().main),
+                        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_18___default().main),
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BreadcrumbsTiendas_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
                                 raiz: "Quickgold",
@@ -198,13 +207,13 @@ function Alcorcon({ markers , menu_list , ciudad , general  }) {
                                 ciudad: ciudad
                             }) : null,
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_17___default().contenedorSeccionUnoDos),
+                                className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_18___default().contenedorSeccionUnoDos),
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasCiudad_seccionDos_SeccionDos__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {
                                         ciudad: ciudad
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("article", {
-                                        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_17___default().contenedorMapaVisible),
+                                        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_18___default().contenedorMapaVisible),
                                         ref: myRef,
                                         children: inView ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_MapaCiudades_MapaCiudades_js__WEBPACK_IMPORTED_MODULE_15__/* ["default"] */ .Z, {
                                             markers: markers,
@@ -637,6 +646,13 @@ module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 /***/ ((module) => {
 
 module.exports = require("next/head");
+
+/***/ }),
+
+/***/ 3159:
+/***/ ((module) => {
+
+module.exports = require("next/script.js");
 
 /***/ }),
 

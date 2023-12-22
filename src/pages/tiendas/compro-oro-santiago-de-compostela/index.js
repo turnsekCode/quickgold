@@ -14,6 +14,7 @@ import BannerPromoGeneral from "@/componentes/BannerGeneral/BannerPromoGeneral";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import Mapa from "@/componentes/MapaCiudades/MapaCiudades.js";
 import HtmlGeneral from "@/componentes/ComponenteHTMLGeneral/HtmlGeneral";
+import Script from "next/script.js";
 import BannerPromoTiendas from "@/componentes/BannerPromoTiendas/BannerPromoTiendas.js";
 
 export default function SantiagoDeCompostela({
@@ -75,9 +76,13 @@ export default function SantiagoDeCompostela({
           href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
           as="style"
         ></link>
-
+        {ciudad?.acf?.nonscript_chat}
         <link rel="canonical" href={ciudad?.acf?.canonical} />
       </Head>
+      <Script id="livechat" property="lazyOnload">
+        {ciudad?.acf?.script_chat}
+      </Script>
+
       <Layout menu_list={menu_list} ciudad={ciudad}>
         <div itemScope itemType="http://schema.org/Organization">
           <meta itemProp="name" content="Quickgold" />

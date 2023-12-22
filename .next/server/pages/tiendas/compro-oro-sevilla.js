@@ -132,6 +132,7 @@ function Sevilla({ markers , menu_list , ciudad , general  }) {
                 property: "lazyOnload",
                 children: ciudad?.acf?.script_chat
             }),
+            ciudad?.acf?.nonscript_chat,
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_componentes_Layout_Layout__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {
                 menu_list: menu_list,
                 ciudad: ciudad,
