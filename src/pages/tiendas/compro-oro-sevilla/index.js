@@ -77,7 +77,6 @@ export default function Sevilla({ markers, menu_list, ciudad, general }) {
       <Script id="livechat" property="lazyOnload">
         {ciudad?.acf?.script_chat}
       </Script>
-      {ciudad?.acf?.nonscript_chat}
       <Layout menu_list={menu_list} ciudad={ciudad}>
         <div itemScope itemType="http://schema.org/Organization">
           <meta itemProp="name" content="Quickgold" />

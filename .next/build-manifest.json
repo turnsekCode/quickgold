@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/XGnZmwDc41QoZ_8tmAtN_/_buildManifest.js",
-    "static/XGnZmwDc41QoZ_8tmAtN_/_ssgManifest.js"
+    "static/iJayhhz-gcFgAjY8g8DBq/_buildManifest.js",
+    "static/iJayhhz-gcFgAjY8g8DBq/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -2000,7 +2000,7 @@
       "static/chunks/134-5ec5b8c6ae91009b.js",
       "static/chunks/4851-fad837d746984fb0.js",
       "static/css/5d2d8f9beac9e622.css",
-      "static/chunks/pages/tiendas/compro-oro-sevilla-35ab8a77fff550cf.js"
+      "static/chunks/pages/tiendas/compro-oro-sevilla-6c986553cb09afcc.js"
     ],
     "/tiendas/compro-oro-sevilla/avenida-de-andalucia-18": [
       "static/chunks/webpack-a8c273a04b708bbb.js",
