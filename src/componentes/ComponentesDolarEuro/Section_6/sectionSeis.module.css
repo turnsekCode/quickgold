@@ -39,7 +39,8 @@
     text-align: center;
     color: #FFFFFF;
     margin: 0 auto 25px;
-    width: 80%;
+    width: 90%;
+    font-family: 'Gotham Bold';
 }
 .SelectCiudades{
     width: 95%;

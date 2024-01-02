@@ -366,7 +366,7 @@ const SectionCuatro = ({ ciudad , listadoUrlCiudad  })=>{
                                 "El precio del d\xf3lar hoy en Espa\xf1a es un tema de inter\xe9s para muchas personas que est\xe1n planeando viajar a Estados Unidos o que tienen transacciones internacionales. El valor del d\xf3lar en relaci\xf3n al euro puede fluctuar diariamente debido a diversos factores econ\xf3micos y pol\xedticos. En nuestra web puedes consultar la tasa de cambio actualizada siempre.",
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                " En Quickgold te ofrecemos m\xe1s de 50 oficinas de cambio de d\xf3lares a euros por toda Espa\xf1a. Nuestras tiendas se encuentran en las mejores ubicaciones de cada ciudad y te ofrecemos un horario amplio de lunes a s\xe1bado (en determinadas tiendas podr\xe1s encontrar horario de apertura tambi\xe9n los domingos).",
+                                " En Quickgold te ofrecemos m\xe1s de 60 oficinas de cambio de d\xf3lares a euros por toda Espa\xf1a. Nuestras tiendas se encuentran en las mejores ubicaciones de cada ciudad y te ofrecemos un horario amplio de lunes a s\xe1bado (en determinadas tiendas podr\xe1s encontrar horario de apertura tambi\xe9n los domingos).",
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                 " Si quieres cambiar d\xf3lares a euros en Espa\xf1a, el precio puede variar, pero acudir a Quickgold es una excelente opci\xf3n para cambiar d\xf3lares a euros. Comprueba nuestro listado de tiendas y elige la m\xe1s cercana a tu ubicaci\xf3n. En nuestras casas de cambio de d\xf3lares ofrecemos tasas de cambio competitivas, transparencia y un servicio personalizado. Confiar en expertos en cambio de divisas te proporcionar\xe1 una experiencia segura y satisfactoria."
@@ -425,14 +425,18 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenVentaja1.png",
+                                    src: "/assets/img/imagenventaja1.png",
                                     alt: "Mejor servicio y precio",
                                     width: 40,
                                     height: 41
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Servicio 100% personalizado"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Servicio 100% ",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    "personalizado"
+                                ]
                             })
                         ]
                     }),
@@ -442,14 +446,18 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenVentaja2.png",
+                                    src: "/assets/img/imagenventaja2.png",
                                     alt: "Mejor servicio y precio",
                                     width: 39,
                                     height: 35
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Precio del d\xf3lar siempre actualizado"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Precio del d\xf3lar",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " siempre actualizado"
+                                ]
                             })
                         ]
                     }),
@@ -459,14 +467,18 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenVentaja3.png",
+                                    src: "/assets/img/imagenventaja3.png",
                                     alt: "Mejor servicio y precio",
                                     width: 37,
                                     height: 36
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "M\xe1s de 50 casas de cambio"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "M\xe1s de 60",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " casas de cambio"
+                                ]
                             })
                         ]
                     }),
@@ -476,14 +488,18 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenVentaja4.png",
+                                    src: "/assets/img/imagenventaja4.png",
                                     alt: "Mejor servicio y precio",
                                     width: 31,
                                     height: 31
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Mejor tipo de cambio de tu ciudad"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Mejor tipo de",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    " cambio de tu ciudad"
+                                ]
                             })
                         ]
                     }),
@@ -493,14 +509,18 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenVentaja5.png",
+                                    src: "/assets/img/imagenventaja5.png",
                                     alt: "Mejor servicio y precio",
                                     width: 39,
                                     height: 41
                                 })
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Euros en efectivo al instante"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                children: [
+                                    "Euros en ",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                    "efectivo al instante"
+                                ]
                             })
                         ]
                     }),
@@ -510,7 +530,7 @@ const Section_dos = ({ ciudad  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (sectionDos_module_default()).imagenventaja1,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    src: "/assets/img/imagenVentaja6.png",
+                                    src: "/assets/img/imagenventaja6.png",
                                     alt: "Mejor servicio y precio",
                                     width: 38,
                                     height: 38

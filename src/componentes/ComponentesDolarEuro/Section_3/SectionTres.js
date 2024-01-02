@@ -17,7 +17,7 @@ const SectionCuatro = ({ ciudad, listadoUrlCiudad }) => {
             euro puede fluctuar diariamente debido a diversos factores
             económicos y políticos. En nuestra web puedes consultar la tasa de
             cambio actualizada siempre.<br></br>
-            <br></br> En Quickgold te ofrecemos más de 50 oficinas de cambio de
+            <br></br> En Quickgold te ofrecemos más de 60 oficinas de cambio de
             dólares a euros por toda España. Nuestras tiendas se encuentran en
             las mejores ubicaciones de cada ciudad y te ofrecemos un horario
             amplio de lunes a sábado (en determinadas tiendas podrás encontrar

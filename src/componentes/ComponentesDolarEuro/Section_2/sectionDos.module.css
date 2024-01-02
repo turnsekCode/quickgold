@@ -31,13 +31,14 @@
 .imagenventaja1{
     padding: 10px;
     background: #FFFFFF;
-    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.18);
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.18);
     border-radius: 50%;
     width: 68px;
     height: 68px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2px solid #0F2D45;
 }
 .contenedorVentajas p{
     font-weight: 400;
@@ -115,7 +116,7 @@
     .imagenventaja1 {
         padding: 10px;
         background: #FFFFFF;
-        box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.18);
+        box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.18);
         border-radius: 50%;
         width: 68px;
         height: 68px;
@@ -123,7 +124,7 @@
         align-items: center;
         justify-content: center;
         stroke-width: 3px;
-        border: 3px solid #0692D0;
+        border: 2px solid #0F2D45;
     }
 
     .contenedorVentajas p {
