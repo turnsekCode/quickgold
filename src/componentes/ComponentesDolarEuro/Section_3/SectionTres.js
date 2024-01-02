@@ -1,9 +1,10 @@
-import React from "react";
-//import Image from "next/image";
+import React, { useState } from "react";
 import styles from "./sectionCuatro.module.css";
-import Comprar from "./ConversorDivisa/Comprar";
+import SelectCiudad from "../ComponenteSelectCiudades/SelectCiudad";
 
-const SectionCuatro = ({ ListadoCiudades, setCiudadOpen, ciudadOpen }) => {
+const SectionCuatro = ({ ciudad, listadoUrlCiudad }) => {
+  const [urlSelect, setUrlSelect] = useState("");
+  const listadoCiudades = listadoUrlCiudad?.arrayMarker;
   return (
     <section className={styles.contenedorSectionCuatro}>
       <div className={styles.contenedorSectionCuatroMargen}>
@@ -31,10 +32,11 @@ const SectionCuatro = ({ ListadoCiudades, setCiudadOpen, ciudadOpen }) => {
           </p>
         </div>
         <div className={styles.bloqueDer}>
-          <Comprar
-            //ListadoCiudades={ListadoCiudades}
-            setCiudadOpen={setCiudadOpen}
-            ciudadOpen={ciudadOpen}
+          <SelectCiudad
+            listadoCiudades={listadoCiudades}
+            urlSelect={urlSelect}
+            setUrlSelect={setUrlSelect}
+            ciudad={ciudad}
           />
         </div>
       </div>

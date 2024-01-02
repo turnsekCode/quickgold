@@ -36,7 +36,7 @@ const schema = {
 
 export default function DolarEuro({
   menu_list,
-  ListadoCiudades,
+  listadoUrlCiudad,
   listadoCiudadesServicios,
   ciudad,
 }) {
@@ -74,7 +74,7 @@ export default function DolarEuro({
           <Breadcrumbs />
           <Section_uno />
         </div>
-        <SectionCuatro ListadoCiudades={ListadoCiudades} />
+        <SectionCuatro listadoUrlCiudad={listadoUrlCiudad} ciudad={ciudad} />
         <Section_dos />
         <Section_cinco />
         <Section_seis listadoCiudadesServicios={listadoCiudadesServicios} />
@@ -88,17 +88,14 @@ export async function getStaticProps() {
     `https://panel.quickgold.es/wp-json/acf/v3/pages/${idPaginaWp}`
   );
   const ciudad = await ciudad1.json();
-  {
-    /* const Listado = await fetch(
-    `https://panel.quickgold.es/ListadoCiudadesSelectorCalculadora/listadoCiudades.json`
+  const Listado = await fetch(
+    `https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`
   );
-  const ListadoCiudades = await Listado.json();
-
-   const listadoServicio = await fetch(
+  const listadoUrlCiudad = await Listado.json();
+  const listadoServicio = await fetch(
     `https://panel.quickgold.es/ListadoCiudadesServicio/listadoCiudadesServicioDivisa.json`
   );
-const listadoCiudadesServicios = await listadoServicio.json();*/
-  }
+  const listadoCiudadesServicios = await listadoServicio.json();
 
   const menu = await fetch(
     `https://panel.quickgold.es/wp-json/menus/v1/menus/2219`
@@ -109,8 +106,8 @@ const listadoCiudadesServicios = await listadoServicio.json();*/
   return {
     props: {
       menu_list,
-      //ListadoCiudades,
-      //listadoCiudadesServicios,
+      listadoUrlCiudad,
+      listadoCiudadesServicios,
       ciudad,
     },
     revalidate: 1,

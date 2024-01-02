@@ -1,42 +1,29 @@
 import React, { useState } from "react";
 import styles from "./SelectorCiudades.module.css";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import { useRouter } from "next/router";
 
 const SelectorCiudadesServicio = ({ listadoCiudadesServicios }) => {
+  const router = useRouter();
+  function IrUrl(e) {
+    router.push(`/${e}`);
+  }
   const listadoCiudades = listadoCiudadesServicios?.arrayMarker;
   const [selectOpen, setSelectOpen] = useState(null);
 
   return (
-    <div className={styles.contenedorSelector}>
-      <p
-        onClick={() => {
-          setSelectOpen(!selectOpen);
-        }}
-      >
-        Selecciona tienda <KeyboardArrowDownIcon />
-      </p>
-      <ul
-        className={
-          selectOpen
-            ? `${styles.contenedorSelectorUl} ${styles.contenedorSelectorUlActivo}`
-            : `${styles.contenedorSelectorUl}`
-        }
-      >
-        {listadoCiudades?.map((ciudad, i) => (
-          <a
-            onClick={() => {
-              setSelectOpen(false);
-            }}
-            key={i}
-            href={ciudad.url}
-          >
-            <li className={styles.contenedorSelectorListado}>
-              {ciudad.ciudad}
-            </li>
-          </a>
-        ))}
-      </ul>
-    </div>
+    <select
+      onChange={(e) => {
+        IrUrl(e.target.value);
+      }}
+      className={styles.contenedorSelectorUl}
+    >
+      <option>Seleciona ciudad</option>
+      {listadoCiudades?.map((ciudad, i) => (
+        <option value={ciudad.url} key={i}>
+          {ciudad.ciudad}
+        </option>
+      ))}
+    </select>
   );
 };
 

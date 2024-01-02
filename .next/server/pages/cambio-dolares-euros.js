@@ -4,6 +4,30 @@ exports.id = 1689;
 exports.ids = [1689];
 exports.modules = {
 
+/***/ 7385:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"bloqueDer": "selecCiudad_bloqueDer__d20Dd",
+	"contenidoBloqueDer": "selecCiudad_contenidoBloqueDer__PQaWj",
+	"linea": "selecCiudad_linea__7751o",
+	"bloqueSuperiorTexto": "selecCiudad_bloqueSuperiorTexto__Xmfqr",
+	"bloqueIzqInferior": "selecCiudad_bloqueIzqInferior__ZOEf1",
+	"bloqueInferior": "selecCiudad_bloqueInferior__N4D57",
+	"bloqueInferiorTexto1": "selecCiudad_bloqueInferiorTexto1__cbMAL",
+	"bloqueInferiorTexto2": "selecCiudad_bloqueInferiorTexto2__LwshK",
+	"bloqueInferiorTexto3": "selecCiudad_bloqueInferiorTexto3__laVlE",
+	"ContenedorSelect": "selecCiudad_ContenedorSelect__hGXXl",
+	"select": "selecCiudad_select__wKUCo",
+	"botonIrCiudad": "selecCiudad_botonIrCiudad__oacoq",
+	"bloqueInferiorTexto4": "selecCiudad_bloqueInferiorTexto4__72Q2H",
+	"botonLlamar": "selecCiudad_botonLlamar__n2dGj"
+};
+
+
+/***/ }),
+
 /***/ 1770:
 /***/ ((module) => {
 
@@ -31,50 +55,6 @@ module.exports = {
 	"imagenventaja1": "sectionDos_imagenventaja1__eHrIr",
 	"contenedorVentajas": "sectionDos_contenedorVentajas__LPku7",
 	"linea": "sectionDos_linea__ZMfbL"
-};
-
-
-/***/ }),
-
-/***/ 3494:
-/***/ ((module) => {
-
-// Exports
-module.exports = {
-	"bloqueDivHabituales": "estilosConversor_bloqueDivHabituales__WOcAF",
-	"bloqueTituloSuperior": "estilosConversor_bloqueTituloSuperior__D5Cg4",
-	"tituloDivisaHabitual": "estilosConversor_tituloDivisaHabitual__HoPaP",
-	"divisasHabituales": "estilosConversor_divisasHabituales__sWKKz",
-	"bloqueDer": "estilosConversor_bloqueDer__b_QRr",
-	"bloqueDerInput": "estilosConversor_bloqueDerInput__cB_SH",
-	"contenedorInput": "estilosConversor_contenedorInput__aur6I",
-	"dolar": "estilosConversor_dolar__HHuQc",
-	"libra": "estilosConversor_libra__HEYFN",
-	"imgMoneda": "estilosConversor_imgMoneda__FZCkW",
-	"nombreMoneda": "estilosConversor_nombreMoneda__Qcioa",
-	"contenedorInputSuperior": "estilosConversor_contenedorInputSuperior__JXSvK",
-	"contenedorInputInferior": "estilosConversor_contenedorInputInferior__RuaOQ",
-	"bloqueIzqInput": "estilosConversor_bloqueIzqInput__dMI3m",
-	"select": "estilosConversor_select__WpJBe",
-	"select_monedas": "estilosConversor_select_monedas__8f2Et",
-	"contenedor_list": "estilosConversor_contenedor_list__j_pA7",
-	"moneda": "estilosConversor_moneda__9W8_Y",
-	"nombre": "estilosConversor_nombre__yVCzg",
-	"select_activo": "estilosConversor_select_activo__yrBiH",
-	"bandera": "estilosConversor_bandera__mDDsh",
-	"botonSwith": "estilosConversor_botonSwith__fN6u0",
-	"monedaInferior": "estilosConversor_monedaInferior__H4md7",
-	"selectCiudad": "estilosConversor_selectCiudad__Z8h_W",
-	"botonLlamarTienda": "estilosConversor_botonLlamarTienda__JkUES",
-	"selectCiudad_mobil": "estilosConversor_selectCiudad_mobil__UBTZs",
-	"select_ciudad_mobil": "estilosConversor_select_ciudad_mobil__uSnzf",
-	"select_ciudadOptionUno": "estilosConversor_select_ciudadOptionUno__jJo3Y",
-	"contenedorOptions": "estilosConversor_contenedorOptions__h4Edw",
-	"contenedorOptionsActivo": "estilosConversor_contenedorOptionsActivo__sVrjU",
-	"listaCiudad": "estilosConversor_listaCiudad__CXY4B",
-	"textoEntreInputs": "estilosConversor_textoEntreInputs__tQmNO",
-	"select_ciudad": "estilosConversor_select_ciudad__yhLfm",
-	"inputInferior": "estilosConversor_inputInferior__sST1B"
 };
 
 
@@ -158,7 +138,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 237:
+/***/ 5584:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -263,328 +243,113 @@ const Section_uno = ()=>{
 // EXTERNAL MODULE: ./src/componentes/ComponentesDolarEuro/Section_3/sectionCuatro.module.css
 var sectionCuatro_module = __webpack_require__(1229);
 var sectionCuatro_module_default = /*#__PURE__*/__webpack_require__.n(sectionCuatro_module);
-// EXTERNAL MODULE: ./src/componentes/ComponentesDolarEuro/Section_3/ConversorDivisa/estilosConversor.module.css
-var estilosConversor_module = __webpack_require__(3494);
-var estilosConversor_module_default = /*#__PURE__*/__webpack_require__.n(estilosConversor_module);
-// EXTERNAL MODULE: external "@mui/icons-material/KeyboardArrowDown"
-var KeyboardArrowDown_ = __webpack_require__(4845);
-var KeyboardArrowDown_default = /*#__PURE__*/__webpack_require__.n(KeyboardArrowDown_);
-;// CONCATENATED MODULE: external "@mui/icons-material/PowerInput"
-const PowerInput_namespaceObject = require("@mui/icons-material/PowerInput");
-var PowerInput_default = /*#__PURE__*/__webpack_require__.n(PowerInput_namespaceObject);
-;// CONCATENATED MODULE: external "@mui/icons-material/ImportExport"
-const ImportExport_namespaceObject = require("@mui/icons-material/ImportExport");
-var ImportExport_default = /*#__PURE__*/__webpack_require__.n(ImportExport_namespaceObject);
-;// CONCATENATED MODULE: ./src/componentes/ComponentesDolarEuro/Section_3/ConversorDivisa/Comprar.js
+// EXTERNAL MODULE: ./src/componentes/ComponentesDolarEuro/ComponenteSelectCiudades/selecCiudad.module.css
+var selecCiudad_module = __webpack_require__(7385);
+var selecCiudad_module_default = /*#__PURE__*/__webpack_require__.n(selecCiudad_module);
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__(1664);
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
+;// CONCATENATED MODULE: ./src/componentes/ComponentesDolarEuro/ComponenteSelectCiudades/SelectCiudad.js
 
 
 
 
-
-
-const Comprar = ({ ListadoCiudades  })=>{
-    const [ciudad, setCiudad] = (0,external_react_.useState)("");
-    const [ciudadOpen, setCiudadOpen] = (0,external_react_.useState)(null);
-    const [selectDivisa, setSelectDivisa] = (0,external_react_.useState)(true);
-    const datosCiudad = ListadoCiudades?.arrayMarker;
-    const [data, setData] = (0,external_react_.useState)([]);
-    //const datos = data;
-    //console.log(datos.splice(0, 1, "USD"));
-    (0,external_react_.useEffect)(()=>{
-        fetch(`https://quickgold.es/archivos-cache/Fixing${ciudad}.txt`, {
-            cache: "no-cache"
-        }).then((response)=>response.json()).then((response)=>{
-            setData(response?.result?.Tarifas?.Divisas_Compra.reverse());
-        });
-    }, [
-        ciudad
-    ]);
-    //const [InputDivisa, setInputDivisa] = useState(<PowerInputIcon />);
-    const [valorMoneda, setValorMoneda] = (0,external_react_.useState)("");
-    const [DataAcronimo, setAcronimo] = (0,external_react_.useState)("");
-    const [DataNombre, setDataNombre] = (0,external_react_.useState)("");
-    const [valorInput, setValorInput] = (0,external_react_.useState)("");
-    const [switched, setSwitched] = (0,external_react_.useState)(null);
-    const [opened, setOpened] = (0,external_react_.useState)(true);
-    const [select, setSelect] = (0,external_react_.useState)(null);
-    const precioDividido = valorMoneda / 1000;
-    const precioDividido2 = 1 / precioDividido;
-    const valorFinal = valorInput * precioDividido;
-    const valorFinal2 = valorInput / precioDividido;
-    const captureCodigo = (e)=>{
-        setAcronimo(e.target.dataset.acronimo);
-        setValorMoneda(e.target.dataset.precio);
-    };
-    const MonedaSeleccionada = ()=>{
-        setSelectDivisa(false);
-    };
-    const captureHabitual = (e)=>{
-        setCiudadOpen(false);
-    };
+const SelectCiudad = ({ listadoCiudades , urlSelect , setUrlSelect , ciudad  })=>{
+    const [botonActivo, setBotonActivo] = (0,external_react_.useState)(true);
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: (estilosConversor_module_default()).bloqueDer,
+        id: "calculadora",
+        className: (selecCiudad_module_default()).bloqueDer,
         children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (estilosConversor_module_default()).bloqueTituloSuperior,
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                        children: "CAMBIO DE D\xd3LAR A EURO"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        children: "Ciudad donde quieres cambiar"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: (estilosConversor_module_default()).selectCiudad,
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: (estilosConversor_module_default()).select_ciudad,
-                            children: [
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    onClick: (event)=>{
-                                        setSelect(false);
-                                        setCiudadOpen(!ciudadOpen);
-                                    },
-                                    className: (estilosConversor_module_default()).select_ciudadOptionUno,
-                                    children: [
-                                        " ",
-                                        opened ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    children: "Seleccione ciudad"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowDown_default()), {})
-                                            ]
-                                        }) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-                                            children: [
-                                                DataNombre,
-                                                " ",
-                                                /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowDown_default()), {})
-                                            ]
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: ciudadOpen ? `${(estilosConversor_module_default()).contenedorOptions} ${(estilosConversor_module_default()).contenedorOptionsActivo}` : `${(estilosConversor_module_default()).contenedorOptions}`,
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                                        children: datosCiudad?.map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                className: (estilosConversor_module_default()).listaCiudad,
-                                                onClick: (e)=>{
-                                                    captureHabitual(e);
-                                                    //setAcronimo(e.target.dataset.acronimo);
-                                                    //setValorMoneda(e.target.dataset.precio);
-                                                    setCiudad(e.target.dataset.minusculas);
-                                                    setDataNombre(e.target.dataset.nombre);
-                                                    setSelectDivisa(true);
-                                                    setOpened(false);
-                                                },
-                                                "data-minusculas": ciudad.nombreMinusculas,
-                                                "data-nombre": ciudad.nombre,
-                                                children: ciudad.nombre
-                                            }, i))
-                                    })
-                                })
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: (estilosConversor_module_default()).selectCiudad_mobil,
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("select", {
-                            className: (estilosConversor_module_default()).select_ciudad_mobil,
-                            onChange: (e)=>{
-                                setCiudad(e.target.value);
-                                setSelectDivisa(true);
-                                setOpened(false);
-                            },
-                            children: datosCiudad?.map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("option", {
-                                    value: ciudad.nombreMinusculas,
-                                    children: ciudad.nombre
-                                }, i))
-                        })
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        className: (estilosConversor_module_default()).textoEntreInputs,
-                        children: "Selecciona la divisa D\xd3LAR para saber su precio"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (estilosConversor_module_default()).contenedorInputSuperior,
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: (estilosConversor_module_default()).bloqueIzqInput,
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: (estilosConversor_module_default()).select,
-                            onClick: ()=>{
-                                setSelect(!select);
-                            },
-                            children: [
-                                selectDivisa ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-                                    children: [
-                                        "Seleccione Divisa",
-                                        /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowDown_default()), {})
-                                    ]
-                                }) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-                                    children: [
-                                        DataAcronimo,
-                                        " ",
-                                        /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowDown_default()), {})
-                                    ]
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: select ? `${(estilosConversor_module_default()).select_monedas} ${(estilosConversor_module_default()).select_activo}` : `${(estilosConversor_module_default()).select_monedas}`,
-                                    children: data?.filter((currency)=>currency.Name !== "HRK" && currency.Name !== "DKK" && currency.Name !== "RUB" && currency.Name !== "NOK" && currency.Name !== "SEK").map((data, i)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: (estilosConversor_module_default()).contenedor_list,
-                                            "data-acronimo": data?.Productos[0].Acronimo,
-                                            "data-precio": data?.Productos[0].Precio,
-                                            onClick: (e)=>{
-                                                captureCodigo(e);
-                                                MonedaSeleccionada();
-                                            },
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                    className: (estilosConversor_module_default()).bandera,
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                        src: `/assets/${data?.Productos[0].Acronimo}.png`,
-                                                        "data-acronimo": data?.Productos[0].Acronimo,
-                                                        "data-precio": data?.Productos[0].Precio,
-                                                        alt: data?.Productos[0].Acronimo
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                    className: (estilosConversor_module_default()).moneda,
-                                                    children: [
-                                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                            "data-acronimo": data?.Productos[0].Acronimo,
-                                                            "data-precio": data?.Productos[0].Precio,
-                                                            children: data?.Productos[0].Acronimo
-                                                        }),
-                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                            className: (estilosConversor_module_default()).nombre,
-                                                            "data-acronimo": data?.Productos[0].Acronimo,
-                                                            "data-precio": data?.Productos[0].Precio,
-                                                            children: data?.Productos[0].Nombre
-                                                        })
-                                                    ]
-                                                })
-                                            ]
-                                        }, i))
-                                })
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (estilosConversor_module_default()).bloqueDerInput,
-                        children: [
-                            selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx((PowerInput_default()), {}) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: (estilosConversor_module_default()).contenedorInput,
-                                children: [
-                                    switched ? /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                        style: {
-                                            border: "none"
-                                        },
-                                        type: "text",
-                                        pattern: "[0-9]*",
-                                        placeholder: "0.00",
-                                        inputMode: "numeric",
-                                        readOnly: true,
-                                        value: valorFinal2.toFixed(2)
-                                    }) : /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                        type: "text",
-                                        pattern: "[0-9]*",
-                                        placeholder: "0.00",
-                                        inputMode: "numeric",
-                                        className: (estilosConversor_module_default()).inputInferior,
-                                        onChange: (event)=>setValorInput(event.target.value)
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: DataAcronimo
-                                    })
-                                ]
-                            }),
-                            selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx("p", {}) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                children: [
-                                    "1",
-                                    DataAcronimo,
-                                    " = ",
-                                    precioDividido.toFixed(4),
-                                    "EUR"
-                                ]
-                            })
-                        ]
-                    })
-                ]
-            }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: (estilosConversor_module_default()).botonSwith,
-                children: /*#__PURE__*/ jsx_runtime_.jsx((ImportExport_default()), {
-                    onClick: (e)=>{
-                        setSwitched(!switched);
-                    }
+                className: (selecCiudad_module_default()).bloqueSuperiorTexto,
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                            children: "Cambio de divisa"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                            children: "Descubre el valor de la moneda que te interesa."
+                        })
+                    ]
                 })
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (estilosConversor_module_default()).contenedorInputInferior,
+                className: (selecCiudad_module_default()).bloqueInferior,
                 children: [
-                    selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx("span", {}) : /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: (estilosConversor_module_default()).monedaInferior,
-                        children: "EUR"
+                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        className: (selecCiudad_module_default()).bloqueInferiorTexto1,
+                        children: "\xbfTe gustar\xeda comprar o vender divisa?"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                        className: (selecCiudad_module_default()).bloqueInferiorTexto2,
+                        children: [
+                            "Realiza en ",
+                            /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                children: "quickgold"
+                            }),
+                            " tu cambio de moneda extranjera sin comisiones para siempre. M\xe1s de 20 divisas disponibles al instante para que puedas fijar tu precio de cambio. Consulta la cotizaci\xf3n de la moneda que quieras con nuestro conversor online."
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                        className: (selecCiudad_module_default()).bloqueInferiorTexto3,
+                        children: [
+                            "Selecciona tu ciudad y haz clic en",
+                            " ",
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                children: "conoce el precio de la divisa "
+                            }),
+                            "para saberlo."
+                        ]
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (estilosConversor_module_default()).bloqueDerInput,
+                        className: (selecCiudad_module_default()).ContenedorSelect,
                         children: [
-                            selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx((PowerInput_default()), {}) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: (estilosConversor_module_default()).contenedorInput,
-                                children: [
-                                    switched ? /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                        type: "text",
-                                        pattern: "[0-9]*",
-                                        placeholder: "Cantidad",
-                                        inputMode: "numeric",
-                                        className: (estilosConversor_module_default()).inputInferior,
-                                        onChange: (event)=>setValorInput(event.target.value)
-                                    }) : /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                        type: "text",
-                                        pattern: "[0-9]*",
-                                        placeholder: "Cantidad",
-                                        inputMode: "numeric",
-                                        value: valorFinal.toFixed(2),
-                                        readOnly: true,
-                                        style: {
-                                            border: "none"
-                                        }
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: "EUR"
-                                    })
-                                ]
+                            /*#__PURE__*/ jsx_runtime_.jsx("select", {
+                                onChange: (e)=>{
+                                    setUrlSelect(e.target.value);
+                                    setBotonActivo(false);
+                                },
+                                className: (selecCiudad_module_default()).select,
+                                children: listadoCiudades?.map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("option", {
+                                        value: ciudad.nombreMinusculas,
+                                        children: ciudad.nombre
+                                    }, i))
                             }),
-                            selectDivisa ? /*#__PURE__*/ jsx_runtime_.jsx("p", {}) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                children: [
-                                    "1EUR = ",
-                                    precioDividido2.toFixed(4),
-                                    DataAcronimo
-                                ]
+                            botonActivo ? /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                disabled: true,
+                                className: (selecCiudad_module_default()).botonIrCiudad,
+                                children: "CONOCE EL PRECIO DE LA DIVISA"
+                            }) : /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                className: (selecCiudad_module_default()).botonIrCiudad,
+                                href: `/tiendas/compro-oro-${urlSelect}`,
+                                children: "CONOCE EL PRECIO DE LA DIVISA"
                             })
                         ]
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        className: (selecCiudad_module_default()).bloqueInferiorTexto4,
+                        children: "Si lo prefieres, tambi\xe9n puedes llamarnos e informarte. \xa1Estaremos encantados de resolver todas tus dudas!"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        href: `tel:${ciudad?.acf?.telefono}`,
+                        className: (selecCiudad_module_default()).botonLlamar,
+                        children: "LLAMA GRATIS"
                     })
                 ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                className: (estilosConversor_module_default()).botonLlamarTienda,
-                href: "tel:900 373 629",
-                children: "LLAMAR A TIENDA"
             })
         ]
     });
 };
-/* harmony default export */ const ConversorDivisa_Comprar = (Comprar);
+/* harmony default export */ const ComponenteSelectCiudades_SelectCiudad = (SelectCiudad);
 
 ;// CONCATENATED MODULE: ./src/componentes/ComponentesDolarEuro/Section_3/SectionTres.js
 
 
-//import Image from "next/image";
 
 
-const SectionCuatro = ({ ListadoCiudades , setCiudadOpen , ciudadOpen  })=>{
+const SectionCuatro = ({ ciudad , listadoUrlCiudad  })=>{
+    const [urlSelect, setUrlSelect] = (0,external_react_.useState)("");
+    const listadoCiudades = listadoUrlCiudad?.arrayMarker;
     return /*#__PURE__*/ jsx_runtime_.jsx("section", {
         className: (sectionCuatro_module_default()).contenedorSectionCuatro,
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -611,10 +376,11 @@ const SectionCuatro = ({ ListadoCiudades , setCiudadOpen , ciudadOpen  })=>{
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                     className: (sectionCuatro_module_default()).bloqueDer,
-                    children: /*#__PURE__*/ jsx_runtime_.jsx(ConversorDivisa_Comprar, {
-                        //ListadoCiudades={ListadoCiudades}
-                        setCiudadOpen: setCiudadOpen,
-                        ciudadOpen: ciudadOpen
+                    children: /*#__PURE__*/ jsx_runtime_.jsx(ComponenteSelectCiudades_SelectCiudad, {
+                        listadoCiudades: listadoCiudades,
+                        urlSelect: urlSelect,
+                        setUrlSelect: setUrlSelect,
+                        ciudad: ciudad
                     })
                 })
             ]
@@ -857,39 +623,33 @@ var sectionSeis_module_default = /*#__PURE__*/__webpack_require__.n(sectionSeis_
 // EXTERNAL MODULE: ./src/componentes/SelectorCiudadesServicio/SelectorCiudades.module.css
 var SelectorCiudades_module = __webpack_require__(8410);
 var SelectorCiudades_module_default = /*#__PURE__*/__webpack_require__.n(SelectorCiudades_module);
+// EXTERNAL MODULE: external "next/router"
+var router_ = __webpack_require__(1853);
 ;// CONCATENATED MODULE: ./src/componentes/SelectorCiudadesServicio/SelectorCiudadesServicio.js
 
 
 
 
 const SelectorCiudadesServicio = ({ listadoCiudadesServicios  })=>{
+    const router = (0,router_.useRouter)();
+    function IrUrl(e) {
+        router.push(`/${e}`);
+    }
     const listadoCiudades = listadoCiudadesServicios?.arrayMarker;
     const [selectOpen, setSelectOpen] = (0,external_react_.useState)(null);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: (SelectorCiudades_module_default()).contenedorSelector,
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("select", {
+        onChange: (e)=>{
+            IrUrl(e.target.value);
+        },
+        className: (SelectorCiudades_module_default()).contenedorSelectorUl,
         children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                onClick: ()=>{
-                    setSelectOpen(!selectOpen);
-                },
-                children: [
-                    "Selecciona tienda ",
-                    /*#__PURE__*/ jsx_runtime_.jsx((KeyboardArrowDown_default()), {})
-                ]
+            /*#__PURE__*/ jsx_runtime_.jsx("option", {
+                children: "Seleciona ciudad"
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                className: selectOpen ? `${(SelectorCiudades_module_default()).contenedorSelectorUl} ${(SelectorCiudades_module_default()).contenedorSelectorUlActivo}` : `${(SelectorCiudades_module_default()).contenedorSelectorUl}`,
-                children: listadoCiudades?.map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("a", {
-                        onClick: ()=>{
-                            setSelectOpen(false);
-                        },
-                        href: ciudad.url,
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                            className: (SelectorCiudades_module_default()).contenedorSelectorListado,
-                            children: ciudad.ciudad
-                        })
-                    }, i))
-            })
+            listadoCiudades?.map((ciudad, i)=>/*#__PURE__*/ jsx_runtime_.jsx("option", {
+                    value: ciudad.url,
+                    children: ciudad.ciudad
+                }, i))
         ]
     });
 };
@@ -968,7 +728,7 @@ const schema = {
         contactType: "info@quickgold.es"
     }
 };
-function DolarEuro({ menu_list , ListadoCiudades , listadoCiudadesServicios , ciudad  }) {
+function DolarEuro({ menu_list , listadoUrlCiudad , listadoCiudadesServicios , ciudad  }) {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx((next_seo_default()), {
@@ -1020,7 +780,8 @@ function DolarEuro({ menu_list , ListadoCiudades , listadoCiudadesServicios , ci
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx(SectionTres, {
-                        ListadoCiudades: ListadoCiudades
+                        listadoUrlCiudad: listadoUrlCiudad,
+                        ciudad: ciudad
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx(Section_2_Section_dos, {}),
                     /*#__PURE__*/ jsx_runtime_.jsx(Section_5_Section_cinco, {}),
@@ -1036,24 +797,18 @@ const idPaginaWp = "16708";
 async function getStaticProps() {
     const ciudad1 = await fetch(`https://panel.quickgold.es/wp-json/acf/v3/pages/${idPaginaWp}`);
     const ciudad = await ciudad1.json();
-    {
-    /* const Listado = await fetch(
-    `https://panel.quickgold.es/ListadoCiudadesSelectorCalculadora/listadoCiudades.json`
-  );
-  const ListadoCiudades = await Listado.json();
-
-   const listadoServicio = await fetch(
-    `https://panel.quickgold.es/ListadoCiudadesServicio/listadoCiudadesServicioDivisa.json`
-  );
-const listadoCiudadesServicios = await listadoServicio.json();*/ }
+    const Listado = await fetch(`https://panel.quickgold.es/ListadoDeUrlDeCiudad/listadoUrlCiudad.json`);
+    const listadoUrlCiudad = await Listado.json();
+    const listadoServicio = await fetch(`https://panel.quickgold.es/ListadoCiudadesServicio/listadoCiudadesServicioDivisa.json`);
+    const listadoCiudadesServicios = await listadoServicio.json();
     const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
     const menu_list = await menu.json();
     // Pass data to the page via props
     return {
         props: {
             menu_list,
-            //ListadoCiudades,
-            //listadoCiudadesServicios,
+            listadoUrlCiudad,
+            listadoCiudadesServicios,
             ciudad
         },
         revalidate: 1
@@ -1191,11 +946,27 @@ module.exports = require("next/dist/shared/lib/amp-mode.js");
 
 /***/ }),
 
+/***/ 3280:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/app-router-context.js");
+
+/***/ }),
+
 /***/ 2796:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/head-manager-context.js");
+
+/***/ }),
+
+/***/ 4014:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/i18n/normalize-locale-path.js");
 
 /***/ }),
 
@@ -1231,11 +1002,179 @@ module.exports = require("next/dist/shared/lib/image-loader");
 
 /***/ }),
 
+/***/ 8524:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/is-plain-object.js");
+
+/***/ }),
+
+/***/ 8020:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/mitt.js");
+
+/***/ }),
+
+/***/ 4406:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/page-path/denormalize-page-path.js");
+
+/***/ }),
+
+/***/ 4964:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router-context.js");
+
+/***/ }),
+
+/***/ 1751:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix.js");
+
+/***/ }),
+
+/***/ 6220:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/compare-states.js");
+
+/***/ }),
+
+/***/ 299:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/format-next-pathname-info.js");
+
+/***/ }),
+
+/***/ 3938:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/format-url.js");
+
+/***/ }),
+
+/***/ 9565:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/get-asset-path-from-route.js");
+
+/***/ }),
+
+/***/ 5789:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/get-next-pathname-info.js");
+
+/***/ }),
+
+/***/ 1897:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-bot.js");
+
+/***/ }),
+
+/***/ 1428:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-dynamic.js");
+
+/***/ }),
+
+/***/ 8854:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/parse-path.js");
+
+/***/ }),
+
+/***/ 1292:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/parse-relative-url.js");
+
+/***/ }),
+
+/***/ 4567:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/path-has-prefix.js");
+
+/***/ }),
+
+/***/ 979:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/querystring.js");
+
+/***/ }),
+
+/***/ 3297:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slash.js");
+
+/***/ }),
+
+/***/ 6052:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/resolve-rewrites.js");
+
+/***/ }),
+
+/***/ 4226:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/route-matcher.js");
+
+/***/ }),
+
+/***/ 5052:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/route-regex.js");
+
+/***/ }),
+
 /***/ 2470:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/side-effect.js");
+
+/***/ }),
+
+/***/ 9232:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils.js");
 
 /***/ }),
 
@@ -1255,11 +1194,27 @@ module.exports = require("next/head");
 
 /***/ }),
 
+/***/ 1853:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/router");
+
+/***/ }),
+
 /***/ 6689:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("react");
+
+/***/ }),
+
+/***/ 6405:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-dom");
 
 /***/ }),
 
@@ -1294,7 +1249,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,9206], () => (__webpack_exec__(237)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,9206], () => (__webpack_exec__(5584)));
 module.exports = __webpack_exports__;
 
 })();
