@@ -153,19 +153,14 @@ const Section_uno = ({ ciudad , listadoUrlCiudad  })=>{
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                         children: "En quickgold, adem\xe1s de ser especialistas en la compra y venta de oro, tambi\xe9n ofrecemos el servicio de venta de joyer\xeda de ocasi\xf3n de oro y plata. En nuestras tiendas, encontrar\xe1s una gran exposici\xf3n de joyer\xeda de ocasi\xf3n con un 60% inferior a su PVP y de grandes marcas."
                     }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: (section_uno_module_default()).botones,
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx(SelectorCiudades/* default */.Z, {
-                                listadoUrlCiudad: listadoUrlCiudad
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                className: (section_uno_module_default()).botonLlamar,
-                                href: `tel:${ciudad?.acf?.telefono}`,
-                                title: "Tel\xe9fono",
-                                children: "llama gratis"
-                            })
-                        ]
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            className: (section_uno_module_default()).botonLlamar,
+                            href: `tel:${ciudad?.acf?.telefono}`,
+                            title: "Tel\xe9fono",
+                            children: "llama gratis"
+                        })
                     })
                 ]
             }),
@@ -399,12 +394,16 @@ const Section_tres = ({ ciudad  })=>{
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: (sectionTres_module_default()).contenedorImagen,
                                 children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        src: "/assets/img/imagenjoyeria1.png",
-                                        alt: "Joyer\xeda de ocasi\xf3n",
-                                        className: (sectionTres_module_default()).madridMobil,
-                                        width: 150,
-                                        height: 150
+                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        target: "_blank",
+                                        href: "https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: "/assets/img/imagenjoyeria1.png",
+                                            alt: "Joyer\xeda de ocasi\xf3n",
+                                            className: (sectionTres_module_default()).madridMobil,
+                                            width: 150,
+                                            height: 150
+                                        })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         children: "Anillos"
@@ -414,12 +413,16 @@ const Section_tres = ({ ciudad  })=>{
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: (sectionTres_module_default()).contenedorImagen,
                                 children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        src: "/assets/img/imagenjoyeria2.png",
-                                        alt: "Joyer\xeda de ocasi\xf3n",
-                                        className: (sectionTres_module_default()).madridMobil,
-                                        width: 150,
-                                        height: 150
+                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        target: "_blank",
+                                        href: "https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: "/assets/img/imagenjoyeria2.png",
+                                            alt: "Joyer\xeda de ocasi\xf3n",
+                                            className: (sectionTres_module_default()).madridMobil,
+                                            width: 150,
+                                            height: 150
+                                        })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         children: "Pulseras"
@@ -429,12 +432,16 @@ const Section_tres = ({ ciudad  })=>{
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: (sectionTres_module_default()).contenedorImagen,
                                 children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        src: "/assets/img/imagenjoyeria3.png",
-                                        alt: "Joyer\xeda de ocasi\xf3n",
-                                        className: (sectionTres_module_default()).madridMobil,
-                                        width: 150,
-                                        height: 150
+                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        target: "_blank",
+                                        href: "https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: "/assets/img/imagenjoyeria3.png",
+                                            alt: "Joyer\xeda de ocasi\xf3n",
+                                            className: (sectionTres_module_default()).madridMobil,
+                                            width: 150,
+                                            height: 150
+                                        })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         children: "Gargantillas"
@@ -444,12 +451,16 @@ const Section_tres = ({ ciudad  })=>{
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: (sectionTres_module_default()).contenedorImagen,
                                 children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        src: "/assets/img/imagenjoyeria4.png",
-                                        alt: "Joyer\xeda de ocasi\xf3n",
-                                        className: (sectionTres_module_default()).madridMobil,
-                                        width: 150,
-                                        height: 150
+                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        target: "_blank",
+                                        href: "https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: "/assets/img/imagenjoyeria4.png",
+                                            alt: "Joyer\xeda de ocasi\xf3n",
+                                            className: (sectionTres_module_default()).madridMobil,
+                                            width: 150,
+                                            height: 150
+                                        })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         children: "Cadenas"
@@ -459,12 +470,16 @@ const Section_tres = ({ ciudad  })=>{
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: (sectionTres_module_default()).contenedorImagen,
                                 children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        src: "/assets/img/imagenjoyeria5.png",
-                                        alt: "Joyer\xeda de ocasi\xf3n",
-                                        className: (sectionTres_module_default()).madridMobil,
-                                        width: 150,
-                                        height: 150
+                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        target: "_blank",
+                                        href: "https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: "/assets/img/imagenjoyeria5.png",
+                                            alt: "Joyer\xeda de ocasi\xf3n",
+                                            className: (sectionTres_module_default()).madridMobil,
+                                            width: 150,
+                                            height: 150
+                                        })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         children: "Colgantes"
@@ -474,12 +489,16 @@ const Section_tres = ({ ciudad  })=>{
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: (sectionTres_module_default()).contenedorImagen,
                                 children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        src: "/assets/img/imagenjoyeria6.png",
-                                        alt: "Joyer\xeda de ocasi\xf3n",
-                                        className: (sectionTres_module_default()).madridMobil,
-                                        width: 150,
-                                        height: 150
+                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                        target: "_blank",
+                                        href: "https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: "/assets/img/imagenjoyeria6.png",
+                                            alt: "Joyer\xeda de ocasi\xf3n",
+                                            className: (sectionTres_module_default()).madridMobil,
+                                            width: 150,
+                                            height: 150
+                                        })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         children: "Pendientes"
@@ -511,9 +530,13 @@ const Section_tres = ({ ciudad  })=>{
                                         " siempre buscamos facilidades para nuestros clientes. Ll\xe1manos a nuestro tel\xe9fono",
                                         " ",
                                         /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                            children: "661 89 24 43"
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                href: "tel:661892443",
+                                                children: "661 89 24 43"
+                                            })
                                         }),
-                                        " y encuentra la joya que est\xe1s buscando."
+                                        " ",
+                                        "y encuentra la joya que est\xe1s buscando."
                                     ]
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("a", {

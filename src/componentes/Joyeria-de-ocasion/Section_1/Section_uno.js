@@ -15,7 +15,7 @@ const Section_uno = ({ ciudad, listadoUrlCiudad }) => {
           de ocasión con un 60% inferior a su PVP y de grandes marcas.
         </p>
         <div className={styles.botones}>
-          <SelectorCiudades listadoUrlCiudad={listadoUrlCiudad} />
+          {/*<SelectorCiudades listadoUrlCiudad={listadoUrlCiudad} />*/}
           <a
             className={styles.botonLlamar}
             href={`tel:${ciudad?.acf?.telefono}`}

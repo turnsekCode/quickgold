@@ -16,63 +16,93 @@ const Section_tres = ({ ciudad }) => {
       <div className={styles.contenedorSectionTresMargen}>
         <div className={styles.bloqueIzq}>
           <div className={styles.contenedorImagen}>
-            <Image
-              src="/assets/img/imagenjoyeria1.png"
-              alt="Joyería de ocasión"
-              className={styles.madridMobil}
-              width={150}
-              height={150}
-            />
+            <a
+              target="_blank"
+              href="https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956"
+            >
+              <Image
+                src="/assets/img/imagenjoyeria1.png"
+                alt="Joyería de ocasión"
+                className={styles.madridMobil}
+                width={150}
+                height={150}
+              />
+            </a>
             <p>Anillos</p>
           </div>
           <div className={styles.contenedorImagen}>
-            <Image
-              src="/assets/img/imagenjoyeria2.png"
-              alt="Joyería de ocasión"
-              className={styles.madridMobil}
-              width={150}
-              height={150}
-            />
+            <a
+              target="_blank"
+              href="https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956"
+            >
+              <Image
+                src="/assets/img/imagenjoyeria2.png"
+                alt="Joyería de ocasión"
+                className={styles.madridMobil}
+                width={150}
+                height={150}
+              />
+            </a>
             <p>Pulseras</p>
           </div>
           <div className={styles.contenedorImagen}>
-            <Image
-              src="/assets/img/imagenjoyeria3.png"
-              alt="Joyería de ocasión"
-              className={styles.madridMobil}
-              width={150}
-              height={150}
-            />
+            <a
+              target="_blank"
+              href="https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956"
+            >
+              <Image
+                src="/assets/img/imagenjoyeria3.png"
+                alt="Joyería de ocasión"
+                className={styles.madridMobil}
+                width={150}
+                height={150}
+              />
+            </a>
             <p>Gargantillas</p>
           </div>
           <div className={styles.contenedorImagen}>
-            <Image
-              src="/assets/img/imagenjoyeria4.png"
-              alt="Joyería de ocasión"
-              className={styles.madridMobil}
-              width={150}
-              height={150}
-            />
+            <a
+              target="_blank"
+              href="https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956"
+            >
+              <Image
+                src="/assets/img/imagenjoyeria4.png"
+                alt="Joyería de ocasión"
+                className={styles.madridMobil}
+                width={150}
+                height={150}
+              />
+            </a>
             <p>Cadenas</p>
           </div>
           <div className={styles.contenedorImagen}>
-            <Image
-              src="/assets/img/imagenjoyeria5.png"
-              alt="Joyería de ocasión"
-              className={styles.madridMobil}
-              width={150}
-              height={150}
-            />
+            <a
+              target="_blank"
+              href="https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956"
+            >
+              <Image
+                src="/assets/img/imagenjoyeria5.png"
+                alt="Joyería de ocasión"
+                className={styles.madridMobil}
+                width={150}
+                height={150}
+              />
+            </a>
             <p>Colgantes</p>
           </div>
           <div className={styles.contenedorImagen}>
-            <Image
-              src="/assets/img/imagenjoyeria6.png"
-              alt="Joyería de ocasión"
-              className={styles.madridMobil}
-              width={150}
-              height={150}
-            />
+            <a
+              target="_blank"
+              href="https://es.wallapop.com/app/search?keywords=quickgold&order_by=most_relevance&filters_source=quick_filters&longitude=-3.69196&latitude=40.41956"
+            >
+              <Image
+                src="/assets/img/imagenjoyeria6.png"
+                alt="Joyería de ocasión"
+                className={styles.madridMobil}
+                width={150}
+                height={150}
+              />
+            </a>
             <p>Pendientes</p>
           </div>
         </div>
@@ -87,8 +117,10 @@ const Section_tres = ({ ciudad }) => {
             <p>
               En <strong>quickgold</strong> siempre buscamos facilidades para
               nuestros clientes. Llámanos a nuestro teléfono{" "}
-              <strong>661 89 24 43</strong> y encuentra la joya que estás
-              buscando.
+              <strong>
+                <a href="tel:661892443">661 89 24 43</a>
+              </strong>{" "}
+              y encuentra la joya que estás buscando.
             </p>
             <a
               className={styles.botonLlamar}
