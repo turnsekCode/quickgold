@@ -7,7 +7,7 @@ const Section_uno = () => {
       <div className={styles.contenedorTexto}>
         <h1 className={styles.titulo}>Tiendas quickgold</h1>
         <p className={styles.texto}>
-          Actualmente contamos con un total de <strong>62</strong> tiendas.
+          Actualmente contamos con un total de <strong>63</strong> tiendas.
         </p>
       </div>
     </section>
