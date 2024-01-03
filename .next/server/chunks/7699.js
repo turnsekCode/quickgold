@@ -796,6 +796,14 @@ const Footer = ()=>{
                                     "pol\xedtica de calidad"
                                 ]
                             })
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            target: "_blank",
+                            title: "Canal \xe9tico",
+                            href: "https://otsugroupcorporate-canaletico.appcore.es/",
+                            children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                children: "Canal \xe9tico"
+                            })
                         })
                     ]
                 }),
@@ -890,7 +898,7 @@ const FooterMobil = ()=>{
                         title: "pol\xedtica de privacidad",
                         href: "/politica-de-privacidad",
                         children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                            children: "pol\xedtica de privacidad"
+                            children: "Pol\xedtica de privacidad"
                         })
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
@@ -898,7 +906,16 @@ const FooterMobil = ()=>{
                         title: "pol\xedtica de calidad",
                         href: "/politica-de-calidad",
                         children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                            children: "pol\xedtica de calidad"
+                            children: "Pol\xedtica de calidad"
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        target: "_blank",
+                        title: "Canal \xe9tico",
+                        href: "https://otsugroupcorporate-canaletico.appcore.es/",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                            children: "Canal \xe9tico"
                         })
                     })
                 ]

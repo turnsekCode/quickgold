@@ -64,11 +64,19 @@ const FooterMobil = () => {
           </a>
         </div>
         <a title="política de privacidad" href="/politica-de-privacidad">
-          <p>política de privacidad</p>
+          <p>Política de privacidad</p>
         </a>
         <br></br>
         <a title="política de calidad" href="/politica-de-calidad">
-          <p>política de calidad</p>
+          <p>Política de calidad</p>
+        </a>
+        <br></br>
+        <a
+          target="_blank"
+          title="Canal ético"
+          href="https://otsugroupcorporate-canaletico.appcore.es/"
+        >
+          <p>Canal ético</p>
         </a>
         {/*<p>dossier Franquicia</p>*/}
       </div>

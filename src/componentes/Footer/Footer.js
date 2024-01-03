@@ -169,6 +169,13 @@ const Footer = () => {
               política de calidad
             </p>
           </a>
+          <a
+            target="_blank"
+            title="Canal ético"
+            href="https://otsugroupcorporate-canaletico.appcore.es/"
+          >
+            <p>Canal ético</p>
+          </a>
         </div>
         <hr className={styles.linea} />
         <p className={styles.registro}>
