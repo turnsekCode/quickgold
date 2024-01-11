@@ -39,7 +39,7 @@ export default function Plazadeespana2locala8({
       {
         "@type": "ListItem",
         position: 3,
-        name: ciudad?.acf?.ciudad_landing,
+        name: ciudad?.acf?.info_grupo?.ciudad_landing,
         item: "https://quickgold.es/cambio-divisas/alcala-de-henares",
       },
     ],
@@ -69,7 +69,7 @@ export default function Plazadeespana2locala8({
       bestRating: 5,
     },
     priceRange: "$",
-    image: `/assets/img/${ciudad?.acf?.tienda}.jpg`,
+    image: `/assets/img/${ciudad?.acf?.info_grupo?.tienda}.jpg`,
     telephone: tiendaGoogle?.result?.formatted_phone_number,
     address: {
       "@type": "PostalAddress",
@@ -81,16 +81,16 @@ export default function Plazadeespana2locala8({
   return (
     <>
       <SEO
-        title={ciudad?.acf?.titulo_del_meta}
-        description={ciudad?.acf?.descripcion_del_meta}
+        title={ciudad?.acf?.divisa_grupo?.title_meta_divisa}
+        description={ciudad?.acf?.divisa_grupo?.description_meta_divisa}
         icon="/favicon.png"
         facebook={{
-          image: `/assets/img/${ciudad?.acf?.tienda}.jpg`,
+          image: `/assets/img/${ciudad?.acf?.info_grupo?.tienda}.jpg`,
           url: "https://www.facebook.com/quickgold.es/",
           type: "article",
         }}
         twitter={{
-          image: `/assets/img/${ciudad?.acf?.tienda}.jpg`,
+          image: `/assets/img/${ciudad?.acf?.info_grupo?.tienda}.jpg`,
           site: "@quickgoldQG",
           card: "summary_large_image",
         }}
@@ -108,12 +108,12 @@ export default function Plazadeespana2locala8({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumb) }}
         ></script>
-        {ciudad?.acf?.nonscript_chat}
+        {ciudad?.acf?.info_grupo?.nonscript_chat}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href={ciudad?.acf?.canonical} />
       </Head>
       <Script id="livechat" property="lazyOnload">
-        {ciudad?.acf?.script_chat}
+        {ciudad?.acf?.info_grupo?.script_chat}
       </Script>
       <Layout menu_list={menu_list} ciudad={ciudad}>
         <div className={styles.main}>
@@ -121,7 +121,7 @@ export default function Plazadeespana2locala8({
             raiz="Quickgold"
             tiendas="Cambio Divisa"
             urlNombreServicio="/cambio-divisas"
-            ubicacionActual={ciudad?.acf?.nombre_tienda}
+            ubicacionActual={ciudad?.acf?.info_grupo?.nombre_tienda}
             iconoRaiz={<KeyboardArrowRightIcon />}
             iconoTiendas={<KeyboardArrowRightIcon />}
           />
@@ -144,7 +144,7 @@ export default function Plazadeespana2locala8({
           </div>
         </div>
 
-        {ciudad?.acf?.tienda === "" ? (
+        {ciudad?.acf?.info_grupo?.tienda === "" ? (
           <BotonLamarFijo ciudad={ciudad} />
         ) : (
           <BotonesLlamar ciudad={ciudad} />
@@ -173,7 +173,7 @@ export async function getStaticProps() {
   );
   const general = await general1.json();
   //fin general para imagenes o promociones banner
-  const tienda = ciudad?.acf?.tienda;
+  const tienda = ciudad?.acf?.info_grupo?.tienda;
   const menu = await fetch(
     `https://panel.quickgold.es/wp-json/menus/v1/menus/2219`
   );

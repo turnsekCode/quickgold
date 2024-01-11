@@ -279,7 +279,7 @@ const SeccionUno = ({ ciudad , tiendaGoogle  })=>{
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
                 className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3___default().bloqueDer),
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                    children: ciudad?.acf?.titulo_del_h1
+                    children: ciudad?.acf?.divisa_grupo?.title_h1_grupo
                 })
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
@@ -319,7 +319,7 @@ const SeccionUno = ({ ciudad , tiendaGoogle  })=>{
                                                     className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3___default().numero_reviews),
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                            href: ciudad?.acf?.enlace_resenas,
+                                                            href: ciudad?.acf?.info_grupo?.enlace_resenas,
                                                             target: "_blank",
                                                             children: "Ver rese\xf1as"
                                                         })
@@ -344,7 +344,7 @@ const SeccionUno = ({ ciudad , tiendaGoogle  })=>{
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                             className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_3___default().verResenas),
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                href: ciudad?.acf?.escribir_resenas_landings,
+                                href: ciudad?.acf?.info_grupo?.escribir_resenas_landings,
                                 target: "_blank",
                                 children: "D\xe9janos tu opinion"
                             })
@@ -484,7 +484,7 @@ function Plazadeespana2locala8({ menu_list , ciudad , tiendaGoogle , general  })
             {
                 "@type": "ListItem",
                 position: 3,
-                name: ciudad?.acf?.ciudad_landing,
+                name: ciudad?.acf?.info_grupo?.ciudad_landing,
                 item: "https://quickgold.es/cambio-divisas/alcala-de-henares"
             }
         ]
@@ -514,7 +514,7 @@ function Plazadeespana2locala8({ menu_list , ciudad , tiendaGoogle , general  })
             bestRating: 5
         },
         priceRange: "$",
-        image: `/assets/img/${ciudad?.acf?.tienda}.jpg`,
+        image: `/assets/img/${ciudad?.acf?.info_grupo?.tienda}.jpg`,
         telephone: tiendaGoogle?.result?.formatted_phone_number,
         address: {
             "@type": "PostalAddress",
@@ -526,16 +526,16 @@ function Plazadeespana2locala8({ menu_list , ciudad , tiendaGoogle , general  })
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_2___default()), {
-                title: ciudad?.acf?.titulo_del_meta,
-                description: ciudad?.acf?.descripcion_del_meta,
+                title: ciudad?.acf?.divisa_grupo?.title_meta_divisa,
+                description: ciudad?.acf?.divisa_grupo?.description_meta_divisa,
                 icon: "/favicon.png",
                 facebook: {
-                    image: `/assets/img/${ciudad?.acf?.tienda}.jpg`,
+                    image: `/assets/img/${ciudad?.acf?.info_grupo?.tienda}.jpg`,
                     url: "https://www.facebook.com/quickgold.es/",
                     type: "article"
                 },
                 twitter: {
-                    image: `/assets/img/${ciudad?.acf?.tienda}.jpg`,
+                    image: `/assets/img/${ciudad?.acf?.info_grupo?.tienda}.jpg`,
                     site: "@quickgoldQG",
                     card: "summary_large_image"
                 }
@@ -560,7 +560,7 @@ function Plazadeespana2locala8({ menu_list , ciudad , tiendaGoogle , general  })
                             __html: JSON.stringify(breadCrumb)
                         }
                     }),
-                    ciudad?.acf?.nonscript_chat,
+                    ciudad?.acf?.info_grupo?.nonscript_chat,
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         name: "viewport",
                         content: "width=device-width, initial-scale=1"
@@ -574,7 +574,7 @@ function Plazadeespana2locala8({ menu_list , ciudad , tiendaGoogle , general  })
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_script_js__WEBPACK_IMPORTED_MODULE_12___default()), {
                 id: "livechat",
                 property: "lazyOnload",
-                children: ciudad?.acf?.script_chat
+                children: ciudad?.acf?.info_grupo?.script_chat
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_componentes_Layout_Layout__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
                 menu_list: menu_list,
@@ -587,7 +587,7 @@ function Plazadeespana2locala8({ menu_list , ciudad , tiendaGoogle , general  })
                                 raiz: "Quickgold",
                                 tiendas: "Cambio Divisa",
                                 urlNombreServicio: "/cambio-divisas",
-                                ubicacionActual: ciudad?.acf?.nombre_tienda,
+                                ubicacionActual: ciudad?.acf?.info_grupo?.nombre_tienda,
                                 iconoRaiz: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_11___default()), {}),
                                 iconoTiendas: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_11___default()), {})
                             }),
@@ -618,7 +618,7 @@ function Plazadeespana2locala8({ menu_list , ciudad , tiendaGoogle , general  })
                             })
                         ]
                     }),
-                    ciudad?.acf?.tienda === "" ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BotonLlamarFijo_BotonLamarFijo__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
+                    ciudad?.acf?.info_grupo?.tienda === "" ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BotonLlamarFijo_BotonLamarFijo__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
                         ciudad: ciudad
                     }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BotonesLlamarWT_BotonesLlamar__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
                         ciudad: ciudad
@@ -643,7 +643,7 @@ async function getStaticProps() {
     const general1 = await fetch(`https://panel.quickgold.es/wp-json/acf/v3/pages/${apiGeneral}`);
     const general = await general1.json();
     //fin general para imagenes o promociones banner
-    const tienda = ciudad?.acf?.tienda;
+    const tienda = ciudad?.acf?.info_grupo?.tienda;
     const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
     const menu_list = await menu.json();
     //datos de google

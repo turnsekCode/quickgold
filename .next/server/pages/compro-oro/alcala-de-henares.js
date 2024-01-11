@@ -662,7 +662,7 @@ async function getStaticProps() {
     const general1 = await fetch(`https://panel.quickgold.es/wp-json/acf/v3/pages/${apiGeneral}`);
     const general = await general1.json();
     //fin general para imagenes o promociones banner
-    const tienda = ciudad?.acf?.tienda;
+    const tienda = ciudad?.acf?.info_grupo?.tienda;
     const menu = await fetch(`https://panel.quickgold.es/wp-json/menus/v1/menus/2219`);
     const menu_list = await menu.json();
     //datos de google
