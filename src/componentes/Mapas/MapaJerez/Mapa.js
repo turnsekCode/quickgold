@@ -163,7 +163,7 @@ export default function MapaJerez({ jerez }) {
               resetMap();
             }}
           >
-            Reset Map
+            Resetear mapa
           </button>
           {marcador?.map((marker) => (
             <Marker

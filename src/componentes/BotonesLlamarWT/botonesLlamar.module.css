@@ -41,7 +41,7 @@
     gap: 10px;
     z-index: 90;
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorBotones {
         display: none;
     }

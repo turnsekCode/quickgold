@@ -160,7 +160,7 @@ export default function MapaVigo({ vigo }) {
               resetMap();
             }}
           >
-            Reset Map
+            Resetear mapa
           </button>
           {marcador?.map((marker) => (
             <Marker

@@ -50,7 +50,7 @@
     justify-content: center;
 }
 
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorSectionTres {
             background-image: url(/assets/img/imagenBackgroundSectionTres.png);
             height: 346px;

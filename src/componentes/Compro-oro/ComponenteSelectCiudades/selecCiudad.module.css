@@ -192,7 +192,7 @@
     font-family: 'Gotham Bold';
 }
 
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .bloqueDer {
             width: 480px;
             background: #0F2D45;

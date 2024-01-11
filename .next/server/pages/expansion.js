@@ -181,7 +181,8 @@ module.exports = {
 	"contenedorMapaVisible": "Home_contenedorMapaVisible__piXgh",
 	"contenedorSeccionUnoDos": "Home_contenedorSeccionUnoDos__pegsP",
 	"contenedorMapaVisibleCasaCambio": "Home_contenedorMapaVisibleCasaCambio__A5Ti8",
-	"contenedorBannerVisible": "Home_contenedorBannerVisible__opy6k"
+	"contenedorBannerVisible": "Home_contenedorBannerVisible__opy6k",
+	"contenedorSecciones": "Home_contenedorSecciones__bMVep"
 };
 
 

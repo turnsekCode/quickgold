@@ -140,7 +140,7 @@ const MapaCiudades = ({ markers, ciudad }) => {
             {...viewState}
             onMove={(evt) => setViewState(evt.viewState)}
             className={styles.mapa}
-            mapStyle="mapbox://styles/mapbox/streets-v9?optimize=true"
+            mapStyle="mapbox://styles/mapbox/streets-v12?optimize=true"
             mapboxAccessToken={process.env.NEXT_PUBLIC_MAPA}
           >
             <FullscreenControl /> <GeolocateControl /> <NavigationControl />
@@ -150,7 +150,7 @@ const MapaCiudades = ({ markers, ciudad }) => {
                 resetMap();
               }}
             >
-              Reset Map
+              Resetear mapa
             </button>
             {marcador.map((marker) => (
               <Marker

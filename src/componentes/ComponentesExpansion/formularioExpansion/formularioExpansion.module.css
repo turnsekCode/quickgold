@@ -231,7 +231,7 @@
     font-weight: 400;
     line-height: normal;
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorMain {
         background-image: url(https://quickgold.es/fondoCombinado.png), url(https://quickgold.es/fondoCeleste.png);
         background-size: cover;

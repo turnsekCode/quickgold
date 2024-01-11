@@ -66,7 +66,7 @@ const ResenasGoogle = ({ tiendaGoogle, ciudad }) => {
         ) : null;
       })}
       <div className={styles.botonVerMas}>
-        <a target="_blank" href={ciudad?.acf?.enlace_resenas}>
+        <a target="_blank" href={ciudad?.acf?.info_grupo?.enlace_resenas}>
           VER MÁS
         </a>
       </div>

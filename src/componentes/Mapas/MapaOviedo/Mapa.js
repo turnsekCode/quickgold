@@ -163,7 +163,7 @@ export default function MapaOviedo({ oviedo }) {
               resetMap();
             }}
           >
-            Reset Map
+            Resetear mapa
           </button>
           {marcador?.map((marker) => (
             <Marker

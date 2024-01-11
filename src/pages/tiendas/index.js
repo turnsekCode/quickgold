@@ -72,6 +72,7 @@ export default function MapaTiendas({
   valladolid,
   vigo,
   zaragoza,
+  general,
 }) {
   return (
     <>
@@ -106,7 +107,7 @@ export default function MapaTiendas({
       <Layout menu_list={menu_list}>
         <div className={styles.main}>
           <Breadcrumbs />
-          <Section_uno />
+          <Section_uno general={general} />
           <Section_dos
             alcaladehenares={alcaladehenares}
             alcobendas={alcobendas}
@@ -191,6 +192,7 @@ const idValencia = "valencia";
 const idValladolid = "valladolid";
 const idVigo = "vigo";
 const idZaragoza = "zaragoza";
+const apiGeneral = "13848";
 export async function getStaticProps() {
   const Listado = await fetch(
     `https://panel.quickgold.es/listadoCiudades.json`
@@ -348,6 +350,10 @@ export async function getStaticProps() {
   );
   const zaragoza = await zaragoza_.json();
   // Pass data to the page via props
+  const general1 = await fetch(
+    `https://panel.quickgold.es/wp-json/acf/v3/pages/${apiGeneral}`
+  );
+  const general = await general1.json();
   return {
     props: {
       menu_list,
@@ -390,6 +396,7 @@ export async function getStaticProps() {
       valladolid,
       vigo,
       zaragoza,
+      general,
     },
     revalidate: 1,
   };

@@ -15,7 +15,7 @@
     border-radius: 8px;
   }
 
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorBannerUno {
         width: 1060px;
         height: 160px;

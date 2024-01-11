@@ -166,7 +166,7 @@ export default function MapaSantiago({ santiagodecompostela }) {
               resetMap();
             }}
           >
-            Reset Map
+            Resetear mapa
           </button>
           {marcador?.map((marker) => (
             <Marker

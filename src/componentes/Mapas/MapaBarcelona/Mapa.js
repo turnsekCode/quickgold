@@ -164,7 +164,7 @@ export default function MapaBarcelona({ barcelona }) {
               resetMap();
             }}
           >
-            Reset Map
+            Resetear mapa
           </button>
           {marcador?.map((marker) => (
             <Marker

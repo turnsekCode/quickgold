@@ -36,7 +36,7 @@
     font-weight: 700;
 }
 
-@media (min-width: 610px) {
+@media (min-width: 821px) {
 .contenedorBloqueSuperior {
         display: flex;
         flex-direction: column;

@@ -166,7 +166,7 @@ export default function MapaSantaCruzDeTenerife({ santacruzdetenerife }) {
               resetMap();
             }}
           >
-            Reset Map
+            Resetear mapa
           </button>
           {marcador?.map((marker) => (
             <Marker

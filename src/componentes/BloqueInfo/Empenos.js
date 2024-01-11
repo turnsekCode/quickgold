@@ -23,7 +23,7 @@ export default function Empenos({ ciudad }) {
   const primerMes = ciudad?.acf?.primer_mes;
   const tasacion = ciudad?.acf?.tasacion;
   const intereStandar = ciudad?.acf?.interes_standard;
-  const costeTasacion = ciudad.acf.coste_de_tasacion;
+  const costeTasacion = ciudad?.acf?.coste_de_tasacion;
   const telefono = ciudad?.acf?.telefono;
   const precio = 100;
   const percibes = precio - costeTasacion;

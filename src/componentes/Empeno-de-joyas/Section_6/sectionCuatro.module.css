@@ -1,5 +1,5 @@
 .contenedorSectionCuatro{
-    width: 370px;
+    width: 100%;
     margin: 15px auto;
     border-radius: 8px;
     background: transparent;
@@ -236,7 +236,7 @@
     top: calc(50% - 1px);
 }
 
-@media (min-width: 610px) {
+@media (min-width: 821px) {
 .contenedorSectionCuatro {
         width: 100%;
         margin: 0 auto;

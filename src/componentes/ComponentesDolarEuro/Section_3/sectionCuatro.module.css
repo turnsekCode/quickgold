@@ -55,7 +55,7 @@ width: 100%;
     left: 2px;
     top: calc(50% - 1px);
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorSectionCuatro{   
         background: rgba(227, 231, 240, 0.47);
         padding: 60px 0;

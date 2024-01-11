@@ -64,7 +64,7 @@
     width: 100%;
     height: auto;
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorSectionTres {
         max-width: 1060px;
         margin: 0 auto;

@@ -79,7 +79,7 @@
 }
 
 
-@media (min-width: 610px) {
+@media (min-width: 821px) {
 .contenedorSectionDos {
         display: flex;
         flex-direction: column;

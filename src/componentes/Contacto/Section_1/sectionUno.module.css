@@ -54,7 +54,7 @@
 .cuadroIzq p a, .cuadroDer p a {
     color: #E83C82;
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
 .contenedorBloqueSuperior {
         padding: 30px 230px;
     }

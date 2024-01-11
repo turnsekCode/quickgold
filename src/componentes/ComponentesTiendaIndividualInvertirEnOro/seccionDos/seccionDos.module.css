@@ -1,0 +1,47 @@
+.contenedorSeccionDos{
+    width:100%;
+    margin: 0 auto 35px;
+    border-radius: 8px;
+    background: #0F2D45;
+    width: 90%;
+    height: auto;
+    padding: 20px 20px;
+
+}
+.contenedorSeccionDosH2 {
+    color: #FFF;
+    font-family: "Gotham Black";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.subTituloServicio{
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 15px;
+    color: #fff;
+}
+
+@media (min-width: 821px) {
+.contenedorSeccionDos {
+    width: 480px;
+    margin: 0;
+    height: 650px;
+    }
+    .contenedorSeccionDosH2 {
+        color: #FFF;
+        font-family: "Gotham Black";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .subTituloServicio {
+        font-weight: 100;
+        font-size: 13px;
+        line-height: 15px;
+        color: #fff;
+    }
+}

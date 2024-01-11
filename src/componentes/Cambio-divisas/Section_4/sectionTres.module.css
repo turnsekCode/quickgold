@@ -129,7 +129,7 @@ font-weight: 700;
     text-align: center;
     color: #FFFFFF;
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorSectionTres h2 {
         font-weight: 700;
         font-size: 30px;

@@ -225,7 +225,7 @@
     top: 0;
     bottom: 0;
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorMain {
         background-image: url(https://quickgold.es/fondoCombinado.png), url(https://quickgold.es/fondoCeleste.png);
         background-size: cover;

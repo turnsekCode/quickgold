@@ -12,12 +12,7 @@ import Section_cinco from "@/componentes/trabaja-con-nosotros/section_5/Section_
 
 //import { ChakraProvider } from "@chakra-ui/react";
 
-export default function TrabajaConNosotros({
-  markers,
-  menu_list,
-  ciudad,
-  general,
-}) {
+export default function TrabajaConNosotros({ menu_list, ciudad, general }) {
   return (
     <>
       <SEO

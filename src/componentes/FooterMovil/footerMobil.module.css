@@ -46,9 +46,10 @@
     cursor: pointer;
 }
 .ul {
-    opacity: 0;
+
     padding: 0 10px;
     height: 0;
+    display: none;
     transition: height 0.3s;
     transition-delay: opacity 0.5s;
 }
@@ -63,7 +64,7 @@
     height: 205px;
 }
 .menuActivo1 {
-    opacity: 1;
+    display: block;
     transition: 0.2s;
 }
 .textoFooter {
@@ -73,7 +74,7 @@
     color: #FFFFFF;
     margin-top: 15px;
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .footer {
         display: none;
     }

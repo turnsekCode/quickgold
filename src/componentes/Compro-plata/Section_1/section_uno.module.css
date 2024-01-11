@@ -88,7 +88,7 @@
     width: 108%;
     height: auto;
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorSectionUno {
         display: flex;
         flex-direction: row;

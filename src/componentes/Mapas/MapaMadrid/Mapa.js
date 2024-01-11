@@ -153,7 +153,7 @@ export default function MapaMadrid({ madrid }) {
           {...viewState}
           onMove={(evt) => setViewState(evt.viewState)}
           className={styles.mapa}
-          mapStyle="mapbox://styles/mapbox/streets-v9?optimize=true"
+          mapStyle="mapbox://styles/mapbox/streets-v12"
           mapboxAccessToken={process.env.NEXT_PUBLIC_MAPA}
         >
           <FullscreenControl /> <GeolocateControl /> <NavigationControl />
@@ -163,7 +163,7 @@ export default function MapaMadrid({ madrid }) {
               resetMap();
             }}
           >
-            Reset Map
+            Resetear mapa
           </button>
           {marcador?.map((marker) => (
             <Marker

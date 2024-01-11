@@ -1,7 +1,7 @@
 .contenedorFooter{
     display: none;
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorFooter {
         background: #0F2D45;
         height: 455px;

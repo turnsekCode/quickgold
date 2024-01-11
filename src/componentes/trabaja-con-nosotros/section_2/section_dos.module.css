@@ -23,7 +23,7 @@
     line-height: 20px;
 }
 
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorSectionDosMargen {
         max-width: 1060px;
         margin: 0 auto;

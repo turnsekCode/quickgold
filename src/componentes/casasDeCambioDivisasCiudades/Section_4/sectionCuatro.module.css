@@ -25,7 +25,7 @@ width: 100%;
     text-align: justify;
     margin-bottom: 30px;
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorSectionCuatro {
         display: flex;
         padding: 0;

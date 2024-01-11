@@ -3,6 +3,7 @@ import styles from "./conversor.module.css";
 
 const CalculadoraOro = ({ ciudad }) => {
   const nombreCiudad = ciudad?.acf?.ciudad_oro;
+  //console.log(nombreCiudad);
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(null);
   useEffect(() => {
@@ -170,7 +171,7 @@ const CalculadoraOro = ({ ciudad }) => {
       </div>
       <p className={styles.promocion}>Promoción Online</p>
       <a
-        title={`Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`}
+        title={`Llamar a Quickgold ${ciudad?.ciudad_landing}`}
         className={styles.botonLlamarTienda}
         href={`tel:${ciudad?.acf?.telefono}`}
       >

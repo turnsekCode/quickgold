@@ -68,7 +68,7 @@
     line-height: 20px;
     margin-bottom: 20px;
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorSectionTresMargen {
         max-width: 1060px;
         margin: 0 auto;

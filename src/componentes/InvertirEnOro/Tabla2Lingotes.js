@@ -175,23 +175,33 @@ const Tabla2Lingotes = ({ ciudad }) => {
     },
   ];
   return (
-    <div className={styles.contenedorAmbosTablaLingotes}>
-      <div className={styles.contenedorTablas}>
-        {arrayLingotes.map((lingote, index) => (
-          <div key={index} className={styles.contendorDatos}>
-            <div className={styles.nombrePrecio}>
-              <p>{lingote.nombreLingote}</p>
-              <p>{lingote.precioLingote}€</p>
+    <>
+      <div className={styles.contenedorAmbosTablaLingotes}>
+        <div className={styles.contenedorTablas}>
+          {arrayLingotes.map((lingote, index) => (
+            <div key={index} className={styles.contendorDatos}>
+              <div className={styles.nombrePrecio}>
+                <p>{lingote.nombreLingote}</p>
+                <p>{lingote.precioLingote}€</p>
+              </div>
+              <p className={styles.oroFino}>Oro fino 999,9</p>
+              <p className={styles.medidaBlister}>
+                <strong>Medidas del blister:</strong> {lingote.medidaBlister}
+              </p>
+              <span className={styles.separador}></span>
             </div>
-            <p className={styles.oroFino}>Oro fino 999,9</p>
-            <p className={styles.medidaBlister}>
-              <strong>Medidas del blister:</strong> {lingote.medidaBlister}
-            </p>
-            <span className={styles.separador}></span>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
+      <div className={styles.contenedorBotonLlamar}>
+        <a
+          className={styles.botonLlamarTienda}
+          href={`tel:${ciudad.acf.telefono}`}
+        >
+          LLAMA GRATIS
+        </a>
+      </div>
+    </>
   );
 };
 

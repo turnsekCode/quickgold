@@ -108,7 +108,7 @@
     line-height: 20px;
     color: #FFFFFF;
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorSectionSeis {
             background: #036F9A;
         }

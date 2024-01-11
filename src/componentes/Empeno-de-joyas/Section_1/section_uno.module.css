@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 35px;
+    margin-top: 50px;
     padding: 0 20px;
 }
 .linea {
@@ -89,7 +89,7 @@
     height: 382px;
 }
 
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorSectionUno {
         display: flex;
         flex-direction: row;

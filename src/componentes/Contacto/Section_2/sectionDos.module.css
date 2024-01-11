@@ -96,7 +96,7 @@
     border-right: 1px solid #D9D9D9;
 }
 
-@media (min-width: 610px) {
+@media (min-width: 821px) {
 .contenedorBuscador {
         display: flex;
         flex-direction: column;

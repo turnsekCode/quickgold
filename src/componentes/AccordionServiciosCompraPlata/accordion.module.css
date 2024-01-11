@@ -40,7 +40,7 @@
 .textoMenos {
     font-family: 'Gotham Thin';
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorAccordion {
             border-radius: 12px;
             background: #0F2D45;

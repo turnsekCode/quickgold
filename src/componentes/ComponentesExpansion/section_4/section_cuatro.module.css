@@ -51,7 +51,7 @@
     height: auto;
 }
 
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorSectionCuatro {
         max-width: 1060px;
         margin: 0px auto 50px;

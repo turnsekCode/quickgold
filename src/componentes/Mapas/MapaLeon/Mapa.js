@@ -160,7 +160,7 @@ export default function MapaLeon({ leon }) {
               resetMap();
             }}
           >
-            Reset Map
+            Resetear mapa
           </button>
           {marcador?.map((marker) => (
             <Marker

@@ -3,7 +3,7 @@ import RadioButtonCheckedIcon from "@mui/icons-material/RadioButtonChecked";
 import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
 import styles from "../../Mapas/mapa.module.css";
 import CallIcon from "@mui/icons-material/Call";
-import { Link } from "react-scroll";
+import { Link as LinkMapa } from "react-scroll";
 import Map, {
   FullscreenControl,
   GeolocateControl,
@@ -11,6 +11,7 @@ import Map, {
   NavigationControl,
   Popup,
 } from "react-map-gl";
+import Link from "next/link";
 /*const DynamicBloqueTiendas = dynamic(() =>
   import("../BloqueTiendas/BloqueTiendas")
 );*/
@@ -93,7 +94,7 @@ export default function MapaAlcaladehenares({ alcaladehenares }) {
                   : ` ${styles.contenedorInfoTiendaMapa}`
               }
             >
-              <Link
+              <LinkMapa
                 onClick={() => {
                   toggleTab();
                   onSelectMarker(marker);
@@ -110,8 +111,8 @@ export default function MapaAlcaladehenares({ alcaladehenares }) {
                   <RadioButtonUncheckedIcon />
                 )}
                 <h3>{marker.nombreTienda}</h3>
-              </Link>
-              <Link
+              </LinkMapa>
+              <LinkMapa
                 onClick={() => {
                   toggleTab();
                   onSelectMarker(marker);
@@ -140,7 +141,7 @@ export default function MapaAlcaladehenares({ alcaladehenares }) {
                     Ver Más
                   </Link>*/}
                 </div>
-              </Link>
+              </LinkMapa>
             </div>
           ))}
         </div>
@@ -153,7 +154,7 @@ export default function MapaAlcaladehenares({ alcaladehenares }) {
           {...viewState}
           onMove={(evt) => setViewState(evt.viewState)}
           className={styles.mapa}
-          mapStyle="mapbox://styles/mapbox/streets-v9?optimize=true"
+          mapStyle="mapbox://styles/mapbox/streets-v12"
           mapboxAccessToken={process.env.NEXT_PUBLIC_MAPA}
         >
           <FullscreenControl /> <GeolocateControl /> <NavigationControl />
@@ -163,7 +164,7 @@ export default function MapaAlcaladehenares({ alcaladehenares }) {
               resetMap();
             }}
           >
-            Reset Map
+            Resetear mapa
           </button>
           {marcador?.map((marker) => (
             <Marker
@@ -198,41 +199,69 @@ export default function MapaAlcaladehenares({ alcaladehenares }) {
                     >
                       {showInfo.direccion}
                     </a>
-                    <a
-                      href={`tel:${showInfo.telefono}`}
-                      className={styles.telefono_popup}
-                      title="Teléfono"
-                    >
-                      <span>
-                        <CallIcon></CallIcon>
-                      </span>
-                      {showInfo.telefono}
-                    </a>
-
-                    <a
-                      title="Cómo llegar"
-                      href={showInfo.comoLlegar}
-                      rel="noreferrer"
-                      className={styles.boton_como_llegar}
-                    >
-                      Cómo llegar
-                    </a>
-                    <a
-                      title="Llamar"
-                      href={`tel:${showInfo?.telefono}`}
-                      rel="noreferrer"
-                      className={styles.boton_como_llegar}
-                    >
-                      Llamar
-                    </a>
-                    <a
+                    <div className={styles.contenedorBotones}>
+                      <a
+                        href={`tel:${showInfo.telefono}`}
+                        className={styles.telefono_popup}
+                        title="Teléfono"
+                      >
+                        <span>
+                          <CallIcon></CallIcon>
+                        </span>
+                        {showInfo.telefono}
+                      </a>
+                      <a
+                        title="Llamar"
+                        href={`tel:${showInfo?.telefono}`}
+                        rel="noreferrer"
+                        className={styles.boton_como_llegar}
+                      >
+                        Llamar
+                      </a>
+                      <a
+                        title="Cómo llegar"
+                        href={showInfo.comoLlegar}
+                        rel="noreferrer"
+                        className={styles.boton_como_llegar}
+                      >
+                        Cómo llegar
+                      </a>
+                    </div>
+                    <div className={styles.contenedorBotonesServicios}>
+                      <Link
+                        title="Llamar"
+                        href="/compro-oro/alcala-de-henares"
+                        rel="noreferrer"
+                        className={styles.boton_servicios}
+                      >
+                        {" "}
+                        Precio oro
+                      </Link>
+                      <Link
+                        title="Llamar"
+                        href="/cambio-divisas/alcala-de-henares"
+                        rel="noreferrer"
+                        className={styles.boton_servicios}
+                      >
+                        Precio divisa
+                      </Link>
+                      <Link
+                        title="Cómo llegar"
+                        href="/empeno-de-joyas/alcala-de-henares"
+                        rel="noreferrer"
+                        className={styles.boton_servicios}
+                      >
+                        Empeños
+                      </Link>
+                    </div>
+                    {/* <a
                       title="Sitio Web"
                       href={showInfo.url}
                       rel="noreferrer"
                       className={styles.boton_como_llegar}
                     >
                       Web
-                    </a>
+              </a>*/}
                   </div>
                 </Popup>
               ) : null}

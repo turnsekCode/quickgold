@@ -1481,7 +1481,7 @@ const MapaCiudades = ({ markers , ciudad  })=>{
                     ...viewState,
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (_mapaCiudades_module_css__WEBPACK_IMPORTED_MODULE_7___default().mapa),
-                    mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
+                    mapStyle: "mapbox://styles/mapbox/streets-v12?optimize=true",
                     mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_map_gl__WEBPACK_IMPORTED_MODULE_4__.FullscreenControl, {}),
@@ -1494,7 +1494,7 @@ const MapaCiudades = ({ markers , ciudad  })=>{
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador.map((marker)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_map_gl__WEBPACK_IMPORTED_MODULE_4__.Marker, {
                                 longitude: marker.longitude,

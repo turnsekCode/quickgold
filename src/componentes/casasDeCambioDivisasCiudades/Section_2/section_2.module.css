@@ -83,7 +83,7 @@
     font-style: normal;
     line-height: 20px;
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorSectionDos {
         margin-top: 80px;
         display: flex;

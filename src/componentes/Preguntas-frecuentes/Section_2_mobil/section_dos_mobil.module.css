@@ -11,7 +11,7 @@
     margin-bottom: 30px;
 }
 
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorSectionDosMobil{
         display: none;
     }

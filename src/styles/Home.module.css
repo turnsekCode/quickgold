@@ -19,10 +19,14 @@
 .contenedorBannerVisible {
   height: 108px;
 }
-@media (min-width: 610px) {
+.contenedorSecciones{
+  display: flex;
+}
+@media (min-width: 819px) {
     .main {
         padding-top: 0px;
         margin: 0 auto;
+      
       }
      .contenedorMapaVisible {
        height: auto;

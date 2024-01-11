@@ -164,7 +164,7 @@ export default function MapaLaCoruna({ lacoruna }) {
               resetMap();
             }}
           >
-            Reset Map
+            Resetear mapa
           </button>
           {marcador?.map((marker) => (
             <Marker

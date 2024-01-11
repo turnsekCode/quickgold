@@ -50,7 +50,7 @@
     top: calc(50% - 1px);
 }
 
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorSectionTresMargen {
         max-width: 1024px;
         margin: 0 auto;

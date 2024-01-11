@@ -39,7 +39,7 @@
     color: #0F2D45;
     margin-bottom: 10px;
   }
-  @media (min-width: 610px) {
+  @media (min-width: 821px) {
   .linea {
     position: relative;
     display: inline-block;

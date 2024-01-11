@@ -95,7 +95,7 @@ font-weight: 700;
     width: 80%;
     font-family: 'Gotham Bold';
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorSectionTres {
         display: flex;
         justify-content: space-between;

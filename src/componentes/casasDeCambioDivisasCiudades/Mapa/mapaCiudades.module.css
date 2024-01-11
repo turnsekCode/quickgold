@@ -208,7 +208,7 @@ font-family: 'Gotham Book';
     margin-bottom: 8px;
     border-radius: 4px;
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
     .contenedorMapa {
             display: flex;
             margin-top: 60px;

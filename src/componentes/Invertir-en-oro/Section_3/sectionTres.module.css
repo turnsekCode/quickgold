@@ -72,7 +72,7 @@
     text-align: justify;
     color: #0F2D45;
 }
-@media (min-width: 610px) {
+@media (min-width: 821px) {
 .contenedorSectionCinco {
         max-width: 1060px;
         margin: 0 auto;

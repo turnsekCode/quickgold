@@ -63,8 +63,10 @@ module.exports = {
 	"direccion_popup": "mapa_direccion_popup__W2FzU",
 	"telefono_popup": "mapa_telefono_popup__j50th",
 	"boton_como_llegar": "mapa_boton_como_llegar__I_694",
+	"boton_servicios": "mapa_boton_servicios__OlRYT",
 	"contenedorInfoTiendaMapa": "mapa_contenedorInfoTiendaMapa__jCQ8I",
-	"contenedorInfoTiendaMapaActivo": "mapa_contenedorInfoTiendaMapaActivo__Yatjb"
+	"contenedorInfoTiendaMapaActivo": "mapa_contenedorInfoTiendaMapaActivo__Yatjb",
+	"contenedorBotones": "mapa_contenedorBotones__Gkvkl"
 };
 
 
@@ -79,7 +81,8 @@ module.exports = {
 	"contenedorMapaVisible": "Home_contenedorMapaVisible__piXgh",
 	"contenedorSeccionUnoDos": "Home_contenedorSeccionUnoDos__pegsP",
 	"contenedorMapaVisibleCasaCambio": "Home_contenedorMapaVisibleCasaCambio__A5Ti8",
-	"contenedorBannerVisible": "Home_contenedorBannerVisible__opy6k"
+	"contenedorBannerVisible": "Home_contenedorBannerVisible__opy6k",
+	"contenedorSecciones": "Home_contenedorSecciones__bMVep"
 };
 
 
@@ -147,7 +150,7 @@ var section_uno_module_default = /*#__PURE__*/__webpack_require__.n(section_uno_
 
 
 
-const Section_uno = ()=>{
+const Section_uno = ({ general  })=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("section", {
         className: (section_uno_module_default()).contenedorSectionUno,
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -160,9 +163,10 @@ const Section_uno = ()=>{
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                     className: (section_uno_module_default()).texto,
                     children: [
-                        "Actualmente contamos con un total de ",
+                        "Actualmente contamos con un total de",
+                        " ",
                         /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                            children: "63"
+                            children: general?.acf?.cantidades_de_tiendas
                         }),
                         " tiendas."
                     ]
@@ -354,7 +358,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -589,7 +593,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -823,7 +827,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -901,7 +905,11 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
     });
 }
 
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__(1664);
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 ;// CONCATENATED MODULE: ./src/componentes/Mapas/MapaAlcaladehenares/Mapa.js
+
 
 
 
@@ -1044,7 +1052,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     ...viewState,
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
-                    mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
+                    mapStyle: "mapbox://styles/mapbox/streets-v12",
                     mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
@@ -1057,7 +1065,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -1092,37 +1100,64 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                                                 className: (mapa_module_default()).direccion_popup,
                                                 children: showInfo.direccion
                                             }),
-                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                                href: `tel:${showInfo.telefono}`,
-                                                className: (mapa_module_default()).telefono_popup,
-                                                title: "Tel\xe9fono",
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                className: (mapa_module_default()).contenedorBotones,
                                                 children: [
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                        children: /*#__PURE__*/ jsx_runtime_.jsx((Call_default()), {})
+                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
+                                                        href: `tel:${showInfo.telefono}`,
+                                                        className: (mapa_module_default()).telefono_popup,
+                                                        title: "Tel\xe9fono",
+                                                        children: [
+                                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                                children: /*#__PURE__*/ jsx_runtime_.jsx((Call_default()), {})
+                                                            }),
+                                                            showInfo.telefono
+                                                        ]
                                                     }),
-                                                    showInfo.telefono
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                        title: "Llamar",
+                                                        href: `tel:${showInfo?.telefono}`,
+                                                        rel: "noreferrer",
+                                                        className: (mapa_module_default()).boton_como_llegar,
+                                                        children: "Llamar"
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                        title: "C\xf3mo llegar",
+                                                        href: showInfo.comoLlegar,
+                                                        rel: "noreferrer",
+                                                        className: (mapa_module_default()).boton_como_llegar,
+                                                        children: "C\xf3mo llegar"
+                                                    })
                                                 ]
                                             }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                title: "C\xf3mo llegar",
-                                                href: showInfo.comoLlegar,
-                                                rel: "noreferrer",
-                                                className: (mapa_module_default()).boton_como_llegar,
-                                                children: "C\xf3mo llegar"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                title: "Llamar",
-                                                href: `tel:${showInfo?.telefono}`,
-                                                rel: "noreferrer",
-                                                className: (mapa_module_default()).boton_como_llegar,
-                                                children: "Llamar"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                title: "Sitio Web",
-                                                href: showInfo.url,
-                                                rel: "noreferrer",
-                                                className: (mapa_module_default()).boton_como_llegar,
-                                                children: "Web"
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                className: (mapa_module_default()).contenedorBotonesServicios,
+                                                children: [
+                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
+                                                        title: "Llamar",
+                                                        href: "/compro-oro/alcala-de-henares",
+                                                        rel: "noreferrer",
+                                                        className: (mapa_module_default()).boton_servicios,
+                                                        children: [
+                                                            " ",
+                                                            "Precio oro"
+                                                        ]
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                                        title: "Llamar",
+                                                        href: "/cambio-divisas/alcala-de-henares",
+                                                        rel: "noreferrer",
+                                                        className: (mapa_module_default()).boton_servicios,
+                                                        children: "Precio divisa"
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                                        title: "C\xf3mo llegar",
+                                                        href: "/empeno-de-joyas/alcala-de-henares",
+                                                        rel: "noreferrer",
+                                                        className: (mapa_module_default()).boton_servicios,
+                                                        children: "Empe\xf1os"
+                                                    })
+                                                ]
                                             })
                                         ]
                                     })
@@ -1291,7 +1326,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -1525,7 +1560,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -1759,7 +1794,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -1993,7 +2028,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -2227,7 +2262,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -2461,7 +2496,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -2695,7 +2730,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -2929,7 +2964,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -3163,7 +3198,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -3397,7 +3432,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -3631,7 +3666,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -3865,7 +3900,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -4099,7 +4134,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -4333,7 +4368,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -4567,7 +4602,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -4801,7 +4836,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -5022,7 +5057,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     ...viewState,
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
-                    mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
+                    mapStyle: "mapbox://styles/mapbox/streets-v12",
                     mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
@@ -5035,7 +5070,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -5269,7 +5304,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -5503,7 +5538,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -5737,7 +5772,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -5971,7 +6006,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -6205,7 +6240,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -6439,7 +6474,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -6673,7 +6708,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -6907,7 +6942,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -7141,7 +7176,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -7375,7 +7410,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -7609,7 +7644,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -7843,7 +7878,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -8077,7 +8112,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -8311,7 +8346,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -8545,7 +8580,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -8779,7 +8814,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                             onClick: ()=>{
                                 resetMap();
                             },
-                            children: "Reset Map"
+                            children: "Resetear mapa"
                         }),
                         marcador?.map((marker)=>/*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.Marker, {
                                 longitude: marker.longitude,
@@ -9154,7 +9189,7 @@ const schema = {
         contactType: "info@quickgold.es"
     }
 };
-function MapaTiendas({ menu_list , ListadoCiudades , alcaladehenares , alcobendas , alcorcon , alicante , almeria , barcelona , benidorm , bilbao , cadiz , cartagena , castellon , cordoba , elche , getafe , gijon , granada , jerez , lacoruna , leon , logrono , madrid , malaga , marbella , murcia , oviedo , palma , reus , roquetasdemar , santacruzdetenerife , santander , santiagodecompostela , sevilla , tarragona , tenerife , valencia , valladolid , vigo , zaragoza  }) {
+function MapaTiendas({ menu_list , ListadoCiudades , alcaladehenares , alcobendas , alcorcon , alicante , almeria , barcelona , benidorm , bilbao , cadiz , cartagena , castellon , cordoba , elche , getafe , gijon , granada , jerez , lacoruna , leon , logrono , madrid , malaga , marbella , murcia , oviedo , palma , reus , roquetasdemar , santacruzdetenerife , santander , santiagodecompostela , sevilla , tarragona , tenerife , valencia , valladolid , vigo , zaragoza , general  }) {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx((next_seo_default()), {
@@ -9201,7 +9236,9 @@ function MapaTiendas({ menu_list , ListadoCiudades , alcaladehenares , alcobenda
                     className: (Home_module_default()).main,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(Breadcrumbs_Breadcrumbs, {}),
-                        /*#__PURE__*/ jsx_runtime_.jsx(Section_1_Section_uno, {}),
+                        /*#__PURE__*/ jsx_runtime_.jsx(Section_1_Section_uno, {
+                            general: general
+                        }),
                         /*#__PURE__*/ jsx_runtime_.jsx(Section_2_Section_dos, {
                             alcaladehenares: alcaladehenares,
                             alcobendas: alcobendas,
@@ -9287,6 +9324,7 @@ const idValencia = "valencia";
 const idValladolid = "valladolid";
 const idVigo = "vigo";
 const idZaragoza = "zaragoza";
+const apiGeneral = "13848";
 async function getStaticProps() {
     const Listado = await fetch(`https://panel.quickgold.es/listadoCiudades.json`);
     const ListadoCiudades = await Listado.json();
@@ -9370,6 +9408,8 @@ async function getStaticProps() {
     const zaragoza_ = await fetch(`https://panel.quickgold.es/markers${idZaragoza}.json`);
     const zaragoza = await zaragoza_.json();
     // Pass data to the page via props
+    const general1 = await fetch(`https://panel.quickgold.es/wp-json/acf/v3/pages/${apiGeneral}`);
+    const general = await general1.json();
     return {
         props: {
             menu_list,
@@ -9411,7 +9451,8 @@ async function getStaticProps() {
             valencia,
             valladolid,
             vigo,
-            zaragoza
+            zaragoza,
+            general
         },
         revalidate: 1
     };
@@ -9556,11 +9597,27 @@ module.exports = require("next/dist/shared/lib/amp-mode.js");
 
 /***/ }),
 
+/***/ 3280:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/app-router-context.js");
+
+/***/ }),
+
 /***/ 2796:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/head-manager-context.js");
+
+/***/ }),
+
+/***/ 4014:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/i18n/normalize-locale-path.js");
 
 /***/ }),
 
@@ -9596,11 +9653,179 @@ module.exports = require("next/dist/shared/lib/image-loader");
 
 /***/ }),
 
+/***/ 8524:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/is-plain-object.js");
+
+/***/ }),
+
+/***/ 8020:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/mitt.js");
+
+/***/ }),
+
+/***/ 4406:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/page-path/denormalize-page-path.js");
+
+/***/ }),
+
+/***/ 4964:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router-context.js");
+
+/***/ }),
+
+/***/ 1751:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix.js");
+
+/***/ }),
+
+/***/ 6220:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/compare-states.js");
+
+/***/ }),
+
+/***/ 299:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/format-next-pathname-info.js");
+
+/***/ }),
+
+/***/ 3938:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/format-url.js");
+
+/***/ }),
+
+/***/ 9565:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/get-asset-path-from-route.js");
+
+/***/ }),
+
+/***/ 5789:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/get-next-pathname-info.js");
+
+/***/ }),
+
+/***/ 1897:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-bot.js");
+
+/***/ }),
+
+/***/ 1428:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-dynamic.js");
+
+/***/ }),
+
+/***/ 8854:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/parse-path.js");
+
+/***/ }),
+
+/***/ 1292:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/parse-relative-url.js");
+
+/***/ }),
+
+/***/ 4567:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/path-has-prefix.js");
+
+/***/ }),
+
+/***/ 979:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/querystring.js");
+
+/***/ }),
+
+/***/ 3297:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slash.js");
+
+/***/ }),
+
+/***/ 6052:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/resolve-rewrites.js");
+
+/***/ }),
+
+/***/ 4226:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/route-matcher.js");
+
+/***/ }),
+
+/***/ 5052:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/route-regex.js");
+
+/***/ }),
+
 /***/ 2470:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/side-effect.js");
+
+/***/ }),
+
+/***/ 9232:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils.js");
 
 /***/ }),
 
@@ -9625,6 +9850,14 @@ module.exports = require("next/head");
 
 "use strict";
 module.exports = require("react");
+
+/***/ }),
+
+/***/ 6405:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-dom");
 
 /***/ }),
 
@@ -9667,7 +9900,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699], () => (__webpack_exec__(8415)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699], () => (__webpack_exec__(8415)));
 module.exports = __webpack_exports__;
 
 })();

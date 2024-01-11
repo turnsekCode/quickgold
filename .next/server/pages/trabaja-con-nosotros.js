@@ -114,7 +114,8 @@ module.exports = {
 	"contenedorMapaVisible": "Home_contenedorMapaVisible__piXgh",
 	"contenedorSeccionUnoDos": "Home_contenedorSeccionUnoDos__pegsP",
 	"contenedorMapaVisibleCasaCambio": "Home_contenedorMapaVisibleCasaCambio__A5Ti8",
-	"contenedorBannerVisible": "Home_contenedorBannerVisible__opy6k"
+	"contenedorBannerVisible": "Home_contenedorBannerVisible__opy6k",
+	"contenedorSecciones": "Home_contenedorSecciones__bMVep"
 };
 
 
@@ -939,7 +940,7 @@ _componentes_trabaja_con_nosotros_section_5_Section_cinco__WEBPACK_IMPORTED_MODU
 
 
 //import { ChakraProvider } from "@chakra-ui/react";
-function TrabajaConNosotros({ markers , menu_list , ciudad , general  }) {
+function TrabajaConNosotros({ menu_list , ciudad , general  }) {
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_3___default()), {
