@@ -268,7 +268,6 @@ __webpack_async_result__();
 
 //import FsLightbox from "fslightbox-react";
 const SeccionUno = ({ ciudad , tiendaGoogle  })=>{
-    console.log(ciudad);
     //const [toggler, setToggler] = useState(false);
     const tienda = tiendaGoogle?.result?.rating;
     if (tienda?.estrellas > 4.7) {

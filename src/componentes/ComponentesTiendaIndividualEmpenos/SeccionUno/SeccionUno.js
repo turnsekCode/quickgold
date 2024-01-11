@@ -5,7 +5,6 @@ import Image from "next/image";
 //import FsLightbox from "fslightbox-react";
 
 const SeccionUno = ({ ciudad, tiendaGoogle }) => {
-  console.log(ciudad);
   //const [toggler, setToggler] = useState(false);
   const tienda = tiendaGoogle?.result?.rating;
   if (tienda?.estrellas > 4.7) {

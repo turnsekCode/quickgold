@@ -29,7 +29,7 @@ const SeccionUno = ({ ciudad, tiendaGoogle }) => {
   return (
     <article className={styles.contenedorSeccionUno}>
       <section className={styles.bloqueDer}>
-        <h1>{ciudad?.acf?.titulo_del_h1}</h1>
+        <h1>{ciudad?.acf?.invertir_en_oro_grupo?.title_h1_invertir}</h1>
       </section>
       {/* <FsLightbox
         toggler={toggler}
@@ -61,7 +61,10 @@ const SeccionUno = ({ ciudad, tiendaGoogle }) => {
                 </span>
                 <div className={styles.numero_reviews}>
                   <span>
-                    <a href={ciudad?.acf?.enlace_resenas} target="_blank">
+                    <a
+                      href={ciudad?.acf?.info_grupo?.enlace_resenas}
+                      target="_blank"
+                    >
                       Ver reseñas
                     </a>
                   </span>
@@ -74,7 +77,10 @@ const SeccionUno = ({ ciudad, tiendaGoogle }) => {
             </div>
           </div>
           <div className={styles.verResenas}>
-            <a href={ciudad?.acf?.escribir_resenas_landings} target="_blank">
+            <a
+              href={ciudad?.acf?.info_grupo?.escribir_resenas_landings}
+              target="_blank"
+            >
               Déjanos tu opinion
             </a>
           </div>
