@@ -103,6 +103,10 @@ export default function Tienda({ menu_list, ciudad, tiendaGoogle, general }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumb) }}
         ></script>
         {ciudad?.acf?.info_grupo?.nonscript_chat}
+        <meta
+          name="keywords"
+          content="compro oro,compro oro alcala de henares,precio del oro,vender oro,precio oro"
+        ></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href={ciudad?.acf?.info_grupo?.canonical} />
       </Head>

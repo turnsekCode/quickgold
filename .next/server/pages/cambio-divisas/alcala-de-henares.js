@@ -562,6 +562,10 @@ function Plazadeespana2locala8({ menu_list , ciudad , tiendaGoogle , general  })
                     }),
                     ciudad?.acf?.info_grupo?.nonscript_chat,
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                        name: "keywords",
+                        content: "cambio de divisas,cambio de divisas alcala de henares,cambio divisas,money exchange,precio dolar"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         name: "viewport",
                         content: "width=device-width, initial-scale=1"
                     }),

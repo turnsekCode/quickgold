@@ -669,6 +669,10 @@ function Tienda({ menu_list , ciudad , tiendaGoogle , general  }) {
                     }),
                     ciudad?.acf?.info_grupo?.nonscript_chat,
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                        name: "keywords",
+                        content: "compro oro,compro oro alcala de henares,precio del oro,vender oro,precio oro"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         name: "viewport",
                         content: "width=device-width, initial-scale=1"
                     }),

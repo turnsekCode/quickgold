@@ -109,6 +109,10 @@ export default function Plazadeespana2locala8({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumb) }}
         ></script>
         {ciudad?.acf?.info_grupo?.nonscript_chat}
+        <meta
+          name="keywords"
+          content="cambio de divisas,cambio de divisas alcala de henares,cambio divisas,money exchange,precio dolar"
+        ></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href={ciudad?.acf?.canonical} />
       </Head>
