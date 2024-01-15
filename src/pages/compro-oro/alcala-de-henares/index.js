@@ -7,19 +7,13 @@ import BannerWallapop from "@/componentes/BannerWallapop/BannerWallapop";
 import Layout from "@/componentes/Layout/Layout";
 import SeccionUno from "@/componentes/ComponentesTiendaIndividualOro/SeccionUno/SeccionUno";
 import SeccionTres from "@/componentes/ComponentesTiendaIndividualOro/SeccionTres/SeccionTres";
-import BannerPromoTiendas from "@/componentes/BannerPromoTiendas/BannerPromoTiendas.js";
-import BannerPromoGeneral from "@/componentes/BannerGeneral/BannerPromoGeneral";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import Script from "next/script.js";
 import Breadcrumbs from "@/componentes/BreadcrumbsServicioTienda/Breadcrumbs";
 import SeccionDos from "@/componentes/ComponentesTiendaIndividualOro/seccionDos/SeccionDos";
+import BotonesOtrosServicios from "@/componentes/BotonesOtrosServicios/BotonesOtrosServicios";
 
-export default function Plazadeespana2locala8({
-  menu_list,
-  ciudad,
-  tiendaGoogle,
-  general,
-}) {
+export default function Tienda({ menu_list, ciudad, tiendaGoogle, general }) {
   const breadCrumb = {
     "@context": "https://schema.org/",
     "@type": "BreadcrumbList",
@@ -33,7 +27,7 @@ export default function Plazadeespana2locala8({
       {
         "@type": "ListItem",
         position: 2,
-        name: "Tiendas",
+        name: "Compra de oro",
         item: "https://quickgold.es/compro-oro",
       },
       {
@@ -120,35 +114,37 @@ export default function Plazadeespana2locala8({
           <Breadcrumbs
             raiz="Quickgold"
             tiendas="Compro oro"
-            urlNombreCiudad="https://quickgold.es/compro-oro/alcala-de-henares"
-            urlNombreTienda="https://quickgold.es/compro-oro/alcala-de-henares"
-            //nombreTienda={ciudad?.acf?.ciudad_landing}
             urlNombreServicio="/compro-oro"
             ubicacionActual={ciudad?.acf?.info_grupo?.nombre_tienda}
             iconoRaiz={<KeyboardArrowRightIcon />}
             iconoTiendas={<KeyboardArrowRightIcon />}
-            //iconotiendasDos={<KeyboardArrowRightIcon />}
-            //iconoUbiccionActual={<KeyboardArrowRightIcon />}
           />
           <SeccionUno ciudad={ciudad} tiendaGoogle={tiendaGoogle} />
-          {ciudad?.acf?.activar_banner_en_tiendas_y_ciudad &&
-          general?.acf?.activar_promo_general ? (
-            <BannerPromoTiendas ciudad={ciudad} />
-          ) : null}
-          {ciudad?.acf?.activar_banner_en_tiendas_y_ciudad == false &&
-          general?.acf?.activar_promo_general ? (
-            <BannerPromoGeneral general={general} />
-          ) : null}
-          {general?.acf?.activar_promo_general == false &&
-          ciudad?.acf?.activar_banner_en_tiendas_y_ciudad ? (
-            <BannerPromoTiendas ciudad={ciudad} />
-          ) : null}
           <div className={styles.contenedorSeccionUnoDos}>
             <SeccionDos ciudad={ciudad} />
             <SeccionTres ciudad={ciudad} tiendaGoogle={tiendaGoogle} />
           </div>
         </div>
-
+        <BotonesOtrosServicios
+          ciudad={ciudad}
+          urlServicio1="/cambio-divisas/alcala-de-henares"
+          urlServicio2="/compro-plata/alcala-de-henares"
+          urlServicio3="/empeno-de-joyas/alcala-de-henares"
+          urlServicio4="/invertir-en-oro/alcala-de-henares"
+          tituloBoton1="Cambio de divisa"
+          tituloBoton2="Precio de la plata"
+          tituloBoton3="Empeño de joyas"
+          tituloBoton4="Invertir en oro"
+          textoServicio1=" Somos la casa de cambio preferida por miles de personas al año en
+          Alcalá de Henares. Cambiar divisa en Quickgold siempre es sin
+          comisiones y, fácil y rápido."
+          textoServicio2=" Compramos plata al mejor precio: joyas, cuberterías, etc. Somos los
+          líderes en la compra de joyas en Alcalá de Henares."
+          textoServicio3=" Nuestros empeños sin interés el primer mes hacen que empeñar oro sea
+          mucho más cómodo y fácil para nuestros clientes."
+          textoServicio4="Venta de lingotes de oro con las mejores condiciones. El oro, como
+          valor refugio está claramente por encima de otro tipo de inversiones."
+        />
         {ciudad?.acf?.info_grupo?.tienda === "" ? (
           <BotonLamarFijo ciudad={ciudad} />
         ) : (

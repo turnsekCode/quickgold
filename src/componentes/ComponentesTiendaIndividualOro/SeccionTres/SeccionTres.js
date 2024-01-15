@@ -44,7 +44,7 @@ const SeccionTres = ({ tiendaGoogle, ciudad }) => {
                 title="Escribir WhatsApp"
                 className={styles.WhatsAppIcon}
                 target="_blank"
-                href={`https://wa.me/${(ciudad?.acf?.info_grupo?.mobile).replace(
+                href={`https://wa.me/${ciudad?.acf?.info_grupo?.mobile?.replace(
                   /\s+/g,
                   ""
                 )}`}

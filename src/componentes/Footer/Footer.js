@@ -28,8 +28,8 @@ const Footer = () => {
             <h3>servicios</h3>
             <ul>
               <li>
-                <a title="Ir a compro oro" href="/compro-oro">
-                  Compra de oro
+                <a title="Ir a compra de oro" href="/vender-oro">
+                  Vender oro
                 </a>
               </li>
               <li>

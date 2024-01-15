@@ -618,9 +618,9 @@ const Footer = ()=>{
                                     children: [
                                         /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                             children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                title: "Ir a compro oro",
-                                                href: "/compro-oro",
-                                                children: "Compra de oro"
+                                                title: "Ir a compra de oro",
+                                                href: "/vender-oro",
+                                                children: "Vender oro"
                                             })
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("li", {

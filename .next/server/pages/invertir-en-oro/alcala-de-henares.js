@@ -252,7 +252,6 @@ __webpack_async_result__();
 
 //import FsLightbox from "fslightbox-react";
 const SeccionUno = ({ ciudad , tiendaGoogle  })=>{
-    console.log(ciudad);
     //const [toggler, setToggler] = useState(false);
     const tienda = tiendaGoogle?.result?.rating;
     if (tienda?.estrellas > 4.7) {
@@ -468,7 +467,7 @@ function Plazadeespana2locala8({ menu_list , ciudad , tiendaGoogle , general  })
             {
                 "@type": "ListItem",
                 position: 2,
-                name: "Tiendas",
+                name: "Oro de inversi\xf3n",
                 item: "https://quickgold.es/invertir-en-oro"
             },
             {
@@ -910,7 +909,7 @@ module.exports = import("react-intersection-observer");;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,9317,2060,5251,5439,3683], () => (__webpack_exec__(3853)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,9317,4571,931,5251,5439,3683], () => (__webpack_exec__(3853)));
 module.exports = __webpack_exports__;
 
 })();

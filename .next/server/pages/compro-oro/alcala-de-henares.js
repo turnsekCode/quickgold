@@ -4,6 +4,17 @@ exports.id = 664;
 exports.ids = [664];
 exports.modules = {
 
+/***/ 883:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"contenedorSeccionCuatro": "seccionCuatro_contenedorSeccionCuatro__uaHsa"
+};
+
+
+/***/ }),
+
 /***/ 8188:
 /***/ ((module) => {
 
@@ -83,6 +94,88 @@ module.exports = {
 	"contenedorBannerVisible": "Home_contenedorBannerVisible__opy6k",
 	"contenedorSecciones": "Home_contenedorSecciones__bMVep"
 };
+
+
+/***/ }),
+
+/***/ 9864:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _seccionCuatro_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(883);
+/* harmony import */ var _seccionCuatro_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_seccionCuatro_module_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1664);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+
+const SeccionCuatro = ({ ciudad , urlServicio1 , urlServicio2 , urlServicio3 , urlServicio4 , tituloBoton1 , tituloBoton2 , tituloBoton3 , tituloBoton4 , textoServicio1 , textoServicio2 , textoServicio3 , textoServicio4  })=>{
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
+        className: (_seccionCuatro_module_css__WEBPACK_IMPORTED_MODULE_3___default().contenedorSeccionCuatro),
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                children: "Otros servicios en nuestra tienda"
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("article", {
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
+                        href: urlServicio1,
+                        title: "",
+                        children: tituloBoton1
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        children: textoServicio1
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("article", {
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
+                        href: urlServicio2,
+                        title: "",
+                        children: tituloBoton2
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        children: textoServicio2
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("article", {
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
+                        href: urlServicio3,
+                        title: "",
+                        children: tituloBoton3
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        children: textoServicio3
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("article", {
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
+                        href: urlServicio4,
+                        title: "",
+                        children: tituloBoton4
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        children: textoServicio4
+                    })
+                ]
+            })
+        ]
+    });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SeccionCuatro);
 
 
 /***/ }),
@@ -170,7 +263,7 @@ const SeccionTres = ({ tiendaGoogle , ciudad  })=>{
                                                 title: "Escribir WhatsApp",
                                                 className: (_seccionTres_module_css__WEBPACK_IMPORTED_MODULE_6___default().WhatsAppIcon),
                                                 target: "_blank",
-                                                href: `https://wa.me/${(ciudad?.acf?.info_grupo?.mobile).replace(/\s+/g, "")}`,
+                                                href: `https://wa.me/${ciudad?.acf?.info_grupo?.mobile?.replace(/\s+/g, "")}`,
                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_WhatsApp__WEBPACK_IMPORTED_MODULE_3___default()), {})
                                             })
                                         ]
@@ -437,15 +530,15 @@ const SeccionDos = ({ ciudad  })=>{
 __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Plazadeespana2locala8),
+/* harmony export */   "default": () => (/* binding */ Tienda),
 /* harmony export */   "getStaticProps": () => (/* binding */ getStaticProps)
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(968);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(8874);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(8874);
+/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_14__);
 /* harmony import */ var _bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4579);
 /* harmony import */ var _bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_bradgarropy_next_seo__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _componentes_BotonLlamarFijo_BotonLamarFijo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7186);
@@ -454,14 +547,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _componentes_Layout_Layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(7699);
 /* harmony import */ var _componentes_ComponentesTiendaIndividualOro_SeccionUno_SeccionUno__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(3402);
 /* harmony import */ var _componentes_ComponentesTiendaIndividualOro_SeccionTres_SeccionTres__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(3521);
-/* harmony import */ var _componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(2810);
-/* harmony import */ var _componentes_BannerGeneral_BannerPromoGeneral__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(7967);
-/* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(547);
-/* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var next_script_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(3159);
-/* harmony import */ var next_script_js__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_script_js__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _componentes_BreadcrumbsServicioTienda_Breadcrumbs__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(3683);
-/* harmony import */ var _componentes_ComponentesTiendaIndividualOro_seccionDos_SeccionDos__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(2727);
+/* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(547);
+/* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var next_script_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(3159);
+/* harmony import */ var next_script_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_script_js__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _componentes_BreadcrumbsServicioTienda_Breadcrumbs__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(3683);
+/* harmony import */ var _componentes_ComponentesTiendaIndividualOro_seccionDos_SeccionDos__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(2727);
+/* harmony import */ var _componentes_BotonesOtrosServicios_BotonesOtrosServicios__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(9864);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_componentes_ComponentesTiendaIndividualOro_SeccionTres_SeccionTres__WEBPACK_IMPORTED_MODULE_8__]);
 _componentes_ComponentesTiendaIndividualOro_SeccionTres_SeccionTres__WEBPACK_IMPORTED_MODULE_8__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -479,8 +571,7 @@ _componentes_ComponentesTiendaIndividualOro_SeccionTres_SeccionTres__WEBPACK_IMP
 
 
 
-
-function Plazadeespana2locala8({ menu_list , ciudad , tiendaGoogle , general  }) {
+function Tienda({ menu_list , ciudad , tiendaGoogle , general  }) {
     const breadCrumb = {
         "@context": "https://schema.org/",
         "@type": "BreadcrumbList",
@@ -494,7 +585,7 @@ function Plazadeespana2locala8({ menu_list , ciudad , tiendaGoogle , general  })
             {
                 "@type": "ListItem",
                 position: 2,
-                name: "Tiendas",
+                name: "Compra de oro",
                 item: "https://quickgold.es/compro-oro"
             },
             {
@@ -587,7 +678,7 @@ function Plazadeespana2locala8({ menu_list , ciudad , tiendaGoogle , general  })
                     })
                 ]
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_script_js__WEBPACK_IMPORTED_MODULE_12___default()), {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_script_js__WEBPACK_IMPORTED_MODULE_10___default()), {
                 id: "livechat",
                 property: "lazyOnload",
                 children: ciudad?.acf?.info_grupo?.script_chat
@@ -597,36 +688,24 @@ function Plazadeespana2locala8({ menu_list , ciudad , tiendaGoogle , general  })
                 ciudad: ciudad,
                 children: [
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15___default().main),
+                        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_14___default().main),
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BreadcrumbsServicioTienda_Breadcrumbs__WEBPACK_IMPORTED_MODULE_13__/* ["default"] */ .Z, {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BreadcrumbsServicioTienda_Breadcrumbs__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {
                                 raiz: "Quickgold",
                                 tiendas: "Compro oro",
-                                urlNombreCiudad: "https://quickgold.es/compro-oro/alcala-de-henares",
-                                urlNombreTienda: "https://quickgold.es/compro-oro/alcala-de-henares",
-                                //nombreTienda={ciudad?.acf?.ciudad_landing}
                                 urlNombreServicio: "/compro-oro",
                                 ubicacionActual: ciudad?.acf?.info_grupo?.nombre_tienda,
-                                iconoRaiz: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_11___default()), {}),
-                                iconoTiendas: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_11___default()), {})
+                                iconoRaiz: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_9___default()), {}),
+                                iconoTiendas: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_9___default()), {})
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesTiendaIndividualOro_SeccionUno_SeccionUno__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {
                                 ciudad: ciudad,
                                 tiendaGoogle: tiendaGoogle
                             }),
-                            ciudad?.acf?.activar_banner_en_tiendas_y_ciudad && general?.acf?.activar_promo_general ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z, {
-                                ciudad: ciudad
-                            }) : null,
-                            ciudad?.acf?.activar_banner_en_tiendas_y_ciudad == false && general?.acf?.activar_promo_general ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerGeneral_BannerPromoGeneral__WEBPACK_IMPORTED_MODULE_10__/* ["default"] */ .Z, {
-                                general: general
-                            }) : null,
-                            general?.acf?.activar_promo_general == false && ciudad?.acf?.activar_banner_en_tiendas_y_ciudad ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z, {
-                                ciudad: ciudad
-                            }) : null,
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_15___default().contenedorSeccionUnoDos),
+                                className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_14___default().contenedorSeccionUnoDos),
                                 children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesTiendaIndividualOro_seccionDos_SeccionDos__WEBPACK_IMPORTED_MODULE_14__/* ["default"] */ .Z, {
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesTiendaIndividualOro_seccionDos_SeccionDos__WEBPACK_IMPORTED_MODULE_12__/* ["default"] */ .Z, {
                                         ciudad: ciudad
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesTiendaIndividualOro_SeccionTres_SeccionTres__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
@@ -636,6 +715,21 @@ function Plazadeespana2locala8({ menu_list , ciudad , tiendaGoogle , general  })
                                 ]
                             })
                         ]
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BotonesOtrosServicios_BotonesOtrosServicios__WEBPACK_IMPORTED_MODULE_13__/* ["default"] */ .Z, {
+                        ciudad: ciudad,
+                        urlServicio1: "/cambio-divisas/alcala-de-henares",
+                        urlServicio2: "/compro-plata/alcala-de-henares",
+                        urlServicio3: "/empeno-de-joyas/alcala-de-henares",
+                        urlServicio4: "/invertir-en-oro/alcala-de-henares",
+                        tituloBoton1: "Cambio de divisa",
+                        tituloBoton2: "Precio de la plata",
+                        tituloBoton3: "Empe\xf1o de joyas",
+                        tituloBoton4: "Invertir en oro",
+                        textoServicio1: " Somos la casa de cambio preferida por miles de personas al a\xf1o en Alcal\xe1 de Henares. Cambiar divisa en Quickgold siempre es sin comisiones y, f\xe1cil y r\xe1pido.",
+                        textoServicio2: " Compramos plata al mejor precio: joyas, cuberter\xedas, etc. Somos los l\xedderes en la compra de joyas en Alcal\xe1 de Henares.",
+                        textoServicio3: " Nuestros empe\xf1os sin inter\xe9s el primer mes hacen que empe\xf1ar oro sea mucho m\xe1s c\xf3modo y f\xe1cil para nuestros clientes.",
+                        textoServicio4: "Venta de lingotes de oro con las mejores condiciones. El oro, como valor refugio est\xe1 claramente por encima de otro tipo de inversiones."
                     }),
                     ciudad?.acf?.info_grupo?.tienda === "" ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BotonLlamarFijo_BotonLamarFijo__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
                         ciudad: ciudad
@@ -828,11 +922,27 @@ module.exports = require("next/dist/shared/lib/amp-mode.js");
 
 /***/ }),
 
+/***/ 3280:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/app-router-context.js");
+
+/***/ }),
+
 /***/ 2796:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/head-manager-context.js");
+
+/***/ }),
+
+/***/ 4014:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/i18n/normalize-locale-path.js");
 
 /***/ }),
 
@@ -868,11 +978,179 @@ module.exports = require("next/dist/shared/lib/image-loader");
 
 /***/ }),
 
+/***/ 8524:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/is-plain-object.js");
+
+/***/ }),
+
+/***/ 8020:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/mitt.js");
+
+/***/ }),
+
+/***/ 4406:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/page-path/denormalize-page-path.js");
+
+/***/ }),
+
+/***/ 4964:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router-context.js");
+
+/***/ }),
+
+/***/ 1751:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix.js");
+
+/***/ }),
+
+/***/ 6220:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/compare-states.js");
+
+/***/ }),
+
+/***/ 299:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/format-next-pathname-info.js");
+
+/***/ }),
+
+/***/ 3938:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/format-url.js");
+
+/***/ }),
+
+/***/ 9565:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/get-asset-path-from-route.js");
+
+/***/ }),
+
+/***/ 5789:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/get-next-pathname-info.js");
+
+/***/ }),
+
+/***/ 1897:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-bot.js");
+
+/***/ }),
+
+/***/ 1428:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-dynamic.js");
+
+/***/ }),
+
+/***/ 8854:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/parse-path.js");
+
+/***/ }),
+
+/***/ 1292:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/parse-relative-url.js");
+
+/***/ }),
+
+/***/ 4567:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/path-has-prefix.js");
+
+/***/ }),
+
+/***/ 979:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/querystring.js");
+
+/***/ }),
+
+/***/ 3297:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slash.js");
+
+/***/ }),
+
+/***/ 6052:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/resolve-rewrites.js");
+
+/***/ }),
+
+/***/ 4226:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/route-matcher.js");
+
+/***/ }),
+
+/***/ 5052:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/route-regex.js");
+
+/***/ }),
+
 /***/ 2470:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/side-effect.js");
+
+/***/ }),
+
+/***/ 9232:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils.js");
 
 /***/ }),
 
@@ -908,6 +1186,14 @@ module.exports = require("react");
 
 /***/ }),
 
+/***/ 6405:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-dom");
+
+/***/ }),
+
 /***/ 5337:
 /***/ ((module) => {
 
@@ -939,7 +1225,7 @@ module.exports = import("react-intersection-observer");;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,2060,7741,5197,5439,3683], () => (__webpack_exec__(1373)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,3573,676,1664,7699,4571,7741,5197,5439,3683], () => (__webpack_exec__(1373)));
 module.exports = __webpack_exports__;
 
 })();

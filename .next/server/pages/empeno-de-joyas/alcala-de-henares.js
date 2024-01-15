@@ -487,7 +487,7 @@ function Plazadeespana2locala8({ menu_list , ciudad , tiendaGoogle , general  })
             {
                 "@type": "ListItem",
                 position: 2,
-                name: "Tiendas",
+                name: "Empe\xf1ar oro",
                 item: "https://quickgold.es/empeno-de-joyas"
             },
             {
@@ -929,7 +929,7 @@ module.exports = import("react-intersection-observer");;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,2060,7821,5439,3683], () => (__webpack_exec__(7160)));
+var __webpack_exports__ = __webpack_require__.X(0, [3121,5675,7699,4571,931,7821,5439,3683], () => (__webpack_exec__(7160)));
 module.exports = __webpack_exports__;
 
 })();

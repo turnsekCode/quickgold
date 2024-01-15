@@ -127,7 +127,7 @@
         position: absolute;
         display: block;
         height: 5px;
-        transform: translateY(150%);
+        transform: translateY(100%);
     }
     .linea:before {
         left: 2px;
@@ -140,7 +140,7 @@
     .bloqueIzq h1 {
         font-style: normal;
         font-weight: 800;
-        font-size: 60px;
+        font-size: 45px;
         line-height: 60px;
         color: #213E58;
         width: 90%;

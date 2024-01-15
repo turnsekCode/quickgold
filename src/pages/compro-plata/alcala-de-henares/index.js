@@ -33,7 +33,7 @@ export default function Plazadeespana2locala8({
       {
         "@type": "ListItem",
         position: 2,
-        name: "Tiendas",
+        name: "Compra de plata",
         item: "https://quickgold.es/compro-plata",
       },
       {
