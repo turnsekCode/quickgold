@@ -67,6 +67,7 @@ export default function AlcalaDeHenares({
       />
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="noindex"></meta>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumb) }}

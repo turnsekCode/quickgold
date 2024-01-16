@@ -109,6 +109,10 @@ function AlcalaDeHenares({ markers , menu_list , ciudad , general  }) {
                         name: "viewport",
                         content: "width=device-width, initial-scale=1"
                     }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                        name: "robots",
+                        content: "noindex"
+                    }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("script", {
                         type: "application/ld+json",
                         dangerouslySetInnerHTML: {
