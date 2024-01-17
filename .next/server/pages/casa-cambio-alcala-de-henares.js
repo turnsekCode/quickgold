@@ -129,6 +129,10 @@ function CasaCambioValencia({ markers , menu_list , ciudad , general  }) {
                         href: "https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css",
                         as: "style"
                     }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                        name: "robots",
+                        content: "noindex"
+                    }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                         rel: "canonical",
                         href: ciudad?.acf?.canonical

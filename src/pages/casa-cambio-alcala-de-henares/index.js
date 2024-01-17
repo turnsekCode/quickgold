@@ -84,6 +84,7 @@ export default function CasaCambioValencia({
           href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
           as="style"
         ></link>
+        <meta name="robots" content="noindex"></meta>
         <link rel="canonical" href={ciudad?.acf?.canonical} />
       </Head>
       <Layout menu_list={menu_list} ciudad={ciudad}>
