@@ -186,7 +186,7 @@ export default function MapaAlcaladehenares({ alcaladehenares }) {
                   anchor={null}
                   onClose={() => setShowPopup(false)}
                 >
-                  <div className={styles.contenedor_popuop}>
+                  <div className={styles.contenedor_popup}>
                     <p className={styles.nombre_ciudad_popup}>
                       {showInfo.nombreTienda}
                     </p>
@@ -252,6 +252,22 @@ export default function MapaAlcaladehenares({ alcaladehenares }) {
                         className={styles.boton_servicios}
                       >
                         Empeños
+                      </Link>
+                      <Link
+                        title="Cómo llegar"
+                        href="/invertir-en-oro/alcala-de-henares"
+                        rel="noreferrer"
+                        className={styles.boton_servicios}
+                      >
+                        Invertir en oro
+                      </Link>
+                      <Link
+                        title="Cómo llegar"
+                        href="/compro-plata/alcala-de-henares"
+                        rel="noreferrer"
+                        className={styles.boton_servicios}
+                      >
+                        Compro plata
                       </Link>
                     </div>
                     {/* <a

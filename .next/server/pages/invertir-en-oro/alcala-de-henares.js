@@ -553,10 +553,6 @@ function Plazadeespana2locala8({ menu_list , ciudad , tiendaGoogle , general  })
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         name: "viewport",
                         content: "width=device-width, initial-scale=1"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                        rel: "canonical",
-                        href: ciudad?.acf?.canonical
                     })
                 ]
             }),

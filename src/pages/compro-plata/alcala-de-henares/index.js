@@ -110,7 +110,6 @@ export default function Plazadeespana2locala8({
         ></script>
         {ciudad?.acf?.info_grupo?.nonscript_chat}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href={ciudad?.acf?.canonical} />
       </Head>
       <Script id="livechat" property="lazyOnload">
         {ciudad?.acf?.info_grupo?.script_chat}

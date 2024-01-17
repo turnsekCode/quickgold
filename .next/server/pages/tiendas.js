@@ -66,7 +66,9 @@ module.exports = {
 	"boton_servicios": "mapa_boton_servicios__OlRYT",
 	"contenedorInfoTiendaMapa": "mapa_contenedorInfoTiendaMapa__jCQ8I",
 	"contenedorInfoTiendaMapaActivo": "mapa_contenedorInfoTiendaMapaActivo__Yatjb",
-	"contenedorBotones": "mapa_contenedorBotones__Gkvkl"
+	"contenedorBotones": "mapa_contenedorBotones__Gkvkl",
+	"contenedor_popup": "mapa_contenedor_popup__CwiBj",
+	"contenedorBotonesServicios": "mapa_contenedorBotonesServicios__EpQeH"
 };
 
 
@@ -1086,7 +1088,7 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
                                     anchor: null,
                                     onClose: ()=>setShowPopup(false),
                                     children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: (mapa_module_default()).contenedor_popuop,
+                                        className: (mapa_module_default()).contenedor_popup,
                                         children: [
                                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                                 className: (mapa_module_default()).nombre_ciudad_popup,
@@ -1156,6 +1158,20 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
                                                         rel: "noreferrer",
                                                         className: (mapa_module_default()).boton_servicios,
                                                         children: "Empe\xf1os"
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                                        title: "C\xf3mo llegar",
+                                                        href: "/invertir-en-oro/alcala-de-henares",
+                                                        rel: "noreferrer",
+                                                        className: (mapa_module_default()).boton_servicios,
+                                                        children: "Invertir en oro"
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                                        title: "C\xf3mo llegar",
+                                                        href: "/compro-plata/alcala-de-henares",
+                                                        rel: "noreferrer",
+                                                        className: (mapa_module_default()).boton_servicios,
+                                                        children: "Compro plata"
                                                     })
                                                 ]
                                             })
