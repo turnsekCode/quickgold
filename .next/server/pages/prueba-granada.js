@@ -162,17 +162,26 @@ function Granada({ menu_list , ciudad , tiendaGoogle , general  }) {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("script", {
                         type: "text/javascript",
-                        children: `(function(d, t) {
-      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-      v.onload = function() {
-        window.voiceflow.chat.load({
-          verify: { projectID: '6579657eb14e715c031d33a8' },
-          url: 'https://general-runtime.voiceflow.com',
-          versionID: 'production'
-        });
-      }
-      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-  })(document, 'script');`
+                        children: ` (function (d, t) {
+      var v = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+      v.onload = function () {
+        window.voiceflow.chat
+          .load({
+            verify: { projectID: "6579657eb14e715c031d33a8" },
+            url: "https://general-runtime.voiceflow.com",
+            versionID: "production",
+          })
+          .then(() => {
+            setTimeout(function () {
+              window.voiceflow.chat.open();
+            }, 1000);
+          });
+      };
+      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
+      v.type = "text/javascript";
+      s.parentNode.insertBefore(v, s);
+    })(document, "script");`
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         name: "viewport",

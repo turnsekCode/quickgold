@@ -112,17 +112,26 @@ export default function Granada({ menu_list, ciudad, tiendaGoogle, general }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumb) }}
         ></script>
         <script type="text/javascript">
-          {`(function(d, t) {
-      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-      v.onload = function() {
-        window.voiceflow.chat.load({
-          verify: { projectID: '6579657eb14e715c031d33a8' },
-          url: 'https://general-runtime.voiceflow.com',
-          versionID: 'production'
-        });
-      }
-      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-  })(document, 'script');`}
+          {` (function (d, t) {
+      var v = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+      v.onload = function () {
+        window.voiceflow.chat
+          .load({
+            verify: { projectID: "6579657eb14e715c031d33a8" },
+            url: "https://general-runtime.voiceflow.com",
+            versionID: "production",
+          })
+          .then(() => {
+            setTimeout(function () {
+              window.voiceflow.chat.open();
+            }, 1000);
+          });
+      };
+      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
+      v.type = "text/javascript";
+      s.parentNode.insertBefore(v, s);
+    })(document, "script");`}
         </script>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href={ciudad?.acf?.canonical} />
