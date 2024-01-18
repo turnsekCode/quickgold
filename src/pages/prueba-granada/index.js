@@ -112,7 +112,7 @@ export default function Granada({ menu_list, ciudad, tiendaGoogle, general }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumb) }}
         ></script>
         <script type="text/javascript">
-          {` (function (d, t) {
+          {`(function (d, t) {
       var v = d.createElement(t),
         s = d.getElementsByTagName(t)[0];
       v.onload = function () {
@@ -126,7 +126,20 @@ export default function Granada({ menu_list, ciudad, tiendaGoogle, general }) {
             setTimeout(function () {
               window.voiceflow.chat.open();
             }, 1000);
-          });
+          })
+          .then(() => {
+            window.voiceflow.chat.proactive.push({
+              type: "text",
+              payload: { message: "¡Que gusto verte por aqui! 👋🏼" },
+            });
+            window.voiceflow.chat.proactive.push({
+              type: "text",
+              payload: {
+                message:
+                  "Puedes consultar conmigo cualquier duda que tengas 😄",
+              },
+            });
+          });;
       };
       v.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
       v.type = "text/javascript";
